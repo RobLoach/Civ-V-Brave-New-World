@@ -88,6 +88,30 @@
         "resourceType": "Strategic",
         "uniques": ["Stockpiled"]
     },
+    {
+        "name": "Great Work of Writing Slot",
+        "resourceType": "Strategic",
+        "uniques": [
+			"Cannot be traded",
+			"Not shown on world screen"
+		]
+    },
+    {
+        "name": "Great Work of Art Slot",
+        "resourceType": "Strategic",
+        "uniques": [
+			"Cannot be traded",
+			"Not shown on world screen"
+		]
+    },
+    {
+        "name": "Great Work of Music Slot",
+        "resourceType": "Strategic",
+        "uniques": [
+			"Cannot be traded",
+			"Not shown on world screen"
+		]
+    },
 	{
 		"name": "Tourism",
 		"resourceType": "Strategic",

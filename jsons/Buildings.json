@@ -1,5 +1,19 @@
 [
 	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": [
+			"Indicates the capital city",
+			"Provides [1] [Great Work of Art Slot]"
+		]
+	},
+	{
 		"name": "Airport",
 		"cost": 400,
 		"maintenance": 5,
@@ -72,10 +86,38 @@
 		"uniqueTo": "Assyria",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["[+1 Science] per [2] population [in this city]","New [Military] units start with [10] XP [in this city]"],
+		"uniques": [
+			"Provides [1] [Great Work of Writing Slot]",
+			"[+1 Science] per [2] population [in this city]",
+			"New [Military] units start with [10] XP [in this city]"
+		],
 		"requiredTech": "Writing"
 	},
-	   {
+	{
+		"name": "Amphitheater",
+		"culture": 1,
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Destroyed when the city is captured",
+			"Provides [1] [Great Work of Writing Slot]"
+		],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Cathedral",
+		"cost": 200,
+		"faith": 1,
+		"culture": 1,
+		"happiness": 1,
+		"uniques": [
+			"Unbuildable",
+			"Only available <when religion is enabled>",
+			"Provides [1] [Great Work of Art Slot]"
+		]
+	},
+	{
         "name": "Ducal Stable",
         "replaces": "Stable",
         "uniqueTo": "Poland",
@@ -169,10 +211,23 @@
 		"culture": 2,
 		"isWonder": true,
 		"uniques": [
-			"[1] free [Great Musician] units appear"
-			// TODO: Contains 3 slots for Great Works of Music
+			"[1] free [Great Musician] units appear",
+			"Provides [3] [Great Work of Music Slot]"
 		],
 		"requiredTech": "Radio"
+	},
+	{
+		"name": "Sydney Opera House",
+		"isWonder": true,
+		"cost": 1250,
+		"percentStatBonus": {"culture": 50},
+		"uniques": [
+			"Free Social Policy",
+			"Provides [2] [Great Work of Music Slot]",
+			"Must be next to [Coast]"
+		],
+		"requiredTech": "Ecology",
+		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
 	},
 	{
 		"name": "Globe Theatre",
@@ -180,10 +235,11 @@
 		"culture": 2,
 		"isWonder": true,
 		"uniques": [
-			"[1] free [Great Writer] units appear"
-			// TODO: Contains 2 slots for Great Works of Writing
+			"[1] free [Great Writer] units appear",
+			"Provides [2] [Great Work of Writing Slot]"
 		],
-		"requiredTech": "Printing Press"
+		"requiredTech": "Printing Press",
+		"quote": "'Totus mundus agit histrionem' - Inscription above main entrance to the Globe Theatre"
 	},
 	{
 		"name": "Great Mosque of Djenne",
@@ -228,12 +284,13 @@
 	},
 	{
 		"name": "The Louvre",
-		"culture": 1,
-		"happiness": 4,
+		"cost": 750,
+		"culture": 2,
 		"isWonder": true,
 		"uniques": [
-			"[2] free [Great Artist] units appear",
-			"Only available <after adopting [Exploration]>"
+			"[1] free [Great Artist] units appear",
+			"Only available <after adopting [Exploration]>",
+			"Provides [4] [Great Work of Art Slot]"
 		],
 		"requiredTech": "Archaeology",
 		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
@@ -370,8 +427,8 @@
         "isWonder": true,
         "uniques": [
 			"Free [Great Artist] appears",
-			"Only available <after adopting [Aesthetics]>"
-			// TODO: Contains 3 slots for Great Works of Art which provide +3 theming bonus, if you fill the slots with Great Works of Art from the same civilization and the same era.
+			"Only available <after adopting [Aesthetics]>",
+			"Provides [3] [Great Work of Art Slot]"
 		],
         "requiredTech": "Architecture",
         "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.'  - Marcel Parquet"
@@ -396,10 +453,24 @@
         "culture": 4,
         "isWonder": true,
 		"uniques": [
-			// TODO: Contains a prebuilt Great Work of Art in the Great Work Slot.
+			"Provides [1] [Great Work of Art Slot]",
+			"Instantly provides [1] [Great Work of Art]"
 		],
         "requiredTech": "Drama and Poetry",
     },
+	{
+		"name": "Sistine Chapel",
+		"cost": 500,
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": [
+			"[+25]% [Culture] [in all cities]",
+			"Provides [2] [Great Work of Art Slot]"
+		],
+		"requiredTech": "Acoustics",
+		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
+	},
 	{
         "name": "International Space Station",
 		"cost": 1600,
@@ -430,11 +501,109 @@
         "requiredTech": "Archaeology",
 		"requiredBuilding": "Opera House",
 		"uniques": [
-			// TODO: Contains 2 slots for Great Works of Art
 			"Destroyed when the city is captured",
-			"Double quantity of [Tourism] produced <in [Capital] cities> <for [France] Civilizations>"
+			"Double quantity of [Tourism] produced <in [Capital] cities> <for [France] Civilizations>",
+			"Provides [2] [Great Work of Art Slot]"
 		]
     },
+	{
+        "name": "Opera House",
+		"cost": 200,
+		"maintenance": 1,
+        "culture": 1,
+        "requiredTech": "Acoustics",
+		"requiredBuilding": "Amphitheater",
+		"uniques": [
+			"Destroyed when the city is captured",
+			"Provides [1] [Great Work of Music Slot]"
+		]
+    },
+	{
+		"name": "Ceilidh Hall",
+		"replaces": "Opera House",
+		"uniqueTo": "Celts",
+		"culture": 1,
+		"happiness": 3,
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 1,
+		"requiredTech": "Acoustics",
+		"uniques": [
+			"Destroyed when the city is captured",
+			"Provides [1] [Great Work of Music Slot]"
+		]
+	},
+	{
+		"name": "Broadcast Tower",
+		"cost": 500,
+		"culture": 1,
+		"percentStatBonus": {"culture": 33},
+		"requiredBuilding": "Museum",
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"uniques": [
+			"Destroyed when the city is captured",
+			"Provides [1] [Great Work of Music Slot]"
+			// TODO: +34% Tourism Tourism in this city with Media Culture Freedom tenet
+		]
+	},
+	{
+		"name": "National Epic",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
+			"[+25]% Great Person generation [in this city]",
+			"Cost increases by [30] per owned city",
+			"Provides [1] [Great Work of Writing Slot]"
+		],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Heroic Epic",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
+			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
+			"Cost increases by [30] per owned city",
+			"Provides [1] [Great Work of Writing Slot]"
+			// TODO: +1 Happiness with Universal Healthcare tenet (any Ideology)
+		],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "The Great Library",
+		"cost": 185,
+		"science": 3,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"requiredTech": "Writing",
+		"uniques": [
+			"Free Technology",
+			"Gain a free [Library] [in this city]",
+			"Provides [2] [Great Work of Writing Slot]"
+		],
+		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+	},
+	{
+		"name": "Oxford University",
+		"cost": 125,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+			"Only available <if [University] is constructed in all [non-[Puppeted]] cities>",
+			"Free Technology",
+			"Cost increases by [30] per owned city",
+			"Provides [2] [Great Work of Writing Slot]"
+			// TODO: +1 Happiness with Universal Healthcare tenet (any Ideology)
+		],
+		"requiredTech": "Education"
+	},
 	{
 		"name": "Hermitage",
 		"cost": 125,
@@ -444,8 +613,60 @@
 		"uniques": [
 			"Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
-			"Provides [5] [Tourism] <after adopting [Religious Art]>"
+			"Provides [5] [Tourism] <after adopting [Religious Art]>",
+			"[+5 Culture] <after adopting [Religious Art]>",
+			// TODO: +1 Happiness with Universal Healthcare tenet (any Ideology)
+			//"[+1 Happiness] <after adopting [Universal Healthcare]>"
+			"Provides [3] [Great Work of Art Slot]"
 		],
 		"requiredTech": "Architecture"
+	},
+
+	// Great Work Slots
+	{
+		"name": "Use Great Work of Art Slot 1",
+		"requiredResource": "Great Work of Art Slot",
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Provides [1] [Tourism]",
+			"Instantly consumes [1] [Great Work of Art]",
+			"Unavailable <when number of [Great Work of Art Slot] is less than [1]>",
+			"Unavailable <when number of [Great Work of Art] is less than [1]>"
+		]
+	},
+	{
+		"name": "Use Great Work of Art Slot 2",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Use Great Work of Art Slot 1",
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Unavailable <in cities without a [Use Great Work of Art Slot 1]>",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Provides [1] [Tourism]",
+			"Instantly consumes [1] [Great Work of Art]",
+			"Unavailable <when number of [Great Work of Art Slot] is less than [1]>",
+			"Unavailable <when number of [Great Work of Art] is less than [1]>"
+		]
+	},
+	{
+		"name": "Use Great Work of Art Slot 3",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Use Great Work of Art Slot 2",
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Unavailable <in cities without a [Use Great Work of Art Slot 2]>",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Provides [1] [Tourism]",
+			"Instantly consumes [1] [Great Work of Art]",
+			"Unavailable <when number of [Great Work of Art Slot] is less than [1]>",
+			"Unavailable <when number of [Great Work of Art] is less than [1]>"
+		]
 	}
 ]
