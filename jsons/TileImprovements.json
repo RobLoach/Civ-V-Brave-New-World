@@ -50,7 +50,7 @@
 		"culture": 1,
 		"uniques": [
 			// +1 Culture for each era of difference between the era of origin of the Antiquity Site and the current era.
-			"[+1 Culture] <starting from the [Classical era]>",
+			// "[+1 Culture] <starting from the [Classical era]>", // No Classical era because it's the difference between eras, not starting at.
 			"[+1 Culture] <starting from the [Medieval era]>",
 			"[+1 Culture] <starting from the [Renaissance era]>",
 			"[+1 Culture] <starting from the [Industrial era]>",
