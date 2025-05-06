@@ -47,9 +47,17 @@
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"culture": 6,
+		"culture": 1,
 		"uniques": [
-			// TODO: +1 Culture Culture for each era of difference between the era of origin of the Antiquity Site and the current era ()
+			// +1 Culture for each era of difference between the era of origin of the Antiquity Site and the current era.
+			"[+1 Culture] <starting from the [Classical era]>",
+			"[+1 Culture] <starting from the [Medieval era]>",
+			"[+1 Culture] <starting from the [Renaissance era]>",
+			"[+1 Culture] <starting from the [Industrial era]>",
+			"[+1 Culture] <starting from the [Modern era]>",
+			"[+1 Culture] <starting from the [Atomic era]>",
+			"[+1 Culture] <starting from the [Information era]>",
+			// "[+1 Culture] <starting from the [Future era]>", // Future era doesn't exist in BNW.
 			"Great Improvement",
 			"Removes removable features when built",
             "Will not be replaced by automated units",
