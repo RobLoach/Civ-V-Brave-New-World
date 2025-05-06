@@ -347,6 +347,7 @@
         "name": "Great Musician",
         "unitType": "Civilian",
         "uniques": [
+            "Instantly provides [10] [Tourism] <by consuming this unit>",
             "Instantly provides [1] [Great Work of Music] <by consuming this unit>",
             "Is part of Great Person group [Musician]",
             "Great Person - [Culture]",

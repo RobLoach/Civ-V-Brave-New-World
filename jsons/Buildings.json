@@ -149,8 +149,12 @@
         "replaces": "Garden",
         "uniqueTo": "Indonesia",
         "cost": 120,
-        "faith": 3,
-        "uniques": ["[+25]% Great Person generation [in this city]"],
+        "faith": 3, // TODO: +2 Faith
+        "uniques": [
+			"[+25]% Great Person generation [in this city]"
+			// TODO: +2 Faith for each World Religion that has at least 1 follower in the city.
+			// TODO: +2 Happiness with Peace Gardens Religious Belief
+		],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Drama and Poetry"
@@ -624,49 +628,47 @@
 
 	// Great Work Slots
 	{
-		"name": "Use Great Work of Art Slot 1",
+		"name": "Great Work of Art 1",
 		"requiredResource": "Great Work of Art Slot",
+		"hurryCostModifier": -100,
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
-			"Unsellable",
-			"Destroyed when the city is captured",
 			"Provides [1] [Tourism]",
 			"Instantly consumes [1] [Great Work of Art]",
-			"Unavailable <when number of [Great Work of Art Slot] is less than [1]>",
-			"Unavailable <when number of [Great Work of Art] is less than [1]>"
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Art]> <hidden from users>"
 		]
 	},
 	{
-		"name": "Use Great Work of Art Slot 2",
+		"name": "Great Work of Art 2",
 		"requiredResource": "Great Work of Art Slot",
-		"requiredBuilding": "Use Great Work of Art Slot 1",
+		"requiredBuilding": "Great Work of Art 1",
+		"hurryCostModifier": -100,
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
-			"Unavailable <in cities without a [Use Great Work of Art Slot 1]>",
-			"Unsellable",
-			"Destroyed when the city is captured",
 			"Provides [1] [Tourism]",
 			"Instantly consumes [1] [Great Work of Art]",
-			"Unavailable <when number of [Great Work of Art Slot] is less than [1]>",
-			"Unavailable <when number of [Great Work of Art] is less than [1]>"
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Art]> <hidden from users>"
 		]
 	},
 	{
-		"name": "Use Great Work of Art Slot 3",
+		"name": "Great Work of Art 3",
 		"requiredResource": "Great Work of Art Slot",
-		"requiredBuilding": "Use Great Work of Art Slot 2",
+		"requiredBuilding": "Great Work of Art 2",
+		"hurryCostModifier": -100,
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
-			"Unavailable <in cities without a [Use Great Work of Art Slot 2]>",
-			"Unsellable",
-			"Destroyed when the city is captured",
 			"Provides [1] [Tourism]",
 			"Instantly consumes [1] [Great Work of Art]",
-			"Unavailable <when number of [Great Work of Art Slot] is less than [1]>",
-			"Unavailable <when number of [Great Work of Art] is less than [1]>"
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Art]> <hidden from users>"
 		]
 	}
 ]

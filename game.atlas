@@ -18,7 +18,35 @@ BuildingIcons/Artists' Guild
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Great Work of Art 1
+  rotate: false
+  xy: 112, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Art 2
+  rotate: false
+  xy: 112, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Art 3
+  rotate: false
+  xy: 112, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Great Work of Art
+  rotate: false
+  xy: 112, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Great Work of Art Slot
   rotate: false
   xy: 112, 386
   size: 100, 100
@@ -508,6 +536,13 @@ BuildingIcons/Musicians' Guild
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Great Work of Music Slot
+  rotate: false
+  xy: 760, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Great Work of Writing
   rotate: false
   xy: 868, 386
@@ -516,6 +551,13 @@ ResourceIcons/Great Work of Writing
   offset: 0, 0
   index: -1
 BuildingIcons/Writers' Guild
+  rotate: false
+  xy: 868, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Great Work of Writing Slot
   rotate: false
   xy: 868, 386
   size: 100, 100
