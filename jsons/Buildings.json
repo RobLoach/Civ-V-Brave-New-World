@@ -681,7 +681,7 @@
 		"culture": 1,
 		"uniques": [
 			"Instantly consumes [1] [Artefact]",
-			"Provides [1] [Tourism]",
+			"Provides [1] [Tourism]", // Is 1 Tourism a good workaround for Building complete Theming Bonus?
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Artefact]> <hidden from users>"
