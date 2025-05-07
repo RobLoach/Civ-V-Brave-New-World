@@ -375,7 +375,7 @@
         "cost": 200,
 		"maintenance": 1,
         "isNationalWonder": true,
-		"greatPersonPoints": {"Great Musician": 2},
+		"greatPersonPoints": {"Great Musician": 3},
         "specialistSlots": {"Musician": 2},
         "requiredTech": "Acoustics",
 		"uniques": [
@@ -634,8 +634,8 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
-			"Provides [2] [Tourism]",
 			"Instantly consumes [1] [Great Work of Art]",
+			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
@@ -649,8 +649,8 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
-			"Provides [2] [Tourism]",
 			"Instantly consumes [1] [Great Work of Art]",
+			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
@@ -664,8 +664,8 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
-			"Provides [2] [Tourism]",
 			"Instantly consumes [1] [Great Work of Art]",
+			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
@@ -680,8 +680,8 @@
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
-			"Provides [1] [Tourism]",
 			"Instantly consumes [1] [Artefact]",
+			"Provides [1] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Artefact]> <hidden from users>"
@@ -695,8 +695,8 @@
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
-			"Provides [1] [Tourism]",
 			"Instantly consumes [1] [Artefact]",
+			"Provides [1] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Artefact]> <hidden from users>"
@@ -710,8 +710,8 @@
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
-			"Provides [1] [Tourism]",
 			"Instantly consumes [1] [Artefact]",
+			"Provides [1] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Artefact]> <hidden from users>"

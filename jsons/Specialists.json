@@ -1,15 +1,21 @@
 [
 	{
+		"name": "Artist",
+		"culture": 3,
+		"greatPersonPoints": {"Great Artist": 3},
+		"color": [160, 32, 240]
+	},
+	{
 		"name": "Musician",
-		"culture": 1,
-		"greatPersonPoints": {"Great Musician": 1},
-		"color": [58, 34, 213]
+		"culture": 3,
+		"greatPersonPoints": {"Great Musician": 3},
+		"color": [160, 32, 240]
 	},
 	{
 		"name": "Writer",
-		"culture": 1,
-		"greatPersonPoints": {"Great Writer": 1},
-		"color": [206, 212, 35]
+		"culture": 3,
+		"greatPersonPoints": {"Great Writer": 3},
+		"color": [160, 32, 240]
 	},
 	{
 		"name": "Admiral",

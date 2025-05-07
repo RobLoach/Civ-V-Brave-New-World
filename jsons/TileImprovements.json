@@ -58,21 +58,16 @@
 			"[+1 Culture] <starting from the [Atomic era]>",
 			"[+1 Culture] <starting from the [Information era]>",
 			// "[+1 Culture] <starting from the [Future era]>", // Future era doesn't exist in BNW.
-            "Can only be built to improve a resource",
-			"Great Improvement",
-			"Cannot be built on [Archaeological Dig] tiles",
-			"Removes removable features when built",
-            "Will not be replaced by automated units",
-			"Irremovable",
-			"Pillaging this improvement yields approximatively [+20 Gold]"
+            "Can only be built to improve a resource <hidden from users>",
+			"Great Improvement <hidden from users>",
+			"Removes removable features when built <hidden from users>",
+            "Will not be replaced by automated units <hidden from users>",
+			"Irremovable <hidden from users>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
 		"civilopediaText": [
 			{ "text": "Landmarks are built from Antiquity Sites by Archaeologists." },
 			{ "separator": true },
-			{
-				"text": "Archaeologists",
-				"link": "Units/Archaeologist"
-			},
 			{
 				"text": "Antiquity Site",
 				"link": "Resource/Antiquity Site"
@@ -82,17 +77,17 @@
     {
         "name": "Archaeological Dig",
         "terrainsCanBeBuiltOn": ["Land"],
+		"culture": 1, // Used to allow automation.
         "uniques": [
-			"Cannot be built on [Landmark] tiles",
-            "Great Improvement",
+			"Triggers a [Archaeological Dig] event",
+            "Great Improvement <hidden from users>",
             "Can be built outside your borders",
-            "Can only be built to improve a resource",
-            "Removes removable features when built",
+            "Can only be built to improve a resource <hidden from users>",
+            "Removes removable features when built <hidden from users>",
             "Unpillagable",
-			"Irremovable",
-			"Will not be replaced by automated units",
-            "Excluded from map editor",
-			"Triggers a [Archaeological Dig] event"
+			"Irremovable <hidden from users>",
+			"Will not be replaced by automated units <hidden from users>",
+            "Excluded from map editor"
         ],
 		"civilopediaText": [
 			{ "text": "Archaeological Digs, performed by Archaeologists, on Antiquity Sites, produce an Artefact." },
