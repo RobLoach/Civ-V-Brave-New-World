@@ -671,8 +671,325 @@
 			"Only available <with [Great Work of Art]> <hidden from users>"
 		]
 	},
+	{
+		"name": "Great Work of Art 4",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Great Work of Art 3",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Art]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Art]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Art 5",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Great Work of Art 4",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Art]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Art]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Art 6",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Great Work of Art 5",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Art]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Art]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Art 7",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Great Work of Art 6",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Art]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Art]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Art 8",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Great Work of Art 7",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Art]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Art]> <hidden from users>"
+		]
+	},
 
-	// Artefacts
+	// Great Work of Music
+	{
+		"name": "Great Work of Music 1",
+		"requiredResource": "Great Work of Music Slot",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Music]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Music]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Music 2",
+		"requiredResource": "Great Work of Music Slot",
+		"requiredBuilding": "Great Work of Music 1",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Music]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Music]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Music 3",
+		"requiredResource": "Great Work of Music Slot",
+		"requiredBuilding": "Great Work of Music 2",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Music]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Music]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Music 4",
+		"requiredResource": "Great Work of Music Slot",
+		"requiredBuilding": "Great Work of Music 3",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Music]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Music]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Music 5",
+		"requiredResource": "Great Work of Music Slot",
+		"requiredBuilding": "Great Work of Music 4",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Music]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Music]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Music 6",
+		"requiredResource": "Great Work of Music Slot",
+		"requiredBuilding": "Great Work of Music 5",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Music]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Music]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Music 7",
+		"requiredResource": "Great Work of Music Slot",
+		"requiredBuilding": "Great Work of Music 6",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Music]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Music]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Music 8",
+		"requiredResource": "Great Work of Music Slot",
+		"requiredBuilding": "Great Work of Music 7",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Music]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Music]> <hidden from users>"
+		]
+	},
+
+	// Great Work of Writing
+	{
+		"name": "Great Work of Writing 1",
+		"requiredResource": "Great Work of Writing Slot",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Writing]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Writing 2",
+		"requiredResource": "Great Work of Writing Slot",
+		"requiredBuilding": "Great Work of Writing 1",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Writing]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Writing 3",
+		"requiredResource": "Great Work of Writing Slot",
+		"requiredBuilding": "Great Work of Writing 2",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Writing]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Writing 4",
+		"requiredResource": "Great Work of Writing Slot",
+		"requiredBuilding": "Great Work of Writing 3",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Writing]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Writing 5",
+		"requiredResource": "Great Work of Writing Slot",
+		"requiredBuilding": "Great Work of Writing 4",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Writing]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Writing 6",
+		"requiredResource": "Great Work of Writing Slot",
+		"requiredBuilding": "Great Work of Writing 5",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Writing]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Writing 7",
+		"requiredResource": "Great Work of Writing Slot",
+		"requiredBuilding": "Great Work of Writing 6",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Writing]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Great Work of Writing 8",
+		"requiredResource": "Great Work of Writing Slot",
+		"requiredBuilding": "Great Work of Writing 7",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 2,
+		"uniques": [
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Provides [2] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Great Work of Writing]> <hidden from users>"
+		]
+	},
+
+	// Artefact
 	{
 		"name": "Artefact 1",
 		"requiredResource": "Great Work of Art Slot",
@@ -716,5 +1033,80 @@
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Artefact]> <hidden from users>"
 		]
-	}
+	},
+	{
+		"name": "Artefact 4",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Artefact 3",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Instantly consumes [1] [Artefact]",
+			"Provides [1] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Artefact]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Artefact 5",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Artefact 4",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Instantly consumes [1] [Artefact]",
+			"Provides [1] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Artefact]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Artefact 6",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Artefact 5",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Instantly consumes [1] [Artefact]",
+			"Provides [1] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Artefact]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Artefact 7",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Artefact 6",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Instantly consumes [1] [Artefact]",
+			"Provides [1] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Artefact]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Artefact 8",
+		"requiredResource": "Great Work of Art Slot",
+		"requiredBuilding": "Artefact 7",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"culture": 1,
+		"uniques": [
+			"Instantly consumes [1] [Artefact]",
+			"Provides [1] [Tourism]",
+			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Only available <with [Artefact]> <hidden from users>"
+		]
+	},
 ]

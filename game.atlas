@@ -39,6 +39,41 @@ BuildingIcons/Great Work of Art 3
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Great Work of Art 4
+  rotate: false
+  xy: 220, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Art 5
+  rotate: false
+  xy: 220, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Art 6
+  rotate: false
+  xy: 220, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Art 7
+  rotate: false
+  xy: 220, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Art 8
+  rotate: false
+  xy: 220, 386
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Great Work of Art
   rotate: false
   xy: 220, 386
@@ -550,6 +585,41 @@ BuildingIcons/Artefact 3
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Artefact 4
+  rotate: false
+  xy: 112, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Artefact 5
+  rotate: false
+  xy: 112, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Artefact 6
+  rotate: false
+  xy: 112, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Artefact 7
+  rotate: false
+  xy: 112, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Artefact 8
+  rotate: false
+  xy: 112, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Bison
   rotate: false
   xy: 328, 386
@@ -571,6 +641,62 @@ ResourceIcons/Great Work of Music
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Great Work of Music 1
+  rotate: false
+  xy: 760, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Music 2
+  rotate: false
+  xy: 760, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Music 3
+  rotate: false
+  xy: 760, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Music 4
+  rotate: false
+  xy: 760, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Music 5
+  rotate: false
+  xy: 760, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Music 6
+  rotate: false
+  xy: 760, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Music 7
+  rotate: false
+  xy: 760, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Music 8
+  rotate: false
+  xy: 760, 170
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Musicians' Guild
   rotate: false
   xy: 760, 170
@@ -586,6 +712,62 @@ ResourceIcons/Great Work of Music Slot
   offset: 0, 0
   index: -1
 ResourceIcons/Great Work of Writing
+  rotate: false
+  xy: 868, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Writing 1
+  rotate: false
+  xy: 868, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Writing 2
+  rotate: false
+  xy: 868, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Writing 3
+  rotate: false
+  xy: 868, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Writing 4
+  rotate: false
+  xy: 868, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Writing 5
+  rotate: false
+  xy: 868, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Writing 6
+  rotate: false
+  xy: 868, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Writing 7
+  rotate: false
+  xy: 868, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Work of Writing 8
   rotate: false
   xy: 868, 278
   size: 100, 100
