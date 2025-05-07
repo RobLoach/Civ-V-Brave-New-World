@@ -65,6 +65,18 @@
             "Will not be replaced by automated units",
 			"Irremovable",
 			"Pillaging this improvement yields approximatively [+20 Gold]"
+		],
+		"civilopediaText": [
+			{ "text": "Landmarks are built from Antiquity Sites by Archaeologists." },
+			{ "separator": true },
+			{
+				"text": "Archaeologists",
+				"link": "Units/Archaeologist"
+			},
+			{
+				"text": "Antiquity Site",
+				"link": "Resource/Antiquity Site"
+			}
 		]
 	},
     {
@@ -81,6 +93,18 @@
 			"Will not be replaced by automated units",
             "Excluded from map editor",
 			"Triggers a [Archaeological Dig] event"
-        ]
+        ],
+		"civilopediaText": [
+			{ "text": "Archaeological Digs, performed by Archaeologists, on Antiquity Sites, produce an Artefact." },
+			{ "separator": true },
+			{
+				"text": "Artefact",
+				"link": "Resource/Artefact"
+			},
+			{
+				"text": "Antiquity Site",
+				"link": "Resource/Antiquity Site"
+			}
+		]
     }
 ]

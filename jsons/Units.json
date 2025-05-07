@@ -298,6 +298,18 @@
 			"Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>",
 			"Can instantly construct a [Landmark] improvement <by consuming this unit>",
 			"Only available <in cities with a [University]>"
+		],
+		"civilopediaText": [
+			{ "text": "Archaeologists can either dig up Antiquity Sites for Artefacts, or turn them into a Landmark." },
+			{ "separator": true },
+			{
+				"text": "Artefact",
+				"link": "Resource/Artefact"
+			},
+			{
+				"text": "Antiquity Site",
+				"link": "Resource/Antiquity Site"
+			}
 		]
 	},
 

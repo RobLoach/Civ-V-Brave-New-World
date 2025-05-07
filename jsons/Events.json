@@ -5,9 +5,10 @@
 		"presentation": "Alert",
 		"choices": [
 			{
-				"text": "Establish it as a Great Work of Art",
+				"text": "Dig up the Artefact",
 				"uniques": [
-					"Instantly provides [1] [Great Work of Art]"
+					"Comment [Be sure to slot it in a Great Work of Art Slot]",
+					"Instantly provides [1] [Artefact]"
 				]
 			}
 		]

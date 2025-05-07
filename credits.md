@@ -89,3 +89,4 @@
 - [Marquee](https://thenounproject.com/icon/marquee-1546225/) by JS Beaulieu
 - [Captain](https://thenounproject.com/icon/captain-7649814/) by Ponisih
 - [Ruins](https://thenounproject.com/icon/ruins-175277/) by Creative Stall
+- [Artefact](https://thenounproject.com/icon/artefact-3243819/) by Vectors Point

@@ -65,6 +65,18 @@
         "uniques": [
 			"Generated on every [150] tiles",
 			"Not shown on world screen"
+		],
+		"civilopediaText": [
+			{ "text": "Antiquity Sites can be dug up for Artefacts, or turned into Landmarks, by Archaeologists." },
+			{ "separator": true },
+			{
+				"text": "Archaeologist",
+				"link": "Unit/Archaeologist"
+			},
+			{
+				"text": "Artefact",
+				"link": "Resource/Artefact"
+			}
 		]
     },
 	/*
@@ -101,6 +113,34 @@
 		]
     },
     {
+        "name": "Artefact",
+        "resourceType": "Strategic",
+        "uniques": [
+			"Stockpiled",
+			"Excluded from map editor"
+		],
+		"civilopediaText": [
+			{ "text": "Artefacts are found from Archaeological Digs with Archaeologists on Antiquity Sites. They can then be slotted into a Great Work of Art Slot." },
+			{ "separator": true },
+			{
+				"text": "Archaeologist",
+				"link": "Unit/Archaeologist"
+			},
+			{
+				"text": "Archaeological Dig",
+				"link": "Improvement/Archaeological Dig"
+			},
+			{
+				"text": "Antiquity Site",
+				"link": "Resource/Antiquity Site"
+			},
+			{
+				"text": "Great Work of Art Slot",
+				"link": "Resource/Great Work of Art Slot"
+			}
+		]
+    },
+    {
         "name": "Great Work of Writing Slot",
         "resourceType": "Strategic",
         "uniques": [
@@ -133,7 +173,6 @@
 	{
 		"name": "Tourism",
 		"resourceType": "Strategic",
-		"culture": 1,
 		"uniques": [
 			"Cannot be traded",
 			"Stockpiled",
