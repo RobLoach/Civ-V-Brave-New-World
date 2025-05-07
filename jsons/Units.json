@@ -260,7 +260,8 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"upgradesTo": "Future Soldier",
-		"uniques": ["May Paradrop up to [9] tiles from inside friendly territory", "No movement cost to pillage", "Never appears as a Barbarian unit"],
+		"promotions": ["Paradrop"],
+		"uniques": ["No movement cost to pillage", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 	{
@@ -270,7 +271,8 @@
 		"strength": 100,
 		"cost": 400,
 		"requiredTech": "Nanotechnology",
-		"uniques": ["May Paradrop up to [40] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"promotions": ["Skyranger"],
+		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 	{

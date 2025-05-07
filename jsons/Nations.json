@@ -89,10 +89,10 @@
 			"[Great Musician] is earned [50]% faster <during a Golden Age>",
 			"[Great Writer] is earned [50]% faster <during a Golden Age>"
 		],
-		"cities": ["Rio de Janeiro","SÃ£o Paulo","Salvador","BrasÃ­lia","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
-			"BelÃ©m","GoiÃ¢nia","Guarulhos","Campinas","SÃ£o Luis","MaceiÃ³","Duque de Caxias","Natal","Campo Grande","Teresina",
-			"FlorianÃ³polis","Nova IguaÃ§u","Sao Bernardo do Campo","JoÃ£o Pessoa","Osasco","JaboatÃ£o dos Guararapes","SÃ£o JosÃ© dos Campos","Contagem","UberlÃ¢ndia","Aracaju","CuiabÃ¡",
-			"Feira de Santana","Juiz de Fora","Joinville","MacapÃ¡","JundiaÃ­"]
+		"cities": ["Rio de Janeiro","São Paulo","Salvador","Brasília","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
+			"Belém","Goiânia","Guarulhos","Campinas","São Luis","Maceió","Duque de Caxias","Natal","Campo Grande","Teresina",
+			"Florianópolis","Nova Iguaçu","Sao Bernardo do Campo","João Pessoa","Osasco","Jaboatão dos Guararapes","São José dos Campos","Contagem","Uberlândia","Aracaju","Cuiabá",
+			"Feira de Santana","Juiz de Fora","Joinville","Macapá","Jundiaí"]
 	},
 	{
 		"name": "Zulu",
@@ -148,7 +148,7 @@
 		],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
 			"Evora","Faro","Castelo Branco","Bissau","Guarda","Viseu","Praia","Braganza","Beja","Tomar",
-			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","SÃ£o TomÃ© and PrÃ­ncipe","Silves","Sintra","Dili","Lamego",
+			"Maputo","Tavira","Figueira da Foz","Viana do Castelo","São Tomé and Príncipe","Silves","Sintra","Dili","Lamego",
 			"Ponta Delgada"]
 	},
 	{
