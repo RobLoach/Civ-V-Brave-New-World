@@ -680,7 +680,7 @@
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
-			"Provides [1] [Tourism]",
+			"Provides [1] [Tourism]", // TODO: Is giving 1 Tourism a good workaround for Building completed Theming Bonus?
 			"Instantly consumes [1] [Artefact]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
