@@ -20,9 +20,8 @@
 		"uniques": [
 			// TODO: Allows airlifting to other cities with Airports
  			// TODO: Increases air unit capacity of the city from 6 to 10.
-			// 50% from Culture Culture of wonders and improvements in the city added to its Tourism Tourism output.
-			"Provides [1] [Tourism] <for every [2] [Culture]> <in this city>"
-			// TODO: +50% Tourism output of Great Works in the city.
+			 "Provides [1] [Tourism] <for every [2] [Culture]> <in this city>", // +50% of the Culture Culture output of Wonders and Improvements in the city added to Tourism
+			 "Provides [1] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>" // Great Work Tourism in the city +50%
 		],
 		"requiredTech": "Radar"
 	},
@@ -42,8 +41,8 @@
 		"cost": 300,
 		"maintenance": 0,
 		"uniques": [
-			"Provides [1] [Tourism] <for every [2] [Culture]> <in this city>"
-			// TODO: Great Work Tourism in the city +50%
+			"Provides [1] [Tourism] <for every [2] [Culture]> <in this city>", // +50% of the Culture Culture output of Wonders and Improvements in the city added to Tourism
+			"Provides [1] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>" // Great Work Tourism in the city +50%
 		],
 		"requiredTech": "Refrigeration"
 	},
@@ -402,8 +401,8 @@
 		"requiredBuilding": "Hotel",
 		"uniques": [
             "Cost increases by [30] per owned city",
-			// 100% of the Culture Culture from World Wonders, Natural Wonders, and Improvements (Landmarks, Moai, Chateaux) is added to the Tourism Tourism output of the city.
-			"Provides [1] [Tourism] <for every [1] [Culture]> <in this city>",
+			"Provides [1] [Tourism] <for every [1] [Culture]> <in this city>", // +100% of the Culture Culture output of Wonders and Improvements in the city added to Tourism
+			"Provides [2] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>", // Great Work Tourism in the city +100%
 			"Only available <if [Hotel] is constructed in all [Your] cities>"
 			// TODO: Tourism output from Great Works +100%.
 			// TODO: +1 Happiness with Universal Healthcare tenet (any Ideology)
@@ -639,7 +638,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Art 2",
@@ -654,7 +654,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Art 3",
@@ -669,7 +670,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Art 4",
@@ -684,7 +686,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Art 5",
@@ -699,7 +702,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Art 6",
@@ -714,7 +718,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Art 7",
@@ -729,7 +734,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Art 8",
@@ -744,7 +750,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 
 	// Great Work of Music
@@ -760,7 +767,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Music]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Music 2",
@@ -775,7 +783,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Music]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Music 3",
@@ -790,7 +799,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Music]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Music 4",
@@ -805,7 +815,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Music]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Music 5",
@@ -820,7 +831,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Music]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Music 6",
@@ -835,7 +847,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Music]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Music 7",
@@ -850,7 +863,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Music]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Music 8",
@@ -865,7 +879,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Music]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 
 	// Great Work of Writing
@@ -881,7 +896,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Writing]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Writing 2",
@@ -896,7 +912,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Writing]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Writing 3",
@@ -911,7 +928,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Writing]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Writing 4",
@@ -926,7 +944,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Writing]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Writing 5",
@@ -941,7 +960,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Writing]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Writing 6",
@@ -956,7 +976,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Writing]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Writing 7",
@@ -971,7 +992,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Writing]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 	{
 		"name": "Great Work of Writing 8",
@@ -986,7 +1008,8 @@
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Writing]> <hidden from users>"
-		]
+		],
+		"requiredTech": "Great Work"
 	},
 
 	// Artefact
@@ -1108,5 +1131,5 @@
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Artefact]> <hidden from users>"
 		]
-	},
+	}
 ]

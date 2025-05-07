@@ -321,12 +321,12 @@
 		// TODO: https://civilization.fandom.com/wiki/Great_Admiral_(Civ5)
         "unitType": "Civilian Water",
         "uniques": [
+			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership (15% Combat bonus to all Ships within 2 tiles)
             "Is part of Great Person group [War]",
+            "Great Person - [War]",
             "Unbuildable",
             "Uncapturable",
-            "Great Person - [War]",
 			"Can be earned through combat",
-			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership (15% Combat bonus to all Ships within 2 tiles)
 			"[2] Movement <after adopting [Navigation School]>"
 			// TODO: Repair Fleet (Instantly heals all ships within one tile, expends the unit)
         ],
@@ -336,26 +336,38 @@
         "name": "Great Artist",
         "unitType": "Civilian",
         "uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "Instantly provides [1] [Great Work of Art] <by consuming this unit>",
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "Is part of Great Person group [Artist]",
             "Great Person - [Culture]",
             "Unbuildable",
             "Uncapturable"
         ],
+		"civilopediaText": [
+			{
+				"text": "Artists' Guild",
+				"link": "Wonder/Artists' Guild"
+			}
+		],
         "movement": 4
     },
     {
         "name": "Great Writer",
         "unitType": "Civilian",
         "uniques": [
-            "Can generate a large amount of culture",
             "Instantly provides [1] [Great Work of Writing] <by consuming this unit>",
+            "Can generate a large amount of culture", // Write Political Treatise
             "Is part of Great Person group [Writer]",
             "Great Person - [Culture]",
             "Unbuildable",
             "Uncapturable"
         ],
+		"civilopediaText": [
+			{
+				"text": "Writers' Guild",
+				"link": "Wonder/Writers' Guild"
+			}
+		],
         "movement": 4
     },
     {
@@ -369,6 +381,12 @@
             "Unbuildable",
             "Uncapturable"
         ],
+		"civilopediaText": [
+			{
+				"text": "Musicians' Guild",
+				"link": "Wonder/Musicians' Guild"
+			}
+		],
         "movement": 4
     }
 ]
