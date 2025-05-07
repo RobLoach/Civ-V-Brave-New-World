@@ -58,7 +58,10 @@
         "resourceType": "Bonus",
         "revealedBy": "Archaeology",
         "terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Snow"],
-        "improvement": "Archaeological Dig",
+        "improvedBy": [
+			"Archaeological Dig",
+			"Landmark"
+		],
         "uniques": [
 			"Generated on every [150] tiles",
 			"Not shown on world screen"
@@ -76,40 +79,55 @@
     {
         "name": "Great Work of Writing",
         "resourceType": "Strategic",
-        "uniques": ["Stockpiled"]
+        "uniques": [
+			"Stockpiled",
+			"Excluded from map editor"
+		]
     },
     {
         "name": "Great Work of Art",
         "resourceType": "Strategic",
-        "uniques": ["Stockpiled"]
+        "uniques": [
+			"Stockpiled",
+			"Excluded from map editor"
+		]
     },
     {
         "name": "Great Work of Music",
         "resourceType": "Strategic",
-        "uniques": ["Stockpiled"]
+        "uniques": [
+			"Stockpiled",
+			"Excluded from map editor"
+		]
     },
     {
         "name": "Great Work of Writing Slot",
         "resourceType": "Strategic",
         "uniques": [
+			"City-level resource",
 			"Cannot be traded",
-			"Not shown on world screen"
+			"Not shown on world screen",
+			"Excluded from map editor"
 		]
     },
     {
         "name": "Great Work of Art Slot",
         "resourceType": "Strategic",
         "uniques": [
+			"City-level resource",
 			"Cannot be traded",
-			"Not shown on world screen"
+			"Not shown on world screen",
+			"Excluded from map editor"
 		]
     },
     {
         "name": "Great Work of Music Slot",
         "resourceType": "Strategic",
         "uniques": [
+			"City-level resource",
 			"Cannot be traded",
-			"Not shown on world screen"
+			"Not shown on world screen",
+			"Excluded from map editor"
 		]
     },
 	{
@@ -118,7 +136,8 @@
 		"culture": 1,
 		"uniques": [
 			"Cannot be traded",
-			"Stockpiled"
+			"Stockpiled",
+			"Excluded from map editor"
 		]
 	}
 ]

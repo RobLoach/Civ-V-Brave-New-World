@@ -58,26 +58,29 @@
 			"[+1 Culture] <starting from the [Atomic era]>",
 			"[+1 Culture] <starting from the [Information era]>",
 			// "[+1 Culture] <starting from the [Future era]>", // Future era doesn't exist in BNW.
+            "Can only be built to improve a resource",
 			"Great Improvement",
+			"Cannot be built on [Archaeological Dig] tiles",
 			"Removes removable features when built",
             "Will not be replaced by automated units",
-			"Pillaging this improvement yields approximately [+20 Gold]"
+			"Irremovable",
+			"Pillaging this improvement yields approximatively [+20 Gold]"
 		]
 	},
     {
         "name": "Archaeological Dig",
-        "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Snow"],
-        "culture": 6,
-        "gold": 2,
-        "science": 2,
+        "terrainsCanBeBuiltOn": ["Land"],
         "uniques": [
+			"Cannot be built on [Landmark] tiles",
             "Great Improvement",
             "Can be built outside your borders",
             "Can only be built to improve a resource",
             "Removes removable features when built",
-            "Pillaging this improvement yields approximately [+20 Gold]",
+            "Unpillagable",
+			"Irremovable",
 			"Will not be replaced by automated units",
-            "Excluded from map editor"
+            "Excluded from map editor",
+			"Triggers a [Archaeological Dig] event"
         ]
-    },
+    }
 ]

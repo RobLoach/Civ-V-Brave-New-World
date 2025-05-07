@@ -1,0 +1,15 @@
+[
+	{
+		"name": "Archaeological Dig",
+		"text": "Your Archaeological Dig has uncovered an Ancient Artefact!",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Establish it as a Great Work of Art",
+				"uniques": [
+					"Instantly provides [1] [Great Work of Art]"
+				]
+			}
+		]
+	}
+]

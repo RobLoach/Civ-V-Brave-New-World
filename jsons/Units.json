@@ -294,7 +294,8 @@
 		"requiredTech": "Archaeology",
 		"movement": 4,
 		"uniques": [
-			// TODO: "Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>",
+			"Cannot be purchased",
+			"Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>",
 			"Can instantly construct a [Landmark] improvement <by consuming this unit>",
 			"Only available <in cities with a [University]>"
 		]
