@@ -315,7 +315,7 @@
 		]
 	},
 
-    /* Great people */
+    // Great People
     {
         "name": "Great Admiral",
 		// TODO: https://civilization.fandom.com/wiki/Great_Admiral_(Civ5)
@@ -345,7 +345,7 @@
         ],
 		"civilopediaText": [
 			{
-				"text": "Artists' Guild",
+				"text": "Generated with Artists' Guild",
 				"link": "Wonder/Artists' Guild"
 			}
 		],
@@ -364,7 +364,7 @@
         ],
 		"civilopediaText": [
 			{
-				"text": "Writers' Guild",
+				"text": "Generated with Writers' Guild",
 				"link": "Wonder/Writers' Guild"
 			}
 		],
@@ -383,7 +383,7 @@
         ],
 		"civilopediaText": [
 			{
-				"text": "Musicians' Guild",
+				"text": "Generated with Musicians' Guild",
 				"link": "Wonder/Musicians' Guild"
 			}
 		],

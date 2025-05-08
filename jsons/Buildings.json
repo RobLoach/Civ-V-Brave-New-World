@@ -60,7 +60,15 @@
         "uniqueTo": "Indonesia",
         "isNationalWonder": true,
         "cost": 1,
-        "uniques": ["Only available <in cities without a [Palace]>","Only available <in cities without a [Nutmeg]>","Only available <in cities without a [Pepper]>","Limited to [1] per Civilization","Will not be displayed in Civilopedia","Provides [2] [Cloves]","Must be next to [Coast]"],
+        "uniques": [
+			"Only available <in cities without a [Palace]>",
+			"Only available <in cities without a [Nutmeg]>",
+			"Only available <in cities without a [Pepper]>",
+			"Limited to [1] per Civilization",
+			"Will not be displayed in Civilopedia",
+			"Provides [2] [Cloves]",
+			"Must be next to [Coast]"
+		],
 		"requiredTech": "Astronomy"
     },
     {
@@ -86,9 +94,9 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-			"Provides [1] [Great Work of Writing Slot]",
 			"[+1 Science] per [2] population [in this city]",
-			"New [Military] units start with [10] XP [in this city]"
+			"New [Military] units start with [10] XP [in this city]",
+			"Provides [1] [Great Work of Writing Slot]"
 		],
 		"requiredTech": "Writing"
 	},
@@ -99,8 +107,8 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"Destroyed when the city is captured",
-			"Provides [1] [Great Work of Writing Slot]"
+			"Provides [1] [Great Work of Writing Slot]",
+			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Drama and Poetry"
 	},
@@ -112,8 +120,11 @@
 		"happiness": 1,
 		"uniques": [
 			"Unbuildable",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
 			"Only available <when religion is enabled>",
-			"Provides [1] [Great Work of Art Slot]"
+			"Provides [1] [Great Work of Art Slot]",
+			"Only available <after adopting [Cathedrals]>" // https://civilization.fandom.com/wiki/Religion_(Civ5)#Follower_Beliefs
+			// +2 Tourism Tourism with Sacred Sites Religious Belief
 		]
 	},
 	{
@@ -165,11 +176,14 @@
         "gold": 2,
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 15,
-        "uniques": ["[+5]% [Production] [in this city]",
-            "[+25]% [Gold] [in this city]"],
+        "uniques": [
+			"[+5]% [Production] [in this city]",
+            "[+25]% [Gold] [in this city]"
+		],
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
     },
+
 	// Wonders
 	{
 		"name": "Hanging Gardens",
@@ -292,8 +306,8 @@
 		"isWonder": true,
 		"uniques": [
 			"[1] free [Great Artist] units appear",
-			"Only available <after adopting [Exploration]>",
-			"Provides [4] [Great Work of Art Slot]"
+			"Provides [4] [Great Work of Art Slot]",
+			"Only available <after adopting [Exploration]>"
 		],
 		"requiredTech": "Archaeology",
 		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
@@ -329,14 +343,14 @@
 		"culture": 1,
 		"isWonder": true,
 		"uniques": [
-			"[+50]% Production when constructing [Armored] units [in all cities]",
 			"Free Social Policy",
+			"[+50]% Production when constructing [Armored] units [in all cities]",
 			"Only available <after adopting [Order]>"
 		],
 		"requiredTech": "Railroads",
 		"quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.' - The Prophet Muhammed"
 	},
-		{
+	{
 		"name": "Red Fort",
 		"culture": 1,
 		"cost": 625,
@@ -349,11 +363,14 @@
 		"requiredTech": "Metallurgy",
 		"quote": "'When we build, let us think that we build forever.' – John Ruskin"
 	},
-		{
+	{
 		"name": "Borobudur",
 		"faith": 5,
 		"isWonder": true,
-		"uniques": [ "Can only be built <in [in holy cities] cities>","[3] free [Missionary] units appear"],
+		"uniques": [
+			"[3] free [Missionary] units appear",
+			"Can only be built <in [in holy cities] cities>"
+		],
 		"requiredTech": "Theology",
 		"quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky.' – Gautama Buddha"
 	},
@@ -400,9 +417,9 @@
         "requiredTech": "Telecommunications",
 		"requiredBuilding": "Hotel",
 		"uniques": [
-            "Cost increases by [30] per owned city",
 			"Provides [1] [Tourism] <for every [1] [Culture]> <in this city>", // +100% of the Culture Culture output of Wonders and Improvements in the city added to Tourism
 			"Provides [2] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>", // Great Work Tourism in the city +100%
+            "Cost increases by [30] per owned city",
 			"Only available <if [Hotel] is constructed in all [Your] cities>"
 			// TODO: Tourism output from Great Works +100%.
 			// TODO: +1 Happiness with Universal Healthcare tenet (any Ideology)
@@ -415,7 +432,7 @@
         "isNationalWonder": true,
 		"requiredBuilding": "Market",
         "uniques": [
-			// Trade Route Trade Routes with other players made to a city with an East India Company will generate an extra 4 Gold Gold for the city owner and the Trade Route Trade Route owner gains an additional 2 Gold Gold for the Trade Route Trade Route.
+			// Trade Routes with other players made to a city with an East India Company will generate an extra 4 Gold Gold for the city owner and the Trade Route Trade Route owner gains an additional 2 Gold Gold for the Trade Route Trade Route.
 			"[+1 Gold] from each Trade Route",
             "Cost increases by [30] per owned city"
 			// TODO: +1 Happiness Happiness with Universal Healthcare tenet (any Ideology)
@@ -430,8 +447,8 @@
         "isWonder": true,
         "uniques": [
 			"Free [Great Artist] appears",
-			"Only available <after adopting [Aesthetics]>",
-			"Provides [3] [Great Work of Art Slot]"
+			"Provides [3] [Great Work of Art Slot]",
+			"Only available <after adopting [Aesthetics]>"
 		],
         "requiredTech": "Architecture",
         "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.'  - Marcel Parquet"
@@ -442,10 +459,10 @@
         "happiness": 2,
         "isWonder": true,
         "uniques": [
-			"[+1 Happiness] per [2] social policies adopted",
 			"Free Social Policy",
-			"Only available <after adopting [Autocracy]>",
-			"Must be next to [Coast]"
+			"[+1 Happiness] per [2] social policies adopted",
+			"Must be next to [Coast]",
+			"Only available <after adopting [Autocracy]>"
 		],
         "requiredTech": "Flight",
         "quote": "'This loss (of freedom) means the fading from human life of values infinitely precious to it. There only remain ironbound conditions of employment and trivial amusements for leisure.'  - A.N. Whitehead"
@@ -459,7 +476,7 @@
 			"Provides [1] [Great Work of Art Slot]",
 			"Instantly provides [1] [Great Work of Art]"
 		],
-        "requiredTech": "Drama and Poetry",
+        "requiredTech": "Drama and Poetry"
     },
 	{
 		"name": "Sistine Chapel",
@@ -504,9 +521,9 @@
         "requiredTech": "Archaeology",
 		"requiredBuilding": "Opera House",
 		"uniques": [
-			"Destroyed when the city is captured",
-			"Double quantity of [Tourism] produced <in [Capital] cities> <for [France] Civilizations>",
-			"Provides [2] [Great Work of Art Slot]"
+			"Provides [2] [Great Work of Art Slot]",
+			"Double quantity of [Tourism] produced <in [Capital] cities> <for [France] Civilizations> <hidden from users>",
+			"Destroyed when the city is captured"
 		]
     },
 	{
@@ -517,8 +534,8 @@
         "requiredTech": "Acoustics",
 		"requiredBuilding": "Amphitheater",
 		"uniques": [
-			"Destroyed when the city is captured",
-			"Provides [1] [Great Work of Music Slot]"
+			"Provides [1] [Great Work of Music Slot]",
+			"Destroyed when the city is captured"
 		]
     },
 	{
@@ -532,8 +549,8 @@
 		"maintenance": 1,
 		"requiredTech": "Acoustics",
 		"uniques": [
-			"Destroyed when the city is captured",
-			"Provides [1] [Great Work of Music Slot]"
+			"Provides [1] [Great Work of Music Slot]",
+			"Destroyed when the city is captured"
 		]
 	},
 	{
@@ -545,8 +562,8 @@
 		"maintenance": 3,
 		"requiredTech": "Radio",
 		"uniques": [
-			"Destroyed when the city is captured",
-			"Provides [1] [Great Work of Music Slot]"
+			"Provides [1] [Great Work of Music Slot]",
+			"Destroyed when the city is captured"
 			// TODO: +34% Tourism Tourism in this city with Media Culture Freedom tenet
 		]
 	},
@@ -556,10 +573,10 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
 			"[+25]% Great Person generation [in this city]",
-			"Cost increases by [30] per owned city",
-			"Provides [1] [Great Work of Writing Slot]"
+			"Provides [1] [Great Work of Writing Slot]",
+			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Drama and Poetry"
 	},
@@ -569,10 +586,10 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
+			"Provides [1] [Great Work of Writing Slot]",
 			"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
 			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
-			"Cost increases by [30] per owned city",
-			"Provides [1] [Great Work of Writing Slot]"
+			"Cost increases by [30] per owned city"
 			// TODO: +1 Happiness with Universal Healthcare tenet (any Ideology)
 		],
 		"requiredTech": "Iron Working"
@@ -599,10 +616,10 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <if [University] is constructed in all [non-[Puppeted]] cities>",
 			"Free Technology",
-			"Cost increases by [30] per owned city",
-			"Provides [2] [Great Work of Writing Slot]"
+			"Provides [2] [Great Work of Writing Slot]",
+			"Only available <if [University] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
 			// TODO: +1 Happiness with Universal Healthcare tenet (any Ideology)
 		],
 		"requiredTech": "Education"
@@ -614,13 +631,13 @@
 		"culture": 5,
 		"isNationalWonder": true,
 		"uniques": [
+			"Provides [3] [Great Work of Art Slot]",
 			"Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Provides [5] [Tourism] <after adopting [Religious Art]>",
-			"[+5 Culture] <after adopting [Religious Art]>",
+			"[+5 Culture] <after adopting [Religious Art]>"
 			// TODO: +1 Happiness with Universal Healthcare tenet (any Ideology)
 			//"[+1 Happiness] <after adopting [Universal Healthcare]>"
-			"Provides [3] [Great Work of Art Slot]"
 		],
 		"requiredTech": "Architecture"
 	},

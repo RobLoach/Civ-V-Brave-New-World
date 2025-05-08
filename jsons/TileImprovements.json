@@ -44,6 +44,9 @@
 		"techRequired": "Chivalry",
 		"uniques": ["Gives a defensive bonus of [50]%"]
 	},
+
+	// Antiquity Site Improvements
+	// https://civilization.fandom.com/wiki/Antiquity_Site_(Civ5)
 	{
 		"name": "Landmark",
 		"terrainsCanBeBuiltOn": ["Land"],
