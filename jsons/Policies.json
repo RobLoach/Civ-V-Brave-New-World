@@ -452,7 +452,8 @@
 		},
 		"uniques": [
 			"Only available <before adopting [Order]>",
-			"Only available <before adopting [Freedom]>"
+			"Only available <before adopting [Freedom]>",
+			"Remove [Pick an Ideology] [in your cities] <hidden from users>"
 		],
 		"policies": [
 			// Level 1
@@ -460,7 +461,7 @@
 				"name": "Elite Forces",
 				"uniques": [
 					"[+25]% Strength <for [{Wounded} {Military}] units> <when attacking>",
-					"Instantly provides [1] [Level 1 Policy]"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 1
@@ -469,7 +470,7 @@
 				"name": "Mobilization",
 				"uniques": [
 					"[Gold] cost of purchasing [Military] units [-33]%",
-					"Instantly provides [1] [Level 1 Policy]"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 3
@@ -479,7 +480,7 @@
 				"uniques": [
 					"Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
 					"[-100]% weight to this choice for AI decisions",
-					"Instantly provides [1] [Level 1 Policy]"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 5
@@ -488,7 +489,7 @@
 				"name": "Futurism",
 				"uniques": [
 					"Comment [+250 Tourism when a Great Writer, Artist or Musician is born]",
-					"Instantly provides [1] [Level 1 Policy]"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 7
@@ -498,7 +499,7 @@
 				"uniques": [
 					// TODO: Spies steal technologies twice as fast.
 					"[+20]% spy effectiveness [in enemy cities]",
-					"Instantly provides [1] [Level 1 Policy]"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 9
@@ -509,7 +510,7 @@
 					"[+1 Happiness] from all [Castle] buildings",
 					"[+1 Happiness] from all [Arsenal] buildings",
 					"[+1 Happiness] from all [Military Base] buildings",
-					"Instantly provides [1] [Level 1 Policy]"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 11
@@ -518,7 +519,7 @@
 				"name": "Universal Healthcare (Autocracy)",
 				"uniques": [
 					"[+1 Happiness] from all [National Wonder] buildings",
-					"Instantly provides [1] [Level 1 Policy]"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 13
@@ -531,9 +532,9 @@
 					"[+2 Happiness] from every [Barracks]",
 					"[+2 Happiness] from every [Armory]",
 					"[+2 Happiness] from every [Military Academy]",
-					"Instantly provides [1] [Level 2 Policy]",
-					"Instantly consumes [1] [Level 1 Policy]",
-					"Only available <when above [1] [Level 1 Policy]>"
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 1
@@ -545,9 +546,9 @@
 					"[3] Movement <for [Great General] units>",
 					"[1] Movement <for [Armored] units>",
 					"[15]% Strength <for [Armored] units> <when attacking>",
-					"Instantly provides [1] [Level 2 Policy]",
-					"Instantly consumes [1] [Level 1 Policy]",
-					"Only available <when above [1] [Level 1 Policy]>"
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 3
@@ -557,9 +558,9 @@
 				"uniques": [
 					"[+3 Happiness] from every [Courthouse]",
 					"[+100]% Production when constructing [Courthouse] buildings [in your cities]",
-					"Instantly provides [1] [Level 2 Policy]",
-					"Instantly consumes [1] [Level 1 Policy]",
-					"Only available <when above [1] [Level 1 Policy]>"
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 5
@@ -568,9 +569,9 @@
 				"name": "Nationalism",
 				"uniques": [
 					"[-33]% maintenance costs <for [All] units>",
-					"Instantly provides [1] [Level 2 Policy]",
-					"Instantly consumes [1] [Level 1 Policy]",
-					"Only available <when above [1] [Level 1 Policy]>"
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 7
@@ -585,9 +586,9 @@
 					"Double quantity of [Oil] produced",
 					"Double quantity of [Aluminum] produced",
 					"Double quantity of [Uranium] produced",
-					"Instantly provides [1] [Level 2 Policy]",
-					"Instantly consumes [1] [Level 1 Policy]",
-					"Only available <when above [1] [Level 1 Policy]>"
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 9
@@ -597,9 +598,9 @@
 				"uniques": [
 					"[+25]% Production when constructing [Military] units [in your cities]",
 					"New [Military] units start with [15] XP [in your cities]",
-					"Instantly provides [1] [Level 2 Policy]",
-					"Instantly consumes [2] [Level 1 Policy]",
-					"Only available <when above [1] [Level 1 Policy]>"
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 11
@@ -611,8 +612,8 @@
 				"uniques": [
 					// TODO: +50% Tourism to Civilizations fighting a common enemy.
 					"Provides [5] [Tourism] <when at war>",
-					"Instantly consumes [1] [Level 2 Policy]",
-					"Only available <when above [1] [Level 2 Policy]>"
+					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
 				"column": 1
@@ -623,8 +624,8 @@
 					// TODO: Gain 6 more Influence Influence per turn with City-States you could demand tribute from
 					"Influence of all other civilizations with all city-states degrades [+20]% faster",
 					"[-20]% City-State Influence degradation",
-					"Instantly consumes [1] [Level 2 Policy]",
-					"Only available <when above [1] [Level 2 Policy]>"
+					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
 				"column": 3
@@ -633,8 +634,8 @@
 				"name": "Clausewitz's Legacy",
 				"uniques": [
 					"[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
-					"Instantly consumes [1] [Level 2 Policy]",
-					"Only available <when above [1] [Level 2 Policy]>"
+					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
 				"column": 5
@@ -659,14 +660,16 @@
 		},
 		"uniques": [
 			"Only available <before adopting [Autocracy]>",
-			"Only available <before adopting [Freedom]>"
+			"Only available <before adopting [Freedom]>",
+			"Remove [Pick an Ideology] [in your cities] <hidden from users>"
 		],
 		"policies": [
 			// Level 1
 			{
 				"name": "Hero of the People",
 				"uniques": [
-					"[+25]% Great Person generation [in your cities]"
+					"[+25]% Great Person generation [in your cities]",
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 1
@@ -675,7 +678,8 @@
 				"name": "Socialist Realism",
 				"uniques": [
 					"[+20]% Production when constructing [Monument] buildings [in your cities]",
-					"[+1 Happiness] from all [Monument] buildings"
+					"[+1 Happiness] from all [Monument] buildings",
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 3
@@ -683,7 +687,8 @@
 			{
 				"name": "Skyscrapers",
 				"uniques": [
-					"[Gold] cost of purchasing [Building] buildings [-33]%"
+					"[Gold] cost of purchasing [Building] buildings [-33]%",
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 5
@@ -691,7 +696,8 @@
 			{
 				"name": "Patriotic War",
 				"uniques": [
-					"[+15]% Strength <when attacking> <when fighting in [Friendly Land] tiles>"
+					"[+15]% Strength <when attacking> <when fighting in [Friendly Land] tiles>",
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 7
@@ -700,7 +706,8 @@
 				"name": "Double Agents",
 				"uniques": [
 					// TODO: Spies have double the chance to capture an enemy spy attempting to steal a technology.
-					"[-50]% enemy spy effectiveness [in your cities]"
+					"[-50]% enemy spy effectiveness [in your cities]",
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 9
@@ -712,7 +719,8 @@
 					"[+1 Happiness] from all [Factory] buildings",
 					"[+1 Happiness] from all [Solar Plant] buildings",
 					"[+1 Happiness] from all [Nuclear Plant] buildings",
-					"[+1 Happiness] from all [Hydro Plant] buildings"
+					"[+1 Happiness] from all [Hydro Plant] buildings",
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 11
@@ -720,7 +728,8 @@
 			{
 				"name": "Universal Healthcare (Order)",
 				"uniques": [
-					"[+1 Happiness] from all [National Wonder] buildings"
+					"[+1 Happiness] from all [National Wonder] buildings",
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 13
@@ -732,7 +741,10 @@
 				"uniques": [
 					"[+1 Happiness] from all [Observatory] buildings",
 					"[+1 Happiness] from all [Public School] buildings",
-					"[+1 Happiness] from all [Research Lab] buildings"
+					"[+1 Happiness] from all [Research Lab] buildings",
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 1
@@ -740,7 +752,10 @@
 			{
 				"name": "Party Leadership",
 				"uniques": [
-					"[+1 Culture, +1 Food, +1 Gold, +1 Production, +1 Science] [in your cities]"
+					"[+1 Culture, +1 Food, +1 Gold, +1 Production, +1 Science] [in your cities]",
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 3
@@ -749,7 +764,10 @@
 				"name": "Resettlement",
 				"uniques": [
 					// TODO: New Cities start with an extra 3 Population.
-					"[+100]% growth [in your cities] <in cities with between [0] and [2] [Population]>"
+					"[+100]% growth [in your cities] <in cities with between [0] and [2] [Population]>",
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 5
@@ -758,7 +776,10 @@
 				"name": "Cultural Revolution",
 				"uniques": [
 					// TODO: +34% Tourism to other Order Civilizations.
-					"Provides [1] [Tourism]"
+					"Provides [1] [Tourism]",
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 7
@@ -767,7 +788,10 @@
 				"name": "Workers' Faculties",
 				"uniques": [
 					"Comment [+25% Science output from Cities with a Factory]",
-					"[+100]% Production when constructing [Factory] buildings [in your cities]"
+					"[+100]% Production when constructing [Factory] buildings [in your cities]",
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 9
@@ -777,7 +801,10 @@
 				"uniques": [
 					"[+2 Production] [in your cities]",
 					"[+1 Production] from [Mine] tiles [in your cities]",
-					"[+1 Production] from [Quarry] tiles [in your cities]"
+					"[+1 Production] from [Quarry] tiles [in your cities]",
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 11
@@ -788,7 +815,9 @@
 				"name": "Dictatorship of the Proletariat",
 				"uniques": [
 					// TODO: +34% Tourism Tourism to Civilizations with less Happiness Happiness.
-					"Provides [1] [Tourism]"
+					"Provides [1] [Tourism]",
+					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
 				"column": 1
@@ -798,7 +827,9 @@
 				"uniques": [
 					"[+10]% Production when constructing [Courthouse] buildings [in your cities]", // TODO: Free Courthouse when capturing a City
 					"[+50]% [Food] from Trade Routes",
-					"[+50]% [Production] from Trade Routes"
+					"[+50]% [Production] from Trade Routes",
+					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
 				"column": 3
@@ -809,7 +840,9 @@
 					// TODO: May finish Spaceship Parts with Great Engineers
 					"[+15]% Production when constructing [Spaceship part] units [in your cities]"
 					"Free [Great Engineer] appears",
-					"Free [Great Scientist] appears"
+					"Free [Great Scientist] appears",
+					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
 				"column": 5
@@ -834,14 +867,16 @@
 		},
 		"uniques": [
 			"Only available <before adopting [Autocracy]>",
-			"Only available <before adopting [Order]>"
+			"Only available <before adopting [Order]>",
+			"Remove [Pick an Ideology] [in your cities] <hidden from users>"
 		],
 		"policies": [
 			// Level 1
 			{
 				"name": "Avant Garde",
 				"uniques": [
-					"[+25]% Great Person generation [in your cities]"
+					"[+25]% Great Person generation [in your cities]",
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 1
@@ -849,7 +884,8 @@
 			{
 				"name": "Creative Expression",
 				"uniques": [
-					"[+1 Culture] from all [Great Work] buildings"
+					"[+1 Culture] from all [Great Work] buildings",
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 3
@@ -857,7 +893,8 @@
 			{
 				"name": "Civil Society",
 				"uniques": [
-					"[-50]% Food consumption by specialists [in your cities]"
+					"[-50]% Food consumption by specialists [in your cities]",
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 5
@@ -866,7 +903,8 @@
 				"name": "Covert Action",
 				"uniques": [
 					// Spies have double the chance to successfully rig City-State elections
-					"[+100]% spy effectiveness [in City-State cities]"
+					"[+100]% spy effectiveness [in City-State cities]",
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 7
@@ -876,7 +914,8 @@
 				"uniques": [
 					"[+1 Happiness] from every [Mint]",
 					"[+1 Happiness] from every [Bank]",
-					"[+1 Happiness] from every [Stock Exchange]"
+					"[+1 Happiness] from every [Stock Exchange]",
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 9
@@ -885,7 +924,8 @@
 				"name": "Economic Union",
 				"uniques": [
 					// TODO: +3 Gold from each Trade Route with other Freedom Civilizations.
-					"[+1 Gold] from each Trade Route"
+					"[+1 Gold] from each Trade Route",
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 11
@@ -893,7 +933,8 @@
 			{
 				"name": "Universal Healthcare (Freedom)",
 				"uniques": [
-					"[+1 Happiness] from all [National Wonder] buildings"
+					"[+1 Happiness] from all [National Wonder] buildings",
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
 				],
 				"row": 1,
 				"column": 13
@@ -909,7 +950,10 @@
 					"Free [Foreign Legion] appears",
 					"Free [Foreign Legion] appears",
 					"Free [Foreign Legion] appears",
-					"Free [Foreign Legion] appears"
+					"Free [Foreign Legion] appears",
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 1
@@ -919,7 +963,10 @@
 				"uniques": [
 					"[+1 Happiness] from every [Water Mill]",
 					"[+1 Happiness] from every [Hospital]",
-					"[+1 Happiness] from every [Medical Lab]"
+					"[+1 Happiness] from every [Medical Lab]",
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 3
@@ -927,7 +974,10 @@
 			{
 				"name": "Their Finest Hour",
 				"uniques": [
-					"[+33]% Strength for cities"
+					"[+33]% Strength for cities",
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 5
@@ -936,7 +986,10 @@
 				"name": "Universal Suffrage",
 				"uniques": [
 					"[+50]% Golden Age length",
-					"[-50]% Unhappiness from [Specialists] [in your cities]"
+					"[-50]% Unhappiness from [Specialists] [in your cities]",
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 7
@@ -949,7 +1002,10 @@
 					"[+4 Culture] from [Landmark] tiles [in your cities]",
 					"[+4 Production] from [Manufactory] tiles [in your cities]",
 					"[+4 Gold] from [Customs house] tiles [in your cities]",
-					"[+4 Faith] from [Holy site] tiles [in your cities]"
+					"[+4 Faith] from [Holy site] tiles [in your cities]",
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 9
@@ -958,7 +1014,10 @@
 				"name": "Arsenal of Democracy",
 				"uniques": [
 					"[+15]% Production when constructing [Military] units [in all cities]",
-					"Gain [15] Influence with a [Military] gift to a City-State"
+					"Gain [15] Influence with a [Military] gift to a City-State",
+					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
+					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 11
@@ -969,7 +1028,9 @@
 				"name": "Media Culture",
 				"uniques": [
 					// +34% Tourism Tourism generated by Cities with a Broadcast Tower.
-					"Provides [1] [Tourism] <for every [3] [Tourism]> <in cities with a [Broadcast Tower]>"
+					"Provides [1] [Tourism] <for every [3] [Tourism]> <in cities with a [Broadcast Tower]>",
+					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
 				"column": 1
@@ -978,7 +1039,9 @@
 				"name": "Treaty Organization",
 				"uniques": [
 					// TODO: Gain 4 more Influence per turn with City-States you have a trade route to.
-					"[+50]% resources gifted by City-States"
+					"[+50]% resources gifted by City-States",
+					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
 				"column": 3
@@ -986,7 +1049,9 @@
 			{
 				"name": "Space Procurements",
 				"uniques": [
-					"May buy [Spaceship part] units with [Gold] [in your cities]"
+					"May buy [Spaceship part] units with [Gold] [in your cities]",
+					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
 				"column": 5

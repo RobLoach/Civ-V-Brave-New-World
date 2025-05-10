@@ -21,23 +21,33 @@
 			{
 				"text": "Autocracy",
 				"uniques": [
-					"Adopt [Autocracy] <hidden from users>"
+					"Adopt [Autocracy] <hidden from users>",
+					"Only available <before adopting [Autocracy]>",
+					"Only available <before adopting [Freedom]>",
+					"Only available <before adopting [Order]>"
 				]
 			},
 			{
 				"text": "Freedom",
 				"uniques": [
-					"Adopt [Freedom] <hidden from users>"
+					"Adopt [Freedom] <hidden from users>",
+					"Only available <before adopting [Autocracy]>",
+					"Only available <before adopting [Freedom]>",
+					"Only available <before adopting [Order]>"
 				]
 			},
 			{
 				"text": "Order",
 				"uniques": [
-					"Adopt [Order] <hidden from users>"
+					"Adopt [Order] <hidden from users>",
+					"Only available <before adopting [Autocracy]>",
+					"Only available <before adopting [Freedom]>",
+					"Only available <before adopting [Order]>"
 				]
 			},
 			{
-				"text": "Back"
+				"text": "Back",
+				"uniques": []
 			}
 		]
 	}

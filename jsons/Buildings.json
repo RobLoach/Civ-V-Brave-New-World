@@ -1265,20 +1265,21 @@
 		]
 	},
 
-	// Event Triggers
+	// Events
 	{
-		"name": "Ideology",
+		"name": "Pick an Ideology", // Triggered in Modern Era to pick an Ideology
 		"hurryCostModifier": -100,
 		"cost": 1,
 		"uniques": [
+			"Comment [Visit the Policies Screen to select an Ideology]",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Triggers a [Ideology] event <hidden from users>",
 			"Will not be displayed in Civilopedia",
 			"Unsellable <hidden from users>",
 			"Moves to new capital when capital changes <hidden from users>",
-			"Unavailable <before the [Modern era]>",
-			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Unavailable <before the [Modern era]> <hidden from users>",
 			"Only available <in cities with a [Palace]> <hidden from users>",
 			"Limited to [1] per Civilization <hidden from users>",
-			"Triggers a [Ideology] event <hidden from users>",
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>"
