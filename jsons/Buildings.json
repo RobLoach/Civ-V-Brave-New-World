@@ -1275,7 +1275,7 @@
 			"Unsellable <hidden from users>",
 			"Moves to new capital when capital changes <hidden from users>",
 			"Unavailable <before the [Modern era]>",
-			"Automatically built in all cities where it is buildable",
+			"Automatically built in all cities where it is buildable <hidden from users>",
 			"Only available <in cities with a [Palace]> <hidden from users>",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Triggers a [Ideology] event <hidden from users>",
