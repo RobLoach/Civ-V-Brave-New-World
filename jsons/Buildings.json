@@ -1263,5 +1263,25 @@
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Artifact]> <hidden from users>"
 		]
+	},
+
+	// Event Triggers
+	{
+		"name": "Ideology",
+		"hurryCostModifier": -100,
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Unsellable <hidden from users>",
+			"Moves to new capital when capital changes <hidden from users>",
+			"Unavailable <before the [Modern era]>",
+			"Automatically built in all cities where it is buildable",
+			"Only available <in cities with a [Palace]> <hidden from users>",
+			"Limited to [1] per Civilization <hidden from users>",
+			"Triggers a [Ideology] event <hidden from users>",
+			"Unavailable <after adopting [Freedom]> <hidden from users>",
+			"Unavailable <after adopting [Order]> <hidden from users>",
+			"Unavailable <after adopting [Autocracy]> <hidden from users>"
+		]
 	}
 ]

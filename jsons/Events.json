@@ -12,5 +12,33 @@
 				]
 			}
 		]
+	},
+	{
+		"name": "Ideology",
+		"text": "Choose one of these ideologies:",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Autocracy",
+				"uniques": [
+					"Adopt [Autocracy] <hidden from users>"
+				]
+			},
+			{
+				"text": "Freedom",
+				"uniques": [
+					"Adopt [Freedom] <hidden from users>"
+				]
+			},
+			{
+				"text": "Order",
+				"uniques": [
+					"Adopt [Order] <hidden from users>"
+				]
+			},
+			{
+				"text": "Cancel"
+			}
+		]
 	}
 ]
