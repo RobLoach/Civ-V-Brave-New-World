@@ -84,4 +84,16 @@
 		"name": "Altitude Training",
 		"uniques": ["Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
 	},
+	{
+		"name": "Lightning Warfare",
+		"uniques": [
+			"Ignores Zone of Control"
+		],
+		"civilopediaText": [
+			{
+				"text": "Lightning Warfare",
+				"link": "Policy/Lightning Warfare"
+			}
+		]
+	}
 ]

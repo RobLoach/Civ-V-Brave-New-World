@@ -357,7 +357,8 @@
             "Is part of Great Person group [Artist]",
             "Great Person - [Culture]",
             "Unbuildable",
-            "Uncapturable"
+            "Uncapturable",
+			"Instantly provides [250] [Tourism] <after adopting [Futurism]>"
         ],
 		"civilopediaText": [
 			{
@@ -376,7 +377,8 @@
             "Is part of Great Person group [Writer]",
             "Great Person - [Culture]",
             "Unbuildable",
-            "Uncapturable"
+            "Uncapturable",
+			"Instantly provides [250] [Tourism] <after adopting [Futurism]>"
         ],
 		"civilopediaText": [
 			{
@@ -391,11 +393,12 @@
         "unitType": "Civilian",
         "uniques": [
             "Instantly provides [1] [Great Work of Music] <by consuming this unit>",
-            "Instantly provides [10] [Tourism] <by consuming this unit>", // Perform Concert Tour
+            "Instantly provides [50] [Tourism] <by consuming this unit>", // Perform Concert Tour
             "Is part of Great Person group [Musician]",
             "Great Person - [Culture]",
             "Unbuildable",
-            "Uncapturable"
+            "Uncapturable",
+			"Instantly provides [250] [Tourism] <after adopting [Futurism]>"
         ],
 		"civilopediaText": [
 			{

@@ -14,6 +14,21 @@
 		]
 	},
 	{
+		"name": "Factory",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization",
+		"uniques": [
+			"[+25]% [Science] <after adopting [Workers' Faculties]>"
+		]
+	},
+	{
 		"name": "Airport",
 		"cost": 400,
 		"maintenance": 5,
@@ -57,7 +72,6 @@
     {
         "name": "Cloves",
         "uniqueTo": "Indonesia",
-        "isNationalWonder": true,
         "cost": 1,
         "uniques": [
 			"Provides [2] [Cloves]",
@@ -76,7 +90,6 @@
     {
         "name": "Nutmeg",
         "uniqueTo": "Indonesia",
-        "isNationalWonder": true,
         "cost": 1,
         "uniques": [
 			"Provides [2] [Nutmeg]",
@@ -95,7 +108,6 @@
     {
         "name": "Pepper",
         "uniqueTo": "Indonesia",
-        "isNationalWonder": true,
         "cost": 1,
         "uniques": [
 			"Provides [2] [Pepper]",
