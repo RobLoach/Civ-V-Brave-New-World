@@ -453,7 +453,8 @@
 		"uniques": [
 			"Only available <before adopting [Order]>",
 			"Only available <before adopting [Freedom]>",
-			"Remove [Pick an Ideology] [in your cities] <hidden from users>"
+			"Remove [Pick an Ideology] [in your cities] <hidden from users>",
+			"Free Social Policy <if no other Civilization has adopted this>" // Early Adopter (usually provided to the first two civs)
 		],
 		"policies": [
 			// Level 1
@@ -661,7 +662,8 @@
 		"uniques": [
 			"Only available <before adopting [Autocracy]>",
 			"Only available <before adopting [Freedom]>",
-			"Remove [Pick an Ideology] [in your cities] <hidden from users>"
+			"Remove [Pick an Ideology] [in your cities] <hidden from users>",
+			"Free Social Policy <if no other Civilization has adopted this>" // Early Adopter (usually provided to the first two civs)
 		],
 		"policies": [
 			// Level 1
@@ -868,7 +870,8 @@
 		"uniques": [
 			"Only available <before adopting [Autocracy]>",
 			"Only available <before adopting [Order]>",
-			"Remove [Pick an Ideology] [in your cities] <hidden from users>"
+			"Remove [Pick an Ideology] [in your cities] <hidden from users>",
+			"Free Social Policy <if no other Civilization has adopted this>" // Early Adopter (usually provided to the first two civs)
 		],
 		"policies": [
 			// Level 1
