@@ -456,6 +456,15 @@
 			"Remove [Pick an Ideology] [in your cities] <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>" // Early Adopter (usually provided to the first two civs)
 		],
+		"civilopediaText": [
+			{
+				"text": "Best Victory Types: Cultural, Diplomatic, Domination"
+			},
+			{
+				"text": "Ideology",
+				"link": "Tutorial/Ideology"
+			}
+		],
 		"policies": [
 			// Level 1
 			{
@@ -665,6 +674,15 @@
 			"Remove [Pick an Ideology] [in your cities] <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>" // Early Adopter (usually provided to the first two civs)
 		],
+		"civilopediaText": [
+			{
+				"text": "Best Victory Types: Cultural, Domination, Science"
+			},
+			{
+				"text": "Ideology",
+				"link": "Tutorial/Ideology"
+			}
+		],
 		"policies": [
 			// Level 1
 			{
@@ -872,6 +890,15 @@
 			"Only available <before adopting [Order]>",
 			"Remove [Pick an Ideology] [in your cities] <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>" // Early Adopter (usually provided to the first two civs)
+		],
+		"civilopediaText": [
+			{
+				"text": "Best Victory Types: Cultural, Diplomatic, Scientific"
+			},
+			{
+				"text": "Ideology",
+				"link": "Tutorial/Ideology"
+			}
 		],
 		"policies": [
 			// Level 1

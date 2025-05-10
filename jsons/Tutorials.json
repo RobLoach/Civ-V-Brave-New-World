@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Ideology",
+		"steps": [
+			"Every civilization will be able to choose an Ideology upon reaching the Modern Era."
+		],
+		"civilopediaText": [
+			{
+				"text": "Autocracy",
+				"link": "Policy/Autocracy"
+			},
+			{
+				"text": "Freedom",
+				"link": "Policy/Freedom"
+			},
+			{
+				"text": "Order",
+				"link": "Policy/Order"
+			}
+		]
+	}
+]
