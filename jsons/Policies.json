@@ -24,17 +24,6 @@
 				"column": 1
 			},
 			{
-				"name": "Legalism",
-				"uniques": [
-					"Provides the cheapest [Culture] building in your first [4] cities for free"
-				],
-				"requires": [
-					"Oligarchy"
-				],
-				"row": 1,
-				"column": 3
-			},
-			{
 				"name": "Oligarchy",
 				"uniques": [
 					"Units in cities cost no Maintenance",
@@ -42,7 +31,18 @@
 					"[-100]% weight to this choice for AI decisions"
 				],
 				"row": 1,
-				"column": 5
+				"column": 3
+			},
+			{
+				"name": "Legalism",
+				"uniques": [
+					"Provides the cheapest [Culture] building in your first [4] cities for free"
+				],
+				"requires": [
+					"Oligarchy"
+				],
+				"row": 2,
+				"column": 3
 			},
 			{
 				"name": "Landed Elite",
@@ -53,7 +53,7 @@
 				"requires": [
 					"Legalism"
 				],
-				"row": 2,
+				"row": 3,
 				"column": 2
 			},
 			{
@@ -64,7 +64,7 @@
 				"requires": [
 					"Legalism"
 				],
-				"row": 2,
+				"row": 3,
 				"column": 4
 			},
 			{
@@ -341,7 +341,7 @@
 					"Mercantilism"
 				],
 				"row": 3,
-				"column": 3
+				"column": 4
 			},
 			{
 				"name": "Entrepreneurship",
@@ -442,7 +442,7 @@
 	// Ideologies
 	{
 		"name": "Autocracy",
-		"era": "Modern era",
+		"era": "Renaissance era",
 		"priorities": {
 			"Neutral": 5,
 			"Cultural": 0,
@@ -451,6 +451,7 @@
 			"Scientific": 5
 		},
 		"uniques": [
+			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
 			"Only available <before adopting [Order]>",
 			"Only available <before adopting [Freedom]>",
 			"Remove [Ideology] [in your cities] <hidden from users>",
@@ -458,7 +459,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "Best Victory Types: Cultural, Diplomatic, Domination"
+				"text": "Ideology best for Cultural, Diplomatic, and Domination Victories"
 			},
 			{
 				"text": "Ideology",
@@ -660,15 +661,16 @@
 	},
 	{
 		"name": "Order",
-		"era": "Modern era",
+		"era": "Renaissance era",
 		"priorities": {
-			"Neutral": 10,
+			"Neutral": 0,
 			"Cultural": 5,
 			"Diplomatic": 0,
 			"Domination": 5,
 			"Scientific": 10
 		},
 		"uniques": [
+			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
 			"Only available <before adopting [Autocracy]>",
 			"Only available <before adopting [Freedom]>",
 			"Remove [Ideology] [in your cities] <hidden from users>",
@@ -676,7 +678,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "Best Victory Types: Cultural, Domination, Science"
+				"text": "Ideology best for Cultural, Domination and Science Victories"
 			},
 			{
 				"text": "Ideology",
@@ -877,15 +879,16 @@
 	},
 	{
 		"name": "Freedom",
-		"era": "Modern era",
+		"era": "Renaissance era",
 		"priorities": {
 			"Neutral": 5,
-			"Cultural": 10,
+			"Cultural": 8,
 			"Diplomatic": 10,
 			"Domination": 0,
-			"Scientific": 5
+			"Scientific": 8
 		},
 		"uniques": [
+			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
 			"Only available <before adopting [Autocracy]>",
 			"Only available <before adopting [Order]>",
 			"Remove [Ideology] [in your cities] <hidden from users>",
@@ -893,7 +896,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "Best Victory Types: Cultural, Diplomatic, Scientific"
+				"text": "Ideology best for Cultural, Diplomatic, and Science Victories"
 			},
 			{
 				"text": "Ideology",
@@ -1266,7 +1269,7 @@
 		"name": "Obsolete",
 		"era": "Future era",
 		"uniques": [
-			"Comment [Policies removed in Brave New World]",
+			"Comment [Removed in Brave New World]",
 			"Unavailable",
 			"Will not be displayed in Civilopedia"
 		],

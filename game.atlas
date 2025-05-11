@@ -354,6 +354,13 @@ PolicyBranchIcons/Aesthetics
   orig: 50, 50
   offset: 0, 0
   index: -1
+PolicyIcons/Aesthetics Complete
+  rotate: false
+  xy: 868, 637
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 PolicyBranchIcons/Autocracy
   rotate: false
   xy: 544, 205
@@ -362,6 +369,13 @@ PolicyBranchIcons/Autocracy
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Exploration
+  rotate: false
+  xy: 818, 471
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Exploration Complete
   rotate: false
   xy: 818, 471
   size: 50, 50

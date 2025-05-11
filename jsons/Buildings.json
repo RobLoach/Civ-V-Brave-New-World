@@ -26,6 +26,12 @@
 		"requiredTech": "Industrialization",
 		"uniques": [
 			"[+25]% [Science] <after adopting [Workers' Faculties]>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Own 3 Factories to unlock an Ideology",
+				"link": "Tutorial/Ideology"
+			}
 		]
 	},
 	{
@@ -536,8 +542,6 @@
 			"Provides [2] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>", // Great Work Tourism in the city +100%
             "Cost increases by [30] per owned city",
 			"Only available <if [Hotel] is constructed in all [Your] cities>"
-			// TODO: Tourism output from Great Works +100%.
-			// TODO: +1 Happiness with Universal Healthcare tenet (any Ideology)
 		]
     },
 	{
@@ -550,7 +554,6 @@
 			// Trade Routes with other players made to a city with an East India Company will generate an extra 4 Gold Gold for the city owner and the Trade Route Trade Route owner gains an additional 2 Gold Gold for the Trade Route Trade Route.
 			"[+1 Gold] from each Trade Route",
             "Cost increases by [30] per owned city"
-			// TODO: +1 Happiness Happiness with Universal Healthcare tenet (any Ideology)
 		],
         "requiredTech": "Guilds"
     },
@@ -705,7 +708,6 @@
 			"Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>",
 			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
 			"Cost increases by [30] per owned city"
-			// TODO: +1 Happiness with Universal Healthcare tenet (any Ideology)
 		],
 		"requiredTech": "Iron Working"
 	},
@@ -735,7 +737,6 @@
 			"Provides [2] [Great Work of Writing Slot]",
 			"Only available <if [University] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"
-			// TODO: +1 Happiness with Universal Healthcare tenet (any Ideology)
 		],
 		"requiredTech": "Education"
 	},
@@ -751,8 +752,6 @@
 			"Cost increases by [30] per owned city",
 			"Provides [5] [Tourism] <after adopting [Religious Art]>",
 			"[+5 Culture] <after adopting [Religious Art]>"
-			// TODO: +1 Happiness with Universal Healthcare tenet (any Ideology)
-			//"[+1 Happiness] <after adopting [Universal Healthcare]>"
 		],
 		"requiredTech": "Architecture"
 	},
@@ -1277,7 +1276,7 @@
 			"Will not be displayed in Civilopedia",
 			"Unsellable <hidden from users>",
 			"Moves to new capital when capital changes <hidden from users>",
-			"Unavailable <before the [Modern era]> <hidden from users>",
+			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
 			"Only available <in cities with a [Palace]> <hidden from users>",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <after adopting [Freedom]> <hidden from users>",

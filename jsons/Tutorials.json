@@ -2,7 +2,7 @@
 	{
 		"name": "Ideology",
 		"steps": [
-			"Every civilization will be able to choose an Ideology upon reaching the Modern Era."
+			"Each civilization will be able to choose an Ideology upon reaching the Modern Era, or controlling 3 Factories."
 		],
 		"civilopediaText": [
 			{
@@ -16,6 +16,15 @@
 			{
 				"text": "Order",
 				"link": "Policy/Order"
+			},
+			{"separator": true},
+			{
+				"text": "Reach the Modern Era to unlock your Ideology",
+				"link": "Era/Modern era"
+			}
+			{
+				"text": "Alternatively, own 3 Factories to unlock your Ideology",
+				"link": "Building/Factory"
 			}
 		]
 	}
