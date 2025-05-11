@@ -94,3 +94,13 @@
 - [Sword](https://thenounproject.com/icon/sword-7843777/) by Kim Sun Young
 - [Hammer](https://thenounproject.com/icon/hammer-829071/) by Chunk Icons
 - [Torch](https://thenounproject.com/icon/torch-7526806/) by Putri Amaliya
+- [Business Specialist](https://thenounproject.com/icon/business-specialist-598034/) by Delwar Hossain
+- [Add User](https://thenounproject.com/icon/add-user-368922/) by Gregor Cresnar
+- [Spy](https://thenounproject.com/icon/spy-7776026/) by Icon Queen
+- [Money Bag](https://thenounproject.com/icon/money-bag-7868190/) by Dwi ridwanto
+- [Economic](https://thenounproject.com/icon/economic-6587778/) by HAZHA FARASYA
+- [City](https://thenounproject.com/icon/city-7677326/) by Ishaq_hmad
+- [Vote](https://thenounproject.com/icon/vote-4045417/) by SBTS
+- [Deal](https://thenounproject.com/icon/deal-7503121/) by Imron Sadewo
+- [Arsenal of Democracy](https://thenounproject.com/icon/bullet-7459993/) by rizal2109
+- [Media](https://thenounproject.com/icon/media-6922821/) by Syaeful Amri
