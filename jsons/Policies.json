@@ -547,7 +547,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 1
+				"column": 2
 			},
 			{
 				"name": "Lightning Warfare",
@@ -561,7 +561,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 3
+				"column": 4
 			},
 			{
 				"name": "Police State",
@@ -573,7 +573,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Nationalism",
@@ -584,7 +584,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 7
+				"column": 8
 			},
 			{
 				"name": "Third Alternative",
@@ -601,7 +601,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 9
+				"column": 10
 			},
 			{
 				"name": "Total War",
@@ -613,7 +613,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 11
+				"column": 12
 			},
 
 			// Level 3
@@ -626,7 +626,7 @@
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
-				"column": 1
+				"column": 3
 			},
 			{
 				"name": "Gunboat Diplomacy",
@@ -638,7 +638,7 @@
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
-				"column": 3
+				"column": 5
 			},
 			{
 				"name": "Clausewitz's Legacy",
@@ -648,7 +648,7 @@
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
-				"column": 5
+				"column": 7
 			},
 			{
 				"name": "Autocracy Complete",
@@ -767,7 +767,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 1
+				"column": 2
 			},
 			{
 				"name": "Party Leadership",
@@ -778,7 +778,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 3
+				"column": 4
 			},
 			{
 				"name": "Resettlement",
@@ -790,7 +790,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Cultural Revolution",
@@ -802,7 +802,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 7
+				"column": 8
 			},
 			{
 				"name": "Workers' Faculties",
@@ -814,7 +814,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 9
+				"column": 10
 			},
 			{
 				"name": "Five-Year Plan",
@@ -827,7 +827,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 11
+				"column": 12
 			},
 
 			// Level 3
@@ -840,7 +840,7 @@
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
-				"column": 1
+				"column": 3
 			},
 			{
 				"name": "Iron Curtain",
@@ -852,7 +852,7 @@
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
-				"column": 3
+				"column": 5
 			},
 			{
 				"name": "Spaceflight Pioneers",
@@ -865,7 +865,7 @@
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
-				"column": 5
+				"column": 7
 			},
 			{
 				"name": "Order Complete",
@@ -986,7 +986,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 1
+				"column": 2
 			},
 			{
 				"name": "Urbanization",
@@ -999,7 +999,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 3
+				"column": 4
 			},
 			{
 				"name": "Their Finest Hour",
@@ -1010,7 +1010,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 5
+				"column": 6
 			},
 			{
 				"name": "Universal Suffrage",
@@ -1022,7 +1022,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 7
+				"column": 8
 			},
 			{
 				"name": "New Deal",
@@ -1038,7 +1038,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 9
+				"column": 10
 			},
 			{
 				"name": "Arsenal of Democracy",
@@ -1050,7 +1050,7 @@
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 11
+				"column": 12
 			},
 
 			// Level 3
@@ -1063,7 +1063,7 @@
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
-				"column": 1
+				"column": 3
 			},
 			{
 				"name": "Treaty Organization",
@@ -1074,7 +1074,7 @@
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
-				"column": 3
+				"column": 5
 			},
 			{
 				"name": "Space Procurements",
@@ -1084,7 +1084,7 @@
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
 				"row": 3,
-				"column": 5
+				"column": 7
 			},
 			{
 				"name": "Freedom Complete",
@@ -1266,6 +1266,7 @@
 		"name": "Obsolete",
 		"era": "Future era",
 		"uniques": [
+			"Comment [Policies removed in Brave New World]",
 			"Unavailable",
 			"Will not be displayed in Civilopedia"
 		],
@@ -1364,8 +1365,8 @@
 					"Unavailable",
 					"Will not be displayed in Civilopedia"
 				],
-				"row": 4,
-				"column": 1
+				"row": 1,
+				"column": 2
 			},
 			{
 				"name": "Free Speech",
@@ -1373,8 +1374,8 @@
 					"Unavailable",
 					"Will not be displayed in Civilopedia"
 				],
-				"row": 4,
-				"column": 3
+				"row": 1,
+				"column": 4
 			},
 			{
 				"name": "Obsolete Complete",

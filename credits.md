@@ -104,3 +104,18 @@
 - [Deal](https://thenounproject.com/icon/deal-7503121/) by Imron Sadewo
 - [Arsenal of Democracy](https://thenounproject.com/icon/bullet-7459993/) by rizal2109
 - [Media](https://thenounproject.com/icon/media-6922821/) by Syaeful Amri
+- [Mobilization](https://thenounproject.com/icon/sale-7772060/) by Skena Grafis
+- [Futurism](https://thenounproject.com/icon/tourist-7083437/) by Andre Buand
+- [Industrial Espionage](https://thenounproject.com/icon/robbery-7183772/) by Zach Hainsworth
+- [Lightning Warfare](https://thenounproject.com/icon/lightning-7761817/) by Ariso
+- [Third Alternative](https://thenounproject.com/icon/capital-7169973/) by Nursila
+- [Cult of Personality](https://thenounproject.com/icon/bully-4616110/) by Kamin Ginkaew
+- [Gunboat Diplomacy](https://thenounproject.com/icon/diplomacy-6258254/) by WBcreative
+- [Clausewitz's Legacy](https://thenounproject.com/icon/muscles-7459499/) by Ashok
+- [Socialist Realism](https://thenounproject.com/icon/monument-6860915/) by I Putu Kharismayadi
+- [Skyscrapers](https://thenounproject.com/icon/building-7605346/) by Vida Baris
+- [Double Agent](https://thenounproject.com/icon/spy-1807269/) by Adrien Coquet
+- [Party Leadership](https://thenounproject.com/icon/leader-925242/) by Oksana Latysheva
+- [Resettlement](https://thenounproject.com/icon/resettlement-2209642/) by Nithinan Tatah
+- [Cultural Revolution](https://thenounproject.com/icon/cultural-activities-7659287/) by Mia Elysia
+- [Spaceflight Pioneers](https://thenounproject.com/icon/astronaut-7528057/) by ArashDesign
