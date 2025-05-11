@@ -1267,7 +1267,7 @@
 
 	// Events
 	{
-		"name": "Pick an Ideology", // Triggered in Modern Era to pick an Ideology
+		"name": "Ideology", // Triggered in Modern Era to pick an Ideology
 		"hurryCostModifier": -100,
 		"cost": 1,
 		"uniques": [
