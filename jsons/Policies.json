@@ -3,11 +3,11 @@
 		"name": "Tradition",
 		"era": "Ancient era",
 		"priorities": {
-			"Neutral": 5,
-			"Cultural": 5,
-			"Diplomatic": 5,
-			"Domination": 5,
-			"Scientific": 5
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 10
 		},
 		"uniques": [
 			"[+3 Culture] [in capital]",
@@ -81,11 +81,11 @@
 		"name": "Piety",
 		"era": "Ancient era",
 		"priorities": {
-			"Neutral": 0,
-			"Cultural": 0,
-			"Diplomatic": 0,
-			"Domination": 0,
-			"Scientific": 0
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 0
 		},
 		"uniques": [
 			"[+50]% Production when constructing [Shrine] buildings [in all cities]",
@@ -205,11 +205,11 @@
 		"name": "Patronage",
 		"era": "Medieval era",
 		"priorities": {
-			"Neutral": 5,
-			"Cultural": 5,
-			"Diplomatic": 10,
-			"Domination": 5,
-			"Scientific": 5
+            "Neutral": 0,
+            "Cultural": 0,
+            "Diplomatic": 20,
+            "Domination": 0,
+            "Scientific": 0
 		},
 		"uniques": [
 			"[-25]% City-State Influence degradation",
@@ -289,11 +289,11 @@
 		"name": "Commerce",
 		"era": "Medieval era",
 		"priorities": {
-			"Neutral": 5,
-			"Cultural": 5,
-			"Diplomatic": 5,
-			"Domination": 5,
-			"Scientific": 5
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 20,
+            "Scientific": 10
 		},
 		"uniques": [
 			"[+25]% [Gold] [in capital]"
@@ -368,11 +368,11 @@
 		"name": "Rationalism",
 		"era": "Renaissance era",
 		"priorities": {
-			"Neutral": 10,
-			"Cultural": 10,
-			"Diplomatic": 10,
-			"Domination": 10,
-			"Scientific": 10
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 40
 		},
 		"uniques": [
 			"[+10]% [Science] <while the empire is happy>"
@@ -444,11 +444,11 @@
 		"name": "Autocracy",
 		"era": "Renaissance era",
 		"priorities": {
-			"Neutral": 5,
-			"Cultural": 0,
-			"Diplomatic": 5,
-			"Domination": 10,
-			"Scientific": 5
+            "Neutral": 20,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 30,
+            "Scientific": 0
 		},
 		"uniques": [
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
@@ -663,11 +663,11 @@
 		"name": "Order",
 		"era": "Renaissance era",
 		"priorities": {
-			"Neutral": 0,
-			"Cultural": 5,
-			"Diplomatic": 0,
-			"Domination": 5,
-			"Scientific": 10
+            "Neutral": 10,
+            "Cultural": 0,
+            "Diplomatic": 20,
+            "Domination": 0,
+            "Scientific": 30
 		},
 		"uniques": [
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
@@ -881,11 +881,11 @@
 		"name": "Freedom",
 		"era": "Renaissance era",
 		"priorities": {
-			"Neutral": 5,
-			"Cultural": 8,
-			"Diplomatic": 10,
-			"Domination": 0,
-			"Scientific": 8
+            "Neutral": 30,
+            "Cultural": 30,
+            "Diplomatic": 30,
+            "Domination": 0,
+            "Scientific": 30
 		},
 		"uniques": [
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
@@ -1108,7 +1108,7 @@
 			"Neutral": 0,
 			"Cultural": 0,
 			"Diplomatic": 10,
-			"Domination": 60,
+			"Domination": 30,
 			"Scientific": 10
 		},
 		"policies": [
