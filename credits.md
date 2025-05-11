@@ -91,3 +91,6 @@
 - [Ruins](https://thenounproject.com/icon/ruins-175277/) by Creative Stall
 - [Artifact](https://thenounproject.com/icon/Artifact-3243819/) by Vectors Point
 - [Internet](https://thenounproject.com/icon/internet-7818125/) by Sugeng Riyanto
+- [Sword](https://thenounproject.com/icon/sword-7843777/) by Kim Sun Young
+- [Hammer](https://thenounproject.com/icon/hammer-829071/) by Chunk Icons
+- [Torch](https://thenounproject.com/icon/torch-7526806/) by Putri Amaliya
