@@ -21,6 +21,7 @@
 		"occursOn": ["Plains"],
 		"impassable": true,
 		"unbuildable": true,
+		"overrideStats": true,
 		"uniques": [
 			"Rough terrain",
 			"Fresh water",
