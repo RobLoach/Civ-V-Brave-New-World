@@ -19,13 +19,15 @@
 		"type": "NaturalWonder",
 		"food": 6,
 		"occursOn": ["Plains"],
-		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": [
+			"Rough terrain",
 			"Fresh water",
 			"Blocks line-of-sight from tiles at same elevation",
-			"Must be adjacent to [0] [Coast] tiles"
+            "Units ending their turn on this terrain take [50] damage",
+			"Must be adjacent to [0] [Coast] tiles",
+			"Doesn't generate naturally <in [Hill] tiles>"
 		],
 		"weight": 10
 	},
