@@ -12,7 +12,8 @@
 			"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Chateau] tiles>",
 			"Gives a defensive bonus of [50]%",
 			"[+2 Gold, +1 Culture] <after discovering [Flight]>",
-			"Cannot be built on [resource] tiles"
+			"Cannot be built on [resource] tiles",
+			"Will not be replaced by automated units"
 		]
 	},
 	{
@@ -24,7 +25,8 @@
 		"techRequired": "Machinery",
 		"uniques": [
 			"[+2 Culture] <after discovering [Acoustics]>",
-			"Cannot be built on [resource] tiles"
+			"Cannot be built on [resource] tiles",
+			"Will not be replaced by automated units"
 		]
 	},
 		{
@@ -40,7 +42,8 @@
 			"Gives a defensive bonus of [50]%",
 			"Must be next to [City center]",
 			"Can only be built on [Coastal] tiles",
-			"Cannot be built on [resource] tiles"
+			"Cannot be built on [resource] tiles",
+			"Will not be replaced by automated units"
 			// Pillaging this improvement constitutes an act of war against Portugal
 		]
 	},
@@ -55,7 +58,8 @@
 		"techRequired": "Chivalry",
 		"uniques": [
 			"Gives a defensive bonus of [50]%",
-			"Cannot be built on [resource] tiles"
+			"Cannot be built on [resource] tiles",
+			"Will not be replaced by automated units"
 		]
 	},
 
