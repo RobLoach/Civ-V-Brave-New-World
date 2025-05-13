@@ -38,13 +38,37 @@
 		"happiness": 1,
 		"techRequired": "Navigation",
 		"uniques": [
-			// TODO: 1 copy of any luxury resource(s) the City-State has, regardless of relations. This resource cannot be traded.
 			"Gives a defensive bonus of [50]%",
-			"Must be next to [City center]",
 			"Can only be built on [Coastal] tiles",
+			"Can only be built on [City-State] tiles",
 			"Cannot be built on [resource] tiles",
-			"Will not be replaced by automated units"
-			// Pillaging this improvement constitutes an act of war against Portugal
+			"Can be built outside your borders",
+			"Will not be replaced by automated units <hidden from users>",
+			// TODO: Fix Resources. "Provide [1] [Cotton]" gives it to the owning civ instead of the builder.
+			// "Comment [Provides 1 copy of any neighboring Luxury resource]", // Resource cannot be traded.
+			// "Provides [1] [Cotton] <in tiles adjacent to [Cotton] tiles> <hidden from users>",
+			// "Provides [1] [Spices] <with [1] to [6] neighboring [Spices] tiles> <hidden from users>",
+			// "Provides [1] [Sugar] <with [1] to [6] neighboring [Sugar] tiles> <hidden from users>",
+			// "Provides [1] [Furs] <with [1] to [6] neighboring [Furs] tiles> <hidden from users>",
+			// "Provides [1] [Ivory] <with [1] to [6] neighboring [Ivory] tiles> <hidden from users>",
+			// "Provides [1] [Silk] <with [1] to [6] neighboring [Silk] tiles> <hidden from users>",
+			// "Provides [1] [Dyes] <with [1] to [6] neighboring [Dyes] tiles> <hidden from users>",
+			// "Provides [1] [Incense] <with [1] to [6] neighboring [Incense] tiles> <hidden from users>",
+			// "Provides [1] [Wine] <with [1] to [6] neighboring [Wine] tiles> <hidden from users>",
+			// "Provides [1] [Gold Ore] <with [1] to [6] neighboring [Gold Ore] tiles> <hidden from users>",
+			// "Provides [1] [Silver] <with [1] to [6] neighboring [Silver] tiles> <hidden from users>",
+			// "Provides [1] [Marble] <with [1] to [6] neighboring [Marble] tiles> <hidden from users>",
+			// "Provides [1] [Pearls] <with [1] to [6] neighboring [Pearls] tiles> <hidden from users>",
+			// "Provides [1] [Truffles] <with [1] to [6] neighboring [Truffles] tiles> <hidden from users>",
+			// "Provides [1] [Jewelry] <with [1] to [6] neighboring [Jewelry] tiles> <hidden from users>",
+			// "Provides [1] [Porcelain] <with [1] to [6] neighboring [Porcelain] tiles> <hidden from users>",
+			// "Provides [1] [Crab] <with [1] to [6] neighboring [Crab] tiles> <hidden from users>",
+			// "Provides [1] [Salt] <with [1] to [6] neighboring [Salt] tiles> <hidden from users>",
+			// "Provides [1] [Whales] <with [1] to [6] neighboring [Whales] tiles> <hidden from users>",
+			// "Provides [1] [Citrus] <with [1] to [6] neighboring [Citrus] tiles> <hidden from users>",
+			// "Provides [1] [Cocoa] <with [1] to [6] neighboring [Cocoa] tiles> <hidden from users>",
+			// "Provides [1] [Gems] <with [1] to [6] neighboring [Gems] tiles> <hidden from users>",
+			"Destroyed when pillaged" // TODO: Considered an act of war against Portugal
 		]
 	},
 	{

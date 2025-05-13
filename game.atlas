@@ -6,1477 +6,1491 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Airport
   rotate: false
-  xy: 4, 910
+  xy: 4, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Artists' Guild
   rotate: false
-  xy: 220, 910
+  xy: 220, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Art 1
   rotate: false
-  xy: 220, 910
+  xy: 220, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Art 2
   rotate: false
-  xy: 220, 910
+  xy: 220, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Art 3
   rotate: false
-  xy: 220, 910
+  xy: 220, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Art 4
   rotate: false
-  xy: 220, 910
+  xy: 220, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Art 5
   rotate: false
-  xy: 220, 910
+  xy: 220, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Art 6
   rotate: false
-  xy: 220, 910
+  xy: 220, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Art 7
   rotate: false
-  xy: 220, 910
+  xy: 220, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Art 8
   rotate: false
-  xy: 220, 910
+  xy: 220, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Great Work of Art
   rotate: false
-  xy: 220, 910
+  xy: 220, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Great Work of Art Slot
   rotate: false
-  xy: 220, 910
+  xy: 220, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Borobudur
   rotate: false
-  xy: 4, 478
+  xy: 4, 479
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Broadway
   rotate: false
-  xy: 328, 802
+  xy: 328, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Candi
   rotate: false
-  xy: 436, 910
+  xy: 436, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Caravansary
   rotate: false
-  xy: 4, 370
+  xy: 4, 371
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Cloves
   rotate: false
-  xy: 328, 694
+  xy: 328, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Cloves
   rotate: false
-  xy: 328, 694
+  xy: 328, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ducal Stable
   rotate: false
-  xy: 112, 370
+  xy: 112, 371
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/East India Company
   rotate: false
-  xy: 220, 478
+  xy: 220, 479
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Globe Theatre
   rotate: false
-  xy: 652, 910
+  xy: 652, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Hotel
   rotate: false
-  xy: 760, 910
+  xy: 760, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ikanda
   rotate: false
-  xy: 4, 46
+  xy: 4, 47
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/International Space Station
   rotate: false
-  xy: 328, 370
+  xy: 328, 371
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/National Visitor Center
   rotate: false
-  xy: 112, 46
+  xy: 112, 47
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Nutmeg
   rotate: false
-  xy: 328, 262
+  xy: 328, 263
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Nutmeg
   rotate: false
-  xy: 328, 262
+  xy: 328, 263
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Parthenon
   rotate: false
-  xy: 436, 370
+  xy: 436, 371
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Pepper
   rotate: false
-  xy: 652, 586
+  xy: 652, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Pepper
   rotate: false
-  xy: 652, 586
+  xy: 652, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Prora
   rotate: false
-  xy: 220, 46
+  xy: 220, 47
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Red Fort
   rotate: false
-  xy: 436, 262
+  xy: 436, 263
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Royal Library
   rotate: false
-  xy: 544, 370
+  xy: 544, 371
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Uffizi
   rotate: false
-  xy: 1084, 910
+  xy: 1084, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/limit
   rotate: false
-  xy: 652, 370
+  xy: 652, 371
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Archaeological Dig
   rotate: false
-  xy: 112, 910
+  xy: 112, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Brazilwood Camp
   rotate: false
-  xy: 220, 694
+  xy: 220, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Chateau
   rotate: false
-  xy: 112, 478
+  xy: 112, 479
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Feitoria
   rotate: false
-  xy: 436, 694
+  xy: 436, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Kasbah
   rotate: false
-  xy: 436, 478
+  xy: 436, 479
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Assyria
   rotate: false
-  xy: 4, 586
+  xy: 4, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Brazil
   rotate: false
-  xy: 112, 586
+  xy: 112, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Indonesia
   rotate: false
-  xy: 220, 262
+  xy: 220, 263
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Morocco
   rotate: false
-  xy: 868, 910
+  xy: 868, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Poland
   rotate: false
-  xy: 760, 694
+  xy: 760, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Portugal
   rotate: false
-  xy: 868, 802
+  xy: 868, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Shoshone
   rotate: false
-  xy: 652, 478
+  xy: 652, 479
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Venice
   rotate: false
-  xy: 328, 46
+  xy: 328, 47
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Zulu
   rotate: false
-  xy: 544, 262
+  xy: 544, 263
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Aesthetics
   rotate: false
-  xy: 1858, 960
+  xy: 1296, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Aesthetics Complete
   rotate: false
-  xy: 1858, 960
+  xy: 1296, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Autocracy
   rotate: false
-  xy: 1412, 896
+  xy: 1586, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Exploration
   rotate: false
-  xy: 494, 18
+  xy: 853, 289
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Exploration Complete
   rotate: false
-  xy: 494, 18
+  xy: 853, 289
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Freedom
   rotate: false
-  xy: 853, 288
+  xy: 552, 11
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Order
   rotate: false
-  xy: 1030, 640
+  xy: 1478, 839
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Academy of Sciences
   rotate: false
-  xy: 1800, 960
+  xy: 1944, 961
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Arsenal of Democracy
   rotate: false
-  xy: 1296, 896
+  xy: 1470, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Artistic Genius
   rotate: false
-  xy: 1354, 896
+  xy: 1528, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Avant Garde
   rotate: false
-  xy: 1470, 896
+  xy: 1644, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Capitalism
   rotate: false
-  xy: 1586, 896
+  xy: 1760, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Civil Society
   rotate: false
-  xy: 1644, 896
+  xy: 1818, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Clausewitz's Legacy
   rotate: false
-  xy: 1702, 896
+  xy: 1876, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Consulates
   rotate: false
-  xy: 1760, 896
+  xy: 760, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Covert Action
   rotate: false
-  xy: 1818, 902
+  xy: 737, 289
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Creative Expression
   rotate: false
-  xy: 4, 262
+  xy: 4, 263
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Religious Tolerance
   rotate: false
-  xy: 4, 262
+  xy: 4, 263
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Great Work
   rotate: false
-  xy: 4, 262
+  xy: 4, 263
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Great Writer
   rotate: false
-  xy: 4, 262
+  xy: 4, 263
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Cult of Personality
   rotate: false
-  xy: 1876, 902
+  xy: 436, 19
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Cultural Centers
   rotate: false
-  xy: 1934, 902
+  xy: 544, 127
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Cultural Exchange
   rotate: false
-  xy: 1992, 902
+  xy: 652, 235
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Cultural Revolution
   rotate: false
-  xy: 760, 346
+  xy: 818, 347
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Dictatorship of the Proletariat
   rotate: false
-  xy: 436, 18
+  xy: 494, 19
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Double Agents
   rotate: false
-  xy: 544, 126
+  xy: 602, 127
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Economic Union
   rotate: false
-  xy: 652, 234
+  xy: 710, 231
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Elite Forces
   rotate: false
-  xy: 818, 346
+  xy: 768, 231
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Entrepreneurship
   rotate: false
-  xy: 795, 288
+  xy: 826, 231
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Fine Arts
   rotate: false
-  xy: 602, 126
+  xy: 884, 231
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Five-Year Plan
   rotate: false
-  xy: 710, 230
+  xy: 845, 425
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Flourishing of the Arts
   rotate: false
-  xy: 768, 230
+  xy: 1934, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Fortified Borders
   rotate: false
-  xy: 826, 230
+  xy: 552, 69
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Futurism
   rotate: false
-  xy: 884, 230
+  xy: 610, 69
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Gunboat Diplomacy
   rotate: false
-  xy: 845, 424
+  xy: 610, 11
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Hero of the People
   rotate: false
-  xy: 552, 10
+  xy: 972, 637
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Industrial Espionage
   rotate: false
-  xy: 610, 68
+  xy: 972, 579
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Iron Curtain
   rotate: false
-  xy: 610, 10
+  xy: 1030, 641
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Lightning Warfare
   rotate: false
-  xy: 876, 366
+  xy: 1030, 583
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Maritime Infrastructure
   rotate: false
-  xy: 1818, 844
+  xy: 1188, 853
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Media Culture
   rotate: false
-  xy: 1876, 844
+  xy: 1188, 795
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Mercenary Army
   rotate: false
-  xy: 1934, 844
+  xy: 1246, 839
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Merchant Confederacy
   rotate: false
-  xy: 652, 694
+  xy: 652, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Mobilization
   rotate: false
-  xy: 1992, 844
+  xy: 1304, 839
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Navigation School
   rotate: false
-  xy: 972, 636
+  xy: 1362, 839
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/New Deal
   rotate: false
-  xy: 972, 578
+  xy: 1420, 839
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Party Leadership
   rotate: false
-  xy: 1030, 582
+  xy: 1536, 839
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Patriotic War
   rotate: false
-  xy: 1188, 852
+  xy: 1594, 839
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Resettlement
   rotate: false
-  xy: 1188, 794
+  xy: 1652, 839
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Skyscrapers
   rotate: false
-  xy: 1246, 838
+  xy: 1710, 839
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Socialist Realism
   rotate: false
-  xy: 1304, 838
+  xy: 1768, 839
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Space Procurements
   rotate: false
-  xy: 1362, 838
+  xy: 1826, 839
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Spaceflight Pioneers
   rotate: false
-  xy: 1420, 838
+  xy: 1884, 839
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Their Finest Hour
   rotate: false
-  xy: 1478, 838
+  xy: 1942, 839
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Third Alternative
   rotate: false
-  xy: 1536, 838
+  xy: 1246, 781
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Treasure Fleets
   rotate: false
-  xy: 1594, 838
+  xy: 1304, 781
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Treaty Organization
   rotate: false
-  xy: 1652, 838
+  xy: 1362, 781
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Universal Healthcare (Autocracy)
   rotate: false
-  xy: 1710, 838
+  xy: 1420, 781
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Universal Healthcare (Freedom)
   rotate: false
-  xy: 1710, 838
+  xy: 1420, 781
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Universal Healthcare (Order)
   rotate: false
-  xy: 1710, 838
+  xy: 1420, 781
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Universal Suffrage
   rotate: false
-  xy: 1246, 780
+  xy: 1478, 781
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Urbanization
   rotate: false
-  xy: 1304, 780
+  xy: 1536, 781
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Volunteer Army
   rotate: false
-  xy: 1362, 780
+  xy: 1594, 781
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Wagon Trains
   rotate: false
-  xy: 1420, 780
+  xy: 1652, 781
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Workers' Faculties
   rotate: false
-  xy: 1478, 780
+  xy: 1710, 781
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Young Pioneers
   rotate: false
-  xy: 1536, 780
+  xy: 1768, 781
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ReligionIcons/Christianity
   rotate: false
-  xy: 220, 586
+  xy: 220, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Eastern Orthodoxy
   rotate: false
-  xy: 328, 586
+  xy: 328, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Protestantism
   rotate: false
-  xy: 328, 154
+  xy: 328, 155
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Antiquity Site
   rotate: false
-  xy: 4, 802
+  xy: 4, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Artifact
   rotate: false
-  xy: 112, 802
+  xy: 112, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Artifact 1
   rotate: false
-  xy: 112, 802
+  xy: 112, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Artifact 2
   rotate: false
-  xy: 112, 802
+  xy: 112, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Artifact 3
   rotate: false
-  xy: 112, 802
+  xy: 112, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Artifact 4
   rotate: false
-  xy: 112, 802
+  xy: 112, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Artifact 5
   rotate: false
-  xy: 112, 802
+  xy: 112, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Artifact 6
   rotate: false
-  xy: 112, 802
+  xy: 112, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Artifact 7
   rotate: false
-  xy: 112, 802
+  xy: 112, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Artifact 8
   rotate: false
-  xy: 112, 802
+  xy: 112, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Bison
   rotate: false
-  xy: 328, 910
+  xy: 328, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Cocoa
   rotate: false
-  xy: 436, 802
+  xy: 436, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Great Work of Music
   rotate: false
-  xy: 436, 586
+  xy: 436, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Music 1
   rotate: false
-  xy: 436, 586
+  xy: 436, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Music 2
   rotate: false
-  xy: 436, 586
+  xy: 436, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Music 3
   rotate: false
-  xy: 436, 586
+  xy: 436, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Music 4
   rotate: false
-  xy: 436, 586
+  xy: 436, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Music 5
   rotate: false
-  xy: 436, 586
+  xy: 436, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Music 6
   rotate: false
-  xy: 436, 586
+  xy: 436, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Music 7
   rotate: false
-  xy: 436, 586
+  xy: 436, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Music 8
   rotate: false
-  xy: 436, 586
+  xy: 436, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Musicians' Guild
   rotate: false
-  xy: 436, 586
+  xy: 436, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Great Work of Music Slot
   rotate: false
-  xy: 436, 586
+  xy: 436, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Great Work of Writing
   rotate: false
-  xy: 544, 694
+  xy: 544, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Writing 1
   rotate: false
-  xy: 544, 694
+  xy: 544, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Writing 2
   rotate: false
-  xy: 544, 694
+  xy: 544, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Writing 3
   rotate: false
-  xy: 544, 694
+  xy: 544, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Writing 4
   rotate: false
-  xy: 544, 694
+  xy: 544, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Writing 5
   rotate: false
-  xy: 544, 694
+  xy: 544, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Writing 6
   rotate: false
-  xy: 544, 694
+  xy: 544, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Writing 7
   rotate: false
-  xy: 544, 694
+  xy: 544, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Work of Writing 8
   rotate: false
-  xy: 544, 694
+  xy: 544, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ideology
   rotate: false
-  xy: 544, 694
+  xy: 544, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Writers' Guild
   rotate: false
-  xy: 544, 694
+  xy: 544, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Great Work of Writing Slot
   rotate: false
-  xy: 544, 694
+  xy: 544, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Tourism
   rotate: false
-  xy: 976, 802
+  xy: 976, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/The Internet
   rotate: false
-  xy: 868, 694
+  xy: 868, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Berber Cavalry
   rotate: false
-  xy: 436, 76
+  xy: 436, 77
   size: 77, 70
   orig: 77, 70
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Comanche Rider
   rotate: false
-  xy: 544, 184
+  xy: 544, 185
   size: 77, 70
   orig: 77, 70
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Great Galleass
   rotate: false
-  xy: 1440, 954
+  xy: 1512, 955
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Impi
   rotate: false
-  xy: 760, 482
+  xy: 760, 483
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Kris Swordsman
   rotate: false
-  xy: 868, 590
+  xy: 868, 591
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Merchant of Venice
   rotate: false
-  xy: 976, 698
+  xy: 976, 699
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Nau
   rotate: false
-  xy: 1512, 954
+  xy: 1584, 955
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Pathfinder
   rotate: false
-  xy: 1084, 806
+  xy: 1084, 807
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Pracinha
   rotate: false
-  xy: 1192, 914
+  xy: 1192, 915
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Siege Tower
   rotate: false
-  xy: 652, 292
+  xy: 652, 293
   size: 77, 70
   orig: 77, 70
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Winged Hussar
   rotate: false
-  xy: 760, 404
+  xy: 760, 405
   size: 77, 70
   orig: 77, 70
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Chateau
   rotate: false
-  xy: 4, 5
+  xy: 2002, 978
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Feitoria
   rotate: false
-  xy: 1768, 853
+  xy: 4, 4
   size: 32, 35
   orig: 32, 35
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Jungle+Brazilwood Camp
   rotate: false
-  xy: 44, 7
+  xy: 44, 8
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Kasbah
   rotate: false
-  xy: 84, 9
+  xy: 84, 10
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/King Solomon's Mines
   rotate: false
-  xy: 124, 4
+  xy: 124, 5
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lake Victoria
   rotate: false
-  xy: 164, 4
+  xy: 164, 5
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mount Kilimanjaro
   rotate: false
-  xy: 204, 4
+  xy: 204, 5
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Future Soldier
   rotate: false
-  xy: 1594, 802
+  xy: 1826, 803
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hand-Axe
   rotate: false
-  xy: 1634, 802
+  xy: 1866, 803
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/HexaRealm/Tiles/Brazilwood Camp-Pillaged
+  rotate: false
+  xy: 1296, 955
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Tiles/Grassland+Jungle+Brazilwood Camp
   rotate: false
-  xy: 1296, 954
+  xy: 1368, 955
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Jungle+Brazilwood Camp2
   rotate: false
-  xy: 1368, 954
+  xy: 1440, 955
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Jungle+Brazilwood Camp
   rotate: false
-  xy: 1584, 954
+  xy: 1656, 955
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Plains+Jungle+Brazilwood Camp-Pillaged
+  rotate: false
+  xy: 1800, 955
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Jungle+Brazilwood Camp2
   rotate: false
-  xy: 1656, 954
+  xy: 1728, 955
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Lake Victoria
   rotate: false
-  xy: 1728, 954
+  xy: 1872, 955
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 UnitIcons/Archaeologist
   rotate: false
-  xy: 4, 694
+  xy: 4, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bazooka
   rotate: false
-  xy: 112, 694
+  xy: 112, 695
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Berber Cavalry
   rotate: false
-  xy: 220, 802
+  xy: 220, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Comanche Rider
   rotate: false
-  xy: 544, 910
+  xy: 544, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Future Soldier
   rotate: false
-  xy: 544, 802
+  xy: 544, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Great Admiral
   rotate: false
-  xy: 4, 154
+  xy: 4, 155
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Great Artist
   rotate: false
-  xy: 112, 262
+  xy: 112, 263
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Great Galleass
   rotate: false
-  xy: 220, 370
+  xy: 220, 371
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Great Musician
   rotate: false
-  xy: 328, 478
+  xy: 328, 479
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hand-Axe
   rotate: false
-  xy: 652, 802
+  xy: 652, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Impi
   rotate: false
-  xy: 112, 154
+  xy: 112, 155
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Kris Swordsman
   rotate: false
-  xy: 544, 586
+  xy: 544, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Merchant of Venice
   rotate: false
-  xy: 760, 802
+  xy: 760, 803
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Nau
   rotate: false
-  xy: 220, 154
+  xy: 220, 155
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pathfinder
   rotate: false
-  xy: 544, 478
+  xy: 544, 479
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pracinha
   rotate: false
-  xy: 976, 910
+  xy: 976, 911
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Siege Tower
   rotate: false
-  xy: 760, 586
+  xy: 760, 587
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Winged Hussar
   rotate: false
-  xy: 436, 154
+  xy: 436, 155
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Altitude Training
   rotate: false
-  xy: 1916, 960
+  xy: 1354, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ambition
   rotate: false
-  xy: 1974, 960
+  xy: 1412, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Heroism
   rotate: false
-  xy: 1974, 960
+  xy: 1412, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Invulnerability
   rotate: false
-  xy: 1974, 960
+  xy: 1412, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Mystic Blade
   rotate: false
-  xy: 1974, 960
+  xy: 1412, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Restlessness
   rotate: false
-  xy: 1974, 960
+  xy: 1412, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sneak Attack
   rotate: false
-  xy: 1974, 960
+  xy: 1412, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Buffalo Chest
   rotate: false
-  xy: 1528, 896
+  xy: 1702, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Buffalo Horns
   rotate: false
-  xy: 1528, 896
+  xy: 1702, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Buffalo Loins
   rotate: false
-  xy: 1528, 896
+  xy: 1702, 897
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Desert Warrior
   rotate: false
-  xy: 737, 288
+  xy: 795, 289
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Homeland Guardian
   rotate: false
-  xy: 737, 288
+  xy: 795, 289
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Heavy Charge
   rotate: false
-  xy: 552, 68
+  xy: 876, 367
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
