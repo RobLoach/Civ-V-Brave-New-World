@@ -31,9 +31,9 @@
 		"presentation": "Alert",
 		"choices": [
 			{
-				"text": "Gain the Culture",
+				"text": "Begin the Renaissance",
 				"uniques": [
-					"Gain [200] [Culture] <(modified by game speed)>"
+					"Free Social Policy" // Culture Bomb in Civ 5
 				]
 			}
 		]
