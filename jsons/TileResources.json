@@ -261,19 +261,15 @@
 			{ "text": "Artifacts are found from Archaeological Digs with Archaeologists on Antiquity Sites. They can then be slotted into a Great Work of Art Slot." },
 			{ "separator": true },
 			{
-				"text": "Archaeologist",
+				"text": "Found by Archaeologist",
 				"link": "Unit/Archaeologist"
 			},
 			{
-				"text": "Archaeological Dig",
-				"link": "Improvement/Archaeological Dig"
-			},
-			{
-				"text": "Antiquity Site",
+				"text": "Found in Antiquity Site",
 				"link": "Resource/Antiquity Site"
 			},
 			{
-				"text": "Great Work of Art Slot",
+				"text": "Used in a Great Work of Art Slot in cities",
 				"link": "Resource/Great Work of Art Slot"
 			}
 		]
@@ -306,11 +302,15 @@
 			"Excluded from map editor"
 		],
 		"civilopediaText": [
-			{ "text": "Slotted with a Great Work of Art." },
+			{ "text": "Slotted with either a Great Work of Art or an Artefact." },
 			{ "separator": true },
 			{
 				"text": "Great Work of Art",
 				"link": "Resource/Great Work of Art"
+			},
+			{
+				"text": "Artefact",
+				"link": "Resource/Artefact"
 			}
 		]
     },
