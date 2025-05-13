@@ -144,7 +144,8 @@
 		],
         "uniques": [
 			"Generated on every [150] tiles",
-			"Not shown on world screen"
+			"Not shown on world screen",
+			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Antiquity Sites can be dug up for Artifacts, or turned into Landmarks, by Archaeologists." },
@@ -173,7 +174,8 @@
 		],
         "uniques": [
 			"Generated on every [200] tiles",
-			"Not shown on world screen"
+			"Not shown on world screen",
+			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Hidden Antiquity Sites can be dug up by Archaeologists for a chance of Great Works of Writing and Cultural Renaissances. They are revealed by completing the Exploration Policy tree." },
@@ -196,15 +198,6 @@
 			}
 		]
     },
-	/*
-	// TODO: Add Hidden Antiquity site https://civilization.fandom.com/wiki/Antiquity_Site_(Civ5)
-	{
-		"name": "Hidden Antiquity Site",
-		"resourceType": "Bonus",
-		"revealedBy": "Archaeology",
-		"terrainsCanBeFoundOn": ["Plains", "Grassland", "Forest", "Jungle", "Marsh"]
-	}
-	*/
     {
         "name": "Great Work of Writing",
         "resourceType": "Strategic",
