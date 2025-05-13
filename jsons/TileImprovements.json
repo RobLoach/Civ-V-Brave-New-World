@@ -125,7 +125,7 @@
 		"culture": 1, // Used to allow automation.
         "uniques": [
 			"Triggers a [Archaeological Dig] event <in [Antiquity Site] tiles>",
-			// Hidden Antiquity Sites give 30% chance in Civ 5.
+			// Hidden Antiquity Sites give 30% chance in Civ 5. We use 80% because we're generous.
 			"Triggers a [Archaeological Dig - Hidden - Great Work of Writing] event <in [Hidden Antiquity Site] tiles> <with [80]% chance> <hidden from users>",
 			"Triggers a [Archaeological Dig - Hidden - Culture] event <in [Hidden Antiquity Site] tiles> <with [80]% chance> <hidden from users>",
             "Great Improvement <hidden from users>",
