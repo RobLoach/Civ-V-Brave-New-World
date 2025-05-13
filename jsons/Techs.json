@@ -41,7 +41,6 @@
 				// Used to allow use of "revealBy" in Hidden Antiquity Site tile resources.
 				"name": "Archaeology+",
 				"row": 3,
-				"prerequisites": ["Architecture"],
                 "uniques": [
 					"[-100]% weight to this choice for AI decisions",
 					"Unavailable <hidden from users>"
