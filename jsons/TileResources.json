@@ -167,7 +167,7 @@
     {
         "name": "Hidden Antiquity Site",
         "resourceType": "Bonus",
-        "revealedBy": "Archaeology+",
+        "revealedBy": "Hidden Antiquity Sites",
         "terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Snow"],
         "improvedBy": [
 			"Archaeological Dig"
