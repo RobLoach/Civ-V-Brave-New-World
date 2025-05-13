@@ -124,15 +124,16 @@
         "terrainsCanBeBuiltOn": ["Land"],
 		"culture": 1, // Used to allow automation.
         "uniques": [
-			"Triggers a [Archaeological Dig] event <in [Antiquity Site] tiles>",
+			"Comment [Performed on Antiquity Sites for possibly an Artifact, or Great Work of Writing]",
+			"Triggers a [Archaeological Dig] event <in [Antiquity Site] tiles> <hidden from users>",
 			// Hidden Antiquity Sites give 30% chance in Civ 5. We use 80% because we're generous.
 			"Triggers a [Archaeological Dig - Hidden - Great Work of Writing] event <in [Hidden Antiquity Site] tiles> <with [80]% chance> <hidden from users>",
 			"Triggers a [Archaeological Dig - Hidden - Culture] event <in [Hidden Antiquity Site] tiles> <with [80]% chance> <hidden from users>",
             "Great Improvement <hidden from users>",
-            "Can be built outside your borders",
+            "Can be built outside your borders <hidden from users>",
             "Can only be built to improve a resource <hidden from users>",
             "Removes removable features when built <hidden from users>",
-            "Unpillagable",
+            "Unpillagable <hidden from users>",
 			"Irremovable <hidden from users>",
 			"Will not be replaced by automated units <hidden from users>",
             "Excluded from map editor"
@@ -141,12 +142,12 @@
 			{ "text": "Archaeological Digs, performed by Archaeologists, on Antiquity Sites, produce an Artifact." },
 			{ "separator": true },
 			{
-				"text": "Artifact",
-				"link": "Resource/Artifact"
-			},
-			{
 				"text": "Antiquity Site",
 				"link": "Resource/Antiquity Site"
+			},
+			{
+				"text": "Hidden Antiquity Site",
+				"link": "Resource/Hidden Antiquity Site"
 			}
 		]
     }
