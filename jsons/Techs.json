@@ -31,7 +31,7 @@
 		]
 	},
 	{
-		"columnNumber": 8,
+		"columnNumber": 7,
 		"era": "Medieval era",
 		"techCost": 1600,
 		"buildingCost": 300,
@@ -41,6 +41,7 @@
 				// Used to allow use of "revealedBy" in Hidden Antiquity Site tile resources.
 				"name": "Hidden Antiquity Sites",
 				"row": 5,
+				"cost": 0,
                 "uniques": [
 					"[-100]% weight to this choice for AI decisions",
 					"Unavailable <hidden from users>"
