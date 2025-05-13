@@ -444,9 +444,15 @@
 			{
 				"name": "Exploration Complete",
 				"uniques": [
-					// TODO: See Hidden Antiquity Sites
 					"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-					"[+3 Culture] [in all coastal cities]"
+					"[+3 Culture] [in all coastal cities]",
+					"Discover [Archaeology+]"
+				],
+				"civilopediaText": [
+					{
+						"text": "Reveals Hidden Antiquity Sites",
+						"link": "Resource/Hidden Antiquity Site"
+					}
 				]
 			}
 		]

@@ -313,6 +313,10 @@
 			{
 				"text": "Antiquity Site",
 				"link": "Resource/Antiquity Site"
+			},
+			{
+				"text": "Hidden Antiquity Site",
+				"link": "Resource/Antiquity Site"
 			}
 		]
 	},

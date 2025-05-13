@@ -7,8 +7,33 @@
 			{
 				"text": "Dig up the Artifact",
 				"uniques": [
-					"Instantly provides [1] [Artifact]",
-					"Comment [Be sure to slot it in a Great Work of Art Slot]"
+					"Instantly provides [1] [Artifact]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Archaeological Dig - Hidden - Great Work of Writing",
+		"text": "Your Archaeological Dig has uncovered a Great Work of Writing!",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Dig up the Great Work",
+				"uniques": [
+					"Instantly provides [1] [Great Work of Writing]"
+				]
+			}
+		]
+	},
+	{
+		"name": "Archaeological Dig - Hidden - Culture",
+		"text": "Your Archaeological Dig has sparked a Cultural Renaissance!",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Gain the Culture",
+				"uniques": [
+					"Gain [200] [Culture] <(modified by game speed)>"
 				]
 			}
 		]

@@ -150,12 +150,49 @@
 			{ "text": "Antiquity Sites can be dug up for Artifacts, or turned into Landmarks, by Archaeologists." },
 			{ "separator": true },
 			{
-				"text": "Archaeologist",
+				"text": "Dug up by Archaeologists",
 				"link": "Unit/Archaeologist"
 			},
 			{
-				"text": "Artifact",
+				"text": "Architectural Digs result in Artifacts",
 				"link": "Resource/Artifact"
+			},
+			{
+				"text": "Hidden Antiquity Sites provide more rewards",
+				"link": "Resource/Hidden Antiquity Site"
+			}
+		]
+    },
+    {
+        "name": "Hidden Antiquity Site",
+        "resourceType": "Bonus",
+        "revealedBy": "Archaeology+",
+        "terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Snow"],
+        "improvedBy": [
+			"Archaeological Dig"
+		],
+        "uniques": [
+			"Generated on every [200] tiles",
+			"Not shown on world screen"
+		],
+		"civilopediaText": [
+			{ "text": "Hidden Antiquity Sites can be dug up by Archaeologists for a chance of Great Works of Writing and Cultural Renaissances. They are revealed by completing the Exploration Policy tree." },
+			{ "separator": true },
+			{
+				"text": "Dug up by Archaeologists",
+				"link": "Unit/Archaeologist"
+			},
+			{
+				"text": "Archaeological Digs can dig up Great Works of Writing",
+				"link": "Resource/Great Work of Writing"
+			},
+			{
+				"text": "Revealed by completing the Exploration Policy Tree",
+				"link": "Policy/Exploration Complete"
+			},
+			{
+				"text": "Antiquity Site",
+				"link": "Resource/Antiquity Site"
 			}
 		]
     },
@@ -181,6 +218,10 @@
 			{
 				"text": "Great Work of Writing Slot",
 				"link": "Resource/Great Work of Writing Slot"
+			},
+			{
+				"text": "Can be found in Antiquity Sites",
+				"link": "Resource/Hidden Antiquity Site"
 			}
 		]
     },

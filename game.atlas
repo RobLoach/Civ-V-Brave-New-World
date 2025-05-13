@@ -837,6 +837,13 @@ ResourceIcons/Antiquity Site
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Hidden Antiquity Site
+  rotate: false
+  xy: 4, 803
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Artifact
   rotate: false
   xy: 112, 803
@@ -1279,6 +1286,13 @@ TileSets/HexaRealm/Tiles/Plains+Lake Victoria
   offset: 0, 0
   index: -1
 UnitIcons/Archaeologist
+  rotate: false
+  xy: 4, 695
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Archaeology+
   rotate: false
   xy: 4, 695
   size: 100, 100

@@ -31,6 +31,32 @@
 		]
 	},
 	{
+		"columnNumber": 9,
+		"era": "Industrial era",
+		"techCost": 1600,
+		"buildingCost": 300,
+		"wonderCost": 750,
+		"techs": [
+			{
+				// Used to allow use of "revealBy" in Hidden Antiquity Site tile resources.
+				"name": "Archaeology+",
+				"row": 3,
+				"prerequisites": ["Architecture"],
+                "uniques": [
+					"[-100]% weight to this choice for AI decisions",
+					"Unavailable <hidden from users>"
+				],
+				"quote": "'Antiquities are history defaced, or some remnants of history which have casually escaped the shipwreck of time.' - Francis Bacon",
+				"civilopediaText": [
+					{
+						"text": "Acquired by completing the Exploration Policy Tree",
+						"link": "Policy/Exploration Complete"
+					}
+				]
+			}
+		]
+	},
+	{
 		"columnNumber": 16,
 		"era": "Information era",
 		"techCost": 8800,

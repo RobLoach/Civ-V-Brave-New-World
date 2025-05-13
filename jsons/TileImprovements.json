@@ -124,7 +124,10 @@
         "terrainsCanBeBuiltOn": ["Land"],
 		"culture": 1, // Used to allow automation.
         "uniques": [
-			"Triggers a [Archaeological Dig] event",
+			"Triggers a [Archaeological Dig] event <in [Antiquity Site] tiles>",
+			// Hidden Antiquity Sites give 30% chance in Civ 5.
+			"Triggers a [Archaeological Dig - Hidden - Great Work of Writing] event <in [Hidden Antiquity Site] tiles> <with [80]% chance> <hidden from users>",
+			"Triggers a [Archaeological Dig - Hidden - Culture] event <in [Hidden Antiquity Site] tiles> <with [80]% chance> <hidden from users>",
             "Great Improvement <hidden from users>",
             "Can be built outside your borders",
             "Can only be built to improve a resource <hidden from users>",
