@@ -1369,5 +1369,31 @@
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>"
 		]
-	}
+	},
+
+	// International Project
+	{
+		"name": "World Congress",
+		"cost": 1060,
+		"isWonder": true,
+		"uniques": [
+			"Comment [Enables International Projects]",
+			"Only available <starting from the [Industrial era]>",
+			"Triggers a global alert upon completion"
+		]
+	},
+	{
+		"name": "United Nations",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"requiredTech": "Globalization",
+		"uniques": [
+			"Only available <if [World Congress] is constructed by anybody>",
+			"Triggers voting for the Diplomatic Victory",
+			"Only available <when [Diplomatic] Victory is enabled>",
+			"Triggers a global alert upon completion"
+		],
+		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
+	},
 ]
