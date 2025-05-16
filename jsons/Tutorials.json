@@ -27,5 +27,57 @@
 				"link": "Building/Factory"
 			}
 		]
+	},
+	{
+		"name": "Great Works",
+		"civilopediaText": [
+			{
+				"text": "Great Works are the exceptional creations of Great People. They can also be acquired via conquest, however, or after your civilization develops its interest in ancient Artifacts and starts digging them up from the ruins of the past."
+			},
+			{},
+			{
+				"text": "There are four types of Great Works:"
+			},
+			{
+				"text": "Great Work of Writing",
+				"link": "Resource/Great Work of Writing"
+			},
+			{
+				"text": "Great Work of Art",
+				"link": "Resource/Great Work of Art"
+			},
+			{
+				"text": "Great Work of Music",
+				"link": "Resource/Great Work of Music"
+			},
+			{
+				"text": "Artifact",
+				"link": "Resource/Artifact"
+			},
+			{},
+			{
+				"text": "Once you have acquired a Great Work or an Arifact, you are able to slot it into one of the Great Works slots in your cites:"
+			},
+			{
+				"text": "Great Work of Writing Slot",
+				"link": "Resource/Great Work of Writing Slot"
+			},
+			{
+				"text": "Great Work of Music Slot",
+				"link": "Resource/Great Work of Music Slot"
+			},
+			{
+				"text": "Great Work of Art Slot, which can also slot Artifacts",
+				"link": "Resource/Great Work of Art Slot"
+			},
+			{},
+			{
+				"text": "Great Works are one of the primary means in which to acquire Tourism"
+			},
+			{
+				"text": "Tourism",
+				"link": "Resource/Tourism"
+			}
+		]
 	}
 ]

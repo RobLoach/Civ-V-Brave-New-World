@@ -1,36 +1,5 @@
 [
 	{
-		"columnNumber": 0,
-		"era": "Ancient era",
-		"techCost": 0,
-		"buildingCost": 0,
-		"wonderCost": 0,
-		"techs": [
-			{
-				// The Great Work technology allows for [[Great Work] Buildings] filter.
-				"name": "Great Work",
-				"row": 10,
-				"uniques": ["Starting tech"],
-				"civilopediaText": [
-					{ "text": "Provides the ability to slot Great Works." },
-					{ "separator": true },
-					{
-						"text": "Great Work of Art",
-						"link": "Resource/Great Work of Art"
-					},
-					{
-						"text": "Great Work of Music",
-						"link": "Resource/Great Work of Music"
-					},
-					{
-						"text": "Great Work of Writing",
-						"link": "Resource/Great Work of Writing"
-					}
-				]
-			}
-		]
-	},
-	{
 		"columnNumber": 7,
 		"era": "Medieval era",
 		"techCost": 1600,
