@@ -79,7 +79,7 @@
 
 	// World Congress Resolutions
 	{
-		"name": "World Congress: Proposal",
+		"name": "World Congress - Proposal",
 		"text": "World Congress: Propose a Resolution",
 		"presentation": "Alert",
 		"choices": [
@@ -94,16 +94,16 @@
 		]
 	},
 	{
-		"name": "World Congress: Vote",
+		"name": "World Congress - Vote",
 		"text": "World Congress: Vote on a Resolution",
 		"presentation": "Alert",
 		"choices": [
 			{
 				"text": "Yay",
 				"uniques": [
-					"Comment [Arts Funding: Great Artist, Writer, Musician +33%. Great Scientist, Engineer, Merchants -33%] <if [World Congress Proposal: Arts Funding] is constructed by anybody>",
+					"Comment [Arts Funding: Great Artist, Writer, Musician +33%. Great Scientist, Engineer, Merchants -33%] <if [World Congress Proposal: Arts Funding] is constructed by anybody> <hidden from users>",
 					"Gain a free [World Congress Vote Yay] [in capital] <hidden from users>",
-					"Unavailable <if [World Congress Vote Yay] is constructed>",
+					"Unavailable <if [World Congress - Vote Yay] is constructed>",
 					"Unavailable <if [World Congress Vote Nay] is constructed>"
 				]
 			},
