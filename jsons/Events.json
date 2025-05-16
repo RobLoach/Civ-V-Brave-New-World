@@ -75,5 +75,50 @@
 				"uniques": []
 			}
 		]
+	},
+
+	// World Congress Resolutions
+	{
+		"name": "World Congress: Proposal",
+		"text": "World Congress: Propose a Resolution",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Arts Funding",
+				"uniques": [
+					"Comment [Increases Great Artist, Writer and Musician generation by 33%]",
+					"Comment [Decreases Great Scientist, Engineers and Merchants generation by 33%]",
+					"Gain a free [World Congress Proposal: Arts Funding] [in capital]"
+				]
+			}
+		]
+	},
+	{
+		"name": "World Congress: Vote",
+		"text": "World Congress: Vote on a Resolution",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Yay",
+				"uniques": [
+					"Comment [Arts Funding: Great Artist, Writer, Musician +33%. Great Scientist, Engineer, Merchants -33%] <if [World Congress Proposal: Arts Funding] is constructed by anybody>",
+					"Gain a free [World Congress Vote Yay] [in capital] <hidden from users>",
+					"Unavailable <if [World Congress Vote Yay] is constructed>",
+					"Unavailable <if [World Congress Vote Nay] is constructed>"
+				]
+			},
+			{
+				"text": "Nay",
+				"uniques": [
+					"Gain a free [World Congress Vote Nay] [in capital] <hidden from users>",
+					"Unavailable <if [World Congress Vote Yay] is constructed>",
+					"Unavailable <if [World Congress Vote Nay] is constructed>"
+				]
+			},
+			{
+				"text": "Abstain",
+				"uniques": ["Comment [Skip voting]"]
+			}
+		]
 	}
 ]
