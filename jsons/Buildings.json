@@ -552,7 +552,7 @@
 		"isWonder": true,
 		"uniques": [
 			"Free Social Policy",
-			"[+50]% Production when constructing [Armored] units [in all cities]",
+			"[+50]% Production when constructing [Armored] units [in this city]",
 			"Only available <after adopting [Order]>"
 		],
 		"requiredTech": "Railroads",
