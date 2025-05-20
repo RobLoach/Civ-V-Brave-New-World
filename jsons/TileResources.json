@@ -61,7 +61,8 @@
 		"resourceType": "Luxury",
 		"uniques": [
 			"Doesn't generate naturally",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Nutmeg trees are evergreens indigenous to the Banda Islands in Indonesia. Nutmeg has been used in the culinary culture of several civilizations for centuries. In Penang cuisine it is often boiled or blended as a drink; in India it used as a sweet; and in Middle Eastern cooking it is used to spice savory dishes. But it was the discovery of the source of nutmeg in Indonesia in 1511 AD by the Portuguese explorer Albuquerque that set off the rush to import the spice to the tables of Europe." },
@@ -87,7 +88,8 @@
 		"resourceType": "Luxury",
 		"uniques": [
 			"Doesn't generate naturally",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Cloves are the dried flower bud from a tree native to the Maluku Islands in Indonesia; an aromatic spice, it is used in cuisines worldwide. Now harvested primarily in Indonesia, India, Zanzibar and Madagascar, cloves have a numbing effect on mouth tissues and have been used in the past as a medicine and a drug as well as a spice. Until planted outside the islands, the Dutch East India Company had a virtual monopoly on the spice; in Europe in the 17th and 18th centuries, cloves were quite literally worth their weight in gold due to the demand." },
@@ -113,7 +115,8 @@
 		"resourceType": "Luxury",
 		"uniques": [
 			"Doesn't generate naturally",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Pepper, in many forms, has been grown virtually everywhere in the world and used for millennia to season our food. Black peppercorns were found in the nostrils of Ramesses II, part of the mummification process. It has been used in Southeast Asian cuisine since the 2nd century BC. Archaeological finds indicate that various hot peppers were used by the Aztecs and Mayans in cooking. In Rome, so valuable was pepper that it was used as collateral for loans, and Attila demanded a ton of pepper to spare the city in the 5th Century AD. Pepper has justifiably been called the \"king of spice.\"" },
@@ -145,7 +148,8 @@
         "uniques": [
 			"Generated on every [150] tiles",
 			"Not shown on world screen",
-			"Cannot be traded <hidden from users>"
+			"Cannot be traded <hidden from users>",
+			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Antiquity Sites can be dug up for Artifacts, or turned into Landmarks, by Archaeologists." },
@@ -175,7 +179,8 @@
         "uniques": [
 			"Generated on every [200] tiles",
 			"Not shown on world screen",
-			"Cannot be traded <hidden from users>"
+			"Cannot be traded <hidden from users>",
+			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Hidden Antiquity Sites can be dug up by Archaeologists for a chance of Great Works of Writing and Cultural Renaissances. They are revealed by completing the Exploration Policy tree." },
@@ -203,7 +208,8 @@
         "resourceType": "Strategic",
         "uniques": [
 			"Stockpiled",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Can be traded, or slotted into a Great Work of Writing Slot." },
@@ -224,7 +230,8 @@
         "resourceType": "Strategic",
         "uniques": [
 			"Stockpiled",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Can be traded, or slotted into a Great Work of Art Slot." },
@@ -241,7 +248,8 @@
         "resourceType": "Strategic",
         "uniques": [
 			"Stockpiled",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Can be traded, or slotted into a Great Work of Music Slot." },
@@ -258,7 +266,8 @@
         "resourceType": "Strategic",
         "uniques": [
 			"Stockpiled",
-			"Excluded from map editor"
+			"Excluded from map editor",,
+			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Artifacts are found from Archaeological Digs with Archaeologists on Antiquity Sites. They can then be slotted into a Great Work of Art Slot." },
@@ -285,7 +294,8 @@
 			"City-level resource",
 			"Cannot be traded <hidden from users>",
 			"Not shown on world screen",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Slotted with a Great Work of Writing." },
@@ -304,7 +314,8 @@
 			"City-level resource",
 			"Cannot be traded <hidden from users>",
 			"Not shown on world screen",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Slotted with either a Great Work of Art or an Artifact." },
@@ -327,7 +338,8 @@
 			"City-level resource",
 			"Cannot be traded <hidden from users>",
 			"Not shown on world screen",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Slotted with a Great Work of Music." },
@@ -345,7 +357,8 @@
 		"uniques": [
 			"Cannot be traded <hidden from users>",
 			"Stockpiled",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
 			{"text": "Tourism is the key to achieving a Cultural Victory."}
@@ -362,7 +375,8 @@
 			"Excluded from map editor",
 			"Not shown on world screen",
 			"Doesn't generate naturally",
-			"Will not be displayed in Civilopedia"
+			"Will not be displayed in Civilopedia",
+			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		]
 	},
 	{
@@ -374,7 +388,8 @@
 			"Excluded from map editor",
 			"Not shown on world screen",
 			"Doesn't generate naturally",
-			"Will not be displayed in Civilopedia"
+			"Will not be displayed in Civilopedia",
+			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		]
 	}
 ]
