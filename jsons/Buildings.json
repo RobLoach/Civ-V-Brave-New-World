@@ -537,15 +537,19 @@
         "name": "Great Firewall",
         "isWonder": true,
         "uniques": [
-			"Only available <when espionage is enabled>",
+			"Only available <when espionage is enabled> <hidden from users>",
 			"[-99]% enemy spy effectiveness [in this city]",
             "[-25]% enemy spy effectiveness [in your cities]",
-			"Comment [Negates the Tourism bonus from other players' Internet technology]",
-			"Double quantity of [Tourism] produced <if [Great Firewall] is not constructed by anybody> <hidden from users>",
-			"Double quantity of [Tourism] produced <if [Great Firewall] is constructed> <hidden from users>"
+			"Comment [Negates Tourism bonus from other players' Internet]"
 		],
         "requiredTech": "Computers",
-        "quote": "'Distrust and caution are the parents of security.' - Benjamin Franklin"
+        "quote": "'Distrust and caution are the parents of security.' - Benjamin Franklin",
+		"civilopediaText": [
+			{
+				"text": "The Internet",
+				"link": "Technology/The Internet"
+			}
+		]
     },
 	{
 		"name": "Kremlin",
