@@ -80,7 +80,7 @@
 	// Terracotta Army
 	{
 		"name": "Terracotta Army - Melee",
-		"text": "Terracotta Army: Pick a Melee unit",
+		"text": "Terracotta Army",
 		"presentation": "Alert",
 		"choices": [
 			{
@@ -129,7 +129,7 @@
 	},
 	{
 		"name": "Terracotta Army - Archery",
-		"text": "Terracotta Army: Pick an Archery unit",
+		"text": "Terracotta Army",
 		"presentation": "Alert",
 		"choices": [
 			{
@@ -185,7 +185,7 @@
 	},
 	{
 		"name": "Terracotta Army - Mounted",
-		"text": "Terracotta Army: Pick a Mounted unit",
+		"text": "Terracotta Army",
 		"presentation": "Alert",
 		"choices": [
 			{
@@ -220,7 +220,7 @@
 	},
 	{
 		"name": "Terracotta Army - Siege",
-		"text": "Terracotta Army: Pick a Siege unit",
+		"text": "Terracotta Army",
 		"presentation": "Alert",
 		"choices": [
 			{
@@ -262,7 +262,7 @@
 	},
 	{
 		"name": "Terracotta Army - Gunpowder",
-		"text": "Terracotta Army: Pick a Gunpowder unit",
+		"text": "Terracotta Army",
 		"presentation": "Alert",
 		"choices": [
 			{
@@ -332,7 +332,7 @@
 	},
 	{
 		"name": "Terracotta Army - Armored",
-		"text": "Terracotta Army: Pick an Armored unit",
+		"text": "Terracotta Army",
 		"presentation": "Alert",
 		"choices": [
 			{
