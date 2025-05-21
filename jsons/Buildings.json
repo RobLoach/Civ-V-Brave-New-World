@@ -468,12 +468,12 @@
 		"requiredTech": "Construction",
 		"uniques": [
 			"Comment [Create a copy of each type of military unit you currently possess.]",
-			"Triggers a [Terracotta Army - Melee] event <when number of [[Sword] Units] is more than [0]> <hidden from users>",
-			"Triggers a [Terracotta Army - Archery] event <when number of [[Archery] Units] is more than [0]> <hidden from users>",
-			"Triggers a [Terracotta Army - Mounted] event <when number of [[Mounted] Units] is more than [0]> <hidden from users>",
-			"Triggers a [Terracotta Army - Siege] event <when number of [[Siege] Units] is more than [0]> <hidden from users>",
-			"Triggers a [Terracotta Army - Gunpowder] event <when number of [[Gunpowder] Units] is more than [0]> <hidden from users>",
-			"Triggers a [Terracotta Army - Armored] event <when number of [[Armored] Units] is more than [0]> <hidden from users>"
+			"Triggers a [Terracotta Army - Melee] event <hidden from users>",
+			"Triggers a [Terracotta Army - Archery] event <hidden from users>",
+			"Triggers a [Terracotta Army - Mounted] event <hidden from users>",
+			"Triggers a [Terracotta Army - Siege] event <hidden from users>",
+			"Triggers a [Terracotta Army - Gunpowder] event <hidden from users>",
+			"Triggers a [Terracotta Army - Armored] event <hidden from users>"
 		],
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},

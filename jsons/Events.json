@@ -76,6 +76,8 @@
 			}
 		]
 	},
+
+	// Terracotta Army
 	{
 		"name": "Terracotta Army - Melee",
 		"text": "Terracotta Army: Pick a Melee unit",
@@ -122,10 +124,6 @@
 					"Only available <when number of [[Future Soldier] Units] is more than [0]>",
 					"Free [Future Soldier] appears"
 				]
-			},
-			{
-				"text": "Skip",
-				"uniques": []
 			}
 		]
 	},
@@ -182,10 +180,6 @@
 					"Only available <when number of [[Bazooka] Units] is more than [0]>",
 					"Free [Bazooka] appears"
 				]
-			},
-			{
-				"text": "Skip",
-				"uniques": []
 			}
 		]
 	},
@@ -221,10 +215,6 @@
 					"Only available <when number of [[Cavalry] Units] is more than [0]>",
 					"Free [Cavalry] appears"
 				]
-			},
-			{
-				"text": "Skip",
-				"uniques": []
 			}
 		]
 	},
@@ -267,10 +257,6 @@
 					"Only available <when number of [[Rocket Artillery] Units] is more than [0]>",
 					"Free [Rocket Artillery] appears"
 				]
-			},
-			{
-				"text": "Skip",
-				"uniques": []
 			}
 		]
 	},
@@ -341,10 +327,6 @@
 					"Only available <when number of [[Mobile SAM] Units] is more than [0]>",
 					"Free [Mobile SAM] appears"
 				]
-			},
-			{
-				"text": "Skip",
-				"uniques": []
 			}
 		]
 	},
@@ -380,10 +362,6 @@
 					"Only available <when number of [[Giant Death Robot] Units] is more than [0]>",
 					"Free [Giant Death Robot] appears"
 				]
-			},
-			{
-				"text": "Skip",
-				"uniques": []
 			}
 		]
 	}
