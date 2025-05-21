@@ -1300,10 +1300,10 @@
 	},
 
 	{
-		"name": "Removed",
+		"name": "Unavailable",
 		"era": "Future era",
 		"uniques": [
-			"Comment [Removed in Brave New World]",
+			"Comment [This policies were removed in Brave New World.]",
 			"Unavailable",
 			"Will not be displayed in Civilopedia",
 			"[-100]% weight to this choice for AI decisions"
@@ -1416,7 +1416,7 @@
 				"column": 4
 			},
 			{
-				"name": "Removed Complete",
+				"name": "Unavailable Complete",
 				"uniques": [
 					"Unavailable",
 					"Will not be displayed in Civilopedia"
