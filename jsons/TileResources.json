@@ -266,7 +266,7 @@
         "resourceType": "Strategic",
         "uniques": [
 			"Stockpiled",
-			"Excluded from map editor",,
+			"Excluded from map editor",
 			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
