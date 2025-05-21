@@ -297,7 +297,7 @@
 	},
 	{
 		"name": "Future Soldier", // XCOM Squad in Civ5 https://civilization.fandom.com/wiki/XCOM_Squad_(Civ5)
-		"unitType": "Gunpowder",
+		"unitType": "Sword", // Melee
 		"movement": 2,
 		"strength": 100,
 		"cost": 400,
