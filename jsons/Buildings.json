@@ -463,11 +463,60 @@
 	},
 	{
 		"name": "Terracotta Army",
-		"culture": 6,
+		"culture": 1,
 		"isWonder": true,
 		"requiredTech": "Construction",
 		"uniques": [
-			"Provides a [Barracks] in your first [3] cities for free" // TODO: Creates a Copy of each unique Military Unit you currently possess
+			"Comment [Create a copy of each type of military unit you currently possess]",
+
+			// TODO: This should only create a copy of each type, rather than each unique unit.
+
+			// Archery Units
+			"Free [Archer] appears <when number of [[Archer] Units] is more than [0]> <hidden from users>",
+			"Free [Chariot Archer] appears <when number of [[Chariot Archer] Units] is more than [0]> <hidden from users>",
+			"Free [Composite Bowman] appears <when number of [[Composite Bowman] Units] is more than [0]> <hidden from users>",
+			"Free [Crossbowman] appears <when number of [[Crossbowman] Units] is more than [0]> <hidden from users>",
+			"Free [Gatling Gun] appears <when number of [[Gatling Gun] Units] is more than [0]> <hidden from users>",
+			"Free [Machine Gun] appears <when number of [[Machine Gun] Units] is more than [0]> <hidden from users>",
+			"Free [Bazooka] appears <when number of [[Bazooka] Units] is more than [0]> <hidden from users>",
+
+			// Melee Units
+			"Free [Warrior] appears <when number of [[Warrior] Units] is more than [0]> <hidden from users>",
+			"Free [Spearman] appears <when number of [[Spearman] Units] is more than [0]> <hidden from users>",
+			"Free [Swordsman] appears <when number of [[Swordsman] Units] is more than [0]> <hidden from users>",
+			"Free [Longswordsman] appears <when number of [[Longswordsman] Units] is more than [0]> <hidden from users>",
+			"Free [Pikeman] appears <when number of [[Pikeman] Units] is more than [0]> <hidden from users>",
+			"Free [Future Soldier] appears <when number of [[Future Soldier] Units] is more than [0]> <hidden from users>",
+
+			// Mounted
+			"Free [Horseman] appears <when number of [[Horseman] Units] is more than [0]> <hidden from users>",
+			"Free [Knight] appears <when number of [[Knight] Units] is more than [0]> <hidden from users>",
+			"Free [Lancer] appears <when number of [[Lancer] Units] is more than [0]> <hidden from users>",
+			"Free [Cavalry] appears <when number of [[Cavalry] Units] is more than [0]> <hidden from users>",
+
+			// Siege
+			"Free [Catapult] appears <when number of [[Catapult] Units] is more than [0]> <hidden from users>",
+			"Free [Trebuchet] appears <when number of [[Trebuchet] Units] is more than [0]> <hidden from users>",
+			"Free [Cannon] appears <when number of [[Cannon] Units] is more than [0]> <hidden from users>",
+			"Free [Artillery] appears <when number of [[Artillery] Units] is more than [0]> <hidden from users>",
+			"Free [Rocket Artillery] appears <when number of [[Rocket Artillery] Units] is more than [0]> <hidden from users>",
+
+			// Gunpowder
+			"Free [Musketman] appears <when number of [[Musketman] Units] is more than [0]> <hidden from users>",
+			"Free [Rifleman] appears <when number of [[Rifleman] Units] is more than [0]> <hidden from users>",
+			"Free [Anti-Aircraft Gun] appears <when number of [[Anti-Aircraft Gun] Units] is more than [0]> <hidden from users>",
+			"Free [Great War Infantry] appears <when number of [[Great War Infantry] Units] is more than [0]> <hidden from users>",
+			"Free [Infantry] appears <when number of [[Infantry] Units] is more than [0]> <hidden from users>",
+			"Free [Anti-Tank Gun] appears <when number of [[Anti-Tank Gun] Units] is more than [0]> <hidden from users>",
+			"Free [Marine] appears <when number of [[Marine] Units] is more than [0]> <hidden from users>",
+			"Free [Paratrooper] appears <when number of [[Paratrooper] Units] is more than [0]> <hidden from users>",
+			"Free [Mobile SAM] appears <when number of [[Mobile SAM] Units] is more than [0]> <hidden from users>",
+
+			// Armor
+			"Free [Tank] appears <when number of [[Tank] Units] is more than [0]> <hidden from users>",
+			"Free [Mechanized Infantry] appears <when number of [[Mechanized Infantry] Units] is more than [0]> <hidden from users>",
+			"Free [Modern Armor] appears <when number of [[Modern Armor] Units] is more than [0]> <hidden from users>",
+			"Free [Giant Death Robot] appears <when number of [[Giant Death Robot] Units] is more than [0]> <hidden from users>"
 		],
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
