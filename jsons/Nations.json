@@ -6,6 +6,7 @@
 		"adjective": ["Polish"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Christianity",
 
 		"startIntroPart1": "All hail noble King Casimir the Great, protector and sovereign of the Kingdom of Poland. You ascended to the throne during a time of great turmoil, with the nation's economy in shambles and its people demoralized by the wars of your predecessor. And yet, your reign marked the beginning of a new era, with affluence and security afforded only by way of your careful governance. Among your most notable achievements, the code of laws you established gave legal authority to many of the accepted customs of the time, strengthening the nation.",
 		"startIntroPart2": "Honored king Casimir, the people have long admired the steady hand of governance you wield. Can you return your kingdom and its subjects to a golden age of prosperity? Will you conquer all those who oppose you, or strive for peaceful relations? Can you build a civilization that will stand the test of time?",
@@ -42,6 +43,7 @@
 		"adjective": ["Assyrian"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Zoroastrianism",
 
 		"startIntroPart1": "The people bow to your esteemed will, o wise and illustrious King Ashurbanipal of Assyria. Across the world, you are known as both a scholar and a warrior, and yet the legends represent merely a glimmer of your true ambition. Although your enemies cowered at the thought of your ferocity in conquest, you were most proud of your intellectual pursuits. Your thirst for knowledge led to your establishment of the royal library at Nineveh, which came to represent one of the greatest collections of ancient texts and tablets found anywhere in the world - securing your legacy as one of Assyria's greatest kings.",
 		"startIntroPart2": "Wise and fearsome king, the time has come for you to return the kingdom of Assyria to its greatest heights. Will you once again strive to acquire the knowledge and histories of all the world's peoples? Can you build a civilization that will stand the test of time?",
@@ -72,6 +74,7 @@
 		"adjective": ["Brazilian"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Christianity",
 
 		"startIntroPart1": "All Hail his most respected and magnanimous Emperor, Pedro II of Brazil. It was with great insight and unshakeable dignity that you ruled the Brazilian empire for over 50 years, ushering in a time of lasting peace and prosperity. Your reputation as a stern, but fair leader was never blemished by controversy, as your unwavering dedication to the people of Brazil provided hope and established the kingdom's position in South America. Your scholarly pursuits and staunch defense of freedom of speech led to the creation of several institutions of higher learning, strengthening Brazil's sense of national identity.",
 		"startIntroPart2": "Revered Emperor Pedro, your people long for a return to the peaceful days when you walked among them, hearing their stories and reassuring them of a bright future. Will you once again lead your kingdom to prosperity? Can you build a civilization that stands the test of time?",
@@ -103,6 +106,7 @@
 		"adjective": ["Zulu"],
 		"startBias": ["Avoid [Jungle]"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Protestantism",
 
 		"startIntroPart1": "Your people kneel before you, great warrior Shaka of the Zulu Kingdom. As you rose from a place of exile to become the true leader of the Zulus, you ushered in changes throughout the Zulu society, implementing new laws and cultural reforms that strengthened the position of your kingdom. However, it was your tenacity in the art of war that truly established your reputation, as your tactics and strategies on the battlefield forever changed the face of combat across the plains of southern Africa.",
 		"startIntroPart2": "Most formidable king, your people once again long for the unity and strength your leadership afforded them. Can you return the Zulu kingdom to such great prominence? Will you build a civilization that stands the test of time?",
@@ -133,6 +137,7 @@
 		"adjective": ["Portuguese"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
 
 		"startIntroPart1": "Blessings be upon you, most gracious Queen Maria, protector and sovereign of the Portuguese people. As the first ever Queen regnant of Portugal, it was your wise stewardship that protected the royal court from the incursions of Napoleon, establishing a safe haven in Brazil to preserve the integrity of Portuguese rule. Despite struggling with illness throughout your reign, your effort to ensure Portugal's close cooperation with Brazil are credited with helping that state gain its eventual independence - and for this you will always be admired and respected by the people of both nations.",
 		"startIntroPart2": "Oh noble and pious queen, will you once again guide the kingdom of Portugal in the spirit of cooperation and prosperity? Will you establish a new legacy, one that will surpass all those who come before you? Can you build a civilization that will stand the test of time?",
@@ -162,6 +167,7 @@
 		"adjective": ["Indonesian"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Hinduism",
 
 		"startIntroPart1": "Honour be with you, oh great hero Gajah Mada, prime minister of Majapahit and uniter of the Indonesian archipelago. The stories of your heroism on the battlefield are bested only by the legends of your sworn oath to unite the far-flung islands of Indonesia under one banner. Serving your queen and empire with loyalty, you not only strive to fulfill your oath and conquered any who stood in your path, but you succeeded in capturing what was then the entirety of the known archipelago, the first to unite what is today modern Indonesia.",
 		"startIntroPart2": "Mighty warrior Gajah Mada, your people yearn for a strong leader who can return them to prosperity! Will you set out to conquer the neighboring kingdoms, further expanding your glory of your empire? Will you build a civilization that can stand the test of time?",
@@ -203,6 +209,7 @@
 		"adjective": ["Moroccan"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Islam",
 
 		"startIntroPart1": "The people of Morocco await your guidance, great Sultan Ahmad al-Mansur of the Saadi Dynasty. Well known for your skill as both a negotiator and a diplomat, your careful words allowed the forging of new alliances, securing the sovereignty of your nation and its people for decades. And still, when words failed, you found equal success in conquest, leading the Moroccan armies to victory on the battlefield while greatly expanding the grasp of your empire.",
 		"startIntroPart2": "Wise and respected Sultan, the people look to you for leadership. Can your diplomacy match that of your rivals, or will you meet them sword in hand? Your once great kingdom yearns for that former glory - can you build a civilization that stands the test of time?",
@@ -232,6 +239,7 @@
 		"adjective": ["Venetian"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Christianity",
 
 		"startIntroPart1": "Greetings, most astute Doge Enrico Dandolo of Venice, master of statecraft and shrewd negotiator. Although you rose to power late in life, old age did little to slow your cunning or ambition, as you deftly managed the bustling commercial center of Venice during a time of great instability. In aligning yourself with the Fourth Crusade, you carefully gained a strategic advantage and used the Crusaders to reacquire lost territory for Venice. Your role in guiding the Crusaders during the sacking of Constantinople led to an even greater expansion of your power, and secured your legacy throughout history.",
 		"startIntroPart2": "Most insightful and cunning Doge, Venice once again requires the service of a skilled leader, one who can bring the republic back to the forefront of world affairs. Can you establish your nation through careful trade, or will you work to conquer your enemies through diplomacy? Can you build a civilization that will stand the test of time?",
@@ -261,6 +269,7 @@
 		"leaderName": "Pocatello",
 		"adjective": ["Shoshone"],
 		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Protestantism",
 
 		"startIntroPart1": "Blessings be upon you, wise and fearsome Chief Pocatello, revered leader of the Shoshone people. As the young chieftain of the Shoshone, you rose to face a wave of encroaching American settlements across the western United States. Forced to defend the Shoshone ancestral lands from a seemingly endless stream of new emigrants, your war band struck fear into those who would claim the sacred lands of your people. After years of strife, you skillfully avoided a direct conflict with the armies of the U.S. government, and negotiated a series of treaties in the hopes of establishing a lasting peace for the Shoshone.",
 		"startIntroPart2": "Most esteemed Pocatello, your people once again look to you for guidance. Will you conquer your enemies, driving them far from your lands? Or will you seek out peaceful diplomacy and trade? Will you build a civilization that stands the test of time?",
