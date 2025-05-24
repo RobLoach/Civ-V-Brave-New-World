@@ -1,25 +1,21 @@
 [
 	{
-		"name": "Caravan",
+		"name": "Caravan", // https://civilization.fandom.com/wiki/Caravan_(Civ5)
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 75,
 		"requiredTech": "Animal Husbandry",
 		"uniques": [
-			"Unavailable", // TODO: Add Caravan https://civilization.fandom.com/wiki/Caravan_(Civ5)
-			"Will not be displayed in Civilopedia",
 			"Unavailable <for [City-States] Civilizations>"
 		]
 	},
 	{
-		"name": "Cargo Ship",
+		"name": "Cargo Ship", // https://civilization.fandom.com/wiki/Cargo_Ship_(Civ5)
 		"unitType": "Civilian",
 		"movement": 4,
 		"cost": 100,
 		"requiredTech": "Sailing",
 		"uniques": [
-			"Unavailable", // TODO: Add Cargo Ship https://civilization.fandom.com/wiki/Cargo_Ship_(Civ5)
-			"Will not be displayed in Civilopedia",
 			"Unavailable <for [City-States] Civilizations>"
 			// TODO: Establish Trade Route (Route must run over water from one coastal city to another.)
 			// TODO: Change Home City (After selecting a coastal city and waiting a turn, allows different trade routes to be made.)

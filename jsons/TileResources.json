@@ -1,4 +1,15 @@
 [
+    {
+        "name": "Trade Route",
+        "resourceType": "Strategic",
+        "uniques": [
+			"Cannot be traded <hidden from users>",
+			"Stockpiled",
+			"Excluded from map editor",
+			//"Not shown on world screen",
+			"Doesn't generate naturally"
+		]
+    },
 	{
 		"name": "Iron",
 		"resourceType": "Strategic",
