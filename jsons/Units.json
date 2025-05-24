@@ -6,7 +6,16 @@
 		"cost": 75,
 		"requiredTech": "Animal Husbandry",
 		"uniques": [
-			"Unavailable <for [City-States] Civilizations>"
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence", // Trade Route: Is Influence appropriate?
+			// TODO: Establish Trade Route (Route must run over land from one city to another.)
+			// TODO: Change Home City (After selecting a city and waiting a turn, allows different trade routes to be made.)
+			"Unavailable <for [City-States] Civilizations> <hidden from users>",
+			"Instantly consumes [1] [Trade Route]",
+			"Only available <with [Trade Route]> <hidden from users>",
+			"[0] Sight <hidden from users>",
+			"Ignores terrain cost <hidden from users>",
+			"Uncapturable <hidden from users>"
+			// TODO: Within own cities, provide food and production after granary or workshop
 		]
 	},
 	{
@@ -16,9 +25,16 @@
 		"cost": 100,
 		"requiredTech": "Sailing",
 		"uniques": [
-			"Unavailable <for [City-States] Civilizations>"
-			// TODO: Establish Trade Route (Route must run over water from one coastal city to another.)
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence", // Trade Route: Is Influence appropriate?
+			// TODO: Establish Trade Route with a different civ (Route must run over water from one coastal city to another.)
 			// TODO: Change Home City (After selecting a coastal city and waiting a turn, allows different trade routes to be made.)
+			"Unavailable <for [City-States] Civilizations> <hidden from users>",
+			"Instantly consumes [1] [Trade Route]",
+			"Only available <with [Trade Route]> <hidden from users>",
+			"[0] Sight <hidden from users>",
+			"May enter foreign tiles without open borders",
+			"Uncapturable <hidden from users>"
+			// TODO: Within own cities, provide food and production after granary or workshop
 		]
 	},
 	{
@@ -170,8 +186,9 @@
 		"uniques": [
 			"Can move after attacking",
 			"[+1] Sight",
-			"Withdraws before melee combat <with [50]% chance>",
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [0] Influence"
+			"Withdraws before melee combat <with [80]% chance>"
+			// TODO: Sell Exotic Goods: This unit will sell its cargo, earning Gold and XP
+			// More will be earned for selling farther from your Capital. This may only be done once with this unit.
 		]
 	},
 	{

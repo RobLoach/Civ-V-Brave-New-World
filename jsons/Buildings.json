@@ -313,7 +313,8 @@
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
-			// TODO: Trade routes other players make to this city will generate an extra 2 Gold for the city owner and the trade route owner gains an additional 1 Gold for the trade route.
+			// TODO: Trade routes other players make to this city will generate an extra 2 Gold for the city owner.
+			"[+1 Gold] from each Trade Route <in this city>", // ... and the trade route owner gains an additional 1 Gold for the trade route
 			"Must be next to [Coast]",
 			"[+1 Gold] from [Water] tiles [in this city]",
 			"Instantly provides [1] [Trade Route]",
@@ -661,8 +662,8 @@
         "isNationalWonder": true,
 		"requiredBuilding": "Market",
         "uniques": [
-			// Trade Routes with other players made to a city with an East India Company will generate an extra 4 Gold Gold for the city owner and the Trade Route Trade Route owner gains an additional 2 Gold Gold for the Trade Route Trade Route.
-			"[+1 Gold] from each Trade Route",
+			// Trade Routes with other players made to a city with an East India Company will generate an extra 4 Gold for the city owner.
+			"[+2 Gold] from each Trade Route <in this city>", // ... and the Trade Route owner gains an additional 2 Gold for the Trade Route.
             "Cost increases by [30] per owned city"
 		],
         "requiredTech": "Guilds"

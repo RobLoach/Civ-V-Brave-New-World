@@ -96,6 +96,24 @@
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			}
 		]
+	},	{
+		"columnNumber": 10,
+		"era": "Industrial era",
+		"techCost": 2350,
+		"buildingCost": 360,
+		"wonderCost": 900, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
+		"techs": [
+			{
+				"name": "Biology",
+				"row": 2,
+				"prerequisites": ["Archaeology","Scientific Theory"],
+                "uniques": [
+					"[+100]% weight to this choice for AI decisions",
+					"Instantly provides [1] [Trade Route]"
+				],
+				"quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
+			},
+		]
 	},
 	{
 		"columnNumber": 11,

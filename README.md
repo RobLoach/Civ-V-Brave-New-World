@@ -13,7 +13,6 @@
 - [x] [Technologies](https://civilization.fandom.com/wiki/The_Internet_(Civ5))
 - [ ] [Cultural Victory with Tourism](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World#New_Cultural_Victory)
 - [ ] [World Congress](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World#World_Congress)
-- [ ] [International Trade Routes](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World#International_Trade_Routes)
 
 ## Installation
 

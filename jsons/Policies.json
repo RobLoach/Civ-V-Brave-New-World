@@ -433,7 +433,7 @@
 			{
 				"name": "Treasure Fleets",
 				"uniques": [
-					"[+4 Gold] from each Trade Route" // TODO: +4 Gold Gold from all your Sea Trade Routes
+					"[+2 Gold] from each Trade Route" // TODO: +4 Gold from all your Sea Trade Routes
 				],
 				"requires": [
 					"Merchant Navy"
@@ -476,7 +476,7 @@
 			{
 				"name": "Wagon Trains",
 				"uniques": [
-					// TODO: +2 Gold from all your Land Trade Routes (with foreign nations).
+					// "[+1 Gold] from each Trade Route" // TODO: +2 Gold from all your Land Trade Routes (with foreign nations)
 					"[-50]% maintenance on road & railroads"
 				],
 				"row": 1,
@@ -485,7 +485,7 @@
 			{
 				"name": "Mercenary Army",
 				"uniques": [
-					// Allows the purchasing of Landsknechts.
+					"Comment [Enables the purchasing of Landsknechts]"
 				],
 				"row": 1,
 				"column": 4

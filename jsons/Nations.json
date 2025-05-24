@@ -217,7 +217,7 @@
 		"innerColor": [40,179,79],
 		"uniqueName": "Gateway to Africa",
 		"uniques": [
-			"[+1 Culture, +2 Gold] from each Trade Route" // Receives +3 Gold and +1 Culture for each Trade Route with a different civ or City-State.
+			"[+1 Culture, +3 Gold] from each Trade Route" // Receives +3 Gold and +1 Culture for each Trade Route with a different civ or City-State.
 			// TODO: Trade Route owners receive +2 Gold for each Trade Route sent to Morocco.
 		],
 		"spyNames": ["el-Krim", "ibn-Battuta", "al-Jazzar", "al-Kahina", "Hayyuj", "Kusayla", "al-Idrisi", "Salih", "Tariq", "Dihya"],

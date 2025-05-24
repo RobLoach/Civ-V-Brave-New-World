@@ -124,3 +124,4 @@
 - [Caravan](https://thenounproject.com/icon/camel-7803410/) by Md Ahasan Habib
 - [King Solomon's Mines](https://thenounproject.com/icon/mine-7442527/) by Rikas Dzihab
 - [Christianity](https://thenounproject.com/icon/cross-5815203/) by Alvaro Cabrera
+- [Trade Route](https://thenounproject.com/icon/circle-arrows-1841393/) by Untashable
