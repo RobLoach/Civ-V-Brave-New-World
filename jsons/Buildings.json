@@ -1441,7 +1441,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [When constructed, will disable the World Congress]",
-			"Only available <for [Human] Civilizations>",
+			"Only available <for [Human player] Civilizations>",
 			"Only available <in [Capital] cities>",
 			"Only available <before turn number [4]>",
 			"Unavailable <if [Game Option - Disable World Congress] is constructed by anybody>",
