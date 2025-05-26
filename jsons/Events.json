@@ -118,11 +118,11 @@
 				]
 			},
 			{
-				"text": "Abstain"
-        "uniqutes": []
-      }
-    ]
-  },
+				"text": "Abstain",
+				"uniqutes": []
+			}
+		]
+	},
 	// Terracotta Army
 	{
 		"name": "Terracotta Army - Melee",
