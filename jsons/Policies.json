@@ -208,7 +208,7 @@
 	// Patronage
 	{
 		"name": "Patronage",
-		"era": "Medieval era",
+		"era": "Classical era", // Medieval in Vanilla
 		"priorities": {
             "Neutral": 0,
             "Cultural": 0,
@@ -433,7 +433,7 @@
 			{
 				"name": "Treasure Fleets",
 				"uniques": [
-					"[+4 Gold] from each Trade Route" // TODO: +4 Gold Gold from all your Sea Trade Routes
+					"[+2 Gold] from each Trade Route" // TODO: +4 Gold from all your Sea Trade Routes
 				],
 				"requires": [
 					"Merchant Navy"
@@ -476,7 +476,7 @@
 			{
 				"name": "Wagon Trains",
 				"uniques": [
-					// TODO: +2 Gold from all your Land Trade Routes (with foreign nations).
+					// "[+1 Gold] from each Trade Route" // TODO: +2 Gold from all your Land Trade Routes (with foreign nations)
 					"[-50]% maintenance on road & railroads"
 				],
 				"row": 1,
@@ -485,7 +485,7 @@
 			{
 				"name": "Mercenary Army",
 				"uniques": [
-					// Allows the purchasing of Landsknechts.
+					"Comment [Enables the purchasing of Landsknechts]"
 				],
 				"row": 1,
 				"column": 4
@@ -544,9 +544,10 @@
 		"name": "Aesthetics",
 		"era": "Classical era",
 		"uniques": [
-			"[Great Artist] is earned [25]% faster",
-			"[Great Musician] is earned [25]% faster",
-			"[Great Writer] is earned [25]% faster"
+			"Comment [Earn Great Artists, Musicians, and Writers 25% faster]",
+			"[Great Artist] is earned [25]% faster <hidden from users>",
+			"[Great Musician] is earned [25]% faster <hidden from users>",
+			"[Great Writer] is earned [25]% faster <hidden from users>"
 		],
 		"priorities": {
 			"Neutral": 0,
@@ -555,6 +556,11 @@
 			"Domination": 10,
 			"Scientific": 10
 		},
+		"civilopediaText": [
+			{"text": "Great Artist", "link": "Unit/Great Artist"},
+			{"text": "Great Musician", "link": "Unit/Great Musician"},
+			{"text": "Great Writer", "link": "Unit/Great Writer"}
+		],
 		"policies": [
 			{
 				"name": "Cultural Centers",
@@ -618,10 +624,11 @@
 				"name": "Aesthetics Complete",
 				"uniques": [
 					// TODO: Adopting all policies doubles the theming bonus you receive from Museums and Wonders.
-					"Double quantity of [Tourism] produced",
-					"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-					"May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
-					"May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+					"Double quantity of [Tourism] produced <in cities with a [Museum]>",
+					"Comment [May purchase Great Artists, Musicians and Writers with Faith starting in the Industrial era]",
+					"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]> <hidden from users>",
+					"May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]> <hidden from users>",
+					"May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]> <hidden from users>"
 				]
 			}
 		]
@@ -639,7 +646,8 @@
             "Scientific": 0
 		},
 		"uniques": [
-			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
+			"Comment [Requires either Modern era, or three Factories]",
+			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Unavailable <after adopting [Order]>",
 			"Unavailable <after adopting [Freedom]>",
 			"Remove [Ideology] [in your cities] <hidden from users>",
@@ -864,7 +872,8 @@
             "Scientific": 30
 		},
 		"uniques": [
-			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
+			"Comment [Requires either Modern era, or three Factories]",
+			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]>",
 			"Unavailable <after adopting [Freedom]>",
 			"Remove [Ideology] [in your cities] <hidden from users>",
@@ -992,7 +1001,7 @@
 				"name": "Cultural Revolution",
 				"uniques": [
 					// TODO: +34% Tourism to other Order Civilizations.
-					"Provides [1] [Tourism]",
+					"Provides [2] [Tourism]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
@@ -1030,8 +1039,8 @@
 			{
 				"name": "Dictatorship of the Proletariat",
 				"uniques": [
-					// TODO: +34% Tourism Tourism to Civilizations with less Happiness Happiness.
-					"Provides [1] [Tourism]",
+					// TODO: +34% Tourism to Civilizations with less Happiness.
+					"Provides [2] [Tourism]",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
@@ -1041,9 +1050,9 @@
 			{
 				"name": "Iron Curtain",
 				"uniques": [
-					"[+10]% Production when constructing [Courthouse] buildings [in your cities]", // TODO: Free Courthouse when capturing a City
-					"[+50]% [Food] from Trade Routes",
-					"[+50]% [Production] from Trade Routes",
+					"Gain a free [Courthouse] [in annexed cities] <upon conquering a city>", // TODO: Does this work?
+					"[+50]% [Food] from Trade Routes <in [Your] cities>", // TODO: Does this work? Should be for Internal trade routes
+					"[+50]% [Production] from Trade Routes <in [Your] cities>", // TODO: Does this work? Should be for Internal trade routes
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
@@ -1054,7 +1063,7 @@
 				"name": "Spaceflight Pioneers",
 				"uniques": [
 					// TODO: May finish Spaceship Parts with Great Engineers
-					"[+15]% Production when constructing [Spaceship part] units [in your cities]"
+					"[+15]% Production when constructing [Spaceship part] units [in your cities]",
 					"Free [Great Engineer] appears",
 					"Free [Great Scientist] appears",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
@@ -1084,7 +1093,8 @@
             "Scientific": 30
 		},
 		"uniques": [
-			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
+			"Comment [Requires either Modern era, or three Factories]",
+			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]>",
 			"Unavailable <after adopting [Order]>",
 			"Remove [Ideology] [in your cities] <hidden from users>",
@@ -1251,7 +1261,7 @@
 			{
 				"name": "Media Culture",
 				"uniques": [
-					// +34% Tourism Tourism generated by Cities with a Broadcast Tower.
+					// +34% Tourism generated by Cities with a Broadcast Tower
 					"Provides [1] [Tourism] <for every [3] [Tourism]> <in cities with a [Broadcast Tower]>",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
@@ -1290,10 +1300,10 @@
 	},
 
 	{
-		"name": "Removed",
+		"name": "Unavailable",
 		"era": "Future era",
 		"uniques": [
-			"Comment [Removed in Brave New World]",
+			"Comment [These policies were removed in Brave New World.]",
 			"Unavailable",
 			"Will not be displayed in Civilopedia",
 			"[-100]% weight to this choice for AI decisions"
@@ -1406,7 +1416,7 @@
 				"column": 4
 			},
 			{
-				"name": "Removed Complete",
+				"name": "Unavailable Complete",
 				"uniques": [
 					"Unavailable",
 					"Will not be displayed in Civilopedia"

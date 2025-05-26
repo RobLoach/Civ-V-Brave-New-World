@@ -1,13 +1,40 @@
 [
 	{
-		"name": "Caravan",
+		"name": "Caravan", // https://civilization.fandom.com/wiki/Caravan_(Civ5)
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 75,
 		"requiredTech": "Animal Husbandry",
 		"uniques": [
-			"Unavailable", // TODO: Add Caravan https://civilization.fandom.com/wiki/Caravan_(Civ5)
-			"Will not be displayed in Civilopedia"
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence", // Trade Route: Is Influence appropriate?
+			// TODO: Establish Trade Route (Route must run over land from one city to another.)
+			// TODO: Change Home City (After selecting a city and waiting a turn, allows different trade routes to be made.)
+			"Unavailable <for [City-States] Civilizations> <hidden from users>",
+			"Instantly consumes [1] [Trade Route]",
+			"Only available <with [Trade Route]> <hidden from users>",
+			"[0] Sight <hidden from users>",
+			"Ignores terrain cost",
+			"Uncapturable <hidden from users>"
+			// TODO: Within own cities, provide food and production after granary or workshop
+		]
+	},
+	{
+		"name": "Cargo Ship", // https://civilization.fandom.com/wiki/Cargo_Ship_(Civ5)
+		"unitType": "Civilian",
+		"movement": 4,
+		"cost": 100,
+		"requiredTech": "Sailing",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence", // Trade Route: Is Influence appropriate?
+			// TODO: Establish Trade Route with a different civ (Route must run over water from one coastal city to another.)
+			// TODO: Change Home City (After selecting a coastal city and waiting a turn, allows different trade routes to be made.)
+			"Unavailable <for [City-States] Civilizations> <hidden from users>",
+			"Instantly consumes [1] [Trade Route]",
+			"Only available <with [Trade Route]> <hidden from users>",
+			"[0] Sight <hidden from users>",
+			"May enter foreign tiles without open borders",
+			"Uncapturable <hidden from users>"
+			// TODO: Within own cities, provide food and production after granary or workshop
 		]
 	},
 	{
@@ -159,8 +186,9 @@
 		"uniques": [
 			"Can move after attacking",
 			"[+1] Sight",
-			"Withdraws before melee combat <with [50]% chance>",
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [0] Influence"
+			"Withdraws before melee combat <with [80]% chance>"
+			// TODO: Sell Exotic Goods: This unit will sell its cargo, earning Gold and XP
+			// More will be earned for selling farther from your Capital. This may only be done once with this unit.
 		]
 	},
 	{
@@ -282,7 +310,7 @@
 	},
 	{
 		"name": "Future Soldier", // XCOM Squad in Civ5 https://civilization.fandom.com/wiki/XCOM_Squad_(Civ5)
-		"unitType": "Gunpowder",
+		"unitType": "Sword", // Melee
 		"movement": 2,
 		"strength": 100,
 		"cost": 400,
@@ -301,7 +329,8 @@
 			"Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>",
 			"Can instantly construct a [Landmark] improvement <by consuming this unit>",
 			"Cannot be purchased",
-			"Only available <in cities with a [University]>"
+			"Only available <in cities with a [University]>",
+			"Unavailable <for [City-States] Civilizations>"
 		],
 		"civilopediaText": [
 			{ "text": "Archaeologists can either dig up Antiquity Sites for Artifacts, or turn them into a Landmark." },
@@ -323,11 +352,10 @@
 
     // Great People
     {
-        "name": "Great Admiral",
-		// TODO: https://civilization.fandom.com/wiki/Great_Admiral_(Civ5)
+        "name": "Great Admiral", // https://civilization.fandom.com/wiki/Great_Admiral_(Civ5)
         "unitType": "Civilian Water",
         "uniques": [
-			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership (15% Combat bonus to all Ships within 2 tiles)
+			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership
             "Is part of Great Person group [War]",
             "Great Person - [War]",
             "Unbuildable",

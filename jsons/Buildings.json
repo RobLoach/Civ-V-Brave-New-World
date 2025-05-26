@@ -10,7 +10,8 @@
 		"cost": 1,
 		"uniques": [
 			"Indicates the capital city",
-			"Provides [1] [Great Work of Art Slot]"
+			"Provides [1] [Great Work of Art Slot]",
+			"Enables [Great Admiral] units to enter ocean tiles <hidden from users>" // Great Admirals can always traverse ocean tiles
 		]
 	},
 	{
@@ -62,7 +63,7 @@
 		"cost": 300,
 		"maintenance": 0,
 		"uniques": [
-			"Provides [1] [Tourism] <for every [2] [Culture]> <in this city>", // +50% of the Culture Culture output of Wonders and Improvements in the city added to Tourism
+			"Provides [1] [Tourism] <for every [2] [Culture]> <in this city>", // +50% of the Culture output of Wonders and Improvements in the city added to Tourism
 			"Provides [1] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>" // Great Work Tourism in the city +50%
 		],
 		"requiredTech": "Refrigeration"
@@ -269,8 +270,8 @@
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 15,
         "uniques": [
-			"[+5]% [Production] [in this city]" // TODO: +5% Production per City-State trade route in the empire
-			// TODO: +1 Gold per incoming trade route, +1 for the foreign owner
+			"[+5]% [Production] from City-States", // TODO: +5% Production per City-State trade route in the empire
+			"[+1 Gold] from each Trade Route" // TODO: +1 Gold per incoming trade route, +1 for the foreign owner
 		],
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
@@ -304,6 +305,24 @@
 	},
 
 	// Wonders
+	{
+		"name": "Colossus",
+		"cost": 185,
+		"culture": 1,
+		"gold": 5,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": [
+			// TODO: Trade routes other players make to this city will generate an extra 2 Gold for the city owner.
+			"[+1 Gold] from each Trade Route <in this city>", // ... and the trade route owner gains an additional 1 Gold for the trade route
+			"Must be next to [Coast]",
+			"[+1 Gold] from [Water] tiles [in this city]",
+			"Instantly provides [1] [Trade Route]",
+			"Free [Cargo Ship] appears"
+		],
+		"requiredTech": "Iron Working",
+		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+	},
 	{
 		"name": "Mausoleum of Halicarnassus",
 		"greatPersonPoints": {"Great Merchant": 1},
@@ -437,8 +456,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": [
-			// TODO: Unhappiness from number of citizens in non-occupied cities reduced by 10%
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all non-occupied cities]",
 			"Only available <after adopting [Patronage]>"
 			// TODO: Grants 2 additional Delegates for the World Congress
 		],
@@ -454,19 +472,25 @@
 			"Must be next to [Desert]",
 			"[+1 Food, +1 Production] from [Desert] tiles without [Flood plains] [in this city]",
 			"[+6 Culture] [in this city] <after discovering [Archaeology]>",
-			// TODO: +1 Additional trade slot
-			// TODO: Free Caravan Appears
+			"Instantly provides [1] [Trade Route]",
+			"Free [Caravan] appears"
 		],
 		"requiredTech": "Currency",
 		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
 	},
 	{
 		"name": "Terracotta Army",
-		"culture": 6,
+		"culture": 1,
 		"isWonder": true,
 		"requiredTech": "Construction",
 		"uniques": [
-			// TODO: Creates a Copy of each unique Military Unit you currently possess
+			"Comment [Create a copy of each type of military unit you currently possess.]",
+			"Triggers a [Terracotta Army - Melee] event <hidden from users>",
+			"Triggers a [Terracotta Army - Archery] event <hidden from users>",
+			"Triggers a [Terracotta Army - Mounted] event <hidden from users>",
+			"Triggers a [Terracotta Army - Siege] event <hidden from users>",
+			"Triggers a [Terracotta Army - Gunpowder] event <hidden from users>",
+			"Triggers a [Terracotta Army - Armored] event <hidden from users>"
 		],
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
@@ -539,7 +563,8 @@
 			"Only available <when espionage is enabled>",
 			"[-99]% enemy spy effectiveness [in this city]",
             "[-25]% enemy spy effectiveness [in all cities]"
-			// TODO: Negates the Tourism Tourism bonus from other players' Internet technology
+			// TODO: Negates the Tourism bonus from other players' Internet technology
+			// "Double quantity of [Tourism] produced <if [Great Firewall] is not constructed by anybody>"
 		],
         "requiredTech": "Computers",
         "quote": "'Distrust and caution are the parents of security.' - Benjamin Franklin"
@@ -550,7 +575,7 @@
 		"isWonder": true,
 		"uniques": [
 			"Free Social Policy",
-			"[+50]% Production when constructing [Armored] units [in all cities]",
+			"[+50]% Production when constructing [Armored] units [in this city]",
 			"Only available <after adopting [Order]>"
 		],
 		"requiredTech": "Railroads",
@@ -637,8 +662,8 @@
         "isNationalWonder": true,
 		"requiredBuilding": "Market",
         "uniques": [
-			// Trade Routes with other players made to a city with an East India Company will generate an extra 4 Gold Gold for the city owner and the Trade Route Trade Route owner gains an additional 2 Gold Gold for the Trade Route Trade Route.
-			"[+1 Gold] from each Trade Route",
+			// Trade Routes with other players made to a city with an East India Company will generate an extra 4 Gold for the city owner.
+			"[+2 Gold] from each Trade Route <in this city>", // ... and the Trade Route owner gains an additional 2 Gold for the Trade Route.
             "Cost increases by [30] per owned city"
 		],
         "requiredTech": "Guilds"
@@ -768,7 +793,6 @@
 		"uniques": [
 			"Provides [1] [Great Work of Music Slot]",
 			"Destroyed when the city is captured"
-			// TODO: +34% Tourism Tourism in this city with Media Culture Freedom tenet
 		]
 	},
 	{
@@ -850,13 +874,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Art]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Art 2",
@@ -866,13 +891,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Art]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Art 3",
@@ -882,13 +908,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Art]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Art 4",
@@ -898,13 +925,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Art]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Art 5",
@@ -914,13 +942,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Art]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Art 6",
@@ -930,13 +959,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Art]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Art 7",
@@ -946,13 +976,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Art]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Art 8",
@@ -962,13 +993,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Art]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Art]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 
 	// Great Work of Music
@@ -979,13 +1011,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Music]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Music]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Music 2",
@@ -995,13 +1028,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Music]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Music]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Music 3",
@@ -1011,13 +1045,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Music]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Music]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Music 4",
@@ -1027,13 +1062,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Music]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Music]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Music 5",
@@ -1043,13 +1079,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Music]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Music]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Music 6",
@@ -1059,13 +1096,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Music]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Music]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Music 7",
@@ -1075,13 +1113,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Music]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Music]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Music 8",
@@ -1091,13 +1130,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Music]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Music]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 
 	// Great Work of Writing
@@ -1108,13 +1148,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Writing]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Writing]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Writing 2",
@@ -1124,13 +1165,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Writing]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Writing]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Writing 3",
@@ -1140,13 +1182,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Writing]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Writing]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Writing 4",
@@ -1156,13 +1199,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Writing]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Writing]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Writing 5",
@@ -1172,13 +1216,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Writing]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Writing]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Writing 6",
@@ -1188,13 +1233,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Writing]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Writing]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Writing 7",
@@ -1204,13 +1250,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Writing]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Writing]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Work of Writing 8",
@@ -1220,13 +1267,14 @@
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Great Work of Writing]",
 			"Provides [2] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Great Work of Writing]> <hidden from users>"
 		],
-		"requiredTech": "Great Work"
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 
 	// Artifact
@@ -1237,12 +1285,14 @@
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Artifact]",
 			"Provides [1] [Tourism]", // Is 1 Tourism a good workaround for Building complete Theming Bonus?
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Artifact]> <hidden from users>"
-		]
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Artifact 2",
@@ -1252,12 +1302,14 @@
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Artifact]",
 			"Provides [1] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Artifact]> <hidden from users>"
-		]
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Artifact 3",
@@ -1267,12 +1319,14 @@
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Artifact]",
 			"Provides [1] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Artifact]> <hidden from users>"
-		]
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Artifact 4",
@@ -1282,12 +1336,14 @@
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Artifact]",
 			"Provides [1] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Artifact]> <hidden from users>"
-		]
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Artifact 5",
@@ -1297,12 +1353,14 @@
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Artifact]",
 			"Provides [1] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Artifact]> <hidden from users>"
-		]
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Artifact 6",
@@ -1312,12 +1370,14 @@
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Artifact]",
 			"Provides [1] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Artifact]> <hidden from users>"
-		]
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Artifact 7",
@@ -1327,12 +1387,14 @@
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Artifact]",
 			"Provides [1] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Artifact]> <hidden from users>"
-		]
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Artifact 8",
@@ -1342,12 +1404,14 @@
 		"cost": 1,
 		"culture": 1,
 		"uniques": [
+			"Great Work",
 			"Instantly consumes [1] [Artifact]",
 			"Provides [1] [Tourism]",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Only available <with [Artifact]> <hidden from users>"
-		]
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 
 	// Events

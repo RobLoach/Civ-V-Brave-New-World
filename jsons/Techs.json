@@ -1,35 +1,159 @@
 [
+	// Trade Route Updates
 	{
-		"columnNumber": 0,
+		"columnNumber": 1,
 		"era": "Ancient era",
-		"techCost": 0,
-		"buildingCost": 0,
-		"wonderCost": 0,
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
 		"techs": [
 			{
-				// The Great Work technology allows for [[Great Work] Buildings] filter.
-				"name": "Great Work",
-				"row": 10,
-				"uniques": ["Starting tech"],
-				"civilopediaText": [
-					{ "text": "Provides the ability to slot Great Works." },
-					{ "separator": true },
-					{
-						"text": "Great Work of Art",
-						"link": "Resource/Great Work of Art"
-					},
-					{
-						"text": "Great Work of Music",
-						"link": "Resource/Great Work of Music"
-					},
-					{
-						"text": "Great Work of Writing",
-						"link": "Resource/Great Work of Writing"
-					}
-				]
+				"name": "Animal Husbandry",
+				"row": 5,
+				"prerequisites": ["Agriculture"],
+				"uniques": [
+					"Instantly provides [1] [Trade Route]"
+				],
+				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
 			}
 		]
 	},
+	{
+		"columnNumber": 2,
+		"era": "Ancient era",
+		"techCost": 55,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Sailing",
+				"row": 1,
+				"prerequisites": ["Pottery"],
+                "uniques": [
+					"[+100]% weight to this choice for AI decisions",
+					"Instantly provides [1] [Trade Route]"
+				],
+				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+			}
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Classical era",
+		"techCost": 175,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Engineering",
+				"row": 8,
+				"prerequisites": ["Mathematics","Construction"],
+				"uniques": [
+					"Roads connect tiles across rivers",
+					"[+100]% weight to this choice for AI decisions",
+					"Instantly provides [1] [Trade Route]"
+				],
+				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
+			}
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Medieval era",
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Compass",
+				"cost": 375,
+				"row": 1,
+				"prerequisites": ["Optics","Theology"],
+                "uniques": [
+					"[-50]% weight to this choice for AI decisions",
+					// TODO: Increases the range of sea trade routes
+					"Instantly provides [1] [Trade Route]"
+				],
+				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
+			}
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Renaissance era",
+		"techCost": 780,
+		"buildingCost": 200,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Banking",
+				"row": 6,
+				"prerequisites": ["Chivalry", "Education"],
+                "uniques": [
+					"[+100]% weight to this choice for AI decisions",
+					"Instantly provides [1] [Trade Route]"
+				],
+				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
+			}
+		]
+	},	{
+		"columnNumber": 10,
+		"era": "Industrial era",
+		"techCost": 2350,
+		"buildingCost": 360,
+		"wonderCost": 900, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
+		"techs": [
+			{
+				"name": "Biology",
+				"row": 2,
+				"prerequisites": ["Archaeology","Scientific Theory"],
+                "uniques": [
+					"[+100]% weight to this choice for AI decisions",
+					"Instantly provides [1] [Trade Route]"
+				],
+				"quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
+			},
+		]
+	},
+	{
+		"columnNumber": 11,
+		"era": "Modern era",
+		"techCost": 3100,
+		"buildingCost": 500,
+		"wonderCost": 1060,
+		"techs": [
+			{
+				"name": "Railroads",
+				"row": 8,
+				"prerequisites": ["Steam Power","Dynamite"],
+                "uniques": [
+					"[+100]% weight to this choice for AI decisions",
+					"Instantly provides [1] [Trade Route]"
+				],
+				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
+			}
+		]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Atomic era",
+		"techCost": 5100,
+		"buildingCost": 500,
+		"wonderCost": 1250,
+		"techs": [
+			{
+				"name": "Pharmaceuticals",
+				"row": 2,
+				"prerequisites": ["Plastics","Refrigeration"],
+				"uniques": [
+					"Instantly provides [1] [Trade Route]"
+				],
+				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
+			}
+		]
+	},
+
+	// Hidden Antiquity Sites
 	{
 		"columnNumber": 7,
 		"era": "Medieval era",
@@ -44,7 +168,7 @@
 				"cost": 1,
                 "uniques": [
 					"[-100]% weight to this choice for AI decisions",
-					"Unavailable <hidden from users>"
+					"Unavailable"
 				],
 				"quote": "'Antiquities are history defaced, or some remnants of history which have casually escaped the shipwreck of time.' - Francis Bacon",
 				"civilopediaText": [
@@ -56,6 +180,8 @@
 			}
 		]
 	},
+
+	// New Technology: The Internet
 	{
 		"columnNumber": 16,
 		"era": "Information era",
@@ -73,6 +199,8 @@
 			}
 		]
 	},
+
+	// Future Tech requires The Internet
 	{
 		"columnNumber": 17,
 		"era": "Future era",

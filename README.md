@@ -2,6 +2,18 @@
 
 [Brave New World](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World) expansion for [Unciv](https://github.com/yairm210/Unciv).
 
+## Features
+
+- [x] [Nations](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World#Civilizations_and_leaders)
+- [x] [Units](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World#Units)
+- [x] [Buildings](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World#Buildings)
+- [x] [Wonders](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World#Wonders)
+- [x] [Archaeology](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World#Archaeology)
+- [x] [Social Policies and Ideologies](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World#Social_Policies_and_Ideologies)
+- [x] [Technologies](https://civilization.fandom.com/wiki/The_Internet_(Civ5))
+- [ ] [Cultural Victory with Tourism](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World#New_Cultural_Victory)
+- [ ] [World Congress](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World#World_Congress)
+
 ## Installation
 
 1. In Unciv, open the Mods menu
@@ -15,6 +27,4 @@
 
 ## Development
 
-This was based on the original [Brave New World mod](https://github.com/ravignir/Brave-New-World) by [@ravignir](https://github.com/ravignir). The original was missing a bunch of features, along with had a bunch of bugs. Many of these have since been fixed, but if you'd like to contribute further, feel free to submit any pull requests or [discuss on Discord](https://discord.com/channels/586194543280390151/1055580642806603866). These are a few things on the wishlist:
-
-- [ ] Cultural Victory with Tourism
+This was based on the original [Brave New World mod](https://github.com/ravignir/Brave-New-World) by [@ravignir](https://github.com/ravignir). The original was missing a bunch of features, many of these have since been added. If you'd like to contribute further, feel free to submit any pull requests or [discuss on Discord](https://discord.com/channels/586194543280390151/1055580642806603866).

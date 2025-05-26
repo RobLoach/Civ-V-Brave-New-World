@@ -1,4 +1,77 @@
 [
+    {
+        "name": "Trade Route",
+        "resourceType": "Strategic",
+        "uniques": [
+			"Cannot be traded <hidden from users>",
+			"Stockpiled <hidden from users>",
+			"Excluded from map editor",
+			"Not shown on world screen",
+			"Doesn't generate naturally"
+		],
+		"civilopediaText": [
+			{
+				"text": "A Trade Route is required in order for a Caravan or Cargo Ship to establish a trade connection with other civilizations or City-States."
+			},
+			{"separator": true}
+			{
+				"text": "Caravan",
+				"link": "Unit/Caravan"
+			},
+			{
+				"text": "Cargo Ship",
+				"link": "Unit/Cargo Ship"
+			},
+			{"separator": true},
+			{
+				"text": "Technologies"
+			},
+			{
+				"text": "Animal Husbandry",
+				"link": "Technology/Animal Husbandry"
+			},
+			{
+				"text": "Sailing",
+				"link": "Technology/Sailing"
+			},
+			{
+				"text": "Engineering",
+				"link": "Technology/Engineering"
+			},
+			{
+				"text": "Compass",
+				"link": "Technology/Compass"
+			},
+			{
+				"text": "Banking",
+				"link": "Technology/Banking"
+			},
+			{
+				"text": "Biology",
+				"link": "Technology/Biology"
+			},
+			{
+				"text": "Railroads",
+				"link": "Technology/Railroads"
+			},
+			{
+				"text": "Pharmaceuticals",
+				"link": "Technology/Pharmaceuticals"
+			},
+			{"separator": true},
+			{
+				"text": "Wonders"
+			},
+			{
+				"text": "Colossus",
+				"link": "Wonder/Colossus"
+			},
+			{
+				"text": "Petra",
+				"link": "Wonder/Petra"
+			}
+		]
+    },
 	{
 		"name": "Iron",
 		"resourceType": "Strategic",
@@ -203,7 +276,8 @@
         "resourceType": "Strategic",
         "uniques": [
 			"Stockpiled",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
 			{ "text": "Can be traded, or slotted into a Great Work of Writing Slot." },
@@ -215,7 +289,8 @@
 			{
 				"text": "Chance to be found in Hidden Antiquity Sites",
 				"link": "Resource/Hidden Antiquity Site"
-			}
+			},
+			{"text": "Great Works", "link": "Tutorial/Great Works"}
 		]
     },
     {
@@ -223,7 +298,8 @@
         "resourceType": "Strategic",
         "uniques": [
 			"Stockpiled",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
 			{ "text": "Can be traded, or slotted into a Great Work of Art Slot." },
@@ -231,7 +307,8 @@
 			{
 				"text": "Great Work of Art Slot",
 				"link": "Resource/Great Work of Art Slot"
-			}
+			},
+			{"text": "Great Works", "link": "Tutorial/Great Works"}
 		]
     },
     {
@@ -239,7 +316,8 @@
         "resourceType": "Strategic",
         "uniques": [
 			"Stockpiled",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
 			{ "text": "Can be traded, or slotted into a Great Work of Music Slot." },
@@ -247,7 +325,8 @@
 			{
 				"text": "Great Work of Music Slot",
 				"link": "Resource/Great Work of Music Slot"
-			}
+			},
+			{"text": "Great Works", "link": "Tutorial/Great Works"}
 		]
     },
     {
@@ -255,7 +334,8 @@
         "resourceType": "Strategic",
         "uniques": [
 			"Stockpiled",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
 			{ "text": "Artifacts are found from Archaeological Digs with Archaeologists on Antiquity Sites. They can then be slotted into a Great Work of Art Slot." },
@@ -271,7 +351,8 @@
 			{
 				"text": "Used in a Great Work of Art Slot in cities",
 				"link": "Resource/Great Work of Art Slot"
-			}
+			},
+			{"text": "Great Works", "link": "Tutorial/Great Works"}
 		]
     },
     {
@@ -281,7 +362,8 @@
 			"City-level resource",
 			"Cannot be traded <hidden from users>",
 			"Not shown on world screen",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
 			{ "text": "Slotted with a Great Work of Writing." },
@@ -289,7 +371,8 @@
 			{
 				"text": "Great Work of Writing",
 				"link": "Resource/Great Work of Writing"
-			}
+			},
+			{"text": "Great Works", "link": "Tutorial/Great Works"}
 		]
     },
     {
@@ -299,19 +382,21 @@
 			"City-level resource",
 			"Cannot be traded <hidden from users>",
 			"Not shown on world screen",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
-			{ "text": "Slotted with either a Great Work of Art or an Artefact." },
+			{ "text": "Slotted with either a Great Work of Art or an Artifact." },
 			{ "separator": true },
 			{
 				"text": "Great Work of Art",
 				"link": "Resource/Great Work of Art"
 			},
 			{
-				"text": "Artefact",
-				"link": "Resource/Artefact"
-			}
+				"text": "Artifact",
+				"link": "Resource/Artifact"
+			},
+			{"text": "Great Works", "link": "Tutorial/Great Works"}
 		]
     },
     {
@@ -321,7 +406,8 @@
 			"City-level resource",
 			"Cannot be traded <hidden from users>",
 			"Not shown on world screen",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
 			{ "text": "Slotted with a Great Work of Music." },
@@ -329,7 +415,8 @@
 			{
 				"text": "Great Work of Music",
 				"link": "Resource/Great Work of Music"
-			}
+			},
+			{"text": "Great Works", "link": "Tutorial/Great Works"}
 		]
     },
 	{
@@ -338,7 +425,11 @@
 		"uniques": [
 			"Cannot be traded <hidden from users>",
 			"Stockpiled",
-			"Excluded from map editor"
+			"Excluded from map editor",
+			"Doesn't generate naturally"
+		],
+		"civilopediaText": [
+			{"text": "Tourism is the key to achieving a Cultural Victory."}
 		]
 	},
 
