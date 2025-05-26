@@ -52,9 +52,7 @@
 		"cost": 120,
 		"maintenance": 0,
 		"uniques": [
-			"[+2 Gold] from each Trade Route <on foreign continents>", // For LAND only
-			"Must not be next to [Coast]"
-			// TODO: Land trade routes originating from this city have a 50% increase in range
+			"All newly-trained [Caravan] units [in this city] receive the [Caravansary Benefit] promotion"
 		],
 		"requiredTech": "Horseback Riding"
 	},
@@ -69,7 +67,7 @@
 		"requiredTech": "Refrigeration"
 	},
 	{
-		"name": "Theatre", // Named "Zoo" in Brave New World.
+		"name": "Theatre", // Named "Zoo" in Brave New World. Renamed in English.properties
 		// https://civilization.fandom.com/wiki/Zoo_(Civ5)
 		"happiness": 2,
 		"requiredBuilding": "Colosseum",

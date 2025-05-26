@@ -6,7 +6,8 @@
 		"cost": 75,
 		"requiredTech": "Animal Husbandry",
 		"uniques": [
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence", // Trade Route: Is Influence appropriate?
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence <for units without [Caravansary Benefit]>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <for units with [Caravansary Benefit]>",
 			// TODO: Establish Trade Route (Route must run over land from one city to another.)
 			// TODO: Change Home City (After selecting a city and waiting a turn, allows different trade routes to be made.)
 			"Unavailable <for [City-States] Civilizations> <hidden from users>",
@@ -25,7 +26,7 @@
 		"cost": 100,
 		"requiredTech": "Sailing",
 		"uniques": [
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence", // Trade Route: Is Influence appropriate?
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
 			// TODO: Establish Trade Route with a different civ (Route must run over water from one coastal city to another.)
 			// TODO: Change Home City (After selecting a coastal city and waiting a turn, allows different trade routes to be made.)
 			"Unavailable <for [City-States] Civilizations> <hidden from users>",
@@ -395,11 +396,12 @@
 		"uniques": [
             "Is part of Great Person group [Merchant] <hidden from users>",
 			"Great Person - [Gold]",
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence", // Double Gold, and Double Influence (Double Gold in Nations.json)
 			"Can instantly construct a [Customs house] improvement <by consuming this unit>",
-			"Double movement in [Coast]",
+			"Double movement in [Coast]", // Extra Embarked Movement speed (6 vs 4)
 			"Unbuildable",
 			"Uncapturable"
+			// TODO: Buy City-State: Purchases any City-State you are not at war with and in the territory of, and puts it and its units under your control.
 		]
 	},
     {
