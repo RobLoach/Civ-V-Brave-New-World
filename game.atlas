@@ -116,20 +116,6 @@ BuildingIcons/Caravansary
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Cloves
-  rotate: false
-  xy: 4, 268
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Cloves
-  rotate: false
-  xy: 4, 268
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Ducal Stable
   rotate: false
   xy: 436, 700
@@ -179,37 +165,9 @@ BuildingIcons/National Visitor Center
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Nutmeg
-  rotate: false
-  xy: 760, 700
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Nutmeg
-  rotate: false
-  xy: 760, 700
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Parthenon
   rotate: false
   xy: 868, 808
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Pepper
-  rotate: false
-  xy: 220, 52
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Pepper
-  rotate: false
-  xy: 220, 52
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -914,6 +872,20 @@ ResourceIcons/Bison
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Cloves
+  rotate: false
+  xy: 4, 268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cloves
+  rotate: false
+  xy: 4, 268
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Cocoa
   rotate: false
   xy: 112, 376
@@ -1078,6 +1050,34 @@ BuildingIcons/Writers' Guild
 ResourceIcons/Great Work of Writing Slot
   rotate: false
   xy: 4, 52
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Nutmeg
+  rotate: false
+  xy: 760, 700
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Nutmeg
+  rotate: false
+  xy: 760, 700
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Pepper
+  rotate: false
+  xy: 220, 52
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pepper
+  rotate: false
+  xy: 220, 52
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1302,6 +1302,13 @@ TileSets/FantasyHex/Units/Future Soldier
 TileSets/FantasyHex/Units/Hand-Axe
   rotate: false
   xy: 44, 16
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Merchant of Venice
+  rotate: false
+  xy: 84, 16
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
