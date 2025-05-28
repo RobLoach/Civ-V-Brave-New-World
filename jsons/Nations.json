@@ -278,11 +278,12 @@
 		"innerColor": [255,254,231],
 		"uniqueName": "Serenissima",
 		"uniques": [
-			"Free [Merchant of Venice] appears <upon discovering [Optics] technology>",
+			"Double quantity of [Trade Route] produced",
+			"[+100]% Gold from Great Merchant trade missions", // Unit/Merchant of Venice
 			"Cannot build [Settler] units",
 			"May not annex cities",
 			"May buy items in puppet cities",
-			"Double quantity of [Trade Route] produced"
+			"Free [Merchant of Venice] appears <upon discovering [Optics] technology>"
 		],
 		"spyNames": ["Gasparo", "Giosafat", "Ambrogio", "Niccolo", "Marino", "Cesare", "Francesco", "Giovanni", "Bertolome", "Filomena"],
 		"cities": ["Venice"]

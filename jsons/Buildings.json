@@ -11,7 +11,7 @@
 		"uniques": [
 			"Indicates the capital city",
 			"Provides [1] [Great Work of Art Slot]",
-			"Enables [Great Admiral] units to enter ocean tiles <hidden from users>" // Great Admirals can always traverse ocean tiles
+			"Enables [Great Admiral] units to enter ocean tiles <hidden from users>" // See Unit/Great Admiral
 		]
 	},
 	{
@@ -52,9 +52,7 @@
 		"cost": 120,
 		"maintenance": 0,
 		"uniques": [
-			"[+2 Gold] from each Trade Route <on foreign continents>", // For LAND only
-			"Must not be next to [Coast]"
-			// TODO: Land trade routes originating from this city have a 50% increase in range
+			"All newly-trained [Caravan] units [in this city] receive the [Caravansary Benefit] promotion"
 		],
 		"requiredTech": "Horseback Riding"
 	},
@@ -69,7 +67,7 @@
 		"requiredTech": "Refrigeration"
 	},
 	{
-		"name": "Theatre", // Named "Zoo" in Brave New World.
+		"name": "Theatre", // Named "Zoo" in Brave New World. Renamed in English.properties
 		// https://civilization.fandom.com/wiki/Zoo_(Civ5)
 		"happiness": 2,
 		"requiredBuilding": "Colosseum",
@@ -305,6 +303,14 @@
 	},
 
 	// Wonders
+	{
+		"name": "Hagia Sophia", // Removed +1 Great Artist point.
+		"faith": 3,
+		"isWonder": true,
+		"uniques": ["Gain a free [Temple] [in this city]", "Free [Great Prophet] appears", "Only available <when religion is enabled>"],
+		"requiredTech": "Theology",
+		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+	},
 	{
 		"name": "Colossus",
 		"cost": 185,

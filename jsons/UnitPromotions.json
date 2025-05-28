@@ -101,5 +101,13 @@
 				"link": "Policy/Lightning Warfare"
 			}
 		]
+	},
+	{
+		"name": "Caravansary Benefit",
+		"uniques": [
+			// TODO: Produce an additional 2 Gold when connecting to another civilization.
+			"[1] Movement", // TODO: Land trade routes originating from this city have a 50% increase in range
+			"Comment [Double influence when conducting a Trade Route in City-States]"
+		]
 	}
 ]

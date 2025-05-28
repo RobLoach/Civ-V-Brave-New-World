@@ -6,7 +6,8 @@
 		"cost": 75,
 		"requiredTech": "Animal Husbandry",
 		"uniques": [
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence", // Trade Route: Is Influence appropriate?
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence <for units without [Caravansary Benefit]>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <for units with [Caravansary Benefit]>",
 			// TODO: Establish Trade Route (Route must run over land from one city to another.)
 			// TODO: Change Home City (After selecting a city and waiting a turn, allows different trade routes to be made.)
 			"Unavailable <for [City-States] Civilizations> <hidden from users>",
@@ -20,12 +21,12 @@
 	},
 	{
 		"name": "Cargo Ship", // https://civilization.fandom.com/wiki/Cargo_Ship_(Civ5)
-		"unitType": "Civilian",
+		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 100,
 		"requiredTech": "Sailing",
 		"uniques": [
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence", // Trade Route: Is Influence appropriate?
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence",
 			// TODO: Establish Trade Route with a different civ (Route must run over water from one coastal city to another.)
 			// TODO: Change Home City (After selecting a coastal city and waiting a turn, allows different trade routes to be made.)
 			"Unavailable <for [City-States] Civilizations> <hidden from users>",
@@ -356,13 +357,14 @@
         "unitType": "Civilian Water",
         "uniques": [
 			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership
-            "Is part of Great Person group [War]",
+			"All adjacent units heal [+15] HP when healing", // TODO: Repair Fleet (Instantly heals all ships within one tile, expends the unit)
+			"Comment [Can always traverse ocean tiles]", // See Building/Palace
+            "Is part of Great Person group [General]",
             "Great Person - [War]",
             "Unbuildable",
             "Uncapturable",
 			"Can be earned through combat",
 			"[2] Movement <after adopting [Navigation School]>"
-			// TODO: Repair Fleet (Instantly heals all ships within one tile, expends the unit)
         ],
         "movement": 4
     },
@@ -392,13 +394,14 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": [
-            "Is part of Great Person group [Merchant]",
+            "Is part of Great Person group [Merchant] <hidden from users>",
 			"Great Person - [Gold]",
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence", // Double Gold, and Double Influence (Double Gold in Nations.json)
 			"Can instantly construct a [Customs house] improvement <by consuming this unit>",
-			"Double movement in [Coast]",
+			"Double movement in [Coast]", // Extra Embarked Movement speed (6 vs 4)
 			"Unbuildable",
 			"Uncapturable"
+			// TODO: Buy City-State: Purchases any City-State you are not at war with and in the territory of, and puts it and its units under your control.
 		]
 	},
     {
@@ -407,7 +410,7 @@
         "uniques": [
             "Instantly provides [1] [Great Work of Writing] <by consuming this unit>",
             "Can generate a large amount of culture", // Write Political Treatise
-            "Is part of Great Person group [Artist]",
+            "Is part of Great Person group [Writer]",
             "Great Person - [Culture]",
             "Unbuildable",
             "Uncapturable"
@@ -426,7 +429,7 @@
         "uniques": [
             "Instantly provides [1] [Great Work of Music] <by consuming this unit>",
             "Instantly provides [50] [Tourism] <by consuming this unit>", // Perform Concert Tour
-            "Is part of Great Person group [Artist]",
+            "Is part of Great Person group [Musician]",
             "Great Person - [Culture]",
             "Unbuildable",
             "Uncapturable"

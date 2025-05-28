@@ -29,7 +29,7 @@
 			"Will not be replaced by automated units"
 		]
 	},
-		{
+	{
 		"name": "Feitoria",
 		"uniqueTo": "Portugal",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -87,7 +87,7 @@
 		]
 	},
 
-	// Antiquity Site Improvements
+	// Archeology
 	// https://civilization.fandom.com/wiki/Antiquity_Site_(Civ5)
 	{
 		"name": "Landmark",
