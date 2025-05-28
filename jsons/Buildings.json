@@ -336,7 +336,7 @@
 		"isWonder": true,
 		"requiredTech": "Masonry",
 		"uniques": [
-			"Gain [100] [Gold] <upon gaining a [Great Person] unit>",
+			"Gain [100] [Gold] <upon gaining a [Great Person] unit> <(modified by game speed)>",
 			"[+2 Gold] from [Marble] tiles [in this city]",
 			"[+2 Gold] from [Stone] tiles [in this city]"
 		],
