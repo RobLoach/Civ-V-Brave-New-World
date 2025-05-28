@@ -10,7 +10,7 @@
 
 ### TileSets
 
-- Merchant of Venice by Herobrine
+- FantasyHex Merchant of Venice by Herobrine
 - Absolute Units by Basil
 - Brazilwood Camp by Kurwizimi
 
