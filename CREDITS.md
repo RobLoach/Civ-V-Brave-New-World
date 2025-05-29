@@ -8,6 +8,14 @@
 
 ## Art
 
+### TileSets
+
+- FantasyHex Merchant of Venice by Herobrine
+- Absolute Units by Basil
+- Brazilwood Camp by Kurwizimi
+
+### Icons
+
 - Worldwide by iconsdb.com for Exploration policy branch
 - Feather by iconsdb.com for Aesthetics policy branch
 - Headdress by Arturo Alejandro Romo Escartin from NounProject.com

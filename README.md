@@ -28,3 +28,8 @@
 ## Development
 
 This was based on the original [Brave New World mod](https://github.com/ravignir/Brave-New-World) by [@ravignir](https://github.com/ravignir). The original was missing a bunch of features, many of these have since been added. If you'd like to contribute further, feel free to submit any pull requests or [discuss on Discord](https://discord.com/channels/586194543280390151/1055580642806603866).
+
+## License
+
+- [Mozilla Public License Version 2.0](LICENSE)
+- [Credits](CREDITS.md)

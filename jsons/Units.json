@@ -15,7 +15,8 @@
 			"Only available <with [Trade Route]> <hidden from users>",
 			"[0] Sight <hidden from users>",
 			"Ignores terrain cost",
-			"Uncapturable <hidden from users>"
+			"Uncapturable <hidden from users>",
+			"Cannot embark"
 			// TODO: Within own cities, provide food and production after granary or workshop
 		]
 	},
