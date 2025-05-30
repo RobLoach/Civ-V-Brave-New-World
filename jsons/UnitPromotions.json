@@ -214,14 +214,6 @@
 		"innerColor": [174, 42, 41]
 	},
 	{
-		"name": "Homeland Guardian",
-		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
-	},
-	{
-		"name": "Desert Warrior",
-		"uniques": ["[+50]% Strength <when fighting in [Desert] tiles>"]
-	},
-	{
 		"name": "Paradrop",
 		"uniques": ["Comment [May Paradrop up to 9 tiles from inside friendly territory]", "May Paradrop up to [9] tiles from inside friendly territory <for units without [Skyranger]> <hidden from users>"]
 	},

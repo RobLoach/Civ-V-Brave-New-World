@@ -226,10 +226,15 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
-		"promotions": ["Homeland Guardian","Desert Warrior"],
 		"uniques": [
-			"Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"
+			"Can move after attacking",
+			"[-33]% Strength <vs cities>",
+			"No defensive terrain bonus",
+
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>", // Homeland Guardian
+			"[+50]% Strength <when fighting in [Desert] tiles>", // Desert Warrior
+
+			"Consumes [1] [Horses]"
 		],
 		"attackSound": "horse"
 	},
