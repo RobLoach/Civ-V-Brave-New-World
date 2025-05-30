@@ -1530,6 +1530,20 @@ UnitPromotionIcons/Ambition
   orig: 50, 50
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Enemy Blade
+  rotate: false
+  xy: 1990, 850
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Evil Spirits
+  rotate: false
+  xy: 1990, 850
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Heroism
   rotate: false
   xy: 1990, 850
@@ -1545,6 +1559,13 @@ UnitPromotionIcons/Invulnerability
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Mystic Blade
+  rotate: false
+  xy: 1990, 850
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Recruitment
   rotate: false
   xy: 1990, 850
   size: 50, 50

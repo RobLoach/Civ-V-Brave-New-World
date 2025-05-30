@@ -256,9 +256,15 @@
 		"uniques": [
 			"Destroyed when the city is captured",
 			"New [Military] units start with [15] XP [in this city]",
-			"All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion"
+			"All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion <before the [Industrial era]>" // Pre-Gunpowder era.
 		],
-        "requiredTech": "Bronze Working"
+        "requiredTech": "Bronze Working",
+		"civilopediaText": [
+			{
+				"text": "Buffalo Horns",
+				"link": "Promotion/Buffalo Horns"
+			}
+		]
     },
 	{
         "name": "Candi",

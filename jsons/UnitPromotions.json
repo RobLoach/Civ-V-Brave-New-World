@@ -10,65 +10,208 @@
 			"[+10]% Strength <when defending> <vs [Ranged] units>",
 			"[+25]% to Flank Attack bonuses",
 			"Only available <for [Zulu] Civilizations>"
-		],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 1
+		]
 	},
 	{
 		"name": "Buffalo Chest",
-		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>","[+10]% Strength <when defending> <vs [Ranged] units>","[+25]% to Flank Attack bonuses"],
+		"uniques": [
+			"[+10]% Strength <when fighting in [Open terrain] tiles>",
+			"[+10]% Strength <when defending> <vs [Ranged] units>",
+			"[+25]% to Flank Attack bonuses",
+			"Only available <for [Zulu] Civilizations>"
+		],
 		"prerequisites": ["Buffalo Horns"],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 2
+		"unitTypes": ["Sword"]
 	},
 	{
 		"name": "Buffalo Loins",
-		"uniques": ["[+15]% Strength","[+10]% Strength <when defending> <vs [Ranged] units>","[+25]% to Flank Attack bonuses"],
+		"uniques": [
+			"[+15]% Strength",
+			"[+10]% Strength <when defending> <vs [Ranged] units>",
+			"[+25]% to Flank Attack bonuses",
+			"Only available <for [Zulu] Civilizations>"
+		],
 		"prerequisites": ["Buffalo Chest"],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 3
+		"unitTypes": ["Sword"]
 	},
 	{
-		"name": "Mystic Blade", // only for Kris Swordsman and subsequent upgrades
-		"civilopediaText": [{"text": "Access to special promotions"}],
-		"uniques": ["Only available <for [Kris Swordsman] units>"],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 1
+		"name": "Mystic Blade", // https://civilization.fandom.com/wiki/Kris_Swordsman_(Civ5)
+		"uniques": [
+			"Only available <for [Kris Swordsman] units>",
+			"Comment [Provides a randomly selected special promotion after the first battle]",
+
+			// Provide a random
+			"[This Unit] gains the [Invulnerability] promotion <with [33]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
+			"[This Unit] gains the [Sneak Attack] promotion <with [33]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
+			"[This Unit] gains the [Heroism] promotion <with [33]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
+			"[This Unit] gains the [Ambition] promotion <with [33]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
+			"[This Unit] gains the [Restlessness] promotion <with [33]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
+			"[This Unit] gains the [Recruitment] promotion <with [33]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
+			"[This Unit] gains the [Enemy Blade] promotion <with [33]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
+			// On failure, give Evil Spirits.
+			"[This Unit] gains the [Evil Spirits] promotion <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>"
+		],
+		//"unitTypes": ["Sword","Gunpowder"],
+		//"column": 1,
+		"civilopediaText": [
+			{
+				"text": "Invulnerability",
+				"link": "Promotion/Invulnerability"
+			},
+			{
+				"text": "Sneak Attack",
+				"link": "Promotion/Sneak Attack"
+			},
+			{
+				"text": "Heroism",
+				"link": "Promotion/Heroism"
+			},
+			{
+				"text": "Ambition",
+				"link": "Promotion/Ambition"
+			},
+			{
+				"text": "Restlessness",
+				"link": "Promotion/Restlessness"
+			},
+			{
+				"text": "Recruitment",
+				"link": "Promotion/Recruitment"
+			},
+			{
+				"text": "Enemy Blade",
+				"link": "Promotion/Enemy Blade"
+			},
+			{
+				"text": "Evil Spirits",
+				"link": "Promotion/Evil Spirits"
+			}
+		],
+		"innerColor": [88, 196, 221]
 	},
 	{
 		"name": "Invulnerability",
-		"uniques": ["[+50]% Strength <when defending>", "[+20] HP when healing","Only available <for units without [Ambition]>","Only available <for units without [Restlessness]>","Only available <for units without [Heroism]>","Only available <for units without [Sneak Attack]>"],
+		"uniques": [
+			"[+30]% Strength <when defending>",
+			"[+20] HP when healing",
+			"Only available <for units without [Ambition]> <hidden from users>",
+			"Only available <for units without [Restlessness]> <hidden from users>",
+			"Only available <for units without [Heroism]> <hidden from users>",
+			"Only available <for units without [Sneak Attack]> <hidden from users>",
+			"Only available <for units without [Recruitment]> <hidden from users>",
+			"Only available <for units without [Enemy Blade]> <hidden from users>",
+			"Only available <for units without [Evil Spirits]> <hidden from users>"
+		],
 		"prerequisites": ["Mystic Blade"],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 2
+		"innerColor": [88, 196, 221]
 	},
 	{
 		"name": "Sneak Attack",
-		"uniques": ["[+50]% to Flank Attack bonuses","Only available <for units without [Ambition]>","Only available <for units without [Restlessness]>","Only available <for units without [Heroism]>","Only available <for units without [Invulnerability]>"],
+		"uniques": [
+			"[+50]% to Flank Attack bonuses",
+			"Only available <for units without [Ambition]> <hidden from users>",
+			"Only available <for units without [Restlessness]> <hidden from users>",
+			"Only available <for units without [Heroism]> <hidden from users>",
+			"Only available <for units without [Invulnerability]> <hidden from users>",
+			"Only available <for units without [Recruitment]> <hidden from users>",
+			"Only available <for units without [Enemy Blade]> <hidden from users>",
+			"Only available <for units without [Evil Spirits]> <hidden from users>"
+		],
 		"prerequisites": ["Mystic Blade"],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 2
-	},
-	{
-		"name": "Restlessness",
-		"uniques": ["[1] additional attacks per turn","[+1] Movement","Only available <for units without [Ambition]>","Only available <for units without [Heroism]>","Only available <for units without [Sneak Attack]>","Only available <for units without [Invulnerability]>"],
-		"prerequisites": ["Mystic Blade"],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 2
+		"innerColor": [88, 196, 221]
 	},
 	{
 		"name": "Heroism",
-		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles","Only available <for units without [Ambition]>","Only available <for units without [Restlessness]>","Only available <for units without [Sneak Attack]>","Only available <for units without [Invulnerability]>"],
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Only available <for units without [Ambition]> <hidden from users>",
+			"Only available <for units without [Restlessness]> <hidden from users>",
+			"Only available <for units without [Sneak Attack]> <hidden from users>",
+			"Only available <for units without [Invulnerability]> <hidden from users>",
+			"Only available <for units without [Recruitment]> <hidden from users>",
+			"Only available <for units without [Enemy Blade]> <hidden from users>",
+			"Only available <for units without [Evil Spirits]> <hidden from users>"
+		],
 		"prerequisites": ["Mystic Blade"],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 2
+		"innerColor": [88, 196, 221]
 	},
 	{
 		"name": "Ambition",
-		"uniques": ["[+50]% Strength <when attacking>","[-20]% Strength <when defending>","Only available <for units without [Restlessness]>","Only available <for units without [Heroism]>","Only available <for units without [Sneak Attack]>","Only available <for units without [Invulnerability]>"],
+		"uniques": [
+			"[+50]% Strength <when attacking>",
+			"[-20]% Strength <when defending>",
+			"Only available <for units without [Restlessness]> <hidden from users>",
+			"Only available <for units without [Heroism]> <hidden from users>",
+			"Only available <for units without [Sneak Attack]> <hidden from users>",
+			"Only available <for units without [Invulnerability]> <hidden from users>",
+			"Only available <for units without [Recruitment]> <hidden from users>",
+			"Only available <for units without [Enemy Blade]> <hidden from users>",
+			"Only available <for units without [Evil Spirits]> <hidden from users>"
+		],
 		"prerequisites": ["Mystic Blade"],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 2
+		"innerColor": [88, 196, 221]
+	},
+	{
+		"name": "Restlessness",
+		"uniques": [
+			"[1] additional attacks per turn",
+			"[+1] Movement",
+			"Only available <for units without [Ambition]> <hidden from users>",
+			"Only available <for units without [Heroism]> <hidden from users>",
+			"Only available <for units without [Sneak Attack]> <hidden from users>",
+			"Only available <for units without [Invulnerability]> <hidden from users>",
+			"Only available <for units without [Recruitment]> <hidden from users>",
+			"Only available <for units without [Enemy Blade]> <hidden from users>",
+			"Only available <for units without [Evil Spirits]> <hidden from users>"
+		],
+		"prerequisites": ["Mystic Blade"],
+		"innerColor": [88, 196, 221]
+	},
+	{
+		"name": "Recruitment",
+		"uniques": [
+			"[This Unit] heals [50] HP <upon defeating a [Major] unit>",
+			"Only available <for units without [Ambition]> <hidden from users>",
+			"Only available <for units without [Heroism]> <hidden from users>",
+			"Only available <for units without [Sneak Attack]> <hidden from users>",
+			"Only available <for units without [Invulnerability]> <hidden from users>",
+			"Only available <for units without [Restlessness]> <hidden from users>",
+			"Only available <for units without [Enemy Blade]> <hidden from users>",
+			"Only available <for units without [Evil Spirits]> <hidden from users>"
+		],
+		"prerequisites": ["Mystic Blade"],
+		"innerColor": [88, 196, 221]
+	},
+	{
+		"name": "Enemy Blade",
+		"uniques": [
+			"[This Unit] takes [20] damage <upon ending a turn in a [Enemy Land] tile>",
+			"Only available <for units without [Ambition]> <hidden from users>",
+			"Only available <for units without [Heroism]> <hidden from users>",
+			"Only available <for units without [Sneak Attack]> <hidden from users>",
+			"Only available <for units without [Invulnerability]> <hidden from users>",
+			"Only available <for units without [Restlessness]> <hidden from users>",
+			"Only available <for units without [Recruitment]> <hidden from users>",
+			"Only available <for units without [Evil Spirits]> <hidden from users>"
+		],
+		"prerequisites": ["Mystic Blade"],
+		"innerColor": [174, 42, 41]
+	},
+	{
+		"name": "Evil Spirits",
+		"uniques": [
+			"[-10]% Strength <when attacking>",
+			"[-30]% Strength <when defending>",
+			"Only available <for units without [Ambition]> <hidden from users>",
+			"Only available <for units without [Heroism]> <hidden from users>",
+			"Only available <for units without [Sneak Attack]> <hidden from users>",
+			"Only available <for units without [Invulnerability]> <hidden from users>",
+			"Only available <for units without [Restlessness]> <hidden from users>",
+			"Only available <for units without [Recruitment]> <hidden from users>",
+			"Only available <for units without [Enemy Blade]> <hidden from users>"
+		],
+		"prerequisites": ["Mystic Blade"],
+		"innerColor": [174, 42, 41]
 	},
 	{
 		"name": "Homeland Guardian",

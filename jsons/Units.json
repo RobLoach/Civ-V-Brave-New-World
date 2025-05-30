@@ -104,8 +104,10 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"uniques": ["Consumes [1] [Iron]"],
-		"promotions": ["Mystic Blade"],
+		"uniques": [
+			"Consumes [1] [Iron]",
+			"[This Unit] gains the [Mystic Blade] promotion <upon defeating a [All] unit>"
+		],
 		"attackSound": "metalhit"
 	},
 	{
