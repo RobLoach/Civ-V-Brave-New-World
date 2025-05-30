@@ -77,7 +77,7 @@
 		"obsoleteTech": "Chivalry",
 		"attackSound": "arrow"
 	},
-		{
+	{
 		"name": "Siege Tower",
 		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
 		"replaces": "Catapult",
@@ -90,6 +90,8 @@
 		"upgradesTo": "Trebuchet",
 		"uniques": [
 			"[+200]% Strength <vs cities> <when attacking>",
+			// Sapper: When next to an enemy city, other units within 2 tiles get a 50% bonus when attacking the city.
+			"[-50]% Strength for enemy [Military] units in adjacent [City center] tiles",
 			"No defensive terrain bonus",
 			"[+1] Sight",
 			"Can only attack [City] units"
@@ -110,8 +112,8 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"uniques": [
-			"Consumes [1] [Iron]",
-			"[This Unit] gains the [Mystic Blade] promotion <upon defeating a [All] unit>"
+			"[This Unit] gains the [Mystic Blade] promotion <upon defeating a [All] unit>",
+			"Consumes [1] [Iron]"
 		],
 		"attackSound": "metalhit",
 		"civilopediaText": [
@@ -146,12 +148,14 @@
 		"cost": 45,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"No movement cost to pillage",
 			"Unbuildable",
 			"[+50]% Strength <vs [Mounted] units>",
 			"Can move immediately once bought",
-			"Only available <after adopting [Mercenary Army]>",
-			"Earn [100]% of the damage done to [City] units as [Gold]"
+			"Only available <after adopting [Mercenary Army]>"
+		],
+		"promotions": [
+			"City Plunder",
+			"No Movement Cost to Pillage"
 		],
 		"upgradesTo": "Lancer",
 		"attackSound": "metalhit",
@@ -193,14 +197,14 @@
 		"upgradesTo": "Anti-Tank Gun",
 		"uniques": [
 			"Can move after attacking",
-			"[+25]% Strength <when attacking>", // TODO: Heavy Charge - Forces defender to retreat if it inflicts more damage than it receives. A defender who cannot retreat takes extra damage.
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities>",
 			"Consumes [1] [Horses]"
 		],
 		"promotions": [
 			"Shock I",
-			"Formation I"
+			"Formation I",
+			"Heavy Charge"
 		],
 		"attackSound": "horse"
 	},
@@ -291,7 +295,7 @@
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"uniques": [
-			"Only available <for [City-States] Civilizations>" // Only with Volunteer Army, and gifted by Militaristic City-States
+			"Only available <for [City-States] Civilizations>" // Only gifted from Militaristic City-States, or Volunteer Army policy
 		],
 		"promotions": [
 			"Foreign Lands Bonus"
@@ -339,8 +343,28 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
-		"promotions": ["Great Generals II"],
-		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+		"promotions": [
+			"Great Generals II",
+			"Golden Age from Victories"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Minuteman",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "America",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["Ignores terrain cost"],
+		"promotions": [
+			"Drill I",
+			"Golden Age from Victories" // New in BNW
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -351,8 +375,13 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"upgradesTo": "Future Soldier",
-		"promotions": ["Paradrop"],
-		"uniques": ["No movement cost to pillage", "Never appears as a Barbarian unit"],
+		"promotions": [
+			"Paradrop",
+			"No Movement Cost to Pillage"
+		],
+		"uniques": [
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -362,8 +391,12 @@
 		"strength": 100,
 		"cost": 400,
 		"requiredTech": "Nanotechnology",
-		"promotions": ["Skyranger"],
-		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": [
+			"Skyranger"
+		],
+		"uniques": [
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot"
 	},
 	{

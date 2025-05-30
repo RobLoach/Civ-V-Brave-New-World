@@ -11,6 +11,8 @@
 		"uniques": [
 			"Indicates the capital city",
 			"Provides [1] [Great Work of Art Slot]",
+
+			// Unit Modifications
 			"Enables [Great Admiral] units to enter ocean tiles <hidden from users>" // See Unit/Great Admiral
 		]
 	},

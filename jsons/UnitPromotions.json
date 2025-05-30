@@ -274,5 +274,38 @@
 			"[+20]% Strength <when fighting in [Foreign Land] tiles>"
 		],
 		"innerColor": [253, 228, 2]
+	},
+
+	// Landsknecht
+	{
+		"name": "City Plunder",
+		"uniques": [
+			"Earn [100]% of the damage done to [City] units as [Gold]"
+		]
+	},
+
+	// Pictish Warrior, Landsknecht, Sipahi, Paratrooper
+	{
+		"name": "No Movement Cost to Pillage",
+		"uniques": [
+			"No movement cost to pillage"
+		]
+	},
+
+	// Golden Age from Victories
+	{
+		"name": "Golden Age from Victories",
+		"uniques": [
+			"Instantly gain [1] [Golden Age points] <upon defeating a [Military] unit>"
+		]
+	},
+
+	// Winged-Hussar
+	{
+		"name": "Heavy Charge",
+		"uniques":[
+			// TODO: Heavy Charge - Forces defender to retreat if it inflicts more damage than it receives. A defender who cannot retreat takes extra damage.
+			"[+25]% Strength <when attacking>"
+		]
 	}
 ]
