@@ -152,7 +152,11 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+25]% Strength <vs [Gunpowder] units>","[+50]% Strength <vs [Mounted] units>","[1] additional attacks per turn"],
+		"uniques": [
+			"[+25]% Strength <vs [Gunpowder] units>",
+			"[+50]% Strength <vs [Mounted] units>",
+			"[1] additional attacks per turn" // Spear Throw: Before engaging in melee, this unit has an extra attack (ranged).
+		],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit"
@@ -165,17 +169,20 @@
 		"movement": 5,
 		"strength": 28,
 		"cost": 185,
+		"requiredResource": "Horses",
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Anti-Tank Gun",
 		"uniques": [
-			"Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Consumes [1] [Horses]",
+			"[+25]% Strength <when attacking>" // TODO: Heavy Charge - Forces defender to retreat if it inflicts more damage than it receives. A defender who cannot retreat takes extra damage.
 		],
 		"promotions": [
 			"Shock I",
-			"Formation I",
-			"Heavy Charge"
+			"Formation I"
 		],
 		"attackSound": "horse"
 	},
@@ -223,6 +230,7 @@
 		"movement": 4,
 		"strength": 34,
 		"cost": 225,
+		"requiredResource": "Horses",
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
@@ -246,6 +254,7 @@
 		"movement": 5,
 		"strength": 34,
 		"cost": 200,
+		"requiredResource": "Horses",
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",

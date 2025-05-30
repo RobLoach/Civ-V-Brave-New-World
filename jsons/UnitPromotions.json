@@ -1,8 +1,5 @@
 [
-	{
-		"name": "Heavy Charge",
-		"uniques": ["[+25]% Strength <when attacking>"]
-	},
+	// Zulu
 	{
 		"name": "Buffalo Horns",
 		"uniques": [
@@ -10,6 +7,12 @@
 			"[+10]% Strength <when defending> <vs [Ranged] units>",
 			"[+25]% to Flank Attack bonuses",
 			"Only available <for [Zulu] Civilizations>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Ikanda",
+				"link": "Building/Ikanda"
+			}
 		]
 	},
 	{
@@ -26,7 +29,7 @@
 	{
 		"name": "Buffalo Loins",
 		"uniques": [
-			"[+15]% Strength",
+			"[+10]% Strength",
 			"[+10]% Strength <when defending> <vs [Ranged] units>",
 			"[+25]% to Flank Attack bonuses",
 			"Only available <for [Zulu] Civilizations>"
@@ -34,6 +37,8 @@
 		"prerequisites": ["Buffalo Chest"],
 		"unitTypes": ["Sword"]
 	},
+
+	// Kris Swordsman
 	{
 		"name": "Mystic Blade", // https://civilization.fandom.com/wiki/Kris_Swordsman_(Civ5)
 		"uniques": [
@@ -51,8 +56,6 @@
 			// On failure, give Evil Spirits.
 			"[This Unit] gains the [Evil Spirits] promotion <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>"
 		],
-		//"unitTypes": ["Sword","Gunpowder"],
-		//"column": 1,
 		"civilopediaText": [
 			{
 				"text": "Invulnerability",
@@ -213,6 +216,8 @@
 		"prerequisites": ["Mystic Blade"],
 		"innerColor": [174, 42, 41]
 	},
+
+	// Paratrooper and Future Soldier
 	{
 		"name": "Paradrop",
 		"uniques": ["Comment [May Paradrop up to 9 tiles from inside friendly territory]", "May Paradrop up to [9] tiles from inside friendly territory <for units without [Skyranger]> <hidden from users>"]
@@ -221,6 +226,8 @@
 		"name": "Skyranger",
 		"uniques": ["May Paradrop up to [40] tiles from inside friendly territory","May Paradrop up to [49] tiles from inside friendly territory <for units with [Paradrop]> <hidden from users>"]
 	},
+
+	// Mount Kilimanjaro
 	{
 		"name": "Altitude Training",
 		"uniques": ["Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
@@ -237,6 +244,8 @@
 			}
 		]
 	},
+
+	// Caravansary
 	{
 		"name": "Caravansary Benefit",
 		"uniques": [
@@ -246,6 +255,8 @@
 			"Comment [Double influence when conducting a Trade Route in City-States]"
 		]
 	},
+
+	// Iroquois
 	{
 		"name": "The Great Warpath",
 		"uniques": [

@@ -115,7 +115,6 @@
 - [Mobilization](https://thenounproject.com/icon/sale-7772060/) by Skena Grafis
 - [Futurism](https://thenounproject.com/icon/tourist-7083437/) by Andre Buand
 - [Industrial Espionage](https://thenounproject.com/icon/robbery-7183772/) by Zach Hainsworth
-- [Lightning Warfare](https://thenounproject.com/icon/lightning-7761817/) by Ariso
 - [Third Alternative](https://thenounproject.com/icon/capital-7169973/) by Nursila
 - [Cult of Personality](https://thenounproject.com/icon/bully-4616110/) by Kamin Ginkaew
 - [Gunboat Diplomacy](https://thenounproject.com/icon/diplomacy-6258254/) by WBcreative
@@ -133,3 +132,12 @@
 - [King Solomon's Mines](https://thenounproject.com/icon/mine-7442527/) by Rikas Dzihab
 - [Christianity](https://thenounproject.com/icon/cross-5815203/) by Alvaro Cabrera
 - [Trade Route](https://thenounproject.com/icon/circle-arrows-1841393/) by Untashable
+- [Invulnerability](https://thenounproject.com/icon/shield-heart-5633610/) by Alejandro
+- [Mythic Blade](https://thenounproject.com/icon/question-mark-1295871/) by Alex Muravev
+- [Evil Spirits](https://thenounproject.com/icon/shield-7922666/) by SAADI ALA
+- [Heroism](https://thenounproject.com/icon/star-4960592/) by Mu'as
+- [Recruitment](https://thenounproject.com/icon/skull-912477/) by Andrew Doane
+- [Sneak Attack](https://thenounproject.com/icon/wing-1865583/) by prasong tadoungsorn
+- [Altitude Training](https://thenounproject.com/icon/mountain-5409893/) by HideMaru
+- [Paradrop](https://thenounproject.com/icon/parachute-7236485/)
+- [Skyranger](https://thenounproject.com/icon/airplane-7546219/) by Feri_icon
