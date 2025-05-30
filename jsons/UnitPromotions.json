@@ -265,5 +265,14 @@
 			"Only available <for [Iroquois] Civilizations>",
 			"This Promotion is free <hidden from users>"
 		]
+	},
+
+	// Foreign Legion
+	{
+		"name": "Foreign Lands Bonus",
+		"uniques": [
+			"[+20]% Strength <when fighting in [Foreign Land] tiles>"
+		],
+		"innerColor": [253, 228, 2]
 	}
 ]

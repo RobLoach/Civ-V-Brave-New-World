@@ -51,10 +51,15 @@
 		"movement": 2,
 		"strength": 8,
 		"upgradesTo": "Composite Bowman",
-		"cost": 35,
+		"cost": 45,
 		"obsoleteTech": "Scientific Theory",
-		"promotions": ["Ignore terrain cost"],
-		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
+		"promotions": [
+			"Ignore terrain cost"
+		],
+		"uniques": [
+			// TODO: Native tongue (May choose benefit when discovering Ancient Ruins)
+			"May upgrade to [Composite Bowman] through ruins-like effects"
+		],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -108,7 +113,13 @@
 			"Consumes [1] [Iron]",
 			"[This Unit] gains the [Mystic Blade] promotion <upon defeating a [All] unit>"
 		],
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{
+				"text": "Mystic Blade",
+				"link": "Promotion/Mystic Blade"
+			}
+		]
 	},
 	{
 		"name": "Great Galleass",
@@ -122,7 +133,9 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": [
+			"Cannot enter ocean tiles"
+		],
 		"attackSound": "arrow"
 	},
 	{
@@ -141,9 +154,15 @@
 			"Earn [100]% of the damage done to [City] units as [Gold]"
 		],
 		"upgradesTo": "Lancer",
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{
+				"text": "Mercenary Army",
+				"link": "Policy/Mercenary Army"
+			}
+		]
 	},
-		{
+	{
 		"name": "Impi",
 		"replaces": "Pikeman",
 		"uniqueTo": "Zulu",
@@ -169,16 +188,15 @@
 		"movement": 5,
 		"strength": 28,
 		"cost": 185,
-		"requiredResource": "Horses",
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Anti-Tank Gun",
 		"uniques": [
 			"Can move after attacking",
+			"[+25]% Strength <when attacking>", // TODO: Heavy Charge - Forces defender to retreat if it inflicts more damage than it receives. A defender who cannot retreat takes extra damage.
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities>",
-			"Consumes [1] [Horses]",
-			"[+25]% Strength <when attacking>" // TODO: Heavy Charge - Forces defender to retreat if it inflicts more damage than it receives. A defender who cannot retreat takes extra damage.
+			"Consumes [1] [Horses]"
 		],
 		"promotions": [
 			"Shock I",
@@ -230,18 +248,16 @@
 		"movement": 4,
 		"strength": 34,
 		"cost": 225,
-		"requiredResource": "Horses",
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
 		"uniques": [
 			"Can move after attacking",
-			"[-33]% Strength <vs cities>",
-			"No defensive terrain bonus",
-
 			"[+25]% Strength <when fighting in [Friendly Land] tiles>", // Homeland Guardian
 			"[+50]% Strength <when fighting in [Desert] tiles>", // Desert Warrior
 
+			"[-33]% Strength <vs cities>",
+			"No defensive terrain bonus",
 			"Consumes [1] [Horses]"
 		],
 		"attackSound": "horse"
@@ -254,13 +270,14 @@
 		"movement": 5,
 		"strength": 34,
 		"cost": 200,
-		"requiredResource": "Horses",
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
 		"uniques": [
-			"Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"
+			"Can move after attacking",
+			"[-33]% Strength <vs cities>",
+			"No defensive terrain bonus",
+			"Consumes [1] [Horses]"
 		],
 		"attackSound": "horse"
 	},
@@ -274,10 +291,18 @@
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"uniques": [
-			"[+20]% Strength <when fighting in [Foreign Land] tiles>",
-			"Unbuildable"
+			"Only available <for [City-States] Civilizations>" // Only with Volunteer Army, and gifted by Militaristic City-States
 		],
-		"attackSound": "shot"
+		"promotions": [
+			"Foreign Lands Bonus"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Volunteer Army",
+				"link": "Policy/Volunteer Army"
+			}
+		]
 	},
 	{
 		"name": "Machine Gun",
