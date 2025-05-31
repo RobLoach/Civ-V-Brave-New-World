@@ -272,12 +272,15 @@
 		"unitType": "Mounted",
 		"replaces": "Cavalry",
 		"uniqueTo": "Shoshone",
-		"movement": 5,
+		"movement": 4, // Without Full Moon Striker
 		"strength": 34,
 		"cost": 200,
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
+		"promotions": [
+			"Full Moon Striker"
+		],
 		"uniques": [
 			"Can move after attacking",
 			"[-33]% Strength <vs cities>",
@@ -290,7 +293,7 @@
 		"name": "Foreign Legion",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 42,
+		"strength": 42, // TODO: Is this 50 in BNW?
 		"cost": 320,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
@@ -319,7 +322,7 @@
 		"cost": 350,
 		"requiredTech": "Ballistics",
 		"obsoleteTech": "Nuclear Fission",
-		"upgradesTo": "Bazooka",
+		"upgradesTo": "Bazooka", // New in BNW
 		"attackSound": "machinegun"
 	},
 	{
@@ -345,7 +348,6 @@
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"promotions": [
-			"Great Generals II",
 			"Golden Age from Victories"
 		],
 		"attackSound": "shot"
@@ -361,7 +363,9 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["Ignores terrain cost"],
+		"uniques": [
+			"Ignores terrain cost"
+		],
 		"promotions": [
 			"Drill I",
 			"Golden Age from Victories" // New in BNW

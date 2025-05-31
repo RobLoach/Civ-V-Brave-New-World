@@ -149,3 +149,4 @@
 - [Ignores Zone of Control](https://thenounproject.com/icon/zone-defense-3990512/) by Michael G Brown
 - [Homeland Guardian](https://thenounproject.com/icon/star-shield-764665/) by Aneeque Ahmed
 - [Desert Warrior](https://thenounproject.com/icon/desert-7472058/) by Alvida
+- [Full Moon Striker](https://thenounproject.com/icon/missile-6608854/) by Vectorstall

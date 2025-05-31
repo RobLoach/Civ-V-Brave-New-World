@@ -6,14 +6,14 @@
 			{},
 			{ "text": "Concepts", "header": 3 },
 			{ "text": "There are a few gameplay concepts introduced in Brave New World that change how the game is played:" },
-			{
-				"text": "Ideologies",
-				"link": "Tutorial/Ideology"
-			},
-			{
-				"text": "Archaeology and Great Works",
-				"link": "Tutorial/Great Works"
-			},
+				{
+					"text": "Ideologies",
+					"link": "Tutorial/Ideology"
+				},
+				{
+					"text": "Archaeology and Great Works",
+					"link": "Tutorial/Great Works"
+				},
 			{},
 			{ "text": "Nations", "header": 3 },
 				{ "text": "Poland", "link": "Nation/Poland" },

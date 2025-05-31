@@ -326,5 +326,13 @@
 		"uniques": [
 			"[+50]% Strength <when fighting in [Desert] tiles>"
 		]
+	},
+
+	// Comanche Riders
+	{
+		"name": "Full Moon Striker",
+		"uniques": [
+			"[1] Movement"
+		]
 	}
 ]
