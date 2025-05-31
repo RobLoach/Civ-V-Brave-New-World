@@ -1,4 +1,5 @@
 [
+	// Archaeology
 	{
 		"name": "Archaeological Dig",
 		"text": "Your Archaeological Dig has uncovered an Ancient Artifact!",
@@ -38,6 +39,8 @@
 			}
 		]
 	},
+
+	// Ideology
 	{
 		"name": "Ideology",
 		"text": "Choose one of these ideologies:",
@@ -46,7 +49,7 @@
 			{
 				"text": "Autocracy",
 				"uniques": [
-					"Adopt [Autocracy] <hidden from users>",
+					"Adopt [Autocracy]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
 					"Only available <before adopting [Order]>"
@@ -55,7 +58,7 @@
 			{
 				"text": "Freedom",
 				"uniques": [
-					"Adopt [Freedom] <hidden from users>",
+					"Adopt [Freedom]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
 					"Only available <before adopting [Order]>"
@@ -64,15 +67,11 @@
 			{
 				"text": "Order",
 				"uniques": [
-					"Adopt [Order] <hidden from users>",
+					"Adopt [Order]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
 					"Only available <before adopting [Order]>"
 				]
-			},
-			{
-				"text": "Back",
-				"uniques": []
 			}
 		]
 	},

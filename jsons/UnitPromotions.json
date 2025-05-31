@@ -232,12 +232,17 @@
 		"name": "Altitude Training",
 		"uniques": ["Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
 	},
+
+	// Lightning Warfare Policy: Ignores Zone of Control
 	{
-		"name": "Lightning Warfare",
+		"name": "Ignores Zone of Control",
 		"uniques": [
 			"Ignores Zone of Control"
 		],
 		"civilopediaText": [
+			{
+				"text": "Zone of Control prevents enemy units from moving out of a tile occupied by a friendly unit on the same turn they move into that tile."
+			},
 			{
 				"text": "Lightning Warfare",
 				"link": "Policy/Lightning Warfare"
@@ -247,7 +252,7 @@
 
 	// Caravansary
 	{
-		"name": "Caravansary Benefit",
+		"name": "[Caravansary] ability",
 		"uniques": [
 			// TODO: Produce an additional 2 Gold when connecting to another civilization.
 			"[1] Movement", // TODO: Land trade routes originating from this city have a 50% increase in range

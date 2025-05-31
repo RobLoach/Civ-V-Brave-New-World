@@ -6,8 +6,8 @@
 		"cost": 75,
 		"requiredTech": "Animal Husbandry",
 		"uniques": [
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence <for units without [Caravansary Benefit]>",
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <for units with [Caravansary Benefit]>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence <for units without [[Caravansary] ability]>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <for units with [[Caravansary] ability]>",
 			// TODO: Establish Trade Route (Route must run over land from one city to another.)
 			// TODO: Change Home City (After selecting a city and waiting a turn, allows different trade routes to be made.)
 			"[1] Movement <for [Arabia] Civilizations> <hidden from users>", // Caravans gain 50% extended range

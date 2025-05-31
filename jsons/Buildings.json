@@ -54,7 +54,7 @@
 		"cost": 120,
 		"maintenance": 0,
 		"uniques": [
-			"All newly-trained [Caravan] units [in this city] receive the [Caravansary Benefit] promotion"
+			"All newly-trained [Caravan] units [in this city] receive the [[Caravansary] ability] promotion"
 		],
 		"requiredTech": "Horseback Riding"
 	},
@@ -1444,22 +1444,30 @@
 
 	// Events
 	{
-		"name": "Ideology", // Triggered in Modern Era to pick an Ideology
+		"name": "Ideology Available", // Used to Trigger the Ideology pop up.
 		"hurryCostModifier": -100,
 		"cost": 1,
 		"uniques": [
 			"Comment [Visit the Policies Screen to select an Ideology]",
 			"Automatically built in all cities where it is buildable <hidden from users>",
-			"Triggers a [Ideology] event <hidden from users>",
+
+			// Only for Humans so that AI picks based on AI weighted decisions.
+			"Triggers a [Ideology] event <for [Human player] Civilizations> <hidden from users>",
+
+			// AI gets a free social policy since we give it to humans.
+			"Free Social Policy <for [AI player] Civilizations> <hidden from users>",
+
 			"Will not be displayed in Civilopedia",
-			"Unsellable <hidden from users>",
 			"Moves to new capital when capital changes <hidden from users>",
+			"Unsellable <hidden from users>",
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
 			"Only available <in cities with a [Palace]> <hidden from users>",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Order]> <hidden from users>",
-			"Unavailable <after adopting [Autocracy]> <hidden from users>"
+			"Unavailable <after adopting [Autocracy]> <hidden from users>",
+
+			"Remove [Ideology Available] [in your cities] <upon turn end> <hidden from users>" // TODO: This doesn't seem to work.
 		]
 	}
 ]

@@ -361,7 +361,7 @@
 			{
 				"name": "Rationalism Complete",
 				"uniques": [
-					"[1] Free Technologies",
+					"Free Technology",
 					"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
 				]
 			}
@@ -405,7 +405,7 @@
 			{
 				"name": "Navigation School",
 				"uniques": [
-					"[1] free [Great Admiral] units appear",
+					"Free [Great Admiral] appears",
 					"[Great Admiral] is earned [+50]% faster",
 					"Comment [+2 Movement for all Great Admirals]"
 				],
@@ -637,7 +637,7 @@
 	// Ideology: Autocracy
 	{
 		"name": "Autocracy",
-		"era": "Renaissance era",
+		"era": "Ancient era",
 		"priorities": {
             "Neutral": 20,
             "Cultural": 0,
@@ -648,12 +648,13 @@
 		"uniques": [
 			"Comment [Requires either Modern era, or three Factories]",
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
-			"Unavailable <after adopting [Order]>",
-			"Unavailable <after adopting [Freedom]>",
-			"Remove [Ideology] [in your cities] <hidden from users>",
+			"Unavailable <after adopting [Freedom]> <hidden from users>",
+			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
+			"Remove [Ideology Available] [in capital] <hidden from users>",
 
 			// Preferred Ideology
+			"[+50]% weight to this choice for AI decisions",
 			"[+100]% weight to this choice for AI decisions <for [Zulu] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [Aztecs] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [Greece] Civilizations>",
@@ -765,14 +766,20 @@
 					"[15]% Strength <for [Armored] units> <when attacking>",
 					"[1] Movement <for [Armored] units>",
 					"Comment [Armored units ignore zone of control]",
-					"[Armored] units gain the [Lightning Warfare] promotion <hidden from users>",
-					"All newly-trained [Armored] units [in your cities] receive the [Lightning Warfare] promotion <hidden from users>",
+					"[Armored] units gain the [Ignores Zone of Control] promotion <hidden from users>",
+					"All newly-trained [Armored] units [in your cities] receive the [Ignores Zone of Control] promotion <hidden from users>",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
 				"row": 2,
-				"column": 4
+				"column": 4,
+				"civilopediaText": [
+					{
+						"text": "Ignores Zone of Control",
+						"link": "Promotion/Ignores Zone of Control"
+					}
+				]
 			},
 			{
 				"name": "Police State",
@@ -873,7 +880,7 @@
 	// Ideology: Order
 	{
 		"name": "Order",
-		"era": "Renaissance era",
+		"era": "Ancient era",
 		"priorities": {
             "Neutral": 10,
             "Cultural": 0,
@@ -884,12 +891,13 @@
 		"uniques": [
 			"Comment [Requires either Modern era, or three Factories]",
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
-			"Unavailable <after adopting [Autocracy]>",
-			"Unavailable <after adopting [Freedom]>",
-			"Remove [Ideology] [in your cities] <hidden from users>",
+			"Unavailable <after adopting [Freedom]> <hidden from users>",
+			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
+			"Remove [Ideology Available] [in capital] <hidden from users>",
 
 			// Preferred Ideology
+			"[+50]% weight to this choice for AI decisions",
 			"[+100]% weight to this choice for AI decisions <for [Assyria] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [Babylon] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [China] Civilizations>",
@@ -1105,7 +1113,7 @@
 	// Ideology: Freedom
 	{
 		"name": "Freedom",
-		"era": "Renaissance era",
+		"era": "Ancient era",
 		"priorities": {
             "Neutral": 30,
             "Cultural": 30,
@@ -1116,12 +1124,13 @@
 		"uniques": [
 			"Comment [Requires either Modern era, or three Factories]",
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
-			"Unavailable <after adopting [Autocracy]>",
-			"Unavailable <after adopting [Order]>",
-			"Remove [Ideology] [in your cities] <hidden from users>",
+			"Unavailable <after adopting [Order]> <hidden from users>",
+			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
+			"Remove [Ideology Available] [in capital] <hidden from users>",
 
 			// Preferred Ideology
+			"[+50]% weight to this choice for AI decisions",
 			"[+100]% weight to this choice for AI decisions <for [America] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [Austria] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [The Netherlands] Civilizations>",

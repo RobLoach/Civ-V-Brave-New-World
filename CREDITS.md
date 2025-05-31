@@ -115,6 +115,7 @@
 - [Mobilization](https://thenounproject.com/icon/sale-7772060/) by Skena Grafis
 - [Futurism](https://thenounproject.com/icon/tourist-7083437/) by Andre Buand
 - [Industrial Espionage](https://thenounproject.com/icon/robbery-7183772/) by Zach Hainsworth
+- [Lightning Warfare](https://thenounproject.com/icon/lightning-7761817/) by Ariso
 - [Third Alternative](https://thenounproject.com/icon/capital-7169973/) by Nursila
 - [Cult of Personality](https://thenounproject.com/icon/bully-4616110/) by Kamin Ginkaew
 - [Gunboat Diplomacy](https://thenounproject.com/icon/diplomacy-6258254/) by WBcreative
@@ -126,7 +127,6 @@
 - [Resettlement](https://thenounproject.com/icon/resettlement-2209642/) by Nithinan Tatah
 - [Cultural Revolution](https://thenounproject.com/icon/cultural-activities-7659287/) by Mia Elysia
 - [Spaceflight Pioneers](https://thenounproject.com/icon/astronaut-7528057/) by ArashDesign
-- [Lightning Warfare](https://thenounproject.com/icon/tank-6738746/) by Hafid Firman Syarif
 - [Cargo Ship](https://thenounproject.com/icon/cargo-7762395/) by Lulis Dian RP
 - [Caravan](https://thenounproject.com/icon/camel-7803410/) by Md Ahasan Habib
 - [King Solomon's Mines](https://thenounproject.com/icon/mine-7442527/) by Rikas Dzihab
@@ -146,3 +146,4 @@
 - [No Movement Cost to Pillage](https://thenounproject.com/icon/burn-7438357/) by Arto Moro
 - [Golden Age from Victories](https://thenounproject.com/icon/smiley-face-2571154/) by Mike Zuidgeest
 - [Foreign Lands Bonus](https://thenounproject.com/icon/triangle-7487240/) by El Hikami
+- [Ignores Zone of Control](https://thenounproject.com/icon/zone-defense-3990512/) by Michael G Brown
