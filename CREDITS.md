@@ -127,9 +127,23 @@
 - [Resettlement](https://thenounproject.com/icon/resettlement-2209642/) by Nithinan Tatah
 - [Cultural Revolution](https://thenounproject.com/icon/cultural-activities-7659287/) by Mia Elysia
 - [Spaceflight Pioneers](https://thenounproject.com/icon/astronaut-7528057/) by ArashDesign
-- [Lightning Warfare](https://thenounproject.com/icon/tank-6738746/) by Hafid Firman Syarif
 - [Cargo Ship](https://thenounproject.com/icon/cargo-7762395/) by Lulis Dian RP
 - [Caravan](https://thenounproject.com/icon/camel-7803410/) by Md Ahasan Habib
 - [King Solomon's Mines](https://thenounproject.com/icon/mine-7442527/) by Rikas Dzihab
 - [Christianity](https://thenounproject.com/icon/cross-5815203/) by Alvaro Cabrera
 - [Trade Route](https://thenounproject.com/icon/circle-arrows-1841393/) by Untashable
+- [Invulnerability](https://thenounproject.com/icon/shield-heart-5633610/) by Alejandro
+- [Mythic Blade](https://thenounproject.com/icon/question-mark-1295871/) by Alex Muravev
+- [Evil Spirits](https://thenounproject.com/icon/shield-7922666/) by SAADI ALA
+- [Heroism](https://thenounproject.com/icon/star-4960592/) by Mu'as
+- [Recruitment](https://thenounproject.com/icon/skull-912477/) by Andrew Doane
+- [Sneak Attack](https://thenounproject.com/icon/wing-1865583/) by prasong tadoungsorn
+- [Altitude Training](https://thenounproject.com/icon/mountain-5409893/) by HideMaru
+- [Paradrop](https://thenounproject.com/icon/parachute-7236485/)
+- [Skyranger](https://thenounproject.com/icon/airplane-7546219/) by Feri_icon
+- [City Plunder](https://thenounproject.com/icon/skull-and-bones-6458048/) by Dimitri Lupo
+- [Heavy Charge](https://thenounproject.com/icon/spear-7674485/) by metami septiana
+- [No Movement Cost to Pillage](https://thenounproject.com/icon/burn-7438357/) by Arto Moro
+- [Golden Age from Victories](https://thenounproject.com/icon/smiley-face-2571154/) by Mike Zuidgeest
+- [Foreign Lands Bonus](https://thenounproject.com/icon/triangle-7487240/) by El Hikami
+- [Ignores Zone of Control](https://thenounproject.com/icon/zone-defense-3990512/) by Michael G Brown

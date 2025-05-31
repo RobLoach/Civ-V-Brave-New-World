@@ -50,7 +50,13 @@
         "type": "Follower",
         "uniques": [
 			"Comment [Hermitage provides +5 Culture and +5 Tourism]"
-        ]
+        ],
+		"civilopediaText": [
+			{
+				"text": "Hermitage",
+				"link": "Building/Hermitage"
+			}
+		]
     },
 
     // Enhancer

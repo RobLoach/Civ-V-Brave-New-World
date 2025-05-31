@@ -6,8 +6,8 @@
 		"cost": 75,
 		"requiredTech": "Animal Husbandry",
 		"uniques": [
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence <for units without [Caravansary Benefit]>",
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <for units with [Caravansary Benefit]>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence <for units without [[Caravansary] ability]>",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <for units with [[Caravansary] ability]>",
 			// TODO: Establish Trade Route (Route must run over land from one city to another.)
 			// TODO: Change Home City (After selecting a city and waiting a turn, allows different trade routes to be made.)
 			"[1] Movement <for [Arabia] Civilizations> <hidden from users>", // Caravans gain 50% extended range
@@ -51,10 +51,15 @@
 		"movement": 2,
 		"strength": 8,
 		"upgradesTo": "Composite Bowman",
-		"cost": 35,
+		"cost": 45,
 		"obsoleteTech": "Scientific Theory",
-		"promotions": ["Ignore terrain cost"],
-		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
+		"promotions": [
+			"Ignore terrain cost"
+		],
+		"uniques": [
+			// TODO: Native tongue (May choose benefit when discovering Ancient Ruins)
+			"May upgrade to [Composite Bowman] through ruins-like effects"
+		],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -72,7 +77,7 @@
 		"obsoleteTech": "Chivalry",
 		"attackSound": "arrow"
 	},
-		{
+	{
 		"name": "Siege Tower",
 		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
 		"replaces": "Catapult",
@@ -85,6 +90,8 @@
 		"upgradesTo": "Trebuchet",
 		"uniques": [
 			"[+200]% Strength <vs cities> <when attacking>",
+			// Sapper: When next to an enemy city, other units within 2 tiles get a 50% bonus when attacking the city.
+			"[-50]% Strength for enemy [Military] units in adjacent [City center] tiles",
 			"No defensive terrain bonus",
 			"[+1] Sight",
 			"Can only attack [City] units"
@@ -104,9 +111,17 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		"uniques": ["Consumes [1] [Iron]"],
-		"promotions": ["Mystic Blade"],
-		"attackSound": "metalhit"
+		"uniques": [
+			"[This Unit] gains the [Mystic Blade] promotion <upon defeating a [All] unit>",
+			"Consumes [1] [Iron]"
+		],
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{
+				"text": "Mystic Blade",
+				"link": "Promotion/Mystic Blade"
+			}
+		]
 	},
 	{
 		"name": "Great Galleass",
@@ -120,7 +135,9 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": [
+			"Cannot enter ocean tiles"
+		],
 		"attackSound": "arrow"
 	},
 	{
@@ -131,17 +148,25 @@
 		"cost": 45,
 		"requiredTech": "Civil Service",
 		"uniques": [
-			"No movement cost to pillage",
 			"Unbuildable",
 			"[+50]% Strength <vs [Mounted] units>",
 			"Can move immediately once bought",
-			"Only available <after adopting [Mercenary Army]>",
-			"Earn [100]% of the damage done to [City] units as [Gold]"
+			"Only available <after adopting [Mercenary Army]>"
+		],
+		"promotions": [
+			"City Plunder",
+			"No Movement Cost to Pillage"
 		],
 		"upgradesTo": "Lancer",
-		"attackSound": "metalhit"
+		"attackSound": "metalhit",
+		"civilopediaText": [
+			{
+				"text": "Mercenary Army",
+				"link": "Policy/Mercenary Army"
+			}
+		]
 	},
-		{
+	{
 		"name": "Impi",
 		"replaces": "Pikeman",
 		"uniqueTo": "Zulu",
@@ -150,7 +175,11 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+25]% Strength <vs [Gunpowder] units>","[+50]% Strength <vs [Mounted] units>","[1] additional attacks per turn"],
+		"uniques": [
+			"[+25]% Strength <vs [Gunpowder] units>",
+			"[+50]% Strength <vs [Mounted] units>",
+			"[1] additional attacks per turn" // Spear Throw: Before engaging in melee, this unit has an extra attack (ranged).
+		],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
 		"attackSound": "metalhit"
@@ -167,8 +196,10 @@
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Anti-Tank Gun",
 		"uniques": [
-			"Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities>",
+			"Consumes [1] [Horses]"
 		],
 		"promotions": [
 			"Shock I",
@@ -224,10 +255,14 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
-		"promotions": ["Homeland Guardian","Desert Warrior"],
 		"uniques": [
-			"Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"
+			"Can move after attacking",
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>", // Homeland Guardian
+			"[+50]% Strength <when fighting in [Desert] tiles>", // Desert Warrior
+
+			"[-33]% Strength <vs cities>",
+			"No defensive terrain bonus",
+			"Consumes [1] [Horses]"
 		],
 		"attackSound": "horse"
 	},
@@ -243,8 +278,10 @@
 		"obsoleteTech": "Combustion",
 		"upgradesTo": "Landship",
 		"uniques": [
-			"Can move after attacking","No defensive terrain bonus",
-			"[-33]% Strength <vs cities>","Consumes [1] [Horses]"
+			"Can move after attacking",
+			"[-33]% Strength <vs cities>",
+			"No defensive terrain bonus",
+			"Consumes [1] [Horses]"
 		],
 		"attackSound": "horse"
 	},
@@ -258,10 +295,18 @@
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"uniques": [
-			"[+20]% Strength <when fighting in [Foreign Land] tiles>",
-			"Unbuildable"
+			"Only available <for [City-States] Civilizations>" // Only gifted from Militaristic City-States, or Volunteer Army policy
 		],
-		"attackSound": "shot"
+		"promotions": [
+			"Foreign Lands Bonus"
+		],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"text": "Volunteer Army",
+				"link": "Policy/Volunteer Army"
+			}
+		]
 	},
 	{
 		"name": "Machine Gun",
@@ -298,8 +343,28 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
-		"promotions": ["Great Generals II"],
-		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+		"promotions": [
+			"Great Generals II",
+			"Golden Age from Victories"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Minuteman",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "America",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"uniques": ["Ignores terrain cost"],
+		"promotions": [
+			"Drill I",
+			"Golden Age from Victories" // New in BNW
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -310,8 +375,13 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"upgradesTo": "Future Soldier",
-		"promotions": ["Paradrop"],
-		"uniques": ["No movement cost to pillage", "Never appears as a Barbarian unit"],
+		"promotions": [
+			"Paradrop",
+			"No Movement Cost to Pillage"
+		],
+		"uniques": [
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot"
 	},
 	{
@@ -321,8 +391,12 @@
 		"strength": 100,
 		"cost": 400,
 		"requiredTech": "Nanotechnology",
-		"promotions": ["Skyranger"],
-		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": [
+			"Skyranger"
+		],
+		"uniques": [
+			"Never appears as a Barbarian unit"
+		],
 		"attackSound": "shot"
 	},
 	{
