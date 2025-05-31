@@ -144,4 +144,5 @@
 - [City Plunder](https://thenounproject.com/icon/skull-and-bones-6458048/) by Dimitri Lupo
 - [Heavy Charge](https://thenounproject.com/icon/spear-7674485/) by metami septiana
 - [No Movement Cost to Pillage](https://thenounproject.com/icon/burn-7438357/) by Arto Moro
-- [Golden Age from Victories](https://thenounproject.com/icon/happy-face-7647226/) by Mike Zuidgeest
+- [Golden Age from Victories](https://thenounproject.com/icon/smiley-face-2571154/) by Mike Zuidgeest
+- [Foreign Lands Bonus](https://thenounproject.com/icon/triangle-7487240/) by El Hikami
