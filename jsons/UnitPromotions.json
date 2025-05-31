@@ -312,5 +312,19 @@
 			// TODO: Heavy Charge - Forces defender to retreat if it inflicts more damage than it receives. A defender who cannot retreat takes extra damage.
 			"[+25]% Strength <when attacking>"
 		]
+	},
+
+	// Berber Cavalry
+	{
+		"name": "Homeland Guardian",
+		"uniques": [
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>"
+		]
+	},
+	{
+		"name": "Desert Warrior",
+		"uniques": [
+			"[+50]% Strength <when fighting in [Desert] tiles>"
+		]
 	}
 ]

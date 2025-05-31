@@ -132,7 +132,7 @@
 - [King Solomon's Mines](https://thenounproject.com/icon/mine-7442527/) by Rikas Dzihab
 - [Christianity](https://thenounproject.com/icon/cross-5815203/) by Alvaro Cabrera
 - [Trade Route](https://thenounproject.com/icon/circle-arrows-1841393/) by Untashable
-- [Invulnerability](https://thenounproject.com/icon/shield-heart-5633610/) by Alejandro
+- [Invulnerability](https://thenounproject.com/icon/health-insurance-764650/) by Aneeque Ahmed
 - [Mythic Blade](https://thenounproject.com/icon/question-mark-1295871/) by Alex Muravev
 - [Evil Spirits](https://thenounproject.com/icon/shield-7922666/) by SAADI ALA
 - [Heroism](https://thenounproject.com/icon/star-4960592/) by Mu'as
@@ -147,3 +147,5 @@
 - [Golden Age from Victories](https://thenounproject.com/icon/smiley-face-2571154/) by Mike Zuidgeest
 - [Foreign Lands Bonus](https://thenounproject.com/icon/triangle-7487240/) by El Hikami
 - [Ignores Zone of Control](https://thenounproject.com/icon/zone-defense-3990512/) by Michael G Brown
+- [Homeland Guardian](https://thenounproject.com/icon/star-shield-764665/) by Aneeque Ahmed
+- [Desert Warrior](https://thenounproject.com/icon/desert-7472058/) by Alvida
