@@ -112,7 +112,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"uniques": [
-			"[This Unit] gains the [Mystic Blade] promotion <upon defeating a [All] unit>",
+			"[This Unit] gains the [Mystic Blade] promotion <upon defeating a [Military] unit>",
 			"Consumes [1] [Iron]"
 		],
 		"attackSound": "metalhit",
