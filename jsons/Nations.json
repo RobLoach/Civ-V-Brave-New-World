@@ -33,6 +33,7 @@
 			"Free Social Policy <upon entering the [Information era]> <hidden from users>",
 			"Free Social Policy <upon entering the [Future era]> <hidden from users>",
 			"Comment [Free Social Policy upon entering a new era]", // Could just use (Free Social Policy <upon entering a new era>), but then you will gain a free policy on turn one, which is not BNW behaviour
+			"Preferred Ideology: Autocracy"
 		],
 		"spyNames": ["Wincenty", "Roman", "Benita", "Jan", "Kazimierz", "Josef", "Krystyna Skarbek", "Tarnowski", "Marian", "Alenka"],
 		"cities": ["Warsaw","Cracow","Lodz","Wroclaw","Poznan","Gdansk","Szczecin","Bydgoszcz","Lublin","Sopot",
@@ -67,7 +68,8 @@
 			// TODO: When a city is conquered, gain a free Technology already discovered by its owner. Gaining a city through a trade deal does not count, and it can only happen once per enemy city.
 			// Free Technology <upon conquering a city>   Closest we can get to the BNW behaviour.  Doesn't take into account what techs the owner has and can happen more than once per enemy city.
 			// Maybe give the Civ a burst of science after conquering a city (like Korea has with wonders)? Doesn't really solve the problems however
-			"[+25]% [Science] [in annexed cities] <for [20] turns>"
+			"[+25]% [Science] [in annexed cities] <for [20] turns>",
+			"Preferred Ideology: Order"
 		],
 		"spyNames": ["Adapa", "Kubaba", "Nabu", "Nergal", "Ninlil", "Ninurta", "Nisroch", "Shamash", "Pazuzu", "Quingu"],
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
@@ -135,7 +137,8 @@
 		"uniques": [
 			"[-50]% maintenance costs <for [Sword] units>",
 			"[-50]% maintenance costs <for [Gunpowder] units>",
-			"[+25]% XP gained from combat <for [Military] units>"
+			"[+25]% XP gained from combat <for [Military] units>",
+			"Preferred Ideology: Autocracy"
 		],
 		"spyNames": ["Gumede", "Jama", "Mageba", "Malanda", "Mnguni", "Ndaba", "Phunga", "Senzangakhona", "Balungile", "Samkelisiwe"],
 		"cities": ["Ulundi","Umgungundlovu","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",
@@ -199,6 +202,9 @@
 		"outerColor": [101,211,220],
 		"innerColor": [167,52,31],
 		"uniqueName": "Spice Islanders",
+		"uniques": [
+			"Preferred Ideology: Freedom"
+		],
 		"uniqueText": "The first 3 cities founded on continents other than where Indonesia started each provide 2 copies of a unique Indonesian Luxury Resource (either Cloves, Peppers, or Nutmeg).",
 		"spyNames": ["Adityawarman", "Airlangga", "Citra", "Halayudha", "Jayakatwang", "Lingga", "Mahendradatta", "Prapana", "Raden", "Davi"],
 		"cities": ["Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
@@ -245,8 +251,9 @@
 		"innerColor": [40,179,79],
 		"uniqueName": "Gateway to Africa",
 		"uniques": [
-			"[+1 Culture, +3 Gold] from each Trade Route" // Receives +3 Gold and +1 Culture for each Trade Route with a different civ or City-State.
+			"[+1 Culture, +3 Gold] from each Trade Route", // Receives +3 Gold and +1 Culture for each Trade Route with a different civ or City-State.
 			// TODO: Trade Route owners receive +2 Gold for each Trade Route sent to Morocco.
+			"Preferred Ideology: Freedom"
 		],
 		"spyNames": ["el-Krim", "ibn-Battuta", "al-Jazzar", "al-Kahina", "Hayyuj", "Kusayla", "al-Idrisi", "Salih", "Tariq", "Dihya"],
 		"cities": ["Marrakech","Rabat","Fes","Casablanca","Tangier","Salé","Ouarzazate","Meknes","Agadir","Oujda",
@@ -283,7 +290,8 @@
 			"Cannot build [Settler] units",
 			"May not annex cities",
 			"May buy items in puppet cities",
-			"Free [Merchant of Venice] appears <upon discovering [Optics] technology>"
+			"Free [Merchant of Venice] appears <upon discovering [Optics] technology>",
+			"Preferred Ideology: Freedom"
 		],
 		"spyNames": ["Gasparo", "Giosafat", "Ambrogio", "Niccolo", "Marino", "Cesare", "Francesco", "Giovanni", "Bertolome", "Filomena"],
 		"cities": ["Venice"]
@@ -379,9 +387,9 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "City of Light",
-		"uniqueText": "Museums double Tourism in capital",
+		"uniqueText": "Museums double Tourism in capital", // @see Building/Museum
 		"uniques": [
-			// Double Museum Tourism production in capital @see Museum
+			"Preferred Ideology: Order"
 			// TODO: World Wonder theming bonuses are doubled in their Capital.
 		],
 		"spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"],
@@ -417,7 +425,8 @@
 		"uniques": [
 			"No damage penalty for wounded units <for [non-air] units>",
 			"[+1 Culture] from every [Fishing Boats]",
-			"[+2 Culture] from every [Atoll]"
+			"[+2 Culture] from every [Atoll]",
+			"Preferred Ideology: Autocracy"
 		],
 		"spyNames": ["Akaishi","Oki","Hattori","Morozumi","Momochi","Kawashima","Orin","Sakanishi","Kaede","Mochizuki"],
 		"cities": ["Kyoto","Osaka","Tokyo","Satsuma","Kagoshima","Nara","Nagoya","Izumo","Nagasaki","Yokohama",
@@ -451,7 +460,8 @@
         "uniqueName": "Furor Teutonicus",
         "uniques": [
             "When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>",
-			"[-25]% maintenance costs <for [Land] units>"
+			"[-25]% maintenance costs <for [Land] units>",
+			"Preferred Ideology: Order"
 		],
 	    "spyNames": ["Johann","Marlene","Wilhelm","Eva","Heinz","Horst","Carl","Viper","Albrecht","Anton"],
         "cities": [ "Berlin","Hamburg","Munich","Cologne","Frankfurt","Essen","Dortmund","Stuttgart","Dusseldorf","Bremen",
@@ -487,7 +497,8 @@
         "uniqueName": "The Great Warpath",
         "uniques": [
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
-			"Comment [Caravans move along Forest and Jungle as if they were Roads.]"
+			"Comment [Caravans move along Forest and Jungle as if they were Roads.]", // @see Unit/Caravans
+			"Preferred Ideology: Freedom"
 		],
 	    "spyNames": ["Onatah","Oneida","Oshadagea","Otetiani","Genesee","Dadgayadoh","Otwtiani","Kateri","Onondakai","Honanyawus"],
         "cities": ["Onoondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River","Canandaigua Lake","Lake Simcoe",

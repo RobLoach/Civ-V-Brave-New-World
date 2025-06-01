@@ -655,13 +655,11 @@
 
 			// Preferred Ideology
 			"[+50]% weight to this choice for AI decisions",
-			"[+100]% weight to this choice for AI decisions <for [Zulu] Civilizations>",
+			"[+100]% weight to this choice for AI decisions <for [Preferred Ideology: Autocracy] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [Aztecs] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [Greece] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [The Huns] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Japan] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [Mongolia] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Poland] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [Songhai] Civilizations>"
 		],
 		"civilopediaText": [
@@ -898,12 +896,10 @@
 
 			// Preferred Ideology
 			"[+50]% weight to this choice for AI decisions",
-			"[+100]% weight to this choice for AI decisions <for [Assyria] Civilizations>",
+			"[+100]% weight to this choice for AI decisions <for [Preferred Ideology: Order] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [Babylon] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [China] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [Denmark] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [France] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Germany] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [The Ottomans] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [Rome] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [Russia] Civilizations>"
@@ -1131,17 +1127,14 @@
 
 			// Preferred Ideology
 			"[+50]% weight to this choice for AI decisions",
+			"[+100]% weight to this choice for AI decisions <for [Preferred Ideology: Freedom] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [America] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [Austria] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [The Netherlands] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [Ethiopia] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [India] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Indonesia] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Iroquois] Civilizations>",
 			"[+100]% weight to this choice for AI decisions <for [Korea] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Morocco] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Polynesia] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Venice] Civilizations>"
+			"[+100]% weight to this choice for AI decisions <for [Polynesia] Civilizations>"
 		],
 		"civilopediaText": [
 			{
