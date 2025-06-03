@@ -2,7 +2,7 @@
 	// Archaeology
 	{
 		"name": "Archaeological Dig",
-		"text": "Your Archaeological Dig has uncovered an Ancient Artifact!",
+		"text": "Your Archaeological Dig has uncovered an Ancient Artifact",
 		"presentation": "Alert",
 		"choices": [
 			{
@@ -15,7 +15,7 @@
 	},
 	{
 		"name": "Archaeological Dig - Hidden - Great Work of Writing",
-		"text": "Your Archaeological Dig has uncovered a Great Work of Writing!",
+		"text": "Your Archaeological Dig has uncovered a Great Work of Writing",
 		"presentation": "Alert",
 		"choices": [
 			{
@@ -28,7 +28,7 @@
 	},
 	{
 		"name": "Archaeological Dig - Hidden - Culture",
-		"text": "Your Archaeological Dig has sparked a Cultural Renaissance!",
+		"text": "Your Archaeological Dig has sparked a Cultural Renaissance",
 		"presentation": "Alert",
 		"choices": [
 			{
