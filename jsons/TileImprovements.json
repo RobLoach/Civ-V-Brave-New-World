@@ -103,7 +103,8 @@
             "Will not be replaced by automated units <hidden from users>",
 			"Remove [Antiquity Site] resources from this tile <hidden from users>",
 			"Pillaging this improvement yields approximately [+20 Gold]",
-			"Antiquity Improvement"
+			"Antiquity Dig Site",
+			"[This Unit] is destroyed <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Landmarks are built from Antiquity Sites by Archaeologists, consuming the Archaeologist." },
@@ -121,23 +122,27 @@
 		"turnsToBuild": 3,
 		"techRequired": "Archaeology",
 		"uniques": [
-			"Can only be built to improve a resource",
+			"Can only be built to improve a resource <hidden from users>",
 			"Can also be built on tiles adjacent to fresh water <hidden from users>",
 			"Removes removable features when built <hidden from users>",
 
+			// Antiquity Site
 			"Triggers a [Archaeological Dig] event <in [Antiquity Site] tiles> <hidden from users>",
-	        // Hidden Antiquity Sites give 30% chance in Civ 5. We use 80% because we're generous.
-			"Triggers a [Archaeological Dig - Hidden - Great Work of Writing] event <in [Hidden Antiquity Site] tiles> <with [80]% chance> <hidden from users>",
-			"Triggers a [Archaeological Dig - Hidden - Culture] event <in [Hidden Antiquity Site] tiles> <with [80]% chance> <hidden from users>",
 
+	        // Hidden Antiquity Site: Give 30% chance in Civ 5, but we are generous.
+			"Triggers a [Archaeological Dig - Hidden - Great Work of Writing] event <in [Hidden Antiquity Site] tiles> <with [75]% chance> <hidden from users>",
+			"Triggers a [Archaeological Dig - Hidden - Culture] event <in [Hidden Antiquity Site] tiles> <with [75]% chance> <hidden from users>",
+
+			// Remove the tiles.
 			"Remove [Archaeological Dig] improvements from this tile <hidden from users>",
 			"Remove [Antiquity Site] resources from this tile <hidden from users>",
 			"Remove [Hidden Antiquity Site] resources from this tile <hidden from users>",
-            "Will not be replaced by automated units <hidden from users>",
 
+            "Will not be replaced by automated units <hidden from users>",
 			"Can be built outside your borders",
 			"Excluded from map editor",
-			"Antiquity Improvement"
+			"Antiquity Dig Site",
+			"[This Unit] is destroyed <hidden from users>"
 		],
 		"shortcutKey": "D",
 		"civilopediaText": [
@@ -154,6 +159,10 @@
 			{
 				"text": "Archaeologist",
 				"link": "Unit/Archaeologist"
+			},
+			{
+				"text": "Artifact",
+				"link": "Resource/Artifact"
 			}
 		]
 	}

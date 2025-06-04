@@ -425,7 +425,7 @@
 		"requiredTech": "Archaeology",
 		"movement": 4,
 		"uniques": [
-			"Can build [Antiquity Improvement] improvements on tiles <by consuming this unit>",
+			"Can build [Antiquity Dig Site] improvements on tiles <by consuming this unit>",
 			"Cannot be purchased",
 			"Only available <in cities with a [University]>",
 			"Unavailable <for [City-States] Civilizations> <hidden from users>"
@@ -434,16 +434,16 @@
 			{ "text": "Archaeologists can either dig up Antiquity Sites for Artifacts, or turn them into a Landmark." },
 			{ "separator": true },
 			{
-				"text": "Artifact",
-				"link": "Resource/Artifact"
-			},
-			{
 				"text": "Antiquity Site",
 				"link": "Resource/Antiquity Site"
 			},
 			{
-				"text": "Hidden Antiquity Site",
-				"link": "Resource/Antiquity Site"
+				"text": "Landmark",
+				"link": "Improvement/Landmark"
+			},
+			{
+				"text": "Archaeological Dig",
+				"link": "Improvement/Archaeological Dig"
 			}
 		]
 	},
