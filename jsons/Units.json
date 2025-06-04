@@ -425,13 +425,13 @@
 		"requiredTech": "Archaeology",
 		"movement": 4,
 		"uniques": [
-			"Can build [Antiquity Dig Site] improvements on tiles <by consuming this unit>",
+			"Can build [Antiquity Dig Site] improvements on tiles",
 			"Cannot be purchased",
 			"Only available <in cities with a [University]>",
 			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
-			{ "text": "Archaeologists can either dig up Antiquity Sites for Artifacts, or turn them into a Landmark." },
+			{ "text": "An [Archaeologist] can either dig up an [Antiquity Site] for an [Artifact], or turn them into a [Landmark]." },
 			{ "separator": true },
 			{
 				"text": "Antiquity Site",
@@ -478,7 +478,7 @@
         ],
 		"civilopediaText": [
 			{
-				"text": "Generated with Artists' Guild",
+				"text": "Artists' Guild",
 				"link": "Wonder/Artists' Guild"
 			}
 		],
@@ -514,7 +514,7 @@
         ],
 		"civilopediaText": [
 			{
-				"text": "Generated with Writers' Guild",
+				"text": "Writers' Guild",
 				"link": "Wonder/Writers' Guild"
 			}
 		],
@@ -533,7 +533,7 @@
         ],
 		"civilopediaText": [
 			{
-				"text": "Generated with Musicians' Guild",
+				"text": "Musicians' Guild",
 				"link": "Wonder/Musicians' Guild"
 			}
 		],

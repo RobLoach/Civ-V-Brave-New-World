@@ -103,15 +103,19 @@
             "Will not be replaced by automated units <hidden from users>",
 			"Remove [Antiquity Site] resources from this tile <hidden from users>",
 			"Pillaging this improvement yields approximately [+20 Gold]",
-			"Antiquity Dig Site",
-			"[This Unit] is destroyed <hidden from users>"
+			// "[This Unit] is destroyed",
+			"Antiquity Dig Site"
 		],
 		"civilopediaText": [
-			{ "text": "Landmarks are built from Antiquity Sites by Archaeologists, consuming the Archaeologist." },
+			{ "text": "Landmarks are built from an [Antiquity Site] by an [Archaeologist], consuming the unit." },
 			{ "separator": true },
 			{
 				"text": "Antiquity Site",
 				"link": "Resource/Antiquity Site"
+			},
+			{
+				"text": "Archaeologist",
+				"link": "Unit/Archaeologist"
 			}
 		]
 	},
@@ -122,6 +126,7 @@
 		"turnsToBuild": 3,
 		"techRequired": "Archaeology",
 		"uniques": [
+			"Comment [Provides an [Artifact]]",
 			"Can only be built to improve a resource <hidden from users>",
 			"Can also be built on tiles adjacent to fresh water <hidden from users>",
 			"Removes removable features when built <hidden from users>",
@@ -133,20 +138,22 @@
 			"Triggers a [Archaeological Dig - Hidden - Great Work of Writing] event <in [Hidden Antiquity Site] tiles> <with [75]% chance> <hidden from users>",
 			"Triggers a [Archaeological Dig - Hidden - Culture] event <in [Hidden Antiquity Site] tiles> <with [75]% chance> <hidden from users>",
 
-			// Remove the tiles.
+			// Remove the resource/improvement.
 			"Remove [Archaeological Dig] improvements from this tile <hidden from users>",
 			"Remove [Antiquity Site] resources from this tile <hidden from users>",
 			"Remove [Hidden Antiquity Site] resources from this tile <hidden from users>",
 
+			// Remove the unit.
+			"Triggers a [Archaeological Dig - Destroy Unit] event <hidden from users>",
+
             "Will not be replaced by automated units <hidden from users>",
 			"Can be built outside your borders",
 			"Excluded from map editor",
-			"Antiquity Dig Site",
-			"[This Unit] is destroyed <hidden from users>"
+			"Antiquity Dig Site"
 		],
 		"shortcutKey": "D",
 		"civilopediaText": [
-			{ "text": "Archaeologists can dig up Antiquity Sites to produce an Artifact, consuming the Archaeologist." },
+			{ "text": "An [Archaeologist] can dig up an [Antiquity Site] to produce an [Artifact], consuming the unit." },
 			{ "separator": true },
 			{
 				"text": "Antiquity Site",

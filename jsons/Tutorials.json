@@ -97,7 +97,7 @@
 	{
 		"name": "Ideology",
 		"steps": [
-			"Each civilization will be able to choose an Ideology upon reaching the Modern Era, or controlling 3 Factories."
+			"Each Civilization will be able to choose an Ideology upon reaching the Modern Era, or controlling 3 [Factory] buildings."
 		],
 		"civilopediaText": [
 			{
@@ -127,7 +127,7 @@
 		"name": "Great Works",
 		"civilopediaText": [
 			{
-				"text": "Great Works are the exceptional creations of Great People. They can also be acquired via conquest, however, or after your civilization develops its interest in ancient Artifacts and starts digging them up from the ruins of the past."
+				"text": "Great Works are the exceptional creations of Great People. They can also be acquired via conquest, however, or after your civilization develops its interest in an ancient [Artifact] and starts digging them up from the ruins of the past."
 			},
 			{},
 			{
@@ -151,7 +151,7 @@
 			},
 			{},
 			{
-				"text": "Once you have acquired a Great Work or an Arifact, you are able to slot it into one of the Great Works slots in your cites:"
+				"text": "Once you have acquired a Great Work or an [Arifact], you are able to slot it into one of the Great Works slots in your cites:"
 			},
 			{
 				"text": "Great Work of Writing Slot",
@@ -167,7 +167,7 @@
 			},
 			{},
 			{
-				"text": "Great Works are one of the primary means in which to acquire Tourism"
+				"text": "Great Works are one of the primary means in which to acquire [Tourism]"
 			},
 			{
 				"text": "Tourism",

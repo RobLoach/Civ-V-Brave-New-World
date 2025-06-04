@@ -150,7 +150,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "A Trade Route is required in order for a Caravan or Cargo Ship to establish a trade connection with other civilizations or City-States."
+				"text": "A Trade Route is required in order for a [Caravan] or [Cargo Ship] to establish a trade connection with other civilizations or City-States."
 			},
 			{ "separator": true },
 			{
@@ -223,24 +223,20 @@
 			"Landmark"
 		],
         "uniques": [
-			"Generated on every [150] tiles",
+			"Generated on every [200] tiles",
 			"Not shown on world screen",
 			"Cannot be traded <hidden from users>",
 			"Antiquity"
 		],
 		"civilopediaText": [
-			{ "text": "Antiquity Sites can be dug up for Artifacts, or turned into Landmarks, by Archaeologists." },
+			{ "text": "Antiquity Sites can be dug up for an [Artifact], or turned into a [Landmark], by an [Archaeologist]." },
 			{ "separator": true },
 			{
-				"text": "Dug up by Archaeologists",
+				"text": "Archaeologist",
 				"link": "Unit/Archaeologist"
 			},
 			{
-				"text": "Architectural Digs result in Artifacts",
-				"link": "Resource/Artifact"
-			},
-			{
-				"text": "See also: Hidden Antiquity Site",
+				"text": "Hidden Antiquity Site",
 				"link": "Resource/Hidden Antiquity Site"
 			}
 		]
@@ -254,28 +250,28 @@
 			"Archaeological Dig"
 		],
         "uniques": [
-			"Generated on every [200] tiles",
+			"Generated on every [250] tiles",
 			"Not shown on world screen",
 			"Cannot be traded <hidden from users>",
 			"Antiquity"
 		],
 		"civilopediaText": [
-			{ "text": "Hidden Antiquity Sites can be dug up by Archaeologists for a chance of Great Works of Writing and Cultural Renaissances. They are revealed by completing the Exploration Policy tree." },
+			{ "text": "Hidden Antiquity Sites can be dug up by an [Archaeologist] for a chance of [Great Work of Writing] and a Cultural Renaissance. They are revealed by completing the [Exploration] Policy tree." },
 			{ "separator": true },
 			{
-				"text": "Dug up by Archaeologists",
+				"text": "Archaeologist",
 				"link": "Unit/Archaeologist"
 			},
 			{
-				"text": "Archaeological Digs can dig up Great Works of Writing",
+				"text": "Great Work of Writing",
 				"link": "Resource/Great Work of Writing"
 			},
 			{
 				"text": "Revealed by completing the Exploration Policy Tree",
-				"link": "Policy/Exploration Complete"
+				"link": "Policy/Exploration"
 			},
 			{
-				"text": "See also: Antiquity Site",
+				"text": "Antiquity Site",
 				"link": "Resource/Antiquity Site"
 			}
 		]
@@ -291,7 +287,7 @@
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
-			{ "text": "Can be traded, or slotted into a Great Work of Writing Slot." },
+			{ "text": "Can be traded, or slotted into a [Great Work of Writing Slot]." },
 			{ "separator": true },
 			{
 				"text": "Great Work of Writing Slot",
@@ -313,7 +309,7 @@
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
-			{ "text": "Can be traded, or slotted into a Great Work of Art Slot." },
+			{ "text": "Can be traded, or slotted into a [Great Work of Art Slot]." },
 			{ "separator": true },
 			{
 				"text": "Great Work of Art Slot",
@@ -331,7 +327,7 @@
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
-			{ "text": "Can be traded, or slotted into a Great Work of Music Slot." },
+			{ "text": "Can be traded, or slotted into a [Great Work of Music Slot]." },
 			{ "separator": true },
 			{
 				"text": "Great Work of Music Slot",
@@ -349,18 +345,18 @@
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
-			{ "text": "Artifacts are found from Archaeological Digs with Archaeologists on Antiquity Sites. They can then be slotted into a Great Work of Art Slot." },
+			{ "text": "Artifacts are found from an [Archaeological Dig] with an [Archaeologist] on an [Antiquity Site]. They can then be slotted into a [Great Work of Art Slot]." },
 			{ "separator": true },
 			{
-				"text": "Found by Archaeologist",
+				"text": "Archaeologist",
 				"link": "Unit/Archaeologist"
 			},
 			{
-				"text": "Found in Antiquity Site",
+				"text": "Antiquity Site",
 				"link": "Resource/Antiquity Site"
 			},
 			{
-				"text": "Used in a Great Work of Art Slot in cities",
+				"text": "Great Work of Art Slot",
 				"link": "Resource/Great Work of Art Slot"
 			},
 			{"text": "Great Works", "link": "Tutorial/Great Works"}
@@ -377,7 +373,7 @@
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
-			{ "text": "Slotted with a Great Work of Writing." },
+			{ "text": "Slots a [Great Work of Writing]." },
 			{ "separator": true },
 			{
 				"text": "Great Work of Writing",
@@ -397,7 +393,7 @@
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
-			{ "text": "Slotted with either a Great Work of Art or an Artifact." },
+			{ "text": "Slots either a [Great Work of Art] or an [Artifact]." },
 			{ "separator": true },
 			{
 				"text": "Great Work of Art",
@@ -421,7 +417,7 @@
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
-			{ "text": "Slotted with a Great Work of Music." },
+			{ "text": "Slots a [Great Work of Music]." },
 			{ "separator": true },
 			{
 				"text": "Great Work of Music",
