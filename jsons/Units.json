@@ -1,4 +1,17 @@
 [
+	// Worker overriden for Antiquity Site manipulation.
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Can build [Land] improvements on tiles <in tiles without [Antiquity]>",
+			"Can build [All Road] improvements on tiles <in [Antiquity] tiles>",
+			"Automation is a primary action"
+		],
+		"cost": 70
+	},
+
 	// Trade Route Units
 	{
 		"name": "Caravan", // https://civilization.fandom.com/wiki/Caravan_(Civ5)
@@ -412,12 +425,10 @@
 		"requiredTech": "Archaeology",
 		"movement": 4,
 		"uniques": [
-			"Can build [Archaeological Dig] improvements on tiles <in [Antiquity Site] tiles>",
-			"Can build [Archaeological Dig] improvements on tiles <in [Hidden Antiquity Site] tiles>",
-			"Can build [Landmark] improvements on tiles <in [Antiquity Site] tiles>",
+			"Can build [Antiquity Improvement] improvements on tiles <by consuming this unit>",
 			"Cannot be purchased",
 			"Only available <in cities with a [University]>",
-			"Unavailable <for [City-States] Civilizations>"
+			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Archaeologists can either dig up Antiquity Sites for Artifacts, or turn them into a Landmark." },
