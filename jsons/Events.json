@@ -92,7 +92,7 @@
 	// Pathfinder Native Tongue
 	{
 		"name": "Native Tongue",
-		"text": "Native Tongue: Choose an [Ancient ruins] benefit",
+		"text": "The [Pathfinder]'s [Native Tongue] allows you to choose an [Ancient ruins] benefit",
 		"presentation": "Alert",
 		"choices": [
 			{
