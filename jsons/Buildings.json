@@ -591,7 +591,7 @@
         "uniques": [
 			"[-99]% enemy spy effectiveness [in this city]",
             "[-25]% enemy spy effectiveness [in your cities]",
-			"Comment [Negates Tourism bonus from other players' Internet]"
+			"Comment [Negates [Tourism] bonus from other players discovering [The Internet]]"
 		],
         "requiredTech": "Computers",
         "quote": "'Distrust and caution are the parents of security.' - Benjamin Franklin",
@@ -599,6 +599,10 @@
 			{
 				"text": "The Internet",
 				"link": "Technology/The Internet"
+			},
+			{
+				"text": "Tourism",
+				"link": "Resource/Tourism"
 			}
 		]
     },

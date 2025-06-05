@@ -1362,7 +1362,7 @@ TileSets/Minimal/Tiles/Plains+Lake Victoria
   orig: 100, 100
   offset: 0, 0
   index: -1
-UniquePortraits/Comment [Double the [Tourism] output of all your cities]
+UniqueIcons/Comment [Double the [Tourism] output of all your cities]
   rotate: false
   xy: 1104, 910
   size: 100, 100
@@ -1376,7 +1376,7 @@ ResourceIcons/Tourism
   orig: 100, 100
   offset: 0, 0
   index: -1
-UniquePortraits/Instantly provides [1] [Trade Route]
+UniqueIcons/Instantly provides [1] [Trade Route]
   rotate: false
   xy: 1320, 694
   size: 100, 100
