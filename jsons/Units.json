@@ -72,6 +72,7 @@
 		],
 		"uniques": [
 			// TODO: Native tongue (May choose benefit when discovering Ancient Ruins)
+			//"Triggers a [Native tonue] event <upon entering a [Ancient ruin] tile>",
 			"May upgrade to [Composite Bowman] through ruins-like effects"
 		],
 		"attackSound": "nonmetalhit"

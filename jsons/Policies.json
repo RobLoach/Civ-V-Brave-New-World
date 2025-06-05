@@ -108,8 +108,7 @@
 			{
 				"name": "Mandate Of Heaven",
 				"uniques": [
-					// TODO: Make this not applicable to Great People
-					"[Faith] cost of purchasing items in cities [-20]%"
+					"[Faith] cost of purchasing items in cities [-20]%" // TODO: Make this not applicable to Great People
 				],
 				"row": 1,
 				"column": 5
@@ -847,7 +846,7 @@
 			{
 				"name": "Gunboat Diplomacy",
 				"uniques": [
-					// TODO: Gain 6 more Influence Influence per turn with City-States you could demand tribute from
+					// TODO: Gain 6 more Influence per turn with City-States you could demand tribute from
 					"Influence of all other civilizations with all city-states degrades [+20]% faster",
 					"[-20]% City-State Influence degradation",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
@@ -1013,8 +1012,7 @@
 			{
 				"name": "Resettlement",
 				"uniques": [
-					// TODO: New Cities start with an extra 3 Population.
-					"[+100]% growth [in your cities] <in cities with between [0] and [2] [Population]>",
+					"[3] population [in this city] <upon founding a city>",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"

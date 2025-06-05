@@ -44,8 +44,9 @@
 		"uniques": [
 			// TODO: Allows airlifting to other cities with Airports
  			// TODO: Increases air unit capacity of the city from 6 to 10.
-			 "Provides [1] [Tourism] <for every [2] [Culture]> <in this city>", // +50% of the Culture Culture output of Wonders and Improvements in the city added to Tourism
-			 "Provides [1] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>" // Great Work Tourism in the city +50%
+			"All newly-trained [Fighter] units [in this city] receive the [[Airport] ability] promotion", // TODO: This isn't a real thing, it's just instead of the original benefits.
+			"Provides [1] [Tourism] <for every [2] [Culture]> <in this city>", // +50% of the Culture output of Wonders and Improvements in the city added to Tourism
+			"Provides [1] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>" // Great Work Tourism in the city +50%
 		],
 		"requiredTech": "Radar"
 	},
@@ -302,7 +303,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
-			// TODO: Forms a City Connection City Connection with the Capital Capital over water.
+			// TODO: Forms a City Connection with the Capital over water.
 			// TODO: Sea trade routes originating from this city have a 50% increase in range and produce an additional 1 Gold when connecting to another civilization. A Harbor must also exist in the Capital Capital (or in a city connected to the Capital Capital).
 			"Connects trade routes over water",
 			"Must be next to [Coast]"
@@ -681,7 +682,8 @@
         "requiredTech": "Telecommunications",
 		"requiredBuilding": "Hotel",
 		"uniques": [
-			"Provides [1] [Tourism] <for every [1] [[Wonder] Buildings]> <in this city>", // TODO: +100% of the Culture output of Wonders and Improvements in the city added to Tourism
+			"Provides [1] [Tourism] <for every [1] [[Wonder] Buildings]> <in this city>", // TODO: +100% of the Culture output of Wonders in the city added to Tourism
+			// "Provides [1] [Tourism] <in [improved] tiles> <in this city>", // TODO: +100% of the Culture output of Improvements in the city added to Tourism
 			"Provides [2] [Tourism] <for every [1] [[Great Work] Buildings]> <in this city>", // Great Work Tourism in the city +100%
             "Cost increases by [30] per owned city",
 			"Only available <if [Hotel] is constructed in all [non-[Puppeted]] cities>"

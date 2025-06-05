@@ -45,14 +45,14 @@
 			"Only available <for [Kris Swordsman] units>",
 			"Comment [Provides a randomly selected special promotion after the first battle]",
 
-			// Provide a random promotion. It should be 12.5%, but we're generous with 20% for each.
-			"[This Unit] gains the [Invulnerability] promotion <with [20]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Sneak Attack] promotion <with [20]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Heroism] promotion <with [20]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Ambition] promotion <with [20]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Restlessness] promotion <with [20]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Recruitment] promotion <with [20]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Enemy Blade] promotion <with [20]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
+			// Provide a random promotion. It should be 12.5%, but we're generous with 15% for each.
+			"[This Unit] gains the [Invulnerability] promotion <with [15]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
+			"[This Unit] gains the [Sneak Attack] promotion <with [15]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
+			"[This Unit] gains the [Heroism] promotion <with [15]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
+			"[This Unit] gains the [Ambition] promotion <with [15]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
+			"[This Unit] gains the [Restlessness] promotion <with [15]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
+			"[This Unit] gains the [Recruitment] promotion <with [15]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
+			"[This Unit] gains the [Enemy Blade] promotion <with [15]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
 			// On failure, give Evil Spirits.
 			"[This Unit] gains the [Evil Spirits] promotion <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>"
 		],
@@ -309,8 +309,7 @@
 	{
 		"name": "Heavy Charge",
 		"uniques":[
-			// TODO: Heavy Charge - Forces defender to retreat if it inflicts more damage than it receives. A defender who cannot retreat takes extra damage.
-			"[+25]% Strength <when attacking>"
+			"[+25]% Strength <when attacking>" // TODO: Forces defender to retreat if it inflicts more damage than it receives. A defender who cannot retreat takes extra damage.
 		]
 	},
 
@@ -333,6 +332,15 @@
 		"name": "Full Moon Striker",
 		"uniques": [
 			"[1] Movement"
+		]
+	},
+
+	// Airport
+	{
+		"name": "[Airport] ability",
+		"uniques": [
+			"[+2] Air Interception Range",
+			"[+10]% Strength when performing Air Sweep"
 		]
 	}
 ]
