@@ -31,7 +31,8 @@
 			"[0] Sight <hidden from users>",
 			"Ignores terrain cost",
 			"Uncapturable <hidden from users>",
-			"Cannot embark"
+			"Cannot embark",
+			"Never appears as a Barbarian unit <hidden from users>"
 			// TODO: Within own cities, provide food and production after granary or workshop
 		],
 		"promotions": [
@@ -53,7 +54,8 @@
 			"Only available <with [Trade Route]> <hidden from users>",
 			"[0] Sight <hidden from users>",
 			"May enter foreign tiles without open borders",
-			"Uncapturable <hidden from users>"
+			"Uncapturable <hidden from users>",
+			"Never appears as a Barbarian unit <hidden from users>"
 			// TODO: Within own cities, provide food and production after granary or workshop
 		]
 	},
@@ -68,14 +70,29 @@
 		"cost": 45,
 		"obsoleteTech": "Scientific Theory",
 		"promotions": [
+			"Native Tongue",
 			"Ignore terrain cost"
 		],
 		"uniques": [
-			// TODO: Native tongue (May choose benefit when discovering Ancient Ruins)
-			//"Triggers a [Native tonue] event <upon entering a [Ancient ruin] tile>",
-			"May upgrade to [Composite Bowman] through ruins-like effects"
+			"May upgrade to [Composite Bowman] through ruins-like effects",
+			"Never appears as a Barbarian unit <hidden from users>"
 		],
 		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Composite Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow",
+		"uniques": [
+			"[This Unit] loses the [Native Tongue] promotion <hidden from users>" // @see Unit/Pathfinder
+		]
 	},
 	{
 		"name": "Hand-Axe",
@@ -254,6 +271,7 @@
 			"Removes other religions when spreading religion <after adopting [Evangelism]>", // Evangelism is new in BNW.
 			"Unbuildable",
 			"Religious Unit",
+			"Never appears as a Barbarian unit <hidden from users>",
 			"Only available <when religion is enabled>"
 		],
 		"movement": 4,
@@ -314,6 +332,7 @@
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"uniques": [
+			"Never appears as a Barbarian unit <hidden from users>",
 			"Only available <for [City-States] Civilizations>" // Only gifted from Militaristic City-States, or Volunteer Army policy
 		],
 		"promotions": [
@@ -400,7 +419,7 @@
 			"No Movement Cost to Pillage"
 		],
 		"uniques": [
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit <hidden from users>",
 		],
 		"attackSound": "shot"
 	},
@@ -415,7 +434,7 @@
 			"Skyranger"
 		],
 		"uniques": [
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit <hidden from users>",
 		],
 		"attackSound": "shot"
 	},
@@ -428,6 +447,7 @@
 		"uniques": [
 			"Can build [Antiquity Dig Site] improvements on tiles",
 			"Cannot be purchased",
+			"Never appears as a Barbarian unit <hidden from users>",
 			"Only available <in cities with a [University]>",
 			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],

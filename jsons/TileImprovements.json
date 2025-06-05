@@ -172,5 +172,17 @@
 				"link": "Resource/Artifact"
 			}
 		]
+	},
+
+	// Overrides
+	{
+		"name": "Ancient ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Comment [Provides a random bonus when entered]",
+			"Provides a random bonus when entered <for units without [Native Tongue]> <hidden from users>",
+			"Unpillagable",
+			"Unbuildable"
+		]
 	}
 ]

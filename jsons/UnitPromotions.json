@@ -342,5 +342,15 @@
 			"[+2] Air Interception Range",
 			"[+10]% Strength when performing Air Sweep"
 		]
+	},
+
+	// Pathfinder: Native Tongue
+	{
+		"name": "Native Tongue",
+		"uniques": [
+			"Comment [May choose benefit when discovering [Ancient ruins]]",
+			"Triggers a [Native Tongue] event <upon entering a [Ancient ruins] tile> <hidden from users>",
+			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>"
+		]
 	}
 ]
