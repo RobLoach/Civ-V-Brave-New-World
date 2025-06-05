@@ -192,18 +192,14 @@
 				"row": 5,
 				"prerequisites": ["Telecommunications"],
 				"uniques": [
-					"Comment [Double the Tourism output of all your cities]",
+					"Comment [Double the [Tourism] output of all your cities]",
 					"Double quantity of [Tourism] produced <if [Great Firewall] is not constructed by anybody> <hidden from users>",
 					"Double quantity of [Tourism] produced <if [Great Firewall] is constructed in at least [1] of [Your] cities> <hidden from users>"
 				],
 				"quote": "'The Internet is the first thing that humanity has built that humanity doesn't understand, the largest experiment in anarchy that we have ever had.' - Eric Schmidt",
 				"civilopediaText": [
 					{
-						"text": "Tourism",
-						"link": "Resource/Tourism"
-					},
-					{
-						"text": "Tourism effect negated in a civilization with the Great Firewall",
+						"text": "[Tourism] effect negated in a civilization with the Great Firewall",
 						"link": "Wonder/Great Firewall"
 					}
 				]
