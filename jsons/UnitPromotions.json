@@ -42,53 +42,20 @@
 	{
 		"name": "Mystic Blade", // https://civilization.fandom.com/wiki/Kris_Swordsman_(Civ5)
 		"uniques": [
-			"Only available <for [Kris Swordsman] units>",
 			"Comment [Provides a randomly selected special promotion after the first battle]",
-
-			// Provide a random
-			"[This Unit] gains the [Invulnerability] promotion <with [33]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Sneak Attack] promotion <with [33]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Heroism] promotion <with [33]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Ambition] promotion <with [33]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Restlessness] promotion <with [33]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Recruitment] promotion <with [33]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Enemy Blade] promotion <with [33]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			// On failure, give Evil Spirits.
-			"[This Unit] gains the [Evil Spirits] promotion <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>"
+			"Triggers a [Mystic Blade] event <hidden from users>"
 		],
 		"civilopediaText": [
-			{
-				"text": "Invulnerability",
-				"link": "Promotion/Invulnerability"
-			},
-			{
-				"text": "Sneak Attack",
-				"link": "Promotion/Sneak Attack"
-			},
-			{
-				"text": "Heroism",
-				"link": "Promotion/Heroism"
-			},
-			{
-				"text": "Ambition",
-				"link": "Promotion/Ambition"
-			},
-			{
-				"text": "Restlessness",
-				"link": "Promotion/Restlessness"
-			},
-			{
-				"text": "Recruitment",
-				"link": "Promotion/Recruitment"
-			},
-			{
-				"text": "Enemy Blade",
-				"link": "Promotion/Enemy Blade"
-			},
-			{
-				"text": "Evil Spirits",
-				"link": "Promotion/Evil Spirits"
-			}
+			{ "text": "Invulnerability", 	"link": "Promotion/Invulnerability" },
+			{ "text": "Sneak Attack", 		"link": "Promotion/Sneak Attack" },
+			{ "text": "Heroism", 			"link": "Promotion/Heroism" },
+			{ "text": "Ambition", 			"link": "Promotion/Ambition" },
+			{ "text": "Restlessness", 		"link": "Promotion/Restlessness" },
+			{ "text": "Recruitment", 		"link": "Promotion/Recruitment" },
+			{ "text": "Enemy Blade", 		"link": "Promotion/Enemy Blade" },
+			{ "text": "Evil Spirits", 		"link": "Promotion/Evil Spirits" },
+			{ "separator": true },
+			{ "text": "Kris Swordsman", 	"link": "Unit/Kris Swordsman" }
 		],
 		"innerColor": [88, 196, 221]
 	},
@@ -257,7 +224,7 @@
 			// TODO: Produce an additional 2 Gold when connecting to another civilization.
 			"[1] Movement", // TODO: Land trade routes originating from this city have a 50% increase in range
 			"Ignores terrain cost",
-			"Comment [Double influence when conducting a Trade Route in City-States]"
+			"Comment [Double influence when conducting a [Trade Route] in City-States]"
 		]
 	},
 
@@ -309,8 +276,7 @@
 	{
 		"name": "Heavy Charge",
 		"uniques":[
-			// TODO: Heavy Charge - Forces defender to retreat if it inflicts more damage than it receives. A defender who cannot retreat takes extra damage.
-			"[+25]% Strength <when attacking>"
+			"[+25]% Strength <when attacking>" // TODO: Forces defender to retreat if it inflicts more damage than it receives. A defender who cannot retreat takes extra damage.
 		]
 	},
 
@@ -333,6 +299,25 @@
 		"name": "Full Moon Striker",
 		"uniques": [
 			"[1] Movement"
+		]
+	},
+
+	// Airport
+	{
+		"name": "[Airport] ability",
+		"uniques": [
+			"[+2] Air Interception Range",
+			"[+10]% Strength when performing Air Sweep"
+		]
+	},
+
+	// Pathfinder: Native Tongue
+	{
+		"name": "Native Tongue",
+		"uniques": [
+			"Comment [May choose benefit when discovering [Ancient ruins]]",
+			"Triggers a [Native Tongue] event <upon entering a [Ancient ruins] tile> <hidden from users>",
+			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>"
 		]
 	}
 ]

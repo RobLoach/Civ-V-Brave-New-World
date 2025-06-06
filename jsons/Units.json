@@ -1,4 +1,18 @@
 [
+	// Worker overriden for Antiquity Site manipulation.
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": [
+			"Can build [Land] improvements on tiles <in tiles without [Antiquity]>",
+			"Can build [All Road] improvements on tiles <in [Antiquity] tiles>",
+			"Automation is a primary action"
+		],
+		"cost": 70
+	},
+
+	// Trade Route Units
 	{
 		"name": "Caravan", // https://civilization.fandom.com/wiki/Caravan_(Civ5)
 		"unitType": "Civilian",
@@ -17,7 +31,8 @@
 			"[0] Sight <hidden from users>",
 			"Ignores terrain cost",
 			"Uncapturable <hidden from users>",
-			"Cannot embark"
+			"Cannot embark",
+			"Never appears as a Barbarian unit <hidden from users>"
 			// TODO: Within own cities, provide food and production after granary or workshop
 		],
 		"promotions": [
@@ -39,7 +54,8 @@
 			"Only available <with [Trade Route]> <hidden from users>",
 			"[0] Sight <hidden from users>",
 			"May enter foreign tiles without open borders",
-			"Uncapturable <hidden from users>"
+			"Uncapturable <hidden from users>",
+			"Never appears as a Barbarian unit <hidden from users>"
 			// TODO: Within own cities, provide food and production after granary or workshop
 		]
 	},
@@ -54,13 +70,29 @@
 		"cost": 45,
 		"obsoleteTech": "Scientific Theory",
 		"promotions": [
+			"Native Tongue",
 			"Ignore terrain cost"
 		],
 		"uniques": [
-			// TODO: Native tongue (May choose benefit when discovering Ancient Ruins)
-			"May upgrade to [Composite Bowman] through ruins-like effects"
+			"May upgrade to [Composite Bowman] through ruins-like effects",
+			"Never appears as a Barbarian unit <hidden from users>"
 		],
 		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Composite Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow",
+		"uniques": [
+			"[This Unit] loses the [Native Tongue] promotion <hidden from users>" // @see Unit/Pathfinder
+		]
 	},
 	{
 		"name": "Hand-Axe",
@@ -75,7 +107,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"attackSound": "arrow"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Siege Tower",
@@ -115,13 +147,7 @@
 			"[This Unit] gains the [Mystic Blade] promotion <upon defeating a [Military] unit>",
 			"Consumes [1] [Iron]"
 		],
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{
-				"text": "Mystic Blade",
-				"link": "Promotion/Mystic Blade"
-			}
-		]
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Great Galleass",
@@ -182,7 +208,7 @@
 		],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"attackSound": "metalhit"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Winged Hussar",
@@ -226,7 +252,8 @@
 			"Withdraws before melee combat <with [80]% chance>"
 			// TODO: Sell Exotic Goods: This unit will sell its cargo, earning Gold and XP
 			// More will be earned for selling farther from your Capital. This may only be done once with this unit.
-		]
+		],
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Missionary",
@@ -239,6 +266,7 @@
 			"Removes other religions when spreading religion <after adopting [Evangelism]>", // Evangelism is new in BNW.
 			"Unbuildable",
 			"Religious Unit",
+			"Never appears as a Barbarian unit <hidden from users>",
 			"Only available <when religion is enabled>"
 		],
 		"movement": 4,
@@ -299,6 +327,7 @@
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
 		"uniques": [
+			"Never appears as a Barbarian unit <hidden from users>",
 			"Only available <for [City-States] Civilizations>" // Only gifted from Militaristic City-States, or Volunteer Army policy
 		],
 		"promotions": [
@@ -334,7 +363,7 @@
 		"rangedStrength": 85,
 		"cost": 375,
 		"requiredTech": "Nuclear Fission",
-		"attackSound": "machinegun"
+		"attackSound": "missile"
 	},
 	{
 		"name": "Pracinha",
@@ -385,7 +414,7 @@
 			"No Movement Cost to Pillage"
 		],
 		"uniques": [
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit <hidden from users>"
 		],
 		"attackSound": "shot"
 	},
@@ -400,7 +429,7 @@
 			"Skyranger"
 		],
 		"uniques": [
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit <hidden from users>"
 		],
 		"attackSound": "shot"
 	},
@@ -411,26 +440,26 @@
 		"requiredTech": "Archaeology",
 		"movement": 4,
 		"uniques": [
-			"Can instantly construct a [Archaeological Dig] improvement <by consuming this unit>",
-			"Can instantly construct a [Landmark] improvement <by consuming this unit>",
+			"Can build [Antiquity Dig Site] improvements on tiles",
 			"Cannot be purchased",
+			"Never appears as a Barbarian unit <hidden from users>",
 			"Only available <in cities with a [University]>",
-			"Unavailable <for [City-States] Civilizations>"
+			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
-			{ "text": "Archaeologists can either dig up Antiquity Sites for Artifacts, or turn them into a Landmark." },
+			{ "text": "An [Archaeologist] can either dig up [Antiquity Site]s for [Artifact]s, or turn them into [Landmark]s." },
 			{ "separator": true },
-			{
-				"text": "Artifact",
-				"link": "Resource/Artifact"
-			},
 			{
 				"text": "Antiquity Site",
 				"link": "Resource/Antiquity Site"
 			},
 			{
-				"text": "Hidden Antiquity Site",
-				"link": "Resource/Antiquity Site"
+				"text": "Landmark",
+				"link": "Improvement/Landmark"
+			},
+			{
+				"text": "Archaeological Dig",
+				"link": "Improvement/Archaeological Dig"
 			}
 		]
 	},
@@ -465,7 +494,7 @@
         ],
 		"civilopediaText": [
 			{
-				"text": "Generated with Artists' Guild",
+				"text": "Artists' Guild",
 				"link": "Wonder/Artists' Guild"
 			}
 		],
@@ -501,7 +530,7 @@
         ],
 		"civilopediaText": [
 			{
-				"text": "Generated with Writers' Guild",
+				"text": "Writers' Guild",
 				"link": "Wonder/Writers' Guild"
 			}
 		],
@@ -520,7 +549,7 @@
         ],
 		"civilopediaText": [
 			{
-				"text": "Generated with Musicians' Guild",
+				"text": "Musicians' Guild",
 				"link": "Wonder/Musicians' Guild"
 			}
 		],
