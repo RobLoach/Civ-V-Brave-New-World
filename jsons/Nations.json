@@ -497,7 +497,7 @@
         "uniqueName": "The Great Warpath",
         "uniques": [
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
-			"Comment [Caravans move along Forest and Jungle as if they were Roads.]", // @see Unit/Caravans
+			"Comment [[Caravan]s move along [Forest] and [Jungle] as if they were Roads.]", // @see Unit/Caravans
 			"Preferred Ideology: Freedom"
 		],
 	    "spyNames": ["Onatah","Oneida","Oshadagea","Otetiani","Genesee","Dadgayadoh","Otwtiani","Kateri","Onondakai","Honanyawus"],

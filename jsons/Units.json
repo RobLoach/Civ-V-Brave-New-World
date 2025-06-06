@@ -107,7 +107,7 @@
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"attackSound": "arrow"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Siege Tower",
@@ -208,7 +208,7 @@
 		],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"attackSound": "metalhit"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Winged Hussar",
@@ -252,7 +252,8 @@
 			"Withdraws before melee combat <with [80]% chance>"
 			// TODO: Sell Exotic Goods: This unit will sell its cargo, earning Gold and XP
 			// More will be earned for selling farther from your Capital. This may only be done once with this unit.
-		]
+		],
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Missionary",
@@ -362,7 +363,7 @@
 		"rangedStrength": 85,
 		"cost": 375,
 		"requiredTech": "Nuclear Fission",
-		"attackSound": "machinegun"
+		"attackSound": "missile"
 	},
 	{
 		"name": "Pracinha",
@@ -413,7 +414,7 @@
 			"No Movement Cost to Pillage"
 		],
 		"uniques": [
-			"Never appears as a Barbarian unit <hidden from users>",
+			"Never appears as a Barbarian unit <hidden from users>"
 		],
 		"attackSound": "shot"
 	},
@@ -428,7 +429,7 @@
 			"Skyranger"
 		],
 		"uniques": [
-			"Never appears as a Barbarian unit <hidden from users>",
+			"Never appears as a Barbarian unit <hidden from users>"
 		],
 		"attackSound": "shot"
 	},
@@ -446,7 +447,7 @@
 			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
-			{ "text": "An [Archaeologist] can either dig up an [Antiquity Site] for an [Artifact], or turn them into a [Landmark]." },
+			{ "text": "An [Archaeologist] can either dig up [Antiquity Site]s for [Artifact]s, or turn them into [Landmark]s." },
 			{ "separator": true },
 			{
 				"text": "Antiquity Site",

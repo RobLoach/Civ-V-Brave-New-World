@@ -229,7 +229,7 @@
 			"Antiquity"
 		],
 		"civilopediaText": [
-			{ "text": "Antiquity Sites can be dug up for an [Artifact], or turned into a [Landmark], by an [Archaeologist]." },
+			{ "text": "Antiquity Sites can be dug up for [Artifact]s, or turned into [Landmark]s, by [Archaeologist]s." },
 			{ "separator": true },
 			{
 				"text": "Archaeologist",
@@ -256,7 +256,7 @@
 			"Antiquity"
 		],
 		"civilopediaText": [
-			{ "text": "Hidden Antiquity Sites can be dug up by an [Archaeologist] for a chance of [Great Work of Writing] and a Cultural Renaissance. They are revealed by completing the [Exploration] Policy tree." },
+			{ "text": "Hidden Antiquity Sites can be dug up by [Archaeologist]s for chance of a [Great Work of Writing] or a Cultural Renaissance. They are revealed by completing the [Exploration] Policy tree." },
 			{ "separator": true },
 			{
 				"text": "Archaeologist",

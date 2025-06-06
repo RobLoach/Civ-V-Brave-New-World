@@ -128,7 +128,7 @@
 			{
 				"name": "Reformation",
 				"uniques": [
-					"Comment [Allows adopting Reformation Beliefs into your Religion]",
+					"Comment [Allows adopting [Reformation] Beliefs into your Religion]",
 					"Gain a free [Enhancer] belief <after founding a religion>" // If you founded a religion, gain a bonus Reformation belief.
 				],
 				"requires": [
@@ -406,7 +406,7 @@
 				"uniques": [
 					"Free [Great Admiral] appears",
 					"[Great Admiral] is earned [+50]% faster",
-					"Comment [+2 Movement for all Great Admirals]"
+					"Comment [+2 Movement for all [Great Admiral]s]"
 				],
 				"requires": [
 					"Naval Tradition"
@@ -484,7 +484,7 @@
 			{
 				"name": "Mercenary Army",
 				"uniques": [
-					"Comment [Enables the purchasing of Landsknechts]"
+					"Comment [Enables the purchasing of [Landsknecht]s]"
 				],
 				"row": 1,
 				"column": 4
@@ -543,10 +543,9 @@
 		"name": "Aesthetics",
 		"era": "Classical era",
 		"uniques": [
-			"Comment [Earn Great Artists, Musicians, and Writers 25% faster]",
-			"[Great Artist] is earned [25]% faster <hidden from users>",
-			"[Great Musician] is earned [25]% faster <hidden from users>",
-			"[Great Writer] is earned [25]% faster <hidden from users>"
+			"[Great Artist] is earned [25]% faster",
+			"[Great Musician] is earned [25]% faster",
+			"[Great Writer] is earned [25]% faster"
 		],
 		"priorities": {
 			"Neutral": 0,
@@ -624,7 +623,7 @@
 				"uniques": [
 					// TODO: Adopting all policies doubles the theming bonus you receive from Museums and Wonders.
 					"Double quantity of [Tourism] produced <in cities with a [Museum]>",
-					"Comment [May purchase Great Artists, Musicians and Writers with Faith starting in the Industrial era]",
+					"Comment [May purchase [Great Artist]s, [Great Musician]s and [Great Writer]s with Faith starting in the Industrial era]",
 					"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]> <hidden from users>",
 					"May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]> <hidden from users>",
 					"May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]> <hidden from users>"
@@ -645,7 +644,7 @@
             "Scientific": 0
 		},
 		"uniques": [
-			"Comment [Requires either Modern era, or three Factories]",
+			"Comment [Available in [Modern era], or by owning three [Factory] buildings]",
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Order]> <hidden from users>",
@@ -886,7 +885,7 @@
             "Scientific": 30
 		},
 		"uniques": [
-			"Comment [Requires either Modern era, or three Factories]",
+			"Comment [Available in [Modern era], or by owning three [Factory] buildings]",
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
@@ -1035,7 +1034,7 @@
 			{
 				"name": "Workers' Faculties",
 				"uniques": [
-					"Comment [+25% Science output from Cities with a Factory]",
+					"Comment [+25% Science output from Cities with a [Factory]]",
 					"[+100]% Production when constructing [Factory] buildings [in your cities]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
@@ -1116,7 +1115,7 @@
             "Scientific": 30
 		},
 		"uniques": [
-			"Comment [Requires either Modern era, or three Factories]",
+			"Comment [Available in [Modern era], or by owning three [Factory] buildings]",
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
