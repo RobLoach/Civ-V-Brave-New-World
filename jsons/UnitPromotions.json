@@ -42,53 +42,20 @@
 	{
 		"name": "Mystic Blade", // https://civilization.fandom.com/wiki/Kris_Swordsman_(Civ5)
 		"uniques": [
-			"Only available <for [Kris Swordsman] units>",
 			"Comment [Provides a randomly selected special promotion after the first battle]",
-
-			// Provide a random promotion. It should be 12.5%, but we're generous with 15% for each.
-			"[This Unit] gains the [Invulnerability] promotion <with [15]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Sneak Attack] promotion <with [15]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Heroism] promotion <with [15]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Ambition] promotion <with [15]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Restlessness] promotion <with [15]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Recruitment] promotion <with [15]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			"[This Unit] gains the [Enemy Blade] promotion <with [15]% chance> <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>",
-			// On failure, give Evil Spirits.
-			"[This Unit] gains the [Evil Spirits] promotion <for units without [Invulnerability]> <for units without [Sneak Attack]> <for units without [Heroism]> <for units without [Ambition]> <for units without [Restlessness]> <for units without [Recruitment]> <for units without [Enemy Blade]> <for units without [Evil Spirits]> <hidden from users>"
+			"Triggers a [Mystic Blade] event <hidden from users>"
 		],
 		"civilopediaText": [
-			{
-				"text": "Invulnerability",
-				"link": "Promotion/Invulnerability"
-			},
-			{
-				"text": "Sneak Attack",
-				"link": "Promotion/Sneak Attack"
-			},
-			{
-				"text": "Heroism",
-				"link": "Promotion/Heroism"
-			},
-			{
-				"text": "Ambition",
-				"link": "Promotion/Ambition"
-			},
-			{
-				"text": "Restlessness",
-				"link": "Promotion/Restlessness"
-			},
-			{
-				"text": "Recruitment",
-				"link": "Promotion/Recruitment"
-			},
-			{
-				"text": "Enemy Blade",
-				"link": "Promotion/Enemy Blade"
-			},
-			{
-				"text": "Evil Spirits",
-				"link": "Promotion/Evil Spirits"
-			}
+			{ "text": "Invulnerability", 	"link": "Promotion/Invulnerability" },
+			{ "text": "Sneak Attack", 		"link": "Promotion/Sneak Attack" },
+			{ "text": "Heroism", 			"link": "Promotion/Heroism" },
+			{ "text": "Ambition", 			"link": "Promotion/Ambition" },
+			{ "text": "Restlessness", 		"link": "Promotion/Restlessness" },
+			{ "text": "Recruitment", 		"link": "Promotion/Recruitment" },
+			{ "text": "Enemy Blade", 		"link": "Promotion/Enemy Blade" },
+			{ "text": "Evil Spirits", 		"link": "Promotion/Evil Spirits" },
+			{ "separator": true },
+			{ "text": "Kris Swordsman", 	"link": "Unit/Kris Swordsman" }
 		],
 		"innerColor": [88, 196, 221]
 	},

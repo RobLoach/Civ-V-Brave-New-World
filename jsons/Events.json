@@ -141,8 +141,7 @@
 			{
 				"text": "advanced weaponry for your explorer",
 				"uniques": [
-					"[This Unit] upgrades for free including special upgrades <hidden from users>",
-					"Only available <for [Pathfinder] units> <hidden from users>"
+					"[This Unit] upgrades for free including special upgrades <hidden from users>"
 				]
 			},
 			{
@@ -176,6 +175,23 @@
 					"Only available <after turn number [20]> <hidden from users>"
 				]
 			}
+		]
+	},
+
+	// Kris Swordsman: Mystic Blade
+	{
+		"name": "Mystic Blade",
+		"text": "Provides a randomly selected special promotion after the first battle",
+		"presentation": "None", // A presentation of "None" will select at random.
+		"choices": [
+			{ "text": "Invulnerability", 	"uniques": [ "[This Unit] gains the [Invulnerability] promotion" ] },
+			{ "text": "Sneak Attack", 		"uniques": [ "[This Unit] gains the [Sneak Attack] promotion" ] },
+			{ "text": "Heroism", 			"uniques": [ "[This Unit] gains the [Heroism] promotion" ] },
+			{ "text": "Ambition", 			"uniques": [ "[This Unit] gains the [Ambition] promotion" ] },
+			{ "text": "Restlessness", 		"uniques": [ "[This Unit] gains the [Restlessness] promotion" ] },
+			{ "text": "Recruitment", 		"uniques": [ "[This Unit] gains the [Recruitment] promotion" ] },
+			{ "text": "Enemy Blade", 		"uniques": [ "[This Unit] gains the [Enemy Blade] promotion" ] },
+			{ "text": "Evil Spirits", 		"uniques": [ "[This Unit] gains the [Evil Spirits] promotion" ] }
 		]
 	},
 

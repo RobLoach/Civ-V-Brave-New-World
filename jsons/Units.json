@@ -147,13 +147,7 @@
 			"[This Unit] gains the [Mystic Blade] promotion <upon defeating a [Military] unit>",
 			"Consumes [1] [Iron]"
 		],
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{
-				"text": "Mystic Blade",
-				"link": "Promotion/Mystic Blade"
-			}
-		]
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Great Galleass",
