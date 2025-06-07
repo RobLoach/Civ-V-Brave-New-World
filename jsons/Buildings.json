@@ -1443,34 +1443,12 @@
 
 	// International Project
 	{
-		"name": "Game Option - Disable World Congress",
-		"cost": 1,
-		"uniques": [
-			"Comment [When constructed, will disable the World Congress]",
-			"Only available <for [Human player] Civilizations>",
-			"Only available <in [Capital] cities>",
-			"Only available <before turn number [4]>",
-			"Unavailable <if [Game Option - Disable World Congress] is constructed by anybody>",
-			"Moves to new capital when capital changes",
-			"Unsellable",
-			"Never destroyed when the city is captured",
-			"Triggers a global alert upon completion"
-		],
-		"civilopediaText": [
-			{
-				"text": "World Congress",
-				"link": "Building/World Congress"
-			}
-		]
-	},
-	{
 		"name": "World Congress",
 		"isWonder": true,
 		"cost": 1,
 		"uniques": [
 			"Comment [Enables Resolutions and International Projects]",
 			"Only available <starting from the [Industrial era]>",
-			"Unavailable <if [Game Option - Disable World Congress] is constructed by anybody> <hidden from users>",
 			"Automatically built in all cities where it is buildable",
 			"Only available <in [Capital] cities>",
 			"Moves to new capital when capital changes",

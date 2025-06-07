@@ -89,7 +89,8 @@
 					"Comment [Great Artist, Writer and Musician generation +33%]",
 					"Comment [Great Scientist, Engineers and Merchants generation -33%]",
 					"Gain a free [World Congress Proposal - Arts Funding] [in capital]",
-					"Unavailable <if [World Congress Proposal - Arts Funding] is constructed by anybody>"
+					"Unavailable <if [World Congress Proposal - Arts Funding] is constructed by anybody>",
+					"Unavailable <if [World Congress - Arts Funding] is constructed by anybody>"
 				]
 			}
 		]
