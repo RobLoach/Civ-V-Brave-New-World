@@ -79,7 +79,7 @@
 			},
 			{ "separator": true },
 			{
-				"text": "Unique to Indonesia",
+				"text": "Indonesia",
 				"link": "Nation/Indonesia"
 			}
 		]
@@ -105,7 +105,7 @@
 			},
 			{ "separator": true },
 			{
-				"text": "Unique to Indonesia",
+				"text": "Indonesia",
 				"link": "Nation/Indonesia"
 			}
 		]
@@ -131,7 +131,7 @@
 			},
 			{ "separator": true },
 			{
-				"text": "Unique to Indonesia",
+				"text": "Indonesia",
 				"link": "Nation/Indonesia"
 			}
 		]
@@ -393,7 +393,7 @@
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
-			{ "text": "Slots either a [Great Work of Art] or an [Artifact]." },
+			{ "text": "Slots a [Great Work of Art], or an [Artifact]." },
 			{ "separator": true },
 			{
 				"text": "Great Work of Art",

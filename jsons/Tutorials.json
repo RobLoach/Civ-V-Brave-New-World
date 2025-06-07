@@ -5,13 +5,12 @@
 			{ "text": "Brave New World is the second expansion pack for Civ V, released in 2013. The Unciv mod provides a few of its features..." },
 			{},
 			{ "text": "Concepts", "header": 3 },
-			{ "text": "There are a few gameplay concepts introduced in Brave New World that change how the game is played:" },
 				{
-					"text": "Ideologies",
+					"text": "Ideology",
 					"link": "Tutorial/Ideology"
 				},
 				{
-					"text": "Archaeology and Great Works",
+					"text": "Great Works",
 					"link": "Tutorial/Great Works"
 				},
 			{},

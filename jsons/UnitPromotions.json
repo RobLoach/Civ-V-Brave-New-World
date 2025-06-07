@@ -63,14 +63,7 @@
 		"name": "Invulnerability",
 		"uniques": [
 			"[+30]% Strength <when defending>",
-			"[+20] HP when healing",
-			"Only available <for units without [Ambition]> <hidden from users>",
-			"Only available <for units without [Restlessness]> <hidden from users>",
-			"Only available <for units without [Heroism]> <hidden from users>",
-			"Only available <for units without [Sneak Attack]> <hidden from users>",
-			"Only available <for units without [Recruitment]> <hidden from users>",
-			"Only available <for units without [Enemy Blade]> <hidden from users>",
-			"Only available <for units without [Evil Spirits]> <hidden from users>"
+			"[+20] HP when healing"
 		],
 		"prerequisites": ["Mystic Blade"],
 		"innerColor": [88, 196, 221]
@@ -78,14 +71,7 @@
 	{
 		"name": "Sneak Attack",
 		"uniques": [
-			"[+50]% to Flank Attack bonuses",
-			"Only available <for units without [Ambition]> <hidden from users>",
-			"Only available <for units without [Restlessness]> <hidden from users>",
-			"Only available <for units without [Heroism]> <hidden from users>",
-			"Only available <for units without [Invulnerability]> <hidden from users>",
-			"Only available <for units without [Recruitment]> <hidden from users>",
-			"Only available <for units without [Enemy Blade]> <hidden from users>",
-			"Only available <for units without [Evil Spirits]> <hidden from users>"
+			"[+50]% to Flank Attack bonuses"
 		],
 		"prerequisites": ["Mystic Blade"],
 		"innerColor": [88, 196, 221]
@@ -93,14 +79,7 @@
 	{
 		"name": "Heroism",
 		"uniques": [
-			"[+15]% Strength bonus for [Military] units within [2] tiles",
-			"Only available <for units without [Ambition]> <hidden from users>",
-			"Only available <for units without [Restlessness]> <hidden from users>",
-			"Only available <for units without [Sneak Attack]> <hidden from users>",
-			"Only available <for units without [Invulnerability]> <hidden from users>",
-			"Only available <for units without [Recruitment]> <hidden from users>",
-			"Only available <for units without [Enemy Blade]> <hidden from users>",
-			"Only available <for units without [Evil Spirits]> <hidden from users>"
+			"[+15]% Strength bonus for [Military] units within [2] tiles"
 		],
 		"prerequisites": ["Mystic Blade"],
 		"innerColor": [88, 196, 221]
@@ -109,14 +88,7 @@
 		"name": "Ambition",
 		"uniques": [
 			"[+50]% Strength <when attacking>",
-			"[-20]% Strength <when defending>",
-			"Only available <for units without [Restlessness]> <hidden from users>",
-			"Only available <for units without [Heroism]> <hidden from users>",
-			"Only available <for units without [Sneak Attack]> <hidden from users>",
-			"Only available <for units without [Invulnerability]> <hidden from users>",
-			"Only available <for units without [Recruitment]> <hidden from users>",
-			"Only available <for units without [Enemy Blade]> <hidden from users>",
-			"Only available <for units without [Evil Spirits]> <hidden from users>"
+			"[-20]% Strength <when defending>"
 		],
 		"prerequisites": ["Mystic Blade"],
 		"innerColor": [88, 196, 221]
@@ -125,14 +97,7 @@
 		"name": "Restlessness",
 		"uniques": [
 			"[1] additional attacks per turn",
-			"[+1] Movement",
-			"Only available <for units without [Ambition]> <hidden from users>",
-			"Only available <for units without [Heroism]> <hidden from users>",
-			"Only available <for units without [Sneak Attack]> <hidden from users>",
-			"Only available <for units without [Invulnerability]> <hidden from users>",
-			"Only available <for units without [Recruitment]> <hidden from users>",
-			"Only available <for units without [Enemy Blade]> <hidden from users>",
-			"Only available <for units without [Evil Spirits]> <hidden from users>"
+			"[+1] Movement"
 		],
 		"prerequisites": ["Mystic Blade"],
 		"innerColor": [88, 196, 221]
@@ -140,14 +105,7 @@
 	{
 		"name": "Recruitment",
 		"uniques": [
-			"[This Unit] heals [50] HP <upon defeating a [Major] unit>",
-			"Only available <for units without [Ambition]> <hidden from users>",
-			"Only available <for units without [Heroism]> <hidden from users>",
-			"Only available <for units without [Sneak Attack]> <hidden from users>",
-			"Only available <for units without [Invulnerability]> <hidden from users>",
-			"Only available <for units without [Restlessness]> <hidden from users>",
-			"Only available <for units without [Enemy Blade]> <hidden from users>",
-			"Only available <for units without [Evil Spirits]> <hidden from users>"
+			"[This Unit] heals [50] HP <upon defeating a [Major] unit>"
 		],
 		"prerequisites": ["Mystic Blade"],
 		"innerColor": [88, 196, 221]
@@ -155,14 +113,7 @@
 	{
 		"name": "Enemy Blade",
 		"uniques": [
-			"[This Unit] takes [20] damage <upon ending a turn in a [Enemy Land] tile>",
-			"Only available <for units without [Ambition]> <hidden from users>",
-			"Only available <for units without [Heroism]> <hidden from users>",
-			"Only available <for units without [Sneak Attack]> <hidden from users>",
-			"Only available <for units without [Invulnerability]> <hidden from users>",
-			"Only available <for units without [Restlessness]> <hidden from users>",
-			"Only available <for units without [Recruitment]> <hidden from users>",
-			"Only available <for units without [Evil Spirits]> <hidden from users>"
+			"[This Unit] takes [20] damage <upon ending a turn in a [Enemy Land] tile>"
 		],
 		"prerequisites": ["Mystic Blade"],
 		"innerColor": [174, 42, 41]
@@ -171,14 +122,7 @@
 		"name": "Evil Spirits",
 		"uniques": [
 			"[-10]% Strength <when attacking>",
-			"[-30]% Strength <when defending>",
-			"Only available <for units without [Ambition]> <hidden from users>",
-			"Only available <for units without [Heroism]> <hidden from users>",
-			"Only available <for units without [Sneak Attack]> <hidden from users>",
-			"Only available <for units without [Invulnerability]> <hidden from users>",
-			"Only available <for units without [Restlessness]> <hidden from users>",
-			"Only available <for units without [Recruitment]> <hidden from users>",
-			"Only available <for units without [Enemy Blade]> <hidden from users>"
+			"[-30]% Strength <when defending>"
 		],
 		"prerequisites": ["Mystic Blade"],
 		"innerColor": [174, 42, 41]
@@ -187,17 +131,26 @@
 	// Paratrooper and Future Soldier
 	{
 		"name": "Paradrop",
-		"uniques": ["Comment [May Paradrop up to 9 tiles from inside friendly territory]", "May Paradrop up to [9] tiles from inside friendly territory <for units without [Skyranger]> <hidden from users>"]
+		"uniques": [
+			"Comment [May Paradrop up to 9 tiles from inside friendly territory]",
+			"May Paradrop up to [9] tiles from inside friendly territory <for units without [Skyranger]> <hidden from users>"
+		]
 	},
 	{
 		"name": "Skyranger",
-		"uniques": ["May Paradrop up to [40] tiles from inside friendly territory","May Paradrop up to [49] tiles from inside friendly territory <for units with [Paradrop]> <hidden from users>"]
+		"uniques": [
+			"May Paradrop up to [40] tiles from inside friendly territory",
+			"May Paradrop up to [49] tiles from inside friendly territory <for units with [Paradrop]> <hidden from users>"
+		]
 	},
 
 	// Mount Kilimanjaro
 	{
 		"name": "Altitude Training",
-		"uniques": ["Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
+		"uniques": [
+			"Double movement in [Hill]",
+			"[+10]% Strength <when fighting in [Hill] tiles>"
+		]
 	},
 
 	// Lightning Warfare Policy: Ignores Zone of Control
@@ -210,6 +163,7 @@
 			{
 				"text": "Zone of Control prevents enemy units from moving out of a tile occupied by a friendly unit on the same turn they move into that tile."
 			},
+			{ "separator": true },
 			{
 				"text": "Lightning Warfare",
 				"link": "Policy/Lightning Warfare"
@@ -318,6 +272,12 @@
 			"Comment [May choose benefit when discovering [Ancient ruins]]",
 			"Triggers a [Native Tongue] event <upon entering a [Ancient ruins] tile> <hidden from users>",
 			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Ancient ruins",
+				"link": "Improvement/Ancient ruins"
+			}
 		]
 	}
 ]

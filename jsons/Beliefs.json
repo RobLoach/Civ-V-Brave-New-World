@@ -48,7 +48,7 @@
         "name": "Religious Art",
         "type": "Follower",
         "uniques": [
-			"Comment [Hermitage provides +5 Culture and +5 Tourism]"
+			"Comment [Hermitage provides +5 [Culture] and +5 [Tourism]]"
         ],
 		"civilopediaText": [
 			{
@@ -82,7 +82,7 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			"Comment [Missionaries Spread Religion action erodes existing pressure from other religions]"
+			"Comment [[Missionary] units Spread Religion action erodes existing pressure from other religions]"
         ]
     },
     {
@@ -121,7 +121,7 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			"Comment [+2 Tourism for every building purchased with Faith]"
+			"Comment [+2 [Tourism] for every building purchased with [Faith]]"
         ]
     },
     {

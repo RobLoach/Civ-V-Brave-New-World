@@ -41,11 +41,11 @@
 	},
 	{
 		"name": "Archaeological Dig - Destroy Unit",
-		"text": "Your Archaological Dig has completed",
+		"text": "[This Unit] is destroyed",
 		"presentation": "None",
 		"choices": [
 			{
-				"text": "Complete",
+				"text": "[This Unit] is destroyed",
 				"uniques": [
 					"[This Unit] is destroyed"
 				]

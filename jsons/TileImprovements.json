@@ -13,7 +13,7 @@
 			"Gives a defensive bonus of [50]%",
 			"[+2 Gold, +1 Culture] <after discovering [Flight]>",
 			"Cannot be built on [resource] tiles",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units <hidden from users>"
 		]
 	},
 	{
@@ -26,7 +26,7 @@
 		"uniques": [
 			"[+2 Culture] <after discovering [Acoustics]>",
 			"Cannot be built on [resource] tiles",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units <hidden from users>"
 		]
 	},
 	{
@@ -83,7 +83,7 @@
 		"uniques": [
 			"Gives a defensive bonus of [50]%",
 			"Cannot be built on [resource] tiles",
-			"Will not be replaced by automated units"
+			"Will not be replaced by automated units <hidden from users>"
 		]
 	},
 
@@ -103,11 +103,10 @@
             "Will not be replaced by automated units <hidden from users>",
 			"Remove [Antiquity Site] resources from this tile <hidden from users>",
 			"Pillaging this improvement yields approximately [+20 Gold]",
-			// "[This Unit] is destroyed",
 			"Antiquity Dig Site"
 		],
 		"civilopediaText": [
-			{ "text": "Landmarks are built from an [Antiquity Site] by an [Archaeologist], consuming the unit." },
+			{ "text": "Landmarks are built from [Antiquity Site]s by [Archaeologist]s, consuming the unit." },
 			{ "separator": true },
 			{
 				"text": "Antiquity Site",
@@ -153,7 +152,7 @@
 		],
 		"shortcutKey": "D",
 		"civilopediaText": [
-			{ "text": "An [Archaeologist] can dig up an [Antiquity Site] to produce an [Artifact], consuming the unit." },
+			{ "text": "[Archaeologist]s can dig up [Antiquity Site]s to produce [Artifact]s, consuming the unit." },
 			{ "separator": true },
 			{
 				"text": "Antiquity Site",

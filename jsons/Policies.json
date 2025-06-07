@@ -623,7 +623,7 @@
 				"uniques": [
 					// TODO: Adopting all policies doubles the theming bonus you receive from Museums and Wonders.
 					"Double quantity of [Tourism] produced <in cities with a [Museum]>",
-					"Comment [May purchase [Great Artist]s, [Great Musician]s and [Great Writer]s with Faith starting in the Industrial era]",
+					"Comment [May purchase [Great Artist]s, [Great Musician]s and [Great Writer]s with [Faith] starting in the Industrial era]",
 					"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]> <hidden from users>",
 					"May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]> <hidden from users>",
 					"May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]> <hidden from users>"
@@ -761,9 +761,8 @@
 					"[3] Movement <for [Great General] units>",
 					"[15]% Strength <for [Armored] units> <when attacking>",
 					"[1] Movement <for [Armored] units>",
-					"Comment [Armored units ignore zone of control]",
 					"[Armored] units gain the [Ignores Zone of Control] promotion <hidden from users>",
-					"All newly-trained [Armored] units [in your cities] receive the [Ignores Zone of Control] promotion <hidden from users>",
+					"All newly-trained [Armored] units [in your cities] receive the [Ignores Zone of Control] promotion",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
@@ -1034,7 +1033,7 @@
 			{
 				"name": "Workers' Faculties",
 				"uniques": [
-					"Comment [+25% Science output from Cities with a [Factory]]",
+					"Comment [+25% [Science] output from Cities with a [Factory]]",
 					"[+100]% Production when constructing [Factory] buildings [in your cities]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
