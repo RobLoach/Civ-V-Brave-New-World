@@ -71,7 +71,7 @@
 		"requiredTech": "Refrigeration"
 	},
 	{
-		"name": "Theatre", // Named "Zoo" in Brave New World. Renamed in English.properties
+		"name": "Theatre", // Named "Zoo" in BNW. Renamed in English.properties
 		// https://civilization.fandom.com/wiki/Zoo_(Civ5)
 		"happiness": 2,
 		"requiredBuilding": "Colosseum",

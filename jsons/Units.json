@@ -474,7 +474,7 @@
         "uniques": [
 			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership
 			"All adjacent units heal [+15] HP when healing", // TODO: Repair Fleet (Instantly heals all ships within one tile, expends the unit)
-			"Comment [Can always traverse ocean tiles]", // See Building/Palace
+			"Comment [Can always traverse ocean tiles]", // @see Building/Palace
             "Is part of Great Person group [General]",
             "Great Person - [War]",
             "Unbuildable",
