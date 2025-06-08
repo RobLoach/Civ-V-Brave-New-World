@@ -1425,6 +1425,13 @@ UnitIcons/Cargo Ship
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Harbor ability
+  rotate: false
+  xy: 780, 910
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Comanche Rider
   rotate: false
   xy: 996, 802

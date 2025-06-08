@@ -284,10 +284,11 @@
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
-			"Doesn't generate naturally"
+			"Doesn't generate naturally",
+			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
-			{ "text": "Can be traded, or slotted into a [Great Work of Writing Slot]." },
+			{ "text": "Slotted into a [Great Work of Writing Slot]." },
 			{ "separator": true },
 			{
 				"text": "Great Work of Writing Slot",
@@ -306,10 +307,11 @@
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
-			"Doesn't generate naturally"
+			"Doesn't generate naturally",
+			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
-			{ "text": "Can be traded, or slotted into a [Great Work of Art Slot]." },
+			{ "text": "Slotted into a [Great Work of Art Slot]." },
 			{ "separator": true },
 			{
 				"text": "Great Work of Art Slot",
@@ -324,10 +326,11 @@
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
-			"Doesn't generate naturally"
+			"Doesn't generate naturally",
+			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
-			{ "text": "Can be traded, or slotted into a [Great Work of Music Slot]." },
+			{ "text": "Slotted into a [Great Work of Music Slot]." },
 			{ "separator": true },
 			{
 				"text": "Great Work of Music Slot",

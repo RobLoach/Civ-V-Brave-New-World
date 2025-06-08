@@ -127,7 +127,6 @@
 - [Resettlement](https://thenounproject.com/icon/resettlement-2209642/) by Nithinan Tatah
 - [Cultural Revolution](https://thenounproject.com/icon/cultural-activities-7659287/) by Mia Elysia
 - [Spaceflight Pioneers](https://thenounproject.com/icon/astronaut-7528057/) by ArashDesign
-- [Cargo Ship](https://thenounproject.com/icon/cargo-7762395/) by Lulis Dian RP
 - [Caravan](https://thenounproject.com/icon/camel-7803410/) by Md Ahasan Habib
 - [King Solomon's Mines](https://thenounproject.com/icon/mine-7442527/) by Rikas Dzihab
 - [Christianity](https://thenounproject.com/icon/cross-5815203/) by Alvaro Cabrera
@@ -151,3 +150,4 @@
 - [Desert Warrior](https://thenounproject.com/icon/desert-7472058/) by Alvida
 - [Full Moon Striker](https://thenounproject.com/icon/missile-6608854/) by Vectorstall
 - [Native Tongue](https://thenounproject.com/icon/archway-3396176/) by Arthur Shlain
+- [Cargo Ship, Harbor ability](https://thenounproject.com/icon/sail-boat-7845318/) by IYIKON

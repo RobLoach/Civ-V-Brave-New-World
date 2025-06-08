@@ -179,6 +179,21 @@
 			"[1] Movement", // TODO: Land trade routes originating from this city have a 50% increase in range
 			"Ignores terrain cost",
 			"Comment [Double influence when conducting a [Trade Route] in City-States]"
+		],
+		"civilopediaText": [
+			{ "text": "Caravan", "link": "Unit/Caravan" }
+		]
+	},
+
+	// Harbor
+	{
+		"name": "[Harbor] ability",
+		"uniques": [
+			"[2] Movement",
+			"Comment [Double influence when conducting a [Trade Route] in City-States]"
+		],
+		"civilopediaText": [
+			{ "text": "Cargo Ship", "link": "Unit/Cargo Ship" }
 		]
 	},
 

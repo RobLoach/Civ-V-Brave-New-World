@@ -48,7 +48,7 @@
         "name": "Religious Art",
         "type": "Follower",
         "uniques": [
-			"Comment [Hermitage provides +5 [Culture] and +5 [Tourism]]"
+			"Comment [[Hermitage] provides +5 [Culture] and +5 [Tourism]]"
         ],
 		"civilopediaText": [
 			{
@@ -83,15 +83,17 @@
         "uniques": [
             "Only available <after adopting [Reformation]>",
 			"Comment [[Missionary] units Spread Religion action erodes existing pressure from other religions]"
-        ]
+        ],
+		"civilopediaText": [
+			{ "text": "Missionary", "link": "Unit/Missionary" }
+		]
     },
     {
         "name": "Heathen Conversion",
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-            // TODO: Missionaries convert adjacent Barbarian units to this civilization
-			"When defeating a [Barbarian] unit, earn [0] Gold and recruit it"
+			"When defeating a [Barbarian] unit, earn [0] Gold and recruit it" // TODO: Missionaries convert adjacent Barbarian units to this civilization
         ]
     },
     {
@@ -99,9 +101,10 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			"May buy [University] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
-			"May buy [Public School] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
-			"May buy [Research Lab] buildings with [Faith] [in all cities in which the majority religion is a major religion]"
+			"Comment [May buy [University], [Public School] and [Research Lab] buildings with [Faith]]",
+			"May buy [University] buildings with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>",
+			"May buy [Public School] buildings with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>",
+			"May buy [Research Lab] buildings with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>"
 		]
     },
     {
@@ -109,11 +112,12 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			"May buy [{Industrial era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
-			"May buy [{Modern era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
-			"May buy [{Atomic era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
-			"May buy [{Information era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
-			"May buy [{Future era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]"
+			"Comment [Use [Faith] to purchase Industrial (and later) land units]",
+			"May buy [{Industrial era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>",
+			"May buy [{Modern era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>",
+			"May buy [{Atomic era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>",
+			"May buy [{Information era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>",
+			"May buy [{Future era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>"
         ]
     },
     {
@@ -122,7 +126,13 @@
         "uniques": [
             "Only available <after adopting [Reformation]>",
 			"Comment [+2 [Tourism] for every building purchased with [Faith]]"
-        ]
+        ],
+		"civilopediaText": [
+			{ "text": "Cathedral", "link": "Building/Cathedral" },
+			{ "text": "Monastery", "link": "Building/Monastery" },
+			{ "text": "Mosque", "link": "Building/Mosque" },
+			{ "text": "Pagoda", "link": "Building/Pagoda" }
+		]
     },
     {
         "name": "To the Glory of God",
@@ -139,7 +149,8 @@
             "Only available <after adopting [Reformation]>",
             // TODO: Your spies exert religious pressure on the cities they occupy
 			"[+10]% spy effectiveness [in all cities in which the majority religion is a major religion]",
-			"[+10]% Natural religion spread [in all cities in which the majority religion is a major religion]"
+			"[+10]% Natural religion spread [in all cities in which the majority religion is a major religion]",
+			"Only available <when espionage is enabled> <hidden from users>"
         ]
     },
     {

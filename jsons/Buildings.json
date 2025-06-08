@@ -55,6 +55,7 @@
 		"cost": 120,
 		"maintenance": 0,
 		"uniques": [
+			// Land trade routes originating from this city have a 50% increase in range and produce an additional 2 Gold Gold when connecting to another civilization.
 			"All newly-trained [Caravan] units [in this city] receive the [[Caravansary] ability] promotion"
 		],
 		"requiredTech": "Horseback Riding"
@@ -304,8 +305,9 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 			// TODO: Forms a City Connection with the Capital over water.
-			// TODO: Sea trade routes originating from this city have a 50% increase in range and produce an additional 1 Gold when connecting to another civilization. A Harbor must also exist in the Capital Capital (or in a city connected to the Capital Capital).
 			"Connects trade routes over water",
+			// TODO: Sea trade routes originating from this city have a 50% increase in range and produce an additional 1 Gold when connecting to another civilization. A Harbor must also exist in the Capital (or in a city connected to the Capital).
+			"All newly-trained [Cargo Ship] units [in this city] receive the [[Harbor] ability] promotion",
 			"Must be next to [Coast]"
 		],
 		"requiredTech": "Compass"
@@ -330,7 +332,11 @@
 		"name": "Hagia Sophia", // Removed +1 Great Artist point.
 		"faith": 3,
 		"isWonder": true,
-		"uniques": ["Gain a free [Temple] [in this city]", "Free [Great Prophet] appears", "Only available <when religion is enabled>"],
+		"uniques": [
+			"Gain a free [Temple] [in this city]",
+			"Free [Great Prophet] appears",
+			"Only available <when religion is enabled>"
+		],
 		"requiredTech": "Theology",
 		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
@@ -375,7 +381,7 @@
 			"[+10]% growth [in your cities]",
 			"[+15]% Production when constructing [Archery] units [in this city]"
 		],
-		"quote": "\"It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of the air, that emanation from the old trees, that so wonderfully changes and renews a weary spirit.\"' - Robert Louis Stevenson"
+		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of the air, that emanation from the old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
 	{
 		"name": "Hanging Gardens",
@@ -420,10 +426,11 @@
 		"culture": 2,
 		"isWonder": true,
 		"uniques": [
-			"[1] free [Great Musician] units appear",
+			"Free [Great Musician] appears",
 			"Provides [3] [Great Work of Music Slot]"
 		],
-		"requiredTech": "Radio"
+		"requiredTech": "Radio",
+		"quote": "'Broadway is a main artery of New York cultural life - the hardened artery' - Walter Winchell"
 	},
 	{
 		"name": "Sydney Opera House",
@@ -444,7 +451,7 @@
 		"culture": 2,
 		"isWonder": true,
 		"uniques": [
-			"[1] free [Great Writer] units appear",
+			"Free [Great Writer] appears",
 			"Provides [2] [Great Work of Writing Slot]"
 		],
 		"requiredTech": "Printing Press",
@@ -473,7 +480,7 @@
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": [
-			"[+25]% [Gold] from Trade Routes", // +25% Gold from City Connection City Connections
+			"[+25]% [Gold] from Trade Routes", // +25% Gold from City Connections
 			"Must have an owned [Mountain] within [2] tiles"
 		],
 		"requiredTech": "Guilds",
@@ -483,7 +490,6 @@
 		"name": "Forbidden Palace",
 		"culture": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": [
 			"[-10]% Unhappiness from [Population] [in all non-occupied cities]",
 			"Only available <after adopting [Patronage]>"
@@ -513,7 +519,7 @@
 		"isWonder": true,
 		"requiredTech": "Construction",
 		"uniques": [
-			"Comment [Create a copy of each type of military unit you currently possess.]",
+			"Comment [Create a copy of each type of military unit you currently possess]",
 			"Triggers a [Terracotta Army - Melee] event <hidden from users>",
 			"Triggers a [Terracotta Army - Archery] event <hidden from users>",
 			"Triggers a [Terracotta Army - Mounted] event <hidden from users>",
@@ -528,8 +534,10 @@
 		"culture": 1,
 		"isWonder": true,
 		"percentStatBonus": {"culture": 20},
-		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
-			"Gain a free [Castle] [in this city]"],
+		"uniques": [
+			"All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
+			"Gain a free [Castle] [in this city]"
+		],
 		"requiredTech": "Chivalry",
 		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
 	},
@@ -552,7 +560,7 @@
 		"culture": 2,
 		"isWonder": true,
 		"uniques": [
-			"[1] free [Great Artist] units appear",
+			"Free [Great Artist] appears",
 			"Provides [4] [Great Work of Art Slot]",
 			"Only available <after adopting [Exploration]>"
 		],
@@ -637,7 +645,7 @@
 		"isWonder": true,
 		"uniques": [
 			"[3] free [Missionary] units appear",
-			"Can only be built <in [in holy cities] cities>",
+			"Can only be built <in [Holy] cities>",
 			"Only available <when religion is enabled>"
 		],
 		"requiredTech": "Theology",
@@ -743,7 +751,8 @@
 			"Provides [1] [Great Work of Art Slot]",
 			"Instantly provides [1] [Great Work of Art]"
 		],
-        "requiredTech": "Drama and Poetry"
+        "requiredTech": "Drama and Poetry",
+		"quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson"
     },
 	{
 		"name": "Sistine Chapel",
@@ -769,21 +778,25 @@
 			// TODO: Cost is per civilization
 			// TODO: Requires International Project https://civilization.fandom.com/wiki/International_Project_(Civ5)
 		],
-        "requiredTech": "Satellites"
+        "requiredTech": "Satellites",
+		"quote": "'Building one Space Station for everyone was and is insane; we should have built a dozen.' - Larry Niven"
     },
 	{
         "name": "Eiffel Tower",
-        "culture": 5,
+        "culture": 1,
         "happiness": 5,
         "greatPersonPoints": {"Great Merchant": 2},
         "isWonder": true,
+		"uniques": [
+			"Provides [12] [Tourism]"
+		],
         "requiredTech": "Radio",
         "quote": "'We live only to discover beauty, all else is a form of waiting'  - Kahlil Gibran"
     },
 	{
         "name": "Museum",
 		"cost": 300,
-		"maintenance": 3,
+		"maintenance": 1,
         "culture": 1,
         "requiredTech": "Archaeology",
 		"requiredBuilding": "Opera House",
@@ -860,7 +873,7 @@
 		"requiredTech": "Iron Working"
 	},
 	{
-		"name": "The Great Library",
+		"name": "The Great Library", // "Great Library" in Civ 5 BNW. Renamed in English.properties
 		"cost": 185,
 		"science": 3,
 		"culture": 1,
