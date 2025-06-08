@@ -83,6 +83,21 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Composite Bowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow",
+		"uniques": [
+			"[This Unit] loses the [Native Tongue] promotion <hidden from users>" // @see Unit/Pathfinder
+		]
+	},
+	{
 		"name": "Hand-Axe",
 		"replaces": "Chariot Archer",
 		"uniqueTo": "Barbarians",
