@@ -295,4 +295,20 @@
 			}
 		]
 	}
+
+	// Siege Tower: Sapper
+	{
+		"name": "Sapper",
+		"uniques": [
+			"Comment [When next to a city at the beginning of your turn, nearby units get +50% Strength when attacking the city]",
+			"[This Unit] loses the [Sapper] promotion <upon turn end> <in tiles not adjacent to [City center] tiles> <hidden from users>",
+			"[+50]% Strength bonus for [Land] units within [2] tiles <when attacking> <vs cities>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Siege Tower",
+				"link": "Unit/Siege Tower"
+			}
+		]
+	}
 ]

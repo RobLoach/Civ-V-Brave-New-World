@@ -335,7 +335,7 @@ NationIcons/Portugal
   index: -1
 NationIcons/Shoshone
   rotate: false
-  xy: 220, 46
+  xy: 328, 154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1523,13 +1523,6 @@ UnitIcons/Pracinha
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Siege Tower
-  rotate: false
-  xy: 328, 154
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitIcons/Winged Hussar
   rotate: false
   xy: 436, 154
@@ -1724,6 +1717,20 @@ UnitPromotionIcons/Restlessness
   xy: 1560, 378
   size: 50, 50
   orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Sapper
+  rotate: false
+  xy: 220, 46
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Siege Tower
+  rotate: false
+  xy: 220, 46
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sneak Attack

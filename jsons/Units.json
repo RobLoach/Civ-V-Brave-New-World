@@ -124,15 +124,25 @@
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": [
-			"[+200]% Strength <vs cities> <when attacking>",
-			// Sapper: When next to an enemy city, other units within 2 tiles get a 50% bonus when attacking the city.
-			"[-50]% Strength for enemy [Military] units in adjacent [City center] tiles",
-			"No defensive terrain bonus",
+			// TODO: Sapper: Should apply when the Siege Tower moves.
+			"Comment [When next to a city at the beginning of your turn, nearby units get +50% Strength when attacking the city]",
+			"[This Unit] gains the [Sapper] promotion <upon turn start> <in tiles adjacent to [City center] tiles> <hidden from users>",
+			"[This Unit] gains the [Sapper] promotion <upon turn end> <in tiles adjacent to [City center] tiles> <hidden from users>",
+			"[+150]% Strength <when attacking> <vs cities>", // 200%-50% because it gets its own Sapper bonus
 			"[+1] Sight",
+			"No defensive terrain bonus",
 			"Can only attack [City] units"
 		],
-		"promotions":  ["Cover I"],
-		"attackSound": "throw"
+		"promotions":  [
+			"Cover I"
+		],
+		"attackSound": "throw",
+		"civilopediaText": [
+			{
+				"text": "Sapper",
+				"link": "Promotion/Sapper"
+			}
+		]
 	},
 	{
 		"name": "Kris Swordsman",
