@@ -447,6 +447,7 @@
 			"Cannot be purchased",
 			"Never appears as a Barbarian unit <hidden from users>",
 			"Only available <in cities with a [University]>",
+			"Uncapturable <hidden from users>",
 			"Unavailable <for [City-States] Civilizations> <hidden from users>"
 		],
 		"civilopediaText": [
