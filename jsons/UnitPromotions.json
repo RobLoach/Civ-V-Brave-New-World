@@ -303,7 +303,8 @@
 		"name": "Sapper",
 		"uniques": [
 			"[+50]% Strength bonus for [Land] units within [2] tiles <when attacking> <vs cities>",
-			"[This Unit] loses the [Sapper] promotion <upon turn end> <in tiles not adjacent to [City center] tiles>"
+			"[This Unit] loses the [Sapper] promotion <upon turn end> <in tiles not adjacent to [City center] tiles>",
+			"[This Unit] loses the [Sapper] promotion <upon turn end> <for [Trebuchet] units> <hidden from users>"
 		],
 		"civilopediaText": [
 			{
