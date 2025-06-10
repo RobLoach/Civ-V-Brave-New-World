@@ -302,14 +302,14 @@
 		],
 		"uniques": [
 			"Can move after attacking",
-			"[-33]% Strength <vs cities>",
+			"[-33]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"Consumes [1] [Horses]"
 		],
 		"attackSound": "horse"
 	},
 	{
-		"name": "Comanche Rider",
+		"name": "Comanche Rider", // Named "Comanche Riders" in Civ5. Renamed in English.properties
 		"unitType": "Mounted",
 		"replaces": "Cavalry",
 		"uniqueTo": "Shoshone",
@@ -512,7 +512,7 @@
 				"link": "Wonder/Artists' Guild"
 			}
 		],
-        "movement": 4
+        "movement": 2
     },
 	{
 		"name": "Merchant of Venice",
@@ -548,7 +548,7 @@
 				"link": "Wonder/Writers' Guild"
 			}
 		],
-        "movement": 4
+        "movement": 2
     },
     {
         "name": "Great Musician",
@@ -567,6 +567,6 @@
 				"link": "Wonder/Musicians' Guild"
 			}
 		],
-        "movement": 4
+        "movement": 2
     }
 ]
