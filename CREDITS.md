@@ -25,7 +25,7 @@
 - Ship by Robert Bjurshagen from NounProject.com
 - Caravel by Anthony Bossard from NounProject.com
 - Tower by Andrejs Kirma from NounProject.com
-- Snake by Nathan Newell Griffith from NounProject.com
+- [Pracinha](https://thenounproject.com/icon/snake-7803482/) by Md Ahasan Habib
 - Paint by tezar tantular from NounProject.com
 - Fort by Anton from NounProject.com
 - Turban by Andrejs Kirma from NounProject.com
@@ -152,3 +152,4 @@
 - [Native Tongue](https://thenounproject.com/icon/archway-3396176/) by Arthur Shlain
 - [Cargo Ship, Harbor ability](https://thenounproject.com/icon/sail-boat-7845318/) by IYIKON
 - [Siege Tower, Sapper](https://thenounproject.com/icon/bull-head-2717640/) by Laymik
+- [Comanche Rider](https://thenounproject.com/icon/native-indian-headdress-6252201/) by Juicy Fish
