@@ -543,9 +543,10 @@
 		"name": "Aesthetics",
 		"era": "Classical era",
 		"uniques": [
-			"[Great Artist] is earned [25]% faster",
-			"[Great Musician] is earned [25]% faster",
-			"[Great Writer] is earned [25]% faster"
+			"Comment [Earn [Great Artist]s, [Great Musician]s, and [Great Writer]s 25% faster]",
+			"[Great Artist] is earned [25]% faster <hidden from users>",
+			"[Great Musician] is earned [25]% faster <hidden from users>",
+			"[Great Writer] is earned [25]% faster <hidden from users>"
 		],
 		"priorities": {
 			"Neutral": 0,
