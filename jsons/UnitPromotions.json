@@ -132,14 +132,15 @@
 	{
 		"name": "Paradrop",
 		"uniques": [
-			"Comment [May Paradrop up to 9 tiles from inside friendly territory]",
+			"Comment [May Paradrop up to [9] tiles from inside friendly territory]",
 			"May Paradrop up to [9] tiles from inside friendly territory <for units without [Skyranger]> <hidden from users>"
 		]
 	},
 	{
 		"name": "Skyranger",
 		"uniques": [
-			"May Paradrop up to [40] tiles from inside friendly territory",
+			"Comment [May Paradrop up to [40] tiles from inside friendly territory]",
+			"May Paradrop up to [40] tiles from inside friendly territory <for units without [Paradrop]> <hidden from users>",
 			"May Paradrop up to [49] tiles from inside friendly territory <for units with [Paradrop]> <hidden from users>"
 		]
 	},
