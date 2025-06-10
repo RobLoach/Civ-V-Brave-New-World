@@ -124,8 +124,8 @@
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": [
-			// TODO: Sapper: Should apply when the Siege Tower moves.
-			"Comment [When next to a city at the beginning of your turn, nearby units get +50% Strength when attacking the city]",
+			// TODO: Sapper: Should apply when the Siege Tower moves next to a city, rather than on the turn end.
+			"Comment [When next to a city at the beginning of your turn, units within 2 tiles get +50% Strength when attacking the city]",
 			"[This Unit] gains the [Sapper] promotion <upon turn start> <in tiles adjacent to [City center] tiles> <hidden from users>",
 			"[This Unit] gains the [Sapper] promotion <upon turn end> <in tiles adjacent to [City center] tiles> <hidden from users>",
 			"[+150]% Strength <when attacking> <vs cities>", // 200%-50% because it gets its own Sapper bonus
