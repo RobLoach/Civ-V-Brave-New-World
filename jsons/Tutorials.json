@@ -111,7 +111,7 @@
 		"name": "Great Works",
 		"civilopediaText": [
 			{
-				"text": "Great Works are the exceptional creations of Great People. They can also be acquired via conquest, however, or after your civilization develops its interest in an ancient [Artifact] and starts digging them up from the ruins of the past."
+				"text": "Great Works are the exceptional creations of Great People. They can also be acquired via conquest, however, or after your civilization develops its interest in ancient [Artifact]s and starts digging them up from the ruins of the past."
 			},
 			{},
 			{
@@ -135,7 +135,7 @@
 			},
 			{},
 			{
-				"text": "Once you have acquired a Great Work or an [Arifact], you are able to slot it into one of the Great Works slots in your cites:"
+				"text": "Once you acquire Great Works or [Artifact]s, you are able to slot them into Great Work slots in your cites:"
 			},
 			{
 				"text": "Great Work of Writing Slot",
