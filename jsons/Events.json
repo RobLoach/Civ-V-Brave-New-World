@@ -56,7 +56,7 @@
 	// Ideology
 	{
 		"name": "Ideology",
-		"text": "Choose one of these ideologies:",
+		"text": "Choose an [Ideology]:",
 		"presentation": "Alert",
 		"choices": [
 			{

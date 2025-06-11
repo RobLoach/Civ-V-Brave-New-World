@@ -7,7 +7,7 @@
 			{ "text": "Concepts", "header": 3 },
 				{
 					"text": "Ideology",
-					"link": "Tutorial/Ideology"
+					"link": "Building/Ideology"
 				},
 				{
 					"text": "Great Works",
@@ -105,35 +105,6 @@
 			{ "text": "If you'd like to help out, feel free to get involved on GitHub or Discord:" },
 			{ "text": "https://github.com/RobLoach/Civ-V-Brave-New-World", "link": "https://github.com/RobLoach/Civ-V-Brave-New-World" },
 			{ "text": "Discord", "link": "https://discord.com/channels/586194543280390151/1055580642806603866" }
-		]
-	},
-	{
-		"name": "Ideology",
-		"steps": [
-			"Each Civilization will be able to choose an Ideology upon reaching the Modern Era, or controlling 3 [Factory] buildings."
-		],
-		"civilopediaText": [
-			{
-				"text": "Autocracy",
-				"link": "Policy/Autocracy"
-			},
-			{
-				"text": "Freedom",
-				"link": "Policy/Freedom"
-			},
-			{
-				"text": "Order",
-				"link": "Policy/Order"
-			},
-			{"separator": true},
-			{
-				"text": "Reach the Modern Era to unlock your Ideology",
-				"link": "Era/Modern era"
-			},
-			{
-				"text": "Alternatively, own 3 Factories to unlock your Ideology",
-				"link": "Building/Factory"
-			}
 		]
 	},
 	{

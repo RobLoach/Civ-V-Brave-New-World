@@ -32,8 +32,8 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "Unlock an Ideology by owning three [Factory] buildings",
-				"link": "Tutorial/Ideology"
+				"text": "Unlock your Ideology by controlling 3 [Factory] buildings",
+				"link": "Building/Ideology"
 			}
 		]
 	},
@@ -1465,13 +1465,12 @@
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 
-	// Events
+	// Event Buildings
 	{
-		"name": "Ideology Available", // Used to Trigger the Ideology pop up.
-		"hurryCostModifier": -100,
+		"name": "Ideology", // Used to Trigger the Ideology pop up.
 		"cost": 1,
 		"uniques": [
-			"Comment [Visit the Policies Screen to select an Ideology]",
+			"Comment [Choose an [Ideology] upon reaching the Modern Era, or controlling 3 [Factory] buildings]",
 			"Automatically built in all cities where it is buildable <hidden from users>",
 
 			// Only for Humans so that AI picks based on AI weighted decisions.
@@ -1480,15 +1479,40 @@
 			// AI gets a free social policy since we give it to humans.
 			"Free Social Policy <for [AI player] Civilizations> <hidden from users>",
 
-			"Will not be displayed in Civilopedia",
 			"Moves to new capital when capital changes <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]>",
+			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Only available <in cities with a [Palace]> <hidden from users>",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Autocracy",
+				"link": "Policy/Autocracy"
+			},
+			{
+				"text": "Freedom",
+				"link": "Policy/Freedom"
+			},
+			{
+				"text": "Order",
+				"link": "Policy/Order"
+			},
+			{"separator": true},
+			{
+				"text": "Requires:"
+			},
+			{
+				"text": "Modern era",
+				"link": "Era/Modern era"
+			},
+			{
+				"text": "Or 3 Factories",
+				"link": "Building/Factory"
+			}
 		]
 	}
 ]
