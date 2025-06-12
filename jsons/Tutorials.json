@@ -2,17 +2,11 @@
 	{
 		"name": "Civ V Brave New World",
 		"civilopediaText": [
-			{ "text": "Brave New World is the second expansion pack for Civ V, released in 2013. The Unciv mod provides a few of its features..." },
+			{ "text": "Brave New World is the second expansion pack for Civ V, originally released in 2013." },
 			{},
-			{ "text": "Concepts", "header": 3 },
-				{
-					"text": "Ideology",
-					"link": "Building/Ideology"
-				},
-				{
-					"text": "Great Works",
-					"link": "Tutorial/Great Works"
-				},
+			{ "text": "Features", "header": 3 },
+				{ "text": "Ideology", "link": "Building/Ideology" },
+				{ "text": "Great Works", "link": "Tutorial/Great Works" },
 			{},
 			{ "text": "Nations", "header": 3 },
 				{ "text": "Poland", "link": "Nation/Poland" },
@@ -28,7 +22,7 @@
 				{ "text": "The Internet", "link": "Technology/The Internet" },
 			{},
 			{ "text": "Religion", "header": 3 },
-				{ "text": "Reformation Beliefs", "link": "Policy/Reformation" },
+				{ "text": "Reformation", "link": "Policy/Reformation" },
 			{},
 			{ "text": "Units", "header": 3 },
 				{ "text": "Archaeologist",		"link": "Unit/Archaeologist" },
@@ -97,66 +91,27 @@
 				{ "text": "Feitoria", "link": "Improvement/Feitoria" },
 				{ "text": "Kasbah", "link": "Improvement/Kasbah" },
 			{},
-			{ "text": "Missing", "header": 3 },
-				{ "text": "There are a few things missing from Brave New World that haven't been implemented in the Unciv mod:" },
-				{ "text": "Cultural Victory with Tourism", "link": "https://civilization.fandom.com/wiki/World_Congress_(Civ5)" },
-				{ "text": "World Congress", "link": "https://civilization.fandom.com/wiki/World_Congress_(Civ5)" },
-			{},
-			{ "text": "If you'd like to help out, feel free to get involved on GitHub or Discord:" },
-			{ "text": "https://github.com/RobLoach/Civ-V-Brave-New-World", "link": "https://github.com/RobLoach/Civ-V-Brave-New-World" },
+			{ "text": "See also", "header": 3 },
+			{ "text": "GitHub", "link": "https://github.com/RobLoach/Civ-V-Brave-New-World" },
 			{ "text": "Discord", "link": "https://discord.com/channels/586194543280390151/1055580642806603866" }
 		]
 	},
 	{
 		"name": "Great Works",
 		"civilopediaText": [
-			{
-				"text": "Great Works are the exceptional creations of Great People. They can also be acquired via conquest, however, or after your civilization develops its interest in ancient [Artifact]s and starts digging them up from the ruins of the past."
-			},
+			{ "text": "Great Works are the exceptional creations of [Great Artist]s, [Great Writer]s, and [Great Musician]s. They can also be acquired via conquest, or after your civilization develops its interest in ancient [Artifact]s and starts digging them up from the ruins of the past." },
+			{ "text": "Provides [Tourism]", "link": "Resource/Tourism" },
 			{},
-			{
-				"text": "There are four types of Great Works:"
-			},
-			{
-				"text": "Great Work of Writing",
-				"link": "Resource/Great Work of Writing"
-			},
-			{
-				"text": "Great Work of Art",
-				"link": "Resource/Great Work of Art"
-			},
-			{
-				"text": "Great Work of Music",
-				"link": "Resource/Great Work of Music"
-			},
-			{
-				"text": "Artifact",
-				"link": "Resource/Artifact"
-			},
+			{ "text": "[4] available" },
+			{ "text": "Great Work of Writing", "link": "Resource/Great Work of Writing" },
+			{ "text": "Great Work of Art", "link": "Resource/Great Work of Art" },
+			{ "text": "Great Work of Music", "link": "Resource/Great Work of Music" },
+			{ "text": "Artifact", "link": "Resource/Artifact" },
 			{},
-			{
-				"text": "Once you acquire Great Works or [Artifact]s, you are able to slot them into Great Work slots in your cites:"
-			},
-			{
-				"text": "Great Work of Writing Slot",
-				"link": "Resource/Great Work of Writing Slot"
-			},
-			{
-				"text": "Great Work of Music Slot",
-				"link": "Resource/Great Work of Music Slot"
-			},
-			{
-				"text": "Great Work of Art Slot, which can also slot Artifacts",
-				"link": "Resource/Great Work of Art Slot"
-			},
-			{},
-			{
-				"text": "Great Works are one of the primary means in which to acquire [Tourism]"
-			},
-			{
-				"text": "Tourism",
-				"link": "Resource/Tourism"
-			}
+			{ "text": "Requires" },
+			{ "text": "Great Work of Writing Slot", "link": "Resource/Great Work of Writing Slot" },
+			{ "text": "Great Work of Music Slot", "link": "Resource/Great Work of Music Slot" },
+			{ "text": "Great Work of Art Slot, which can also slot Artifacts", "link": "Resource/Great Work of Art Slot" },
 		]
 	}
 ]

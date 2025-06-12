@@ -1,4 +1,41 @@
 [
+	// Spaceflight Pioneers - Great Engineer - Build Spaceship Part
+	{
+		"name": "Spaceship part",
+		"text": "By expending your [Great Engineer] you gained [spaceship parts]!",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "SS Booster",
+				"uniques": [
+					"Free [SS Booster] appears <hidden from users>",
+					"Only available <after discovering [Advanced Ballistics]> <hidden from users>"
+				]
+			},
+			{
+				"text": "SS Cockpit",
+				"uniques": [
+					"Free [SS Cockpit] appears <hidden from users>",
+					"Only available <after discovering [Satellites]> <hidden from users>"
+				]
+			},
+			{
+				"text": "SS Engine",
+				"uniques": [
+					"Free [SS Engine] appears <hidden from users>",
+					"Only available <after discovering [Particle Physics]> <hidden from users>"
+				]
+			},
+			{
+				"text": "SS Stasis Chamber",
+				"uniques": [
+					"Free [SS Stasis Chamber] appears <hidden from users>",
+					"Only available <after discovering [Nanotechnology]> <hidden from users>"
+				]
+			}
+		]
+	},
+
 	// Archaeology
 	{
 		"name": "Archaeological Dig",

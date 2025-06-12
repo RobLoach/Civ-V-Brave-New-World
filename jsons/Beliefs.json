@@ -48,13 +48,11 @@
         "name": "Religious Art",
         "type": "Follower",
         "uniques": [
-			"Comment [[Hermitage] provides +5 [Culture] and +5 [Tourism]]"
+			"Comment [[Hermitage] provides +5 [Culture] and +5 [Tourism]]",
+			"[100]% weight to this choice for AI decisions <if [Hermitage] is constructed>"
         ],
 		"civilopediaText": [
-			{
-				"text": "Hermitage",
-				"link": "Building/Hermitage"
-			}
+			{ "text": "Hermitage", "link": "Building/Hermitage" }
 		]
     },
 
@@ -82,11 +80,8 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			"Comment [[Missionary] units Spread Religion action erodes existing pressure from other religions]"
-        ],
-		"civilopediaText": [
-			{ "text": "Missionary", "link": "Unit/Missionary" }
-		]
+			"Comment [[Removes other religions when spreading religion] <for [Missionary] units>]"
+        ]
     },
     {
         "name": "Heathen Conversion",
@@ -101,7 +96,7 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			"Comment [May buy [University], [Public School] and [Research Lab] buildings with [Faith]]",
+			"Comment [May buy [{University} {Public School} {Research Lab}] buildings with [Faith] [in your cities]]",
 			"May buy [University] buildings with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>",
 			"May buy [Public School] buildings with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>",
 			"May buy [Research Lab] buildings with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>"
@@ -112,7 +107,7 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			"Comment [Use [Faith] to purchase Industrial (and later) land units]",
+			"Comment [[May buy [Land] units with [Faith] [in your cities]] <starting from the [Industrial era]>]",
 			"May buy [{Industrial era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>",
 			"May buy [{Modern era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>",
 			"May buy [{Atomic era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>",

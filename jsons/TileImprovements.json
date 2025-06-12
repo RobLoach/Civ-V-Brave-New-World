@@ -108,14 +108,8 @@
 		"civilopediaText": [
 			{ "text": "Landmarks are built from [Antiquity Site]s by [Archaeologist]s, consuming the unit." },
 			{ "separator": true },
-			{
-				"text": "Antiquity Site",
-				"link": "Resource/Antiquity Site"
-			},
-			{
-				"text": "Archaeologist",
-				"link": "Unit/Archaeologist"
-			}
+			{ "text": "Antiquity Site", "link": "Resource/Antiquity Site" },
+			{ "text": "Archaeologist", "link": "Unit/Archaeologist" }
 		]
 	},
 	{
@@ -125,7 +119,6 @@
 		"turnsToBuild": 3,
 		"techRequired": "Archaeology",
 		"uniques": [
-			"Comment [Provides an [Artifact]]",
 			"Can only be built to improve a resource <hidden from users>",
 			"Can also be built on tiles adjacent to fresh water <hidden from users>",
 			"Removes removable features when built <hidden from users>",
@@ -154,22 +147,11 @@
 		"civilopediaText": [
 			{ "text": "[Archaeologist]s can dig up [Antiquity Site]s to produce [Artifact]s, consuming the unit." },
 			{ "separator": true },
-			{
-				"text": "Antiquity Site",
-				"link": "Resource/Antiquity Site"
-			},
-			{
-				"text": "Hidden Antiquity Site",
-				"link": "Resource/Hidden Antiquity Site"
-			},
-			{
-				"text": "Archaeologist",
-				"link": "Unit/Archaeologist"
-			},
-			{
-				"text": "Artifact",
-				"link": "Resource/Artifact"
-			}
+			{ "text": "Provides [Artifact]", "link": "Resource/Artifact" },
+			{ "text": "See also" },
+			{ "text": "Archaeologist", "link": "Unit/Archaeologist" },
+			{ "text": "Antiquity Site", "link": "Resource/Antiquity Site" },
+			{ "text": "Hidden Antiquity Site", "link": "Resource/Hidden Antiquity Site" }
 		]
 	},
 

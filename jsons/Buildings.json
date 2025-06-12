@@ -31,10 +31,9 @@
 			"[+25]% [Science] <after adopting [Workers' Faculties]>"
 		],
 		"civilopediaText": [
-			{
-				"text": "Unlock your Ideology by controlling 3 [Factory] buildings",
-				"link": "Building/Ideology"
-			}
+			{ "text": "A factory is a building which uses Industrial Age techniques to build stuff - cars, corsets, steel beams, fishing rods, or whatever." },
+			{ "separator": true },
+			{ "text": "Ideology", "link": "Building/Ideology" }
 		]
 	},
 	{
@@ -260,14 +259,11 @@
 		"uniques": [
 			"Destroyed when the city is captured",
 			"New [Military] units start with [15] XP [in this city]",
-			"All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion <before the [Industrial era]>" // Pre-Gunpowder era.
+			"All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion <before the [Renaissance era]>" // Pre-Gunpowder era.
 		],
         "requiredTech": "Bronze Working",
 		"civilopediaText": [
-			{
-				"text": "Buffalo Horns",
-				"link": "Promotion/Buffalo Horns"
-			}
+			{ "text": "Buffalo Horns", "link": "Promotion/Buffalo Horns" }
 		]
     },
 	{
@@ -604,14 +600,8 @@
         "requiredTech": "Computers",
         "quote": "'Distrust and caution are the parents of security.' - Benjamin Franklin",
 		"civilopediaText": [
-			{
-				"text": "The Internet",
-				"link": "Technology/The Internet"
-			},
-			{
-				"text": "Tourism",
-				"link": "Resource/Tourism"
-			}
+			{ "text": "The Internet", "link": "Technology/The Internet" },
+			{ "text": "Tourism", "link": "Resource/Tourism" }
 		]
     },
 	{
@@ -1470,7 +1460,7 @@
 		"name": "Ideology", // Used to Trigger the Ideology pop up.
 		"cost": 1,
 		"uniques": [
-			"Comment [Choose an [Ideology] upon reaching the Modern Era, or controlling 3 [Factory] buildings]",
+			"Comment [Choose an [Ideology] upon reaching the [Modern era], or owning 3 [Factory] buildings]",
 			"Automatically built in all cities where it is buildable <hidden from users>",
 
 			// Only for Humans so that AI picks based on AI weighted decisions.
@@ -1489,30 +1479,13 @@
 			"Unavailable <after adopting [Autocracy]> <hidden from users>"
 		],
 		"civilopediaText": [
-			{
-				"text": "Autocracy",
-				"link": "Policy/Autocracy"
-			},
-			{
-				"text": "Freedom",
-				"link": "Policy/Freedom"
-			},
-			{
-				"text": "Order",
-				"link": "Policy/Order"
-			},
-			{"separator": true},
-			{
-				"text": "Requires:"
-			},
-			{
-				"text": "Modern era",
-				"link": "Era/Modern era"
-			},
-			{
-				"text": "Or 3 Factories",
-				"link": "Building/Factory"
-			}
+			{ "text": "Autocracy", "link": "Policy/Autocracy" },
+			{ "text": "Freedom", "link": "Policy/Freedom" },
+			{ "text": "Order", "link": "Policy/Order" },
+			{ "separator": true },
+			{ "text": "Requires at least one of the following:" },
+			{ "text": "Modern era", "link": "Era/Modern era" },
+			{ "text": "Requires a [Factory] in at least [3] of [your] cities", "link": "Building/Factory" }
 		]
 	}
 ]

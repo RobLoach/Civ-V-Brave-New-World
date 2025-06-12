@@ -23,7 +23,9 @@
 		"outerColor": [241,3,0],
 		"innerColor": [80,11,14],
 		"uniqueName": "Solidarity",
+		"uniqueText": "Receive a free Social Policy when you advance to the next era.",
 		"uniques": [
+			// Could just use (Free Social Policy <upon entering a new era>), but then you will gain a free policy on turn one, which is not BNW behaviour
 			"Free Social Policy <upon entering the [Classical era]> <hidden from users>",
 			"Free Social Policy <upon entering the [Medieval era]> <hidden from users>",
 			"Free Social Policy <upon entering the [Renaissance era]> <hidden from users>",
@@ -32,7 +34,6 @@
 			"Free Social Policy <upon entering the [Atomic era]> <hidden from users>",
 			"Free Social Policy <upon entering the [Information era]> <hidden from users>",
 			"Free Social Policy <upon entering the [Future era]> <hidden from users>",
-			"Comment [Free Social Policy upon entering a new era]", // Could just use (Free Social Policy <upon entering a new era>), but then you will gain a free policy on turn one, which is not BNW behaviour
 			"Preferred Ideology: Autocracy"
 		],
 		"spyNames": ["Wincenty", "Roman", "Benita", "Jan", "Kazimierz", "Josef", "Krystyna Skarbek", "Tarnowski", "Marian", "Alenka"],
@@ -100,7 +101,7 @@
 		"innerColor": [63,106,64],
 		"uniqueName": "Carnival",
 		"uniques": [
-			"Double quantity of [Tourism] produced <during a Golden Age>", // Tourism output is +100% during their Golden Ages.
+			"Double quantity of [Tourism] produced <during a Golden Age>",
 			"[Great Artist] is earned [50]% faster <during a Golden Age>",
 			"[Great Musician] is earned [50]% faster <during a Golden Age>",
 			"[Great Writer] is earned [50]% faster <during a Golden Age>"
@@ -205,7 +206,7 @@
 		"uniques": [
 			"Preferred Ideology: Freedom"
 		],
-		"uniqueText": "The first 3 cities founded on continents other than where Indonesia started each provide 2 copies of a unique Indonesian Luxury Resource (either Cloves, Peppers, or Nutmeg).",
+		"uniqueText": "The first 3 cities founded on continents other than where Indonesia started each provide 2 copies of [Cloves], [Pepper], or [Nutmeg].",
 		"spyNames": ["Adityawarman", "Airlangga", "Citra", "Halayudha", "Jayakatwang", "Lingga", "Mahendradatta", "Prapana", "Raden", "Davi"],
 		"cities": ["Jakarta","Surabaya","Medan","Makassar","Batam","Denpasar","Samarinda","Mataram","Ambon","Bandung",
 			"Kupang","Depok","Palembang","Trowulan","Semarang","Jayapura","Tangerang","Bogor","Pekanbaru","Bandar Lampung",
@@ -213,18 +214,10 @@
 			"Biak","Djawa","Kudus","Lombok","Samosir","Sragen","Garut","Gresik","Nias","Madiun",
 			"Yogyakarta","Bima","Sorong"],
 		"civilopediaText": [
-			{
-				"text": "Cloves",
-				"link": "Resource/Cloves"
-			},
-			{
-				"text": "Nutmeg",
-				"link": "Resource/Nutmeg"
-			},
-			{
-				"text": "Pepper",
-				"link": "Resource/Pepper"
-			}
+			{ "text": "Free" },
+			{ "text": "Cloves", "link": "Resource/Cloves" },
+			{ "text": "Nutmeg", "link": "Resource/Nutmeg" },
+			{ "text": "Pepper", "link": "Resource/Pepper" }
 		]
 	},
 	{
@@ -354,7 +347,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Ships of the Desert",
 		"uniques": [
-			"Comment [[Caravan] units gain 50% extended range]", // @see Unit/Caravan
+			"Comment [[Caravan]s gain 50% extended range]", // @see Unit/Caravan
 			"[+10]% Spread Religion Strength", // TODO: Your Trade Routes spread the home city's Religion twice as effectively
 			"Double quantity of [Oil] produced"
 		],
@@ -435,7 +428,7 @@
 			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"]
 	},
 
- {
+	{
         "name": "Germany",
         "leaderName": "Otto von Bismarck",
         "adjective": ["German"],
@@ -497,20 +490,14 @@
         "uniqueName": "The Great Warpath",
         "uniques": [
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
-			"Comment [[Caravan]s move along [Forest] and [Jungle] as if they were Roads.]", // @see Unit/Caravans
+			"Comment [[Double movement in [{Forest} {Jungle}]] <for [Caravan] units>]" // @see Unit/Caravans
 			"Preferred Ideology: Freedom"
 		],
 	    "spyNames": ["Onatah","Oneida","Oshadagea","Otetiani","Genesee","Dadgayadoh","Otwtiani","Kateri","Onondakai","Honanyawus"],
         "cities": ["Onoondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River","Canandaigua Lake","Lake Simcoe",
             "Salamanca","Gowanda","Buffalo","Cuba","Akron","Kanesatake","Ganienkeh","Cayuga Castle","Chondote","Canajoharie",
             "Nedrow","Syracuse","Oneida Lake","Kanonwalohale","Green Bay","Southwold","Mohawk Valley","Schoharie","Bay of Quinte","Kanawale",
-            "Kanatsiokareke","Tyendinaga","Hahta"],
-		"civilopediaText": [
-			{
-				"text": "Caravan",
-				"link": "Unit/Caravan"
-			}
-		]
+            "Kanatsiokareke","Tyendinaga","Hahta"]
     },
 
 	// City-States sorted by cityStateType, name

@@ -115,7 +115,6 @@
 - [Mobilization](https://thenounproject.com/icon/sale-7772060/) by Skena Grafis
 - [Futurism](https://thenounproject.com/icon/tourist-7083437/) by Andre Buand
 - [Industrial Espionage](https://thenounproject.com/icon/robbery-7183772/) by Zach Hainsworth
-- [Lightning Warfare](https://thenounproject.com/icon/lightning-7761817/) by Ariso
 - [Third Alternative](https://thenounproject.com/icon/capital-7169973/) by Nursila
 - [Cult of Personality](https://thenounproject.com/icon/bully-4616110/) by Kamin Ginkaew
 - [Gunboat Diplomacy](https://thenounproject.com/icon/diplomacy-6258254/) by WBcreative
@@ -142,10 +141,9 @@
 - [Skyranger](https://thenounproject.com/icon/airplane-7546219/) by Feri_icon
 - [City Plunder](https://thenounproject.com/icon/skull-and-bones-6458048/) by Dimitri Lupo
 - [Heavy Charge](https://thenounproject.com/icon/spear-7674485/) by metami septiana
-- [No Movement Cost to Pillage](https://thenounproject.com/icon/burn-7438357/) by Arto Moro
+- [No movement cost to pillage](https://thenounproject.com/icon/burn-7438357/) by Arto Moro
 - [Golden Age from Victories](https://thenounproject.com/icon/smiley-face-2571154/) by Mike Zuidgeest
 - [Foreign Lands Bonus](https://thenounproject.com/icon/triangle-7487240/) by El Hikami
-- [Ignores Zone of Control](https://thenounproject.com/icon/zone-defense-3990512/) by Michael G Brown
 - [Homeland Guardian](https://thenounproject.com/icon/star-shield-764665/) by Aneeque Ahmed
 - [Desert Warrior](https://thenounproject.com/icon/desert-7472058/) by Alvida
 - [Full Moon Striker](https://thenounproject.com/icon/missile-6608854/) by Vectorstall
@@ -153,3 +151,4 @@
 - [Cargo Ship, Harbor ability](https://thenounproject.com/icon/sail-boat-7845318/) by IYIKON
 - [Siege Tower, Sapper](https://thenounproject.com/icon/bull-head-2717640/) by Laymik
 - [Comanche Rider](https://thenounproject.com/icon/native-indian-headdress-6252201/) by Juicy Fish
+- [Lightning Warfare](https://thenounproject.com/icon/tank-7284097/) by Taewon Kang

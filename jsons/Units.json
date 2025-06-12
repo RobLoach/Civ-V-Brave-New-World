@@ -20,7 +20,7 @@
 		"cost": 75,
 		"requiredTech": "Animal Husbandry",
 		"uniques": [
-			"Comment [Can undertake a trade mission with a City-State]",
+			"Comment [Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence]",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence <for units without [[Caravansary] ability]> <hidden from users>",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence <for units with [[Caravansary] ability]> <hidden from users>",
 			// TODO: Establish Trade Route (Route must run over land from one city to another.)
@@ -47,7 +47,7 @@
 		"cost": 100,
 		"requiredTech": "Sailing",
 		"uniques": [
-			"Comment [Can undertake a trade mission with a City-State]",
+			"Comment [Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence]",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence <for units without [[Harbor] ability]> <hidden from users>",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <for units with [[Harbor] ability]> <hidden from users>",
 			// TODO: Establish Trade Route with a different civ (Route must run over water from one coastal city to another.)
@@ -177,16 +177,10 @@
 		],
 		"promotions": [
 			"City Plunder",
-			"No Movement Cost to Pillage"
+			"No movement cost to pillage"
 		],
 		"upgradesTo": "Lancer",
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{
-				"text": "Mercenary Army",
-				"link": "Policy/Mercenary Army"
-			}
-		]
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Impi",
@@ -407,7 +401,7 @@
 		"upgradesTo": "Future Soldier",
 		"promotions": [
 			"Paradrop",
-			"No Movement Cost to Pillage"
+			"No movement cost to pillage"
 		],
 		"uniques": [
 			"Never appears as a Barbarian unit <hidden from users>"
@@ -468,7 +462,7 @@
         "uniques": [
 			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership
 			"All adjacent units heal [+15] HP when healing", // TODO: Repair Fleet (Instantly heals all ships within one tile, expends the unit)
-			"Comment [Can always traverse ocean tiles]", // @see Building/Palace
+			// Can always traverse ocean tiles // @see Building/Palace
             "Is part of Great Person group [General]",
             "Great Person - [War]",
             "Unbuildable",
@@ -505,7 +499,7 @@
 		"movement": 2,
 		"uniques": [
             "Is part of Great Person group [Merchant] <hidden from users>",
-			"Great Person - [Gold]",
+			"Great Person - [Great Person]",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence", // Double Gold, and Double Influence (Double Gold in Nations.json)
 			"Can instantly construct a [Customs house] improvement <by consuming this unit>",
 			"Double movement in [Coast]", // Extra Embarked Movement speed (6 vs 4)
@@ -551,5 +545,19 @@
 			}
 		],
         "movement": 2
-    }
+    },
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can speed up construction of a building",
+            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "Great Person - [Production]",
+			"Unbuildable",
+			"Uncapturable",
+			"Triggers a [Spaceship part] event <after adopting [Spaceflight Pioneers]> <after discovering [Advanced Ballistics]> <with [Aluminum]> <for [Human player] Civilizations> <by consuming this unit> <hidden from users>"
+		],
+		"movement": 2
+	}
 ]

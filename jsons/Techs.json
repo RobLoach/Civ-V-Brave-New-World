@@ -71,7 +71,7 @@
 				"prerequisites": ["Optics","Theology"],
                 "uniques": [
 					"[-50]% weight to this choice for AI decisions",
-					// TODO: Increases the range of sea trade routes
+					"[1] Movement <for [Cargo Ship] units>", // TODO: Increases the range of sea trade routes
 					"Instantly provides [1] [Trade Route]"
 				],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
@@ -106,7 +106,7 @@
 			{
 				"name": "Biology",
 				"row": 2,
-				"prerequisites": ["Archaeology","Scientific Theory"],
+				"prerequisites": ["Archaeology", "Scientific Theory"],
                 "uniques": [
 					"[+100]% weight to this choice for AI decisions",
 					"Instantly provides [1] [Trade Route]"
@@ -125,7 +125,7 @@
 			{
 				"name": "Railroads",
 				"row": 8,
-				"prerequisites": ["Steam Power","Dynamite"],
+				"prerequisites": ["Steam Power", "Dynamite"],
                 "uniques": [
 					"[+100]% weight to this choice for AI decisions",
 					"Instantly provides [1] [Trade Route]"
@@ -144,7 +144,7 @@
 			{
 				"name": "Pharmaceuticals",
 				"row": 2,
-				"prerequisites": ["Plastics","Refrigeration"],
+				"prerequisites": ["Plastics", "Refrigeration"],
 				"uniques": [
 					"Instantly provides [1] [Trade Route]"
 				],
@@ -167,16 +167,10 @@
 				"row": 5,
 				"cost": 1,
                 "uniques": [
-					"[-100]% weight to this choice for AI decisions",
-					"Unavailable"
+					"[-100]% weight to this choice for AI decisions <hidden from users>",
+					"Only available <after adopting [Exploration Complete]>"
 				],
-				"quote": "'Antiquities are history defaced, or some remnants of history which have casually escaped the shipwreck of time.' - Francis Bacon",
-				"civilopediaText": [
-					{
-						"text": "Acquired by completing the Exploration Policy Tree",
-						"link": "Policy/Exploration"
-					}
-				]
+				"quote": "'Antiquities are history defaced, or some remnants of history which have casually escaped the shipwreck of time.' - Francis Bacon"
 			}
 		]
 	},
@@ -192,7 +186,7 @@
 				"row": 5,
 				"prerequisites": ["Telecommunications"],
 				"uniques": [
-					"Comment [Double the [Tourism] output of all your cities]",
+					"Comment [Double quantity of [Tourism] produced]",
 					"Double quantity of [Tourism] produced <if [Great Firewall] is not constructed by anybody> <hidden from users>",
 					"Double quantity of [Tourism] produced <if [Great Firewall] is constructed in at least [1] of [Your] cities> <hidden from users>"
 				],
@@ -226,7 +220,9 @@
 					"Stealth",
 					"The Internet" // New prerequisite in BNW.
 				],
-				"uniques": ["Can be continually researched"],
+				"uniques": [
+					"Can be continually researched"
+				],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
 			}

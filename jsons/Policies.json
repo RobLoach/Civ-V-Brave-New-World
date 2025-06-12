@@ -128,8 +128,8 @@
 			{
 				"name": "Reformation",
 				"uniques": [
-					"Comment [Allows adopting [Reformation] Beliefs into your Religion]",
-					"Gain a free [Enhancer] belief <after founding a religion>" // If you founded a religion, gain a bonus Reformation belief.
+					"Gain a free [Enhancer] belief <after founding a religion>", // If you founded a religion, gain a bonus Reformation belief.
+					"Comment [Allows adopting [Reformation] Beliefs into your Religion]"
 				],
 				"requires": [
 					"Religious Tolerance"
@@ -137,48 +137,17 @@
 				"row": 3,
 				"column": 3,
 				"civilopediaText": [
-					{
-						"text": "Reformation refers to a great movement to reform a religious organization or belief system that is seen to have become corrupt or to have strayed from its guiding principles. The \"Protestant Reformation\" was a movement to reform the Roman Catholic Church. Begun in 1517 when Martin Luther published \"The Ninety-Five Theses\" listing the Church's transgressions as he saw them; the movement sparked some 130 years of horrible, bloody religious warfare across Europe and in the New World. As a result, Christianity was permanently fractured into various different organizations and civil authority gained ultimate primacy over religious life."
-					},
-					{
-						"separator": true
-					},
-					{
-						"text": "Charitable Missions",
-						"link": "Belief/Charitable Missions"
-					},
-					{
-						"text": "Evangelism",
-						"link": "Belief/Evangelism"
-					},
-					{
-						"text": "Heathen Conversion",
-						"link": "Belief/Heathen Conversion"
-					},
-					{
-						"text": "Jesuit Education",
-						"link": "Belief/Jesuit Education"
-					},
-					{
-						"text": "Religious Fervor",
-						"link": "Belief/Religious Fervor"
-					},
-					{
-						"text": "Sacred Sites",
-						"link": "Belief/Sacred Sites"
-					},
-					{
-						"text": "To the Glory of God",
-						"link": "Belief/To the Glory of God"
-					},
-					{
-						"text": "Underground Sect",
-						"link": "Belief/Underground Sect"
-					},
-					{
-						"text": "Unity of the Prophets",
-						"link": "Belief/Unity of the Prophets"
-					}
+					{ "text": "Reformation lets you choose the most powerful Beliefs for your Religion." },
+					{ "separator": true },
+					{ "text": "Charitable Missions", "link": "Belief/Charitable Missions" },
+					{ "text": "Evangelism", "link": "Belief/Evangelism" },
+					{ "text": "Heathen Conversion", "link": "Belief/Heathen Conversion" },
+					{ "text": "Jesuit Education", "link": "Belief/Jesuit Education" },
+					{ "text": "Religious Fervor", "link": "Belief/Religious Fervor" },
+					{ "text": "Sacred Sites", "link": "Belief/Sacred Sites" },
+					{ "text": "To the Glory of God", "link": "Belief/To the Glory of God" },
+					{ "text": "Underground Sect", "link": "Belief/Underground Sect" },
+					{ "text": "Unity of the Prophets", "link": "Belief/Unity of the Prophets" }
 				]
 			},
 			{
@@ -228,15 +197,6 @@
 				"row": 1,
 				"column": 2
 			},
-			// {
-			// 	"name": "Aesthetics",
-			// 	"uniques": [
-			// 		"Unavailable",
-			// 		"Will not be displayed in Civilopedia"
-			// 	],
-			//     "row": 1,
-			//     "column": 6
-			// },
 			{
 				"name": "Scholasticism",
 				"uniques": [
@@ -406,7 +366,7 @@
 				"uniques": [
 					"Free [Great Admiral] appears",
 					"[Great Admiral] is earned [+50]% faster",
-					"Comment [+2 Movement for all [Great Admiral]s]"
+					"Comment [[Great Admiral] gains [2] movement]"
 				],
 				"requires": [
 					"Naval Tradition"
@@ -445,13 +405,10 @@
 				"uniques": [
 					"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
 					"[+3 Culture] [in all coastal cities]",
-					"Discover [Hidden Antiquity Sites]"
+					"Discover [Hidden Antiquity Sites] <hidden from users>"
 				],
 				"civilopediaText": [
-					{
-						"text": "Reveals Hidden Antiquity Sites",
-						"link": "Resource/Hidden Antiquity Site"
-					}
+					{ "text": "Reveals [Hidden Antiquity Site] on the map", "link": "Resource/Hidden Antiquity Site" }
 				]
 			}
 		]
@@ -484,7 +441,7 @@
 			{
 				"name": "Mercenary Army",
 				"uniques": [
-					"Comment [Enables the purchasing of [Landsknecht]s]"
+					"Comment [May buy [Landsknecht] units with [Gold] [in your cities]]"
 				],
 				"row": 1,
 				"column": 4
@@ -543,10 +500,9 @@
 		"name": "Aesthetics",
 		"era": "Classical era",
 		"uniques": [
-			"Comment [Earn [Great Artist]s, [Great Musician]s, and [Great Writer]s 25% faster]",
-			"[Great Artist] is earned [25]% faster <hidden from users>",
-			"[Great Musician] is earned [25]% faster <hidden from users>",
-			"[Great Writer] is earned [25]% faster <hidden from users>"
+			"[Great Artist] is earned [25]% faster",
+			"[Great Musician] is earned [25]% faster",
+			"[Great Writer] is earned [25]% faster"
 		],
 		"priorities": {
 			"Neutral": 0,
@@ -556,9 +512,7 @@
 			"Scientific": 10
 		},
 		"civilopediaText": [
-			{"text": "Great Artist", "link": "Unit/Great Artist"},
-			{"text": "Great Musician", "link": "Unit/Great Musician"},
-			{"text": "Great Writer", "link": "Unit/Great Writer"}
+			{ "text": "[Aesthetics] improves the civilization's ability to generate [Culture]." }
 		],
 		"policies": [
 			{
@@ -624,7 +578,7 @@
 				"uniques": [
 					// TODO: Adopting all policies doubles the theming bonus you receive from Museums and Wonders.
 					"Double quantity of [Tourism] produced <in cities with a [Museum]>",
-					"Comment [May purchase [Great Artist]s, [Great Musician]s and [Great Writer]s with [Faith] starting in the Industrial era]",
+					"Comment [May buy [{Great Artist} {Great Musician} {Great Writer}] units for [1000] [Faith] <starting from the [Industrial era]>]",
 					"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]> <hidden from users>",
 					"May buy [Great Musician] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]> <hidden from users>",
 					"May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]> <hidden from users>"
@@ -661,9 +615,7 @@
 			"[+100]% weight to this choice for AI decisions <for [Songhai] Civilizations>"
 		],
 		"civilopediaText": [
-			{
-				"text": "[Ideology] best for Cultural, Diplomatic, and Domination Victories"
-			}
+			{ "text": "[Ideology] best for Cultural, Diplomatic, and Domination Victories." }
 		],
 		"policies": [
 			// Level 1
@@ -755,10 +707,8 @@
 				"name": "Lightning Warfare",
 				"uniques": [
 					"[3] Movement <for [Great General] units>",
-					"[15]% Strength <for [Armored] units> <when attacking>",
-					"[1] Movement <for [Armored] units>",
-					"[Armored] units gain the [Ignores Zone of Control] promotion <hidden from users>",
-					"All newly-trained [Armored] units [in your cities] receive the [Ignores Zone of Control] promotion",
+					"[Armored] units gain the [Lightning Warfare] promotion",
+					"All newly-trained [Armored] units [in your cities] receive the [Lightning Warfare] promotion <hidden from users>",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
@@ -766,10 +716,7 @@
 				"row": 2,
 				"column": 4,
 				"civilopediaText": [
-					{
-						"text": "Ignores Zone of Control",
-						"link": "Promotion/Ignores Zone of Control"
-					}
+					{ "text": "Lightning Warfare", "link": "Promotion/Lightning Warfare" }
 				]
 			},
 			{
@@ -897,9 +844,7 @@
 			"[+100]% weight to this choice for AI decisions <for [Russia] Civilizations>"
 		],
 		"civilopediaText": [
-			{
-				"text": "[Ideology] best for Cultural, Domination and Science Victories"
-			}
+			{ "text": "[Ideology] best for Cultural, Domination and Science Victories." }
 		],
 		"policies": [
 			// Level 1
@@ -1024,7 +969,7 @@
 			{
 				"name": "Workers' Faculties",
 				"uniques": [
-					"Comment [+25% [Science] output from Cities with a [Factory]]",
+					"Comment [[25]% [Science] from every [Factory]]",
 					"[+100]% Production when constructing [Factory] buildings [in your cities]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
@@ -1052,7 +997,7 @@
 				"name": "Dictatorship of the Proletariat",
 				"uniques": [
 					// TODO: +34% Tourism to Civilizations with less Happiness.
-					"Provides [2] [Tourism]",
+					"Provides [5] [Tourism] <when below [0] Happiness>",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
@@ -1074,7 +1019,7 @@
 			{
 				"name": "Spaceflight Pioneers",
 				"uniques": [
-					// TODO: May finish Spaceship Parts with Great Engineers
+					"Comment [[Great Engineer]s can finish [spaceship parts]]",
 					"[+15]% Production when constructing [Spaceship part] units [in your cities]",
 					"Free [Great Engineer] appears",
 					"Free [Great Scientist] appears",
@@ -1123,9 +1068,7 @@
 			"[+100]% weight to this choice for AI decisions <for [Polynesia] Civilizations>"
 		],
 		"civilopediaText": [
-			{
-				"text": "[Ideology] best for Cultural, Diplomatic, and Science Victories"
-			}
+			{ "text": "[Ideology] best for Cultural, Diplomatic, and Science Victories." }
 		],
 		"policies": [
 			// Level 1
@@ -1248,12 +1191,11 @@
 			{
 				"name": "New Deal",
 				"uniques": [
-					"Comment [Great Person improvements provide +4 of their relevant yield]",
-					"[+4 Science] from [Academy] tiles [in your cities] <hidden from users>",
-					"[+4 Culture] from [Landmark] tiles [in your cities] <hidden from users>",
-					"[+4 Production] from [Manufactory] tiles [in your cities] <hidden from users>",
-					"[+4 Gold] from [Customs house] tiles [in your cities] <hidden from users>",
-					"[+4 Faith] from [Holy site] tiles [in your cities] <hidden from users>",
+					"[+4 Science] from [Academy] tiles [in your cities]",
+					"[+4 Culture] from [Landmark] tiles [in your cities]",
+					"[+4 Production] from [Manufactory] tiles [in your cities]",
+					"[+4 Gold] from [Customs house] tiles [in your cities]",
+					"[+4 Faith] from [Holy site] tiles [in your cities]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
@@ -1278,7 +1220,8 @@
 			{
 				"name": "Media Culture",
 				"uniques": [
-					"Provides [1] [Tourism] <for every [3] [Tourism]> <in cities with a [Broadcast Tower]>", // +34% Tourism generated by Cities with a Broadcast Tower
+					// TODO: +34% Tourism generated by Cities with a Broadcast Tower
+					"Provides [2] [Tourism] <in cities with a [Broadcast Tower]>",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
@@ -1318,7 +1261,7 @@
 		"name": "Unavailable",
 		"era": "Future era",
 		"uniques": [
-			"Comment [These policies are replaced in Brave New World]",
+			"Comment [Obsolete with [Civ V Brave New World]]",
 			"Unavailable",
 			"Will not be displayed in Civilopedia",
 			"[-100]% weight to this choice for AI decisions"

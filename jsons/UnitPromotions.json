@@ -10,7 +10,7 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "Ikanda",
+				"text": "Requires [Ikanda] to be built in the city",
 				"link": "Building/Ikanda"
 			}
 		]
@@ -154,21 +154,16 @@
 		]
 	},
 
-	// Lightning Warfare Policy: Ignores Zone of Control
+	// Lightning Warfare
 	{
-		"name": "Ignores Zone of Control",
+		"name": "Lightning Warfare",
 		"uniques": [
-			"Ignores Zone of Control"
+			"Ignores Zone of Control",
+			"[15]% Strength <when attacking>",
+			"[1] Movement"
 		],
 		"civilopediaText": [
-			{
-				"text": "Zone of Control prevents enemy units from moving out of a tile occupied by a friendly unit on the same turn they move into that tile."
-			},
-			{ "separator": true },
-			{
-				"text": "Lightning Warfare",
-				"link": "Policy/Lightning Warfare"
-			}
+			{ "text": "Requires [Lightning Warfare]", "link": "Policy/Lightning Warfare" }
 		]
 	},
 
@@ -202,6 +197,7 @@
 	{
 		"name": "The Great Warpath",
 		"uniques": [
+			// Caravans move along Forest and Jungle as if they were Roads.
 			"Double movement in [Jungle]",
 			"Double movement in [Forest]",
 			"Only available <for [Iroquois] Civilizations>",
@@ -228,7 +224,7 @@
 
 	// Pictish Warrior, Landsknecht, Sipahi, Paratrooper
 	{
-		"name": "No Movement Cost to Pillage",
+		"name": "No movement cost to pillage",
 		"uniques": [
 			"No movement cost to pillage"
 		]
