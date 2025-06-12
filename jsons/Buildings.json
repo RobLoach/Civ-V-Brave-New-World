@@ -17,26 +17,6 @@
 		]
 	},
 	{
-		"name": "Factory",
-		"cost": 360,
-		"production": 4,
-		"percentStatBonus": {"production": 10},
-		"specialistSlots": {"Engineer": 2},
-		"requiredBuilding": "Workshop",
-		"maintenance": 3,
-		"hurryCostModifier": 0,
-		"requiredResource": "Coal",
-		"requiredTech": "Industrialization",
-		"uniques": [
-			"[+25]% [Science] <after adopting [Workers' Faculties]>"
-		],
-		"civilopediaText": [
-			{ "text": "A factory is a building which uses Industrial Age techniques to build stuff - cars, corsets, steel beams, fishing rods, or whatever." },
-			{ "separator": true },
-			{ "text": "Ideology", "link": "Building/Ideology" }
-		]
-	},
-	{
 		"name": "Airport",
 		"cost": 400,
 		"maintenance": 5,

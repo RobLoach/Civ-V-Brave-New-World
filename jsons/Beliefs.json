@@ -80,8 +80,11 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			"Comment [[Removes other religions when spreading religion] <for [Missionary] units>]"
-        ]
+			"Comment [[Missionary] unit's Spread Religion action erodes existing pressure from other religions]"
+        ],
+		"civilopediaText": [
+			{ "text": "Missionary", "link": "Unit/Missionary"}
+		]
     },
     {
         "name": "Heathen Conversion",
@@ -96,10 +99,9 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			"Comment [May buy [{University} {Public School} {Research Lab}] buildings with [Faith] [in your cities]]",
-			"May buy [University] buildings with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>",
-			"May buy [Public School] buildings with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>",
-			"May buy [Research Lab] buildings with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>"
+			"May buy [University] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [Public School] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [Research Lab] buildings with [Faith] [in all cities in which the majority religion is a major religion]"
 		]
     },
     {
@@ -107,12 +109,11 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			"Comment [[May buy [Land] units with [Faith] [in your cities]] <starting from the [Industrial era]>]",
-			"May buy [{Industrial era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>",
-			"May buy [{Modern era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>",
-			"May buy [{Atomic era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>",
-			"May buy [{Information era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>",
-			"May buy [{Future era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion] <hidden from users>"
+			"May buy [{Industrial era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [{Modern era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [{Atomic era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [{Information era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
+			"May buy [{Future era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]"
         ]
     },
     {
@@ -120,7 +121,8 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			"Comment [+2 [Tourism] for every building purchased with [Faith]]"
+			// TODO: All buildings purchased with Faith provide 2 Tourism each
+			"Comment [+2 [Tourism] from every [{Cathedral} {Monastery} {Mosque} {Pagoda}]]"
         ],
 		"civilopediaText": [
 			{ "text": "Cathedral", "link": "Building/Cathedral" },
