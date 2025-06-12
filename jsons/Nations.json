@@ -214,7 +214,6 @@
 			"Biak","Djawa","Kudus","Lombok","Samosir","Sragen","Garut","Gresik","Nias","Madiun",
 			"Yogyakarta","Bima","Sorong"],
 		"civilopediaText": [
-			{ "text": "Free" },
 			{ "text": "Cloves", "link": "Resource/Cloves" },
 			{ "text": "Nutmeg", "link": "Resource/Nutmeg" },
 			{ "text": "Pepper", "link": "Resource/Pepper" }
@@ -382,7 +381,7 @@
 		"uniqueName": "City of Light",
 		"uniques": [
 			"Comment [[Museum]s double [Tourism] in capital]", // @see Building/Museum
-			"Provides [1] [Tourism] <for every [[Wonder] Buildings]>", // TODO: World Wonder theming bonuses are doubled in their Capital.
+			"Provides [1] [Tourism] <for every [[Wonder] Buildings]> <in [Capital] cities>", // TODO: World Wonder theming bonuses are doubled in their Capital.
 			"Preferred Ideology: Order"
 		],
 		"spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"],
