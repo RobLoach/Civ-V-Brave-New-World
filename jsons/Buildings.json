@@ -10,11 +10,42 @@
 		"cost": 1,
 		"uniques": [
 			"Indicates the capital city",
-			"Provides [1] [Great Work of Art Slot]",
+
+			"Comment [Provides 1 Great Work of Art Slot]",
 
 			// Unit Modifications
 			"Enables [Great Admiral] units to enter ocean tiles <hidden from users>" // See Unit/Great Admiral
 		]
+	},
+	{
+		"name": "Palace - Great Work of Art Slot",
+		"requiredBuilding": "Palace",
+		"cost": 1,
+		"uniques": [
+			"Unsellable <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Unavailable <in cities with a [Palace - Great Work of Art]> <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+	{
+		"name": "Palace - Great Work of Art",
+		"requiredBuilding": "Palace - Great Work of Art Slot",
+		"culture": 2,
+		"cost": 1,
+		"uniques": [
+			"Great Work",
+			"Instantly consumes [1] [Great Work of Art] <with [Great Work of Art]>",
+			"Instantly consumes [1] [Artifact] <with [Artifact]>",
+			"Unavailable <without [Great Work of Art]> <without [Artifact]> <hidden from users>",
+			"Provides [2] [Tourism]",
+			"Remove [Palace - Great Work of Art Slot] [in this city] <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Airport",
