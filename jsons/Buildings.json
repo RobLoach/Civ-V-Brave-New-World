@@ -760,20 +760,20 @@
         "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.'  - Marcel Parquet"
     },
 	{
-		"name": "Uffizi - Great Work of Art Slot",
+		"name": "Uffizi - Great Work of Art Slot 1",
 		"requiredBuilding": "Uffizi",
 		"cost": 1,
 		"uniques": [
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>",
-			"Unavailable <in cities with a [Uffizi - Great Work of Art]> <hidden from users>"
+			"Unavailable <in cities with a [Uffizi - Great Work of Art 1]> <hidden from users>"
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
-		"name": "Uffizi - Great Work of Art",
-		"requiredBuilding": "Uffizi - Great Work of Art Slot",
+		"name": "Uffizi - Great Work of Art 1",
+		"requiredBuilding": "Uffizi - Great Work of Art Slot 1",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -782,7 +782,67 @@
 			"Instantly consumes [1] [Artifact] <with [Artifact]>",
 			"Unavailable <without [Great Work of Art]> <without [Artifact]> <hidden from users>",
 			"Provides [2] [Tourism]",
-			"Remove [Uffizi - Great Work of Art Slot] [in this city] <hidden from users>",
+			"Remove [Uffizi - Great Work of Art Slot 1] [in this city] <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+	{
+		"name": "Uffizi - Great Work of Art Slot 2",
+		"requiredBuilding": "Uffizi",
+		"cost": 1,
+		"uniques": [
+			"Unsellable <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Unavailable <in cities with a [Uffizi - Great Work of Art 2]> <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+	{
+		"name": "Uffizi - Great Work of Art 2",
+		"requiredBuilding": "Uffizi - Great Work of Art Slot 2",
+		"culture": 2,
+		"cost": 1,
+		"uniques": [
+			"Great Work",
+			"Instantly consumes [1] [Great Work of Art] <with [Great Work of Art]>",
+			"Instantly consumes [1] [Artifact] <with [Artifact]>",
+			"Unavailable <without [Great Work of Art]> <without [Artifact]> <hidden from users>",
+			"Provides [2] [Tourism]",
+			"Remove [Uffizi - Great Work of Art Slot 2] [in this city] <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+	{
+		"name": "Uffizi - Great Work of Art Slot 3",
+		"requiredBuilding": "Uffizi",
+		"cost": 1,
+		"uniques": [
+			"Unsellable <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Unavailable <in cities with a [Uffizi - Great Work of Art 3]> <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+	{
+		"name": "Uffizi - Great Work of Art 3",
+		"requiredBuilding": "Uffizi - Great Work of Art Slot 3",
+		"culture": 2,
+		"cost": 1,
+		"uniques": [
+			"Great Work",
+			"Instantly consumes [1] [Great Work of Art] <with [Great Work of Art]>",
+			"Instantly consumes [1] [Artifact] <with [Artifact]>",
+			"Unavailable <without [Great Work of Art]> <without [Artifact]> <hidden from users>",
+			"Provides [2] [Tourism]",
+			"Remove [Uffizi - Great Work of Art Slot 3] [in this city] <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>"
@@ -859,20 +919,20 @@
 		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
 	},
 	{
-		"name": "Sistine Chapel - Great Work of Art Slot",
+		"name": "Sistine Chapel - Great Work of Art Slot 1",
 		"requiredBuilding": "Sistine Chapel",
 		"cost": 1,
 		"uniques": [
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>",
-			"Unavailable <in cities with a [Sistine Chapel - Great Work of Art]> <hidden from users>"
+			"Unavailable <in cities with a [Sistine Chapel - Great Work of Art 1]> <hidden from users>"
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
-		"name": "Sistine Chapel - Great Work of Art",
-		"requiredBuilding": "Sistine Chapel - Great Work of Art Slot",
+		"name": "Sistine Chapel - Great Work of Art 1",
+		"requiredBuilding": "Sistine Chapel - Great Work of Art Slot 1",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -881,7 +941,7 @@
 			"Instantly consumes [1] [Artifact] <with [Artifact]>",
 			"Unavailable <without [Great Work of Art]> <without [Artifact]> <hidden from users>",
 			"Provides [2] [Tourism]",
-			"Remove [Sistine Chapel - Great Work of Art Slot] [in this city] <hidden from users>",
+			"Remove [Sistine Chapel - Great Work of Art Slot 1] [in this city] <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>"
@@ -952,10 +1012,70 @@
         "requiredTech": "Archaeology",
 		"requiredBuilding": "Opera House",
 		"uniques": [
-			"Provides [2] [Great Work of Art Slot]",
+			"Comment [Provides [2] [Great Work of Art Slot]]",
 			"Double quantity of [Tourism] produced <in [Capital] cities> <for [France] Civilizations> <hidden from users>",
 			"Destroyed when the city is captured"
 		]
+    },
+	{
+        "name": "Museum - Great Work of Art Slot 1",
+        "requiredBuilding": "Museum",
+        "cost": 1,
+        "uniques": [
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>",
+            "Unavailable <in cities with a [Museum - Great Work of Art 1]> <hidden from users>"
+        ],
+        "civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+    },
+    {
+        "name": "Museum - Great Work of Art 1",
+        "requiredBuilding": "Museum - Great Work of Art Slot 1",
+        "culture": 2,
+        "cost": 1,
+        "uniques": [
+            "Great Work",
+            "Instantly consumes [1] [Great Work of Art] <with [Great Work of Art]>",
+            "Instantly consumes [1] [Artifact] <with [Artifact]>",
+            "Unavailable <without [Great Work of Art]> <without [Artifact]> <hidden from users>",
+            "Provides [2] [Tourism]",
+            "Remove [Museum - Great Work of Art Slot 1] [in this city] <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>"
+        ],
+        "civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+    },
+    {
+        "name": "Museum - Great Work of Art Slot 2",
+        "requiredBuilding": "Museum",
+        "cost": 1,
+        "uniques": [
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>",
+            "Unavailable <in cities with a [Museum - Great Work of Art 2]> <hidden from users>"
+        ],
+        "civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+    },
+    {
+        "name": "Museum - Great Work of Art 2",
+        "requiredBuilding": "Museum - Great Work of Art Slot 2",
+        "culture": 2,
+        "cost": 1,
+        "uniques": [
+            "Great Work",
+            "Instantly consumes [1] [Great Work of Art] <with [Great Work of Art]>",
+            "Instantly consumes [1] [Artifact] <with [Artifact]>",
+            "Unavailable <without [Great Work of Art]> <without [Artifact]> <hidden from users>",
+            "Provides [2] [Tourism]",
+            "Remove [Museum - Great Work of Art Slot 2] [in this city] <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>"
+        ],
+        "civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
     },
 	{
         "name": "Opera House",
@@ -970,6 +1090,35 @@
 		]
     },
 	{
+        "name": "Opera House - Great Work of Music Slot",
+        "requiredBuilding": "Opera House",
+        "cost": 1,
+        "uniques": [
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>",
+            "Unavailable <in cities with a [Opera House - Great Work of Music]> <hidden from users>"
+        ],
+        "civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+    },
+    {
+        "name": "Opera House - Great Work of Music",
+        "requiredBuilding": "Opera House - Great Work of Music Slot",
+        "culture": 2,
+        "cost": 1,
+        "uniques": [
+            "Great Work",
+            "Instantly consumes [1] [Great Work of Music]",
+            "Unavailable <without [Great Work of Music]> <hidden from users>",
+            "Provides [2] [Tourism]",
+            "Remove [Opera House - Great Work of Music Slot] [in this city] <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>"
+        ],
+        "civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+    },
+	{
 		"name": "Ceilidh Hall",
 		"replaces": "Opera House",
 		"uniqueTo": "Celts",
@@ -980,7 +1129,7 @@
 		"maintenance": 1,
 		"requiredTech": "Acoustics",
 		"uniques": [
-			"Provides [1] [Great Work of Music Slot]",
+			"Comment [Provides [1] [Great Work of Music Slot]]",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -998,6 +1147,35 @@
 		]
 	},
 	{
+        "name": "Broadcast Tower - Great Work of Music Slot",
+        "requiredBuilding": "Broadcast Tower",
+        "cost": 1,
+        "uniques": [
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>",
+            "Unavailable <in cities with a [Broadcast Tower - Great Work of Music]> <hidden from users>"
+        ],
+        "civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+    },
+    {
+        "name": "Broadcast Tower - Great Work of Music",
+        "requiredBuilding": "Opera House - Great Work of Music Slot",
+        "culture": 2,
+        "cost": 1,
+        "uniques": [
+            "Great Work",
+            "Instantly consumes [1] [Great Work of Music]",
+            "Unavailable <without [Great Work of Music]> <hidden from users>",
+            "Provides [2] [Tourism]",
+            "Remove [Broadcast Tower - Great Work of Music Slot] [in this city] <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>"
+        ],
+        "civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+    },
+	{
 		"name": "National Epic",
 		"cost": 125,
 		"culture": 1,
@@ -1010,6 +1188,35 @@
 		],
 		"requiredTech": "Drama and Poetry"
 	},
+	{
+        "name": "National Epic - Great Work of Writing Slot",
+        "requiredBuilding": "National Epic",
+        "cost": 1,
+        "uniques": [
+            "Unsellable <hidden from users>",
+            "Destroyed when the city is captured <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>",
+            "Unavailable <in cities with a [National Epic - Great Work of Writing]> <hidden from users>"
+        ],
+        "civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+    },
+    {
+        "name": "National Epic - Great Work of Writing",
+        "requiredBuilding": "Opera House - Great Work of Writing Slot",
+        "culture": 2,
+        "cost": 1,
+        "uniques": [
+            "Great Work",
+            "Instantly consumes [1] [Great Work of Writing]",
+            "Unavailable <without [Great Work of Writing]> <hidden from users>",
+            "Provides [2] [Tourism]",
+            "Remove [National Epic - Great Work of Writing Slot] [in this city] <hidden from users>",
+            "Never destroyed when the city is captured <hidden from users>",
+            "Unsellable <hidden from users>",
+            "Automatically built in all cities where it is buildable <hidden from users>"
+        ],
+        "civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+    },
 	{
 		"name": "Heroic Epic",
 		"cost": 125,
@@ -1068,20 +1275,20 @@
 		"requiredTech": "Architecture"
 	},
 	{
-		"name": "Hermitage - Great Work of Art Slot",
+		"name": "Hermitage - Great Work of Art Slot 1",
 		"requiredBuilding": "Hermitage",
 		"cost": 1,
 		"uniques": [
 			"Unsellable <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>",
-			"Unavailable <in cities with a [Hermitage - Great Work of Art]> <hidden from users>"
+			"Unavailable <in cities with a [Hermitage - Great Work of Art 1]> <hidden from users>"
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
-		"name": "Hermitage - Great Work of Art",
-		"requiredBuilding": "Hermitage - Great Work of Art Slot",
+		"name": "Hermitage - Great Work of Art 1",
+		"requiredBuilding": "Hermitage - Great Work of Art Slot 1",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1090,7 +1297,67 @@
 			"Instantly consumes [1] [Artifact] <with [Artifact]>",
 			"Unavailable <without [Great Work of Art]> <without [Artifact]> <hidden from users>",
 			"Provides [2] [Tourism]",
-			"Remove [Hermitage - Great Work of Art Slot] [in this city] <hidden from users>",
+			"Remove [Hermitage - Great Work of Art Slot 1] [in this city] <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+	{
+		"name": "Hermitage - Great Work of Art Slot 2",
+		"requiredBuilding": "Hermitage",
+		"cost": 1,
+		"uniques": [
+			"Unsellable <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Unavailable <in cities with a [Hermitage - Great Work of Art 2]> <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+	{
+		"name": "Hermitage - Great Work of Art 2",
+		"requiredBuilding": "Hermitage - Great Work of Art Slot 2",
+		"culture": 2,
+		"cost": 1,
+		"uniques": [
+			"Great Work",
+			"Instantly consumes [1] [Great Work of Art] <with [Great Work of Art]>",
+			"Instantly consumes [1] [Artifact] <with [Artifact]>",
+			"Unavailable <without [Great Work of Art]> <without [Artifact]> <hidden from users>",
+			"Provides [2] [Tourism]",
+			"Remove [Hermitage - Great Work of Art Slot 2] [in this city] <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+	{
+		"name": "Hermitage - Great Work of Art Slot 3",
+		"requiredBuilding": "Hermitage",
+		"cost": 1,
+		"uniques": [
+			"Unsellable <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Unavailable <in cities with a [Hermitage - Great Work of Art 3]> <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+	{
+		"name": "Hermitage - Great Work of Art 3",
+		"requiredBuilding": "Hermitage - Great Work of Art Slot 3",
+		"culture": 2,
+		"cost": 1,
+		"uniques": [
+			"Great Work",
+			"Instantly consumes [1] [Great Work of Art] <with [Great Work of Art]>",
+			"Instantly consumes [1] [Artifact] <with [Artifact]>",
+			"Unavailable <without [Great Work of Art]> <without [Artifact]> <hidden from users>",
+			"Provides [2] [Tourism]",
+			"Remove [Hermitage - Great Work of Art Slot 3] [in this city] <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>"
