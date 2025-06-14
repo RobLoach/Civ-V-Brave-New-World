@@ -623,11 +623,69 @@
 		"percentStatBonus": {"culture": 50},
 		"uniques": [
 			"Free Social Policy",
-			"Provides [2] [Great Work of Music Slot]",
+			"Comment [Provides [2] [Great Work of Music Slot]]",
 			"Must be next to [Coast]"
 		],
 		"requiredTech": "Ecology",
 		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
+	},
+	{
+		"name": "Sydney Opera House - Great Work of Music Slot 1",
+		"requiredBuilding": "Sydney Opera House",
+		"cost": 1,
+		"uniques": [
+			"Unsellable <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Unavailable <in cities with a [Sydney Opera House - Great Work of Music 1]> <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+	{
+		"name": "Sydney Opera House - Great Work of Music 1",
+		"requiredBuilding": "Sydney Opera House - Great Work of Music Slot 1",
+		"culture": 2,
+		"cost": 1,
+		"uniques": [
+			"Great Work",
+			"Instantly consumes [1] [Great Work of Music]",
+			"Unavailable <without [Great Work of Music]> <hidden from users>",
+			"Provides [2] [Tourism]",
+			"Remove [Sydney Opera House - Great Work of Music Slot 1] [in this city] <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+	{
+		"name": "Sydney Opera House - Great Work of Music Slot 2",
+		"requiredBuilding": "Sydney Opera House",
+		"cost": 1,
+		"uniques": [
+			"Unsellable <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Unavailable <in cities with a [Sydney Opera House - Great Work of Music 2]> <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+	{
+		"name": "Sydney Opera House - Great Work of Music 2",
+		"requiredBuilding": "Sydney Opera House - Great Work of Music Slot 2",
+		"culture": 2,
+		"cost": 1,
+		"uniques": [
+			"Great Work",
+			"Instantly consumes [1] [Great Work of Music]",
+			"Unavailable <without [Great Work of Music]> <hidden from users>",
+			"Provides [2] [Tourism]",
+			"Remove [Sydney Opera House - Great Work of Music Slot 2] [in this city] <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Globe Theatre",
@@ -636,10 +694,68 @@
 		"isWonder": true,
 		"uniques": [
 			"Free [Great Writer] appears",
-			"Provides [2] [Great Work of Writing Slot]"
+			"Comment [Provides [2] [Great Work of Writing Slot]]"
 		],
 		"requiredTech": "Printing Press",
 		"quote": "'Totus mundus agit histrionem' - Inscription above main entrance to the Globe Theatre"
+	},
+	{
+		"name": "Globe Theatre - Great Work of Writing Slot 1",
+		"requiredBuilding": "Globe Theatre",
+		"cost": 1,
+		"uniques": [
+			"Unsellable <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Unavailable <in cities with a [Globe Theatre - Great Work of Writing 1]> <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+	{
+		"name": "Globe Theatre - Great Work of Writing 1",
+		"requiredBuilding": "Globe Theatre - Great Work of Writing Slot 1",
+		"culture": 2,
+		"cost": 1,
+		"uniques": [
+			"Great Work",
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Unavailable <without [Great Work of Writing]> <hidden from users>",
+			"Provides [2] [Tourism]",
+			"Remove [Globe Theatre - Great Work of Writing Slot 1] [in this city] <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+	{
+		"name": "Globe Theatre - Great Work of Writing Slot 2",
+		"requiredBuilding": "Globe Theatre",
+		"cost": 1,
+		"uniques": [
+			"Unsellable <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Unavailable <in cities with a [Globe Theatre - Great Work of Writing 2]> <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
+	},
+	{
+		"name": "Globe Theatre - Great Work of Writing 2",
+		"requiredBuilding": "Globe Theatre - Great Work of Writing Slot 2",
+		"culture": 2,
+		"cost": 1,
+		"uniques": [
+			"Great Work",
+			"Instantly consumes [1] [Great Work of Writing]",
+			"Unavailable <without [Great Work of Writing]> <hidden from users>",
+			"Provides [2] [Tourism]",
+			"Remove [Globe Theatre - Great Work of Writing Slot 2] [in this city] <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		],
+		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
 		"name": "Great Mosque of Djenne",
