@@ -301,6 +301,23 @@
 			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
 	},
+	{
+		"name": "Theming Bonus",
+		"resourceType": "Bonus",
+		"culture": 1,
+		"uniques": [
+			"Cannot be traded <hidden from users>",
+			"Excluded from map editor",
+			"Doesn't generate naturally",
+			//"Not shown on world screen",
+			"Provides [1] [Tourism]"
+		],
+		"civilopediaText": [
+			{ "text": "A theming bonus is a [Tourism] and [Culture] bonus acquired by filling Great Works slots in most cultural World Wonders and Museums." },
+			{ "separator": true },
+			{ "text": "Great Works", "link": "Tutorial/Great Works" }
+		]
+	},
 
 	// Policies: Ideology slot requirements
 	{

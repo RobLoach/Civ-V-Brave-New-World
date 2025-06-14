@@ -10,8 +10,7 @@
 		"cost": 1,
 		"uniques": [
 			"Indicates the capital city",
-
-			"Comment [Provides 1 Great Work of Art Slot]",
+			"Comment [Provides [1] [Great Work of Art Slot]]",
 
 			// Unit Modifications
 			"Enables [Great Admiral] units to enter ocean tiles <hidden from users>" // See Unit/Great Admiral
@@ -181,7 +180,8 @@
 			"Remove [Royal Library - Great Work of Writing Slot] [in this city] <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"New [Military] units start with [10] XP [in this city]"
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
@@ -524,7 +524,8 @@
 		"isWonder": true,
 		"uniques": [
 			"Free [Great Musician] appears",
-			"Comment [Provides [3] [Great Work of Music Slot]]"
+			"Comment [Provides [3] [Great Work of Music Slots]]",
+			"Provides [3] [Theming Bonus] <if [Broadway - Great Work of Music 1] is constructed> <if [Broadway - Great Work of Music 2] is constructed> <if [Broadway - Great Work of Music 3] is constructed>"
 		],
 		"requiredTech": "Radio",
 		"quote": "'Broadway is a main artery of New York cultural life - the hardened artery' - Walter Winchell"
@@ -623,7 +624,8 @@
 		"percentStatBonus": {"culture": 50},
 		"uniques": [
 			"Free Social Policy",
-			"Comment [Provides [2] [Great Work of Music Slot]]",
+			"Comment [Provides [2] [Great Work of Music Slots]]",
+			"Provides [2] [Theming Bonus] <if [Sydney Opera House - Great Work of Music 1] is constructed> <if [Sydney Opera House - Great Work of Music 2] is constructed>",
 			"Must be next to [Coast]"
 		],
 		"requiredTech": "Ecology",
@@ -694,7 +696,8 @@
 		"isWonder": true,
 		"uniques": [
 			"Free [Great Writer] appears",
-			"Comment [Provides [2] [Great Work of Writing Slot]]"
+			"Comment [Provides [2] [Great Work of Writing Slots]]",
+			"Provides [2] [Theming Bonus] <if [Globe Theatre - Great Work of Writing 1] is constructed> <if [Globe Theatre - Great Work of Writing 2] is constructed>"
 		],
 		"requiredTech": "Printing Press",
 		"quote": "'Totus mundus agit histrionem' - Inscription above main entrance to the Globe Theatre"
@@ -861,7 +864,8 @@
 		"isWonder": true,
 		"uniques": [
 			"Free [Great Artist] appears",
-			"Comment [Provides [4] [Great Work of Art Slot]]",
+			"Comment [Provides [4] [Great Work of Art Slots]]",
+			"Provides [4] [Theming Bonus] <if [The Louvre - Great Work of Art 1] is constructed> <if [The Louvre - Great Work of Art 2] is constructed> <if [The Louvre - Great Work of Art 3] is constructed> <if [The Louvre - Great Work of Art 3] is constructed>",
 			"Only available <after adopting [Exploration]>"
 		],
 		"requiredTech": "Archaeology",
@@ -1140,7 +1144,8 @@
         "isWonder": true,
         "uniques": [
 			"Free [Great Artist] appears",
-			"Comment [Provides [3] [Great Work of Art Slot]]",
+			"Comment [Provides [3] [Great Work of Art Slots]]",
+			"Provides [3] [Theming Bonus] <if [Uffizi - Great Work of Art 1] is constructed> <if [Uffizi - Great Work of Art 2] is constructed> <if [Uffizi - Great Work of Art 3] is constructed>",
 			"Only available <after adopting [Aesthetics]>"
 		],
         "requiredTech": "Architecture",
@@ -1259,37 +1264,19 @@
         "culture": 4,
         "isWonder": true,
 		"uniques": [
-			"Provides [1] [Great Work of Art Slot]",
-			"Instantly provides [1] [Great Work of Art]"
+			"Gain a free [Parthenon - Great Work of Art] [in this city]"
 		],
         "requiredTech": "Drama and Poetry",
 		"quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson"
     },
 	{
-		"name": "Parthenon - Great Work of Art Slot",
-		"requiredBuilding": "Parthenon",
-		"cost": 1,
-		"uniques": [
-			"Unsellable <hidden from users>",
-			"Destroyed when the city is captured <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>",
-			"Unavailable <in cities with a [Parthenon - Great Work of Art]> <hidden from users>"
-		],
-		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
-	},
-	{
 		"name": "Parthenon - Great Work of Art",
-		"requiredBuilding": "Parthenon - Great Work of Art Slot",
+		"requiredBuilding": "Parthenon",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
 			"Great Work",
-			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
-			"Consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
-			"Remove [Parthenon - Great Work of Art Slot] [in this city] <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>"
@@ -1304,7 +1291,8 @@
 		"greatPersonPoints": {"Great Artist": 2},
 		"uniques": [
 			"[+25]% [Culture] [in all cities]",
-			"Comment [Provides [2] [Great Work of Art Slots]]"
+			"Comment [Provides [2] [Great Work of Art Slots]]",
+			"Provides [2] [Theming Bonus] <if [Sistine Chapel - Great Work of Art 1] is constructed> <if [Sistine Chapel - Great Work of Art 2] is constructed>"
 		],
 		"requiredTech": "Acoustics",
 		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
@@ -1405,7 +1393,8 @@
         "requiredTech": "Archaeology",
 		"requiredBuilding": "Opera House",
 		"uniques": [
-			"Comment [Provides [2] [Great Work of Art Slot]]",
+			"Comment [Provides [2] [Great Work of Art Slots]]",
+			"Provides [2] [Theming Bonus] <if [Museum - Great Work of Art 1] is constructed> <if [Museum - Great Work of Art 2] is constructed>",
 			"Double quantity of [Tourism] produced <in [Capital] cities> <for [France] Civilizations> <hidden from users>",
 			"Destroyed when the city is captured"
 		]
@@ -1575,7 +1564,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"[+25]% Great Person generation [in this city]",
-			"Provides [1] [Great Work of Writing Slot]",
+			"Comment [Provides [1] [Great Work of Writing Slot]]",
 			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"
 		],
@@ -1595,7 +1584,7 @@
     },
     {
         "name": "National Epic - Great Work of Writing",
-        "requiredBuilding": "Opera House - Great Work of Writing Slot",
+        "requiredBuilding": "National Epic - Great Work of Writing Slot",
         "culture": 2,
         "cost": 1,
         "uniques": [
@@ -1663,7 +1652,8 @@
 		"uniques": [
 			"Free Technology",
 			"Gain a free [Library] [in this city]",
-			"Comment [Provides [2] [Great Work of Writing Slot]]"
+			"Comment [Provides [2] [Great Work of Writing Slots]]",
+			"Provides [2] [Theming Bonus] <if [The Great Library - Great Work of Writing 1] is constructed> <if [The Great Library - Great Work of Writing 2] is constructed>"
 		],
 		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
 	},
@@ -1733,7 +1723,8 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"Free Technology",
-			"Comment [Provides [2] [Great Work of Writing Slot]]",
+			"Comment [Provides [2] [Great Work of Writing Slots]]",
+			"Provides [2] [Theming Bonus] <if [Oxford University - Great Work of Writing 1] is constructed> <if [Oxford University - Great Work of Writing 2] is constructed>",
 			"Only available <if [University] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"
 		],
@@ -1804,7 +1795,8 @@
 		"culture": 5,
 		"isNationalWonder": true,
 		"uniques": [
-			"Comment [Provides [3] [Great Work of Art Slot]]",
+			"Comment [Provides [3] [Great Work of Art Slots]]",
+			"Provides [3] [Theming Bonus] <if [Hermitage - Great Work of Art 1] is constructed> <if [Hermitage - Great Work of Art 2] is constructed> <if [Hermitage - Great Work of Art 3] is constructed>",
 			"Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Provides [5] [Tourism] <after adopting [Religious Art]>",
