@@ -18,6 +18,7 @@
 	},
 	{
 		"name": "[Palace] [Great Work of Art]",
+		"requiredBuilding": "Palace",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -152,6 +153,7 @@
 	},
 	{
 		"name": "[Royal Library] [Great Work of Writing]",
+		"requiredBuilding": "Royal Library",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -198,6 +200,7 @@
 	},
 	{
 		"name": "[Amphitheater] [Great Work of Writing]",
+		"requiredBuilding": "Amphitheater",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -233,6 +236,7 @@
 	},
 	{
 		"name": "[Cathedral] [Great Work of Art]",
+		"requiredBuilding": "Cathedral",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -522,6 +526,7 @@
 	},
 	{
 		"name": "[Broadway] [Great Work of Music] 1",
+		"requiredBuilding": "Broadway",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -541,6 +546,7 @@
 	},
 	{
 		"name": "[Broadway] [Great Work of Music] 2",
+		"requiredBuilding": "Broadway",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -560,6 +566,7 @@
 	},
 	{
 		"name": "[Broadway] [Great Work of Music] 3",
+		"requiredBuilding": "Broadway",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -611,6 +618,7 @@
 	},
 	{
 		"name": "[Sydney Opera House] [Great Work of Music] 1",
+		"requiredBuilding": "Sydney Opera House",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -630,6 +638,7 @@
 	},
 	{
 		"name": "[Sydney Opera House] [Great Work of Music] 2",
+		"requiredBuilding": "Sydney Opera House",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -680,6 +689,7 @@
 	},
 	{
 		"name": "[Globe Theatre] [Great Work of Writing] 1",
+		"requiredBuilding": "Globe Theatre",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -699,6 +709,7 @@
 	},
 	{
 		"name": "[Globe Theatre] [Great Work of Writing] 2",
+		"requiredBuilding": "Globe Theatre",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -849,6 +860,7 @@
 	},
 	{
 		"name": "[The Louvre] [Great Work of Art] 1",
+		"requiredBuilding": "The Louvre",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -876,6 +888,7 @@
 	},
 	{
 		"name": "[The Louvre] [Great Work of Art] 2",
+		"requiredBuilding": "The Louvre",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -903,6 +916,7 @@
 	},
 	{
 		"name": "[The Louvre] [Great Work of Art] 3",
+		"requiredBuilding": "The Louvre",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -930,6 +944,7 @@
 	},
 	{
 		"name": "[The Louvre] [Great Work of Art] 4",
+		"requiredBuilding": "The Louvre",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1131,6 +1146,7 @@
 	},
 	{
 		"name": "[Uffizi] [Great Work of Art] 1",
+		"requiredBuilding": "Uffizi",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1158,6 +1174,7 @@
 	},
 	{
 		"name": "[Uffizi] [Great Work of Art] 2",
+		"requiredBuilding": "Uffizi",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1185,6 +1202,7 @@
 	},
 	{
 		"name": "[Uffizi] [Great Work of Art] 3",
+		"requiredBuilding": "Uffizi",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1237,6 +1255,7 @@
     },
 	{
 		"name": "[Parthenon] [Great Work of Art]",
+		"requiredBuilding": "Parthenon",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1288,6 +1307,7 @@
 	},
 	{
 		"name": "[Sistine Chapel] [Great Work of Art] 1",
+		"requiredBuilding": "Sistine Chapel",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1315,6 +1335,7 @@
 	},
 	{
 		"name": "[Sistine Chapel] [Great Work of Art] 2",
+		"requiredBuilding": "Sistine Chapel",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1380,6 +1401,7 @@
     },
 	{
 		"name": "[Museum] [Theming Bonus]",
+		"requiredBuilding": "Museum",
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
@@ -1398,6 +1420,7 @@
 	},
     {
         "name": "[Museum] [Great Work of Art] 1",
+		"requiredBuilding": "Museum",
         "culture": 2,
         "cost": 1,
         "uniques": [
@@ -1425,6 +1448,7 @@
     },
     {
         "name": "[Museum] [Great Work of Art] 2",
+		"requiredBuilding": "Museum",
         "culture": 2,
         "cost": 1,
         "uniques": [
@@ -1464,6 +1488,7 @@
     },
     {
         "name": "[Opera House] [Great Work of Music]",
+		"requiredBuilding": "Opera House",
         "culture": 2,
         "cost": 1,
         "uniques": [
@@ -1511,6 +1536,7 @@
 	},
     {
         "name": "[Broadcast Tower] [Great Work of Music]",
+		"requiredBuilding": "Broadcast Tower",
         "culture": 2,
         "cost": 1,
         "uniques": [
@@ -1543,6 +1569,7 @@
 	},
     {
         "name": "[National Epic] [Great Work of Writing]",
+		"requiredBuilding": "National Epic",
         "culture": 2,
         "cost": 1,
         "uniques": [
@@ -1575,6 +1602,7 @@
 	},
 	{
 		"name": "[Heroic Epic] [Great Work of Writing]",
+		"requiredBuilding": "Heroic Epic",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1628,6 +1656,7 @@
 	},
 	{
 		"name": "[The Great Library] [Great Work of Writing] 1",
+		"requiredBuilding": "The Great Library",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1647,6 +1676,7 @@
 	},
 	{
 		"name": "[The Great Library] [Great Work of Writing] 2",
+		"requiredBuilding": "The Great Library",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1699,6 +1729,7 @@
 	},
 	{
 		"name": "[Oxford University] [Great Work of Writing] 1",
+		"requiredBuilding": "Oxford University",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1718,6 +1749,7 @@
 	},
 	{
 		"name": "[Oxford University] [Great Work of Writing] 2",
+		"requiredBuilding": "Oxford University",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1772,6 +1804,7 @@
 	},
 	{
 		"name": "[Hermitage] [Great Work of Art] 1",
+		"requiredBuilding": "Hermitage",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1799,6 +1832,7 @@
 	},
 	{
 		"name": "[Hermitage] [Great Work of Art] 2",
+		"requiredBuilding": "Hermitage",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1826,6 +1860,7 @@
 	},
 	{
 		"name": "[Hermitage] [Great Work of Art] 3",
+		"requiredBuilding": "Hermitage",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
