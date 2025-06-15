@@ -17,7 +17,7 @@
 		]
 	},
 	{
-		"name": "Palace - Great Work of Art",
+		"name": "[Palace] [Great Work of Art]",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -151,7 +151,7 @@
 		"requiredTech": "Writing"
 	},
 	{
-		"name": "Royal Library - Great Work of Writing",
+		"name": "[Royal Library] [Great Work of Writing]",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -197,7 +197,7 @@
 		"requiredTech": "Drama and Poetry"
 	},
 	{
-		"name": "Amphitheater - Great Work of Writing",
+		"name": "[Amphitheater] [Great Work of Writing]",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -232,7 +232,7 @@
 		]
 	},
 	{
-		"name": "Cathedral - Great Work of Art",
+		"name": "[Cathedral] [Great Work of Art]",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -501,15 +501,15 @@
 		"quote": "'Broadway is a main artery of New York cultural life - the hardened artery' - Walter Winchell"
 	},
 	{
-		"name": "Broadway - Theming Bonus",
+		"name": "[Broadway] [Theming Bonus]",
 		"requiredBuilding": "Broadway",
 		"cost": 1,
 		"culture": 3,
 		"uniques": [
 			"Only available <in cities with a [Broadway]> <hidden from users>",
-			"Only available <in cities with a [Broadway - Great Work of Music 1]> <hidden from users>",
-			"Only available <in cities with a [Broadway - Great Work of Music 2]> <hidden from users>",
-			"Only available <in cities with a [Broadway - Great Work of Music 3]> <hidden from users>",
+			"Only available <in cities with a [[Broadway] [Great Work of Music] 1]> <hidden from users>",
+			"Only available <in cities with a [[Broadway] [Great Work of Music] 2]> <hidden from users>",
+			"Only available <in cities with a [[Broadway] [Great Work of Music] 3]> <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>",
@@ -521,7 +521,7 @@
 		]
 	},
 	{
-		"name": "Broadway - Great Work of Music 1",
+		"name": "[Broadway] [Great Work of Music] 1",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -540,7 +540,7 @@
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
-		"name": "Broadway - Great Work of Music 2",
+		"name": "[Broadway] [Great Work of Music] 2",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -559,7 +559,7 @@
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
-		"name": "Broadway - Great Work of Music 3",
+		"name": "[Broadway] [Great Work of Music] 3",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -591,14 +591,14 @@
 		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
 	},
 	{
-		"name": "Sydney Opera House - Theming Bonus",
+		"name": "[Sydney Opera House] [Theming Bonus]",
 		"requiredBuilding": "Sydney Opera House",
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
 			"Only available <in cities with a [Sydney Opera House]> <hidden from users>",
-			"Only available <in cities with a [Sydney Opera House - Great Work of Music 1]> <hidden from users>",
-			"Only available <in cities with a [Sydney Opera House - Great Work of Music 2]> <hidden from users>",
+			"Only available <in cities with a [[Sydney Opera House] [Great Work of Music] 1]> <hidden from users>",
+			"Only available <in cities with a [[Sydney Opera House] [Great Work of Music] 2]> <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>",
@@ -610,7 +610,7 @@
 		]
 	},
 	{
-		"name": "Sydney Opera House - Great Work of Music 1",
+		"name": "[Sydney Opera House] [Great Work of Music] 1",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -629,7 +629,7 @@
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
-		"name": "Sydney Opera House - Great Work of Music 2",
+		"name": "[Sydney Opera House] [Great Work of Music] 2",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -660,14 +660,14 @@
 		"quote": "'Totus mundus agit histrionem' - Inscription above main entrance to the Globe Theatre"
 	},
 	{
-		"name": "Globe Theatre - Theming Bonus",
+		"name": "[Globe Theatre] [Theming Bonus]",
 		"requiredBuilding": "Globe Theatre",
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
 			"Only available <in cities with a [Globe Theatre]> <hidden from users>",
-			"Only available <in cities with a [Globe Theatre - Great Work of Writing 1]> <hidden from users>",
-			"Only available <in cities with a [Globe Theatre - Great Work of Writing 2]> <hidden from users>",
+			"Only available <in cities with a [[Globe Theatre] [Great Work of Writing] 1]> <hidden from users>",
+			"Only available <in cities with a [[Globe Theatre] [Great Work of Writing] 2]> <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>",
@@ -679,7 +679,7 @@
 		]
 	},
 	{
-		"name": "Globe Theatre - Great Work of Writing 1",
+		"name": "[Globe Theatre] [Great Work of Writing] 1",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -698,7 +698,7 @@
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
-		"name": "Globe Theatre - Great Work of Writing 2",
+		"name": "[Globe Theatre] [Great Work of Writing] 2",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -827,16 +827,16 @@
 		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
 	},
 	{
-		"name": "The Louvre - Theming Bonus",
+		"name": "[The Louvre] [Theming Bonus]",
 		"requiredBuilding": "The Louvre",
 		"cost": 1,
 		"culture": 4,
 		"uniques": [
 			"Only available <in cities with a [The Louvre]> <hidden from users>",
-			"Only available <in cities with a [The Louvre - Great Work of Art 1]> <hidden from users>",
-			"Only available <in cities with a [The Louvre - Great Work of Art 2]> <hidden from users>",
-			"Only available <in cities with a [The Louvre - Great Work of Art 3]> <hidden from users>",
-			"Only available <in cities with a [The Louvre - Great Work of Art 4]> <hidden from users>",
+			"Only available <in cities with a [[The Louvre] [Great Work of Art] 1]> <hidden from users>",
+			"Only available <in cities with a [[The Louvre] [Great Work of Art] 2]> <hidden from users>",
+			"Only available <in cities with a [[The Louvre] [Great Work of Art] 3]> <hidden from users>",
+			"Only available <in cities with a [[The Louvre] [Great Work of Art] 4]> <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>",
@@ -848,7 +848,7 @@
 		]
 	},
 	{
-		"name": "The Louvre - Great Work of Art 1",
+		"name": "[The Louvre] [Great Work of Art] 1",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -875,7 +875,7 @@
 		]
 	},
 	{
-		"name": "The Louvre - Great Work of Art 2",
+		"name": "[The Louvre] [Great Work of Art] 2",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -902,7 +902,7 @@
 		]
 	},
 	{
-		"name": "The Louvre - Great Work of Art 3",
+		"name": "[The Louvre] [Great Work of Art] 3",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -929,7 +929,7 @@
 		]
 	},
 	{
-		"name": "The Louvre - Great Work of Art 4",
+		"name": "[The Louvre] [Great Work of Art] 4",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1110,15 +1110,15 @@
         "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.'  - Marcel Parquet"
     },
 	{
-		"name": "Uffizi - Theming Bonus",
+		"name": "[Uffizi] [Theming Bonus]",
 		"requiredBuilding": "Uffizi",
 		"cost": 1,
 		"culture": 3,
 		"uniques": [
 			"Only available <in cities with a [Uffizi]> <hidden from users>",
-			"Only available <in cities with a [Uffizi - Great Work of Art 1]> <hidden from users>",
-			"Only available <in cities with a [Uffizi - Great Work of Art 2]> <hidden from users>",
-			"Only available <in cities with a [Uffizi - Great Work of Art 3]> <hidden from users>",
+			"Only available <in cities with a [[Uffizi] [Great Work of Art] 1]> <hidden from users>",
+			"Only available <in cities with a [[Uffizi] [Great Work of Art] 2]> <hidden from users>",
+			"Only available <in cities with a [[Uffizi] [Great Work of Art] 3]> <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>",
@@ -1130,7 +1130,7 @@
 		]
 	},
 	{
-		"name": "Uffizi - Great Work of Art 1",
+		"name": "[Uffizi] [Great Work of Art] 1",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1157,7 +1157,7 @@
 		]
 	},
 	{
-		"name": "Uffizi - Great Work of Art 2",
+		"name": "[Uffizi] [Great Work of Art] 2",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1184,7 +1184,7 @@
 		]
 	},
 	{
-		"name": "Uffizi - Great Work of Art 3",
+		"name": "[Uffizi] [Great Work of Art] 3",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1230,13 +1230,13 @@
         "culture": 4,
         "isWonder": true,
 		"uniques": [
-			"Gain a free [Parthenon - Great Work of Art] [in this city]"
+			"Gain a free [[Parthenon] [Great Work of Art]] [in this city]"
 		],
         "requiredTech": "Drama and Poetry",
 		"quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson"
     },
 	{
-		"name": "Parthenon - Great Work of Art",
+		"name": "[Parthenon] [Great Work of Art]",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1268,14 +1268,14 @@
 		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
 	},
 	{
-		"name": "Sistine Chapel - Theming Bonus",
+		"name": "[Sistine Chapel] [Theming Bonus]",
 		"requiredBuilding": "Sistine Chapel",
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
 			"Only available <in cities with a [Sistine Chapel]> <hidden from users>",
-			"Only available <in cities with a [Sistine Chapel - Great Work of Art 1]> <hidden from users>",
-			"Only available <in cities with a [Sistine Chapel - Great Work of Art 2]> <hidden from users>",
+			"Only available <in cities with a [[Sistine Chapel] [Great Work of Art] 1]> <hidden from users>",
+			"Only available <in cities with a [[Sistine Chapel] [Great Work of Art] 2]> <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>",
@@ -1287,7 +1287,7 @@
 		]
 	},
 	{
-		"name": "Sistine Chapel - Great Work of Art 1",
+		"name": "[Sistine Chapel] [Great Work of Art] 1",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1314,7 +1314,7 @@
 		]
 	},
 	{
-		"name": "Sistine Chapel - Great Work of Art 2",
+		"name": "[Sistine Chapel] [Great Work of Art] 2",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1379,13 +1379,13 @@
 		]
     },
 	{
-		"name": "Museum - Theming Bonus",
+		"name": "[Museum] [Theming Bonus]",
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
 			"Only available <in cities with a [Museum]> <hidden from users>",
-			"Only available <in cities with a [Museum - Great Work of Art 1]> <hidden from users>",
-			"Only available <in cities with a [Museum - Great Work of Art 2]> <hidden from users>",
+			"Only available <in cities with a [[Museum] [Great Work of Art] 1]> <hidden from users>",
+			"Only available <in cities with a [[Museum] [Great Work of Art] 2]> <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>",
@@ -1397,7 +1397,7 @@
 		]
 	},
     {
-        "name": "Museum - Great Work of Art 1",
+        "name": "[Museum] [Great Work of Art] 1",
         "culture": 2,
         "cost": 1,
         "uniques": [
@@ -1424,7 +1424,7 @@
 		]
     },
     {
-        "name": "Museum - Great Work of Art 2",
+        "name": "[Museum] [Great Work of Art] 2",
         "culture": 2,
         "cost": 1,
         "uniques": [
@@ -1463,7 +1463,7 @@
 		]
     },
     {
-        "name": "Opera House - Great Work of Music",
+        "name": "[Opera House] [Great Work of Music]",
         "culture": 2,
         "cost": 1,
         "uniques": [
@@ -1510,7 +1510,7 @@
 		]
 	},
     {
-        "name": "Broadcast Tower - Great Work of Music",
+        "name": "[Broadcast Tower] [Great Work of Music]",
         "culture": 2,
         "cost": 1,
         "uniques": [
@@ -1542,7 +1542,7 @@
 		"requiredTech": "Drama and Poetry"
 	},
     {
-        "name": "National Epic - Great Work of Writing",
+        "name": "[National Epic] [Great Work of Writing]",
         "culture": 2,
         "cost": 1,
         "uniques": [
@@ -1574,7 +1574,7 @@
 		"requiredTech": "Iron Working"
 	},
 	{
-		"name": "Heroic Epic - Great Work of Writing",
+		"name": "[Heroic Epic] [Great Work of Writing]",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1608,14 +1608,14 @@
 		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
 	},
 	{
-		"name": "The Great Library - Theming Bonus",
+		"name": "[The Great Library] [Theming Bonus]",
 		"requiredBuilding": "The Great Library",
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
 			"Only available <in cities with a [The Great Library]> <hidden from users>",
-			"Only available <in cities with a [The Great Library - Great Work of Writing 1]> <hidden from users>",
-			"Only available <in cities with a [The Great Library - Great Work of Writing 2]> <hidden from users>",
+			"Only available <in cities with a [[The Great Library] [Great Work of Writing] 1]> <hidden from users>",
+			"Only available <in cities with a [[The Great Library] [Great Work of Writing] 2]> <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>",
@@ -1627,7 +1627,7 @@
 		]
 	},
 	{
-		"name": "The Great Library - Great Work of Writing 1",
+		"name": "[The Great Library] [Great Work of Writing] 1",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1646,7 +1646,7 @@
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
-		"name": "The Great Library - Great Work of Writing 2",
+		"name": "[The Great Library] [Great Work of Writing] 2",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1679,14 +1679,14 @@
 		"requiredTech": "Education"
 	},
 	{
-		"name": "Oxford University - Theming Bonus",
+		"name": "[Oxford University] [Theming Bonus]",
 		"requiredBuilding": "Oxford University",
 		"cost": 1,
 		"culture": 2,
 		"uniques": [
 			"Only available <in cities with a [Oxford University]> <hidden from users>",
-			"Only available <in cities with a [Oxford University - Great Work of Writing 1]> <hidden from users>",
-			"Only available <in cities with a [Oxford University - Great Work of Writing 2]> <hidden from users>",
+			"Only available <in cities with a [[Oxford University] [Great Work of Writing] 1]> <hidden from users>",
+			"Only available <in cities with a [[Oxford University] [Great Work of Writing] 2]> <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>",
@@ -1698,7 +1698,7 @@
 		]
 	},
 	{
-		"name": "Oxford University - Great Work of Writing 1",
+		"name": "[Oxford University] [Great Work of Writing] 1",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1717,7 +1717,7 @@
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
 	{
-		"name": "Oxford University - Great Work of Writing 2",
+		"name": "[Oxford University] [Great Work of Writing] 2",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1751,15 +1751,15 @@
 		"requiredTech": "Architecture"
 	},
 	{
-		"name": "Hermitage - Theming Bonus",
+		"name": "[Hermitage] [Theming Bonus]",
 		"requiredBuilding": "Hermitage",
 		"cost": 1,
 		"culture": 3,
 		"uniques": [
 			"Only available <in cities with a [Hermitage]> <hidden from users>",
-			"Only available <in cities with a [Hermitage - Great Work of Art 1]> <hidden from users>",
-			"Only available <in cities with a [Hermitage - Great Work of Art 2]> <hidden from users>",
-			"Only available <in cities with a [Hermitage - Great Work of Art 3]> <hidden from users>",
+			"Only available <in cities with a [[Hermitage] [Great Work of Art] 1]> <hidden from users>",
+			"Only available <in cities with a [[Hermitage] [Great Work of Art] 2]> <hidden from users>",
+			"Only available <in cities with a [[Hermitage] [Great Work of Art] 3]> <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Automatically built in all cities where it is buildable <hidden from users>",
@@ -1771,7 +1771,7 @@
 		]
 	},
 	{
-		"name": "Hermitage - Great Work of Art 1",
+		"name": "[Hermitage] [Great Work of Art] 1",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1798,7 +1798,7 @@
 		]
 	},
 	{
-		"name": "Hermitage - Great Work of Art 2",
+		"name": "[Hermitage] [Great Work of Art] 2",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
@@ -1825,7 +1825,7 @@
 		]
 	},
 	{
-		"name": "Hermitage - Great Work of Art 3",
+		"name": "[Hermitage] [Great Work of Art] 3",
 		"culture": 2,
 		"cost": 1,
 		"uniques": [
