@@ -14,6 +14,10 @@
 
 			// Unit Modifications
 			"Enables [Great Admiral] units to enter ocean tiles <hidden from users>" // See Unit/Great Admiral
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[Palace] [Great Work of Art]", "link": "Building/[Palace] [Great Work of Art]" }
 		]
 	},
 	{
@@ -149,7 +153,11 @@
 			"[+1 Science] per [2] population [in this city]",
 			"Comment [Provides 1 [Great Work of Writing] Slot]"
 		],
-		"requiredTech": "Writing"
+		"requiredTech": "Writing",
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[Royal Library] [Great Work of Writing]", "link": "Building/[Royal Library] [Great Work of Writing]" }
+		]
 	},
 	{
 		"name": "[Royal Library] [Great Work of Writing]",
@@ -196,7 +204,11 @@
 			"Comment [Provides 1 [Great Work of Writing] Slot]",
 			"Destroyed when the city is captured"
 		],
-		"requiredTech": "Drama and Poetry"
+		"requiredTech": "Drama and Poetry",
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[Amphitheater] [Great Work of Writing]", "link": "Building/[Amphitheater] [Great Work of Writing]" }
+		]
 	},
 	{
 		"name": "[Amphitheater] [Great Work of Writing]",
@@ -232,6 +244,10 @@
 			"Only available <after adopting [Cathedrals]>", // https://civilization.fandom.com/wiki/Religion_(Civ5)#Follower_Beliefs
 			"Provides [2] [Tourism] <after adopting [Sacred Sites]>",
 			"Destroyed when the city is captured"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[Cathedral] [Great Work of Art]", "link": "Building/[Cathedral] [Great Work of Art]" }
 		]
 	},
 	{
@@ -502,7 +518,14 @@
 			"Comment [Provides 3 [Great Work of Music] Slots]"
 		],
 		"requiredTech": "Radio",
-		"quote": "'Broadway is a main artery of New York cultural life - the hardened artery' - Walter Winchell"
+		"quote": "'Broadway is a main artery of New York cultural life - the hardened artery' - Walter Winchell",
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[Broadway] [Great Work of Music] 1", "link": "Building/[Broadway] [Great Work of Music] 1" },
+			{ "text": "[Broadway] [Great Work of Music] 2", "link": "Building/[Broadway] [Great Work of Music] 2" },
+			{ "text": "[Broadway] [Great Work of Music] 3", "link": "Building/[Broadway] [Great Work of Music] 3" },
+			{ "text": "[Broadway] [Theming Bonus]", "link": "Building/[Broadway] [Theming Bonus]" }
+		]
 	},
 	{
 		"name": "[Broadway] [Theming Bonus]",
@@ -595,7 +618,13 @@
 			"Must be next to [Coast]"
 		],
 		"requiredTech": "Ecology",
-		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
+		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying",
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[Sydney Opera House] [Great Work of Music] 1", "link": "Building/[Sydney Opera House] [Great Work of Music] 1" },
+			{ "text": "[Sydney Opera House] [Great Work of Music] 2", "link": "Building/[Sydney Opera House] [Great Work of Music] 2" },
+			{ "text": "[Sydney Opera House] [Theming Bonus]", "link": "Building/[Sydney Opera House] [Theming Bonus]" }
+		]
 	},
 	{
 		"name": "[Sydney Opera House] [Theming Bonus]",
@@ -666,7 +695,13 @@
 			"Comment [Provides 2 [Great Work of Writing] Slots]"
 		],
 		"requiredTech": "Printing Press",
-		"quote": "'Totus mundus agit histrionem' - Inscription above main entrance to the Globe Theatre"
+		"quote": "'Totus mundus agit histrionem' - Inscription above main entrance to the Globe Theatre",
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[Globe Theatre] [Great Work of Writing] 1", "link": "Building/[Globe Theatre] [Great Work of Writing] 1" },
+			{ "text": "[Globe Theatre] [Great Work of Writing] 2", "link": "Building/[Globe Theatre] [Great Work of Writing] 2" },
+			{ "text": "[Globe Theatre] [Theming Bonus]", "link": "Building/[Globe Theatre] [Theming Bonus]" }
+		]
 	},
 	{
 		"name": "[Globe Theatre] [Theming Bonus]",
@@ -835,7 +870,15 @@
 			"Only available <after adopting [Exploration]>"
 		],
 		"requiredTech": "Archaeology",
-		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
+		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson",
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[The Louvre] [Great Work of Art] 1", "link": "Building/[The Louvre] [Great Work of Art] 1" },
+			{ "text": "[The Louvre] [Great Work of Art] 2", "link": "Building/[The Louvre] [Great Work of Art] 2" },
+			{ "text": "[The Louvre] [Great Work of Art] 3", "link": "Building/[The Louvre] [Great Work of Art] 3" },
+			{ "text": "[The Louvre] [Great Work of Art] 4", "link": "Building/[The Louvre] [Great Work of Art] 4" },
+			{ "text": "[The Louvre] [Theming Bonus]", "link": "Building/[The Louvre] [Theming Bonus]" }
+		]
 	},
 	{
 		"name": "[The Louvre] [Theming Bonus]",
@@ -1122,7 +1165,14 @@
 			"Only available <after adopting [Aesthetics]>"
 		],
         "requiredTech": "Architecture",
-        "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.'  - Marcel Parquet"
+        "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.'  - Marcel Parquet",
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[Uffizi] [Great Work of Art] 1", "link": "Building/[Uffizi] [Great Work of Art] 1" },
+			{ "text": "[Uffizi] [Great Work of Art] 2", "link": "Building/[Uffizi] [Great Work of Art] 2" },
+			{ "text": "[Uffizi] [Great Work of Art] 3", "link": "Building/[Uffizi] [Great Work of Art] 3" },
+			{ "text": "[Uffizi] [Theming Bonus]", "link": "Building/[Uffizi] [Theming Bonus]" }
+		]
     },
 	{
 		"name": "[Uffizi] [Theming Bonus]",
@@ -1248,10 +1298,15 @@
         "culture": 4,
         "isWonder": true,
 		"uniques": [
+			"Comment [Provides 1 [Great Work of Art] or [Artifact] Slots]",
 			"Gain a free [[Parthenon] [Great Work of Art]] [in this city]"
 		],
         "requiredTech": "Drama and Poetry",
-		"quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson"
+		"quote": "'Earth proudly wears the Parthenon as the best gem upon her zone.' - Ralph Waldo Emerson",
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[Parthenon] [Great Work of Art]", "link": "Building/[Parthenon] [Great Work of Art]" }
+		]
     },
 	{
 		"name": "[Parthenon] [Great Work of Art]",
@@ -1284,7 +1339,13 @@
 			"Comment [Provides 2 [Great Work of Art] or [Artifact] Slots]"
 		],
 		"requiredTech": "Acoustics",
-		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
+		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti",
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[Sistine Chapel] [Great Work of Art] 1", "link": "Building/[Sistine Chapel] [Great Work of Art] 1" },
+			{ "text": "[Sistine Chapel] [Great Work of Art] 2", "link": "Building/[Sistine Chapel] [Great Work of Art] 2" },
+			{ "text": "[Sistine Chapel] [Theming Bonus]", "link": "Building/[Sistine Chapel] [Theming Bonus]" }
+		]
 	},
 	{
 		"name": "[Sistine Chapel] [Theming Bonus]",
@@ -1397,6 +1458,12 @@
 		"uniques": [
 			"Comment [Provides 2 [Great Work of Art] or [Artifact] Slots]",
 			"Destroyed when the city is captured"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[Museum] [Great Work of Art] 1", "link": "Building/[Museum] [Great Work of Art] 1" },
+			{ "text": "[Museum] [Great Work of Art] 2", "link": "Building/[Museum] [Great Work of Art] 2" },
+			{ "text": "[Museum] [Theming Bonus]", "link": "Building/[Museum] [Theming Bonus]" }
 		]
     },
 	{
@@ -1484,6 +1551,10 @@
 		"uniques": [
 			"Comment [Provides 1 [Great Work of Music] Slot]",
 			"Destroyed when the city is captured"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[Opera House] [Great Work of Music]", "link": "Building/[Opera House] [Great Work of Music]" }
 		]
     },
     {
@@ -1519,6 +1590,10 @@
 		"uniques": [
 			"Comment [Provides 1 [Great Work of Music] Slot]",
 			"Destroyed when the city is captured"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[Ceilidh Hall] [Great Work of Music]", "link": "Building/[Ceilidh Hall] [Great Work of Music]" }
 		]
 	},
 	{
@@ -1532,6 +1607,10 @@
 		"uniques": [
 			"Comment [Provides 1 [Great Work of Music] Slot]",
 			"Destroyed when the city is captured"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[Broadcast Tower] [Great Work of Music]", "link": "Building/[Broadcast Tower] [Great Work of Music]" }
 		]
 	},
     {
@@ -1565,7 +1644,11 @@
 			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"
 		],
-		"requiredTech": "Drama and Poetry"
+		"requiredTech": "Drama and Poetry",
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[National Epic] [Great Work of Writing]", "link": "Building/[National Epic] [Great Work of Writing]" }
+		]
 	},
     {
         "name": "[National Epic] [Great Work of Writing]",
@@ -1598,7 +1681,11 @@
 			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
 			"Cost increases by [30] per owned city"
 		],
-		"requiredTech": "Iron Working"
+		"requiredTech": "Iron Working",
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[Heroic Epic] [Great Work of Writing]", "link": "Building/[Heroic Epic] [Great Work of Writing]" }
+		]
 	},
 	{
 		"name": "[Heroic Epic] [Great Work of Writing]",
@@ -1633,7 +1720,13 @@
 			"Gain a free [Library] [in this city]",
 			"Comment [Provides 2 [Great Work of Writing] Slots]"
 		],
-		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon",
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[The Great Library] [Great Work of Writing] 1", "link": "Building/[The Great Library] [Great Work of Writing] 1" },
+			{ "text": "[The Great Library] [Great Work of Writing] 2", "link": "Building/[The Great Library] [Great Work of Writing] 2" },
+			{ "text": "[The Great Library] [Theming Bonus]", "link": "Building/[The Great Library] [Theming Bonus]" }
+		]
 	},
 	{
 		"name": "[The Great Library] [Theming Bonus]",
@@ -1706,7 +1799,13 @@
 			"Only available <if [University] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"
 		],
-		"requiredTech": "Education"
+		"requiredTech": "Education",
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[Oxford University] [Great Work of Writing] 1", "link": "Building/[Oxford University] [Great Work of Writing] 1" },
+			{ "text": "[Oxford University] [Great Work of Writing] 2", "link": "Building/[Oxford University] [Great Work of Writing] 2" },
+			{ "text": "[Oxford University] [Theming Bonus]", "link": "Building/[Oxford University] [Theming Bonus]" }
+		]
 	},
 	{
 		"name": "[Oxford University] [Theming Bonus]",
@@ -1780,7 +1879,14 @@
 			"Provides [5] [Tourism] <after adopting [Religious Art]>",
 			"[+5 Culture] <after adopting [Religious Art]>"
 		],
-		"requiredTech": "Architecture"
+		"requiredTech": "Architecture",
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "[Hermitage] [Great Work of Art] 1", "link": "Building/[Hermitage] [Great Work of Art] 1" },
+			{ "text": "[Hermitage] [Great Work of Art] 2", "link": "Building/[Hermitage] [Great Work of Art] 2" },
+			{ "text": "[Hermitage] [Great Work of Art] 3", "link": "Building/[Hermitage] [Great Work of Art] 3" },
+			{ "text": "[Hermitage] [Theming Bonus]", "link": "Building/[Hermitage] [Theming Bonus]" }
+		]
 	},
 	{
 		"name": "[Hermitage] [Theming Bonus]",
