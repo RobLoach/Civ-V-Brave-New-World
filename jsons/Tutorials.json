@@ -99,7 +99,7 @@
 	{
 		"name": "Great Works",
 		"civilopediaText": [
-			{ "text": "Great Works are the exceptional creations of [Great Artist]s, [Great Writer]s, and [Great Musician]s. They can also be acquired via conquest, or after your civilization develops its interest in ancient [Artifact]s and starts digging them up from the ruins of the past." },
+			{ "text": "Great Works are the creations of [Great Artist]s, [Great Writer]s, and [Great Musician]s. They can also be acquired via conquest, or after your civilization develops its interest in ancient [Artifact]s and starts digging them up from the ruins of the past." },
 			{},
 			{ "text": "Great Works" },
 			{ "text": "Great Work of Writing", "link": "Resource/Great Work of Writing" },

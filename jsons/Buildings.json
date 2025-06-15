@@ -787,7 +787,7 @@
 		"isWonder": true,
 		"uniques": [
 			"Free [Great Artist] appears",
-			"Comment [Provides 4 [Great Work of Art] Slots]",
+			"Comment [Provides 4 [Great Work of Art] or [Artifact] Slots]",
 			"Only available <after adopting [Exploration]>"
 		],
 		"requiredTech": "Archaeology",
@@ -1059,7 +1059,7 @@
         "isWonder": true,
         "uniques": [
 			"Free [Great Artist] appears",
-			"Comment [Provides 3 [Great Work of Art] Slots]",
+			"Comment [Provides 3 [Great Work of Art] or [Artifact] Slots]",
 			"Only available <after adopting [Aesthetics]>"
 		],
         "requiredTech": "Architecture",
@@ -1206,7 +1206,7 @@
 		"greatPersonPoints": {"Great Artist": 2},
 		"uniques": [
 			"[+25]% [Culture] [in all cities]",
-			"Comment [Provides 2 [Great Work of Art] Slots]"
+			"Comment [Provides 2 [Great Work of Art] or [Artifact] Slots]"
 		],
 		"requiredTech": "Acoustics",
 		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
@@ -1312,7 +1312,7 @@
         "requiredTech": "Archaeology",
 		"requiredBuilding": "Opera House",
 		"uniques": [
-			"Comment [Provides 2 [Great Work of Art] Slots]",
+			"Comment [Provides 2 [Great Work of Art] or [Artifact] Slots]",
 			"Destroyed when the city is captured"
 		]
     },
@@ -1650,7 +1650,7 @@
 		"culture": 5,
 		"isNationalWonder": true,
 		"uniques": [
-			"Comment [Provides 3 [Great Work of Art] Slots]",
+			"Comment [Provides 3 [Great Work of Art] or [Artifact] Slots]",
 			"Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Provides [5] [Tourism] <after adopting [Religious Art]>",

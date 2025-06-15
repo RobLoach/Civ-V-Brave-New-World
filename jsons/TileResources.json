@@ -212,16 +212,16 @@
 			"Stockpiled",
 			"Excluded from map editor",
 			"Doesn't generate naturally",
-			//"Not shown on world screen",
+			"Not shown on world screen",
 			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Slotted into a [Great Work of Writing] Slot" },
 			{ "separator": true },
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "See also" },
 			{ "text": "Great Writer", "link": "Unit/Great Writer" },
 			{ "text": "Hidden Antiquity Site", "link": "Resource/Hidden Antiquity Site" },
-			{ "text": "See also" },
-			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
     },
     {
@@ -231,15 +231,15 @@
 			"Stockpiled",
 			"Excluded from map editor",
 			"Doesn't generate naturally",
-			//"Not shown on world screen",
+			"Not shown on world screen",
 			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Slotted into a [Great Work of Art] Slot" },
 			{ "separator": true },
-			{ "text": "Great Artist", "link": "Unit/Great Artist" },
+			{ "text": "Great Works", "link": "Tutorial/Great Works"},
 			{ "text": "See also" },
-			{ "text": "Great Works", "link": "Tutorial/Great Works"}
+			{ "text": "Great Artist", "link": "Unit/Great Artist" }
 		]
     },
     {
@@ -249,15 +249,15 @@
 			"Stockpiled",
 			"Excluded from map editor",
 			"Doesn't generate naturally",
-			//"Not shown on world screen",
+			"Not shown on world screen",
 			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Slotted into a [Great Work of Music] Slot" },
 			{ "separator": true },
-			{ "text": "Great Musician", "link": "Unit/Great Musician" },
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
 			{ "text": "See also" },
-			{ "text": "Great Works", "link": "Tutorial/Great Works" }
+			{ "text": "Great Musician", "link": "Unit/Great Musician" }
 		]
     },
     {
@@ -272,10 +272,10 @@
 		"civilopediaText": [
 			{ "text": "[Artifact]s are found from an [Archaeological Dig] with an [Archaeologist] on an [Antiquity Site]. They can then be slotted into a [Great Work of Art] Slot." },
 			{ "separator": true },
-			{ "text": "Archaeologist", "link": "Unit/Archaeologist" },
-			{ "text": "Antiquity Site", "link": "Resource/Antiquity Site" },
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
 			{ "text": "See also" },
-			{ "text": "Great Works", "link": "Tutorial/Great Works" }
+			{ "text": "Archaeologist", "link": "Unit/Archaeologist" },
+			{ "text": "Antiquity Site", "link": "Resource/Antiquity Site" }
 		]
     },
 	{
