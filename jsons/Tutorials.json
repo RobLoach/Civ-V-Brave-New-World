@@ -100,18 +100,16 @@
 		"name": "Great Works",
 		"civilopediaText": [
 			{ "text": "Great Works are the exceptional creations of [Great Artist]s, [Great Writer]s, and [Great Musician]s. They can also be acquired via conquest, or after your civilization develops its interest in ancient [Artifact]s and starts digging them up from the ruins of the past." },
-			{ "text": "Provides [Tourism]", "link": "Resource/Tourism" },
 			{},
-			{ "text": "[4] available" },
+			{ "text": "Great Works" },
 			{ "text": "Great Work of Writing", "link": "Resource/Great Work of Writing" },
 			{ "text": "Great Work of Art", "link": "Resource/Great Work of Art" },
 			{ "text": "Great Work of Music", "link": "Resource/Great Work of Music" },
 			{ "text": "Artifact", "link": "Resource/Artifact" },
 			{},
-			{ "text": "Requires" },
-			{ "text": "Great Work of Writing Slot", "link": "Resource/Great Work of Writing Slot" },
-			{ "text": "Great Work of Music Slot", "link": "Resource/Great Work of Music Slot" },
-			{ "text": "Great Work of Art Slot, which can also slot Artifacts", "link": "Resource/Great Work of Art Slot" },
+			{ "text": "When slotted in a city:" },
+			{ "text": "[2] [Tourism]", "link": "Resource/Tourism" },
+			{ "text": "[2] [Culture]" }
 		]
 	}
 ]

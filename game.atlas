@@ -81,13 +81,6 @@ ResourceIcons/Great Work of Art
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Great Work of Art Slot
-  rotate: false
-  xy: 4, 546
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Borobudur
   rotate: false
   xy: 456, 910
@@ -1047,13 +1040,6 @@ BuildingIcons/Musicians' Guild
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Great Work of Music Slot
-  rotate: false
-  xy: 240, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 ResourceIcons/Great Work of Writing
   rotate: false
   xy: 348, 694
@@ -1118,13 +1104,6 @@ BuildingIcons/Great Work of Writing 8
   offset: 0, 0
   index: -1
 BuildingIcons/Writers' Guild
-  rotate: false
-  xy: 348, 694
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Great Work of Writing Slot
   rotate: false
   xy: 348, 694
   size: 100, 100

@@ -212,16 +212,14 @@
 			"Stockpiled",
 			"Excluded from map editor",
 			"Doesn't generate naturally",
-			"Not shown on world screen",
+			//"Not shown on world screen",
 			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
-			{ "text": "Slotted into a [Great Work of Writing Slot]" },
+			{ "text": "Slotted into a [Great Work of Writing] Slot" },
 			{ "separator": true },
 			{ "text": "Great Writer", "link": "Unit/Great Writer" },
 			{ "text": "Hidden Antiquity Site", "link": "Resource/Hidden Antiquity Site" },
-			{ "text": "Requires" },
-			{ "text": "Great Work of Writing Slot", "link": "Resource/Great Work of Writing Slot" },
 			{ "text": "See also" },
 			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
@@ -233,15 +231,13 @@
 			"Stockpiled",
 			"Excluded from map editor",
 			"Doesn't generate naturally",
-			"Not shown on world screen",
+			//"Not shown on world screen",
 			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
-			{ "text": "Slotted into a [Great Work of Art Slot]" },
+			{ "text": "Slotted into a [Great Work of Art] Slot" },
 			{ "separator": true },
 			{ "text": "Great Artist", "link": "Unit/Great Artist" },
-			{ "text": "Requires" },
-			{ "text": "Great Work of Art Slot", "link": "Resource/Great Work of Art Slot" },
 			{ "text": "See also" },
 			{ "text": "Great Works", "link": "Tutorial/Great Works"}
 		]
@@ -253,15 +249,13 @@
 			"Stockpiled",
 			"Excluded from map editor",
 			"Doesn't generate naturally",
-			"Not shown on world screen",
+			//"Not shown on world screen",
 			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
-			{ "text": "Slotted into a [Great Work of Music Slot]" },
+			{ "text": "Slotted into a [Great Work of Music] Slot" },
 			{ "separator": true },
 			{ "text": "Great Musician", "link": "Unit/Great Musician" },
-			{ "text": "Requires" },
-			{ "text": "Great Work of Music Slot", "link": "Resource/Great Work of Music Slot" },
 			{ "text": "See also" },
 			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
@@ -276,67 +270,10 @@
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
-			{ "text": "[Artifact]s are found from an [Archaeological Dig] with an [Archaeologist] on an [Antiquity Site]. They can then be slotted into a [Great Work of Art Slot]." },
+			{ "text": "[Artifact]s are found from an [Archaeological Dig] with an [Archaeologist] on an [Antiquity Site]. They can then be slotted into a [Great Work of Art] Slot." },
 			{ "separator": true },
 			{ "text": "Archaeologist", "link": "Unit/Archaeologist" },
 			{ "text": "Antiquity Site", "link": "Resource/Antiquity Site" },
-			{ "text": "Requires" },
-			{ "text": "Great Work of Art Slot", "link": "Resource/Great Work of Art Slot" },
-			{ "text": "See also" },
-			{ "text": "Great Works", "link": "Tutorial/Great Works" }
-		]
-    },
-    {
-        "name": "Great Work of Writing Slot",
-        "resourceType": "Strategic",
-        "uniques": [
-			"City-level resource",
-			"Cannot be traded <hidden from users>",
-			"Not shown on world screen",
-			"Excluded from map editor",
-			"Doesn't generate naturally"
-		],
-		"civilopediaText": [
-			{ "text": "Slots a [Great Work of Writing]" },
-			{ "separator": true },
-			{ "text": "Great Work of Writing", "link": "Resource/Great Work of Writing" },
-			{ "text": "See also" },
-			{ "text": "Great Works", "link": "Tutorial/Great Works" }
-		]
-    },
-    {
-        "name": "Great Work of Art Slot",
-        "resourceType": "Strategic",
-        "uniques": [
-			"City-level resource",
-			"Cannot be traded <hidden from users>",
-			"Not shown on world screen",
-			"Excluded from map editor",
-			"Doesn't generate naturally"
-		],
-		"civilopediaText": [
-			{ "text": "Slots a [Great Work of Art] or an [Artifact]" },
-			{ "separator": true },
-			{ "text": "Great Work of Art", "link": "Resource/Great Work of Art" },
-			{ "text": "Artifact", "link": "Resource/Artifact" },
-			{ "text": "See also" },
-			{ "text": "Great Works", "link": "Tutorial/Great Works" }
-		]
-    },
-    {
-        "name": "Great Work of Music Slot",
-        "resourceType": "Strategic",
-        "uniques": [
-			"City-level resource",
-			"Cannot be traded <hidden from users>",
-			"Not shown on world screen",
-			"Excluded from map editor",
-			"Doesn't generate naturally"
-		],
-		"civilopediaText": [
-			{ "text": "Slots a [Great Work of Music]" },
-			{ "separator": true },
-			{ "text": "Great Work of Music", "link": "Resource/Great Work of Music" },
 			{ "text": "See also" },
 			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
