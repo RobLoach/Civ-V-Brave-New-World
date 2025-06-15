@@ -545,6 +545,9 @@
 			"[+3 Culture] <in [Capital] cities> <for [City of Light] Civilizations> <hidden from users>",
 			"Provides [3] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+3 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
 	},
 	{
@@ -643,6 +646,9 @@
 			"[+2 Culture] <in [Capital] cities> <for [City of Light] Civilizations> <hidden from users>",
 			"Provides [2] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+2 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
 	},
 	{
@@ -720,6 +726,9 @@
 			"[+2 Culture] <in [Capital] cities> <for [City of Light] Civilizations> <hidden from users>",
 			"Provides [2] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+2 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
 	},
 	{
@@ -899,6 +908,9 @@
 			"[+4 Culture] <in [Capital] cities> <for [City of Light] Civilizations> <hidden from users>",
 			"Provides [4] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+4 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
 	},
 	{
@@ -1192,6 +1204,9 @@
 			"[+3 Culture] <in [Capital] cities> <for [City of Light] Civilizations> <hidden from users>",
 			"Provides [3] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+3 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
 	},
 	{
@@ -1364,6 +1379,9 @@
 			"[+2 Culture] <in [Capital] cities> <for [City of Light] Civilizations> <hidden from users>",
 			"Provides [2] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+2 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
 	},
 	{
@@ -1483,6 +1501,9 @@
 			"[+2 Culture] <in [Capital] cities> <for [City of Light] Civilizations> <hidden from users>",
 			"Provides [2] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+2 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
 	},
     {
@@ -1745,6 +1766,9 @@
 			"[+2 Culture] <in [Capital] cities> <for [City of Light] Civilizations> <hidden from users>",
 			"Provides [2] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+2 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
 	},
 	{
@@ -1824,6 +1848,9 @@
 			"[+2 Culture] <in [Capital] cities> <for [City of Light] Civilizations> <hidden from users>",
 			"Provides [2] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+2 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
 	},
 	{
@@ -1906,6 +1933,9 @@
 			"[+3 Culture] <in [Capital] cities> <for [City of Light] Civilizations> <hidden from users>",
 			"Provides [3] [Tourism] <after adopting [Aesthetics Complete]> <hidden from users>",
 			"[+3 Culture] <after adopting [Aesthetics Complete]> <hidden from users>"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
 	},
 	{
