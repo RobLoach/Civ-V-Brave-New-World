@@ -744,13 +744,8 @@
 			{
 				"name": "Third Alternative",
 				"uniques": [
+					"Quantity of strategic resources produced by the empire +[100]%",
 					"[+5 Food, +5 Science] [in capital]",
-					"Double quantity of [Horses] produced",
-					"Double quantity of [Iron] produced",
-					"Double quantity of [Coal] produced",
-					"Double quantity of [Oil] produced",
-					"Double quantity of [Aluminum] produced",
-					"Double quantity of [Uranium] produced",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
