@@ -124,7 +124,7 @@
 	// Trade Routes
     {
         "name": "Trade Route",
-        "resourceType": "Luxury",
+        "resourceType": "Bonus",
         "uniques": [
 			"Cannot be traded <hidden from users>",
 			"Stockpiled <hidden from users>",
