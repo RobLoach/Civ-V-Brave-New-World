@@ -124,7 +124,7 @@
 	// Trade Routes
     {
         "name": "Trade Route",
-        "resourceType": "Strategic",
+        "resourceType": "Luxury",
         "uniques": [
 			"Cannot be traded <hidden from users>",
 			"Stockpiled <hidden from users>",
@@ -207,7 +207,7 @@
 	// Great Works
     {
         "name": "Great Work of Writing",
-        "resourceType": "Strategic",
+        "resourceType": "Luxury",
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
@@ -226,7 +226,7 @@
     },
     {
         "name": "Great Work of Art",
-        "resourceType": "Strategic",
+        "resourceType": "Luxury",
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
@@ -244,7 +244,7 @@
     },
     {
         "name": "Great Work of Music",
-        "resourceType": "Strategic",
+        "resourceType": "Luxury",
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
@@ -262,7 +262,7 @@
     },
     {
         "name": "Artifact",
-        "resourceType": "Strategic",
+        "resourceType": "Luxury",
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
@@ -280,7 +280,7 @@
     },
 	{
 		"name": "Tourism",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"uniques": [
 			"Cannot be traded <hidden from users>",
 			"Stockpiled",
@@ -297,7 +297,7 @@
 	// Policies: Ideology slot requirements
 	{
 		"name": "Level 1 Policy",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"uniques": [
 			"Cannot be traded <hidden from users>",
 			"Stockpiled",
@@ -309,7 +309,7 @@
 	},
 	{
 		"name": "Level 2 Policy",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"uniques": [
 			"Cannot be traded <hidden from users>",
 			"Stockpiled",
