@@ -991,7 +991,7 @@
 				"name": "Dictatorship of the Proletariat",
 				"uniques": [
 					// TODO: +34% Tourism to Civilizations with less Happiness.
-					"Provides [5] [Tourism] <when below [0] [Happiness]>",
+					"Provides [5] [Tourism] <when below [0] Happiness>",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
