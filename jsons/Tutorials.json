@@ -2,18 +2,11 @@
 	{
 		"name": "Civ V Brave New World",
 		"civilopediaText": [
-			{ "text": "Brave New World is the second expansion pack for Civ V, released in 2013. The Unciv mod provides a few of its features..." },
+			{ "text": "Brave New World is the second expansion pack for Civ V, originally released in 2013." },
 			{},
-			{ "text": "Concepts", "header": 3 },
-			{ "text": "There are a few gameplay concepts introduced in Brave New World that change how the game is played:" },
-			{
-				"text": "Ideologies",
-				"link": "Tutorial/Ideology"
-			},
-			{
-				"text": "Archaeology and Great Works",
-				"link": "Tutorial/Great Works"
-			},
+			{ "text": "Features", "header": 3 },
+				{ "text": "Ideology", "link": "Building/Ideology" },
+				{ "text": "Great Works", "link": "Tutorial/Great Works" },
 			{},
 			{ "text": "Nations", "header": 3 },
 				{ "text": "Poland", "link": "Nation/Poland" },
@@ -29,23 +22,34 @@
 				{ "text": "The Internet", "link": "Technology/The Internet" },
 			{},
 			{ "text": "Religion", "header": 3 },
-				{ "text": "Reformation Beliefs", "link": "Policy/Reformation" },
+				{ "text": "Reformation", "link": "Policy/Reformation" },
 			{},
 			{ "text": "Units", "header": 3 },
-				{ "text": "Great Writer", "link": "Unit/Great Writer" },
-				{ "text": "Great Musician", "link": "Unit/Great Musician" },
-				{ "text": "Caravan", "link": "Unit/Caravan" },
-				{ "text": "Cargo Ship", "link": "Unit/Cargo Ship" },
-				{ "text": "Archaeologist", "link": "Unit/Archaeologist" },
-				{ "text": "Bazooka", "link": "Unit/Bazooka" },
-				{ "text": "Future Soldier", "link": "Unit/Future Soldier" },
-				{ "text": "Hand-Axe", "link": "Unit/Hand-Axe" },
+				{ "text": "Archaeologist",		"link": "Unit/Archaeologist" },
+				{ "text": "Bazooka", 			"link": "Unit/Bazooka" },
+				{ "text": "Berber Cavalry",		"link": "Unit/Berber Cavalry" },
+				{ "text": "Caravan",			"link": "Unit/Caravan" },
+				{ "text": "Cargo Ship",			"link": "Unit/Cargo Ship" },
+				{ "text": "Comanche Rider",		"link": "Unit/Comanche Rider" },
+				{ "text": "Future Soldier",		"link": "Unit/Future Soldier" },
+				{ "text": "Great Galleass",		"link": "Unit/Great Galleass" },
+				{ "text": "Great Musician",		"link": "Unit/Great Musician" },
+				{ "text": "Great Writer",		"link": "Unit/Great Writer" },
+				{ "text": "Hand-Axe",			"link": "Unit/Hand-Axe" },
+				{ "text": "Impi",				"link": "Unit/Impi" },
+				{ "text": "Kris Swordsman",		"link": "Unit/Kris Swordsman" },
+				{ "text": "Merchant of Venice", "link": "Unit/Merchant of Venice" },
+				{ "text": "Nau",				"link": "Unit/Nau" },
+				{ "text": "Pathfinder",			"link": "Unit/Pathfinder" },
+				{ "text": "Pracinha",			"link": "Unit/Pracinha" },
+				{ "text": "Siege Tower",		"link": "Unit/Siege Tower" },
+				{ "text": "Winged Hussar",		"link": "Unit/Winged Hussar" },
 			{},
 			{ "text": "Buildings", "header": 3 },
 				{ "text": "Airport", "link": "Building/Airport" },
 				{ "text": "Caravansary", "link": "Building/Caravansary" },
 				{ "text": "Hotel", "link": "Building/Hotel" },
-				{ "text": "Zoo (Theatre)", "link": "Building/Theatre" },
+				{ "text": "Theatre", "link": "Building/Theatre" },
 			{},
 			{ "text": "Wonders", "header": 3 },
 				{ "text": "Borobudur", "link": "Building/Borobudur" },
@@ -56,6 +60,9 @@
 				{ "text": "Red Fort", "link": "Building/Red Fort" },
 				{ "text": "Uffizi", "link": "Building/Uffizi" },
 				{ "text": "International Space Station", "link": "Building/International Space Station" },
+				{ "text": "Mausoleum of Halicarnassus", "link": "Building/Mausoleum of Halicarnassus" },
+				{ "text": "Temple of Artemis", "link": "Building/Temple of Artemis" },
+				{ "text": "Statue of Zeus", "link": "Building/Statue of Zeus" },
 			{},
 			{ "text": "National Wonders", "header": 3 },
 				{ "text": "Artists' Guild", "link": "Building/Artists' Guild" },
@@ -84,95 +91,60 @@
 				{ "text": "Feitoria", "link": "Improvement/Feitoria" },
 				{ "text": "Kasbah", "link": "Improvement/Kasbah" },
 			{},
-			{ "text": "Missing", "header": 3 },
-				{ "text": "There are a few things missing from Brave New World that haven't been implemented in the Unciv mod:" },
-				{ "text": "Cultural Victory with Tourism", "link": "https://civilization.fandom.com/wiki/World_Congress_(Civ5)" },
-				{ "text": "World Congress", "link": "https://civilization.fandom.com/wiki/World_Congress_(Civ5)" },
-			{},
-			{ "text": "If you'd like to help out, feel free to get involved on GitHub or Discord:" },
-			{ "text": "https://github.com/RobLoach/Civ-V-Brave-New-World", "link": "https://github.com/RobLoach/Civ-V-Brave-New-World" },
+			{ "text": "See also", "header": 3 },
+			{ "text": "GitHub", "link": "https://github.com/RobLoach/Civ-V-Brave-New-World" },
 			{ "text": "Discord", "link": "https://discord.com/channels/586194543280390151/1055580642806603866" }
-		]
-	},
-	{
-		"name": "Ideology",
-		"steps": [
-			"Each civilization will be able to choose an Ideology upon reaching the Modern Era, or controlling 3 Factories."
-		],
-		"civilopediaText": [
-			{
-				"text": "Autocracy",
-				"link": "Policy/Autocracy"
-			},
-			{
-				"text": "Freedom",
-				"link": "Policy/Freedom"
-			},
-			{
-				"text": "Order",
-				"link": "Policy/Order"
-			},
-			{"separator": true},
-			{
-				"text": "Reach the Modern Era to unlock your Ideology",
-				"link": "Era/Modern era"
-			},
-			{
-				"text": "Alternatively, own 3 Factories to unlock your Ideology",
-				"link": "Building/Factory"
-			}
 		]
 	},
 	{
 		"name": "Great Works",
 		"civilopediaText": [
-			{
-				"text": "Great Works are the exceptional creations of Great People. They can also be acquired via conquest, however, or after your civilization develops its interest in ancient Artifacts and starts digging them up from the ruins of the past."
-			},
+			{ "text": "Great Works are the creations of [Great Artist]s, [Great Writer]s, and [Great Musician]s. They can also be acquired via conquest, or after your civilization develops its interest in ancient [Artifact]s and starts digging them up from the ruins of the past." },
 			{},
-			{
-				"text": "There are four types of Great Works:"
-			},
-			{
-				"text": "Great Work of Writing",
-				"link": "Resource/Great Work of Writing"
-			},
-			{
-				"text": "Great Work of Art",
-				"link": "Resource/Great Work of Art"
-			},
-			{
-				"text": "Great Work of Music",
-				"link": "Resource/Great Work of Music"
-			},
-			{
-				"text": "Artifact",
-				"link": "Resource/Artifact"
-			},
+			{ "text": "Resources", "header": 3 },
+			{ "text": "Great Work of Writing", "link": "Resource/Great Work of Writing" },
+			{ "text": "Great Work of Art", "link": "Resource/Great Work of Art" },
+			{ "text": "Great Work of Music", "link": "Resource/Great Work of Music" },
+			{ "text": "Artifact", "link": "Resource/Artifact" },
 			{},
-			{
-				"text": "Once you have acquired a Great Work or an Arifact, you are able to slot it into one of the Great Works slots in your cites:"
-			},
-			{
-				"text": "Great Work of Writing Slot",
-				"link": "Resource/Great Work of Writing Slot"
-			},
-			{
-				"text": "Great Work of Music Slot",
-				"link": "Resource/Great Work of Music Slot"
-			},
-			{
-				"text": "Great Work of Art Slot, which can also slot Artifacts",
-				"link": "Resource/Great Work of Art Slot"
-			},
+			{ "text": "Stats", "header": 3 },
+			{ "text": "[2] [Tourism]", "link": "Resource/Tourism" },
+			{ "text": "[2] [Culture]", "link": "Tutorial/Culture and Policies" },
 			{},
-			{
-				"text": "Great Works are one of the primary means in which to acquire Tourism"
-			},
-			{
-				"text": "Tourism",
-				"link": "Resource/Tourism"
-			}
+			{ "text": "Theming Bonus", "header": 3 },
+			{ "text": "When all slots of a building are filled, there is a possibility of additional [Culture] and [Tourism] bonuses." },
+			{},
+			{ "separator": true },
+			{},
+			{ "text": "Buildings", "header": 3 },
+			{ "text": "Royal Library", "link": "Building/Royal Library" },
+			{ "text": "Amphitheater", "link": "Building/Amphitheater" },
+			{ "text": "Cathedral", "link": "Building/Cathedral" },
+			{ "text": "Museum", "link": "Building/Museum" },
+			{ "text": "Opera House", "link": "Building/Opera House" },
+			{ "text": "Ceilidh Hall", "link": "Building/Ceilidh Hall" },
+			{ "text": "Broadcast Tower", "link": "Building/Broadcast Tower" },
+			{},
+			{ "text": "Wonders", "header": 3 },
+			{ "text": "National Epic", "link": "Wonder/National Epic" },
+			{ "text": "Heroic Epic", "link": "Wonder/Heroic Epic" },
+			{ "text": "The Great Library", "link": "Wonder/The Great Library" },
+			{ "text": "Oxford University", "link": "Wonder/Oxford University" },
+			{ "text": "Globe Theatre", "link": "Wonder/Globe Theatre" },
+			{ "text": "Palace", "link": "Wonder/Palace" },
+			{ "text": "Parthenon", "link": "Wonder/Parthenon" },
+			{ "text": "Sistine Chapel", "link": "Wonder/Sistine Chapel" },
+			{ "text": "Uffizi", "link": "Wonder/Uffizi" },
+			{ "text": "Hermitage", "link": "Wonder/Hermitage" },
+			{ "text": "The Louvre", "link": "Wonder/The Louvre" },
+			{ "text": "Broadway", "link": "Wonder/Broadway" },
+			{ "text": "Sydney Opera House", "link": "Wonder/Sydney Opera House" },
+			{},
+			{ "text": "Units", "header": 3 },
+			{ "text": "Great Artist", "link": "Unit/Great Artist" },
+			{ "text": "Great Musician", "link": "Unit/Great Musician" },
+			{ "text": "Great Writer", "link": "Unit/Great Writer" },
+			{ "text": "Archaeologist", "link": "Unit/Archaeologist" }
 		]
 	}
 ]

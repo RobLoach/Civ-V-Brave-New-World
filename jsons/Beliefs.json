@@ -39,8 +39,7 @@
         "name": "Ceremonial Burial",
         "type": "Founder",
         "uniques": [
-            // TODO: +1 Happiness for every 2 Cities following this religion
-            "[+1 Happiness] for each global city following this religion"
+            "[+1 Happiness] for each global city following this religion" // TODO: +1 Happiness for every 2 Cities following this religion
         ]
     },
 
@@ -49,8 +48,12 @@
         "name": "Religious Art",
         "type": "Follower",
         "uniques": [
-			"Comment [Hermitage provides +5 Culture and +5 Tourism]"
-        ]
+			"Comment [[Hermitage] provides +5 [Culture] and +5 [Tourism]]",
+			"[100]% weight to this choice for AI decisions <if [Hermitage] is constructed>"
+        ],
+		"civilopediaText": [
+			{ "text": "Hermitage", "link": "Building/Hermitage" }
+		]
     },
 
     // Enhancer
@@ -77,16 +80,18 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			"Comment [Missionaries Spread Religion action erodes existing pressure from other religions]"
-        ]
+			"Comment [[Missionary] unit's Spread Religion action erodes existing pressure from other religions]"
+        ],
+		"civilopediaText": [
+			{ "text": "Missionary", "link": "Unit/Missionary"}
+		]
     },
     {
         "name": "Heathen Conversion",
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-            // TODO: Missionaries convert adjacent Barbarian units to this civilization
-			"When defeating a [Barbarian] unit, earn [0] Gold and recruit it"
+			"When defeating a [Barbarian] unit, earn [0] Gold and recruit it" // TODO: Missionaries convert adjacent Barbarian units to this civilization
         ]
     },
     {
@@ -116,8 +121,15 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			"Comment [+2 Tourism for every building purchased with Faith]"
-        ]
+			// TODO: All buildings purchased with Faith provide 2 Tourism each
+			"Comment [+2 [Tourism] from every [{Cathedral} {Monastery} {Mosque} {Pagoda}]]"
+        ],
+		"civilopediaText": [
+			{ "text": "Cathedral", "link": "Building/Cathedral" },
+			{ "text": "Monastery", "link": "Building/Monastery" },
+			{ "text": "Mosque", "link": "Building/Mosque" },
+			{ "text": "Pagoda", "link": "Building/Pagoda" }
+		]
     },
     {
         "name": "To the Glory of God",
@@ -134,7 +146,8 @@
             "Only available <after adopting [Reformation]>",
             // TODO: Your spies exert religious pressure on the cities they occupy
 			"[+10]% spy effectiveness [in all cities in which the majority religion is a major religion]",
-			"[+10]% Natural religion spread [in all cities in which the majority religion is a major religion]"
+			"[+10]% Natural religion spread [in all cities in which the majority religion is a major religion]",
+			"Only available <when espionage is enabled> <hidden from users>"
         ]
     },
     {

@@ -1,7 +1,45 @@
 [
+	// Spaceflight Pioneers - Great Engineer - Build Spaceship Part
+	{
+		"name": "Spaceship part",
+		"text": "By expending your [Great Engineer] you gained [spaceship parts]!",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "SS Booster",
+				"uniques": [
+					"Free [SS Booster] appears <hidden from users>",
+					"Only available <after discovering [Advanced Ballistics]> <hidden from users>"
+				]
+			},
+			{
+				"text": "SS Cockpit",
+				"uniques": [
+					"Free [SS Cockpit] appears <hidden from users>",
+					"Only available <after discovering [Satellites]> <hidden from users>"
+				]
+			},
+			{
+				"text": "SS Engine",
+				"uniques": [
+					"Free [SS Engine] appears <hidden from users>",
+					"Only available <after discovering [Particle Physics]> <hidden from users>"
+				]
+			},
+			{
+				"text": "SS Stasis Chamber",
+				"uniques": [
+					"Free [SS Stasis Chamber] appears <hidden from users>",
+					"Only available <after discovering [Nanotechnology]> <hidden from users>"
+				]
+			}
+		]
+	},
+
+	// Archaeology
 	{
 		"name": "Archaeological Dig",
-		"text": "Your Archaeological Dig has uncovered an Ancient Artifact!",
+		"text": "Your Archaeological Dig has uncovered an Ancient Artifact",
 		"presentation": "Alert",
 		"choices": [
 			{
@@ -14,7 +52,7 @@
 	},
 	{
 		"name": "Archaeological Dig - Hidden - Great Work of Writing",
-		"text": "Your Archaeological Dig has uncovered a Great Work of Writing!",
+		"text": "Your Archaeological Dig has uncovered a Great Work of Writing",
 		"presentation": "Alert",
 		"choices": [
 			{
@@ -27,7 +65,7 @@
 	},
 	{
 		"name": "Archaeological Dig - Hidden - Culture",
-		"text": "Your Archaeological Dig has sparked a Cultural Renaissance!",
+		"text": "Your Archaeological Dig has sparked a Cultural Renaissance",
 		"presentation": "Alert",
 		"choices": [
 			{
@@ -39,14 +77,29 @@
 		]
 	},
 	{
+		"name": "Archaeological Dig - Destroy Unit",
+		"text": "[This Unit] is destroyed",
+		"presentation": "None",
+		"choices": [
+			{
+				"text": "[This Unit] is destroyed",
+				"uniques": [
+					"[This Unit] is destroyed"
+				]
+			}
+		]
+	},
+
+	// Ideology
+	{
 		"name": "Ideology",
-		"text": "Choose one of these ideologies:",
+		"text": "Choose an [Ideology]:",
 		"presentation": "Alert",
 		"choices": [
 			{
 				"text": "Autocracy",
 				"uniques": [
-					"Adopt [Autocracy] <hidden from users>",
+					"Adopt [Autocracy]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
 					"Only available <before adopting [Order]>"
@@ -55,7 +108,7 @@
 			{
 				"text": "Freedom",
 				"uniques": [
-					"Adopt [Freedom] <hidden from users>",
+					"Adopt [Freedom]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
 					"Only available <before adopting [Order]>"
@@ -64,15 +117,101 @@
 			{
 				"text": "Order",
 				"uniques": [
-					"Adopt [Order] <hidden from users>",
+					"Adopt [Order]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
 					"Only available <before adopting [Order]>"
 				]
+			}
+		]
+	},
+
+	// Pathfinder Native Tongue
+	{
+		"name": "Native Tongue",
+		"text": "The [Pathfinder]'s [Native Tongue] allows you to choose an [Ancient ruins] benefit",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "discover cultural artifacts",
+				"uniques": [
+					"Gain [20] [Culture] <(modified by game speed)> <hidden from users>"
+				]
 			},
 			{
-				"text": "Back",
-				"uniques": []
+				"text": "squatters willing to work for you",
+				"uniques": [
+					"Free [Worker] appears <hidden from users>"
+				]
+			},
+			{
+				"text": "squatters wishing to settle under your rule",
+				"uniques": [
+					"Free [Settler] appears <hidden from users>"
+				]
+			},
+			{
+				"text": "your exploring unit receives training",
+				"uniques": [
+					"[This Unit] gains [10] XP <hidden from users>",
+					"Only available <after turn number [10]> <hidden from users>"
+				]
+			},
+			{
+				"text": "survivors (adds population to a city)",
+				"uniques": [
+					"[+1] population in a random city <hidden from users>"
+				]
+			},
+			{
+				"text": "a stash of gold",
+				"uniques": [
+					"Gain [50]-[100] [Gold] <(modified by game speed)> <hidden from users>"
+				]
+			},
+			{
+				"text": "discover a lost technology",
+				"uniques": [
+					"[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"
+				]
+			},
+			{
+				"text": "advanced weaponry for your explorer",
+				"uniques": [
+					"[This Unit] upgrades for free including special upgrades <hidden from users>",
+					"[This Unit] loses the [Native Tongue] promotion <hidden from users>" // Composite Bowman does not keep Native Tongue
+				]
+			},
+			{
+				"text": "reveal nearby Barbarian camps",
+				"uniques": [
+					"Reveal up to [All] [Barbarian encampment] within a [10] tile radius <hidden from users>"
+				]
+			},
+			{
+				"text": "find a crudely-drawn map",
+				"uniques": [
+					"Reveal up to [5] [All] within a [5] tile radius <hidden from users>"
+				]
+			},
+			{
+				"text": "discover holy symbols",
+				"uniques": [
+					"Only available <when religion is enabled> <hidden from users>",
+					"Gain enough Faith for a Pantheon <hidden from users>",
+					"Only available <before founding a Pantheon> <hidden from users>",
+					"Only available <after turn number [20]> <hidden from users>"
+				]
+			},
+			{
+				"text": "an ancient prophecy",
+				"uniques": [
+					"Only available <when religion is enabled> <hidden from users>",
+					"Gain enough Faith for [33]% of a Great Prophet <hidden from users>",
+					"Unavailable <after generating a Great Prophet> <hidden from users>",
+					"Only available <after founding a Pantheon> <hidden from users>",
+					"Only available <after turn number [20]> <hidden from users>"
+				]
 			}
 		]
 	},
@@ -124,6 +263,24 @@
 			}
 		]
 	},
+
+	// Kris Swordsman: Mystic Blade
+	{
+		"name": "Mystic Blade",
+		"text": "Provides a randomly selected special promotion after the first battle",
+		"presentation": "None", // A presentation of "None" will select at random.
+		"choices": [
+			{ "text": "Invulnerability", 	"uniques": [ "[This Unit] gains the [Invulnerability] promotion" ] },
+			{ "text": "Sneak Attack", 		"uniques": [ "[This Unit] gains the [Sneak Attack] promotion" ] },
+			{ "text": "Heroism", 			"uniques": [ "[This Unit] gains the [Heroism] promotion" ] },
+			{ "text": "Ambition", 			"uniques": [ "[This Unit] gains the [Ambition] promotion" ] },
+			{ "text": "Restlessness", 		"uniques": [ "[This Unit] gains the [Restlessness] promotion" ] },
+			{ "text": "Recruitment", 		"uniques": [ "[This Unit] gains the [Recruitment] promotion" ] },
+			{ "text": "Enemy Blade", 		"uniques": [ "[This Unit] gains the [Enemy Blade] promotion" ] },
+			{ "text": "Evil Spirits", 		"uniques": [ "[This Unit] gains the [Evil Spirits] promotion" ] }
+		]
+	},
+
 	// Terracotta Army
 	{
 		"name": "Terracotta Army - Melee",

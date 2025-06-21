@@ -1,8 +1,5 @@
 [
-	{
-		"name": "Heavy Charge",
-		"uniques": ["[+25]% Strength <when attacking>"]
-	},
+	// Zulu
 	{
 		"name": "Buffalo Horns",
 		"uniques": [
@@ -11,103 +8,307 @@
 			"[+25]% to Flank Attack bonuses",
 			"Only available <for [Zulu] Civilizations>"
 		],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 1
-	},
-	{
-		"name": "Buffalo Chest",
-		"uniques": ["[+10]% Strength <when fighting in [Open terrain] tiles>","[+10]% Strength <when defending> <vs [Ranged] units>","[+25]% to Flank Attack bonuses"],
-		"prerequisites": ["Buffalo Horns"],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 2
-	},
-	{
-		"name": "Buffalo Loins",
-		"uniques": ["[+15]% Strength","[+10]% Strength <when defending> <vs [Ranged] units>","[+25]% to Flank Attack bonuses"],
-		"prerequisites": ["Buffalo Chest"],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 3
-	},
-	{
-		"name": "Mystic Blade", // only for Kris Swordsman and subsequent upgrades
-		"civilopediaText": [{"text": "Access to special promotions"}],
-		"uniques": ["Only available <for [Kris Swordsman] units>"],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 1
-	},
-	{
-		"name": "Invulnerability",
-		"uniques": ["[+50]% Strength <when defending>", "[+20] HP when healing","Only available <for units without [Ambition]>","Only available <for units without [Restlessness]>","Only available <for units without [Heroism]>","Only available <for units without [Sneak Attack]>"],
-		"prerequisites": ["Mystic Blade"],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 2
-	},
-	{
-		"name": "Sneak Attack",
-		"uniques": ["[+50]% to Flank Attack bonuses","Only available <for units without [Ambition]>","Only available <for units without [Restlessness]>","Only available <for units without [Heroism]>","Only available <for units without [Invulnerability]>"],
-		"prerequisites": ["Mystic Blade"],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 2
-	},
-	{
-		"name": "Restlessness",
-		"uniques": ["[1] additional attacks per turn","[+1] Movement","Only available <for units without [Ambition]>","Only available <for units without [Heroism]>","Only available <for units without [Sneak Attack]>","Only available <for units without [Invulnerability]>"],
-		"prerequisites": ["Mystic Blade"],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 2
-	},
-	{
-		"name": "Heroism",
-		"uniques": ["[+15]% Strength bonus for [Military] units within [2] tiles","Only available <for units without [Ambition]>","Only available <for units without [Restlessness]>","Only available <for units without [Sneak Attack]>","Only available <for units without [Invulnerability]>"],
-		"prerequisites": ["Mystic Blade"],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 2
-	},
-	{
-		"name": "Ambition",
-		"uniques": ["[+50]% Strength <when attacking>","[-20]% Strength <when defending>","Only available <for units without [Restlessness]>","Only available <for units without [Heroism]>","Only available <for units without [Sneak Attack]>","Only available <for units without [Invulnerability]>"],
-		"prerequisites": ["Mystic Blade"],
-		"unitTypes": ["Sword","Gunpowder"],
-		"column": 2
-	},
-	{
-		"name": "Homeland Guardian",
-		"uniques": ["[+25]% Strength <when fighting in [Friendly Land] tiles>"]
-	},
-	{
-		"name": "Desert Warrior",
-		"uniques": ["[+50]% Strength <when fighting in [Desert] tiles>"]
-	},
-	{
-		"name": "Paradrop",
-		"uniques": ["Comment [May Paradrop up to 9 tiles from inside friendly territory]", "May Paradrop up to [9] tiles from inside friendly territory <for units without [Skyranger]> <hidden from users>"]
-	},
-	{
-		"name": "Skyranger",
-		"uniques": ["May Paradrop up to [40] tiles from inside friendly territory","May Paradrop up to [49] tiles from inside friendly territory <for units with [Paradrop]> <hidden from users>"]
-	},
-	{
-		"name": "Altitude Training",
-		"uniques": ["Double movement in [Hill]","[+10]% Strength <when fighting in [Hill] tiles>"]
-	},
-	{
-		"name": "Lightning Warfare",
-		"uniques": [
-			"Ignores Zone of Control"
-		],
 		"civilopediaText": [
 			{
-				"text": "Lightning Warfare",
-				"link": "Policy/Lightning Warfare"
+				"text": "Requires [Ikanda] to be built in the city",
+				"link": "Building/Ikanda"
 			}
 		]
 	},
 	{
-		"name": "Caravansary Benefit",
+		"name": "Buffalo Chest",
+		"uniques": [
+			"[+10]% Strength <when fighting in [Open terrain] tiles>",
+			"[+10]% Strength <when defending> <vs [Ranged] units>",
+			"[+25]% to Flank Attack bonuses",
+			"Only available <for [Zulu] Civilizations>"
+		],
+		"prerequisites": ["Buffalo Horns"],
+		"unitTypes": ["Sword"]
+	},
+	{
+		"name": "Buffalo Loins",
+		"uniques": [
+			"[+10]% Strength",
+			"[+10]% Strength <when defending> <vs [Ranged] units>",
+			"[+25]% to Flank Attack bonuses",
+			"Only available <for [Zulu] Civilizations>"
+		],
+		"prerequisites": ["Buffalo Chest"],
+		"unitTypes": ["Sword"]
+	},
+
+	// Kris Swordsman
+	{
+		"name": "Mystic Blade", // https://civilization.fandom.com/wiki/Kris_Swordsman_(Civ5)
+		"uniques": [
+			"Comment [Provides a randomly selected special promotion after the first battle]",
+			"Triggers a [Mystic Blade] event <hidden from users>"
+		],
+		"civilopediaText": [
+			{ "text": "Invulnerability", 	"link": "Promotion/Invulnerability" },
+			{ "text": "Sneak Attack", 		"link": "Promotion/Sneak Attack" },
+			{ "text": "Heroism", 			"link": "Promotion/Heroism" },
+			{ "text": "Ambition", 			"link": "Promotion/Ambition" },
+			{ "text": "Restlessness", 		"link": "Promotion/Restlessness" },
+			{ "text": "Recruitment", 		"link": "Promotion/Recruitment" },
+			{ "text": "Enemy Blade", 		"link": "Promotion/Enemy Blade" },
+			{ "text": "Evil Spirits", 		"link": "Promotion/Evil Spirits" },
+			{ "separator": true },
+			{ "text": "Kris Swordsman", 	"link": "Unit/Kris Swordsman" }
+		],
+		"innerColor": [88, 196, 221]
+	},
+	{
+		"name": "Invulnerability",
+		"uniques": [
+			"[+30]% Strength <when defending>",
+			"[+20] HP when healing"
+		],
+		"prerequisites": ["Mystic Blade"],
+		"innerColor": [88, 196, 221]
+	},
+	{
+		"name": "Sneak Attack",
+		"uniques": [
+			"[+50]% to Flank Attack bonuses"
+		],
+		"prerequisites": ["Mystic Blade"],
+		"innerColor": [88, 196, 221]
+	},
+	{
+		"name": "Heroism",
+		"uniques": [
+			"[+15]% Strength bonus for [Military] units within [2] tiles"
+		],
+		"prerequisites": ["Mystic Blade"],
+		"innerColor": [88, 196, 221]
+	},
+	{
+		"name": "Ambition",
+		"uniques": [
+			"[+50]% Strength <when attacking>",
+			"[-20]% Strength <when defending>"
+		],
+		"prerequisites": ["Mystic Blade"],
+		"innerColor": [88, 196, 221]
+	},
+	{
+		"name": "Restlessness",
+		"uniques": [
+			"[1] additional attacks per turn",
+			"[+1] Movement"
+		],
+		"prerequisites": ["Mystic Blade"],
+		"innerColor": [88, 196, 221]
+	},
+	{
+		"name": "Recruitment",
+		"uniques": [
+			"[This Unit] heals [50] HP <upon defeating a [Major] unit>"
+		],
+		"prerequisites": ["Mystic Blade"],
+		"innerColor": [88, 196, 221]
+	},
+	{
+		"name": "Enemy Blade",
+		"uniques": [
+			"[This Unit] takes [20] damage <upon ending a turn in a [Enemy Land] tile>"
+		],
+		"prerequisites": ["Mystic Blade"],
+		"innerColor": [174, 42, 41]
+	},
+	{
+		"name": "Evil Spirits",
+		"uniques": [
+			"[-10]% Strength <when attacking>",
+			"[-30]% Strength <when defending>"
+		],
+		"prerequisites": ["Mystic Blade"],
+		"innerColor": [174, 42, 41]
+	},
+
+	// Paratrooper and Future Soldier
+	{
+		"name": "Paradrop",
+		"uniques": [
+			"Comment [May Paradrop up to [9] tiles from inside friendly territory]",
+			"May Paradrop up to [9] tiles from inside friendly territory <for units without [Skyranger]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Skyranger",
+		"uniques": [
+			"Comment [May Paradrop up to [40] tiles from inside friendly territory]",
+			"May Paradrop up to [40] tiles from inside friendly territory <for units without [Paradrop]> <hidden from users>",
+			"May Paradrop up to [49] tiles from inside friendly territory <for units with [Paradrop]> <hidden from users>"
+		]
+	},
+
+	// Mount Kilimanjaro
+	{
+		"name": "Altitude Training",
+		"uniques": [
+			"Double movement in [Hill]",
+			"[+10]% Strength <when fighting in [Hill] tiles>"
+		]
+	},
+
+	// Lightning Warfare
+	{
+		"name": "Lightning Warfare",
+		"uniques": [
+			"Ignores Zone of Control",
+			"[15]% Strength <when attacking>",
+			"[1] Movement"
+		],
+		"civilopediaText": [
+			{ "text": "Requires [Lightning Warfare]", "link": "Policy/Lightning Warfare" }
+		]
+	},
+
+	// Caravansary
+	{
+		"name": "[Caravansary] ability",
 		"uniques": [
 			// TODO: Produce an additional 2 Gold when connecting to another civilization.
 			"[1] Movement", // TODO: Land trade routes originating from this city have a 50% increase in range
-			"Comment [Double influence when conducting a Trade Route in City-States]"
+			"Ignores terrain cost",
+			"Comment [Double influence when conducting a [Trade Route] in City-States]"
+		],
+		"civilopediaText": [
+			{ "text": "Caravan", "link": "Unit/Caravan" }
+		]
+	},
+
+	// Harbor
+	{
+		"name": "[Harbor] ability",
+		"uniques": [
+			"[2] Movement",
+			"Comment [Double influence when conducting a [Trade Route] in City-States]"
+		],
+		"civilopediaText": [
+			{ "text": "Cargo Ship", "link": "Unit/Cargo Ship" }
+		]
+	},
+
+	// Iroquois
+	{
+		"name": "The Great Warpath",
+		"uniques": [
+			// Caravans move along Forest and Jungle as if they were Roads.
+			"Double movement in [Jungle]",
+			"Double movement in [Forest]",
+			"Only available <for [Iroquois] Civilizations>",
+			"This Promotion is free <hidden from users>"
+		]
+	},
+
+	// Foreign Legion
+	{
+		"name": "Foreign Lands Bonus",
+		"uniques": [
+			"[+20]% Strength <when fighting in [Foreign Land] tiles>"
+		],
+		"innerColor": [253, 228, 2]
+	},
+
+	// Landsknecht
+	{
+		"name": "City Plunder",
+		"uniques": [
+			"Earn [100]% of the damage done to [City] units as [Gold]"
+		]
+	},
+
+	// Pictish Warrior, Landsknecht, Sipahi, Paratrooper
+	{
+		"name": "No movement cost to pillage",
+		"uniques": [
+			"No movement cost to pillage"
+		]
+	},
+
+	// Golden Age from Victories
+	{
+		"name": "Golden Age from Victories",
+		"uniques": [
+			"Instantly gain [1] [Golden Age points] <upon defeating a [Military] unit>"
+		]
+	},
+
+	// Winged-Hussar
+	{
+		"name": "Heavy Charge",
+		"uniques":[
+			"[+25]% Strength <when attacking>" // TODO: Forces defender to retreat if it inflicts more damage than it receives. A defender who cannot retreat takes extra damage.
+		]
+	},
+
+	// Berber Cavalry
+	{
+		"name": "Homeland Guardian",
+		"uniques": [
+			"[+25]% Strength <when fighting in [Friendly Land] tiles>"
+		]
+	},
+	{
+		"name": "Desert Warrior",
+		"uniques": [
+			"[+50]% Strength <when fighting in [Desert] tiles>"
+		]
+	},
+
+	// Comanche Riders
+	{
+		"name": "Full Moon Striker",
+		"uniques": [
+			"[1] Movement"
+		]
+	},
+
+	// Airport
+	{
+		"name": "[Airport] ability",
+		"uniques": [
+			"[+2] Air Interception Range",
+			"[+10]% Strength when performing Air Sweep",
+			"[1] Movement"
+		]
+	},
+
+	// Pathfinder: Native Tongue
+	{
+		"name": "Native Tongue",
+		"uniques": [
+			"Comment [May choose benefit when discovering [Ancient ruins]]",
+			"Triggers a [Native Tongue] event <upon entering a [Ancient ruins] tile> <hidden from users>",
+			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
+			// Upgrading Pathfinder to Composite Bowman does not keep Native Tongue
+			"[This Unit] loses the [Native Tongue] promotion <upon turn end> <for [Composite Bowman] units> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Ancient ruins",
+				"link": "Improvement/Ancient ruins"
+			}
+		]
+	}
+
+	// Siege Tower: Sapper
+	{
+		"name": "Sapper",
+		"uniques": [
+			"[+50]% Strength bonus for [Land] units within [2] tiles <when attacking> <vs cities>",
+			"[This Unit] loses the [Sapper] promotion <upon turn end> <in tiles not adjacent to [City center] tiles>",
+			"[This Unit] loses the [Sapper] promotion <upon turn end> <for [Trebuchet] units> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Siege Tower",
+				"link": "Unit/Siege Tower"
+			}
 		]
 	}
 ]

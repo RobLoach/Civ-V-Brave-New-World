@@ -38,7 +38,7 @@
 			"Generated on every [36] tiles <in [{Featureless} {Grassland}] tiles>"
 		],
 		"civilopediaText": [
-			{ "text": "The North American bison, which once covered the Great Plains in massive herds, was the primary source for the meat, sinew, hide and bone necessary for survival by many native tribes. Hunted to near extinction by Americans in the late 1800s, in recent years the buffalo has made a comeback due to federal and state wildlife programs." }
+			{ "text": "[Bison] are found in [Plains] and [Grassland], providing [Food] that allows cities in these regions to grow even more rapidly. Improve them with [Camp]s as soon as you're able, and you'll turn nearby cities into [Population] and [Production] centers. " }
 		]
 	},
 	{
@@ -55,9 +55,11 @@
 			"Doesn't generate naturally <in [Tundra] tiles>"
 		],
 		"civilopediaText": [
-			{ "text": "Cocoa beans, the product of the cacao tree native to South America, was an important commodity in pre-Columbian Mesoamerica, and figured prominently in tribal cultures. Introduced by the Spanish to Europe, by the mid-1700s it was immensely popular there as a beverage, cooking ingredient, and even as a medicine." }
+			{ "text": "[Cocoa], like [Bananas], is found only in [Jungle]s. You'll have to remove the [Jungle] to improve it with a [Plantation], but it's usually worth your while if you need extra [Happiness] and [Gold]." }
 		]
 	},
+
+	// Indonesia Unique Luxuries
 	{
 		"name": "Nutmeg",
 		"gold": 2,
@@ -67,21 +69,15 @@
 			"Excluded from map editor"
 		],
 		"civilopediaText": [
-			{ "text": "Nutmeg trees are evergreens indigenous to the Banda Islands in Indonesia. Nutmeg has been used in the culinary culture of several civilizations for centuries. In Penang cuisine it is often boiled or blended as a drink; in India it used as a sweet; and in Middle Eastern cooking it is used to spice savory dishes. But it was the discovery of the source of nutmeg in Indonesia in 1511 AD by the Portuguese explorer Albuquerque that set off the rush to import the spice to the tables of Europe." },
+			{ "text": "[Nutmeg] is a unique luxury resource which appears only in one of the first three [Indonesia]n cities founded on landmasses other than the one their [Capital] is on." },
 			{ "separator": true },
 			{
-				"text": "Pepper",
-				"link": "Resource/Pepper"
-			},
-			{
-				"text": "Cloves",
-				"link": "Resource/Cloves"
-			},
-			{ "separator": true },
-			{
-				"text": "Unique to Indonesia",
+				"text": "Unique to [Indonesia]",
 				"link": "Nation/Indonesia"
-			}
+			},
+			{ "text": "See also" },
+			{ "text": "Pepper", "link": "Resource/Pepper" },
+			{ "text": "Cloves", "link": "Resource/Cloves" }
 		]
 	},
 	{
@@ -93,21 +89,15 @@
 			"Excluded from map editor"
 		],
 		"civilopediaText": [
-			{ "text": "Cloves are the dried flower bud from a tree native to the Maluku Islands in Indonesia; an aromatic spice, it is used in cuisines worldwide. Now harvested primarily in Indonesia, India, Zanzibar and Madagascar, cloves have a numbing effect on mouth tissues and have been used in the past as a medicine and a drug as well as a spice. Until planted outside the islands, the Dutch East India Company had a virtual monopoly on the spice; in Europe in the 17th and 18th centuries, cloves were quite literally worth their weight in gold due to the demand." },
+			{ "text": "[Cloves] are a unique luxury resource which appear only in one of the first three [Indonesia]n cities founded on landmasses other than the one their [Capital] is on." },
 			{ "separator": true },
 			{
-				"text": "Pepper",
-				"link": "Resource/Pepper"
-			},
-			{
-				"text": "Nutmeg",
-				"link": "Resource/Nutmeg"
-			},
-			{ "separator": true },
-			{
-				"text": "Unique to Indonesia",
+				"text": "Unique to [Indonesia]",
 				"link": "Nation/Indonesia"
-			}
+			},
+			{ "text": "See also" },
+			{ "text": "Pepper", "link": "Resource/Pepper" },
+			{ "text": "Nutmeg", "link": "Resource/Nutmeg" }
 		]
 	},
 	{
@@ -119,21 +109,15 @@
 			"Excluded from map editor"
 		],
 		"civilopediaText": [
-			{ "text": "Pepper, in many forms, has been grown virtually everywhere in the world and used for millennia to season our food. Black peppercorns were found in the nostrils of Ramesses II, part of the mummification process. It has been used in Southeast Asian cuisine since the 2nd century BC. Archaeological finds indicate that various hot peppers were used by the Aztecs and Mayans in cooking. In Rome, so valuable was pepper that it was used as collateral for loans, and Attila demanded a ton of pepper to spare the city in the 5th Century AD. Pepper has justifiably been called the \"king of spice.\"" },
+			{ "text": "[Pepper] is a unique luxury resource which appears only in one of the first three [Indonesia]n cities founded on landmasses other than the one their [Capital] is on." },
 			{ "separator": true },
 			{
-				"text": "Cloves",
-				"link": "Resource/Cloves"
-			},
-			{
-				"text": "Nutmeg",
-				"link": "Resource/Nutmeg"
-			},
-			{ "separator": true },
-			{
-				"text": "Unique to Indonesia",
+				"text": "Unique to [Indonesia]",
 				"link": "Nation/Indonesia"
-			}
+			},
+			{ "text": "See also" },
+			{ "text": "Cloves", "link": "Resource/Cloves" },
+			{ "text": "Nutmeg", "link": "Resource/Nutmeg" }
 		]
 	},
 
@@ -145,70 +129,30 @@
 			"Cannot be traded <hidden from users>",
 			"Stockpiled <hidden from users>",
 			"Excluded from map editor",
-			"Not shown on world screen",
+			"Not shown on world screen <without [Trade Route]>",
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
 			{
-				"text": "A Trade Route is required in order for a Caravan or Cargo Ship to establish a trade connection with other civilizations or City-States."
+				"text": "A Trade Route is required in order for a [Caravan] or [Cargo Ship] to establish a trade connection with other civilizations or City-States."
 			},
 			{ "separator": true },
-			{
-				"text": "Caravan",
-				"link": "Unit/Caravan"
-			},
-			{
-				"text": "Cargo Ship",
-				"link": "Unit/Cargo Ship"
-			},
-			{"separator": true},
-			{
-				"text": "Technologies"
-			},
-			{
-				"text": "Animal Husbandry",
-				"link": "Technology/Animal Husbandry"
-			},
-			{
-				"text": "Sailing",
-				"link": "Technology/Sailing"
-			},
-			{
-				"text": "Engineering",
-				"link": "Technology/Engineering"
-			},
-			{
-				"text": "Compass",
-				"link": "Technology/Compass"
-			},
-			{
-				"text": "Banking",
-				"link": "Technology/Banking"
-			},
-			{
-				"text": "Biology",
-				"link": "Technology/Biology"
-			},
-			{
-				"text": "Railroads",
-				"link": "Technology/Railroads"
-			},
-			{
-				"text": "Pharmaceuticals",
-				"link": "Technology/Pharmaceuticals"
-			},
-			{"separator": true},
-			{
-				"text": "Wonders"
-			},
-			{
-				"text": "Colossus",
-				"link": "Wonder/Colossus"
-			},
-			{
-				"text": "Petra",
-				"link": "Wonder/Petra"
-			}
+			{ "text": "Caravan", "link": "Unit/Caravan" },
+			{ "text": "Cargo Ship", "link": "Unit/Cargo Ship" },
+			{ "separator": true },
+			{ "text": "Technologies" },
+			{ "text": "Animal Husbandry", "link": "Technology/Animal Husbandry" },
+			{ "text": "Sailing", "link": "Technology/Sailing" },
+			{ "text": "Engineering", "link": "Technology/Engineering" },
+			{ "text": "Compass", "link": "Technology/Compass" },
+			{ "text": "Banking", "link": "Technology/Banking" },
+			{ "text": "Biology", "link": "Technology/Biology" },
+			{ "text": "Railroads", "link": "Technology/Railroads" },
+			{ "text": "Pharmaceuticals", "link": "Technology/Pharmaceuticals" },
+			{ "separator": true },
+			{ "text": "Wonders" },
+			{ "text": "Colossus", "link": "Wonder/Colossus" },
+			{ "text": "Petra", "link": "Wonder/Petra" }
 		]
     },
 
@@ -223,25 +167,17 @@
 			"Landmark"
 		],
         "uniques": [
-			"Generated on every [150] tiles",
+			"Generated on every [200] tiles",
 			"Not shown on world screen",
-			"Cannot be traded <hidden from users>"
+			"Cannot be traded <hidden from users>",
+			"Antiquity"
 		],
 		"civilopediaText": [
-			{ "text": "Antiquity Sites can be dug up for Artifacts, or turned into Landmarks, by Archaeologists." },
+			{ "text": "[Antiquity Site]s can be dug up for [Artifact]s, or turned into [Landmark]s, by [Archaeologist]s." },
 			{ "separator": true },
-			{
-				"text": "Dug up by Archaeologists",
-				"link": "Unit/Archaeologist"
-			},
-			{
-				"text": "Architectural Digs result in Artifacts",
-				"link": "Resource/Artifact"
-			},
-			{
-				"text": "See also: Hidden Antiquity Site",
-				"link": "Resource/Hidden Antiquity Site"
-			}
+			{ "text": "Archaeologist", "link": "Unit/Archaeologist" },
+			{ "text": "See also" },
+			{ "text": "Hidden Antiquity Site", "link": "Resource/Hidden Antiquity Site" }
 		]
     },
     {
@@ -253,184 +189,98 @@
 			"Archaeological Dig"
 		],
         "uniques": [
-			"Generated on every [200] tiles",
+			"Generated on every [250] tiles",
 			"Not shown on world screen",
-			"Cannot be traded <hidden from users>"
+			"Cannot be traded <hidden from users>",
+			"Antiquity"
 		],
 		"civilopediaText": [
-			{ "text": "Hidden Antiquity Sites can be dug up by Archaeologists for a chance of Great Works of Writing and Cultural Renaissances. They are revealed by completing the Exploration Policy tree." },
+			{ "text": "[Hidden Antiquity Site]s can be dug up by [Archaeologist]s for chance of a [Great Work of Writing] or a Cultural Renaissance. They are revealed by completing the [Exploration] Policy tree." },
 			{ "separator": true },
-			{
-				"text": "Dug up by Archaeologists",
-				"link": "Unit/Archaeologist"
-			},
-			{
-				"text": "Archaeological Digs can dig up Great Works of Writing",
-				"link": "Resource/Great Work of Writing"
-			},
-			{
-				"text": "Revealed by completing the Exploration Policy Tree",
-				"link": "Policy/Exploration Complete"
-			},
-			{
-				"text": "See also: Antiquity Site",
-				"link": "Resource/Antiquity Site"
-			}
+			{ "text": "Requires [Exploration Complete]", "link": "Policy/Exploration Complete" },
+			{ "text": "Archaeologist", "link": "Unit/Archaeologist" },
+			{ "text": "See also" },
+			{ "text": "Antiquity Site", "link": "Resource/Antiquity Site" }
 		]
     },
 
 	// Great Works
     {
         "name": "Great Work of Writing",
-        "resourceType": "Strategic",
+        "resourceType": "Bonus",
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
-			"Doesn't generate naturally"
+			"Doesn't generate naturally",
+			"Not shown on world screen",
+			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
-			{ "text": "Can be traded, or slotted into a Great Work of Writing Slot." },
+			{ "text": "Slotted into a [Great Work of Writing] Slot" },
 			{ "separator": true },
-			{
-				"text": "Great Work of Writing Slot",
-				"link": "Resource/Great Work of Writing Slot"
-			},
-			{
-				"text": "Chance to be found in Hidden Antiquity Sites",
-				"link": "Resource/Hidden Antiquity Site"
-			},
-			{"text": "Great Works", "link": "Tutorial/Great Works"}
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "See also" },
+			{ "text": "Great Writer", "link": "Unit/Great Writer" },
+			{ "text": "Hidden Antiquity Site", "link": "Resource/Hidden Antiquity Site" },
 		]
     },
     {
         "name": "Great Work of Art",
-        "resourceType": "Strategic",
+        "resourceType": "Bonus",
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
-			"Doesn't generate naturally"
+			"Doesn't generate naturally",
+			"Not shown on world screen",
+			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
-			{ "text": "Can be traded, or slotted into a Great Work of Art Slot." },
+			{ "text": "Slotted into a [Great Work of Art] Slot" },
 			{ "separator": true },
-			{
-				"text": "Great Work of Art Slot",
-				"link": "Resource/Great Work of Art Slot"
-			},
-			{"text": "Great Works", "link": "Tutorial/Great Works"}
+			{ "text": "Great Works", "link": "Tutorial/Great Works"},
+			{ "text": "See also" },
+			{ "text": "Great Artist", "link": "Unit/Great Artist" }
 		]
     },
     {
         "name": "Great Work of Music",
-        "resourceType": "Strategic",
+        "resourceType": "Bonus",
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
-			"Doesn't generate naturally"
+			"Doesn't generate naturally",
+			"Not shown on world screen",
+			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
-			{ "text": "Can be traded, or slotted into a Great Work of Music Slot." },
+			{ "text": "Slotted into a [Great Work of Music] Slot" },
 			{ "separator": true },
-			{
-				"text": "Great Work of Music Slot",
-				"link": "Resource/Great Work of Music Slot"
-			},
-			{"text": "Great Works", "link": "Tutorial/Great Works"}
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "See also" },
+			{ "text": "Great Musician", "link": "Unit/Great Musician" }
 		]
     },
     {
         "name": "Artifact",
-        "resourceType": "Strategic",
+        "resourceType": "Bonus",
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
-			"Doesn't generate naturally"
-		],
-		"civilopediaText": [
-			{ "text": "Artifacts are found from Archaeological Digs with Archaeologists on Antiquity Sites. They can then be slotted into a Great Work of Art Slot." },
-			{ "separator": true },
-			{
-				"text": "Found by Archaeologist",
-				"link": "Unit/Archaeologist"
-			},
-			{
-				"text": "Found in Antiquity Site",
-				"link": "Resource/Antiquity Site"
-			},
-			{
-				"text": "Used in a Great Work of Art Slot in cities",
-				"link": "Resource/Great Work of Art Slot"
-			},
-			{"text": "Great Works", "link": "Tutorial/Great Works"}
-		]
-    },
-    {
-        "name": "Great Work of Writing Slot",
-        "resourceType": "Strategic",
-        "uniques": [
-			"City-level resource",
-			"Cannot be traded <hidden from users>",
 			"Not shown on world screen",
-			"Excluded from map editor",
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
-			{ "text": "Slotted with a Great Work of Writing." },
+			{ "text": "[Artifact]s are found from an [Archaeological Dig] with an [Archaeologist] on an [Antiquity Site]. They can then be slotted into a [Great Work of Art] Slot." },
 			{ "separator": true },
-			{
-				"text": "Great Work of Writing",
-				"link": "Resource/Great Work of Writing"
-			},
-			{"text": "Great Works", "link": "Tutorial/Great Works"}
-		]
-    },
-    {
-        "name": "Great Work of Art Slot",
-        "resourceType": "Strategic",
-        "uniques": [
-			"City-level resource",
-			"Cannot be traded <hidden from users>",
-			"Not shown on world screen",
-			"Excluded from map editor",
-			"Doesn't generate naturally"
-		],
-		"civilopediaText": [
-			{ "text": "Slotted with either a Great Work of Art or an Artifact." },
-			{ "separator": true },
-			{
-				"text": "Great Work of Art",
-				"link": "Resource/Great Work of Art"
-			},
-			{
-				"text": "Artifact",
-				"link": "Resource/Artifact"
-			},
-			{"text": "Great Works", "link": "Tutorial/Great Works"}
-		]
-    },
-    {
-        "name": "Great Work of Music Slot",
-        "resourceType": "Strategic",
-        "uniques": [
-			"City-level resource",
-			"Cannot be traded <hidden from users>",
-			"Not shown on world screen",
-			"Excluded from map editor",
-			"Doesn't generate naturally"
-		],
-		"civilopediaText": [
-			{ "text": "Slotted with a Great Work of Music." },
-			{ "separator": true },
-			{
-				"text": "Great Work of Music",
-				"link": "Resource/Great Work of Music"
-			},
-			{"text": "Great Works", "link": "Tutorial/Great Works"}
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "See also" },
+			{ "text": "Archaeologist", "link": "Unit/Archaeologist" },
+			{ "text": "Antiquity Site", "link": "Resource/Antiquity Site" }
 		]
     },
 	{
 		"name": "Tourism",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"uniques": [
 			"Cannot be traded <hidden from users>",
 			"Stockpiled",
@@ -438,14 +288,16 @@
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
-			{"text": "Tourism is the key to achieving a Cultural Victory."}
+			{ "text": "[Tourism] is the key to achieving a Cultural Victory." },
+			{ "separator": true },
+			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
 	},
 
-	// Policies
+	// Policies: Ideology slot requirements
 	{
 		"name": "Level 1 Policy",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"uniques": [
 			"Cannot be traded <hidden from users>",
 			"Stockpiled",
@@ -457,7 +309,7 @@
 	},
 	{
 		"name": "Level 2 Policy",
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"uniques": [
 			"Cannot be traded <hidden from users>",
 			"Stockpiled",
