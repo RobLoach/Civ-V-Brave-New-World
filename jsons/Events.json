@@ -259,7 +259,9 @@
 			},
 			{
 				"text": "Abstain",
-				"uniqutes": []
+				"uniques": [
+					"Gain a free [World Congress - Vote Abstain] [in capital] <hidden from users>"
+				]
 			}
 		]
 	},

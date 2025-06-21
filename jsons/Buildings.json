@@ -2031,7 +2031,15 @@
 			"Unsellable",
 			"Never destroyed when the city is captured",
 			"Triggers a global alert upon completion",
-			"Gain a free [World Congress - Propose a Resolution] [in capital] <every [10] turns>" // 20, then 15, then 10
+
+			// World Congress is held every 30 turns once it is founded and during the Renaissance Era. As the World Congress Era advances, meetings become more frequent - every 25 turns in the Industrial Era, 20 in the Modern Era, and 10 in the Atomic and Information Eras. In the two last eras, however, normal votes are alternated with World Leader votes, so the actual resolution voting takes place every 20 turns.
+			"Triggers a [World Congress - Propose a Resolution] event <every [35] turns> <before the [Renaissance era]>",
+			"Triggers a [World Congress - Propose a Resolution] event <every [30] turns> <during the [Renaissance era]>",
+			"Triggers a [World Congress - Propose a Resolution] event <every [25] turns> <during the [Industrial era]>",
+			"Triggers a [World Congress - Propose a Resolution] event <every [20] turns> <during the [Modern era]>",
+			"Triggers a [World Congress - Propose a Resolution] event <every [15] turns> <during the [Atomic era]>",
+			"Triggers a [World Congress - Propose a Resolution] event <every [10] turns> <during the [Information era]>",
+			"Triggers a [World Congress - Propose a Resolution] event <every [10] turns> <during the [Future era]>"
 		],
 		"quote": "'Diplomacy is the art of telling plain truths.' - Winston Churchill"
 	},
@@ -2131,10 +2139,7 @@
 		"cost": 1,
 		"uniques": [
 			"World Congress Proposal",
-			"Only available <if [World Congress - Propose a Resolution] is constructed>",
-			"Remove [World Congress - Propose a Resolution] [in all cities]",
-			"Unavailable <if [World Congress Proposal] is constructed by anybody>",
-			"Only available <in [Capital] cities>",
+			"Unavailable",
 			"Moves to new capital when capital changes",
 			"Never destroyed when the city is captured",
 			"Unsellable",
