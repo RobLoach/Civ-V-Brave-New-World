@@ -33,7 +33,8 @@
 			"Ignores terrain cost",
 			"Uncapturable <hidden from users>",
 			"Cannot embark",
-			"Never appears as a Barbarian unit <hidden from users>"
+			"Never appears as a Barbarian unit <hidden from users>",
+			"[-66]% Gold from Great Merchant trade missions <hidden from users>"
 			// TODO: Within own cities, provide food and production after granary or workshop
 		],
 		"promotions": [
@@ -58,7 +59,8 @@
 			"[0] Sight <hidden from users>",
 			"May enter foreign tiles without open borders",
 			"Uncapturable <hidden from users>",
-			"Never appears as a Barbarian unit <hidden from users>"
+			"Never appears as a Barbarian unit <hidden from users>",
+			"[-66]% Gold from Great Merchant trade missions <hidden from users>"
 			// TODO: Within own cities, provide food and production after granary or workshop
 		]
 	},
