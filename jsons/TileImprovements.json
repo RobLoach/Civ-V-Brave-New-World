@@ -124,6 +124,9 @@
 			"Can also be built on tiles adjacent to fresh water <hidden from users>",
 			"Removes removable features when built <hidden from users>",
 
+			// City ruins
+			"Triggers a [Archaeological Dig] event <in [non-[Antiquity]] tiles> <hidden from users>",
+
 			// Antiquity Site
 			"Triggers a [Archaeological Dig] event <in [Antiquity Site] tiles> <hidden from users>",
 

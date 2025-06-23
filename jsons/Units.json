@@ -433,6 +433,8 @@
 		"movement": 4,
 		"uniques": [
 			"Can build [Antiquity Dig Site] improvements on tiles",
+			"Can instantly construct a [Landmark] improvement <in [City ruins] tiles> <by consuming this unit>",
+			"Can instantly construct a [Archaeological Dig] improvement <in [City ruins] tiles> <by consuming this unit>",
 			"Cannot be purchased",
 			"Never appears as a Barbarian unit <hidden from users>",
 			"Only available <in cities with a [University]>",
