@@ -310,9 +310,7 @@
 		"innerColor": [78,244,234],
 		"uniqueName": "Great Expanse",
 		"uniques": [
-			"Comment [Founded cities start with additional territory]",
-			// TODO: Newly founded cities to begin with 8 additional tiles. The following is <= 12 instead of 8.
-			"Gain control over [{non-[City-States]} {non-[Major]}] tiles in a [2]-tile radius <upon founding a city> <hidden from users>",
+			"Gain control over [8] tiles [in this city] <upon founding a city>",
 			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
 		],
 		"spyNames": ["Cameahwait", "Ondongarte", "Queenah", "Pugweenee", "Sacajawea", "Sagwitch", "Sanpitch", "Tetoharsky", "Tuziyammo", "Mugwayan"],
