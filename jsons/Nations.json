@@ -170,9 +170,9 @@
 		"outerColor": [240,240,240],
 		"innerColor": [8,25,115],
 		"uniqueName": "Mare Clausum",
+		"uniqueText": "Resource diversity grants twice as much [Gold] for Portugal in [Trade Route]s."
 		"uniques": [
-			// Resource diversity grants twice as much Gold for Portugal in Trade Route.
-			"[+100]% [Gold] from Trade Routes"
+			"[+100]% Gold from Great Merchant trade missions"
 		],
 		"spyNames": ["Francisco", "Gaspar", "Alvaro", "Bento", "Roberto", "Afonso", "Galeote", "Diogo", "Eliana", "Oriana"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
