@@ -104,7 +104,8 @@
             "Will not be replaced by automated units <hidden from users>",
 			"Remove [Antiquity Site] resources from this tile <hidden from users>",
 			"Pillaging this improvement yields approximately [+20 Gold]",
-			"Antiquity Dig Site"
+			"Antiquity Dig Site",
+			"Only available <for [Archaeologist] units>"
 		],
 		"civilopediaText": [
 			{ "text": "Landmarks are built from [Antiquity Site]s by [Archaeologist]s, consuming the unit." },
@@ -142,7 +143,8 @@
             "Will not be replaced by automated units <hidden from users>",
 			"Can be built outside your borders",
 			"Excluded from map editor",
-			"Antiquity Dig Site"
+			"Antiquity Dig Site",
+			"Only available <for [Archaeologist] units>"
 		],
 		"shortcutKey": "D",
 		"civilopediaText": [
