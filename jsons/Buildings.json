@@ -2015,5 +2015,24 @@
 			{ "text": "Modern era", "link": "Era/Modern era" },
 			{ "text": "Requires a [Factory] in at least [3] of [your] cities", "link": "Building/Factory" }
 		]
+	},
+	{
+		"name": "Switch Ideology",
+		"cost": 1,
+		"uniques": [
+			"Unavailable <in cities with a [Ideology]>",
+			"Only available <for [Human player] Civilizations> <hidden from users>",
+			"Unavailable <before adopting [Freedom]> <before adopting [Order]> <before adopting [Autocracy]> <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Limited to [1] per Civilization <hidden from users>",
+			"Only available <in [Capital] cities> <hidden from users>",
+			"Triggers a [Switch Ideology] event <hidden from users>",
+			"Nullifies [Happiness] [in all cities] <for [1] turns>"
+		],
+		"civilopediaText": [
+			{ "text": "Ideology", "link": "Building/Ideology" }
+		]
 	}
+
 ]

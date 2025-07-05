@@ -603,6 +603,7 @@
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
 			"Remove [Ideology] [in capital] <hidden from users>",
+			"Remove [Switch Ideology] [in capital] <hidden from users>",
 
 			// Preferred Ideology
 			"[+50]% weight to this choice for AI decisions",
@@ -831,6 +832,7 @@
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
 			"Remove [Ideology] [in capital] <hidden from users>",
+			"Remove [Switch Ideology] [in capital] <hidden from users>",
 
 			// Preferred Ideology
 			"[+50]% weight to this choice for AI decisions",
@@ -1054,6 +1056,7 @@
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
 			"Remove [Ideology] [in capital] <hidden from users>",
+			"Remove [Switch Ideology] [in capital] <hidden from users>",
 
 			// Preferred Ideology
 			"[+50]% weight to this choice for AI decisions",

@@ -126,6 +126,74 @@
 		]
 	},
 
+	// Remove Ideologies
+	{
+		"name": "Switch Ideology",
+		"text": "Switch Ideology",
+		"presentation": "None",
+		"choices": [
+			{
+				"text": "Switch Ideology",
+				"uniques": [
+					"Remove [Autocracy]",
+					"Remove [Elite Forces]",
+					"Remove [Mobilization]",
+					"Remove [United Front]",
+					"Remove [Futurism]",
+					"Remove [Industrial Espionage]",
+					"Remove [Fortified Borders]",
+					"Remove [Universal Healthcare (Autocracy)]",
+					"Remove [Militarism]",
+					"Remove [Lightning Warfare]",
+					"Remove [Police State]",
+					"Remove [Nationalism]",
+					"Remove [Third Alternative]",
+					"Remove [Total War]",
+					"Remove [Cult of Personality]",
+					"Remove [Gunboat Diplomacy]",
+					"Remove [Clausewitz's Legacy]",
+					"Remove [Autocracy Complete]",
+					"Remove [Order]",
+					"Remove [Hero of the People]",
+					"Remove [Socialist Realism]",
+					"Remove [Skyscrapers]",
+					"Remove [Patriotic War]",
+					"Remove [Double Agents]",
+					"Remove [Young Pioneers]",
+					"Remove [Universal Healthcare (Order)]",
+					"Remove [Academy of Sciences]",
+					"Remove [Party Leadership]",
+					"Remove [Resettlement]",
+					"Remove [Cultural Revolution]",
+					"Remove [Workers' Faculties]",
+					"Remove [Five-Year Plan]",
+					"Remove [Dictatorship of the Proletariat]",
+					"Remove [Iron Curtain]",
+					"Remove [Spaceflight Pioneers]",
+					"Remove [Order Complete]",
+					"Remove [Freedom]",
+					"Remove [Avant Garde]",
+					"Remove [Creative Expression]",
+					"Remove [Civil Society]",
+					"Remove [Covert Action]",
+					"Remove [Capitalism]",
+					"Remove [Economic Union]",
+					"Remove [Universal Healthcare (Freedom)]",
+					"Remove [Volunteer Army]",
+					"Remove [Urbanization]",
+					"Remove [Their Finest Hour]",
+					"Remove [Universal Suffrage]",
+					"Remove [New Deal]",
+					"Remove [Arsenal of Democracy]",
+					"Remove [Media Culture]",
+					"Remove [Treaty Organization]",
+					"Remove [Space Procurements]",
+					"Remove [Freedom Complete]"
+				]
+			}
+		]
+	},
+
 	// Pathfinder Native Tongue
 	{
 		"name": "Native Tongue",
