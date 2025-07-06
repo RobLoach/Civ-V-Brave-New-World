@@ -15,7 +15,19 @@
         "commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
         "diplomacy": 6, // Diplobalance
         "loyal": 7, // Loyalty
-        "expansion": 7 // Expansion
+        "expansion": 7, // Expansion
+		"priorities": {
+			"Tradition": 7, // Culture + Wonder
+			"Liberty": 7, // Expansion + TileImprovement
+			"Honor": 6, // Boldness + Likeliness to Declare War
+			"Commerce": 6, // Gold + Chatiness
+			"Patronage": 6, // CityStateCompetitiveness + CSFriendly
+			"Piety": 7, // Religion Emphasis + Protection of City-States
+			"Rationalism": 5, // Science Emphasis + Spaceship
+			"Freedom": 5, // Happiness Emphasis + Growth
+			"Autocracy": 20, // Boldness + Military Training Buildings Production
+			"Order": 8 // Production Emphasis
+		}
     },
     {
         "name": "Ashurbanipal",
@@ -33,7 +45,19 @@
         "commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
         "diplomacy": 5, // Diplobalance
         "loyal": 5, // Loyalty
-        "expansion": 6 // Expansion
+        "expansion": 6, // Expansion
+		"priorities": {
+			"Tradition": 5, // Culture Emphasis + Wonder Emphasis
+			"Liberty": 6, // Expansion + Tile Improvements
+			"Honor": 8, // Boldness + Likeliness to Declare War
+			"Commerce": 4, // Gold Emphasis + Chattiness
+			"Patronage": 4, // City-State Influence Competitiveness + Friendliness to City-States
+			"Piety": 7, // Religion Emphasis + Protection of City-States
+			"Rationalism": 6, // Science Emphasis + Spaceship
+			"Freedom": 5, // Happiness Emphasis + Growth
+			"Autocracy": 7, // Boldness + Military Training Buildings Production
+			"Order": 20 // Production Emphasis
+		}
     },
     {
         "name": "Pedro II",
@@ -51,7 +75,19 @@
         "commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
         "diplomacy": 5, // Diplobalance
         "loyal": 7, // Loyalty
-        "expansion": 5 // Expansion
+        "expansion": 5, // Expansion
+		"priorities": {
+			"Tradition": 6, // Culture Emphasis + Wonder Emphasis
+			"Liberty": 6, // Expansion + Tile Improvements
+			"Honor": 5, // Boldness + Likeliness to Declare War
+			"Commerce": 6, // Gold Emphasis + Chattiness
+			"Patronage": 5, // City-State Influence Competitiveness + Friendliness to City-States
+			"Piety": 7, // Religion Emphasis + Protection of City-States
+			"Rationalism": 6, // Science Emphasis + Spaceship
+			"Freedom": 8, // Happiness Emphasis + Growth
+			"Autocracy": 4, // Boldness + Military Training Buildings Production
+			"Order": 6 // Production Emphasis
+		}
     },
 	{
 		"name": "Shaka",
