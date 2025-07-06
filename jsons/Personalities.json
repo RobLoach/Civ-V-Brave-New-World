@@ -25,7 +25,7 @@
 			"Piety": 7, // Religion Emphasis + Protection of City-States
 			"Rationalism": 5, // Science Emphasis + Spaceship
 			"Freedom": 5, // Happiness Emphasis + Growth
-			"Autocracy": 20, // Boldness + Military Training Buildings Production
+			"Autocracy": 100, // Boldness + Military Training Buildings Production
 			"Order": 8 // Production Emphasis
 		}
     },
@@ -56,7 +56,7 @@
 			"Rationalism": 6, // Science Emphasis + Spaceship
 			"Freedom": 5, // Happiness Emphasis + Growth
 			"Autocracy": 7, // Boldness + Military Training Buildings Production
-			"Order": 20 // Production Emphasis
+			"Order": 100 // Production Emphasis
 		}
     },
     {
@@ -105,7 +105,19 @@
 		"commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
 		"diplomacy": 4, // Diplobalance
 		"loyal": 8, // Loyalty
-		"expansion": 11 // Expansion
+		"expansion": 11, // Expansion
+		"priorities": {
+			"Tradition": 3, // Culture Emphasis + Wonder Emphasis
+			"Liberty": 8, // Expansion + Tile Improvements
+			"Honor": 8, // Boldness + Likeliness to Declare War
+			"Commerce": 5, // Gold Emphasis + Chattiness
+			"Patronage": 4, // City-State Influence Competitiveness + Friendliness to City-States
+			"Piety": 7, // Religion Emphasis + Protection of City-States
+			"Rationalism": 3, // Science Emphasis + Spaceship
+			"Freedom": 4, // Happiness Emphasis + Growth
+			"Autocracy": 100, // Boldness + Military Training Buildings Production
+			"Order": 8 // Production Emphasis
+		}
 	},
 	{
 		"name": "Maria I",
@@ -123,7 +135,19 @@
 		"commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
 		"diplomacy": 5, // Diplobalance
 		"loyal": 5, // Loyalty
-		"expansion": 7 // Expansion
+		"expansion": 7, // Expansion
+		"priorities": {
+			"Tradition": 4, // Culture Emphasis + Wonder Emphasis
+			"Liberty": 7, // Expansion + Tile Improvements
+			"Honor": 4, // Boldness + Likeliness to Declare War
+			"Commerce": 7, // Gold Emphasis + Chattiness
+			"Patronage": 8, // City-State Influence Competitiveness + Friendliness to City-States
+			"Piety": 6, // Religion Emphasis + Protection of City-States
+			"Rationalism": 5, // Science Emphasis + Spaceship
+			"Freedom": 6, // Happiness Emphasis + Growth
+			"Autocracy": 4, // Boldness + Military Training Buildings Production
+			"Order": 5 // Production Emphasis
+		}
 	},
 	{
 		"name": "Gajah Mada",
