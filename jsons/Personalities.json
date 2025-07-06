@@ -161,16 +161,16 @@
 		"commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
 		"declareWar": 3, // Likeliness to Declare War,
 		"priorities": {
-          "Tradition": 10,
-          "Liberty": 2,
-          "Honor": 4,
-          "Commerce": 8,
-          "Patronage": 8,
-          "Piety": 7,
-          "Rationalism": 5,
-          "Freedom": 7,
-          "Autocracy": 4,
-          "Order": 5
+          "Tradition": 10, // Culture + Wonder
+          "Liberty": 2, // Expansion + TileImprovement
+          "Honor": 4, // Boldness + War
+          "Commerce": 8, // Gold + Chatiness
+          "Patronage": 8, // CityStateCompetitiveness + CSFriendly
+          "Piety": 7, // Faith + CS Friendly
+          "Rationalism": 5, // Science + Spaceship
+          "Freedom": 7, // Happiness + Growth
+          "Autocracy": 4, // Boldness + Military training
+          "Order": 5 // Defensive + Production
       }
 	},
 	{
