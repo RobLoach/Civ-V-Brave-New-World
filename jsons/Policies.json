@@ -113,8 +113,9 @@
                 "name": "Collective Rule",
                 "uniques": [
                     "[+50]% Production when constructing [Settler] units [in capital]",
-                    "Free [Settler] appears <for [non-[Venice]] Civilizations>",
-					"Free [Merchant of Venice] appears <for [Venice] Civilizations>"
+                    "Comment [Free [Settler] appears]",
+                    "Free [Settler] appears <for [non-[Venice]] Civilizations> <hidden from users>",
+                    "Free [Merchant of Venice] appears <for [Venice] Civilizations> <hidden from users>"
                 ],
                 "requires": ["Republic"],
                 "row": 2,
