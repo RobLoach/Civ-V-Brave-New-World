@@ -78,7 +78,75 @@
 			}
 		]
 	},
-
+	{
+        "name": "Liberty",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 5
+        },
+        "uniques": ["[+1 Culture] [in all cities]"],
+        "policies": [
+            {
+                "name": "Republic",
+                "uniques": [
+                    "[+1 Production] [in all cities]",
+                    "[+5]% Production when constructing [All] buildings [in all cities]",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Citizenship",
+                "uniques": [
+                    "Can build [all] improvements at a [+25]% rate",
+                    "Free [Worker] appears",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Collective Rule",
+                "uniques": [
+                    "[+50]% Production when constructing [Settler] units [in capital]",
+                    "Free [Settler] appears <for [non-[Venice]] Civilizations>",
+					"Free [Merchant of Venice] appears <for [Venice] Civilizations>"
+                ],
+                "requires": ["Republic"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Representation",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "requires": ["Citizenship"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Meritocracy",
+                "uniques": [
+                    "[+1 Happiness] [in all cities connected to capital]",
+                    "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "requires": ["Citizenship"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Liberty Complete",
+                "uniques": ["Free Great Person"]
+            }
+        ]
+    },
 	// Piety
 	{
 		"name": "Piety",

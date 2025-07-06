@@ -159,7 +159,19 @@
 		"happiness": 5, // Happiness Emphasis
 		"faith": 7, // Religion Emphasis
 		"commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
-		"declareWar": 3 // Likeliness to Declare War
+		"declareWar": 3, // Likeliness to Declare War,
+		"priorities": {
+          "Tradition": 10,
+          "Liberty": 2,
+          "Honor": 4,
+          "Commerce": 8,
+          "Patronage": 8,
+          "Piety": 7,
+          "Rationalism": 5,
+          "Freedom": 7,
+          "Autocracy": 4,
+          "Order": 5
+      }
 	},
 	{
 		"name": "Pocatello",
