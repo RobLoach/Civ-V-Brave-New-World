@@ -11,7 +11,7 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Rifleman", // Musketman in Vanilla/G&K
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Rifling",
 		"requiredResource": "Iron",
 		"promotions": ["Shock I", "Great Generals II"],
 		"uniques": ["Can build [Fishing Boats] improvements on tiles"],
