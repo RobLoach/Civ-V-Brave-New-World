@@ -25,8 +25,8 @@
 			"Piety": 7, // Religion Emphasis + Protection of City-States
 			"Rationalism": 5, // Science Emphasis + Spaceship
 			"Freedom": 5, // Happiness Emphasis + Growth
-			"Autocracy": 100, // Boldness + Military Training Buildings Production
-			"Order": 8 // Production Emphasis
+			"Autocracy": 9, // Boldness + Military Training Buildings Production
+			"Order": 7 // Production Emphasis
 		}
     },
     {
@@ -56,7 +56,7 @@
 			"Rationalism": 6, // Science Emphasis + Spaceship
 			"Freedom": 5, // Happiness Emphasis + Growth
 			"Autocracy": 7, // Boldness + Military Training Buildings Production
-			"Order": 100 // Production Emphasis
+			"Order": 9 // Production Emphasis
 		}
     },
     {
@@ -115,8 +115,8 @@
 			"Piety": 7, // Religion Emphasis + Protection of City-States
 			"Rationalism": 3, // Science Emphasis + Spaceship
 			"Freedom": 4, // Happiness Emphasis + Growth
-			"Autocracy": 100, // Boldness + Military Training Buildings Production
-			"Order": 8 // Production Emphasis
+			"Autocracy": 9, // Boldness + Military Training Buildings Production
+			"Order": 7 // Production Emphasis
 		}
 	},
 	{
@@ -165,7 +165,19 @@
 		"happiness": 6, // Happiness Emphasis
 		"faith": 7, // Religion Emphasis
 		"commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
-		"declareWar": 5 // Likeliness to Declare War
+		"declareWar": 5, // Likeliness to Declare War
+		"priorities": {
+			"Tradition": 6, // Culture Emphasis + Wonder Emphasis
+			"Liberty": 7, // Expansion + Tile Improvements
+			"Honor": 5, // Boldness + Likeliness to Declare War
+			"Commerce": 5, // Gold Emphasis + Chattiness
+			"Patronage": 5, // City-State Influence Competitiveness + Friendliness to City-States
+			"Piety": 6, // Religion Emphasis + Protection of City-States
+			"Rationalism": 5, // Science Emphasis + Spaceship
+			"Freedom": 8, // Happiness Emphasis + Growth
+			"Autocracy": 5, // Boldness + Offensive Unit Production
+			"Order": 5 // Production Emphasis + Military Training Buildings Production
+		}
 	},
 	{
 		"name": "Ahmad al-Mansur",
@@ -183,7 +195,19 @@
 		"happiness": 5, // Happiness Emphasis
 		"faith": 6, // Religion Emphasis
 		"commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
-		"declareWar": 5 // Likeliness to Declare War
+		"declareWar": 5, // Likeliness to Declare War
+		"priorities": {
+			"Tradition": 5, // Culture Emphasis + Wonder Emphasis
+			"Liberty": 6, // Expansion + Tile Improvements
+			"Honor": 5, // Boldness + Likeliness to Declare War
+			"Commerce": 6, // Gold Emphasis + Chattiness
+			"Patronage": 5, // City-State Influence Competitiveness + Friendliness to City-States
+			"Piety": 6, // Religion Emphasis + Protection of City-States
+			"Rationalism": 5, // Science Emphasis + Spaceship
+			"Freedom": 8, // Happiness Emphasis + Growth
+			"Autocracy": 5, // Boldness + Offensive Unit Production
+			"Order": 5 // Production Emphasis + Military Training Buildings Production
+		}
 	},
 	{
 		"name": "Gajah Mada",
@@ -201,7 +225,19 @@
 		"happiness": 6, // Happiness Emphasis
 		"faith": 7, // Religion Emphasis
 		"commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
-		"declareWar": 5 // Likeliness to Declare War
+		"declareWar": 5, // Likeliness to Declare War
+		"priorities": {
+			"Tradition": 6, // Culture Emphasis + Wonder Emphasis
+			"Liberty": 8, // Expansion + Tile Improvements
+			"Honor": 5, // Boldness + Likeliness to Declare War
+			"Commerce": 5, // Gold Emphasis + Chattiness
+			"Patronage": 5, // City-State Influence Competitiveness + Friendliness to City-States
+			"Piety": 6, // Religion Emphasis + Protection of City-States
+			"Rationalism": 5, // Science Emphasis + Spaceship
+			"Freedom": 8, // Happiness Emphasis + Growth
+			"Autocracy": 5, // Boldness + Offensive Unit Production
+			"Order": 5 // Production Emphasis + Military Training Buildings Production
+		}
 	},
 	{
 		"name": "Enrico Dandolo",
@@ -221,17 +257,17 @@
 		"commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
 		"declareWar": 3, // Likeliness to Declare War,
 		"priorities": {
-          "Tradition": 10, // Culture + Wonder
-          "Liberty": 2, // Expansion + TileImprovement
-          "Honor": 4, // Boldness + War
-          "Commerce": 8, // Gold + Chatiness
-          "Patronage": 8, // CityStateCompetitiveness + CSFriendly
-          "Piety": 7, // Faith + CS Friendly
-          "Rationalism": 5, // Science + Spaceship
-          "Freedom": 7, // Happiness + Growth
-          "Autocracy": 4, // Boldness + Military training
-          "Order": 5 // Defensive + Production
-      }
+			"Tradition": 10, // Culture + Wonder
+			"Liberty": 2, // Expansion + TileImprovement
+			"Honor": 4, // Boldness + War
+			"Commerce": 8, // Gold + Chatiness
+			"Patronage": 8, // CityStateCompetitiveness + CSFriendly
+			"Piety": 7, // Faith + CS Friendly
+			"Rationalism": 5, // Science + Spaceship
+			"Freedom": 7, // Happiness + Growth
+			"Autocracy": 4, // Boldness + Military training
+			"Order": 5 // Defensive + Production
+       }
 	},
 	{
 		"name": "Pocatello",
@@ -249,7 +285,19 @@
 		"happiness": 5, // Happiness Emphasis
 		"faith": 5, // Religion Emphasis
 		"commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
-		"declareWar": 3 // Likeliness to Declare War
+		"declareWar": 3, // Likeliness to Declare War
+		"priorities": {
+			"Tradition": 5, // Culture + Wonder
+			"Liberty": 7, // Expansion + TileImprovement
+			"Honor": 4, // Boldness + War
+			"Commerce": 5, // Gold + Chatiness
+			"Patronage": 7, // CityStateCompetitiveness + CSFriendly
+			"Piety": 7, // Faith + CS Friendly
+			"Rationalism": 5, // Science + Spaceship
+			"Freedom": 9, // Happiness + Growth
+			"Autocracy": 4, // Boldness + Military training
+			"Order": 6 // Defensive + Production
+       }
 	},
 	{
 		"name": "Haile Selassie",
@@ -267,6 +315,18 @@
 		"happiness": 7, // Happiness Emphasis
 		"faith": 7, // Religion Emphasis
 		"commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
-		"declareWar": 3 // Likeliness to Declare War
+		"declareWar": 3, // Likeliness to Declare War
+		"priorities": {
+			"Tradition": 6, // Culture Emphasis + Wonder Emphasis
+			"Liberty": 4, // Expansion + Tile Improvements
+			"Honor": 3, // Boldness + Likeliness to Declare War
+			"Commerce": 5, // Gold Emphasis + Chattiness
+			"Patronage": 5, // City-State Influence Competitiveness + Friendliness to City-States
+			"Piety": 5, // Religion Emphasis + Protection of City-States
+			"Rationalism": 4, // Science Emphasis + Spaceship
+			"Freedom": 9, // Happiness Emphasis + Growth
+			"Autocracy": 4, // Boldness + Offensive Unit Production
+			"Order": 5 // Production Emphasis + Military Training Buildings Production
+		}
 	}
 ]
