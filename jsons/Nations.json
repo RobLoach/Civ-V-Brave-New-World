@@ -204,6 +204,9 @@
 		"innerColor": [167,52,31],
 		"uniqueName": "Spice Islanders",
 		"uniques": [
+			"Instantly provides [2] [Nutmeg] <upon founding a city> <when number of [Cities] is less than [2]>",
+			"Instantly provides [2] [Cloves] <upon founding a city> <when number of [Cities] is less than [3]>",
+			"Instantly provides [2] [Pepper] <upon founding a city> <when number of [Cities] is less than [4]>",
 			"Preferred Ideology: Freedom"
 		],
 		"uniqueText": "The first 3 cities founded on continents other than where Indonesia started each provide 2 copies of [Cloves], [Pepper], or [Nutmeg].",
