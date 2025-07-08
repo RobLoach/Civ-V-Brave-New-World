@@ -478,7 +478,7 @@
             "Great Person - [Navy]",
             "Unbuildable",
             "Uncapturable",
-			"Can be earned through combat",
+			"Can be earned through combat <for [Water] units>",
 			"[2] Movement <after adopting [Navigation School]>"
         ],
         "movement": 4
