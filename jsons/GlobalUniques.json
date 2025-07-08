@@ -12,6 +12,9 @@
 		"[+34]% Gold from Great Merchant trade missions <during the [Atomic era]>",
 		"[+37]% Gold from Great Merchant trade missions <during the [Information era]>",
 		"[+38]% Gold from Great Merchant trade missions <during the [Modern era]>",
-		"[+40]% Gold from Great Merchant trade missions <starting from the [Future era]>"
+		"[+40]% Gold from Great Merchant trade missions <starting from the [Future era]>",
+
+		// Great Admirals can always traverse ocean tiles
+		"Enables [Great Admiral] units to enter ocean tiles <hidden from users>"
 	]
 }

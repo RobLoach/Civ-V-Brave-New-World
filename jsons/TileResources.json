@@ -169,8 +169,7 @@
         "uniques": [
 			"Generated on every [250] tiles",
 			"Not shown on world screen",
-			"Cannot be traded <hidden from users>",
-			"Antiquity"
+			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "[Antiquity Site]s can be dug up for [Artifact]s, or turned into [Landmark]s, by [Archaeologist]s." },
@@ -191,8 +190,7 @@
         "uniques": [
 			"Generated on every [400] tiles",
 			"Not shown on world screen",
-			"Cannot be traded <hidden from users>",
-			"Antiquity"
+			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "[Hidden Antiquity Site]s can be dug up by [Archaeologist]s for chance of a [Great Work of Writing] or a Cultural Renaissance. They are revealed by completing the [Exploration] Policy tree." },

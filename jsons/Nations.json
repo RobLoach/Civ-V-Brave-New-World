@@ -345,6 +345,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Ships of the Desert",
 		"uniques": [
+			"Comment [[Caravan]s gain 50% extended range]",
 			"Caravans gain 50% extended range", // @see Unit/Caravan
 			"[+10]% Spread Religion Strength", // TODO: Your Trade Routes spread the home city's Religion twice as effectively
 			"[+100]% [Oil] resource production"

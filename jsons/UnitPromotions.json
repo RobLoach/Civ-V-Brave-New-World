@@ -171,9 +171,9 @@
 	{
 		"name": "[Caravansary] ability",
 		"uniques": [
-			// TODO: Produce an additional 2 Gold when connecting to another civilization.
-			"[1] Movement", // TODO: Land trade routes originating from this city have a 50% increase in range
-			"Ignores terrain cost",
+			"[+10]% Gold from Great Merchant trade missions", // TODO: Produce an additional 2 Gold when connecting to another civilization.
+			"[1] Movement", // 50% increase in range?
+			// Influence bonus is not a thing, but it is gameplay balance
 			"Comment [Double influence when conducting a [Trade Route] in City-States]"
 		],
 		"civilopediaText": [
@@ -185,7 +185,9 @@
 	{
 		"name": "[Harbor] ability",
 		"uniques": [
-			"[2] Movement",
+			"[+5]% Gold from Great Merchant trade missions", // TODO: Additional 1 Gold when connecting to another civilization
+			"[2] Movement", // 50% increased range?
+			// Influence bonus is not a thing, but it is gameplay balance
 			"Comment [Double influence when conducting a [Trade Route] in City-States]"
 		],
 		"civilopediaText": [
@@ -286,7 +288,7 @@
 			"Triggers a [Native Tongue] event <upon entering a [Ancient ruins] tile> <hidden from users>",
 			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 			// Upgrading Pathfinder to Composite Bowman does not keep Native Tongue
-			"[This Unit] loses the [Native Tongue] promotion <upon turn end> <for [Composite Bowman] units> <hidden from users>"
+			"[This Unit] loses the [Native Tongue] promotion <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>"
 		],
 		"civilopediaText": [
 			{
