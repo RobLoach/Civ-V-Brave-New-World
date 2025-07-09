@@ -134,25 +134,23 @@
 		],
 		"civilopediaText": [
 			{
-				"text": "A Trade Route is required in order for a [Caravan] or [Cargo Ship] to establish a trade connection with other civilizations or City-States."
+				"text": "A [Trade Route] is required in order for a [Caravan] or [Cargo Ship] to establish a trade connection with other civilizations or City-States."
 			},
 			{ "separator": true },
-			{ "text": "Caravan", "link": "Unit/Caravan" },
-			{ "text": "Cargo Ship", "link": "Unit/Cargo Ship" },
-			{ "separator": true },
-			{ "text": "Technologies" },
-			{ "text": "Animal Husbandry", "link": "Technology/Animal Husbandry" },
-			{ "text": "Sailing", "link": "Technology/Sailing" },
-			{ "text": "Engineering", "link": "Technology/Engineering" },
-			{ "text": "Compass", "link": "Technology/Compass" },
-			{ "text": "Banking", "link": "Technology/Banking" },
-			{ "text": "Biology", "link": "Technology/Biology" },
-			{ "text": "Railroads", "link": "Technology/Railroads" },
-			{ "text": "Pharmaceuticals", "link": "Technology/Pharmaceuticals" },
-			{ "separator": true },
-			{ "text": "Wonders" },
-			{ "text": "Colossus", "link": "Wonder/Colossus" },
-			{ "text": "Petra", "link": "Wonder/Petra" }
+				{ "text": "Caravan", "link": "Unit/Caravan" },
+				{ "text": "Cargo Ship", "link": "Unit/Cargo Ship" },
+			{ "text": "Technologies", "header": 3 },
+				{ "text": "Animal Husbandry", "link": "Technology/Animal Husbandry" },
+				{ "text": "Sailing", "link": "Technology/Sailing" },
+				{ "text": "Engineering", "link": "Technology/Engineering" },
+				{ "text": "Compass", "link": "Technology/Compass" },
+				{ "text": "Banking", "link": "Technology/Banking" },
+				{ "text": "Biology", "link": "Technology/Biology" },
+				{ "text": "Railroads", "link": "Technology/Railroads" },
+				{ "text": "Pharmaceuticals", "link": "Technology/Pharmaceuticals" },
+			{ "text": "Wonders", "header": 3 },
+				{ "text": "Colossus", "link": "Wonder/Colossus" },
+				{ "text": "Petra", "link": "Wonder/Petra" }
 		]
     },
 

@@ -1141,7 +1141,7 @@
         "requiredTech": "Telecommunications",
 		"requiredBuilding": "Hotel",
 		"uniques": [
-			// TODO: 100% of the Culture Culture from Wonders and Improvements is added to the Tourism Tourism output of the city.
+			// TODO: 100% of the Culture from Wonders and Improvements is added to the Tourism output of the city.
 			"Comment [+100% [Tourism] from Great Works in this city]",
 			"Cost increases by [30] per owned city",
 			"Only available <if [Hotel] is constructed in all [non-[Puppeted]] cities>"
@@ -1592,7 +1592,7 @@
 		"requiredTech": "Acoustics",
 		"uniques": [
 			"Comment [Provides 1 [Great Work of Music] Slot]",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "[Great Work of Music] Slot", "link": "Building/[Ceilidh Hall] [Great Work of Music]" }
@@ -1608,10 +1608,12 @@
 		"requiredTech": "Radio",
 		"uniques": [
 			"Comment [Provides 1 [Great Work of Music] Slot]",
-			"Destroyed when the city is captured"
+			"[+33]% [Tourism] resource production <in this city> <after adopting [Media Culture]> <hidden from users>", // TODO: Does this work?
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"civilopediaText": [
-			{ "text": "[Great Work of Music] Slot", "link": "Building/[Broadcast Tower] [Great Work of Music]" }
+			{ "text": "[Great Work of Music] Slot", "link": "Building/[Broadcast Tower] [Great Work of Music]" },
+			{ "text": "Media Culture", "link": "Policy/Media Culture" }
 		]
 	},
     {
