@@ -466,23 +466,10 @@
 		]
 	},
 
-    // Great People
-    {
-        "name": "Great Admiral", // https://civilization.fandom.com/wiki/Great_Admiral_(Civ5)
-        "unitType": "Civilian Water",
-        "uniques": [
-			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership
-			"All adjacent units heal [+15] HP when healing", // TODO: Repair Fleet (Instantly heals all ships within one tile, expends the unit)
-			// Can always traverse ocean tiles // @see Building/Palace
-            "Is part of Great Person group [Admiral]",
-            "Great Person - [Navy]",
-            "Unbuildable",
-            "Uncapturable",
-			"Can be earned through combat <for [Water] units>",
-			"[2] Movement <after adopting [Navigation School]>"
-        ],
-        "movement": 4
-    },
+    /**
+	 * Great People
+	 */
+
     {
         "name": "Great Artist",
         "unitType": "Civilian",
@@ -572,5 +559,46 @@
 			"Triggers a [Spaceship part] event <after adopting [Spaceflight Pioneers]> <after discovering [Advanced Ballistics]> <with [Aluminum]> <by consuming this unit> <hidden from users>"
 		],
 		"movement": 2
-	}
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Khan",
+		"unitType": "Civilian",
+		"uniqueTo": "Mongolia",
+		"replaces": "Great General",
+		"uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 5
+	},
+    {
+        "name": "Great Admiral", // https://civilization.fandom.com/wiki/Great_Admiral_(Civ5)
+        "unitType": "Civilian Water",
+        "uniques": [
+			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership
+			"All adjacent units heal [+15] HP when healing", // TODO: Repair Fleet (Instantly heals all ships within one tile, expends the unit)
+			// Can always traverse ocean tiles // @see Building/Palace
+            "Is part of Great Person group [Admiral]",
+            "Great Person - [Navy]",
+            "Unbuildable",
+            "Uncapturable",
+			"Can be earned through combat <for [Water] units>",
+			"[2] Movement <after adopting [Navigation School]>"
+        ],
+        "movement": 4
+    }
 ]
