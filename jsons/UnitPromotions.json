@@ -236,7 +236,7 @@
 	{
 		"name": "Golden Age from Victories",
 		"uniques": [
-			"Instantly gain [1] [Golden Age points] <upon defeating a [Military] unit>"
+			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"
 		]
 	},
 
