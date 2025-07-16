@@ -13,6 +13,7 @@
 - FantasyHex Merchant of Venice by Herobrine
 - Absolute Units by Basil
 - Brazilwood Camp by Kurwizimi
+- Various units by Dom Pedro III
 
 ### Icons
 
