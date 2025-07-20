@@ -156,3 +156,4 @@
 - [Comanche Rider](https://thenounproject.com/icon/native-indian-headdress-6252201/) by Juicy Fish
 - [Lightning Warfare](https://thenounproject.com/icon/tank-7284097/) by Taewon Kang
 - [Great Work of Writing](https://thenounproject.com/icon/ink-pen-5709031/) by Garis Tanam
+- [Zoo](https://www.flaticon.com/free-icon/elephant_1419285) by Freepik - Flaticon
