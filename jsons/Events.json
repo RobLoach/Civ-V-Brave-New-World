@@ -135,63 +135,93 @@
 			{
 				"text": "discover cultural artifacts",
 				"uniques": [
-					"Gain [20] [Culture] <(modified by game speed)> <hidden from users>"
+					"Gain [20] [Culture] <(modified by game speed)> <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [discover cultural artifacts]]> <hidden from users>",
+					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [discover cultural artifacts]] promotion <hidden from users>"
 				]
 			},
 			{
 				"text": "squatters willing to work for you",
 				"uniques": [
-					"Free [Worker] appears <hidden from users>"
+					"Free [Worker] appears <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [squatters willing to work for you]]> <hidden from users>",
+					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [squatters willing to work for you]] promotion <hidden from users>"
 				]
 			},
 			{
 				"text": "squatters wishing to settle under your rule",
 				"uniques": [
-					"Free [Settler] appears <hidden from users>"
+					"Free [Settler] appears <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [squatters wishing to settle under your rule]]> <hidden from users>",
+					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [squatters wishing to settle under your rule]] promotion <hidden from users>"
 				]
 			},
 			{
 				"text": "your exploring unit receives training",
 				"uniques": [
 					"[This Unit] gains [10] XP <hidden from users>",
-					"Only available <after turn number [10]> <hidden from users>"
+					"Only available <after turn number [10]> <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [your exploring unit receives training]]> <hidden from users>",
+					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [your exploring unit receives training]] promotion <hidden from users>"
 				]
 			},
 			{
 				"text": "survivors (adds population to a city)",
 				"uniques": [
-					"[+1] population in a random city <hidden from users>"
+					"[+1] population in a random city <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [survivors (adds population to a city)]]> <hidden from users>",
+					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [survivors (adds population to a city)]] promotion <hidden from users>"
 				]
 			},
 			{
 				"text": "a stash of gold",
 				"uniques": [
-					"Gain [50]-[100] [Gold] <(modified by game speed)> <hidden from users>"
+					"Gain [50]-[100] [Gold] <(modified by game speed)> <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [a stash of gold]]> <hidden from users>",
+					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [a stash of gold]] promotion <hidden from users>"
 				]
 			},
 			{
 				"text": "discover a lost technology",
 				"uniques": [
-					"[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"
+					"[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [discover a lost technology]]> <hidden from users>",
+					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [discover a lost technology]] promotion <hidden from users>"
 				]
 			},
 			{
 				"text": "advanced weaponry for your explorer",
 				"uniques": [
 					"[This Unit] upgrades for free including special upgrades <hidden from users>",
-					"[This Unit] loses the [Native Tongue] promotion <hidden from users>" // Composite Bowman does not keep Native Tongue
+					"[This Unit] loses the [Native Tongue] promotion <hidden from users>", // Composite Bowman does not keep Native Tongue
+					"Unavailable <for units with [[Native Tongue] [advanced weaponry for your explorer]]> <hidden from users>",
+					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [advanced weaponry for your explorer]] promotion <hidden from users>"
 				]
 			},
 			{
 				"text": "reveal nearby Barbarian camps",
 				"uniques": [
-					"Reveal up to [All] [Barbarian encampment] within a [10] tile radius <hidden from users>"
+					"Reveal up to [All] [Barbarian encampment] within a [10] tile radius <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [reveal nearby Barbarian camps]]> <hidden from users>",
+					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [reveal nearby Barbarian camps]] promotion <hidden from users>"
 				]
 			},
 			{
 				"text": "find a crudely-drawn map",
 				"uniques": [
-					"Reveal up to [5] [All] within a [5] tile radius <hidden from users>"
+					"Reveal up to [5] [All] within a [5] tile radius <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [find a crudely-drawn map]]> <hidden from users>",
+					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [find a crudely-drawn map]] promotion <hidden from users>"
 				]
 			},
 			{
@@ -200,7 +230,10 @@
 					"Only available <when religion is enabled> <hidden from users>",
 					"Gain enough Faith for a Pantheon <hidden from users>",
 					"Only available <before founding a Pantheon> <hidden from users>",
-					"Only available <after turn number [20]> <hidden from users>"
+					"Only available <after turn number [20]> <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [discover holy symbols]]> <hidden from users>",
+					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [discover holy symbols]] promotion <hidden from users>"
 				]
 			},
 			{
@@ -210,11 +243,38 @@
 					"Gain enough Faith for [33]% of a Great Prophet <hidden from users>",
 					"Unavailable <after generating a Great Prophet> <hidden from users>",
 					"Only available <after founding a Pantheon> <hidden from users>",
-					"Only available <after turn number [20]> <hidden from users>"
+					"Only available <after turn number [20]> <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [an ancient prophecy]]> <hidden from users>",
+					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [an ancient prophecy]] promotion <hidden from users>"
 				]
 			}
 		]
 	},
+	{
+		"name": "Native Tongue Remove Status",
+		"text": "Native Tongue Remove Status",
+		"presentation": "None",
+		"choices": [
+			{
+				"text": "[This Unit] loses the [Native Tongue] promotion",
+				"uniques": [
+					"[This Unit] loses the [[Native Tongue] [discover cultural artifacts]] promotion",
+					"[This Unit] loses the [[Native Tongue] [squatters willing to work for you]] promotion",
+					"[This Unit] loses the [[Native Tongue] [squatters wishing to settle under your rule]] promotion",
+					"[This Unit] loses the [[Native Tongue] [your exploring unit receives training]] promotion",
+					"[This Unit] loses the [[Native Tongue] [survivors (adds population to a city)]] promotion",
+					"[This Unit] loses the [[Native Tongue] [a stash of gold]] promotion",
+					"[This Unit] loses the [[Native Tongue] [discover a lost technology]] promotion",
+					"[This Unit] loses the [[Native Tongue] [advanced weaponry for your explorer]] promotion",
+					"[This Unit] loses the [[Native Tongue] [reveal nearby Barbarian camps]] promotion",
+					"[This Unit] loses the [[Native Tongue] [find a crudely-drawn map]] promotion",
+					"[This Unit] loses the [[Native Tongue] [discover holy symbols]] promotion",
+					"[This Unit] loses the [[Native Tongue] [an ancient prophecy]] promotion"
+				]
+			}
+		]
+	}
 
 	// Kris Swordsman: Mystic Blade
 	{
