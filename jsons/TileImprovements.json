@@ -156,19 +156,5 @@
 			{ "text": "Antiquity Site", "link": "Resource/Antiquity Site" },
 			{ "text": "Hidden Antiquity Site", "link": "Resource/Hidden Antiquity Site" }
 		]
-	},
-
-	// Overrides
-	{
-		"name": "Ancient ruins",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": [
-			"Comment [Provides a random bonus when entered]",
-			"Provides a random bonus when entered <for units without [Native Tongue]> <hidden from users>",
-			"Unpillagable",
-			"Unbuildable",
-			"Does not need removal of [Forest]",
-			"Does not need removal of [Jungle]"
-		]
 	}
 ]
