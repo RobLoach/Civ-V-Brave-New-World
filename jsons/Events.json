@@ -141,13 +141,15 @@
 			{
 				"text": "squatters willing to work for you",
 				"uniques": [
-					"Free [Worker] appears <hidden from users>"
+					"Free [Worker] appears <hidden from users>",
+					"Only available <when number of [Difficulty number] is more than [1]>"
 				]
 			},
 			{
 				"text": "squatters wishing to settle under your rule",
 				"uniques": [
-					"Free [Settler] appears <hidden from users>"
+					"Free [Settler] appears <hidden from users>",
+					"Only available <when number of [Difficulty number] is more than [1]>"
 				]
 			},
 			{
