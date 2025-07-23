@@ -288,18 +288,8 @@
 			"Triggers a [Native Tongue] event <upon entering a [Ancient ruins] tile> <hidden from users>",
 			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 			// Upgrading Pathfinder to Composite Bowman does not keep Native Tongue
-			"[This Unit] loses the [[Native Tongue] [discover cultural artifacts]] promotion <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
-			"[This Unit] loses the [[Native Tongue] [squatters willing to work for you]] promotion <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
-			"[This Unit] loses the [[Native Tongue] [squatters wishing to settle under your rule]] promotion <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
-			"[This Unit] loses the [[Native Tongue] [your exploring unit receives training]] promotion <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
-			"[This Unit] loses the [[Native Tongue] [survivors (adds population to a city)]] promotion <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
-			"[This Unit] loses the [[Native Tongue] [a stash of gold]] promotion <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
-			"[This Unit] loses the [[Native Tongue] [discover a lost technology]] promotion <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
-			"[This Unit] loses the [[Native Tongue] [advanced weaponry for your explorer]] promotion <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
-			"[This Unit] loses the [[Native Tongue] [reveal nearby Barbarian camps]] promotion <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
-			"[This Unit] loses the [[Native Tongue] [find a crudely-drawn map]] promotion <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
-			"[This Unit] loses the [[Native Tongue] [discover holy symbols]] promotion <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
-			"[This Unit] loses the [[Native Tongue] [an ancient prophecy]] promotion <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
+
+			"Triggers a [Native Tongue Remove Status] event <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
 			"[This Unit] loses the [Native Tongue] promotion <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>"
 		],
 		"civilopediaText": [
@@ -335,10 +325,6 @@
 	},
 	{
 		"name": "[Native Tongue] [discover a lost technology]",
-		"civilopediaText": [{"text": "Native Tongue", "link": "Promotion/Native Tongue"}]
-	},
-	{
-		"name": "[Native Tongue] [advanced weaponry for your explorer]",
 		"civilopediaText": [{"text": "Native Tongue", "link": "Promotion/Native Tongue"}]
 	},
 	{

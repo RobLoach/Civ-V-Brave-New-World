@@ -201,9 +201,7 @@
 				"uniques": [
 					"[This Unit] upgrades for free including special upgrades <hidden from users>",
 					"[This Unit] loses the [Native Tongue] promotion <hidden from users>", // Composite Bowman does not keep Native Tongue
-					"Unavailable <for units with [[Native Tongue] [advanced weaponry for your explorer]]> <hidden from users>",
-					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [advanced weaponry for your explorer]] promotion <hidden from users>"
+					"Triggers a [Native Tongue Remove Status] event <hidden from users>"
 				]
 			},
 			{
@@ -266,7 +264,6 @@
 					"[This Unit] loses the [[Native Tongue] [survivors (adds population to a city)]] promotion",
 					"[This Unit] loses the [[Native Tongue] [a stash of gold]] promotion",
 					"[This Unit] loses the [[Native Tongue] [discover a lost technology]] promotion",
-					"[This Unit] loses the [[Native Tongue] [advanced weaponry for your explorer]] promotion",
 					"[This Unit] loses the [[Native Tongue] [reveal nearby Barbarian camps]] promotion",
 					"[This Unit] loses the [[Native Tongue] [find a crudely-drawn map]] promotion",
 					"[This Unit] loses the [[Native Tongue] [discover holy symbols]] promotion",
