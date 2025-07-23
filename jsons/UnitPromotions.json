@@ -301,47 +301,47 @@
 	},
 	{
 		"name": "[Native Tongue] [discover cultural artifacts]",
-		"civilopediaText": [{"text": "Native Tongue", "link": "Promotion/Native Tongue"}]
+		"prerequisites": ["Native Tongue"]
 	},
 	{
 		"name": "[Native Tongue] [squatters willing to work for you]",
-		"civilopediaText": [{"text": "Native Tongue", "link": "Promotion/Native Tongue"}]
+		"prerequisites": ["Native Tongue"]
 	},
 	{
 		"name": "[Native Tongue] [squatters wishing to settle under your rule]",
-		"civilopediaText": [{"text": "Native Tongue", "link": "Promotion/Native Tongue"}]
+		"prerequisites": ["Native Tongue"]
 	},
 	{
 		"name": "[Native Tongue] [your exploring unit receives training]",
-		"civilopediaText": [{"text": "Native Tongue", "link": "Promotion/Native Tongue"}]
+		"prerequisites": ["Native Tongue"]
 	},
 	{
 		"name": "[Native Tongue] [survivors (adds population to a city)]",
-		"civilopediaText": [{"text": "Native Tongue", "link": "Promotion/Native Tongue"}]
+		"prerequisites": ["Native Tongue"]
 	},
 	{
 		"name": "[Native Tongue] [a stash of gold]",
-		"civilopediaText": [{"text": "Native Tongue", "link": "Promotion/Native Tongue"}]
+		"prerequisites": ["Native Tongue"]
 	},
 	{
 		"name": "[Native Tongue] [discover a lost technology]",
-		"civilopediaText": [{"text": "Native Tongue", "link": "Promotion/Native Tongue"}]
+		"prerequisites": ["Native Tongue"]
 	},
 	{
 		"name": "[Native Tongue] [reveal nearby Barbarian camps]",
-		"civilopediaText": [{"text": "Native Tongue", "link": "Promotion/Native Tongue"}]
+		"prerequisites": ["Native Tongue"]
 	},
 	{
 		"name": "[Native Tongue] [find a crudely-drawn map]",
-		"civilopediaText": [{"text": "Native Tongue", "link": "Promotion/Native Tongue"}]
+		"prerequisites": ["Native Tongue"]
 	},
 	{
 		"name": "[Native Tongue] [discover holy symbols]",
-		"civilopediaText": [{"text": "Native Tongue", "link": "Promotion/Native Tongue"}]
+		"prerequisites": ["Native Tongue"]
 	},
 	{
 		"name": "[Native Tongue] [an ancient prophecy]",
-		"civilopediaText": [{"text": "Native Tongue", "link": "Promotion/Native Tongue"}]
+		"prerequisites": ["Native Tongue"]
 	},
 
 	// Siege Tower: Sapper
