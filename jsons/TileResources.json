@@ -129,7 +129,7 @@
 			"Cannot be traded <hidden from users>",
 			"Stockpiled <hidden from users>",
 			"Excluded from map editor",
-			"Not shown on world screen <without [Trade Route]>",
+			"Not shown on world screen",
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
@@ -208,7 +208,6 @@
 			"Stockpiled",
 			"Excluded from map editor",
 			"Doesn't generate naturally",
-			"Not shown on world screen",
 			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
@@ -227,7 +226,6 @@
 			"Stockpiled",
 			"Excluded from map editor",
 			"Doesn't generate naturally",
-			"Not shown on world screen",
 			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
@@ -245,7 +243,6 @@
 			"Stockpiled",
 			"Excluded from map editor",
 			"Doesn't generate naturally",
-			"Not shown on world screen",
 			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
@@ -262,8 +259,8 @@
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
-			"Not shown on world screen",
-			"Doesn't generate naturally"
+			"Doesn't generate naturally",
+			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "[Artifact]s are found from an [Archaeological Dig] with an [Archaeologist] on an [Antiquity Site]. They can then be slotted into a [Great Work of Art] Slot." },
@@ -278,10 +275,10 @@
 		"name": "Tourism",
 		"resourceType": "Bonus",
 		"uniques": [
-			"Cannot be traded <hidden from users>",
 			"Stockpiled",
 			"Excluded from map editor",
-			"Doesn't generate naturally"
+			"Doesn't generate naturally",
+			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "[Tourism] is the key to achieving a Cultural Victory." },
