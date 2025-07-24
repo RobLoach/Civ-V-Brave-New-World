@@ -203,11 +203,12 @@
 	// Great Works
     {
         "name": "Great Work of Writing",
-        "resourceType": "Bonus",
+        "resourceType": "Strategic",
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
 			"Doesn't generate naturally",
+			"Not shown on world screen <without [Great Work of Writing]>",
 			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
@@ -221,11 +222,12 @@
     },
     {
         "name": "Great Work of Art",
-        "resourceType": "Bonus",
+        "resourceType": "Strategic",
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
 			"Doesn't generate naturally",
+			"Not shown on world screen <without [Great Work of Art]>",
 			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
@@ -238,11 +240,12 @@
     },
     {
         "name": "Great Work of Music",
-        "resourceType": "Bonus",
+        "resourceType": "Strategic",
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
 			"Doesn't generate naturally",
+			"Not shown on world screen <without [Great Work of Music]>",
 			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
@@ -255,11 +258,12 @@
     },
     {
         "name": "Artifact",
-        "resourceType": "Bonus",
+        "resourceType": "Strategic",
         "uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
 			"Doesn't generate naturally",
+			"Not shown on world screen <without [Artifact]>",
 			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
@@ -273,11 +277,12 @@
     },
 	{
 		"name": "Tourism",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 		"uniques": [
 			"Stockpiled",
 			"Excluded from map editor",
 			"Doesn't generate naturally",
+			"Not shown on world screen <without [Tourism]>",
 			"Cannot be traded <hidden from users>"
 		],
 		"civilopediaText": [
