@@ -96,6 +96,7 @@
 				{ "text": "Kasbah", "link": "Improvement/Kasbah" },
 			{},
 			{ "text": "See also", "header": 3 },
+				{ "text": "Differences from Civ V Brave New World", "link": "Tutorial/Differences from Civ V Brave New World" },
 				{ "text": "GitHub", "link": "https://github.com/RobLoach/Civ-V-Brave-New-World" },
 				{ "text": "Discord", "link": "https://discord.com/channels/586194543280390151/1055580642806603866" }
 		]
@@ -149,6 +150,20 @@
 				{ "text": "Great Musician", "link": "Unit/Great Musician" },
 				{ "text": "Great Writer", "link": "Unit/Great Writer" },
 				{ "text": "Archaeologist", "link": "Unit/Archaeologist" }
+		]
+	},
+	{
+		"name": "Differences from Civ V Brave New World",
+		"civilopediaText": [
+			{ "text": "Since this is an Unciv mod, expect there to be differences to the original Brave New World expansion. Some are noted as // TODOs within the code base, along with the following known differences. If you notice anything else, feel free to ask in Discord..." },
+			{},
+			{ "text": "- Cultural victory with [Tourism] is not yet implemented" },
+			{ "text": "- Technology costs should be more expensive" },
+			{ "text": "- Should be able to switch [Ideology]" },
+			{ "text": "- Should be able to use [Archaeologist]s to Dig up [City ruins]" },
+			{ "text": "- International Trade Routes are not truly a thing in Unciv" },
+			{ "text": "- In BNW, Great Person Points scale at a city-level" },
+			{ "text": "- There can be minor differences in terrain yeilds too" },
 		]
 	}
 ]
