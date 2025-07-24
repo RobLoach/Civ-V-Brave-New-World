@@ -45,7 +45,8 @@
 			{
 				"text": "Dig up the Artifact",
 				"uniques": [
-					"Instantly provides [1] [Artifact]"
+					"Instantly provides [1] [Artifact]",
+					"Comment [Will be inserted into a [Great Work of Art] slot next turn]"
 				]
 			}
 		]
