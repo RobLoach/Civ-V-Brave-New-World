@@ -14,6 +14,7 @@
 - Absolute Units by Basil
 - Brazilwood Camp by Kurwizimi
 - Various units by Dom Pedro III
+- HexaRalm Chateau by Firelord
 
 ### Icons
 
