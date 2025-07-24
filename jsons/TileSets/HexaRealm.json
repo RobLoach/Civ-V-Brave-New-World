@@ -2,6 +2,9 @@
 	"ruleVariants": {
 		// Cocoa
         "Plains+Jungle+Cocoa": ["Plains","JungleP+Cocoa"],
-        "Grassland+Jungle+Cocoa": ["Grassland","JungleG+Cocoa"]
+        "Grassland+Jungle+Cocoa": ["Grassland","JungleG+Cocoa"],
+
+		// Misc
+		"Archaeological Dig": ["Quarry"]
 	}
 }
