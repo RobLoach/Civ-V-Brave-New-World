@@ -95,6 +95,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 1,
 		"turnsToBuild": 4,
+		"techRequired": "Archaeology",
 		"uniques": [
 			"[+1 Culture] <for every [Era number]>", // +1 Culture for each era of difference between the era of origin of the Antiquity Site and the current era
 			"Great Improvement",
@@ -152,7 +153,7 @@
 		"civilopediaText": [
 			{ "text": "[Archaeologist]s can dig up [Antiquity Site]s to produce [Artifact]s, consuming the unit." },
 			{ "separator": true },
-			{ "text": "Provides [Artifact]", "link": "Resource/Artifact" },
+			{ "text": "Instantly provides [1] [Artifact]", "link": "Resource/Artifact" },
 			{ "text": "See also" },
 			{ "text": "Archaeologist", "link": "Unit/Archaeologist" },
 			{ "text": "Antiquity Site", "link": "Resource/Antiquity Site" },
