@@ -39,14 +39,16 @@
 	// Archaeology
 	{
 		"name": "Archaeological Dig",
-		"text": "Your Archaeological Dig has uncovered an Ancient Artifact",
+		"text": "Your [Archaeologist] discovered an...",
 		"presentation": "Alert",
 		"choices": [
 			{
-				"text": "Dig up the Artifact",
+				"text": "Artifact",
 				"uniques": [
-					"Instantly provides [1] [Artifact]",
-					"Comment [Will be inserted into a [Great Work of Art] slot next turn]"
+					"Instantly provides [1] [Artifact] <hidden from users>",
+					"Comment [Artifact will be placed in a [Great Work of Art] slot next turn]",
+					"Comment [+2 [Culture]]",
+					"Comment [+2 [Tourism]]"
 				]
 			}
 		]
