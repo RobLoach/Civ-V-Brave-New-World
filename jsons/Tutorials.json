@@ -104,7 +104,6 @@
 				{ "text": "- Should be able to use [Archaeologist]s to Dig up [City ruins]" },
 				{ "text": "- International Trade Routes are not truly a thing in Unciv" },
 				{ "text": "- In BNW, Great Person Points scale at a city-level" },
-				{ "text": "- There can be minor differences in terrain yeilds too" },
 			{},
 			{ "text": "See also", "header": 4 },
 				{ "text": "GitHub", "link": "https://github.com/RobLoach/Civ-V-Brave-New-World" },
