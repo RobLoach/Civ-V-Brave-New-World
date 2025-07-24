@@ -39,14 +39,14 @@
 	// Archaeology
 	{
 		"name": "Archaeological Dig",
-		"text": "Your [Archaeologist] discovered an...",
+		"text": "Your [Archaeologist] discovered a...",
 		"presentation": "Alert",
 		"choices": [
 			{
 				"text": "Artifact",
 				"uniques": [
 					"Instantly provides [1] [Artifact] <hidden from users>",
-					"Comment [Artifact will be placed in a [Great Work of Art] slot next turn]",
+					"Comment [Will be placed in a [Great Work of Art] slot next turn]",
 					"Comment [+2 [Culture]]",
 					"Comment [+2 [Tourism]]"
 				]
@@ -54,34 +54,31 @@
 		]
 	},
 	{
-		"name": "Archaeological Dig - Hidden - Great Work of Writing",
-		"text": "Your Archaeological Dig has uncovered a Great Work of Writing",
+		"name": "Archaeological Dig - Hidden",
+		"text": "Your [Archaeologist] discovered ancient writing...",
 		"presentation": "Alert",
 		"choices": [
 			{
-				"text": "Dig up the Great Work",
+				"text": "Create [Great Work of Writing]",
 				"uniques": [
-					"Instantly provides [1] [Great Work of Writing]"
+					"Instantly provides [1] [Great Work of Writing] <hidden from users>",
+					"Comment [Will be placed in a [Great Work of Writing] slot next turn]",
+					"Comment [+2 [Culture]]",
+					"Comment [+2 [Tourism]]"
 				]
-			}
-		]
-	},
-	{
-		"name": "Archaeological Dig - Hidden - Culture",
-		"text": "Your Archaeological Dig has sparked a Cultural Renaissance",
-		"presentation": "Alert",
-		"choices": [
+			},
 			{
-				"text": "Begin the Renaissance",
+				"text": "Start Cultural Renaissance",
 				"uniques": [
-					"Free Social Policy" // Culture Bomb in Civ 5
+					"Comment [The written artifact will be consumed to give the civilization a large one-time [Culture] boost]",
+					"Free Social Policy" // TODO: Equivilant to Culture Bomb in Civ 5
 				]
 			}
 		]
 	},
 	{
 		"name": "Archaeological Dig - Destroy Unit",
-		"text": "[This Unit] is destroyed",
+		"text": "Archaeological Dig - Destroy Unit",
 		"presentation": "None",
 		"choices": [
 			{

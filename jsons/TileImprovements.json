@@ -104,9 +104,11 @@
             "Will not be replaced by automated units <hidden from users>",
 			"Remove [Antiquity Site] resources from this tile <hidden from users>",
 			"Pillaging this improvement yields approximately [+20 Gold]",
-			"[This Unit] is destroyed <hidden from users>",
 			"Antiquity Dig Site",
-			"Only available <for [Archaeologist] units>"
+			"Only available <for [Archaeologist] units>",
+
+			// Archaeologist is consumed.
+			"Triggers a [Archaeological Dig - Destroy Unit] event <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Landmarks are built from [Antiquity Site]s by [Archaeologist]s, consuming the unit." },
@@ -125,22 +127,20 @@
 			"Can only be built to improve a resource <hidden from users>",
 			"Can also be built on tiles adjacent to fresh water <hidden from users>",
 			"Removes removable features when built <hidden from users>",
-			"[This Unit] is destroyed <hidden from users>",
 
 			// Antiquity Site
 			"Triggers a [Archaeological Dig] event <in [Antiquity Site] tiles> <hidden from users>",
 
-	        // Hidden Antiquity Site: Give 30% chance in Civ 5, but we are generous.
-			"Triggers a [Archaeological Dig - Hidden - Great Work of Writing] event <in [Hidden Antiquity Site] tiles> <with [75]% chance> <hidden from users>",
-			"Triggers a [Archaeological Dig - Hidden - Culture] event <in [Hidden Antiquity Site] tiles> <with [75]% chance> <hidden from users>",
+	        // Hidden Antiquity Site: 30% chance in Civ 5 BNW, but we are generous
+			"Triggers a [Archaeological Dig - Hidden] event <in [Hidden Antiquity Site] tiles> <with [75]% chance> <hidden from users>",
 
-			// Remove the resource/improvement.
+			// Archaeologist is consumed
+			"Triggers a [Archaeological Dig - Destroy Unit] event <hidden from users>",
+
+			// Remove the resource/improvement
 			"Remove [Archaeological Dig] improvements from this tile <hidden from users>",
 			"Remove [Antiquity Site] resources from this tile <hidden from users>",
 			"Remove [Hidden Antiquity Site] resources from this tile <hidden from users>",
-
-			// Remove the unit.
-			"Triggers a [Archaeological Dig - Destroy Unit] event <hidden from users>",
 
             "Will not be replaced by automated units <hidden from users>",
 			"Can be built outside your borders",
