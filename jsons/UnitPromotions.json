@@ -105,7 +105,7 @@
 	{
 		"name": "Recruitment",
 		"uniques": [
-			"[This Unit] heals [50] HP <upon defeating a [Major] unit>"
+			"[This Unit] heals [50] HP <upon defeating a [{non-[Barbarian]} {Military}] unit>"
 		],
 		"prerequisites": ["Mystic Blade"],
 		"innerColor": [88, 196, 221]
