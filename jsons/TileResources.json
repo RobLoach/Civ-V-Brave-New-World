@@ -129,7 +129,7 @@
 			"Cannot be traded <hidden from users>",
 			"Stockpiled <hidden from users>",
 			"Excluded from map editor",
-			"Not shown on world screen",
+			"Not shown on world screen <without [Trade Route]>",
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
