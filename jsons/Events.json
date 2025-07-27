@@ -142,7 +142,7 @@
 				"text": "squatters willing to work for you",
 				"uniques": [
 					"Free [Worker] appears <hidden from users>",
-					"Unavailable <when number of [Difficulty number] is more than [2]> <hidden from users>"
+					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
 				]
 			},
 			{
