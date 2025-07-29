@@ -191,7 +191,7 @@
 		"techs": [
 			{
 				"name": "The Internet",
-				"row": 5,
+				"row": 1,
 				"prerequisites": ["Telecommunications"],
 				"uniques": [
 					"Comment [Double quantity of [Tourism] produced]",
