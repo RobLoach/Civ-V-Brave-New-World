@@ -84,7 +84,8 @@
 			{
 				"text": "[This Unit] is destroyed",
 				"uniques": [
-					"[This Unit] is destroyed"
+					"[This Unit] is destroyed",
+					"Remove [Archaeological Dig] improvements from this tile"
 				]
 			}
 		]
