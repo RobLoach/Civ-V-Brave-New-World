@@ -135,7 +135,7 @@
 			{
 				"text": "discover cultural artifacts",
 				"uniques": [
-					"Gain [20] [Culture] <(modified by game speed)> <hidden from users>",
+					"Gain [20] [Culture] <(modified by game speed)>",
 					"Unavailable <for units with [[Native Tongue] [discover cultural artifacts]]> <hidden from users>",
 					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [discover cultural artifacts]] promotion <hidden from users>"
@@ -144,7 +144,7 @@
 			{
 				"text": "squatters willing to work for you",
 				"uniques": [
-					"Free [Worker] appears <hidden from users>",
+					"Free [Worker] appears",
 					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
 					"Unavailable <for units with [[Native Tongue] [squatters willing to work for you]]> <hidden from users>",
 					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
@@ -154,7 +154,7 @@
 			{
 				"text": "squatters wishing to settle under your rule",
 				"uniques": [
-					"Free [Settler] appears <hidden from users>",
+					"Free [Settler] appears",
 					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
 					"Unavailable <for units with [[Native Tongue] [squatters wishing to settle under your rule]]> <hidden from users>",
 					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
@@ -164,7 +164,7 @@
 			{
 				"text": "your exploring unit receives training",
 				"uniques": [
-					"[This Unit] gains [10] XP <hidden from users>",
+					"[This Unit] gains [10] XP",
 					"Only available <after turn number [10]> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [your exploring unit receives training]]> <hidden from users>",
 					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
@@ -174,7 +174,7 @@
 			{
 				"text": "survivors (adds population to a city)",
 				"uniques": [
-					"[+1] population in a random city <hidden from users>",
+					"[+1] population in a random city",
 					"Unavailable <for units with [[Native Tongue] [survivors (adds population to a city)]]> <hidden from users>",
 					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [survivors (adds population to a city)]] promotion <hidden from users>"
@@ -183,7 +183,7 @@
 			{
 				"text": "a stash of gold",
 				"uniques": [
-					"Gain [50]-[100] [Gold] <(modified by game speed)> <hidden from users>",
+					"Gain [50]-[100] [Gold] <(modified by game speed)>",
 					"Unavailable <for units with [[Native Tongue] [a stash of gold]]> <hidden from users>",
 					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [a stash of gold]] promotion <hidden from users>"
@@ -192,7 +192,7 @@
 			{
 				"text": "discover a lost technology",
 				"uniques": [
-					"[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>",
+					"[1] free random researchable Tech(s) from the [Ancient era]",
 					"Unavailable <for units with [[Native Tongue] [discover a lost technology]]> <hidden from users>",
 					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [discover a lost technology]] promotion <hidden from users>"
@@ -202,7 +202,7 @@
 				"text": "advanced weaponry for your explorer",
 				"uniques": [
 					// Composite Bowman does not keep Native Tongue
-					"[This Unit] upgrades for free including special upgrades <hidden from users>",
+					"[This Unit] upgrades for free including special upgrades",
 
 					// Trigger the remove status a few times to ensure it's removed.
 					"Triggers a [Native Tongue Remove Status] event <hidden from users>"
@@ -214,7 +214,7 @@
 			{
 				"text": "reveal nearby Barbarian camps",
 				"uniques": [
-					"Reveal up to [All] [Barbarian encampment] within a [10] tile radius <hidden from users>",
+					"Reveal up to [All] [Barbarian encampment] within a [10] tile radius",
 					"Unavailable <for units with [[Native Tongue] [reveal nearby Barbarian camps]]> <hidden from users>",
 					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [reveal nearby Barbarian camps]] promotion <hidden from users>"
@@ -223,7 +223,7 @@
 			{
 				"text": "find a crudely-drawn map",
 				"uniques": [
-					"Reveal up to [5] [All] within a [5] tile radius <hidden from users>",
+					"Reveal up to [5] [Land] within a [5] tile radius",
 					"Unavailable <for units with [[Native Tongue] [find a crudely-drawn map]]> <hidden from users>",
 					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [find a crudely-drawn map]] promotion <hidden from users>"
@@ -233,7 +233,7 @@
 				"text": "discover holy symbols",
 				"uniques": [
 					"Only available <when religion is enabled> <hidden from users>",
-					"Gain enough Faith for a Pantheon <hidden from users>",
+					"Gain enough Faith for a Pantheon",
 					"Only available <before founding a Pantheon> <hidden from users>",
 					"Only available <after turn number [20]> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [discover holy symbols]]> <hidden from users>",
@@ -245,7 +245,7 @@
 				"text": "an ancient prophecy",
 				"uniques": [
 					"Only available <when religion is enabled> <hidden from users>",
-					"Gain enough Faith for [33]% of a Great Prophet <hidden from users>",
+					"Gain enough Faith for [33]% of a Great Prophet",
 					"Unavailable <after generating a Great Prophet> <hidden from users>",
 					"Only available <after founding a Pantheon> <hidden from users>",
 					"Only available <after turn number [20]> <hidden from users>",
