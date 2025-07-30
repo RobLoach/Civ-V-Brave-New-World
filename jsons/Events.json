@@ -145,6 +145,7 @@
 				"text": "squatters willing to work for you",
 				"uniques": [
 					"Free [Worker] appears <hidden from users>",
+					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
 					"Unavailable <for units with [[Native Tongue] [squatters willing to work for you]]> <hidden from users>",
 					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [squatters willing to work for you]] promotion <hidden from users>"
@@ -154,6 +155,7 @@
 				"text": "squatters wishing to settle under your rule",
 				"uniques": [
 					"Free [Settler] appears <hidden from users>",
+					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
 					"Unavailable <for units with [[Native Tongue] [squatters wishing to settle under your rule]]> <hidden from users>",
 					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [squatters wishing to settle under your rule]] promotion <hidden from users>"
