@@ -199,9 +199,14 @@
 			{
 				"text": "advanced weaponry for your explorer",
 				"uniques": [
+					// Composite Bowman does not keep Native Tongue
 					"[This Unit] upgrades for free including special upgrades <hidden from users>",
-					"[This Unit] loses the [Native Tongue] promotion <hidden from users>", // Composite Bowman does not keep Native Tongue
+
+					// Trigger the remove status a few times to ensure it's removed.
 					"Triggers a [Native Tongue Remove Status] event <hidden from users>"
+					"Triggers a [Native Tongue Remove Status] event <hidden from users>"
+					"Triggers a [Native Tongue Remove Status] event <hidden from users>"
+					"[This Unit] loses the [Native Tongue] promotion <hidden from users>",
 				]
 			},
 			{
@@ -257,17 +262,49 @@
 			{
 				"text": "[This Unit] loses the [Native Tongue] promotion",
 				"uniques": [
-					"[This Unit] loses the [[Native Tongue] [discover cultural artifacts]] promotion",
-					"[This Unit] loses the [[Native Tongue] [squatters willing to work for you]] promotion",
-					"[This Unit] loses the [[Native Tongue] [squatters wishing to settle under your rule]] promotion",
-					"[This Unit] loses the [[Native Tongue] [your exploring unit receives training]] promotion",
-					"[This Unit] loses the [[Native Tongue] [survivors (adds population to a city)]] promotion",
-					"[This Unit] loses the [[Native Tongue] [a stash of gold]] promotion",
-					"[This Unit] loses the [[Native Tongue] [discover a lost technology]] promotion",
-					"[This Unit] loses the [[Native Tongue] [reveal nearby Barbarian camps]] promotion",
-					"[This Unit] loses the [[Native Tongue] [find a crudely-drawn map]] promotion",
-					"[This Unit] loses the [[Native Tongue] [discover holy symbols]] promotion",
-					"[This Unit] loses the [[Native Tongue] [an ancient prophecy]] promotion"
+					"[This Unit] loses the [[Native Tongue] [discover cultural artifacts]] promotion <for units with [[Native Tongue] [discover cultural artifacts] 2]>",
+					"[This Unit] loses the [[Native Tongue] [discover cultural artifacts] 2] promotion <for units with [[Native Tongue] [discover cultural artifacts] 2]>",
+					"[This Unit] gains the [[Native Tongue] [discover cultural artifacts] 2] promotion <for units with [[Native Tongue] [discover cultural artifacts]]>",
+
+					"[This Unit] loses the [[Native Tongue] [squatters willing to work for you]] promotion <for units with [[Native Tongue] [squatters willing to work for you] 2]>",
+					"[This Unit] loses the [[Native Tongue] [squatters willing to work for you] 2] promotion <for units with [[Native Tongue] [squatters willing to work for you] 2]>",
+					"[This Unit] gains the [[Native Tongue] [squatters willing to work for you] 2] promotion <for units with [[Native Tongue] [squatters willing to work for you]]>",
+
+					"[This Unit] loses the [[Native Tongue] [squatters wishing to settle under your rule]] promotion <for units with [[Native Tongue] [squatters wishing to settle under your rule] 2]>",
+					"[This Unit] loses the [[Native Tongue] [squatters wishing to settle under your rule] 2] promotion <for units with [[Native Tongue] [squatters wishing to settle under your rule] 2]>",
+					"[This Unit] gains the [[Native Tongue] [squatters wishing to settle under your rule] 2] promotion <for units with [[Native Tongue] [squatters wishing to settle under your rule]]>",
+
+					"[This Unit] loses the [[Native Tongue] [your exploring unit receives training]] promotion <for units with [[Native Tongue] [your exploring unit receives training] 2]>",
+					"[This Unit] loses the [[Native Tongue] [your exploring unit receives training] 2] promotion <for units with [[Native Tongue] [your exploring unit receives training] 2]>",
+					"[This Unit] gains the [[Native Tongue] [your exploring unit receives training] 2] promotion <for units with [[Native Tongue] [your exploring unit receives training]]>",
+
+					"[This Unit] loses the [[Native Tongue] [survivors (adds population to a city)]] promotion <for units with [[Native Tongue] [survivors (adds population to a city)] 2]>",
+					"[This Unit] loses the [[Native Tongue] [survivors (adds population to a city)] 2] promotion <for units with [[Native Tongue] [survivors (adds population to a city)] 2]>",
+					"[This Unit] gains the [[Native Tongue] [survivors (adds population to a city)] 2] promotion <for units with [[Native Tongue] [survivors (adds population to a city)]]>",
+
+					"[This Unit] loses the [[Native Tongue] [a stash of gold]] promotion <for units with [[Native Tongue] [a stash of gold] 2]>",
+					"[This Unit] loses the [[Native Tongue] [a stash of gold] 2] promotion <for units with [[Native Tongue] [a stash of gold] 2]>",
+					"[This Unit] gains the [[Native Tongue] [a stash of gold] 2] promotion <for units with [[Native Tongue] [a stash of gold]]>",
+
+					"[This Unit] loses the [[Native Tongue] [discover a lost technology]] promotion <for units with [[Native Tongue] [discover a lost technology] 2]>",
+					"[This Unit] loses the [[Native Tongue] [discover a lost technology] 2] promotion <for units with [[Native Tongue] [discover a lost technology] 2]>",
+					"[This Unit] gains the [[Native Tongue] [discover a lost technology] 2] promotion <for units with [[Native Tongue] [discover a lost technology]]>",
+
+					"[This Unit] loses the [[Native Tongue] [reveal nearby Barbarian camps]] promotion <for units with [[Native Tongue] [reveal nearby Barbarian camps] 2]>",
+					"[This Unit] loses the [[Native Tongue] [reveal nearby Barbarian camps] 2] promotion <for units with [[Native Tongue] [reveal nearby Barbarian camps] 2]>",
+					"[This Unit] gains the [[Native Tongue] [reveal nearby Barbarian camps] 2] promotion <for units with [[Native Tongue] [reveal nearby Barbarian camps]]>",
+
+					"[This Unit] loses the [[Native Tongue] [find a crudely-drawn map]] promotion <for units with [[Native Tongue] [find a crudely-drawn map] 2]>",
+					"[This Unit] loses the [[Native Tongue] [find a crudely-drawn map] 2] promotion <for units with [[Native Tongue] [find a crudely-drawn map] 2]>",
+					"[This Unit] gains the [[Native Tongue] [find a crudely-drawn map] 2] promotion <for units with [[Native Tongue] [find a crudely-drawn map]]>",
+
+					"[This Unit] loses the [[Native Tongue] [discover holy symbols]] promotion <for units with [[Native Tongue] [discover holy symbols] 2]>",
+					"[This Unit] loses the [[Native Tongue] [discover holy symbols] 2] promotion <for units with [[Native Tongue] [discover holy symbols] 2]>",
+					"[This Unit] gains the [[Native Tongue] [discover holy symbols] 2] promotion <for units with [[Native Tongue] [discover holy symbols]]>",
+
+					"[This Unit] loses the [[Native Tongue] [an ancient prophecy]] promotion <for units with [[Native Tongue] [an ancient prophecy] 2]>",
+					"[This Unit] loses the [[Native Tongue] [an ancient prophecy] 2] promotion <for units with [[Native Tongue] [an ancient prophecy] 2]>",
+					"[This Unit] gains the [[Native Tongue] [an ancient prophecy] 2] promotion <for units with [[Native Tongue] [an ancient prophecy]]>",
 				]
 			}
 		]

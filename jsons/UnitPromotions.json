@@ -284,12 +284,17 @@
 	{
 		"name": "Native Tongue",
 		"uniques": [
+			// Can not choose the same benefit until 2 other options are picked
 			"Comment [May choose benefit when discovering [Ancient ruins]]",
 			"Triggers a [Native Tongue] event <upon entering a [Ancient ruins] tile> <hidden from users>",
 			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
-			// Upgrading Pathfinder to Composite Bowman does not keep Native Tongue
 
+			// Upgrading Pathfinder to Composite Bowman does not keep Native Tongue. Run this three times ensure all counters are removed.
 			"Triggers a [Native Tongue Remove Status] event <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
+			"Triggers a [Native Tongue Remove Status] event <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
+			"Triggers a [Native Tongue Remove Status] event <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
+
+			// Finally, remove the promotion
 			"[This Unit] loses the [Native Tongue] promotion <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>"
 		],
 		"civilopediaText": [
@@ -342,6 +347,50 @@
 	{
 		"name": "[Native Tongue] [an ancient prophecy]",
 		"prerequisites": ["Native Tongue"]
+	},
+	{
+		"name": "[Native Tongue] [discover cultural artifacts] 2",
+		"prerequisites": ["[Native Tongue] [discover cultural artifacts]"]
+	},
+	{
+		"name": "[Native Tongue] [squatters willing to work for you] 2",
+		"prerequisites": ["[Native Tongue] [squatters willing to work for you]"]
+	},
+	{
+		"name": "[Native Tongue] [squatters wishing to settle under your rule] 2",
+		"prerequisites": ["Native Tongue"]
+	},
+	{
+		"name": "[Native Tongue] [your exploring unit receives training] 2",
+		"prerequisites": ["[Native Tongue] [your exploring unit receives training]"]
+	},
+	{
+		"name": "[Native Tongue] [survivors (adds population to a city)] 2",
+		"prerequisites": ["[Native Tongue] [survivors (adds population to a city)]"]
+	},
+	{
+		"name": "[Native Tongue] [a stash of gold] 2",
+		"prerequisites": ["[Native Tongue] [a stash of gold]"]
+	},
+	{
+		"name": "[Native Tongue] [discover a lost technology] 2",
+		"prerequisites": ["[Native Tongue] [discover a lost technology]"]
+	},
+	{
+		"name": "[Native Tongue] [reveal nearby Barbarian camps] 2",
+		"prerequisites": ["[Native Tongue] [reveal nearby Barbarian camps]"]
+	},
+	{
+		"name": "[Native Tongue] [find a crudely-drawn map] 2",
+		"prerequisites": ["[Native Tongue] [find a crudely-drawn map]"]
+	},
+	{
+		"name": "[Native Tongue] [discover holy symbols] 2",
+		"prerequisites": ["[Native Tongue] [discover holy symbols]"]
+	},
+	{
+		"name": "[Native Tongue] [an ancient prophecy] 2",
+		"prerequisites": ["[Native Tongue] [an ancient prophecy]"]
 	},
 
 	// Siege Tower: Sapper

@@ -1957,6 +1957,160 @@ UnitPromotionIcons/Native Tongue
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Native Tongue a stash of gold
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue a stash of gold 2
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue an ancient prophecy
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue an ancient prophecy 2
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue discover a lost technology
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue discover a lost technology 2
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue discover cultural artifacts
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue discover cultural artifacts 2
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue discover holy symbols
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue discover holy symbols 2
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue find a crudely-drawn map
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue find a crudely-drawn map 2
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue reveal nearby Barbarian camps
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue reveal nearby Barbarian camps 2
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue squatters willing to work for you
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue squatters willing to work for you 2
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue squatters wishing to settle under your rule
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue squatters wishing to settle under your rule 2
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue survivors (adds population to a city)
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue survivors (adds population to a city) 2
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue your exploring unit receives training
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue your exploring unit receives training 2
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/No movement cost to pillage
   rotate: false
   xy: 328, 160
