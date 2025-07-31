@@ -138,7 +138,7 @@
 				"uniques": [
 					"[+1] population in a random city <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [survivors (adds population to a city)] I]> <hidden from users>",
-					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [survivors (adds population to a city)] I] promotion <hidden from users>"
 				]
 			},
@@ -147,7 +147,7 @@
 				"uniques": [
 					"Gain [20] [Culture] <(modified by game speed)> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [discover cultural artifacts] I]> <hidden from users>",
-					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [discover cultural artifacts] I] promotion <hidden from users>"
 				]
 			},
@@ -159,7 +159,7 @@
 					"Only available <before founding a Pantheon> <hidden from users>",
 					"Only available <after turn number [20]> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [discover holy symbols] I]> <hidden from users>",
-					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [discover holy symbols] I] promotion <hidden from users>"
 				]
 			},
@@ -172,7 +172,7 @@
 					"Only available <after founding a Pantheon> <hidden from users>",
 					"Only available <after turn number [20]> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [an ancient prophecy] I]> <hidden from users>",
-					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [an ancient prophecy] I] promotion <hidden from users>"
 				]
 			},
@@ -181,7 +181,7 @@
 				"uniques": [
 					"Reveal up to [All] [Barbarian encampment] within a [10] tile radius <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [reveal nearby Barbarian camps] I]> <hidden from users>",
-					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [reveal nearby Barbarian camps] I] promotion <hidden from users>"
 				]
 			},
@@ -190,7 +190,7 @@
 				"uniques": [
 					"Gain [50]-[100] [Gold] <(modified by game speed)> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [a stash of gold] I]> <hidden from users>",
-					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [a stash of gold] I] promotion <hidden from users>"
 				]
 			},
@@ -199,7 +199,7 @@
 				"uniques": [
 					"Reveal up to [5] [Land] within a [5] tile radius <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [find a crudely-drawn map] I]> <hidden from users>",
-					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [find a crudely-drawn map] I] promotion <hidden from users>"
 				]
 			},
@@ -208,7 +208,7 @@
 				"uniques": [
 					"[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [discover a lost technology] I]> <hidden from users>",
-					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [discover a lost technology] I] promotion <hidden from users>"
 				]
 			},
@@ -218,7 +218,7 @@
 					"[This Unit] gains [10] XP <hidden from users>",
 					"Only available <after turn number [10]> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [your exploring unit receives training] I]> <hidden from users>",
-					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [your exploring unit receives training] I] promotion <hidden from users>"
 				]
 			},
@@ -228,7 +228,7 @@
 					"Free [Worker] appears <hidden from users>",
 					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
 					"Unavailable <for units with [[Native Tongue] [squatters willing to work for you] I]> <hidden from users>",
-					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [squatters willing to work for you] I] promotion <hidden from users>"
 				]
 			},
@@ -238,7 +238,7 @@
 					"Free [Settler] appears <hidden from users>",
 					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
 					"Unavailable <for units with [[Native Tongue] [squatters wishing to settle under your rule] I]> <hidden from users>",
-					"Triggers a [Native Tongue Remove Status] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [squatters wishing to settle under your rule] I] promotion <hidden from users>"
 				]
 			},
@@ -249,17 +249,17 @@
 					"[This Unit] upgrades for free including special upgrades <hidden from users>",
 
 					// Trigger the remove status a few times to ensure it's removed.
-					"Triggers a [Native Tongue Remove Status] event <hidden from users>"
-					"Triggers a [Native Tongue Remove Status] event <hidden from users>"
-					"Triggers a [Native Tongue Remove Status] event <hidden from users>"
+					"Triggers a [Native Tongue Counter] event <hidden from users>"
+					"Triggers a [Native Tongue Counter] event <hidden from users>"
+					"Triggers a [Native Tongue Counter] event <hidden from users>"
 					"[This Unit] loses the [Native Tongue] promotion <hidden from users>",
 				]
 			}
 		]
 	},
 	{
-		"name": "Native Tongue Remove Status",
-		"text": "Native Tongue Remove Status",
+		"name": "Native Tongue Counter",
+		"text": "The same reward can't be chosen again for the next two ruins",
 		"presentation": "None",
 		"choices": [
 			{

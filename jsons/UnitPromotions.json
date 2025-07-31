@@ -290,9 +290,9 @@
 			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 
 			// Upgrading Pathfinder to Composite Bowman does not keep Native Tongue. Run this three times ensure all counters are removed.
-			"Triggers a [Native Tongue Remove Status] event <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
-			"Triggers a [Native Tongue Remove Status] event <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
-			"Triggers a [Native Tongue Remove Status] event <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
+			"Triggers a [Native Tongue Counter] event <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
+			"Triggers a [Native Tongue Counter] event <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
+			"Triggers a [Native Tongue Counter] event <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
 
 			// Finally, remove the promotion
 			"[This Unit] loses the [Native Tongue] promotion <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>"
@@ -302,7 +302,7 @@
 				"text": "Ancient ruins",
 				"link": "Improvement/Ancient ruins"
 			},
-			{ "text": "The same type of reward can't be chosen again for the next two ruins." }
+			{ "text": "The same reward can't be chosen again for the next two ruins" }
 		]
 	},
 	{
