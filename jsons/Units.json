@@ -17,7 +17,8 @@
 		"uniques": ["Can build [Fishing Boats] improvements on tiles"],
 		"attackSound": "metalhit"
 	},
-	// spaceship
+
+	// Spaceship
 	{
 		"name": "SS Booster",
 		"unitType": "Civilian",
