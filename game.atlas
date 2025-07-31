@@ -1292,16 +1292,16 @@ TileSets/AbsoluteUnits/Units/Caravan-Modern
   orig: 77, 65
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Caravan-Modern--2
+TileSets/AbsoluteUnits/Units/Caravan-Modern-1
   rotate: false
-  xy: 432, 9
+  xy: 772, 87
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Caravan-Modern-1
+TileSets/AbsoluteUnits/Units/Caravan-Modern-2
   rotate: false
-  xy: 772, 87
+  xy: 432, 9
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
