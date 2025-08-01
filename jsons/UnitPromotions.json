@@ -180,6 +180,26 @@
 			{ "text": "Caravan", "link": "Unit/Caravan" }
 		]
 	},
+	{
+		"name": "[Granary] ability",
+		"uniques": [
+			"Comment [Allows establishing a [Food] [Trade Route] in your own cities]"
+		],
+		"civilopediaText": [
+			{ "text": "Caravan", "link": "Unit/Caravan" },
+			{ "text": "Cargo Ship", "link": "Unit/Cargo Ship" }
+		]
+	},
+	{
+		"name": "[Workshop] ability",
+		"uniques": [
+			"Comment [Allows establishing a [Production] [Trade Route] in your own cities]"
+		],
+		"civilopediaText": [
+			{ "text": "Caravan", "link": "Unit/Caravan" },
+			{ "text": "Cargo Ship", "link": "Unit/Cargo Ship" }
+		]
+	},
 
 	// Harbor
 	{

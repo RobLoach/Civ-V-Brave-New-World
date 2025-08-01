@@ -170,7 +170,7 @@
 		"outerColor": [240,240,240],
 		"innerColor": [8,25,115],
 		"uniqueName": "Mare Clausum",
-		"uniqueText": "Resource diversity grants twice as much [Gold] for Portugal in [Trade Route]s."
+		"uniqueText": "Resource diversity grants twice as much [Gold] for Portugal in [Trade Route]s.",
 		"uniques": [
 			"[+100]% Gold from Great Merchant trade missions"
 		],
@@ -191,8 +191,8 @@
 
 		"startIntroPart1": "Honour be with you, oh great hero Gajah Mada, prime minister of Majapahit and uniter of the Indonesian archipelago. The stories of your heroism on the battlefield are bested only by the legends of your sworn oath to unite the far-flung islands of Indonesia under one banner. Serving your queen and empire with loyalty, you not only strive to fulfill your oath and conquered any who stood in your path, but you succeeded in capturing what was then the entirety of the known archipelago, the first to unite what is today modern Indonesia.",
 		"startIntroPart2": "Mighty warrior Gajah Mada, your people yearn for a strong leader who can return them to prosperity! Will you set out to conquer the neighboring kingdoms, further expanding your glory of your empire? Will you build a civilization that can stand the test of time?",
-		"declaringWar": "You stand between my army and their destiny... Prepare for war!",
-		"attacked": "You dare attack the great Gajah Mada?!",
+		"declaringWar": "You stand between my army and their destiny. I shall crush your head like a coconut!",
+		"attacked": "How dare you! Really insignificant as well!",
 		"defeated": "I'm impressed by your victory, even if it came at my expense.",
 		"denounced": "Your words ring hollow.",
 		"introduction": "You stand before the great Gajah Mada of Indonesia! What brings you to my empire?",
@@ -242,8 +242,17 @@
 		"outerColor": [123,3,0],
 		"innerColor": [40,179,79],
 		"uniqueName": "Gateway to Africa",
+		"uniqueText": "Receive +3 [Gold] and +1 [Culture] for 30 turns (on Standard speed) for each [Caravan] or [Cargo Ship] establishing a Trade Route with a City-State.",
 		"uniques": [
-			"[+1 Culture, +3 Gold] from each Trade Route", // Receives +3 Gold and +1 Culture for each Trade Route with a different civ or City-State.
+			// Receives +3 Gold and +1 Culture for each Trade Route with a different civ or City-State.
+			"[+3 Gold, +1 Culture] <for [30] turns> <on [Standard] game speed> <upon expending a [Caravan] unit>",
+			"[+3 Gold, +1 Culture] <for [30] turns> <on [Standard] game speed> <upon expending a [Cargo Ship] unit>",
+			"[+3 Gold, +1 Culture] <for [25] turns> <on [Quick] game speed> <upon expending a [Caravan] unit>",
+			"[+3 Gold, +1 Culture] <for [25] turns> <on [Quick] game speed> <upon expending a [Cargo Ship] unit>",
+			"[+3 Gold, +1 Culture] <for [45] turns> <on [Epic] game speed> <upon expending a [Caravan] unit>",
+			"[+3 Gold, +1 Culture] <for [45] turns> <on [Epic] game speed> <upon expending a [Cargo Ship] unit>",
+			"[+3 Gold, +1 Culture] <for [90] turns> <on [Marathon] game speed> <upon expending a [Caravan] unit>",
+			"[+3 Gold, +1 Culture] <for [90] turns> <on [Marathon] game speed> <upon expending a [Cargo Ship] unit>",
 			// TODO: Trade Route owners receive +2 Gold for each Trade Route sent to Morocco.
 			"Preferred Ideology: Freedom"
 		],
@@ -330,12 +339,12 @@
 		"personality": "Harun al-Rashid",
 
         "startIntroPart1": "Blessings of the Great God be upon you, O great caliph Harun al-Rashid, leader of the mighty Arabian people! The Muslim Empire, the Caliphate, born from chaos after the death of the prophet Muhammad in 632 AD, intended to apply the rule of God to all Earth. And by the will of God, the caliphate reached its full power, ruling Spain, North Africa, the Middle East, Anatolia, the Balkans and Persia, to even surpass the Great Roman Empire. The arts and sciences were a holy gift of Arabia during the Middle Ages, as the infidel lands of Europe delved deep into ignorance and chaos. Lasting for six hundred years, the Caliphate finally fell before the Mongols, the plague of the civilized world.",
-        "startIntroPart2": "Great Caliph Harun al Rashid, all Arabian people long for greatness! Arabia must be once again the land of arts and knowledge, which under the radiant law of God, will fear no enemy! Will your new empire shine through the ages of history?",
+        "startIntroPart2": "Great Caliph Harun al-Rashid, all Arabian people long for greatness! Arabia must be once again the land of arts and knowledge, which under the radiant law of God, will fear no enemy! Will your new empire shine through the ages of history?",
 
-        "declaringWar": "The world will be more beautiful without you. Prepare for war.",
-		"attacked": "Fool! You will soon regret dearly! I swear it!",
+        "declaringWar": "The world will be more beautiful without you. Prepare for war!",
+		"attacked": "Fool! You will soon regret this dearly! I swear it!",
 		"defeated": "You have won, congratulations. My palace is now in your possession, and I beg that you care well for the peacock.",
-		"denounced": "Well played, man. I am looking even more forward to our future battle!",
+		"denounced": "It is said by my people that the house of a tyrant is a ruin... and all I see is ruin around you.",
 		"introduction": "Welcome foreigner, I am Harun Al-Rashid, Caliph of the Arabs. Come and tell me about your empire.",
 		"neutralHello": "Peace be upon you.",
 		"hateHello": "Oh, it's you.",
@@ -348,7 +357,7 @@
 		"uniqueName": "Ships of the Desert",
 		"uniques": [
 			"Caravans gain 50% extended range", // @see Unit/Caravan
-			"[+10]% Spread Religion Strength", // TODO: Your Trade Routes spread the home city's Religion twice as effectively
+			"Comment [[Caravan] and [Cargo Ship] units may spread religion once]", // TODO: Your Trade Routes spread the home city's Religion twice as effectively
 			"[+100]% [Oil] resource production"
 			// TODO: Bazaar adds +1 Gold per incoming trade route (+1 for the owner of the trade route) https://civilization.fandom.com/wiki/Bazaar_(Civ5)
 		],
