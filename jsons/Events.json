@@ -94,13 +94,14 @@
 	// Ideology
 	{
 		"name": "Ideology",
-		"text": "Choose an [Ideology]:",
+		"text": "[Ideology] Selection",
 		"presentation": "Alert",
 		"choices": [
 			{
 				"text": "Autocracy",
 				"uniques": [
 					"Adopt [Autocracy]",
+					"Comment [Best Victory Types: ♪Cultural ⚖Diplomatic †Domination]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
 					"Only available <before adopting [Order]>"
@@ -110,6 +111,7 @@
 				"text": "Freedom",
 				"uniques": [
 					"Adopt [Freedom]",
+					"Comment [Best Victory Types: ♪Cultural ⚖Diplomatic ⍾Science]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
 					"Only available <before adopting [Order]>"
@@ -119,6 +121,7 @@
 				"text": "Order",
 				"uniques": [
 					"Adopt [Order]",
+					"Comment [Best Victory Types: ♪Cultural †Domination ⍾Science]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
 					"Only available <before adopting [Order]>"
