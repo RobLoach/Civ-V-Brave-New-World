@@ -34,8 +34,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Palace]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Palace]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Great Works", "link": "Tutorial/Great Works" },
@@ -175,7 +174,6 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>",
 			"Only available <in cities with a [Royal Library]> <hidden from users>",
 			"New [Military] units start with [10] XP [in this city]"
 		],
@@ -225,8 +223,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Amphitheater]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Amphitheater]> <hidden from users>"
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
@@ -267,8 +264,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Cathedral]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Cathedral]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Great Works", "link": "Tutorial/Great Works" },
@@ -568,8 +564,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Broadway]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Broadway]> <hidden from users>"
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
@@ -588,8 +583,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Broadway]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Broadway]> <hidden from users>"
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
@@ -608,8 +602,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Broadway]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Broadway]> <hidden from users>"
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
@@ -666,8 +659,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Sydney Opera House]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Sydney Opera House]> <hidden from users>"
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
@@ -686,8 +678,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Sydney Opera House]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Sydney Opera House]> <hidden from users>"
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
@@ -743,8 +734,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Globe Theatre]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Globe Theatre]> <hidden from users>"
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
@@ -763,8 +753,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Globe Theatre]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Globe Theatre]> <hidden from users>"
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
@@ -926,8 +915,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [The Louvre]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [The Louvre]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Great Works", "link": "Tutorial/Great Works" },
@@ -954,8 +942,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [The Louvre]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [The Louvre]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Great Works", "link": "Tutorial/Great Works" },
@@ -982,8 +969,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [The Louvre]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [The Louvre]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Great Works", "link": "Tutorial/Great Works" },
@@ -1010,8 +996,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [The Louvre]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [The Louvre]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Great Works", "link": "Tutorial/Great Works" },
@@ -1219,8 +1204,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Uffizi]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Uffizi]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Great Works", "link": "Tutorial/Great Works" },
@@ -1247,8 +1231,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Uffizi]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Uffizi]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Great Works", "link": "Tutorial/Great Works" },
@@ -1275,8 +1258,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Uffizi]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Uffizi]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Great Works", "link": "Tutorial/Great Works" },
@@ -1328,7 +1310,7 @@
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Only available <in cities with a [Parthenon]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Automatically built in all cities where it is buildable <hidden from users>" // Parthenon comes with the Great Works already slotted
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
@@ -1388,8 +1370,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Sistine Chapel]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Sistine Chapel]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Great Works", "link": "Tutorial/Great Works" },
@@ -1416,8 +1397,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Sistine Chapel]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Sistine Chapel]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Great Works", "link": "Tutorial/Great Works" },
@@ -1507,8 +1487,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
             "Unsellable <hidden from users>",
-			"Only available <in cities with a [Museum]> <hidden from users>",
-            "Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Museum]> <hidden from users>"
         ],
 		"civilopediaText": [
 			{ "text": "Great Works", "link": "Tutorial/Great Works" },
@@ -1535,8 +1514,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
             "Unsellable <hidden from users>",
-			"Only available <in cities with a [Museum]> <hidden from users>",
-            "Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Museum]> <hidden from users>"
         ],
 		"civilopediaText": [
 			{ "text": "Great Works", "link": "Tutorial/Great Works" },
@@ -1575,8 +1553,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
             "Unsellable <hidden from users>",
-			"Only available <in cities with a [Opera House]> <hidden from users>",
-            "Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Opera House]> <hidden from users>"
         ],
         "civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
     },
@@ -1631,8 +1608,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
             "Unsellable <hidden from users>",
-			"Only available <in cities with a [Broadcast Tower]> <hidden from users>",
-            "Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Broadcast Tower]> <hidden from users>"
         ],
         "civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
     },
@@ -1667,8 +1643,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
             "Never destroyed when the city is captured <hidden from users>",
             "Unsellable <hidden from users>",
-			"Only available <in cities with a [National Epic]> <hidden from users>",
-            "Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [National Epic]> <hidden from users>"
         ],
         "civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
     },
@@ -1703,8 +1678,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Heroic Epic]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Heroic Epic]> <hidden from users>"
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
@@ -1763,8 +1737,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [The Great Library]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [The Great Library]> <hidden from users>"
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
@@ -1783,8 +1756,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [The Great Library]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [The Great Library]> <hidden from users>"
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
@@ -1842,8 +1814,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Oxford University]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Oxford University]> <hidden from users>"
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
@@ -1862,8 +1833,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Oxford University]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Oxford University]> <hidden from users>"
 		],
 		"civilopediaText": [{"text": "Great Works", "link": "Tutorial/Great Works"}]
 	},
@@ -1927,8 +1897,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Hermitage]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Hermitage]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Great Works", "link": "Tutorial/Great Works" },
@@ -1955,8 +1924,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Hermitage]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Hermitage]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Great Works", "link": "Tutorial/Great Works" },
@@ -1983,8 +1951,7 @@
 			"Provides [2] [Tourism] <in cities with a [National Visitor Center]> <hidden from users>",
 			"Never destroyed when the city is captured <hidden from users>",
 			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Hermitage]> <hidden from users>",
-			"Automatically built in all cities where it is buildable <hidden from users>"
+			"Only available <in cities with a [Hermitage]> <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Great Works", "link": "Tutorial/Great Works" },
