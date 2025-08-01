@@ -16,5 +16,11 @@
 
 		// Great Admirals can always traverse ocean tiles
 		"Enables [Great Admiral] units to enter ocean tiles <hidden from users>"
+	],
+	"unitUniques": [
+		// plundering trade units give gold
+		// does this work on civvies?
+		"Gain [100] [Gold] <upon defeating a [Caravan] unit>",
+		"Gain [100] [Gold] <upon defeating a [Cargo Ship] unit>"
 	]
 }
