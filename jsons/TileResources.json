@@ -276,11 +276,12 @@
     },
 	{
 		"name": "Tourism",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 		"uniques": [
 			"Cannot be traded <hidden from users>",
 			"Stockpiled",
 			"Excluded from map editor",
+			"Not shown on world screen <without [Tourism]>",
 			"Doesn't generate naturally"
 		],
 		"civilopediaText": [
