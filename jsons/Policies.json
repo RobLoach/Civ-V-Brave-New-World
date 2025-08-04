@@ -683,7 +683,7 @@
 			"[+1000]% weight to this choice for AI decisions <for [Songhai] Civilizations>"
 		],
 		"civilopediaText": [
-			{ "text": "[Ideology] best for Cultural, Diplomatic, and Domination Victories." }
+			{ "text": "Best Victory Types: ♪Cultural ⚖Diplomatic †Domination" }
 		],
 		"policies": [
 			// Level 1
@@ -912,7 +912,7 @@
 			"[+1000]% weight to this choice for AI decisions <for [Russia] Civilizations>"
 		],
 		"civilopediaText": [
-			{ "text": "[Ideology] best for Cultural, Domination and Science Victories." }
+			{ "text": "Best Victory Types: ♪Cultural †Domination ⍾Science" }
 		],
 		"policies": [
 			// Level 1
@@ -1138,7 +1138,7 @@
 			"[+1000]% weight to this choice for AI decisions <for [Polynesia] Civilizations>"
 		],
 		"civilopediaText": [
-			{ "text": "[Ideology] best for Cultural, Diplomatic, and Science Victories." }
+			{ "text": "Best Victory Types: ♪Cultural ⚖Diplomatic ⍾Science" }
 		],
 		"policies": [
 			// Level 1

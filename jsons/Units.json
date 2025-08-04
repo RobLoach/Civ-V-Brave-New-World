@@ -579,7 +579,7 @@
         "unitType": "Civilian",
         "uniques": [
             "Instantly provides [1] [Great Work of Music] <by consuming this unit>",
-			// TODO: Is 50 Tourism enough for the concert?
+			// TODO: Needs to be performed in other Civilization's city tiles. Is 50 Tourism enough?
             "Instantly provides [50] [Tourism] <by consuming this unit> <for [Human player] Civilizations>", // Perform Concert Tour
             "Is part of Great Person group [Musician]",
             "Great Person - [Culture]",

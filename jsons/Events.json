@@ -94,13 +94,14 @@
 	// Ideology
 	{
 		"name": "Ideology",
-		"text": "Choose an [Ideology]:",
+		"text": "[Ideology] Selection\n\nThe time has come to choose a new path for your people and your empire! Each Ideology ([Freedom], [Order], and [Autocracy]) conains a unique set of increasingly powerful Tenets that will form the foundation of your Ideology, and influence your diplomatic relationships for years to come.",
 		"presentation": "Alert",
 		"choices": [
 			{
 				"text": "Autocracy",
 				"uniques": [
 					"Adopt [Autocracy]",
+					"Comment [Best Victory Types: ♪Cultural ⚖Diplomatic †Domination]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
 					"Only available <before adopting [Order]>"
@@ -110,6 +111,7 @@
 				"text": "Freedom",
 				"uniques": [
 					"Adopt [Freedom]",
+					"Comment [Best Victory Types: ♪Cultural ⚖Diplomatic ⍾Science]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
 					"Only available <before adopting [Order]>"
@@ -119,6 +121,7 @@
 				"text": "Order",
 				"uniques": [
 					"Adopt [Order]",
+					"Comment [Best Victory Types: ♪Cultural †Domination ⍾Science]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
 					"Only available <before adopting [Order]>"
@@ -130,69 +133,25 @@
 	// Pathfinder Native Tongue
 	{
 		"name": "Native Tongue",
-		"text": "The [Pathfinder]'s [Native Tongue] allows you to choose an [Ancient ruins] benefit",
+		"text": "Choose [Ancient ruins] Bonus",
 		"presentation": "Alert",
 		"choices": [
 			{
-				"text": "discover cultural artifacts",
-				"uniques": [
-					"Gain [20] [Culture] <(modified by game speed)> <hidden from users>"
-				]
-			},
-			{
-				"text": "squatters willing to work for you",
-				"uniques": [
-					"Free [Worker] appears <hidden from users>"
-				]
-			},
-			{
-				"text": "squatters wishing to settle under your rule",
-				"uniques": [
-					"Free [Settler] appears <hidden from users>"
-				]
-			},
-			{
-				"text": "your exploring unit receives training",
-				"uniques": [
-					"[This Unit] gains [10] XP <hidden from users>",
-					"Only available <after turn number [10]> <hidden from users>"
-				]
-			},
-			{
 				"text": "survivors (adds population to a city)",
 				"uniques": [
-					"[+1] population in a random city <hidden from users>"
+					"[+1] population in a random city <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [survivors (adds population to a city)] I]> <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [survivors (adds population to a city)] I] promotion <hidden from users>"
 				]
 			},
 			{
-				"text": "a stash of gold",
+				"text": "discover cultural artifacts",
 				"uniques": [
-					"Gain [50]-[100] [Gold] <(modified by game speed)> <hidden from users>"
-				]
-			},
-			{
-				"text": "discover a lost technology",
-				"uniques": [
-					"[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>"
-				]
-			},
-			{
-				"text": "advanced weaponry for your explorer",
-				"uniques": [
-					"[This Unit] upgrades for free including special upgrades <hidden from users>",
-					"[This Unit] loses the [Native Tongue] promotion <hidden from users>" // Composite Bowman does not keep Native Tongue
-				]
-			},
-			{
-				"text": "reveal nearby Barbarian camps",
-				"uniques": [
-					"Reveal up to [All] [Barbarian encampment] within a [10] tile radius <hidden from users>"
-				]
-			},
-			{
-				"text": "find a crudely-drawn map",
-				"uniques": [
-					"Reveal up to [5] [All] within a [5] tile radius <hidden from users>"
+					"Gain [20] [Culture] <(modified by game speed)> <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [discover cultural artifacts] I]> <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [discover cultural artifacts] I] promotion <hidden from users>"
 				]
 			},
 			{
@@ -201,7 +160,10 @@
 					"Only available <when religion is enabled> <hidden from users>",
 					"Gain enough Faith for a Pantheon <hidden from users>",
 					"Only available <before founding a Pantheon> <hidden from users>",
-					"Only available <after turn number [20]> <hidden from users>"
+					"Only available <after turn number [20]> <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [discover holy symbols] I]> <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [discover holy symbols] I] promotion <hidden from users>"
 				]
 			},
 			{
@@ -211,11 +173,148 @@
 					"Gain enough Faith for [33]% of a Great Prophet <hidden from users>",
 					"Unavailable <after generating a Great Prophet> <hidden from users>",
 					"Only available <after founding a Pantheon> <hidden from users>",
-					"Only available <after turn number [20]> <hidden from users>"
+					"Only available <after turn number [20]> <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [an ancient prophecy] I]> <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [an ancient prophecy] I] promotion <hidden from users>"
+				]
+			},
+			{
+				"text": "reveal nearby Barbarian camps",
+				"uniques": [
+					"Reveal up to [All] [Barbarian encampment] within a [10] tile radius <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [reveal nearby Barbarian camps] I]> <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [reveal nearby Barbarian camps] I] promotion <hidden from users>"
+				]
+			},
+			{
+				"text": "a stash of gold",
+				"uniques": [
+					"Gain [50]-[100] [Gold] <(modified by game speed)> <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [a stash of gold] I]> <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [a stash of gold] I] promotion <hidden from users>"
+				]
+			},
+			{
+				"text": "find a crudely-drawn map",
+				"uniques": [
+					"Reveal up to [5] [Land] within a [5] tile radius <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [find a crudely-drawn map] I]> <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [find a crudely-drawn map] I] promotion <hidden from users>"
+				]
+			},
+			{
+				"text": "discover a lost technology",
+				"uniques": [
+					"[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [discover a lost technology] I]> <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [discover a lost technology] I] promotion <hidden from users>"
+				]
+			},
+			{
+				"text": "your exploring unit receives training",
+				"uniques": [
+					"[This Unit] gains [10] XP <hidden from users>",
+					"Only available <after turn number [10]> <hidden from users>",
+					"Unavailable <for units with [[Native Tongue] [your exploring unit receives training] I]> <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [your exploring unit receives training] I] promotion <hidden from users>"
+				]
+			},
+			{
+				"text": "squatters willing to work for you",
+				"uniques": [
+					"Free [Worker] appears <hidden from users>",
+					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
+					"Unavailable <for units with [[Native Tongue] [squatters willing to work for you] I]> <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [squatters willing to work for you] I] promotion <hidden from users>"
+				]
+			},
+			{
+				"text": "squatters wishing to settle under your rule",
+				"uniques": [
+					"Free [Settler] appears <hidden from users>",
+					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
+					"Unavailable <for units with [[Native Tongue] [squatters wishing to settle under your rule] I]> <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"[This Unit] gains the [[Native Tongue] [squatters wishing to settle under your rule] I] promotion <hidden from users>"
+				]
+			},
+			{
+				"text": "advanced weaponry for your explorer",
+				"uniques": [
+					// Composite Bowman does not keep Native Tongue
+					"[This Unit] upgrades for free including special upgrades <hidden from users>",
+
+					// Trigger the remove status a few times to ensure it's removed.
+					"Triggers a [Native Tongue Counter] event <hidden from users>"
+					"Triggers a [Native Tongue Counter] event <hidden from users>"
+					"Triggers a [Native Tongue Counter] event <hidden from users>"
+					"[This Unit] loses the [Native Tongue] promotion <hidden from users>",
 				]
 			}
 		]
 	},
+	{
+		"name": "Native Tongue Counter",
+		"text": "The same reward can't be chosen again for the next two ruins",
+		"presentation": "None",
+		"choices": [
+			{
+				"text": "[This Unit] loses the [Native Tongue] promotion",
+				"uniques": [
+					"[This Unit] loses the [[Native Tongue] [discover cultural artifacts] I] promotion <for units with [[Native Tongue] [discover cultural artifacts] II]>",
+					"[This Unit] loses the [[Native Tongue] [discover cultural artifacts] II] promotion <for units with [[Native Tongue] [discover cultural artifacts] II]>",
+					"[This Unit] gains the [[Native Tongue] [discover cultural artifacts] II] promotion <for units with [[Native Tongue] [discover cultural artifacts] I]>",
+
+					"[This Unit] loses the [[Native Tongue] [squatters willing to work for you] I] promotion <for units with [[Native Tongue] [squatters willing to work for you] II]>",
+					"[This Unit] loses the [[Native Tongue] [squatters willing to work for you] II] promotion <for units with [[Native Tongue] [squatters willing to work for you] II]>",
+					"[This Unit] gains the [[Native Tongue] [squatters willing to work for you] II] promotion <for units with [[Native Tongue] [squatters willing to work for you] I]>",
+
+					"[This Unit] loses the [[Native Tongue] [squatters wishing to settle under your rule] I] promotion <for units with [[Native Tongue] [squatters wishing to settle under your rule] II]>",
+					"[This Unit] loses the [[Native Tongue] [squatters wishing to settle under your rule] II] promotion <for units with [[Native Tongue] [squatters wishing to settle under your rule] II]>",
+					"[This Unit] gains the [[Native Tongue] [squatters wishing to settle under your rule] II] promotion <for units with [[Native Tongue] [squatters wishing to settle under your rule] I]>",
+
+					"[This Unit] loses the [[Native Tongue] [your exploring unit receives training] I] promotion <for units with [[Native Tongue] [your exploring unit receives training] II]>",
+					"[This Unit] loses the [[Native Tongue] [your exploring unit receives training] II] promotion <for units with [[Native Tongue] [your exploring unit receives training] II]>",
+					"[This Unit] gains the [[Native Tongue] [your exploring unit receives training] II] promotion <for units with [[Native Tongue] [your exploring unit receives training] I]>",
+
+					"[This Unit] loses the [[Native Tongue] [survivors (adds population to a city)] I] promotion <for units with [[Native Tongue] [survivors (adds population to a city)] II]>",
+					"[This Unit] loses the [[Native Tongue] [survivors (adds population to a city)] II] promotion <for units with [[Native Tongue] [survivors (adds population to a city)] II]>",
+					"[This Unit] gains the [[Native Tongue] [survivors (adds population to a city)] II] promotion <for units with [[Native Tongue] [survivors (adds population to a city)] I]>",
+
+					"[This Unit] loses the [[Native Tongue] [a stash of gold] I] promotion <for units with [[Native Tongue] [a stash of gold] II]>",
+					"[This Unit] loses the [[Native Tongue] [a stash of gold] II] promotion <for units with [[Native Tongue] [a stash of gold] II]>",
+					"[This Unit] gains the [[Native Tongue] [a stash of gold] II] promotion <for units with [[Native Tongue] [a stash of gold] I]>",
+
+					"[This Unit] loses the [[Native Tongue] [discover a lost technology] I] promotion <for units with [[Native Tongue] [discover a lost technology] II]>",
+					"[This Unit] loses the [[Native Tongue] [discover a lost technology] II] promotion <for units with [[Native Tongue] [discover a lost technology] II]>",
+					"[This Unit] gains the [[Native Tongue] [discover a lost technology] II] promotion <for units with [[Native Tongue] [discover a lost technology] I]>",
+
+					"[This Unit] loses the [[Native Tongue] [reveal nearby Barbarian camps] I] promotion <for units with [[Native Tongue] [reveal nearby Barbarian camps] II]>",
+					"[This Unit] loses the [[Native Tongue] [reveal nearby Barbarian camps] II] promotion <for units with [[Native Tongue] [reveal nearby Barbarian camps] II]>",
+					"[This Unit] gains the [[Native Tongue] [reveal nearby Barbarian camps] II] promotion <for units with [[Native Tongue] [reveal nearby Barbarian camps] I]>",
+
+					"[This Unit] loses the [[Native Tongue] [find a crudely-drawn map] I] promotion <for units with [[Native Tongue] [find a crudely-drawn map] II]>",
+					"[This Unit] loses the [[Native Tongue] [find a crudely-drawn map] II] promotion <for units with [[Native Tongue] [find a crudely-drawn map] II]>",
+					"[This Unit] gains the [[Native Tongue] [find a crudely-drawn map] II] promotion <for units with [[Native Tongue] [find a crudely-drawn map] I]>",
+
+					"[This Unit] loses the [[Native Tongue] [discover holy symbols] I] promotion <for units with [[Native Tongue] [discover holy symbols] II]>",
+					"[This Unit] loses the [[Native Tongue] [discover holy symbols] II] promotion <for units with [[Native Tongue] [discover holy symbols] II]>",
+					"[This Unit] gains the [[Native Tongue] [discover holy symbols] II] promotion <for units with [[Native Tongue] [discover holy symbols] I]>",
+
+					"[This Unit] loses the [[Native Tongue] [an ancient prophecy] I] promotion <for units with [[Native Tongue] [an ancient prophecy] II]>",
+					"[This Unit] loses the [[Native Tongue] [an ancient prophecy] II] promotion <for units with [[Native Tongue] [an ancient prophecy] II]>",
+					"[This Unit] gains the [[Native Tongue] [an ancient prophecy] II] promotion <for units with [[Native Tongue] [an ancient prophecy] I]>",
+				]
+			}
+		]
+	}
 
 	// Kris Swordsman: Mystic Blade
 	{
@@ -521,5 +620,256 @@
 				]
 			}
 		]
-	}
+	},
+
+	// Tutorials
+	// assets/dlc/expansion2/gameplay/xml/text/en_us/civ5gametextinfos_civilopedia_expansion2.xml
+	{
+        "name": "Tutorial Task: [You Can Build a Trade Unit]",
+        "presentation": "Floating",
+        "civilopediaText":[
+			{ "text": "You Can Build a Trade Unit!", "centered": true, "header": 5 },
+            { "text": "You've unlocked the ability to construct a [Caravan], the earliest Trade unit available. Once built, you can establish a [Trade Route] with a city in another civilization that will generate [Gold]."},
+			{},
+			{ "text": "Although you start with the ability to create just a single Trade Route, additional Trade Route slots can be earned as your civilization becomes more advanced."},
+			{ "text": "Trade Route", "link": "Resource/Trade Route" },
+			{ "text": "Caravan", "link": "Unit/Caravan" },
+			{ "text": "Cargo Ship", "link": "Unit/Cargo Ship" }
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Trade Route] is more than [0]>",
+            "Unavailable <if tutorial [You Can Build a Trade Unit] is completed>"
+        ],
+        "choices": [
+            {
+                "text":"Got it",
+                "uniques": ["Mark tutorial [You Can Build a Trade Unit] complete"]
+            }
+        ]
+    },
+	{
+        "name": "Tutorial Task: [You Have a Great Writer!]",
+        "presentation": "Floating",
+        "civilopediaText":[
+			{ "text": "You Have a Great Writer!", "centered": true, "header": 5 },
+            { "text": "Creativity abounds in your civilization! If you're attempting a [Culture] Victory, you may want to create a [Great Work of Writing] to generate [Tourism] for your civilization. The more [Tourism] you generate, the better your chances of winning a [Culture] Victory!"},
+			{},
+			{ "text": "Great Writer", "link": "Unit/Great Writer" },
+			{ "text": "Great Work of Writing", "link": "Resource/Great Work of Writing" },
+			{ "text": "Tourism", "link": "Resource/Tourism" }
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [[Great Writer] Units] is more than [0]>",
+            "Unavailable <if tutorial [You Have a Great Writer!] is completed>"
+        ],
+        "choices": [
+            {
+                "text":"Got it",
+                "uniques": ["Mark tutorial [You Have a Great Writer!] complete"]
+            }
+        ]
+    },
+	{
+        "name": "Tutorial Task: [You Have a Great Artist!]",
+        "presentation": "Floating",
+        "civilopediaText":[
+			{ "text": "You Have a Great Artist!", "centered": true, "header": 5 },
+			{ "text": "The arts are thriving! If you're attempting a [Culture] Victory, you may want to create a [Great Work of Art] to generate [Tourism] for your civilization, essential for a [Culture] Victory. Or, you could start a Golden Age!"},
+			{},
+			{ "text": "Great Artist", "link": "Unit/Great Artist" },
+			{ "text": "Great Work of Art", "link": "Resource/Great Work of Art" },
+			{ "text": "Tourism", "link": "Resource/Tourism" }
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [[Great Artist] Units] is more than [0]>",
+            "Unavailable <if tutorial [You Have a Great Artist!] is completed>"
+        ],
+        "choices": [
+            {
+                "text":"Got it",
+                "uniques": ["Mark tutorial [You Have a Great Artist!] complete"]
+            }
+        ]
+    },
+	{
+        "name": "Tutorial Task: [You Have a Great Musician!]",
+        "presentation": "Floating",
+        "civilopediaText":[
+			{ "text": "You Have a Great Musician!", "centered": true, "header": 5 },
+			{ "text": "Music has enchanted our people! If you're attempting a [Culture] Victory, you may want to create a [Great Work of Music] to generate [Tourism] for your civilization. Or, you could perform a Concert Tour in another civilization to provide a one-time boost to your [Tourism]!"},
+			{},
+			{ "text": "Great Musician", "link": "Unit/Great Musician" },
+			{ "text": "Great Work of Art", "link": "Resource/Great Work of Art" },
+			{ "text": "Tourism", "link": "Resource/Tourism" }
+		],
+        "uniques": [
+            "Unavailable <if tutorial [You Have a Great Musician!] is completed>",
+            "Only available <if tutorials are enabled> <when number of [[Great Musician] Units] is more than [0]>",
+        ],
+        "choices": [
+            {
+                "text":"Got it",
+                "uniques": ["Mark tutorial [You Have a Great Musician!] complete"]
+            }
+        ]
+    },
+	{
+		"name": "Tutorial Task: [You're Generating Tourism!]",
+        "presentation": "Floating",
+        "civilopediaText":[
+			{ "text": "You're Generating Tourism!", "centered": true, "header": 5 },
+			{ "text": "Other civilizations are starting to notice the grandeur of your [Culture]! In terms of a [Culture] Victory, consider [Tourism] your \"Offense\" against other civilizations, and [Culture] your \"Defense\" from other civilizations." },
+			{},
+			// TODO: { "text": "Click on the [Tourism] icon at the top of the screen to track how you're faring against the Culture of other civilizations." }
+			{ "text": "Note: The Cultural Victory with [Tourism] is not yet implemented in the Civ V Brave New World mod." },
+			{},
+			{ "text": "Tourism", "link": "Resource/Tourism" }
+		],
+        "uniques": [
+            "Unavailable <if tutorial [You're Generating Tourism!] is completed>",
+            "Only available <if tutorials are enabled> <when number of [Tourism] is more than [0]>"
+        ],
+        "choices": [
+            {
+                "text":"Got it",
+                "uniques": ["Mark tutorial [You're Generating Tourism!] complete"]
+            }
+        ]
+    },
+	{
+        "name": "Tutorial Task: [You Can Build a Writers' Guild!]",
+        "presentation": "Floating",
+        "civilopediaText":[
+			{ "text": "You Can Build a Writers' Guild!", "centered": true, "header": 5 },
+			{ "text": "The [Writers' Guild] allows you to generate [Great Writer]s by assigning specialists to it. A [Great Writer] is a new type of Great Person that allows you to create [Great Work of Writing], essential for generating [Tourism] and winning a [Culture] Victory." },
+			{},
+			{ "text": "Writers' Guild", "link": "Building/Writers' Guild" },
+			{ "text": "Great Writer", "link": "Unit/Great Writer" },
+			{ "text": "Tourism", "link": "Resource/Tourism" }
+		],
+        "uniques": [
+            "Unavailable <if tutorial [You Can Build a Writers' Guild!] is completed>",
+            "Only available <if tutorials are enabled> <after discovering [Drama and Poetry]>"
+        ],
+        "choices": [
+            {
+                "text":"Got it",
+                "uniques": ["Mark tutorial [You Can Build a Writers' Guild!] complete"]
+            }
+        ]
+    },
+	{
+        "name": "Tutorial Task: [You Can Build a Artists' Guild!]",
+        "presentation": "Floating",
+        "civilopediaText":[
+			{ "text": "You Can Build a Artists' Guild!", "centered": true, "header": 5 },
+			{ "text": "The [Artists' Guild] allows you to generate [Great Artist]s by assigning specialists to it. A [Great Artist] is a new type of Great Person that allows you to create [Great Work of Art], essential for generating [Tourism] and winning a [Culture] Victory." },
+			{},
+			{ "text": "Artists' Guild", "link": "Building/Artists' Guild" },
+			{ "text": "Great Artist", "link": "Unit/Great Artist" },
+			{ "text": "Tourism", "link": "Resource/Tourism" }
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <after discovering [Guilds]>",
+            "Unavailable <if tutorial [You Can Build a Artists' Guild!] is completed>"
+        ],
+        "choices": [
+            {
+                "text":"Got it",
+                "uniques": ["Mark tutorial [You Can Build a Artists' Guild!] complete"]
+            }
+        ]
+    },
+	{
+        "name": "Tutorial Task: [You Can Build a Musicians' Guild!]",
+        "presentation": "Floating",
+        "civilopediaText":[
+			{ "text": "You Can Build a Musicians' Guild!", "centered": true, "header": 5 },
+			{ "text": "The [Musicians' Guild] allows you to generate [Great Musician]s by assigning specialists to it. A [Great Musician] is a new type of Great Person that allows you to create [Great Work of Music], essential for generating [Tourism] and winning a [Culture] Victory." },
+			{},
+			{ "text": "Musicians' Guild", "link": "Building/Musicians' Guild" },
+			{ "text": "Great Musician", "link": "Unit/Great Musician" },
+			{ "text": "Tourism", "link": "Resource/Tourism" }
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <after discovering [Acoustics]>",
+            "Unavailable <if tutorial [You Can Build a Musicians' Guild!] is completed>"
+        ],
+        "choices": [
+            {
+                "text":"Got it",
+                "uniques": ["Mark tutorial [You Can Build a Musicians' Guild!] complete"]
+            }
+        ]
+    },
+	{
+        "name": "Tutorial Task: [Antiquity Sites Revealed!]",
+        "presentation": "Floating",
+        "civilopediaText":[
+			{ "text": "Antiquity Sites Revealed!", "centered": true, "header": 5 },
+			{ "text": "An interest in [Archaeology] has bloomed in your civilization! [Antiquity Site]s have been revealed on the map, marking the locations of historically important events." },
+			{ "text": "Building an [Archaeologist] will allow you to either extract an [Artifact] from the site, or create a [Landmark]." },
+			{},
+			{ "text": "Antiquity Site", "link": "Resource/Antiquity Site" },
+			{ "text": "Archaeologist", "link": "Unit/Archaeologist" },
+			{ "text": "Artifact", "link": "Resource/Artifact" },
+			{ "text": "Landmark", "link": "Improvement/Landmark" }
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <after discovering [Archaeology]>",
+            "Unavailable <if tutorial [Antiquity Sites Revealed!] is completed>"
+        ],
+        "choices": [
+            {
+                "text":"Got it",
+                "uniques": ["Mark tutorial [Antiquity Sites Revealed!] complete"]
+            }
+        ]
+    },
+	{
+        "name": "Tutorial Task: [You've Made a Discovery!]",
+        "presentation": "Floating",
+        "civilopediaText":[
+			{ "text": "You've Made a Discovery!", "centered": true, "header": 5 },
+			{ "text": "You've discovered a valuable [Artifact] at your dig! You are able to slot the [Artifact] in a [Great Work of Art] slot in your cities to generate [Tourism]." },
+			{},
+			{ "text": "Artifact", "link": "Resource/Artifact" },
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "Tourism", "link": "Resource/Tourism" }
+		],
+        "uniques": [
+            "Only available <if tutorials are enabled> <when number of [Artifact] is more than [0]>",
+            "Unavailable <if tutorial [You've Made a Discovery!] is completed>"
+        ],
+        "choices": [
+            {
+                "text":"Got it",
+                "uniques": ["Mark tutorial [You've Made a Discovery!] complete"]
+            }
+        ]
+    },
+	{
+        "name": "Tutorial Task: [Your Great Works are World-Renowned!]",
+        "presentation": "Floating",
+        "civilopediaText":[
+			{ "text": "Your Great Works are World-Renowned!", "centered": true, "header": 5 },
+			{ "text": "Your Great Works are drawing visitors from every corner of the globe! To win a [Culture] Victory you should continue increasing your [Tourism] as much as possible. You can boost your [Tourism] with bonuses from Open Borders, [Trade Route]s, [Hotel]s, and more!" },
+			{},
+			{ "text": "Great Works are added to available Great Work slots within your cities, usually in the next turn." },
+			{},
+			{ "text": "Great Works", "link": "Tutorial/Great Works" },
+			{ "text": "Tourism", "link": "Resource/Tourism" }
+		],
+        "uniques": [
+            "Unavailable <if tutorial [Your Great Works are World-Renowned!] is completed>",
+            "Only available <if tutorials are enabled>",
+			"Unavailable <when number of [Great Work of Art] is less than [1]> <when number of [Great Work of Music] is less than [1]> <when number of [Great Work of Writing] is less than [1]>"
+        ],
+        "choices": [
+            {
+                "text":"Got it",
+                "uniques": ["Mark tutorial [Your Great Works are World-Renowned!] complete"]
+            }
+        ]
+    }
 ]

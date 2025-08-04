@@ -122,7 +122,7 @@
 		"name": "Archaeological Dig",
         "terrainsCanBeBuiltOn": ["Land"],
 		"culture": 5,
-		"turnsToBuild": 3,
+		"turnsToBuild": 4,
 		"techRequired": "Archaeology",
 		"uniques": [
 			"Can only be built to improve a resource <hidden from users>",

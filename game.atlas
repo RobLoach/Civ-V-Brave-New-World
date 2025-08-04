@@ -1292,16 +1292,16 @@ TileSets/AbsoluteUnits/Units/Caravan-Modern
   orig: 77, 65
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Caravan-Modern--2
+TileSets/AbsoluteUnits/Units/Caravan-Modern-1
   rotate: false
-  xy: 432, 9
+  xy: 772, 87
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Caravan-Modern-1
+TileSets/AbsoluteUnits/Units/Caravan-Modern-2
   rotate: false
-  xy: 772, 87
+  xy: 432, 9
   size: 77, 65
   orig: 77, 65
   offset: 0, 0
@@ -2021,6 +2021,83 @@ UnitPromotionIcons/Mystic Blade
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Native Tongue
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue a stash of gold
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue an ancient prophecy
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue discover a lost technology
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue discover cultural artifacts
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue discover holy symbols
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue find a crudely-drawn map
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue reveal nearby Barbarian camps
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue squatters willing to work for you
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue squatters wishing to settle under your rule
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue survivors (adds population to a city)
+  rotate: false
+  xy: 652, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Native Tongue your exploring unit receives training
   rotate: false
   xy: 652, 592
   size: 100, 100
