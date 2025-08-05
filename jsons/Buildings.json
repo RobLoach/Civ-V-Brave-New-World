@@ -10,10 +10,7 @@
 		"cost": 1,
 		"uniques": [
 			"Indicates the capital city",
-			"Comment [Provides 1 [Great Work of Art] or [Artifact] Slot]",
-
-			// TODO: Remove this once we have a Cultural Victory
-			"[+1 Culture] <for every [10] [√[Tourism]]>"
+			"Comment [Provides 1 [Great Work of Art] or [Artifact] Slot]"
 		],
 		"civilopediaText": [
 			{ "text": "[Great Work of Art] Slot", "link": "Building/[Palace] [Great Work of Art]" }
