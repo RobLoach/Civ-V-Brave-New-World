@@ -256,6 +256,13 @@ BuildingIcons/Ideology
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Switch Ideology
+  rotate: false
+  xy: 220, 86
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Ikanda
   rotate: false
   xy: 328, 704

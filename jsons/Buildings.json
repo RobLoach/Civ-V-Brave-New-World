@@ -2031,15 +2031,19 @@
 	{
 		"name": "Switch Ideology",
 		"cost": 1,
+		"happiness": -5,
+		"isNationalWonder": true,
 		"uniques": [
-			"Unavailable <in cities with a [Ideology]>",
+			"Comment [Lose all current tenets and enter a one-turn anarchy to switch Ideologies.]",
+			"Can be purchased for [0] [Gold] [in capital]",
+			"Unbuildable <hidden from users>",
+			"Unavailable <in cities with a [Ideology]> <hidden from users>",
 			"Only available <for [Human player] Civilizations> <hidden from users>",
 			"Unavailable <before adopting [Freedom]> <before adopting [Order]> <before adopting [Autocracy]> <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Only available <in [Capital] cities> <hidden from users>",
-			"Triggers a [Switch Ideology] event <hidden from users>",
-			"Nullifies [Happiness] [in all cities] <for [1] turns>"
+			"Triggers a [Switch Ideology] event <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Ideology", "link": "Building/Ideology" }
