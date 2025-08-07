@@ -78,7 +78,76 @@
 			}
 		]
 	},
-
+	{
+        "name": "Liberty",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 5
+        },
+        "uniques": ["[+1 Culture] [in all cities]"],
+        "policies": [
+            {
+                "name": "Republic",
+                "uniques": [
+                    "[+1 Production] [in all cities]",
+                    "[+5]% Production when constructing [All] buildings [in all cities]",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Citizenship",
+                "uniques": [
+                    "Can build [all] improvements at a [+25]% rate",
+                    "Free [Worker] appears",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Collective Rule",
+                "uniques": [
+                    "[+50]% Production when constructing [Settler] units [in capital]",
+                    "Comment [Free [Settler] appears]",
+                    "Free [Settler] appears <for [non-[Venice]] Civilizations> <hidden from users>",
+                    "Free [Merchant of Venice] appears <for [Venice] Civilizations> <hidden from users>"
+                ],
+                "requires": ["Republic"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Representation",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "requires": ["Citizenship"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Meritocracy",
+                "uniques": [
+                    "[+1 Happiness] [in all cities connected to capital]",
+                    "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "requires": ["Citizenship"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Liberty Complete",
+                "uniques": ["Free Great Person"]
+            }
+        ]
+    },
 	// Piety
 	{
 		"name": "Piety",
@@ -607,15 +676,15 @@
 
 			// Preferred Ideology
 			"[+50]% weight to this choice for AI decisions",
-			"[+100]% weight to this choice for AI decisions <for [Preferred Ideology: Autocracy] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Aztecs] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Greece] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [The Huns] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Mongolia] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Songhai] Civilizations>"
+			"[+1000]% weight to this choice for AI decisions <for [Preferred Ideology: Autocracy] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [Aztecs] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [Greece] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [The Huns] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [Mongolia] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [Songhai] Civilizations>"
 		],
 		"civilopediaText": [
-			{ "text": "[Ideology] best for Cultural, Diplomatic, and Domination Victories." }
+			{ "text": "Best Victory Types: ♪Cultural ⚖Diplomatic †Domination" }
 		],
 		"policies": [
 			// Level 1
@@ -836,16 +905,16 @@
 
 			// Preferred Ideology
 			"[+50]% weight to this choice for AI decisions",
-			"[+100]% weight to this choice for AI decisions <for [Preferred Ideology: Order] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Babylon] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [China] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Denmark] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [The Ottomans] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Rome] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Russia] Civilizations>"
+			"[+1000]% weight to this choice for AI decisions <for [Preferred Ideology: Order] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [Babylon] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [China] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [Denmark] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [The Ottomans] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [Rome] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [Russia] Civilizations>"
 		],
 		"civilopediaText": [
-			{ "text": "[Ideology] best for Cultural, Domination and Science Victories." }
+			{ "text": "Best Victory Types: ♪Cultural †Domination ⍾Science" }
 		],
 		"policies": [
 			// Level 1
@@ -1008,7 +1077,7 @@
 			{
 				"name": "Iron Curtain",
 				"uniques": [
-					"Gain a free [Courthouse] [in annexed cities] <upon conquering a city>", // TODO: Does this work?
+					"Gain a free [Courthouse] [in this city] <upon conquering a city>", // TODO: Does this work?
 					"[+50]% [Food] from Trade Routes <in [Your] cities>", // TODO: Does this work? Should be for Internal trade routes
 					"[+50]% [Production] from Trade Routes <in [Your] cities>", // TODO: Does this work? Should be for Internal trade routes
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
@@ -1060,17 +1129,17 @@
 
 			// Preferred Ideology
 			"[+50]% weight to this choice for AI decisions",
-			"[+100]% weight to this choice for AI decisions <for [Preferred Ideology: Freedom] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [America] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Austria] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [The Netherlands] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Ethiopia] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [India] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Korea] Civilizations>",
-			"[+100]% weight to this choice for AI decisions <for [Polynesia] Civilizations>"
+			"[+1000]% weight to this choice for AI decisions <for [Preferred Ideology: Freedom] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [America] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [Austria] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [The Netherlands] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [Ethiopia] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [India] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [Korea] Civilizations>",
+			"[+1000]% weight to this choice for AI decisions <for [Polynesia] Civilizations>"
 		],
 		"civilopediaText": [
-			{ "text": "[Ideology] best for Cultural, Diplomatic, and Science Victories." }
+			{ "text": "Best Victory Types: ♪Cultural ⚖Diplomatic ⍾Science" }
 		],
 		"policies": [
 			// Level 1
@@ -1222,8 +1291,7 @@
 			{
 				"name": "Media Culture",
 				"uniques": [
-					// TODO: +34% Tourism generated by Cities with a Broadcast Tower
-					"Provides [2] [Tourism] <in cities with a [Broadcast Tower]>",
+					"Comment [[+33]% [Tourism] resource production <in cities with a [Broadcast Tower]>]", // @see Building/Broadcast Tower
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
@@ -1253,132 +1321,6 @@
 			{
 				"name": "Freedom Complete",
 				"uniques": [
-					"Will not be displayed in Civilopedia"
-				]
-			}
-		]
-	},
-
-	{
-		"name": "Unavailable",
-		"era": "Future era",
-		"uniques": [
-			"Comment [Obsolete with [Civ V Brave New World]]",
-			"Unavailable",
-			"Will not be displayed in Civilopedia",
-			"[-100]% weight to this choice for AI decisions"
-		],
-		"priorities": {
-			"Neutral": -10,
-			"Cultural": -10,
-			"Diplomatic": -10,
-			"Domination": -10,
-			"Scientific": -10
-		},
-		"policies": [
-			{
-				"name": "Free Religion",
-				"uniques": [
-					"Unavailable",
-					"Will not be displayed in Civilopedia"
-				],
-				"row": 1,
-				"column": 1
-			},
-			{
-				"name": "Educated Elite",
-				"uniques": [
-					"Unavailable",
-					"Will not be displayed in Civilopedia"
-				],
-				"row": 1,
-				"column": 3
-			},
-			{
-				"name": "Trade Unions",
-				"uniques": [
-					"Unavailable",
-					"Will not be displayed in Civilopedia"
-				],
-				"row": 1,
-				"column": 5
-			},
-			{
-				"name": "Populism",
-				"uniques": [
-					"Unavailable",
-					"Will not be displayed in Civilopedia"
-				],
-				"row": 2,
-				"column": 1
-			},
-			{
-				"name": "Fascism",
-				"uniques": [
-					"Unavailable",
-					"Will not be displayed in Civilopedia"
-				],
-				"row": 2,
-				"column": 3
-			},
-			{
-				"name": "Planned Economy",
-				"uniques": [
-					"Unavailable",
-					"Will not be displayed in Civilopedia"
-				],
-				"row": 2,
-				"column": 5
-			},
-			{
-				"name": "Socialism",
-				"uniques": [
-					"Unavailable",
-					"Will not be displayed in Civilopedia"
-				],
-				"row": 3,
-				"column": 1
-			},
-			{
-				"name": "Communism",
-				"uniques": [
-					"Unavailable",
-					"Will not be displayed in Civilopedia"
-				],
-				"row": 3,
-				"column": 3
-			},
-			{
-				"name": "Constitution",
-				"uniques": [
-					"Unavailable",
-					"Will not be displayed in Civilopedia"
-				],
-				"row": 3,
-				"column": 5
-			},
-			{
-				"name": "Democracy",
-				"uniques": [
-					"Unavailable",
-					"Will not be displayed in Civilopedia"
-				],
-				"row": 1,
-				"column": 2
-			},
-			{
-				"name": "Free Speech",
-				"uniques": [
-					"Unavailable",
-					"Will not be displayed in Civilopedia"
-				],
-				"row": 1,
-				"column": 4
-			},
-			{
-				"name": "Unavailable Complete",
-				"uniques": [
-					"Unavailable",
 					"Will not be displayed in Civilopedia"
 				]
 			}

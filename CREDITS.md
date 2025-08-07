@@ -13,6 +13,8 @@
 - FantasyHex Merchant of Venice by Herobrine
 - Absolute Units by Basil
 - Brazilwood Camp by Kurwizimi
+- Various units by Dom Pedro III
+- HexaRalm Chateau by Firelord
 
 ### Icons
 
@@ -48,7 +50,7 @@
 - Cloves by parkjisun from NounProject.com
 - Nutmeg by Azam Ishaq from NounProject.com
 - Pepper by Amethyst Studio from NounProject.com
-- Bison by Steve Laing from NounProject.com
+- [Bison](https://thenounproject.com/icon/bison-4060108/) by Lluis Pareras from NounProject.com
 - Chocolate by Vector Portal from NounProject.com
 - Lance With Banner by Robert Bjurshagen from NounProject.com
 - Hill by wahab marhaban from NounProject.com
@@ -71,8 +73,10 @@
 - Pioneer by ProSymbols from NounProject.com
 - Rank by Muhammad Tajudin from NounProject.com
 - Beaker by ibrandify from NounProject.com
+- [Uffizi](https://thenounproject.com/icon/sculpture-7760058/) by Hilmy Abiyyu Asad from NounProject.com
 - School by David Khai from NounProject.com
 - Plan by SuperNdre from NounProject.com
+- [Creative Expression](https://thenounproject.com/icon/splash-4390563/) by AbtoCreative from NounProject.com
 - Lighthouse by emka angelina from NounProject.com
 - Anchor by Alvaro Cabrera from NounProject.com
 - Treasure by Pascal Heß from NounProject.com
@@ -153,3 +157,4 @@
 - [Comanche Rider](https://thenounproject.com/icon/native-indian-headdress-6252201/) by Juicy Fish
 - [Lightning Warfare](https://thenounproject.com/icon/tank-7284097/) by Taewon Kang
 - [Great Work of Writing](https://thenounproject.com/icon/ink-pen-5709031/) by Garis Tanam
+- [Zoo](https://www.flaticon.com/free-icon/elephant_1419285) by Freepik - Flaticon

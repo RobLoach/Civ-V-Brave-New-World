@@ -105,7 +105,7 @@
 	{
 		"name": "Recruitment",
 		"uniques": [
-			"[This Unit] heals [50] HP <upon defeating a [Major] unit>"
+			"[This Unit] heals [50] HP <upon defeating a [{non-[Barbarian]} {Military}] unit>"
 		],
 		"prerequisites": ["Mystic Blade"],
 		"innerColor": [88, 196, 221]
@@ -132,16 +132,16 @@
 	{
 		"name": "Paradrop",
 		"uniques": [
-			"Comment [May Paradrop up to [9] tiles from inside friendly territory]",
-			"May Paradrop up to [9] tiles from inside friendly territory <for units without [Skyranger]> <hidden from users>"
+			"Comment [May Paradrop to [Land] tiles up to [9] tiles away <in [{Friendly} {Land}] tiles>]",
+			"May Paradrop to [Land] tiles up to [9] tiles away <in [{Friendly} {Land}] tiles> <for units without [Skyranger]> <hidden from users>"
 		]
 	},
 	{
 		"name": "Skyranger",
 		"uniques": [
-			"Comment [May Paradrop up to [40] tiles from inside friendly territory]",
-			"May Paradrop up to [40] tiles from inside friendly territory <for units without [Paradrop]> <hidden from users>",
-			"May Paradrop up to [49] tiles from inside friendly territory <for units with [Paradrop]> <hidden from users>"
+			"Comment [May Paradrop to [Land] tiles up to [40] tiles away <in [{Friendly} {Land}] tiles>]",
+			"May Paradrop to [Land] tiles up to [40] tiles away <in [{Friendly} {Land}] tiles> <for units without [Paradrop]> <hidden from users>",
+			"May Paradrop to [Land] tiles up to [49] tiles away <in [{Friendly} {Land}] tiles> <for units with [Paradrop]> <hidden from users>"
 		]
 	},
 
@@ -171,9 +171,9 @@
 	{
 		"name": "[Caravansary] ability",
 		"uniques": [
-			// TODO: Produce an additional 2 Gold when connecting to another civilization.
-			"[1] Movement", // TODO: Land trade routes originating from this city have a 50% increase in range
-			"Ignores terrain cost",
+			"[+10]% Gold from Great Merchant trade missions", // TODO: Produce an additional 2 Gold when connecting to another civilization.
+			"[1] Movement", // 50% increase in range?
+			// Influence bonus is not a thing, but it is gameplay balance
 			"Comment [Double influence when conducting a [Trade Route] in City-States]"
 		],
 		"civilopediaText": [
@@ -185,7 +185,9 @@
 	{
 		"name": "[Harbor] ability",
 		"uniques": [
-			"[2] Movement",
+			"[+5]% Gold from Great Merchant trade missions", // TODO: Additional 1 Gold when connecting to another civilization
+			"[2] Movement", // 50% increased range?
+			// Influence bonus is not a thing, but it is gameplay balance
 			"Comment [Double influence when conducting a [Trade Route] in City-States]"
 		],
 		"civilopediaText": [
@@ -234,7 +236,7 @@
 	{
 		"name": "Golden Age from Victories",
 		"uniques": [
-			"Instantly gain [1] [Golden Age points] <upon defeating a [Military] unit>"
+			"Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"
 		]
 	},
 
@@ -282,19 +284,137 @@
 	{
 		"name": "Native Tongue",
 		"uniques": [
+			// Can not choose the same benefit until 2 other options are picked
 			"Comment [May choose benefit when discovering [Ancient ruins]]",
 			"Triggers a [Native Tongue] event <upon entering a [Ancient ruins] tile> <hidden from users>",
 			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
-			// Upgrading Pathfinder to Composite Bowman does not keep Native Tongue
-			"[This Unit] loses the [Native Tongue] promotion <upon turn end> <for [Composite Bowman] units> <hidden from users>"
+
+			// Upgrading Pathfinder to Composite Bowman does not keep Native Tongue. Run this three times ensure all counters are removed.
+			"Triggers a [Native Tongue Counter] event <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
+			"Triggers a [Native Tongue Counter] event <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
+			"Triggers a [Native Tongue Counter] event <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
+
+			// Finally, remove the promotion
+			"[This Unit] loses the [Native Tongue] promotion <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>"
 		],
 		"civilopediaText": [
 			{
 				"text": "Ancient ruins",
 				"link": "Improvement/Ancient ruins"
-			}
+			},
+			{ "text": "The same reward can't be chosen again for the next two ruins" }
 		]
-	}
+	},
+	{
+		"name": "[Native Tongue] [discover cultural artifacts] I",
+		"prerequisites": ["Native Tongue"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [squatters willing to work for you] I",
+		"prerequisites": ["Native Tongue"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [squatters wishing to settle under your rule] I",
+		"prerequisites": ["Native Tongue"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [your exploring unit receives training] I",
+		"prerequisites": ["Native Tongue"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [survivors (adds population to a city)] I",
+		"prerequisites": ["Native Tongue"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [a stash of gold] I",
+		"prerequisites": ["Native Tongue"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [discover a lost technology] I",
+		"prerequisites": ["Native Tongue"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [reveal nearby Barbarian camps] I",
+		"prerequisites": ["Native Tongue"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [find a crudely-drawn map] I",
+		"prerequisites": ["Native Tongue"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [discover holy symbols] I",
+		"prerequisites": ["Native Tongue"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [an ancient prophecy] I",
+		"prerequisites": ["Native Tongue"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [discover cultural artifacts] II",
+		"prerequisites": ["[Native Tongue] [discover cultural artifacts] I"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [squatters willing to work for you] II",
+		"prerequisites": ["[Native Tongue] [squatters willing to work for you] I"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [squatters wishing to settle under your rule] II",
+		"prerequisites": ["Native Tongue"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [your exploring unit receives training] II",
+		"prerequisites": ["[Native Tongue] [your exploring unit receives training] I"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [survivors (adds population to a city)] II",
+		"prerequisites": ["[Native Tongue] [survivors (adds population to a city)] I"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [a stash of gold] II",
+		"prerequisites": ["[Native Tongue] [a stash of gold] I"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [discover a lost technology] II",
+		"prerequisites": ["[Native Tongue] [discover a lost technology] I"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [reveal nearby Barbarian camps] II",
+		"prerequisites": ["[Native Tongue] [reveal nearby Barbarian camps] I"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [find a crudely-drawn map] II",
+		"prerequisites": ["[Native Tongue] [find a crudely-drawn map] I"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [discover holy symbols] II",
+		"prerequisites": ["[Native Tongue] [discover holy symbols] I"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "[Native Tongue] [an ancient prophecy] II",
+		"prerequisites": ["[Native Tongue] [an ancient prophecy] I"],
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
 
 	// Siege Tower: Sapper
 	{

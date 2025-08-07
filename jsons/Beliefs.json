@@ -48,7 +48,7 @@
         "name": "Religious Art",
         "type": "Follower",
         "uniques": [
-			"Comment [[Hermitage] provides +5 [Culture] and +5 [Tourism]]",
+			"Comment [[Hermitage] provides +5 [Culture] and +5 [Tourism]]", // @see Building/Hermitage
 			"[100]% weight to this choice for AI decisions <if [Hermitage] is constructed>"
         ],
 		"civilopediaText": [

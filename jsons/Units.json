@@ -1,15 +1,59 @@
 [
-	// Worker overriden for Antiquity Site manipulation.
+	// Overrides
+
 	{
-		"name": "Worker",
+		"name": "Samurai",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Japan",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Rifleman", // Musketman in Vanilla/G&K
+		"obsoleteTech": "Rifling",
+		"requiredResource": "Iron",
+		"promotions": ["Shock I", "Great Generals II"],
+		"uniques": ["Can build [Fishing Boats] improvements on tiles"],
+		"attackSound": "metalhit"
+	},
+
+	// Spaceship
+	{
+		"name": "SS Booster",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": [
-			"Can build [Land] improvements on tiles <in tiles without [Antiquity]>",
-			"Can build [All Road] improvements on tiles <in [Antiquity] tiles>",
-			"Automation is a primary action"
-		],
-		"cost": 70
+		"cost": 1500,
+		"requiredTech": "Advanced Ballistics",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased <before adopting [Space Procurements]>", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
+	},
+	{
+		"name": "SS Cockpit",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Satellites",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased <before adopting [Space Procurements]>", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+	},
+	{
+		"name": "SS Engine",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Particle Physics",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased <before adopting [Space Procurements]>", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+	},
+	{
+		"name": "SS Stasis Chamber",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 1500,
+		"requiredTech": "Nanotechnology",
+		"requiredResource": "Aluminum",
+		"uniques": ["Spaceship part", "Cannot be purchased <before adopting [Space Procurements]>", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 	},
 
 	// Trade Route Units
@@ -56,7 +100,7 @@
 			"Unavailable <for [City-States] Civilizations> <hidden from users>",
 			"Instantly consumes [1] [Trade Route]",
 			"Only available <with [Trade Route]> <hidden from users>",
-			"[0] Sight <hidden from users>",
+			"[-2] Sight <hidden from users>",
 			"May enter foreign tiles without open borders",
 			"Uncapturable <hidden from users>",
 			"Never appears as a Barbarian unit <hidden from users>",
@@ -64,6 +108,9 @@
 			// TODO: Within own cities, provide food and production after granary or workshop
 		]
 	},
+
+	// Unique units
+
 	{
 		"name": "Pathfinder",
 		"unitType": "Scout",
@@ -216,7 +263,7 @@
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities>",
+			"[-33]% Strength <when attacking> <vs cities>",
 			"Consumes [1] [Horses]"
 		],
 		"promotions": [
@@ -281,7 +328,7 @@
 		],
 		"uniques": [
 			"Can move after attacking",
-			"[-33]% Strength <vs cities> <when attacking>",
+			"[-33]% Strength <when attacking> <vs cities>",
 			"No defensive terrain bonus",
 			"Consumes [1] [Horses]"
 		],
@@ -303,7 +350,7 @@
 		],
 		"uniques": [
 			"Can move after attacking",
-			"[-33]% Strength <vs cities>",
+			"[-33]% Strength <when attacking> <vs cities>",
 			"No defensive terrain bonus",
 			"Consumes [1] [Horses]"
 		],
@@ -457,23 +504,10 @@
 		]
 	},
 
-    // Great People
-    {
-        "name": "Great Admiral", // https://civilization.fandom.com/wiki/Great_Admiral_(Civ5)
-        "unitType": "Civilian Water",
-        "uniques": [
-			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership
-			"All adjacent units heal [+15] HP when healing", // TODO: Repair Fleet (Instantly heals all ships within one tile, expends the unit)
-			// Can always traverse ocean tiles // @see Building/Palace
-            "Is part of Great Person group [General]",
-            "Great Person - [War]",
-            "Unbuildable",
-            "Uncapturable",
-			"Can be earned through combat",
-			"[2] Movement <after adopting [Navigation School]>"
-        ],
-        "movement": 4
-    },
+    /**
+	 * Great People
+	 */
+
     {
         "name": "Great Artist",
         "unitType": "Civilian",
@@ -501,8 +535,8 @@
 		"movement": 2,
 		"uniques": [
 			"[+100]% Gold from Great Merchant trade missions",
-            "Is part of Great Person group [Merchant] <hidden from users>",
-			"Great Person - [Great Person]",
+            "Is part of Great Person group [Great Person] <hidden from users>",
+			"Great Person - [Gold]",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence", // Double Gold, and Double Influence (Double Gold in Nations.json)
 			"Can instantly construct a [Customs house] improvement <by consuming this unit>",
 			"Double movement in [Coast]", // Extra Embarked Movement speed (6 vs 4)
@@ -516,7 +550,7 @@
         "unitType": "Civilian",
         "uniques": [
             "Instantly provides [1] [Great Work of Writing] <by consuming this unit>",
-            "Can generate a large amount of culture", // Write Political Treatise
+            "Can generate a large amount of culture", // Write Political Treatise. Culture Bomb
             "Is part of Great Person group [Writer]",
             "Great Person - [Culture]",
             "Unbuildable",
@@ -535,7 +569,8 @@
         "unitType": "Civilian",
         "uniques": [
             "Instantly provides [1] [Great Work of Music] <by consuming this unit>",
-            "Instantly provides [50] [Tourism] <by consuming this unit>", // Perform Concert Tour
+			// TODO: Needs to be performed in other Civilization's city tiles. Is 50 Tourism enough?
+            "Instantly provides [50] [Tourism] <by consuming this unit> <for [Human player] Civilizations>", // Perform Concert Tour
             "Is part of Great Person group [Musician]",
             "Great Person - [Culture]",
             "Unbuildable",
@@ -559,8 +594,49 @@
             "Great Person - [Production]",
 			"Unbuildable",
 			"Uncapturable",
-			"Triggers a [Spaceship part] event <after adopting [Spaceflight Pioneers]> <after discovering [Advanced Ballistics]> <with [Aluminum]> <for [Human player] Civilizations> <by consuming this unit> <hidden from users>"
+			"Triggers a [Spaceship part] event <after adopting [Spaceflight Pioneers]> <after discovering [Advanced Ballistics]> <with [Aluminum]> <by consuming this unit> <hidden from users>"
 		],
 		"movement": 2
-	}
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Khan",
+		"unitType": "Civilian",
+		"uniqueTo": "Mongolia",
+		"replaces": "Great General",
+		"uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 5
+	},
+    {
+        "name": "Great Admiral", // https://civilization.fandom.com/wiki/Great_Admiral_(Civ5)
+        "unitType": "Civilian Water",
+        "uniques": [
+			"[+15]% Strength bonus for [Water] units within [2] tiles", // Naval Leadership
+			"All adjacent units heal [+15] HP when healing", // TODO: Repair Fleet (Instantly heals all ships within one tile, expends the unit)
+			// Can always traverse ocean tiles // @see Building/Palace
+            "Is part of Great Person group [Admiral]",
+            "Great Person - [Navy]",
+            "Unbuildable",
+            "Uncapturable",
+			"Can be earned through combat <for [Water] units>",
+			"[2] Movement <after adopting [Navigation School]>"
+        ],
+        "movement": 4
+    }
 ]

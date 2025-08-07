@@ -170,9 +170,9 @@
 		"outerColor": [240,240,240],
 		"innerColor": [8,25,115],
 		"uniqueName": "Mare Clausum",
+		"uniqueText": "Resource diversity grants twice as much [Gold] for Portugal in [Trade Route]s."
 		"uniques": [
-			// Resource diversity grants twice as much Gold for Portugal in Trade Route.
-			"[+100]% [Gold] from Trade Routes"
+			"[+100]% Gold from Great Merchant trade missions"
 		],
 		"spyNames": ["Francisco", "Gaspar", "Alvaro", "Bento", "Roberto", "Afonso", "Galeote", "Diogo", "Eliana", "Oriana"],
 		"cities": ["Lisbon","Porto","Braga","Coimbra","Funchal","Leiria","Goa","Vila Nova de Gaia","Aveiro","Luanda",
@@ -340,14 +340,17 @@
 		"neutralHello": "Peace be upon you.",
 		"hateHello": "Oh, it's you.",
 		"tradeRequest": "Come forth, let's do business.",
+
 		"outerColor": [43, 88, 46],
 		"innerColor": [146, 221, 10],
+
 		"favoredReligion": "Islam",
 		"uniqueName": "Ships of the Desert",
 		"uniques": [
 			"Caravans gain 50% extended range", // @see Unit/Caravan
 			"[+10]% Spread Religion Strength", // TODO: Your Trade Routes spread the home city's Religion twice as effectively
 			"[+100]% [Oil] resource production"
+			// TODO: Bazaar adds +1 Gold per incoming trade route (+1 for the owner of the trade route) https://civilization.fandom.com/wiki/Bazaar_(Civ5)
 		],
 		"spyNames": ["Solhofaat", "Khenzeer", "Zarafah", "Temsaah", "Abyadh", "Mostafa", "Yusuf", "Waddah", "Sameera", "Gamal"],
 		"cities": ["Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
@@ -409,8 +412,10 @@
 		"neutralHello": "Hello.",
 		"hateHello": "Oh, it's you...",
 		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
+
 		"outerColor": [215,225,225],
 		"innerColor": [185,0,0],
+
 		"favoredReligion": "Shinto",
 		"uniqueName": "Bushido",
 		"uniques": [
@@ -445,8 +450,10 @@
         "neutralHello": "What now?",
         "hateHello": "So, out with it!",
         "tradeRequest": "It would be in your best interest, to carefully consider this proposal.",
+
         "outerColor": [150,150,150],
         "innerColor": [60,60,60],
+
 	    "favoredReligion": "Protestantism",
         "uniqueName": "Furor Teutonicus",
         "uniques": [
@@ -482,14 +489,17 @@
         "neutralHello": "Good day.",
         "hateHello": "Oh, it's you.",
         "tradeRequest": "Does this trade work for you, my friend?",
+
         "outerColor": [54,72,72],
         "innerColor": [246,205,137],
+
 		"favoredReligion": "Protestantism",
         "uniqueName": "The Great Warpath",
         "uniques": [
 			"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
-			"Comment [[Caravan]s get double movement in [{Forest} {Jungle}]]", // @see Unit/Caravans
+			"Comment [[Caravan]s get double movement in [{Forest} {Jungle}]]", // @see Unit/Caravans and Promotion/The Great Warpath
 			"Preferred Ideology: Freedom"
+			// TODO: Longhouse allows Production to be moved from this city along trade routes inside your civilization
 		],
 	    "spyNames": ["Onatah","Oneida","Oshadagea","Otetiani","Genesee","Dadgayadoh","Otwtiani","Kateri","Onondakai","Honanyawus"],
         "cities": ["Onoondaga","Osininka","Grand River","Akwesasme","Buffalo Creek","Brantford","Montreal","Genesse River","Canandaigua Lake","Lake Simcoe",
