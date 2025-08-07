@@ -256,7 +256,7 @@ BuildingIcons/Ideology
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Switch Ideology
+BuildingIcons/Change Ideology
   rotate: false
   xy: 220, 86
   size: 100, 100

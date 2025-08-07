@@ -132,7 +132,7 @@
 
 	// Remove Ideologies
 	{
-		"name": "Switch Ideology",
+		"name": "Change Ideology",
 		"text": "Are you sure you want to switch your [Ideology]?",
 		"presentation": "Alert",
 		"choices": [
@@ -203,13 +203,13 @@
 					"Remove [Space Procurements] <hidden from users>",
 					"Remove [Freedom Complete] <hidden from users>",
 					"Triggers a [Ideology] event <hidden from users>",
-					"Remove [Switch Ideology] [in capital] <hidden from users>"
+					"Remove [Change Ideology] [in capital] <hidden from users>"
 				]
 			},
 			{
 				"text": "No",
 				"uniques": [
-					"Remove [Switch Ideology] [in capital] <hidden from users>"
+					"Remove [Change Ideology] [in capital] <hidden from users>"
 				]
 			}
 		]

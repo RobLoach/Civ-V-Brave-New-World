@@ -2016,7 +2016,7 @@
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
-			"Remove [Switch Ideology] [in capital] <hidden from users>"
+			"Remove [Change Ideology] [in capital] <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Autocracy", "link": "Policy/Autocracy" },
@@ -2029,12 +2029,13 @@
 		]
 	},
 	{
-		"name": "Switch Ideology",
+		"name": "Change Ideology",
 		"cost": 1,
 		"happiness": -5,
 		"isNationalWonder": true,
 		"uniques": [
 			"Comment [Lose all current tenets and enter a one-turn anarchy to switch Ideologies.]",
+			"Only available <when number of [Happiness] is less than [0]>", // Can only change when malcontent
 			"Can be purchased for [0] [Gold] [in capital]",
 			"Unbuildable <hidden from users>",
 			"Unavailable <in cities with a [Ideology]> <hidden from users>",
@@ -2043,7 +2044,7 @@
 			"Unsellable <hidden from users>",
 			"Limited to [1] per Civilization <hidden from users>",
 			"Only available <in [Capital] cities> <hidden from users>",
-			"Triggers a [Switch Ideology] event <hidden from users>"
+			"Triggers a [Change Ideology] event <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Ideology", "link": "Building/Ideology" }
