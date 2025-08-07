@@ -2004,7 +2004,8 @@
 			"Limited to [1] per Civilization <hidden from users>",
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Order]> <hidden from users>",
-			"Unavailable <after adopting [Autocracy]> <hidden from users>"
+			"Unavailable <after adopting [Autocracy]> <hidden from users>",
+			"Remove [Switch Ideology] [in capital] <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "Autocracy", "link": "Policy/Autocracy" },
