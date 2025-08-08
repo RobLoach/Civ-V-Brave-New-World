@@ -1,5 +1,4 @@
 [
-	// Tradition
 	{
 		"name": "Tradition",
 		"era": "Ancient era",
@@ -94,7 +93,7 @@
                 "name": "Republic",
                 "uniques": [
                     "[+1 Production] [in all cities]",
-                    "[+5]% Production when constructing [All] buildings [in all cities]",
+                    "[+5]% Production when constructing [All] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 1
@@ -148,7 +147,6 @@
             }
         ]
     },
-	// Piety
 	{
 		"name": "Piety",
 		"era": "Ancient era",
@@ -201,7 +199,8 @@
 					"Comment [Allows adopting [Reformation] Beliefs into your Religion]"
 				],
 				"requires": [
-					"Religious Tolerance"
+					"Religious Tolerance",
+					"Mandate Of Heaven"
 				],
 				"row": 3,
 				"column": 3,
@@ -241,8 +240,6 @@
 			}
 		]
 	},
-
-	// Patronage
 	{
 		"name": "Patronage",
 		"era": "Classical era", // Medieval in Vanilla
@@ -318,8 +315,6 @@
 			}
 		]
 	},
-
-	// Rationalism
 	{
 		"name": "Rationalism",
 		"era": "Renaissance era",
@@ -395,8 +390,6 @@
 			}
 		]
 	},
-
-	// Exploration
 	{
 		"name": "Exploration",
 		"uniques": [
@@ -482,8 +475,6 @@
 			}
 		]
 	},
-
-	// Commerce
 	{
 		"name": "Commerce",
 		"era": "Medieval era",
@@ -563,8 +554,6 @@
 			}
 		]
 	},
-
-	// Aesthetics
 	{
 		"name": "Aesthetics",
 		"era": "Classical era",
@@ -654,9 +643,7 @@
 			}
 		]
 	},
-
-	// Ideology: Autocracy
-	{
+	{ // Ideology: Autocracy
 		"name": "Autocracy",
 		"era": "Ancient era",
 		"priorities": {
@@ -882,9 +869,7 @@
 			}
 		]
 	},
-
-	// Ideology: Order
-	{
+	{ // Ideology: Order
 		"name": "Order",
 		"era": "Ancient era",
 		"priorities": {
@@ -1105,9 +1090,7 @@
 			}
 		]
 	},
-
-	// Ideology: Freedom
-	{
+	{ // Ideology: Freedom
 		"name": "Freedom",
 		"era": "Ancient era",
 		"priorities": {
