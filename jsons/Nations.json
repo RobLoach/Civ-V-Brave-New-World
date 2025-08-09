@@ -170,7 +170,7 @@
 		"outerColor": [240,240,240],
 		"innerColor": [8,25,115],
 		"uniqueName": "Mare Clausum",
-		"uniqueText": "Resource diversity grants twice as much [Gold] for Portugal in [Trade Route]s."
+		"uniqueText": "Resource diversity grants twice as much [Gold] for Portugal in [Trade Route]s.",
 		"uniques": [
 			"[+100]% Gold from Great Merchant trade missions"
 		],
@@ -320,7 +320,6 @@
 	},
 
 	// Updated Civilizations
-
 	{
 		"name": "Arabia",
 		"leaderName": "Harun al-Rashid",
@@ -391,9 +390,7 @@
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
 			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"]
-
     },
-
 	{
 		"name": "Japan",
 		"leaderName": "Oda Nobunaga",
@@ -430,7 +427,6 @@
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
 			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"]
 	},
-
 	{
         "name": "Germany",
         "leaderName": "Otto von Bismarck",
@@ -469,7 +465,6 @@
             "Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg","Recklinghausen","Gottingen","Wolfsburg",
             "Koblenz","Hildesheim","Erlangen"]
     },
-
 	{
         "name": "Iroquois",
         "leaderName": "Hiawatha",
@@ -509,7 +504,6 @@
     },
 
 	// City-States sorted by cityStateType, name
-
 	{
 		"name": "Bratislava",
 		"adjective": ["Bratislava"],

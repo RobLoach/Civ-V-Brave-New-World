@@ -1,6 +1,5 @@
 [
 	// Overrides
-
 	{
 		"name": "Samurai",
 		"unitType": "Sword",
@@ -110,7 +109,6 @@
 	},
 
 	// Unique units
-
 	{
 		"name": "Pathfinder",
 		"unitType": "Scout",
@@ -504,10 +502,7 @@
 		]
 	},
 
-    /**
-	 * Great People
-	 */
-
+	// Great People
     {
         "name": "Great Artist",
         "unitType": "Civilian",
