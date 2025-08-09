@@ -65,6 +65,7 @@
 		"requiredTech": "Animal Husbandry",
 		"uniques": [
 			"Comment [Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence]",
+			"Comment [If built in a city with a [Granary], may establish an Internal [Trade Route] in an owned city to provide extra [Food]]",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence <for units without [[Caravansary] ability]> <hidden from users>",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence <for units with [[Caravansary] ability]> <hidden from users>",
 			// TODO: Establish Trade Route (Route must run over land from one city to another.)
@@ -78,12 +79,16 @@
 			"Uncapturable <hidden from users>",
 			"Cannot embark",
 			"Never appears as a Barbarian unit <hidden from users>",
-			"[-66]% Gold from Great Merchant trade missions <hidden from users>"
-			// TODO: Within own cities, provide food and production after granary or workshop
+			"[-66]% Gold from Great Merchant trade missions <hidden from users>",
+			"Gain a free [Food Bank] [in this city] <by consuming this unit> <in [Your] cities> <in cities without a [Food Bank]> <for units with [[Granary] ability]> <hidden from users>",
+			"Gain a free [Material Warehouse] [in this city] <by consuming this unit> <in [Your] cities> <in cities without a [Material Warehouse]> <for units with [[Workshop] ability]> <hidden from users>",
+			// TODO: Within own cities, provide food and production after granary or workshop,
+			"Can Spread Religion <for all movement> <once> <after founding a religion> <for [Arabia] Civilizations> <hidden from users>"
 		],
 		"promotions": [
 			"The Great Warpath" // Iroquois unique
-		]
+		],
+		"religiousStrength": 1500
 	},
 	{
 		"name": "Cargo Ship", // https://civilization.fandom.com/wiki/Cargo_Ship_(Civ5)
@@ -93,6 +98,7 @@
 		"requiredTech": "Sailing",
 		"uniques": [
 			"Comment [Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence]",
+			"Comment [If built in a city with a [Workshop], may establish an Internal [Trade Route] in an owned city to provide extra [Production]]",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence <for units without [[Harbor] ability]> <hidden from users>",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence <for units with [[Harbor] ability]> <hidden from users>",
 			// TODO: Establish Trade Route with a different civ (Route must run over water from one coastal city to another.)
@@ -104,9 +110,13 @@
 			"May enter foreign tiles without open borders",
 			"Uncapturable <hidden from users>",
 			"Never appears as a Barbarian unit <hidden from users>",
-			"[-66]% Gold from Great Merchant trade missions <hidden from users>"
+			"[-66]% Gold from Great Merchant trade missions <hidden from users>",
+			"Gain a free [Food Entrepôt] [in this city] <by consuming this unit> <in [{Your} {Coastal}] cities> <in cities without a [Food Entrepôt]> <for units with [[Granary] ability]> <hidden from users>",
+			"Gain a free [Material Drydock] [in this city] <by consuming this unit> <in [Your] cities> <in cities without a [Material Drydock]> <for units with [[Workshop] ability]> <hidden from users>",
+			"Can Spread Religion <for all movement> <once> <after founding a religion> <for [Arabia] Civilizations> <hidden from users>"
 			// TODO: Within own cities, provide food and production after granary or workshop
-		]
+		],
+		"religiousStrength": 1500
 	},
 
 	// Unique units
