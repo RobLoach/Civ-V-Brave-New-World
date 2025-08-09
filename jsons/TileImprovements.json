@@ -42,7 +42,7 @@
 			"Can only be built on [{Coastal} {City-State}] tiles",
 			"Must be next to [Luxury resource]",
 			"Cannot be built on [resource] tiles <hidden from users>",
-			"Unavailable <within [4] tiles of a [Feitoria]> <hidden from users>", // Can't double-tip into the same resource
+			"Unavailable <within [4] tiles of a [Feitoria]> <hidden from users>", // Can't double-tap into the same resource
 			"Can be built outside your borders <hidden from users>",
 			"Will not be replaced by automated units <hidden from users>",
 			"Gain control over [Land] tiles in a [0]-tile radius <hidden from users>",
