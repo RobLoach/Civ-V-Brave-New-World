@@ -80,7 +80,7 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-            // TODO: Implement this.
+            // Implemented in Units.json
 			"Comment [[Missionary] unit's Spread Religion action erodes existing pressure from other religions]"
         ],
 		"civilopediaText": [

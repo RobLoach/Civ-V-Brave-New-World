@@ -31,7 +31,6 @@
 - Chocolate by Vector Portal from NounProject.com
 - Christianity by Ben Davis from NounProject.com
 - Christianity by Samsul Rizal from NounProject.com
-- Christianity Cross by ProSymbols from NounProject.com
 - Cloves by parkjisun from NounProject.com
 - Culture by Adrien Coquet from NounProject.com
 - Diamond by SHAHAREA from NounProject.com
@@ -106,6 +105,7 @@
 - [Desert Warrior](https://thenounproject.com/icon/desert-7472058/) by Alvida
 - [Dig](https://thenounproject.com/icon/dig-5410940/) by Bahrul Ulum from NounProject.com
 - [Double Agent](https://thenounproject.com/icon/spy-1807269/) by Adrien Coquet
+- [Eastern Orthodoxy](https://thenounproject.com/icon/orthodox-7358580/) by Gavin Muhammad Isa
 - [Economic](https://thenounproject.com/icon/economic-6587778/) by HAZHA FARASYA
 - [Evil Spirits](https://thenounproject.com/icon/shield-7922666/) by SAADI ALA
 - [Foreign Lands Bonus](https://thenounproject.com/icon/triangle-7487240/) by El Hikami
