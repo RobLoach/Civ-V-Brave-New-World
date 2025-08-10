@@ -10,151 +10,152 @@
 
 ### TileSets
 
-- FantasyHex Merchant of Venice by Herobrine
 - Absolute Units by Basil
 - Brazilwood Camp by Kurwizimi
+- FantasyHex Merchant of Venice by Herobrine
+- HexaRealm Chateau by Firelord
 - Various units by Dom Pedro III
-- HexaRalm Chateau by Firelord
 
 ### Icons
 
-- Worldwide by iconsdb.com for Exploration policy branch
-- Feather by iconsdb.com for Aesthetics policy branch
-- Headdress by Arturo Alejandro Romo Escartin from NounProject.com
-- Track by andriwidodo from NounProject.com
-- Tomahawk by Bakunetsu Kaito from NounProject.com
-- Diamond by SHAHAREA from NounProject.com
-- Ship by Robert Bjurshagen from NounProject.com
-- Caravel by Anthony Bossard from NounProject.com
-- Tower by Andrejs Kirma from NounProject.com
-- [Pracinha](https://thenounproject.com/icon/snake-7803482/) by Md Ahasan Habib
-- Paint by tezar tantular from NounProject.com
-- Fort by Anton from NounProject.com
-- Turban by Andrejs Kirma from NounProject.com
-- Taurus by Erika Jasso from NounProject.com
-- Library by Rob Crosswell from NounProject.com
-- Shield Zulu by Smashing Stocks from NounProject.com
-- Kris by Mochammad Kafi from NounProject.com
-- Wing by prasong tadoungsorn from NounProject.com
-- Horse Stable by Azam Ishaq from NounProject.com
-- Shield Zulu by Smashing Stocks from NounProject.com
-- Chateau Castle by Vectors Market from NounProject.com
-- Pentagram by Adame Dahmani from NounProject.com
-- Bazooka by Visualeat from NounProject.com
-- Jetpack by HideMaru from NounProject.com
+- Anchor by Alvaro Cabrera from NounProject.com
+- Art by scribble.glyph from NounProject.com
+- Artist by my name is mud from NounProject.com
 - Axe by Vectors Market from NounProject.com
-- Christianity Cross by ProSymbols from NounProject.com
+- Bazooka by Visualeat from NounProject.com
+- Beaker by ibrandify from NounProject.com
+- Building by Taylan Sentürk from NounProject.com
+- Capitalism by Adrien Coquet from NounProject.com
+- Caravel by Anthony Bossard from NounProject.com
+- Chateau Castle by Vectors Market from NounProject.com
+- Chocolate by Vector Portal from NounProject.com
 - Christianity by Ben Davis from NounProject.com
 - Christianity by Samsul Rizal from NounProject.com
-- Winged Lion by Studio Fibonacci from NounProject.com
 - Cloves by parkjisun from NounProject.com
-- Nutmeg by Azam Ishaq from NounProject.com
-- Pepper by Amethyst Studio from NounProject.com
-- [Bison](https://thenounproject.com/icon/bison-4060108/) by Lluis Pareras from NounProject.com
-- Chocolate by Vector Portal from NounProject.com
-- Lance With Banner by Robert Bjurshagen from NounProject.com
-- Hill by wahab marhaban from NounProject.com
-- Indonesia by WiStudio from NounProject.com
-- Parthenon by Jonathan Li from NounProject.com
-- Red Fort Complex by Linseed Studio from NounProject.com
-- Trade by Gregor Cresnar from NounProject.com
-- Exhibition by Vectors Market from NounProject.com
-- Building by Taylan Sentürk from NounProject.com
-- Government by Adrien Coquet from NounProject.com
-- Wagon by Med Marki from NounProject.com
-- Halberd by Smalllike from NounProject.com
-- Stock Trader by Jose Dean from NounProject.com
-- Healthcare by Gregor Cresnar from NounProject.com
-- Capitalism by Adrien Coquet from NounProject.com
-- Volunteer by Deadtype from NounProject.com
-- Urban by IronSV from NounProject.com
-- Soldier by WEBTECHOPS LLP from NounProject.com
-- Tower Castle by Vectors Market from NounProject.com
-- Pioneer by ProSymbols from NounProject.com
-- Rank by Muhammad Tajudin from NounProject.com
-- Beaker by ibrandify from NounProject.com
-- [Uffizi](https://thenounproject.com/icon/sculpture-7760058/) by Hilmy Abiyyu Asad from NounProject.com
-- School by David Khai from NounProject.com
-- Plan by SuperNdre from NounProject.com
-- [Creative Expression](https://thenounproject.com/icon/splash-4390563/) by AbtoCreative from NounProject.com
-- Lighthouse by emka angelina from NounProject.com
-- Anchor by Alvaro Cabrera from NounProject.com
-- Treasure by Pascal Heß from NounProject.com
 - Culture by Adrien Coquet from NounProject.com
-- Art by scribble.glyph from NounProject.com
-- Flourish by Nugraha Wira Menggala from NounProject.com
-- Artist by my name is mud from NounProject.com
+- Diamond by SHAHAREA from NounProject.com
 - Exchange by Markus from NounProject.com
-- [Tourism](https://thenounproject.com/icon/suitcase-3406281/) by Alice Design from NounProject.com
-- [Quill Pen](https://thenounproject.com/icon/quill-pen-6965217/) by elastic1studio from NounProject.com
-- [Color Palette](https://thenounproject.com/icon/color-palette-4655601/) by YANDI RS from NounProject.com
-- [Music Note](https://thenounproject.com/icon/music-note-4840954/) by hibernut from NounProject.com
-- [Dig](https://thenounproject.com/icon/dig-5410940/) by Bahrul Ulum from NounProject.com
-- [Gem](https://thenounproject.com/icon/gem-7307861/) by HDM
-- [Courthouse](https://thenounproject.com/icon/courthouse-7403358/) by Ariyanto Deni
-- [Airplane](https://thenounproject.com/icon/airplane-7727063/) by Yosua Bungaran
-- [Camel](https://thenounproject.com/icon/camel-7803410/) by Md Ahasan Habib
-- [Keycard](https://thenounproject.com/icon/keycard-7423952/) by Arif Rahman
-- [Interpretive Sign](https://thenounproject.com/icon/interpretive-sign-68539/) by Luis Prado
-- [Space Station](https://thenounproject.com/icon/space-station-6618655/) by Kise1ki
-- [Theatre](https://thenounproject.com/icon/theatre-7449828/) by Icogenix
-- [Marquee](https://thenounproject.com/icon/marquee-1546225/) by JS Beaulieu
-- [Captain](https://thenounproject.com/icon/captain-7649814/) by Ponisih
-- [Antiquity Site and Hidden Antiquity Site](https://thenounproject.com/icon/ruins-5758116/) by Lars Meiertoberens
-- [Artifact](https://thenounproject.com/icon/Artifact-3243819/) by Vectors Point
-- [Internet](https://thenounproject.com/icon/internet-7818125/) by Sugeng Riyanto
-- [Sword](https://thenounproject.com/icon/sword-7843777/) by Kim Sun Young
-- [Hammer](https://thenounproject.com/icon/hammer-829071/) by Chunk Icons
-- [Torch](https://thenounproject.com/icon/torch-7526806/) by Putri Amaliya
-- [Business Specialist](https://thenounproject.com/icon/business-specialist-598034/) by Delwar Hossain
+- Exhibition by Vectors Market from NounProject.com
+- Feather by iconsdb.com for Aesthetics policy branch
+- Flourish by Nugraha Wira Menggala from NounProject.com
+- Fort by Anton from NounProject.com
+- Government by Adrien Coquet from NounProject.com
+- Halberd by Smalllike from NounProject.com
+- Headdress by Arturo Alejandro Romo Escartin from NounProject.com
+- Healthcare by Gregor Cresnar from NounProject.com
+- Hill by wahab marhaban from NounProject.com
+- Horse Stable by Azam Ishaq from NounProject.com
+- Indonesia by WiStudio from NounProject.com
+- Jetpack by HideMaru from NounProject.com
+- Kris by Mochammad Kafi from NounProject.com
+- Lance With Banner by Robert Bjurshagen from NounProject.com
+- Library by Rob Crosswell from NounProject.com
+- Lighthouse by emka angelina from NounProject.com
+- Nutmeg by Azam Ishaq from NounProject.com
+- Paint by tezar tantular from NounProject.com
+- Parthenon by Jonathan Li from NounProject.com
+- Pentagram by Adame Dahmani from NounProject.com
+- Pepper by Amethyst Studio from NounProject.com
+- Pioneer by ProSymbols from NounProject.com
+- Plan by SuperNdre from NounProject.com
+- Rank by Muhammad Tajudin from NounProject.com
+- School by David Khai from NounProject.com
+- Shield Zulu by Smashing Stocks from NounProject.com
+- Shield Zulu by Smashing Stocks from NounProject.com
+- Ship by Robert Bjurshagen from NounProject.com
+- Soldier by WEBTECHOPS LLP from NounProject.com
+- Stock Trader by Jose Dean from NounProject.com
+- Taurus by Erika Jasso from NounProject.com
+- Tomahawk by Bakunetsu Kaito from NounProject.com
+- Tower by Andrejs Kirma from NounProject.com
+- Tower Castle by Vectors Market from NounProject.com
+- Track by andriwidodo from NounProject.com
+- Trade by Gregor Cresnar from NounProject.com
+- Treasure by Pascal Heß from NounProject.com
+- Turban by Andrejs Kirma from NounProject.com
+- Urban by IronSV from NounProject.com
+- Volunteer by Deadtype from NounProject.com
+- Wagon by Med Marki from NounProject.com
+- Wing by prasong tadoungsorn from NounProject.com
+- Winged Lion by Studio Fibonacci from NounProject.com
+- Worldwide by iconsdb.com for Exploration policy branch
 - [Add User](https://thenounproject.com/icon/add-user-368922/) by Gregor Cresnar
-- [Spy](https://thenounproject.com/icon/spy-7776026/) by Icon Queen
-- [Money Bag](https://thenounproject.com/icon/money-bag-7868190/) by Dwi ridwanto
-- [Economic](https://thenounproject.com/icon/economic-6587778/) by HAZHA FARASYA
-- [City](https://thenounproject.com/icon/city-7677326/) by Ishaq_hmad
-- [Vote](https://thenounproject.com/icon/vote-4045417/) by SBTS
-- [Deal](https://thenounproject.com/icon/deal-7503121/) by Imron Sadewo
+- [Airplane](https://thenounproject.com/icon/airplane-7727063/) by Yosua Bungaran
+- [Altitude Training](https://thenounproject.com/icon/mountain-5409893/) by HideMaru
+- [Antiquity Site and Hidden Antiquity Site](https://thenounproject.com/icon/ruins-5758116/) by Lars Meiertoberens
 - [Arsenal of Democracy](https://thenounproject.com/icon/bullet-7459993/) by rizal2109
+- [Artifact](https://thenounproject.com/icon/Artifact-3243819/) by Vectors Point
+- [Bison](https://thenounproject.com/icon/bison-4060108/) by Lluis Pareras from NounProject.com
+- [Business Specialist](https://thenounproject.com/icon/business-specialist-598034/) by Delwar Hossain
+- [Camel](https://thenounproject.com/icon/camel-7803410/) by Md Ahasan Habib
+- [Captain](https://thenounproject.com/icon/captain-7649814/) by Ponisih
+- [Caravan](https://thenounproject.com/icon/camel-7803410/) by Md Ahasan Habib
+- [Cargo Ship, Harbor ability](https://thenounproject.com/icon/sail-boat-7845318/) by IYIKON
+- [Christianity](https://thenounproject.com/icon/cross-5815203/) by Alvaro Cabrera
+- [City Plunder](https://thenounproject.com/icon/skull-and-bones-6458048/) by Dimitri Lupo
+- [City](https://thenounproject.com/icon/city-7677326/) by Ishaq_hmad
+- [Clausewitz's Legacy](https://thenounproject.com/icon/muscles-7459499/) by Ashok
+- [Color Palette](https://thenounproject.com/icon/color-palette-4655601/) by YANDI RS from NounProject.com
+- [Comanche Rider](https://thenounproject.com/icon/native-indian-headdress-6252201/) by Juicy Fish
+- [Courthouse](https://thenounproject.com/icon/courthouse-7403358/) by Ariyanto Deni
+- [Creative Expression](https://thenounproject.com/icon/splash-4390563/) by AbtoCreative from NounProject.com
+- [Cult of Personality](https://thenounproject.com/icon/bully-4616110/) by Kamin Ginkaew
+- [Cultural Revolution](https://thenounproject.com/icon/cultural-activities-7659287/) by Mia Elysia
+- [Deal](https://thenounproject.com/icon/deal-7503121/) by Imron Sadewo
+- [Desert Warrior](https://thenounproject.com/icon/desert-7472058/) by Alvida
+- [Dig](https://thenounproject.com/icon/dig-5410940/) by Bahrul Ulum from NounProject.com
+- [Double Agent](https://thenounproject.com/icon/spy-1807269/) by Adrien Coquet
+- [Eastern Orthodoxy](https://thenounproject.com/icon/orthodox-7358580/) by Gavin Muhammad Isa
+- [Economic](https://thenounproject.com/icon/economic-6587778/) by HAZHA FARASYA
+- [Evil Spirits](https://thenounproject.com/icon/shield-7922666/) by SAADI ALA
+- [Foreign Lands Bonus](https://thenounproject.com/icon/triangle-7487240/) by El Hikami
+- [Full Moon Striker](https://thenounproject.com/icon/missile-6608854/) by Vectorstall
+- [Futurism](https://thenounproject.com/icon/tourist-7083437/) by Andre Buand
+- [Gem](https://thenounproject.com/icon/gem-7307861/) by HDM
+- [Golden Age from Victories](https://thenounproject.com/icon/smiley-face-2571154/) by Mike Zuidgeest
+- [Great Work of Writing](https://thenounproject.com/icon/ink-pen-5709031/) by Garis Tanam
+- [Gunboat Diplomacy](https://thenounproject.com/icon/diplomacy-6258254/) by WBcreative
+- [Hammer](https://thenounproject.com/icon/hammer-829071/) by Chunk Icons
+- [Heavy Charge](https://thenounproject.com/icon/spear-7674485/) by metami septiana
+- [Heroism](https://thenounproject.com/icon/star-4960592/) by Mu'as
+- [Homeland Guardian](https://thenounproject.com/icon/star-shield-764665/) by Aneeque Ahmed
+- [Industrial Espionage](https://thenounproject.com/icon/robbery-7183772/) by Zach Hainsworth
+- [International Space Station](https://thenounproject.com/icon/iss-956251/) by Viktor Korobkov
+- [Internet](https://thenounproject.com/icon/internet-7818125/) by Sugeng Riyanto
+- [Interpretive Sign](https://thenounproject.com/icon/interpretive-sign-68539/) by Luis Prado
+- [Invulnerability](https://thenounproject.com/icon/health-insurance-764650/) by Aneeque Ahmed
+- [Keycard](https://thenounproject.com/icon/keycard-7423952/) by Arif Rahman
+- [King Solomon's Mines](https://thenounproject.com/icon/mine-7442527/) by Rikas Dzihab
+- [Lightning Warfare](https://thenounproject.com/icon/tank-7284097/) by Taewon Kang
+- [Marquee](https://thenounproject.com/icon/marquee-1546225/) by JS Beaulieu
 - [Media](https://thenounproject.com/icon/media-6922821/) by Syaeful Amri
 - [Mobilization](https://thenounproject.com/icon/sale-7772060/) by Skena Grafis
-- [Futurism](https://thenounproject.com/icon/tourist-7083437/) by Andre Buand
-- [Industrial Espionage](https://thenounproject.com/icon/robbery-7183772/) by Zach Hainsworth
-- [Third Alternative](https://thenounproject.com/icon/capital-7169973/) by Nursila
-- [Cult of Personality](https://thenounproject.com/icon/bully-4616110/) by Kamin Ginkaew
-- [Gunboat Diplomacy](https://thenounproject.com/icon/diplomacy-6258254/) by WBcreative
-- [Clausewitz's Legacy](https://thenounproject.com/icon/muscles-7459499/) by Ashok
-- [Socialist Realism](https://thenounproject.com/icon/monument-6860915/) by I Putu Kharismayadi
-- [Skyscrapers](https://thenounproject.com/icon/building-7605346/) by Vida Baris
-- [Double Agent](https://thenounproject.com/icon/spy-1807269/) by Adrien Coquet
-- [Party Leadership](https://thenounproject.com/icon/leader-925242/) by Oksana Latysheva
-- [Resettlement](https://thenounproject.com/icon/resettlement-2209642/) by Nithinan Tatah
-- [Cultural Revolution](https://thenounproject.com/icon/cultural-activities-7659287/) by Mia Elysia
-- [Spaceflight Pioneers](https://thenounproject.com/icon/astronaut-7528057/) by ArashDesign
-- [Caravan](https://thenounproject.com/icon/camel-7803410/) by Md Ahasan Habib
-- [King Solomon's Mines](https://thenounproject.com/icon/mine-7442527/) by Rikas Dzihab
-- [Christianity](https://thenounproject.com/icon/cross-5815203/) by Alvaro Cabrera
-- [Trade Route](https://thenounproject.com/icon/circle-arrows-1841393/) by Untashable
-- [Invulnerability](https://thenounproject.com/icon/health-insurance-764650/) by Aneeque Ahmed
+- [Money Bag](https://thenounproject.com/icon/money-bag-7868190/) by Dwi ridwanto
+- [Music Note](https://thenounproject.com/icon/music-note-4840954/) by hibernut from NounProject.com
 - [Mythic Blade](https://thenounproject.com/icon/question-mark-1295871/) by Alex Muravev
-- [Evil Spirits](https://thenounproject.com/icon/shield-7922666/) by SAADI ALA
-- [Heroism](https://thenounproject.com/icon/star-4960592/) by Mu'as
-- [Recruitment](https://thenounproject.com/icon/skull-912477/) by Andrew Doane
-- [Sneak Attack](https://thenounproject.com/icon/wing-1865583/) by prasong tadoungsorn
-- [Altitude Training](https://thenounproject.com/icon/mountain-5409893/) by HideMaru
-- [Paradrop](https://thenounproject.com/icon/parachute-7236485/)
-- [Skyranger](https://thenounproject.com/icon/airplane-7546219/) by Feri_icon
-- [City Plunder](https://thenounproject.com/icon/skull-and-bones-6458048/) by Dimitri Lupo
-- [Heavy Charge](https://thenounproject.com/icon/spear-7674485/) by metami septiana
-- [No movement cost to pillage](https://thenounproject.com/icon/burn-7438357/) by Arto Moro
-- [Golden Age from Victories](https://thenounproject.com/icon/smiley-face-2571154/) by Mike Zuidgeest
-- [Foreign Lands Bonus](https://thenounproject.com/icon/triangle-7487240/) by El Hikami
-- [Homeland Guardian](https://thenounproject.com/icon/star-shield-764665/) by Aneeque Ahmed
-- [Desert Warrior](https://thenounproject.com/icon/desert-7472058/) by Alvida
-- [Full Moon Striker](https://thenounproject.com/icon/missile-6608854/) by Vectorstall
 - [Native Tongue](https://thenounproject.com/icon/archway-3396176/) by Arthur Shlain
-- [Cargo Ship, Harbor ability](https://thenounproject.com/icon/sail-boat-7845318/) by IYIKON
+- [No movement cost to pillage](https://thenounproject.com/icon/burn-7438357/) by Arto Moro
+- [Paradrop](https://thenounproject.com/icon/parachute-7236485/)
+- [Party Leadership](https://thenounproject.com/icon/leader-925242/) by Oksana Latysheva
+- [Pracinha](https://thenounproject.com/icon/snake-7803482/) by Md Ahasan Habib
+- [Quill Pen](https://thenounproject.com/icon/quill-pen-6965217/) by elastic1studio from NounProject.com
+- [Recruitment](https://thenounproject.com/icon/skull-912477/) by Andrew Doane
+- [Red Fort](https://thenounproject.com/icon/red-fort-331332/) by József Balázs-Hegedüs from NounProject.com
+- [Resettlement](https://thenounproject.com/icon/resettlement-2209642/) by Nithinan Tatah
 - [Siege Tower, Sapper](https://thenounproject.com/icon/bull-head-2717640/) by Laymik
-- [Comanche Rider](https://thenounproject.com/icon/native-indian-headdress-6252201/) by Juicy Fish
-- [Lightning Warfare](https://thenounproject.com/icon/tank-7284097/) by Taewon Kang
-- [Great Work of Writing](https://thenounproject.com/icon/ink-pen-5709031/) by Garis Tanam
+- [Skyranger](https://thenounproject.com/icon/airplane-7546219/) by Feri_icon
+- [Skyscrapers](https://thenounproject.com/icon/building-7605346/) by Vida Baris
+- [Sneak Attack](https://thenounproject.com/icon/wing-1865583/) by prasong tadoungsorn
+- [Socialist Realism](https://thenounproject.com/icon/monument-6860915/) by I Putu Kharismayadi
+- [Spaceflight Pioneers](https://thenounproject.com/icon/astronaut-7528057/) by ArashDesign
+- [Spy](https://thenounproject.com/icon/spy-7776026/) by Icon Queen
+- [Sword](https://thenounproject.com/icon/sword-7843777/) by Kim Sun Young
+- [Theatre](https://thenounproject.com/icon/theatre-7449828/) by Icogenix
+- [Third Alternative](https://thenounproject.com/icon/capital-7169973/) by Nursila
+- [Torch](https://thenounproject.com/icon/torch-7526806/) by Putri Amaliya
+- [Tourism](https://thenounproject.com/icon/suitcase-3406281/) by Alice Design from NounProject.com
+- [Trade Route](https://thenounproject.com/icon/circle-arrows-1841393/) by Untashable
+- [Uffizi](https://thenounproject.com/icon/sculpture-7760058/) by Hilmy Abiyyu Asad from NounProject.com
+- [Vote](https://thenounproject.com/icon/vote-4045417/) by SBTS
+- [Winged Hussar](https://www.dakkadakka.com/gallery/895280-Primaris,%20Winged%20Hussar.html) by Unknown
 - [Zoo](https://www.flaticon.com/free-icon/elephant_1419285) by Freepik - Flaticon

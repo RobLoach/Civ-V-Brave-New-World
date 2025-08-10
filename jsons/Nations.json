@@ -329,7 +329,6 @@
 	},
 
 	// Updated Civilizations
-
 	{
 		"name": "Arabia",
 		"leaderName": "Harun al-Rashid",
@@ -400,9 +399,7 @@
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
 			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"]
-
     },
-
 	{
 		"name": "Japan",
 		"leaderName": "Oda Nobunaga",
@@ -439,7 +436,6 @@
 			"Izumi","Omi","Echigo","Kozuke","Sado","Kobe","Nagano","Hiroshima","Takayama","Akita","Fukuoka","Aomori",
 			"Kamakura","Kochi","Naha","Sendai","Gifu","Yamaguchi","Ota","Tottori"]
 	},
-
 	{
         "name": "Germany",
         "leaderName": "Otto von Bismarck",
@@ -478,7 +474,6 @@
             "Leverkusen","Oldenburg","Neuss","Mulheim","Darmstadt","Herne","Wurzburg","Recklinghausen","Gottingen","Wolfsburg",
             "Koblenz","Hildesheim","Erlangen"]
     },
-
 	{
         "name": "Iroquois",
         "leaderName": "Hiawatha",
@@ -518,7 +513,6 @@
     },
 
 	// City-States sorted by cityStateType, name
-
 	{
 		"name": "Bratislava",
 		"adjective": ["Bratislava"],
