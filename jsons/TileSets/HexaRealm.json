@@ -5,6 +5,10 @@
         "Grassland+Jungle+Cocoa": ["Grassland", "JungleG+Cocoa"],
 
 		// Misc
-		"Archaeological Dig": ["Quarry"]
+		"Archaeological Dig": ["Quarry"],
+
+		// King Solomon's Mines
+		"Plains+King Solomon's Mines": ["Plains", "King Solomon's Mines"],
+		"Desert+King Solomon's Mines": ["Desert", "King Solomon's Mines"]
 	}
 }
