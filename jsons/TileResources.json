@@ -323,7 +323,7 @@
 
 	// Cultural Victory
 	{
-		"name": "Total Culture",
+		"name": "Accumulated Culture",
 		"resourceType": "Bonus",
 		"uniques": [
 			"Cannot be traded <hidden from users>",

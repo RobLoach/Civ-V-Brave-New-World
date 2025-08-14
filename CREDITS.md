@@ -159,4 +159,4 @@
 - [Vote](https://thenounproject.com/icon/vote-4045417/) by SBTS
 - [Winged Hussar](https://www.dakkadakka.com/gallery/895280-Primaris,%20Winged%20Hussar.html) by Unknown
 - [Zoo](https://www.flaticon.com/free-icon/elephant_1419285) by Freepik - Flaticon
-- [Total Culture](https://thenounproject.com/icon/music-5611/) by Naomi Atkinson
+- [Accumulated Culture](https://thenounproject.com/icon/music-5611/) by Naomi Atkinson

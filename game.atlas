@@ -1222,7 +1222,7 @@ ResourceIcons/Hidden Antiquity Site
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Total Culture
+ResourceIcons/Accumulated Culture
   rotate: false
   xy: 1855, 522
   size: 50, 50
