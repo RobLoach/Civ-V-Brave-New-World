@@ -17,6 +17,7 @@
 		// Great Admirals can always traverse ocean tiles
 		"Enables [Great Admiral] units to enter ocean tiles <hidden from users>",
 
-		"Instantly provides [1] [Total Culture] <for every [[Culture] Per Turn]> <upon turn start>"
+		// Cultural Victory condition. @see VictoryTypes.json
+		"Instantly provides [1] [Total Culture] <for every [[Culture] Per Turn]> <upon turn end>"
 	]
 }
