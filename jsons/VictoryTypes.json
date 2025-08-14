@@ -1,7 +1,7 @@
 [
     {
         "name": "Cultural",
-        "victoryScreenHeader": "Have more [Tourism] than\nthe accumulated [Culture] of every\n civilization to win!",
+        "victoryScreenHeader": "Have more [Tourism] than\nthe accumulated [Culture]\nof every civilization to win!",
         "milestones": [
 			"Have more [Tourism] than each player's [Accumulated Culture]"
 		],
