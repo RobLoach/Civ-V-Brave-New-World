@@ -319,5 +319,19 @@
 			"Doesn't generate naturally",
 			"Will not be displayed in Civilopedia"
 		]
+	},
+
+	// Cultural Victory
+	{
+		"name": "Total Culture",
+		"resourceType": "Strategic",
+		"uniques": [
+			"Cannot be traded <hidden from users>",
+			"Stockpiled",
+			"Excluded from map editor",
+			//"Not shown on world screen",
+			"Doesn't generate naturally",
+			"Will not be displayed in Civilopedia"
+		]
 	}
 ]

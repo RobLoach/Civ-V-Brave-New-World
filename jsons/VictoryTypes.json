@@ -1,10 +1,9 @@
 [
     {
         "name": "Cultural",
-        "victoryScreenHeader": "Complete 6 policy branches and\nbuild the Utopia Project to win!",
+        "victoryScreenHeader": "Have more [Tourism]\nthan each player's [Total Culture]",
         "milestones": [
-			"Complete [6] Policy branches", // TODO: Rework Cultural Victory around Tourism
-			"Build [Utopia Project]"
+			"Have more [Tourism] than the [Total Culture] of each player"
 		],
         "victoryString": "You have achieved victory through the awesome power of your Culture. Your civilization's greatness - the magnificence of its monuments and the power of its artists - have astounded the world! Poets will honor you as long as beauty brings gladness to a weary heart.",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
