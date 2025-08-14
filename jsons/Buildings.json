@@ -57,6 +57,7 @@
 		],
 		"requiredTech": "Radar"
 	},
+	// trade stuffs
 	{
 		"name": "Caravansary",
 		"cost": 120,
@@ -71,6 +72,104 @@
 				"text": "[Caravansary] ability",
 				"link": "Promotion/[Caravansary] ability"
 			}
+		]
+	},
+	{
+		"name": "Granary",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]",
+			"All newly-trained [Caravan] units [in this city] receive the [[Granary] ability] promotion",
+			"All newly-trained [Cargo Ship] units [in this city] receive the [[Granary] ability] promotion"
+		],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Food Bank",
+		"cost": 0,
+		"uniques": ["Unbuildable",
+			"Cannot be purchased",
+			"Destroyed when the city is captured",
+			"Instantly provides [1] [Trade Route]",
+			"Consumes [1] [Trade Route]",
+			"[+3 Food] [in this city] <during the [Ancient era]>",
+			"[+4 Food] [in this city] <starting from the [Classical era]> <before the [Industrial era]>",
+			"[+5 Food] [in this city] <during the [Industrial era]>",
+			"[+6 Food] [in this city] <starting from the [Modern era]>"
+		]
+	},
+	{
+		"name": "Food Entrepôt",
+		"cost": 0,
+		"uniques": ["Unbuildable",
+			"Cannot be purchased",
+			"Destroyed when the city is captured",
+			"Instantly provides [1] [Trade Route]",
+			"Consumes [1] [Trade Route]",
+			"[+6 Food] [in this city] <during the [Ancient era]>",
+			"[+8 Food] [in this city] <starting from the [Classical era]> <before the [Industrial era]>",
+			"[+10 Food] [in this city] <during the [Industrial era]>",
+			"[+12 Food] [in this city] <starting from the [Modern era]>"
+		]
+	},
+	{
+		"name": "Workshop",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"uniques": [
+			"All newly-trained [Caravan] units [in this city] receive the [[Workshop] ability] promotion",
+			"All newly-trained [Cargo Ship] units [in this city] receive the [[Workshop] ability] promotion"
+		]
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Longhouse",
+		"replaces": "Workshop",
+		"uniqueTo": "Iroquois",
+		"cost": 100,
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production] from [Forest] tiles [in this city]",
+			"All newly-trained [Caravan] units [in this city] receive the [[Workshop] ability] promotion",
+			"All newly-trained [Cargo Ship] units [in this city] receive the [[Workshop] ability] promotion"
+		],
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Material Warehouse",
+		"cost": 0,
+		"uniques": ["Unbuildable",
+			"Cannot be purchased",
+			"Destroyed when the city is captured",
+			"Instantly provides [1] [Trade Route]",
+			"Consumes [1] [Trade Route]",
+			"[+3 Production] [in this city] <during the [Ancient era]>",
+			"[+4 Production] [in this city] <starting from the [Classical era]> <before the [Industrial era]>",
+			"[+5 Production] [in this city] <during the [Industrial era]>",
+			"[+6 Production] [in this city] <starting from the [Modern era]>"
+		]
+	},
+	{
+		"name": "Material Drydock",
+		"cost": 0,
+		"uniques": ["Unbuildable",
+			"Cannot be purchased",
+			"Destroyed when the city is captured",
+			"Instantly provides [1] [Trade Route]",
+			"Consumes [1] [Trade Route]",
+			"[+6 Production] [in this city] <during the [Ancient era]>",
+			"[+8 Production] [in this city] <starting from the [Classical era]> <before the [Industrial era]>",
+			"[+10 Production] [in this city] <during the [Industrial era]>",
+			"[+12 Production] [in this city] <starting from the [Modern era]>"
 		]
 	},
 	{
