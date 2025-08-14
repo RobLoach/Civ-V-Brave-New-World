@@ -130,6 +130,51 @@
 		]
 	},
 
+	// Reformation Beliefs
+	{
+		"name": "Reformation",
+		"text": "Select [Reformation] Belief",
+		"presentation": "Alert",
+		"choices": [
+		    {
+				"text": "Charitable Missions",
+				"uniques": ["Adopt [Charitable Missions] Belief"]
+			},
+		    {
+				"text": "Evangelism",
+				"uniques": ["Adopt [Evangelism] Belief"]
+			},
+		    {
+				"text": "Heathen Conversion",
+				"uniques": ["Adopt [Heathen Conversion] Belief"]
+			},
+		    {
+				"text": "Jesuit Education",
+				"uniques": ["Adopt [Jesuit Education] Belief"]
+			},
+		    {
+				"text": "Religious Fervor",
+				"uniques": ["Adopt [Religious Fervor] Belief"]
+			},
+		    {
+				"text": "Sacred Sites",
+				"uniques": ["Adopt [Sacred Sites] Belief"]
+			},
+		    {
+				"text": "To the Glory of God",
+				"uniques": ["Adopt [To the Glory of God] Belief"]
+			},
+		    {
+				"text": "Underground Sect",
+				"uniques": ["Adopt [Underground Sect] Belief"]
+			},
+		    {
+				"text": "Unity of the Prophets",
+				"uniques": ["Adopt [Unity of the Prophets] Belief"]
+			}
+		]
+	}
+
 	// Pathfinder Native Tongue
 	{
 		"name": "Native Tongue",
