@@ -139,7 +139,7 @@
 			"Triggers a [Archaeological Dig - Destroy Unit] event <hidden from users>",
 
 			// Remove the resource/improvement
-			"Remove [Archaeological Dig] improvements from this tile <hidden from users>",
+			"Remove [Archaeological Dig] improvements from this tile <hidden from users> <upon turn end>",
 			"Remove [Antiquity Site] resources from this tile <hidden from users>",
 			"Remove [Hidden Antiquity Site] resources from this tile <hidden from users>",
 
