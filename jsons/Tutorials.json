@@ -11,7 +11,7 @@
 			{ "text": "Brave New World was the second expansion pack for Civ V originally released in 2013. The Civ V Brave New World Unciv mod adds some of the original expansion features to Unciv's Gods & Kings ruleset." },
 			{},
 			{ "text": "Features", "header": 4 },
-				{ "text": "Cultural Victory", "link": "Tutorial/Victory Types" },
+				{ "text": "Cultural Victory", "link": "Victory/Cultural" },
 				{ "text": "Great Works", "link": "Tutorial/Great Works" },
 				{ "text": "Ideology", "link": "Building/Ideology" },
 			{},
