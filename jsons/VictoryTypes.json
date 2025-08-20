@@ -6,6 +6,9 @@
 			"Have more [Tourism] than each player's [Accumulated Culture]"
 		],
         "victoryString": "You have achieved victory through the awesome power of your Culture. Your civilization's greatness - the magnificence of its monuments and the power of its artists - have astounded the world! Poets will honor you as long as beauty brings gladness to a weary heart.",
-        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!",
+		"civilopediaText": [
+			{ "text": "Tourism", "link": "Resource/Tourism" }
+		]
     }
 ]
