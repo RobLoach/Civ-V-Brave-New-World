@@ -389,35 +389,14 @@ BuildingIcons/limit
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Archaeological Dig
-  rotate: false
-  xy: 298, 917
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Brazilwood Camp
-  rotate: false
-  xy: 838, 917
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Chateau
-  rotate: false
-  xy: 1810, 917
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Circle
+ConstructionIcons/Circle
   rotate: false
   xy: 4, 839
   size: 178, 178
   orig: 178, 178
   offset: 0, 0
   index: -1
-ConstructionIcons/Circle
+ImprovementIcons/Circle
   rotate: false
   xy: 4, 839
   size: 178, 178
@@ -443,6 +422,27 @@ TechIcons/Circle
   xy: 4, 839
   size: 178, 178
   orig: 178, 178
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Archaeological Dig
+  rotate: false
+  xy: 298, 917
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Brazilwood Camp
+  rotate: false
+  xy: 838, 917
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Chateau
+  rotate: false
+  xy: 1810, 917
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Feitoria
@@ -751,6 +751,20 @@ PolicyIcons/Iron Curtain
   xy: 1621, 197
   size: 50, 50
   orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Lightning Warfare
+  rotate: false
+  xy: 760, 593
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Lightning Warfare
+  rotate: false
+  xy: 760, 593
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Maritime Infrastructure
@@ -2121,20 +2135,6 @@ UnitPromotionIcons/Homeland Guardian
 UnitPromotionIcons/Invulnerability
   rotate: false
   xy: 436, 269
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Lightning Warfare
-  rotate: false
-  xy: 760, 593
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-PolicyIcons/Lightning Warfare
-  rotate: false
-  xy: 760, 593
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

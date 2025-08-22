@@ -74,6 +74,19 @@
 		]
 	},
 	{
+		"name": "Bazaar",
+		"replaces": "Market",
+		"uniqueTo": "Arabia",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
+			"[+2 Gold] from [Oil] tiles [in this city]", "[+2 Gold] from [Oasis] tiles [in this city]"
+		],
+		"requiredTech": "Currency"
+	},
+	{
 		"name": "Hotel",
 		"cost": 300,
 		"maintenance": 0,
@@ -379,8 +392,8 @@
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 15,
         "uniques": [
-			"[+5]% [Production] from City-States", // TODO: +5% Production per City-State trade route in the empire
-			"[+1 Gold] from each Trade Route" // TODO: +1 Gold per incoming trade route, +1 for the foreign owner
+			//"[+5]% [Production] from City-States", // TODO: +5% Production per City-State trade route in the empire
+			//"[+1 Gold] from each Trade Route" // TODO: +1 Gold per incoming trade route, +1 for the foreign owner
 		],
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
@@ -443,6 +456,7 @@
 		"uniques": [
 			// TODO: Trade routes other players make to this city will generate an extra 2 Gold for the city owner.
 			"[+1 Gold] from each Trade Route <in this city>", // ... and the trade route owner gains an additional 1 Gold for the trade route
+			"[+2 Gold] <for every [[Selling Cargo] Units]> <in this city>", // does this work?
 			"Must be next to [Coast]",
 			"[+1 Gold] from [Water] tiles [in this city]",
 			"Instantly provides [1] [Trade Route]",
@@ -1156,6 +1170,7 @@
         "uniques": [
 			// Trade Routes with other players made to a city with an East India Company will generate an extra 4 Gold for the city owner.
 			"[+2 Gold] from each Trade Route <in this city>", // ... and the Trade Route owner gains an additional 2 Gold for the Trade Route.
+			"[+4 Gold] <for every [[Selling Cargo] Units]> <in this city>", // does this work?
             "Cost increases by [30] per owned city"
 		],
         "requiredTech": "Guilds"
@@ -2025,6 +2040,326 @@
 			{ "text": "Requires at least one of the following:" },
 			{ "text": "Modern era", "link": "Era/Modern era" },
 			{ "text": "Requires a [Factory] in at least [3] of [your] cities", "link": "Building/Factory" }
+		]
+	},
+	// golb.
+	{
+		"name": "Resource Depot - [Horses]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Horses"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Iron]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Coal]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Coal"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Oil]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Oil"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Aluminum]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Aluminum"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Uranium]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Uranium"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Furs]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Furs"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Cotton]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Cotton"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Dyes]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Dyes"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Gems]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Gems"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Gold Ore]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Gold Ore"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Silver]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Silver"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Incense]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Incense"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Ivory]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Ivory"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Silk]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Silk"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Spices]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Spices"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Wine]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Wine"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Sugar]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Sugar"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Marble]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Marble"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Whales]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Whales"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Pearls]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Pearls"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Jewelry]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Jewelry"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Porcelain]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Porcelain"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Citrus]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Citrus"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Copper]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Copper"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Cocoa]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Cocoa"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Crab]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Crab"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Salt]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Salt"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Truffles]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Truffles"],
+		"uniques": [
+			
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
 		]
 	}
 ]
