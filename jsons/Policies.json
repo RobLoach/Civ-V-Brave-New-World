@@ -150,7 +150,7 @@
             }
         ]
     },
-	
+
 	// Piety
 	{
 		"name": "Piety",
@@ -1028,8 +1028,7 @@
 			{
 				"name": "Cultural Revolution",
 				"uniques": [
-					// TODO: +34% Tourism to other Order Civilizations.
-					"Provides [2] [Tourism]",
+					"Provides [5] [Tourism]", // TODO: +34% Tourism to other Order Civilizations
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
