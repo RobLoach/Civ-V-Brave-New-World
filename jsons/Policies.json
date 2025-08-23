@@ -150,7 +150,7 @@
             }
         ]
     },
-	
+
 	// Piety
 	{
 		"name": "Piety",
@@ -200,8 +200,10 @@
 			{
 				"name": "Reformation",
 				"uniques": [
-					"Gain a free [Enhancer] belief <after founding a religion>", // If you founded a religion, gain a bonus Reformation belief.
-					"Comment [Allows adopting [Reformation] Beliefs into your Religion]"
+					"Only available <after founding a religion>",
+					"Comment [Allows adopting [Reformation] Beliefs into your Religion]",
+					"Comment [Gain a bonus Reformation belief]",
+					"Triggers a [Reformation] event <hidden from users>"
 				],
 				"requires": [
 					"Religious Tolerance"
