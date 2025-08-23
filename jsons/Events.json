@@ -316,6 +316,56 @@
 		]
 	}
 
+	// World Congress Resolutions
+	{
+		"name": "World Congress - Proposal",
+		"text": "World Congress: Propose a Resolution",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Arts Funding",
+				"uniques": [
+					"Comment [Great Artist, Writer and Musician generation +33%]",
+					"Comment [Great Scientist, Engineers and Merchants generation -33%]",
+					"Gain a free [World Congress Proposal - Arts Funding] [in capital]",
+					"Unavailable <if [World Congress Proposal - Arts Funding] is constructed by anybody>",
+					"Unavailable <if [World Congress - Arts Funding] is constructed by anybody>"
+				]
+			}
+		]
+	},
+	{
+		"name": "World Congress Proposal - Arts Funding",
+		"text": "World Congress Proposal: Arts Funding",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Vote Yay",
+				"uniques": [
+					"Comment [Great Artist, Writer, and Musician generation +33%]",
+					"Comment [Great Scientist, Engineer, Merchant generation -33%]",
+					"Gain a free [World Congress - Vote Yay] [in capital] <hidden from users>",
+					"Unavailable <if [World Congress - Vote Yay] is constructed>",
+					"Unavailable <if [World Congress - Vote Nay] is constructed>"
+				]
+			},
+			{
+				"text": "Vote Nay",
+				"uniques": [
+					"Gain a free [World Congress - Vote Nay] [in capital] <hidden from users>",
+					"Unavailable <if [World Congress - Vote Yay] is constructed>",
+					"Unavailable <if [World Congress - Vote Nay] is constructed>"
+				]
+			},
+			{
+				"text": "Abstain",
+				"uniques": [
+					"Gain a free [World Congress - Vote Abstain] [in capital] <hidden from users>"
+				]
+			}
+		]
+	},
+
 	// Kris Swordsman: Mystic Blade
 	{
 		"name": "Mystic Blade",

@@ -2026,5 +2026,169 @@
 			{ "text": "Modern era", "link": "Era/Modern era" },
 			{ "text": "Requires a [Factory] in at least [3] of [your] cities", "link": "Building/Factory" }
 		]
-	}
+	},
+
+	// International Project
+	{
+		"name": "World Congress",
+		"isWonder": true,
+		"cost": 1,
+		"uniques": [
+			"Comment [Enables Resolutions and International Projects]",
+			"Only available <starting from the [Industrial era]>",
+			"Automatically built in all cities where it is buildable",
+			"Only available <in [Capital] cities>",
+			"Moves to new capital when capital changes",
+			"Unsellable",
+			"Never destroyed when the city is captured",
+			"Triggers a global alert upon completion",
+
+			// World Congress is held every 30 turns once it is founded and during the Renaissance Era. As the World Congress Era advances, meetings become more frequent - every 25 turns in the Industrial Era, 20 in the Modern Era, and 10 in the Atomic and Information Eras. In the two last eras, however, normal votes are alternated with World Leader votes, so the actual resolution voting takes place every 20 turns.
+			"Triggers a [World Congress - Propose a Resolution] event <every [35] turns> <before the [Renaissance era]>",
+			"Triggers a [World Congress - Propose a Resolution] event <every [30] turns> <during the [Renaissance era]>",
+			"Triggers a [World Congress - Propose a Resolution] event <every [25] turns> <during the [Industrial era]>",
+			"Triggers a [World Congress - Propose a Resolution] event <every [20] turns> <during the [Modern era]>",
+			"Triggers a [World Congress - Propose a Resolution] event <every [15] turns> <during the [Atomic era]>",
+			"Triggers a [World Congress - Propose a Resolution] event <every [10] turns> <during the [Information era]>",
+			"Triggers a [World Congress - Propose a Resolution] event <every [10] turns> <during the [Future era]>"
+		],
+		"quote": "'Diplomacy is the art of telling plain truths.' - Winston Churchill"
+	},
+	{
+		"name": "World Congress - Propose a Resolution",
+		"cost": 1,
+		"uniques": [
+			"Unavailable",
+			"Only available <if [World Congress] is constructed>",
+			"Triggers a [World Congress - Proposal] event",
+			//"Automatically built in all cities where it is buildable",
+			//"Unavailable <if [World Congress Proposal] is constructed by anybody>",
+			//"Unavailable <if [World Congress - Propose a Resolution] is constructed by anybody>",
+			//"Only available <in [Capital] cities>",
+			"Moves to new capital when capital changes",
+			"Never destroyed when the city is captured",
+			"Unsellable"
+		]
+	},
+	{
+		"name": "World Congress - Voting Complete",
+		"cost": 1,
+		"uniques": [
+			"Only available <if [World Congress] is constructed>",
+			"Only available <in [Capital] cities>",
+			"Moves to new capital when capital changes",
+			"Never destroyed when the city is captured",
+			"Unsellable",
+			"Unavailable",
+			// TODO: How to tell it was voted on.
+			"Gain a free [World Congress - Arts Funding] [in capital] <when number of [[World Congress - Vote Yay] Buildings] is more than [[World Congress - Vote Nay] Buildings]> <if [World Congress Proposal - Arts Funding] is constructed by anybody>",
+			"Remove [World Congress Proposal] [in your cities]",
+			"Remove [World Congress - Voting Complete] [in your cities]"
+		]
+	},
+	{
+		"name": "World Congress - Vote",
+		"cost": 1,
+		"uniques": [
+			"Only available <if [World Congress Proposal] is constructed by anybody>",
+			"Automatically built in all cities where it is buildable",
+			"Only available <in [Capital] cities>",
+			"Limited to [1] per Civilization",
+			"Moves to new capital when capital changes",
+			"Never destroyed when the city is captured",
+			"Unsellable",
+			"Triggers a [World Congress Proposal - Arts Funding] event <if [World Congress Proposal - Arts Funding] is constructed by anybody>"
+		]
+	},
+	{
+		"name": "World Congress - Vote Nay",
+		"cost": 1,
+		"uniques": [
+			"World Congress - Voted",
+			"Remove [World Congress - Vote] [in your cities]",
+			"Only available <if [World Congress - Vote] is constructed>",
+			"Only available <in [Capital] cities>",
+			"Unavailable <if [World Congress - Voted] is constructed>",
+			"Moves to new capital when capital changes",
+			"Never destroyed when the city is captured",
+			"Unsellable",
+			"Remove [World Congress - Voted] [in your cities] <every [3] turns>"
+		]
+	},
+	{
+		"name": "World Congress - Vote Yay",
+		"cost": 1,
+		"uniques": [
+			"World Congress - Voted",
+			"Remove [World Congress - Vote] [in your cities]",
+			"Only available <if [World Congress - Vote] is constructed>",
+			"Only available <in [Capital] cities>",
+			"Unavailable <if [World Congress - Voted] is constructed>",
+			"Moves to new capital when capital changes",
+			"Never destroyed when the city is captured",
+			"Unsellable",
+			"Remove [World Congress - Voted] [in your cities] <every [3] turns>"
+		]
+	},
+	{
+		"name": "World Congress - Vote Abstain",
+		"cost": 1,
+		"uniques": [
+			"World Congress - Voted",
+			"Remove [World Congress - Vote] [in your cities]",
+			"Only available <if [World Congress - Vote] is constructed>",
+			"Only available <in [Capital] cities>",
+			"Unavailable <if [World Congress - Voted] is constructed>",
+			"Moves to new capital when capital changes",
+			"Never destroyed when the city is captured",
+			"Unsellable",
+			"Remove [World Congress - Voted] [in your cities] <every [3] turns>"
+		]
+	},
+	{
+		"name": "World Congress Proposal - Arts Funding",
+		"cost": 1,
+		"uniques": [
+			"World Congress Proposal",
+			"Unavailable",
+			"Moves to new capital when capital changes",
+			"Never destroyed when the city is captured",
+			"Unsellable",
+			"Gain a free [World Congress - Voting Complete] [in capital] <upon turn start>"
+		]
+	},
+	{
+		"name": "World Congress - Arts Funding",
+		"cost": 1,
+		"uniques": [
+			"[Great Artist] is earned [+33]% faster",
+			"[Great Writer] is earned [+33]% faster",
+			"[Great Musician] is earned [+33]% faster",
+			"[Great Scientist] is earned [-33]% faster",
+			"[Great Engineer] is earned [-33]% faster",
+			"[Great Merchant] is earned [-33]% faster",
+			"Remove [World Congress Proposal] [in all cities]",
+			"Remove [World Congress - Voted] [in all cities]",
+			"Only available <in [Capital] cities>",
+			"Moves to new capital when capital changes",
+			"Automatically built in all cities where it is buildable",
+			"Never destroyed when the city is captured",
+			"Unsellable",
+			"Only available <if [World Congress - Arts Funding] is constructed by anybody>"
+		]
+	},
+	{
+		"name": "United Nations",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"requiredTech": "Globalization",
+		"uniques": [
+			"Only available <if [World Congress] is constructed by anybody>",
+			"Triggers voting for the Diplomatic Victory",
+			"Only available <when [Diplomatic] Victory is enabled>",
+			"Triggers a global alert upon completion"
+		],
+		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
+	},
 ]
