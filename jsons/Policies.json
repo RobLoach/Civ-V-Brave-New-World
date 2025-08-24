@@ -912,8 +912,8 @@
 			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
 			"Remove [Ideology] [in capital] <hidden from users>",
 
-			// Cultural Revolution. TODO: Instead of "constructed by anybody", it should be for every other Civilization that adopted Cultural Revolution
-			"[+34]% [Tourism] resource production <if [Cultural Revolution] is constructed by anybody> <hidden from users>",
+			// Cultural Revolution
+			"[+34]% [Tourism] resource production <for every [Remaining [Cultural Revolution] Civilizations]> <hidden from users>",
 
 			// Preferred Ideology
 			"[+50]% weight to this choice for AI decisions",
@@ -1039,7 +1039,8 @@
 			{
 				"name": "Cultural Revolution",
 				"uniques": [
-					"Comment [+34% Tourism to other Order Civilizations]",
+					"Comment [+34% [Tourism] to other [Order] Civilizations]",
+					"[-34]% [Tourism] resource production <hidden from users>",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
