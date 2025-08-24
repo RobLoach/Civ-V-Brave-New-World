@@ -2025,20 +2025,5 @@
 			{ "text": "Modern era", "link": "Era/Modern era" },
 			{ "text": "Requires a [Factory] in at least [3] of [your] cities", "link": "Building/Factory" }
 		]
-	},
-
-	// Policy: Cultural Revolution
-	{
-		"name": "Cultural Revolution", // @see Policies.json
-		"cost": 1,
-		"uniques": [
-			"Moves to new capital when capital changes <hidden from users>",
-			"Unsellable <hidden from users>",
-			"Only available <in cities with a [Palace]> <hidden from users>",
-			"Only available <after adopting [Cultural Revolution]>",
-			"Automatically built in all cities where it is buildable <hidden from users>",
-			"Will not be displayed in Civilopedia",
-			"Moves to new capital when capital changes <hidden from users>"
-		]
 	}
 ]
