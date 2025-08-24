@@ -51,8 +51,9 @@
 		"uniques": [
 			// TODO: Allows airlifting to other cities with Airports.
 			// TODO: Increases air unit capacity of the city from 6 to 10.
-			"Comment [[+50]% [Tourism] from every [Great Works] <in this city>]",
-			"Provides [1] [Tourism] <for every [2] [Culture]> <in this city>" // TODO: 50% from Culture of wonders and improvements in the city added to its Tourism output.
+			// TODO: 50% from Culture of wonders and improvements in the city added to its Tourism output.
+			"Comment [+50% [Tourism] from Great Works in this city]",
+			"All newly-trained [Air] units [in this city] receive the [[Airport] ability] promotion" // TODO: This isn't a real thing, it's just instead of the original benefits.
 		],
 		"requiredTech": "Radar"
 	},
@@ -77,8 +78,8 @@
 		"cost": 300,
 		"maintenance": 0,
 		"uniques": [
-			"Comment [[+50]% [Tourism] from every [Great Works] <in this city>]",
-			"Provides [1] [Tourism] <for every [2] [Culture]> <in this city>" // TODO: +50% of the Culture output of Wonders and Improvements in the city added to Tourism
+			"Comment [+50% [Tourism] from Great Works in this city]"
+			// TODO: +50% of the Culture output of Wonders and Improvements in the city added to Tourism
 		],
 		"requiredTech": "Refrigeration"
 	},
@@ -1140,8 +1141,8 @@
         "requiredTech": "Telecommunications",
 		"requiredBuilding": "Hotel",
 		"uniques": [
-			"Comment [[+100]% [Tourism] from every [Great Works] <in this city>]",
-			"Provides [1] [Tourism] <for every [1] [Culture]> <in this city>", // TODO: 100% of the Culture from Wonders and Improvements is added to the Tourism output of the city.
+			// TODO: 100% of the Culture from Wonders and Improvements is added to the Tourism output of the city.
+			"Comment [+100% [Tourism] from Great Works in this city]",
 			"Cost increases by [30] per owned city",
 			"Only available <if [Hotel] is constructed in all [non-[Puppeted]] cities>"
 		]
