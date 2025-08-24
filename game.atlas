@@ -186,6 +186,20 @@ ResourceIcons/Cloves
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Cultural Revolution
+  rotate: false
+  xy: 1776, 370
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Cultural Revolution
+  rotate: false
+  xy: 1776, 370
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 BuildingIcons/Ducal Stable
   rotate: false
   xy: 220, 808
@@ -644,13 +658,6 @@ PolicyIcons/Cultural Centers
 PolicyIcons/Cultural Exchange
   rotate: false
   xy: 1718, 374
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Cultural Revolution
-  rotate: false
-  xy: 1776, 370
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

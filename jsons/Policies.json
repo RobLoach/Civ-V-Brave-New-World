@@ -201,7 +201,8 @@
 				"name": "Reformation",
 				"uniques": [
 					"Gain a free [Enhancer] belief <after founding a religion>", // If you founded a religion, gain a bonus Reformation belief.
-					"Comment [Allows adopting [Reformation] Beliefs into your Religion]"
+					"Comment [Allows adopting [Reformation] Beliefs into your Religion]",
+					"[100]% weight to this choice for AI decisions"
 				],
 				"requires": [
 					"Religious Tolerance"
@@ -438,7 +439,7 @@
 				"uniques": [
 					"Free [Great Admiral] appears",
 					"[Great Admiral] is earned [+50]% faster",
-					"Comment [[Great Admiral] gains [2] movement]"
+					"Comment [[Great Admiral] gains [2] movement]" // @see Units.json
 				],
 				"requires": [
 					"Naval Tradition"
@@ -574,7 +575,8 @@
 		"uniques": [
 			"[Great Artist] is earned [25]% faster",
 			"[Great Musician] is earned [25]% faster",
-			"[Great Writer] is earned [25]% faster"
+			"[Great Writer] is earned [25]% faster",
+			"[-50]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 		],
 		"priorities": {
 			"Neutral": 0,
@@ -634,10 +636,14 @@
 			{
 				"name": "Cultural Exchange",
 				"uniques": [
-					// TODO: Increases the Tourism modifier for shared religion, trade routes, and open borders by 15% each.
-					"[+10]% [Culture] from every [Museum]",
-					"[+10]% [Culture] from every [Opera House]",
-					"[+10]% [Culture] from every [Broadcast Tower]"
+					"[+15]% [Tourism] resource production", // TODO: +15% Tourism when you have a active Trade Routes
+					"[+15]% [Tourism] resource production <after founding a religion>", // TODO: Sharing a Religion should give +15% Tourism
+					"[+15]% [Tourism] resource production <when not at war>", // TODO: Sharing Open Borders should give +15% Tourism
+					//"Comment [Increases the Tourism modifier for shared religion, trade routes, and open borders by 15% each]",
+					//"[+15]% [Tourism] resource production <when number of [[{in foreign cities} {in cities following our religion}] Cities] is more than [0]> <hidden from users>",
+					//"[+15]% [Tourism] resource production <when number of [[{non-[your]} {Friendly Land} {Major} {City center}] Tiles] is more than [0]> <hidden from users>"
+					//"[+15]% [Tourism] resource production <when number of Active Trade Routes > 0>",
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 				],
 				"requires": [
 					"Flourishing of the Arts"
@@ -724,7 +730,8 @@
 					"Instantly provides [250] [Tourism] <upon gaining a [Great Writer] unit>",
 					"Instantly provides [250] [Tourism] <upon gaining a [Great Artist] unit>",
 					"Instantly provides [250] [Tourism] <upon gaining a [Great Musician] unit>",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 				],
 				"row": 1,
 				"column": 7
@@ -847,10 +854,11 @@
 			{
 				"name": "Cult of Personality",
 				"uniques": [
-					// TODO: +50% Tourism to Civilizations fighting a common enemy.
-					"Provides [5] [Tourism] <when at war>",
+					// TODO: +50% Tourism to Civilizations fighting a common enemy
+					"[+50]% [Tourism] resource production <when at war>",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 				],
 				"row": 3,
 				"column": 3
@@ -903,6 +911,9 @@
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
 			"Remove [Ideology] [in capital] <hidden from users>",
+
+			// Cultural Revolution. TODO: Instead of "constructed by anybody", it should be for every other Civilization that adopted Cultural Revolution
+			"[+34]% [Tourism] resource production <if [Cultural Revolution] is constructed by anybody> <hidden from users>",
 
 			// Preferred Ideology
 			"[+50]% weight to this choice for AI decisions",
@@ -1028,7 +1039,7 @@
 			{
 				"name": "Cultural Revolution",
 				"uniques": [
-					"Provides [5] [Tourism]", // TODO: +34% Tourism to other Order Civilizations
+					"Comment [+34% Tourism to other Order Civilizations]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
@@ -1067,9 +1078,10 @@
 				"name": "Dictatorship of the Proletariat",
 				"uniques": [
 					// TODO: +34% Tourism to Civilizations with less Happiness.
-					"Provides [5] [Tourism] <when below [0] [Happiness]>",
+					"[+34]% [Tourism] resource production <when above [0] [Happiness]>",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 				],
 				"row": 3,
 				"column": 3
@@ -1094,7 +1106,8 @@
 					"Free [Great Engineer] appears",
 					"Free [Great Scientist] appears",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when [Scientific] Victory is disabled>"
 				],
 				"row": 3,
 				"column": 7
@@ -1292,7 +1305,8 @@
 				"uniques": [
 					"Comment [[+33]% [Tourism] resource production <in cities with a [Broadcast Tower]>]", // @see Building/Broadcast Tower
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 				],
 				"row": 3,
 				"column": 3
@@ -1312,7 +1326,8 @@
 				"uniques": [
 					"May buy [Spaceship part] units with [Gold] [in your cities]",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when [Scientific] Victory is disabled>"
 				],
 				"row": 3,
 				"column": 7
