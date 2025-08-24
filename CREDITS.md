@@ -160,4 +160,3 @@
 - [Winged Hussar](https://www.dakkadakka.com/gallery/895280-Primaris,%20Winged%20Hussar.html) by Unknown
 - [Zoo](https://www.flaticon.com/free-icon/elephant_1419285) by Freepik - Flaticon
 - [Accumulated Culture](https://thenounproject.com/icon/music-5611/) by Naomi Atkinson
-- [Hammer and brush](https://thenounproject.com/icon/hammer-and-brush-979602/) by Alice Noir for Archaeologist
