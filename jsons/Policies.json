@@ -870,7 +870,8 @@
 					"Influence of all other civilizations with all city-states degrades [+20]% faster",
 					"[-20]% City-State Influence degradation",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
 				],
 				"row": 3,
 				"column": 5
@@ -1042,7 +1043,8 @@
 					"Comment [+34% Tourism to other Order Civilizations]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 				],
 				"row": 2,
 				"column": 8
@@ -1187,7 +1189,8 @@
 				"uniques": [
 					// Spies have double the chance to successfully rig City-State elections
 					"[+100]% spy effectiveness [in City-State cities]",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
 				],
 				"row": 1,
 				"column": 7
@@ -1316,7 +1319,8 @@
 				"uniques": [
 					"[+50]% resources gifted by City-States", // TODO: Gain 4 more Influence per turn with City-States you have a trade route to.
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
 				],
 				"row": 3,
 				"column": 5
