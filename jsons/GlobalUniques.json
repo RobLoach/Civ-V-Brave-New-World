@@ -18,6 +18,6 @@
 		"Enables [Great Admiral] units to enter ocean tiles <hidden from users>",
 
 		// Cultural Victory condition. @see VictoryTypes.json
-		"Instantly provides [1] [Accumulated Culture] <for every [[Culture] Per Turn]> <upon turn end>"
+		"Provides [1] [Accumulated Culture] <for every [[Culture] Per Turn]>"
 	]
 }
