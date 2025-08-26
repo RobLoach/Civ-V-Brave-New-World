@@ -333,49 +333,5 @@
 			"Doesn't generate naturally",
 			"Will not be displayed in Civilopedia"
 		]
-	},
-	{
-		"name": "[Food] Supplies",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Cannot be traded <hidden from users>",
-			"City-level resource",
-			"Excluded from map editor",
-			"Doesn't generate naturally",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "[Food] Shipment",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Cannot be traded <hidden from users>",
-			"City-level resource",
-			"Excluded from map editor",
-			"Doesn't generate naturally",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "[Production] Materials",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Cannot be traded <hidden from users>",
-			"City-level resource",
-			"Excluded from map editor",
-			"Doesn't generate naturally",
-			"Will not be displayed in Civilopedia"
-		]
-	},
-	{
-		"name": "[Production] Shipment",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Cannot be traded <hidden from users>",
-			"City-level resource",
-			"Excluded from map editor",
-			"Doesn't generate naturally",
-			"Will not be displayed in Civilopedia"
-		]
 	}
 ]

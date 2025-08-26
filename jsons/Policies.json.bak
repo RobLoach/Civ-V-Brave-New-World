@@ -1092,9 +1092,8 @@
 				"name": "Iron Curtain",
 				"uniques": [
 					"Gain a free [Courthouse] [in this city] <upon conquering a city>", // TODO: Does this work?
-					//"[+50]% [Food] from Trade Routes <in [Your] cities>", // TODO: Does this work? Should be for Internal trade routes
-					//"[+50]% [Production] from Trade Routes <in [Your] cities>", // TODO: Does this work? Should be for Internal trade routes
-					"Comment [[+50]% [Food] and [Production] from Trade Routes]",
+					"[+50]% [Food] from Trade Routes <in [Your] cities>", // TODO: Does this work? Should be for Internal trade routes
+					"[+50]% [Production] from Trade Routes <in [Your] cities>", // TODO: Does this work? Should be for Internal trade routes
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
