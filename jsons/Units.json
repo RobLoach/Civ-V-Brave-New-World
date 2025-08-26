@@ -71,7 +71,7 @@
 			"[1] Movement <for [Caravans gain 50% extended range] Civilizations> <hidden from users>", // Caravans gain 50% extended range
 			"May enter foreign tiles without open borders",
 			"Unavailable <for [City-States] Civilizations> <hidden from users>",
-			"Instantly consumes [1] [Trade Route]",
+			"Consumes [1] [Trade Route]",
 			"Only available <with [Trade Route]> <hidden from users>",
 			"[-2] Sight <hidden from users>",
 			"Ignores terrain cost",
@@ -80,7 +80,7 @@
 			"Never appears as a Barbarian unit <hidden from users>",
 			//"[-66]% Gold from Great Merchant trade missions <hidden from users>",
 			// TODO: Within own cities, provide food and production after granary or workshop
-			"[This Unit] gains the [Loading Cargo] promotion <in [Your] cities> <for all movement> <for [{non-[Cargo]} {non-[Selling Cargo]} {non-[Unloading Cargo]} {non-[Loading Cargo]}] units> <hidden from users>",
+			"[This Unit] gains the [Loading Cargo] promotion <in [Your] cities> <in cities with a [Granary]> <for all movement> <for [{non-[Cargo]} {non-[Selling Cargo]} {non-[Unloading Cargo]} {non-[Loading Cargo]} {non-[Supplying [Food]]} {non-[Empty [Food] Stores]} {non-[[Food] Rations]} {non-[Loading [Food]]} {non-[Depleted [Production] Materials]} {non-[Supplying [Production]]} {non-[[Production] Supplies]} {non-[Loading [Production]]}] units> <hidden from users>",
 			"[This Unit] loses the [Loading Cargo] promotion <upon gaining the [Cargo] promotion>",
 			"[This Unit] loses the [Unloading Cargo] promotion <upon gaining the [Selling Cargo] status>",
 			"[This Unit] loses the [Cargo] promotion <upon gaining the [Selling Cargo] status>",
@@ -111,7 +111,19 @@
 			"[This Unit] loses the [Special Cargo - [Crab]] promotion <upon gaining the [Selling [Crab]] status>",
 			"[This Unit] loses the [Special Cargo - [Salt]] promotion <upon gaining the [Selling [Salt]] status>",
 			"[This Unit] loses the [Special Cargo - [Truffles]] promotion <upon gaining the [Selling [Truffles]] status>",
-			"[This Unit] loses [50] movement <upon gaining the [Selling Cargo] status>"
+			"[This Unit] loses [50] movement <upon gaining the [Selling Cargo] status>",
+			// internal trade
+			"[This Unit] gains the [Loading [Food]] promotion <in [Your] cities> <in cities with a [Granary]> <for all movement> <for [{non-[Cargo]} {non-[Selling Cargo]} {non-[Unloading Cargo]} {non-[Loading Cargo]} {non-[Supplying [Food]]} {non-[Empty [Food] Stores]} {non-[[Food] Rations]} {non-[Loading [Food]]} {non-[Depleted [Production] Materials]} {non-[Supplying [Production]]} {non-[[Production] Supplies]} {non-[Loading [Production]]}] units> <hidden from users>",
+			"[This Unit] loses the [Loading [Food]] promotion <upon gaining the [[Food] Rations] promotion>",
+			"[This Unit] gains the [Supplying [Food]] status for [30] turn(s) <upon losing the [[Food] Rations] promotion>",
+			"[This Unit] loses [50] movement <upon gaining the [Supplying [Food]] status>",
+			"[This Unit] gains the [Empty [Food] Stores] promotion <upon losing the [Supplying [Food]] status>",
+
+			"[This Unit] gains the [Loading [Production]] promotion <in [Your] cities> <in cities with a [Workshop]> <for all movement> <for [{non-[Cargo]} {non-[Selling Cargo]} {non-[Unloading Cargo]} {non-[Loading Cargo]} {non-[Supplying [Food]]} {non-[Empty [Food] Stores]} {non-[[Food] Rations]} {non-[Loading [Food]]} {non-[Depleted [Production] Materials]} {non-[Supplying [Production]]} {non-[[Production] Supplies]} {non-[Loading [Production]]}] units> <hidden from users>",
+			"[This Unit] loses the [Loading [Production]] promotion <upon gaining the [[Production] Supplies] promotion>",
+			"[This Unit] gains the [Supplying [Production]] status for [30] turn(s) <upon losing the [[Production] Supplies] promotion>",
+			"[This Unit] loses [50] movement <upon gaining the [Supplying [Production]] status>",
+			"[This Unit] gains the [Depleted [Production] Materials] promotion <upon losing the [Supplying [Production]] status>"
 		],
 		"promotions": [
 			"The Great Warpath" // Iroquois unique
@@ -131,7 +143,7 @@
 			// TODO: Change Home City (After selecting a coastal city and waiting a turn, allows different trade routes to be made.)
 			"Unavailable <for [City-States] Civilizations> <hidden from users>",
 			"May enter foreign tiles without open borders",
-			"Instantly consumes [1] [Trade Route]",
+			"Consumes [1] [Trade Route]",
 			"Only available <with [Trade Route]> <hidden from users>",
 			"[-2] Sight <hidden from users>",
 			"May enter foreign tiles without open borders",
@@ -139,7 +151,7 @@
 			"Never appears as a Barbarian unit <hidden from users>",
 			//"[-66]% Gold from Great Merchant trade missions <hidden from users>",
 			// TODO: Within own cities, provide food and production after granary or workshop
-			"[This Unit] gains the [Loading Cargo] promotion <in [Your] cities> <for all movement> <for [{non-[Cargo]} {non-[Selling Cargo]} {non-[Unloading Cargo]} {non-[Loading Cargo]}] units> <hidden from users>",
+			"[This Unit] gains the [Loading Cargo] promotion <in [Your] cities> <for all movement> <for [{non-[Cargo]} {non-[Selling Cargo]} {non-[Unloading Cargo]} {non-[Loading Cargo]} {non-[Supplying [Food]]} {non-[Empty [Food] Stores]} {non-[[Food] Rations]} {non-[Loading [Food]]} {non-[Depleted [Production] Materials]} {non-[Supplying [Production]]} {non-[[Production] Supplies]} {non-[Loading [Production]]}] units> <hidden from users>",
 			"[This Unit] loses the [Loading Cargo] promotion <upon gaining the [Cargo] promotion>",
 			"[This Unit] loses the [Unloading Cargo] promotion <upon gaining the [Selling Cargo] status>",
 			"[This Unit] loses the [Cargo] promotion <upon gaining the [Selling Cargo] status>",
@@ -170,7 +182,19 @@
 			"[This Unit] loses the [Special Cargo - [Crab]] promotion <upon gaining the [Selling [Crab]] status>",
 			"[This Unit] loses the [Special Cargo - [Salt]] promotion <upon gaining the [Selling [Salt]] status>",
 			"[This Unit] loses the [Special Cargo - [Truffles]] promotion <upon gaining the [Selling [Truffles]] status>",
-			"[This Unit] loses [50] movement <upon gaining the [Selling Cargo] status>"
+			"[This Unit] loses [50] movement <upon gaining the [Selling Cargo] status>",
+			// internal trade
+			"[This Unit] gains the [Loading [Food]] promotion <in [Your] cities> <in cities with a [Granary]> <for all movement> <for [{non-[Cargo]} {non-[Selling Cargo]} {non-[Unloading Cargo]} {non-[Loading Cargo]} {non-[Supplying [Food]]} {non-[Empty [Food] Stores]} {non-[[Food] Rations]} {non-[Loading [Food]]} {non-[Depleted [Production] Materials]} {non-[Supplying [Production]]} {non-[[Production] Supplies]} {non-[Loading [Production]]}] units> <hidden from users>",
+			"[This Unit] loses the [Loading [Food]] promotion <upon gaining the [[Food] Rations] promotion>",
+			"[This Unit] gains the [Supplying [Food]] status for [30] turn(s) <upon losing the [[Food] Rations] promotion>",
+			"[This Unit] loses [50] movement <upon gaining the [Supplying [Food]] status>",
+			"[This Unit] gains the [Empty [Food] Stores] promotion <upon losing the [Supplying [Food]] status>",
+
+			"[This Unit] gains the [Loading [Production]] promotion <in [Your] cities> <in cities with a [Workshop]> <for all movement> <for [{non-[Cargo]} {non-[Selling Cargo]} {non-[Unloading Cargo]} {non-[Loading Cargo]} {non-[Supplying [Food]]} {non-[Empty [Food] Stores]} {non-[[Food] Rations]} {non-[Loading [Food]]} {non-[Depleted [Production] Materials]} {non-[Supplying [Production]]} {non-[[Production] Supplies]} {non-[Loading [Production]]}] units> <hidden from users>",
+			"[This Unit] loses the [Loading [Production]] promotion <upon gaining the [[Production] Supplies] promotion>",
+			"[This Unit] gains the [Supplying [Production]] status for [30] turn(s) <upon losing the [[Production] Supplies] promotion>",
+			"[This Unit] loses [50] movement <upon gaining the [Supplying [Production]] status>",
+			"[This Unit] gains the [Depleted [Production] Materials] promotion <upon losing the [Supplying [Production]] status>"
 		]
 	},
 
