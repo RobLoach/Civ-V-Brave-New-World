@@ -17,9 +17,6 @@
 		// Great Admirals can always traverse ocean tiles
 		"Enables [Great Admiral] units to enter ocean tiles <hidden from users>",
 
-		// Cultural Victory condition. @see VictoryTypes.json
-		"Instantly provides [1] [Accumulated Culture] <for every [[Culture] Per Turn]> <upon turn end>",
-
 		// internal trade routes
 		"Remove [Food Depot 1] [in this city] <upon constructing [Food Depot 2]> <in cities with a [Food Depot 1]>",
 		"Remove [Food Depot 2] [in this city] <upon constructing [Food Depot 3]> <in cities with a [Food Depot 2]>",
@@ -96,5 +93,8 @@
 		"Remove [Material Foundry 4] [in this city] <upon constructing [Material Foundry 3]> <in cities with a [Material Foundry 4]>",
 		"Remove [Material Foundry 3] [in this city] <upon constructing [Material Foundry 2]> <in cities with a [Material Foundry 3]>",
 		"Remove [Material Foundry 2] [in this city] <upon constructing [Material Foundry 1]> <in cities with a [Material Foundry 2]>"
+
+		// Cultural Victory condition. @see VictoryTypes.json
+		"Provides [1] [Accumulated Culture] <for every [[Culture] Per Turn]>"
 	]
 }

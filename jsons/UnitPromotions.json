@@ -285,6 +285,14 @@
 
 	// Pathfinder: Native Tongue
 	{
+		"name": "[Pathfinder] ability",
+		"uniques": [
+			"[This Unit] is destroyed",
+			"Free [Pathfinder] appears",
+			"Will not be displayed in Civilopedia"
+		]
+	},
+	{
 		"name": "Native Tongue",
 		"uniques": [
 			// Can not choose the same benefit until 2 other options are picked
