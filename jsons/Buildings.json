@@ -2575,21 +2575,17 @@
 			"Automatically built in all cities where it is buildable <hidden from users>",
 			"[+3 Food] [in this city] <for every [[Food] Supplies]> <during the [Ancient era]>",
 			"[+4 Food] [in this city] <for every [[Food] Supplies]> <starting from the [Classical era]> <before the [Industrial era]>",
-			"Comment [[+5 Food] [in this city] <for every [[Food] Supplies]> <during the [Industrial era]>]",
-			"[+5 Food] [in this city] <for every [[Food] Supplies]> <during the [Industrial era]> <before adopting [Iron Curtain]> <hidden from users>",
-			"[+8 Food] [in this city] <for every [[Food] Supplies]> <during the [Industrial era]> <after adopting [Iron Curtain]> <hidden from users>",
-			"Comment [[+6 Food] [in this city] <for every [[Food] Supplies]> <starting from the [Modern era]>]",
-			"[+6 Food] [in this city] <for every [[Food] Supplies]> <starting from the [Modern era]> <before adopting [Iron Curtain]> <hidden from users>",
-			"[+9 Food] [in this city] <for every [[Food] Supplies]> <starting from the [Modern era]> <after adopting [Iron Curtain]> <hidden from users>",
+			"[+5 Food] [in this city] <for every [[Food] Supplies]> <during the [Industrial era]>",
+			"[+2 Food] [in this city] <for every [[Food] Supplies]> <during the [Industrial era]> <after adopting [Iron Curtain]> <hidden from users>",
+			"[+6 Food] [in this city] <for every [[Food] Supplies]> <starting from the [Modern era]>",
+			"[+3 Food] [in this city] <for every [[Food] Supplies]> <starting from the [Modern era]> <after adopting [Iron Curtain]> <hidden from users>",
 
 			"[+6 Food] [in this city] <for every [[Food] Shipment]> <during the [Ancient era]>",
 			"[+8 Food] [in this city] <for every [[Food] Shipment]> <starting from the [Classical era]> <before the [Industrial era]>",
-			"Comment [[+10 Food] [in this city] <for every [[Food] Shipment]> <during the [Industrial era]>]",
-			"[+10 Food] [in this city] <for every [[Food] Shipment]> <during the [Industrial era]> <before adopting [Iron Curtain]> <hidden from users>",
-			"[+15 Food] [in this city] <for every [[Food] Shipment]> <during the [Industrial era]> <after adopting [Iron Curtain]> <hidden from users>",
-			"Comment [[+12 Food] [in this city] <for every [[Food] Shipment]> <starting from the [Modern era]>]",
-			"[+12 Food] [in this city] <for every [[Food] Shipment]> <starting from the [Modern era]> <before adopting [Iron Curtain]> <hidden from users>",
-			"[+18 Food] [in this city] <for every [[Food] Shipment]> <starting from the [Modern era]> <after adopting [Iron Curtain]> <hidden from users>"
+			"[+10 Food] [in this city] <for every [[Food] Shipment]> <during the [Industrial era]>",
+			"[+5 Food] [in this city] <for every [[Food] Shipment]> <during the [Industrial era]> <after adopting [Iron Curtain]> <hidden from users>",
+			"[+12 Food] [in this city] <for every [[Food] Shipment]> <starting from the [Modern era]>",
+			"[+6 Food] [in this city] <for every [[Food] Shipment]> <starting from the [Modern era]> <after adopting [Iron Curtain]> <hidden from users>"
 		]
 	},
 	{
@@ -2803,21 +2799,17 @@
 			"Automatically built in all cities where it is buildable <hidden from users>",
 			"[+3 Production] [in this city] <for every [[Production] Materials]> <during the [Ancient era]>",
 			"[+4 Production] [in this city] <for every [[Production] Materials]> <starting from the [Classical era]> <before the [Industrial era]>",
-			"Comment [[+5 Production] [in this city] <for every [[Production] Materials]> <during the [Industrial era]>]",
-			"[+5 Production] [in this city] <for every [[Production] Materials]> <during the [Industrial era]> <before adopting [Iron Curtain]> <hidden from users>",
-			"[+8 Production] [in this city] <for every [[Production] Materials]> <during the [Industrial era]> <after adopting [Iron Curtain]> <hidden from users>",
-			"Comment [[+6 Production] [in this city] <for every [[Production] Materials]> <starting from the [Modern era]>]",
-			"[+6 Production] [in this city] <for every [[Production] Materials]> <starting from the [Modern era]> <before adopting [Iron Curtain]> <hidden from users>",
-			"[+9 Production] [in this city] <for every [[Production] Materials]> <starting from the [Modern era]> <after adopting [Iron Curtain]> <hidden from users>",
+			"[+5 Production] [in this city] <for every [[Production] Materials]> <during the [Industrial era]>",
+			"[+2 Production] [in this city] <for every [[Production] Materials]> <during the [Industrial era]> <after adopting [Iron Curtain]> <hidden from users>",
+			"[+6 Production] [in this city] <for every [[Production] Materials]> <starting from the [Modern era]>",
+			"[+3 Production] [in this city] <for every [[Production] Materials]> <starting from the [Modern era]> <after adopting [Iron Curtain]> <hidden from users>",
 
 			"[+6 Production] [in this city] <for every [[Production] Shipment]> <during the [Ancient era]>",
 			"[+8 Production] [in this city] <for every [[Production] Shipment]> <starting from the [Classical era]> <before the [Industrial era]>",
-			"Comment [[+10 Production] [in this city] <for every [[Production] Shipment]> <during the [Industrial era]>]",
-			"[+10 Production] [in this city] <for every [[Production] Shipment]> <during the [Industrial era]> <before adopting [Iron Curtain]> <hidden from users>",
-			"[+15 Production] [in this city] <for every [[Production] Shipment]> <during the [Industrial era]> <after adopting [Iron Curtain]> <hidden from users>",
-			"Comment [[+12 Production] [in this city] <for every [[Production] Shipment]> <starting from the [Modern era]>]",
-			"[+12 Production] [in this city] <for every [[Production] Shipment]> <starting from the [Modern era]> <before adopting [Iron Curtain]> <hidden from users>",
-			"[+18 Production] [in this city] <for every [[Production] Shipment]> <starting from the [Modern era]> <after adopting [Iron Curtain]> <hidden from users>"
+			"[+10 Production] [in this city] <for every [[Production] Shipment]> <during the [Industrial era]>",
+			"[+5 Production] [in this city] <for every [[Production] Shipment]> <during the [Industrial era]> <after adopting [Iron Curtain]> <hidden from users>",
+			"[+12 Production] [in this city] <for every [[Production] Shipment]> <starting from the [Modern era]>",
+			"[+6 Production] [in this city] <for every [[Production] Shipment]> <starting from the [Modern era]> <after adopting [Iron Curtain]> <hidden from users>"
 		]
 	}
 ]
