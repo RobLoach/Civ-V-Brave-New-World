@@ -1041,6 +1041,7 @@
 				"uniques": [
 					"Comment [+34% [Tourism] to other [Order] Civilizations]",
 					"[-34]% [Tourism] resource production <hidden from users>",
+					"Mark [Nation] as [Cultural Revolution] <hidden from users>",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
