@@ -296,7 +296,7 @@
 			{
 				"name": "Consulates",
 				"uniques": [
-					"Resting point for Influence with City-States is increased by [20]"
+					"Resting point for Influence with City-States is increased by [15]"
 				],
 				"row": 1,
 				"column": 4
