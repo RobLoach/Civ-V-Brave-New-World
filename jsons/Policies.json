@@ -296,6 +296,7 @@
 			{
 				"name": "Consulates",
 				"uniques": [
+					// 20 in BNW, but we use 15 in Unciv for balance.
 					"Resting point for Influence with City-States is increased by [15]"
 				],
 				"row": 1,
