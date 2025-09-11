@@ -441,5 +441,868 @@
 				"link": "Unit/Siege Tower"
 			}
 		]
+	},
+	// bog golb.
+	{
+		"name": "Special Cargo - [Horses]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Horses] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Horses]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [[Horses]! The best studs our Empire has to offer! Come get your little ponies here!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Horses]> <with [0] to [0] neighboring [Horses] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Horses]> <with [0] to [0] neighboring [Horses] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Horses]> <with [0] to [0] neighboring [Horses] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Horses]> <with [0] to [0] neighboring [Horses] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Iron]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Iron] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Iron]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [You have guts, but do you have the mettle? Come get your [Iron] here!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Iron]> <with [0] to [0] neighboring [Iron] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Iron]> <with [0] to [0] neighboring [Iron] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Iron]> <with [0] to [0] neighboring [Iron] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Iron]> <with [0] to [0] neighboring [Iron] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Coal]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Coal] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Coal]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Will you take the fight for [Freedom], maintain [Order] or establish [Autocracy]? Only one way to find out: buy our [Coal]!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Coal]> <with [0] to [0] neighboring [Coal] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Coal]> <with [0] to [0] neighboring [Coal] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Coal]> <with [0] to [0] neighboring [Coal] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Coal]> <with [0] to [0] neighboring [Coal] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Oil]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Oil] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Oil]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [[Oil]! The fuel of nations, the root of the fires that move every nation!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Oil]> <with [0] to [0] neighboring [Oil] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Oil]> <with [0] to [0] neighboring [Oil] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Oil]> <with [0] to [0] neighboring [Oil] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Oil]> <with [0] to [0] neighboring [Oil] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Aluminum]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Aluminum] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Aluminum]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [[Aluminum] - the material of today, and the future!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Aluminum]> <with [0] to [0] neighboring [Aluminum] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Aluminum]> <with [0] to [0] neighboring [Aluminum] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Aluminum]> <with [0] to [0] neighboring [Aluminum] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Aluminum]> <with [0] to [0] neighboring [Aluminum] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Uranium]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Uranium] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Uranium]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Our words are backed with our [Uranium] - and your coin!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Uranium]> <with [0] to [0] neighboring [Uranium] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Uranium]> <with [0] to [0] neighboring [Uranium] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Uranium]> <with [0] to [0] neighboring [Uranium] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Uranium]> <with [0] to [0] neighboring [Uranium] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Furs]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Furs] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Furs]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Buy our [Furs]! Harassment from annoying animal wrongs groups not included.]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Furs]> <with [0] to [0] neighboring [Furs] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Furs]> <with [0] to [0] neighboring [Furs] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Furs]> <with [0] to [0] neighboring [Furs] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Furs]> <with [0] to [0] neighboring [Furs] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Cotton]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Cotton] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Cotton]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Our handmade [Cotton] products - now without slavery!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Cotton]> <with [0] to [0] neighboring [Cotton] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Cotton]> <with [0] to [0] neighboring [Cotton] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Cotton]> <with [0] to [0] neighboring [Cotton] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Cotton]> <with [0] to [0] neighboring [Cotton] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Dyes]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Dyes] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Dyes]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [The most regal [Dyes] for your fabrics that even a king would 'dye' for!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Dyes]> <with [0] to [0] neighboring [Dyes] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Dyes]> <with [0] to [0] neighboring [Dyes] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Dyes]> <with [0] to [0] neighboring [Dyes] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Dyes]> <with [0] to [0] neighboring [Dyes] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Gems]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Gems] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Gems]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Buy our [Gems] - truly outrageous, and definitely neither cursed nor smuggled!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Gems]> <with [0] to [0] neighboring [Gems] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Gems]> <with [0] to [0] neighboring [Gems] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Gems]> <with [0] to [0] neighboring [Gems] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Gems]> <with [0] to [0] neighboring [Gems] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Gold Ore]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Gold Ore] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Gold Ore]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Don't be a fool, buy our [Gold Ore] today - less [Gold] for you, more [Gold] for us!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Gold Ore]> <with [0] to [0] neighboring [Gold Ore] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Gold Ore]> <with [0] to [0] neighboring [Gold Ore] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Gold Ore]> <with [0] to [0] neighboring [Gold Ore] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Gold Ore]> <with [0] to [0] neighboring [Gold Ore] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Silver]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Silver] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Silver]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Now you, too, can brag about having a [Silver] spoon in your mouth, all week!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Silver]> <with [0] to [0] neighboring [Silver] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Silver]> <with [0] to [0] neighboring [Silver] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Silver]> <with [0] to [0] neighboring [Silver] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Silver]> <with [0] to [0] neighboring [Silver] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Incense]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Incense] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Incense]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Nowhere else can you find [Incense] that's as intense as ours!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Incense]> <with [0] to [0] neighboring [Incense] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Incense]> <with [0] to [0] neighboring [Incense] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Incense]> <with [0] to [0] neighboring [Incense] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Incense]> <with [0] to [0] neighboring [Incense] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Ivory]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Ivory] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Ivory]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Who cares about the stinky animals when you have our [Ivory]?]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Ivory]> <with [0] to [0] neighboring [Ivory] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Ivory]> <with [0] to [0] neighboring [Ivory] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Ivory]> <with [0] to [0] neighboring [Ivory] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Ivory]> <with [0] to [0] neighboring [Ivory] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Silk]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Silk] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Silk]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [We'll even throw in a free, complimentary bowl of boiled [Silk]worm soup!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Silk]> <with [0] to [0] neighboring [Silk] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Silk]> <with [0] to [0] neighboring [Silk] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Silk]> <with [0] to [0] neighboring [Silk] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Silk]> <with [0] to [0] neighboring [Silk] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Spices]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Spices] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Spices]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Spice up your life - let our [Spices] flow into your pantry!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Spices]> <with [0] to [0] neighboring [Spices] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Spices]> <with [0] to [0] neighboring [Spices] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Spices]> <with [0] to [0] neighboring [Spices] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Spices]> <with [0] to [0] neighboring [Spices] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Wine]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Wine] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Wine]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Your rice is nice, but our [Wine] is fine - so quit whining and buy some!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Wine]> <with [0] to [0] neighboring [Wine] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Wine]> <with [0] to [0] neighboring [Wine] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Wine]> <with [0] to [0] neighboring [Wine] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Wine]> <with [0] to [0] neighboring [Wine] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Sugar]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Sugar] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Sugar]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Diabetes is merely a myth - your health will always be sweet with our [Sugar]!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Sugar]> <with [0] to [0] neighboring [Sugar] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Sugar]> <with [0] to [0] neighboring [Sugar] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Sugar]> <with [0] to [0] neighboring [Sugar] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Sugar]> <with [0] to [0] neighboring [Sugar] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Marble]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Marble] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Marble]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Our [Marble] products - worth losing all your [Marble]s over!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Marble]> <with [0] to [0] neighboring [Marble] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Marble]> <with [0] to [0] neighboring [Marble] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Marble]> <with [0] to [0] neighboring [Marble] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Marble]> <with [0] to [0] neighboring [Marble] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Whales]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Whales] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Whales]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Why save the [Whales] when we have them right here - preserved, and ready for purchase?]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Whales]> <with [0] to [0] neighboring [Whales] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Whales]> <with [0] to [0] neighboring [Whales] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Whales]> <with [0] to [0] neighboring [Whales] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Whales]> <with [0] to [0] neighboring [Whales] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Pearls]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Pearls] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Pearls]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Our [Pearls] - so pure, you'll find yourself in the pearly gates soon!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Pearls]> <with [0] to [0] neighboring [Pearls] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Pearls]> <with [0] to [0] neighboring [Pearls] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Pearls]> <with [0] to [0] neighboring [Pearls] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Pearls]> <with [0] to [0] neighboring [Pearls] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Citrus]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Citrus] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Citrus]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Don't be so sour after we overthrew your government and took over your country - at least you still have our [Citrus]!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Citrus]> <with [0] to [0] neighboring [Citrus] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Citrus]> <with [0] to [0] neighboring [Citrus] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Citrus]> <with [0] to [0] neighboring [Citrus] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Citrus]> <with [0] to [0] neighboring [Citrus] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Copper]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Copper] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Copper]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Buy our [Copper] - conductive, and tariff free! Or we will put tariffs on you.]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Copper]> <with [0] to [0] neighboring [Copper] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Copper]> <with [0] to [0] neighboring [Copper] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Copper]> <with [0] to [0] neighboring [Copper] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Copper]> <with [0] to [0] neighboring [Copper] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Cocoa]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Cocoa] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Cocoa]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Artisanal [Cocoa] - definitely 100% child labour free!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Cocoa]> <with [0] to [0] neighboring [Cocoa] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Cocoa]> <with [0] to [0] neighboring [Cocoa] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Cocoa]> <with [0] to [0] neighboring [Cocoa] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Cocoa]> <with [0] to [0] neighboring [Cocoa] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Crab]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Crab] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Crab]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Our [Crab]s are up for grabs! Not to be confused with the disease.]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Crab]> <with [0] to [0] neighboring [Crab] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Crab]> <with [0] to [0] neighboring [Crab] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Crab]> <with [0] to [0] neighboring [Crab] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Crab]> <with [0] to [0] neighboring [Crab] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Salt]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Salt] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Salt]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [The finest [Salt] - so fine, you'll revolt over it!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Salt]> <with [0] to [0] neighboring [Salt] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Salt]> <with [0] to [0] neighboring [Salt] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Salt]> <with [0] to [0] neighboring [Salt] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Salt]> <with [0] to [0] neighboring [Salt] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Special Cargo - [Truffles]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has [Truffles] for sale. If your trader sets up shop on a tile that neither has this resource nor borders any other tiles with it, you will get an additional Resource Diversity revenue bonus!]"
+		]
+	},
+	{
+		"name": "Selling [Truffles]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [[Truffles] - absolutely halal!]",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [Caravan] units> <for [non-[Portugal]] Civilizations> <in tiles without [Truffles]> <with [0] to [0] neighboring [Truffles] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <for [Portugal] Civilizations> <in tiles without [Truffles]> <with [0] to [0] neighboring [Truffles] tiles> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [Cargo Ship] units> <for [non-[Portugal]] Civilizations> <in tiles without [Truffles]> <with [0] to [0] neighboring [Truffles] tiles> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <for [Portugal] Civilizations> <in tiles without [Truffles]> <with [0] to [0] neighboring [Truffles] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "[Market] ability",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [+1 [Gold] from Trade Routes]"
+		]
+	},
+	{
+		"name": "[Bank] ability",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [+1 [Gold] from Trade Routes]"
+		]
+	},
+	{
+		"name": "Selling Cargo",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Come get your exotic goods here! Buy 1, get 1 free!]",
+			"[This Unit] loses [50] movement <upon turn start> <hidden from users>",
+			
+			//caravan
+			"Gain [1] [Gold] <upon turn start> <for [Caravan] units> <hidden from users>",
+			"Gain [1] [Gold] <for every [20] [[Gold] Per Turn]> <upon turn start> <for [Caravan] units> <hidden from users>",
+			// "Gain [2] [Gold] <in [in City-State cities] cities> <upon turn start> <after adopting [Merchant Confederacy]> <for [Caravan] units> <hidden from users>", // doesn't work
+			"Gain [2] [Gold] <upon turn start> <after adopting [Wagon Trains]> <for [Caravan] units> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {[Market] ability}] units> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {[Bank] ability}] units> <hidden from users>",
+			// "Gain [1] [Gold] <upon turn start> <in cities with a [Colossus]> <for [Caravan] units> <hidden from users>", // doesn't work
+			// "Gain [2] [Gold] <upon turn start> <in cities with a [East India Company]> <for [Caravan] units> <hidden from users>", // doesn't work
+			"Gain [2] [Gold] <upon turn start> <for [Caravan] units> <in [Morocco] tiles> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Horses]]} {non-[Selling [Horses]]}] units> <in [Horses] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Horses]]} {non-[Selling [Horses]]}] units> <in [Horses] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Iron]]} {non-[Selling [Iron]]}] units> <in [Iron] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Iron]]} {non-[Selling [Iron]]}] units> <in [Iron] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Coal]]} {non-[Selling [Coal]]}] units> <in [Coal] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Coal]]} {non-[Selling [Coal]]}] units> <in [Coal] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Oil]]} {non-[Selling [Oil]]}] units> <in [Oil] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Oil]]} {non-[Selling [Oil]]}] units> <in [Oil] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Aluminum]]} {non-[Selling [Aluminum]]}] units> <in [Aluminum] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Aluminum]]} {non-[Selling [Aluminum]]}] units> <in [Aluminum] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Uranium]]} {non-[Selling [Uranium]]}] units> <in [Uranium] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Uranium]]} {non-[Selling [Uranium]]}] units> <in [Uranium] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Furs]]} {non-[Selling [Furs]]}] units> <in [Furs] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Furs]]} {non-[Selling [Furs]]}] units> <in [Furs] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Cotton]]} {non-[Selling [Cotton]]}] units> <in [Cotton] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Cotton]]} {non-[Selling [Cotton]]}] units> <in [Cotton] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Dyes]]} {non-[Selling [Dyes]]}] units> <in [Dyes] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Dyes]]} {non-[Selling [Dyes]]}] units> <in [Dyes] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Gems]]} {non-[Selling [Gems]]}] units> <in [Gems] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Gems]]} {non-[Selling [Gems]]}] units> <in [Gems] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Gold Ore]]} {non-[Selling [Gold Ore]]}] units> <in [Gold Ore] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Gold Ore]]} {non-[Selling [Gold Ore]]}] units> <in [Gold Ore] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Silver]]} {non-[Selling [Silver]]}] units> <in [Silver] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Silver]]} {non-[Selling [Silver]]}] units> <in [Silver] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Incense]]} {non-[Selling [Incense]]}] units> <in [Incense] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Incense]]} {non-[Selling [Incense]]}] units> <in [Incense] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Ivory]]} {non-[Selling [Ivory]]}] units> <in [Ivory] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Ivory]]} {non-[Selling [Ivory]]}] units> <in [Ivory] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Silk]]} {non-[Selling [Silk]]}] units> <in [Silk] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Silk]]} {non-[Selling [Silk]]}] units> <in [Silk] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Spices]]} {non-[Selling [Spices]]}] units> <in [Spices] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Spices]]} {non-[Selling [Spices]]}] units> <in [Spices] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Wine]]} {non-[Selling [Wine]]}] units> <in [Wine] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Wine]]} {non-[Selling [Wine]]}] units> <in [Wine] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Sugar]]} {non-[Selling [Sugar]]}] units> <in [Sugar] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Sugar]]} {non-[Selling [Sugar]]}] units> <in [Sugar] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Marble]]} {non-[Selling [Marble]]}] units> <in [Marble] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Marble]]} {non-[Selling [Marble]]}] units> <in [Marble] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Whales]]} {non-[Selling [Whales]]}] units> <in [Whales] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Whales]]} {non-[Selling [Whales]]}] units> <in [Whales] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Pearls]]} {non-[Selling [Pearls]]}] units> <in [Pearls] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Pearls]]} {non-[Selling [Pearls]]}] units> <in [Pearls] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Citrus]]} {non-[Selling [Citrus]]}] units> <in [Citrus] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Citrus]]} {non-[Selling [Citrus]]}] units> <in [Citrus] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Copper]]} {non-[Selling [Copper]]}] units> <in [Copper] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Copper]]} {non-[Selling [Copper]]}] units> <in [Copper] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Cocoa]]} {non-[Selling [Cocoa]]}] units> <in [Cocoa] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Cocoa]]} {non-[Selling [Cocoa]]}] units> <in [Cocoa] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Crab]]} {non-[Selling [Crab]]}] units> <in [Crab] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Crab]]} {non-[Selling [Crab]]}] units> <in [Crab] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Salt]]} {non-[Selling [Salt]]}] units> <in [Salt] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Salt]]} {non-[Selling [Salt]]}] units> <in [Salt] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <every [2] turns> <upon turn start> <for [{Caravan} {non-[Special Cargo - [Truffles]]} {non-[Selling [Truffles]]}] units> <in [Truffles] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Caravan} {non-[Special Cargo - [Truffles]]} {non-[Selling [Truffles]]}] units> <in [Truffles] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			// cargo ship
+			"Gain [2] [Gold] <upon turn start> <for [Cargo Ship] units> <hidden from users>",
+			"Gain [1] [Gold] <for every [10] [[Gold] Per Turn]> <upon turn start> <for [Cargo Ship] units> <hidden from users>",
+			//"Gain [4] [Gold] <in [in City-State cities] cities> <upon turn start> <after adopting [Merchant Confederacy]> <for [Cargo Ship] units> <hidden from users>", doesn't work
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {[Market] ability}] units> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {[Bank] ability}] units> <hidden from users>",
+			// "Gain [2] [Gold] <upon turn start> <in cities with a [Colossus]> <for [Cargo Ship] units> <hidden from users>", doesn't work
+			// "Gain [4] [Gold] <upon turn start> <in cities with a [East India Company]> <for [Cargo Ship] units> <hidden from users>", doesn't work
+			"Gain [4] [Gold] <upon turn start> <in [Morocco] tiles> <for [Cargo Ship] units> <hidden from users>",
+			// it's actually 4, but since naval sea routes have double revenue, 4*2=8
+			"Gain [8] [Gold] <upon turn start> <after adopting [Treasure Fleets]> <for [Cargo Ship] units> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Horses]]} {non-[Selling [Horses]]}] units> <in [Horses] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Horses]]} {non-[Selling [Horses]]}] units> <in [Horses] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Iron]]} {non-[Selling [Iron]]}] units> <in [Iron] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Iron]]} {non-[Selling [Iron]]}] units> <in [Iron] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Coal]]} {non-[Selling [Coal]]}] units> <in [Coal] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Coal]]} {non-[Selling [Coal]]}] units> <in [Coal] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Oil]]} {non-[Selling [Oil]]}] units> <in [Oil] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Oil]]} {non-[Selling [Oil]]}] units> <in [Oil] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Aluminum]]} {non-[Selling [Aluminum]]}] units> <in [Aluminum] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Aluminum]]} {non-[Selling [Aluminum]]}] units> <in [Aluminum] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Uranium]]} {non-[Selling [Uranium]]}] units> <in [Uranium] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Uranium]]} {non-[Selling [Uranium]]}] units> <in [Uranium] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Furs]]} {non-[Selling [Furs]]}] units> <in [Furs] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Furs]]} {non-[Selling [Furs]]}] units> <in [Furs] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Cotton]]} {non-[Selling [Cotton]]}] units> <in [Cotton] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Cotton]]} {non-[Selling [Cotton]]}] units> <in [Cotton] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Dyes]]} {non-[Selling [Dyes]]}] units> <in [Dyes] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Dyes]]} {non-[Selling [Dyes]]}] units> <in [Dyes] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Gems]]} {non-[Selling [Gems]]}] units> <in [Gems] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Gems]]} {non-[Selling [Gems]]}] units> <in [Gems] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Gold Ore]]} {non-[Selling [Gold Ore]]}] units> <in [Gold Ore] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Gold Ore]]} {non-[Selling [Gold Ore]]}] units> <in [Gold Ore] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Silver]]} {non-[Selling [Silver]]}] units> <in [Silver] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Silver]]} {non-[Selling [Silver]]}] units> <in [Silver] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Incense]]} {non-[Selling [Incense]]}] units> <in [Incense] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Incense]]} {non-[Selling [Incense]]}] units> <in [Incense] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Ivory]]} {non-[Selling [Ivory]]}] units> <in [Ivory] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Ivory]]} {non-[Selling [Ivory]]}] units> <in [Ivory] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Silk]]} {non-[Selling [Silk]]}] units> <in [Silk] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Silk]]} {non-[Selling [Silk]]}] units> <in [Silk] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Spices]]} {non-[Selling [Spices]]}] units> <in [Spices] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Spices]]} {non-[Selling [Spices]]}] units> <in [Spices] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Wine]]} {non-[Selling [Wine]]}] units> <in [Wine] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Wine]]} {non-[Selling [Wine]]}] units> <in [Wine] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Sugar]]} {non-[Selling [Sugar]]}] units> <in [Sugar] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Sugar]]} {non-[Selling [Sugar]]}] units> <in [Sugar] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Marble]]} {non-[Selling [Marble]]}] units> <in [Marble] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Marble]]} {non-[Selling [Marble]]}] units> <in [Marble] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Whales]]} {non-[Selling [Whales]]}] units> <in [Whales] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Whales]]} {non-[Selling [Whales]]}] units> <in [Whales] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Pearls]]} {non-[Selling [Pearls]]}] units> <in [Pearls] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Pearls]]} {non-[Selling [Pearls]]}] units> <in [Pearls] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Citrus]]} {non-[Selling [Citrus]]}] units> <in [Citrus] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Citrus]]} {non-[Selling [Citrus]]}] units> <in [Citrus] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Copper]]} {non-[Selling [Copper]]}] units> <in [Copper] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Copper]]} {non-[Selling [Copper]]}] units> <in [Copper] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Cocoa]]} {non-[Selling [Cocoa]]}] units> <in [Cocoa] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Cocoa]]} {non-[Selling [Cocoa]]}] units> <in [Cocoa] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Crab]]} {non-[Selling [Crab]]}] units> <in [Crab] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Crab]]} {non-[Selling [Crab]]}] units> <in [Crab] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Salt]]} {non-[Selling [Salt]]}] units> <in [Salt] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Salt]]} {non-[Selling [Salt]]}] units> <in [Salt] tiles> <for [Portugal] Civilizations> <hidden from users>",
+			"Gain [1] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Truffles]]} {non-[Selling [Truffles]]}] units> <in [Truffles] tiles> <for [non-[Portugal]] Civilizations> <hidden from users>",
+			"Gain [2] [Gold] <upon turn start> <for [{Cargo Ship} {non-[Special Cargo - [Truffles]]} {non-[Selling [Truffles]]}] units> <in [Truffles] tiles> <for [Portugal] Civilizations> <hidden from users>"
+		]
+	},
+	{
+		"name": "Unloading Cargo",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy is unloading its cargo to prepare for a grand sale.]",
+			"[This Unit] gains the [Selling [Horses]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Horses]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Iron]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Iron]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Coal]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Coal]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Aluminum]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Aluminum]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Oil]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Oil]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Oil]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Oil]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Furs]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Furs]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Cotton]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Cotton]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Dyes]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Dyes]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Gems]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Gems]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Gold Ore]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Gold Ore]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Silver]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Silver]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Incense]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Incense]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Ivory]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Ivory]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Silk]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Silk]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Spices]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Spices]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Wine]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Wine]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Sugar]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Sugar]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Marble]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Marble]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Whales]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Whales]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Pearls]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Pearls]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Citrus]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Citrus]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Copper]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Copper]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Cocoa]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Cocoa]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Crab]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Crab]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Salt]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Salt]] units> <hidden from users>",
+			"[This Unit] gains the [Selling [Truffles]] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <for [Special Cargo - [Truffles]] units> <hidden from users>",
+			"[This Unit] gains the [Selling Cargo] status for [31] turn(s) <upon turn start> <in [{non-[your]} {Friendly Land}] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Cargo",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy is brimming with exotic goods from your Empire! Sell your goods by moving the unit into a tile owned by a foreign city!]",
+			"[This Unit] gains the [Unloading Cargo] promotion <in [{non-[your]} {Friendly Land}] tiles> <for all movement> <hidden from users>"
+		]
+	},
+	{
+		"name": "Loading Cargo",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Goods from the local city are being loaded on this trade convoy.]",
+			"[This Unit] gains the [[Market] ability] promotion <upon turn start> <in cities with a [Market]> <for [non-[[Market] ability]] units> <hidden from users>",
+			"[This Unit] gains the [[Bank] ability] promotion <upon turn start> <in cities with a [Bank]> <for [non-[[Bank] ability]] units> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Horses]] promotion <upon turn start> <in cities with a [Resource Depot - [Horses]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Iron]] promotion <upon turn start> <in cities with a [Resource Depot - [Iron]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Coal]] promotion <upon turn start> <in cities with a [Resource Depot - [Coal]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Oil]] promotion <upon turn start> <in cities with a [Resource Depot - [Oil]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Aluminum]] promotion <upon turn start> <in cities with a [Resource Depot - [Aluminum]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Uranium]] promotion <upon turn start> <in cities with a [Resource Depot - [Uranium]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Furs]] promotion <upon turn start> <in cities with a [Resource Depot - [Furs]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Cotton]] promotion <upon turn start> <in cities with a [Resource Depot - [Cotton]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Dyes]] promotion <upon turn start> <in cities with a [Resource Depot - [Dyes]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Gems]] promotion <upon turn start> <in cities with a [Resource Depot - [Gems]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Gold Ore]] promotion <upon turn start> <in cities with a [Resource Depot - [Gold Ore]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Silver]] promotion <upon turn start> <in cities with a [Resource Depot - [Silver]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Incense]] promotion <upon turn start> <in cities with a [Resource Depot - [Incense]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Ivory]] promotion <upon turn start> <in cities with a [Resource Depot - [Ivory]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Silk]] promotion <upon turn start> <in cities with a [Resource Depot - [Silk]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Spices]] promotion <upon turn start> <in cities with a [Resource Depot - [Spices]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Wine]] promotion <upon turn start> <in cities with a [Resource Depot - [Wine]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Sugar]] promotion <upon turn start> <in cities with a [Resource Depot - [Sugar]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Marble]] promotion <upon turn start> <in cities with a [Resource Depot - [Marble]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Whales]] promotion <upon turn start> <in cities with a [Resource Depot - [Whales]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Pearls]] promotion <upon turn start> <in cities with a [Resource Depot - [Pearls]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Citrus]] promotion <upon turn start> <in cities with a [Resource Depot - [Citrus]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Copper]] promotion <upon turn start> <in cities with a [Resource Depot - [Copper]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Cocoa]] promotion <upon turn start> <in cities with a [Resource Depot - [Cocoa]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Crab]] promotion <upon turn start> <in cities with a [Resource Depot - [Crab]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Salt]] promotion <upon turn start> <in cities with a [Resource Depot - [Salt]]> <hidden from users>",
+			"[This Unit] gains the [Special Cargo - [Truffles]] promotion <upon turn start> <in cities with a [Resource Depot - [Truffles]]> <hidden from users>",
+			"[This Unit] gains the [Cargo] promotion <upon turn start> <hidden from users>"
+		]
+	},
+	{
+		"name": "Empty [Food] Stores",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy is full of rubbish from spoiled, leftover [Food]. Clean up before it can be repurposed for other commercial or transporation needs.]",
+			"Gain a free [Food Depot 9] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 10]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Gain a free [Food Depot 8] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 9]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Gain a free [Food Depot 7] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 8]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Gain a free [Food Depot 6] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 7]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Gain a free [Food Depot 5] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 6]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Gain a free [Food Depot 4] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 5]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Gain a free [Food Depot 3] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 4]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Gain a free [Food Depot 2] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 3]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Gain a free [Food Depot 1] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 2]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Remove [Food Depot 1] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 1]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+
+			"Gain a free [Food Entrepot 9] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 10]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Gain a free [Food Entrepot 8] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 9]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Gain a free [Food Entrepot 7] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 8]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Gain a free [Food Entrepot 6] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 7]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Gain a free [Food Entrepot 5] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 6]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Gain a free [Food Entrepot 4] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 5]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Gain a free [Food Entrepot 3] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 4]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Gain a free [Food Entrepot 2] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 3]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Gain a free [Food Entrepot 1] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 2]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>",
+			"Remove [Food Entrepot 1] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 1]> <removing the [Empty [Food] Stores] promotion/status> <hidden from users>"
+		]
+	},
+	{
+		"name": "Supplying [Food]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [[Food]! [Food] for all!]",
+			"[This Unit] loses [50] movement <upon turn start> <hidden from users>"
+		]
+	},
+	{
+		"name": "[Food] Rations",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has enough [Food] to feed an entire city for decades. Unload the cargo by moving the unit into a tile belonging to one of your cities.]",
+			"Gain a free [Food Depot 1] [in this city] <for all movement> <for [Caravan] units> <in cities without a [Food Depot 1]> <in cities without a [Food Depot 2]> <in cities without a [Food Depot 3]> <in cities without a [Food Depot 4]> <in cities without a [Food Depot 5]> <in cities without a [Food Depot 6]> <in cities without a [Food Depot 7]> <in cities without a [Food Depot 8]> <in cities without a [Food Depot 9]> <in cities without a [Food Depot 10]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Depot 2] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 1]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Depot 3] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 2]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Depot 4] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 3]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Depot 5] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 4]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Depot 6] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 5]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Depot 7] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 6]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Depot 8] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 7]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Depot 9] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 8]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Depot 10] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Food Depot 9]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+
+			"Gain a free [Food Entrepot 1] [in this city] <for all movement> <for [Cargo Ship] units> <in cities without a [Food Entrepot 1]> <in cities without a [Food Entrepot 2]> <in cities without a [Food Entrepot 3]> <in cities without a [Food Entrepot 4]> <in cities without a [Food Entrepot 5]> <in cities without a [Food Entrepot 6]> <in cities without a [Food Entrepot 7]> <in cities without a [Food Entrepot 8]> <in cities without a [Food Entrepot 9]> <in cities without a [Food Entrepot 10]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Entrepot 2] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 1]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Entrepot 3] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 2]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Entrepot 4] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 3]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Entrepot 5] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 4]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Entrepot 6] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 5]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Entrepot 7] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 6]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Entrepot 8] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 7]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Entrepot 9] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 8]> <removing the [[Food] Rations] promotion/status> <hidden from users>",
+			"Gain a free [Food Entrepot 10] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Food Entrepot 9]> <removing the [[Food] Rations] promotion/status> <hidden from users>"
+		]
+	},
+	{
+		"name": "Loading [Food]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [[Food] supplies from the local [Granary] are being loaded on this trade convoy.]",
+			"[This Unit] gains the [[Food] Rations] promotion <upon turn start> <hidden from users>"
+		]
+	},
+	{
+		"name": "Depleted [Production] Materials",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy is full of junk from substandard [Production] materials. Clean up before it can be repurposed for other commercial or transporation needs.]",
+			"Gain a free [Material Depot 9] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 10]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Gain a free [Material Depot 8] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 9]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Gain a free [Material Depot 7] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 8]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Gain a free [Material Depot 6] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 7]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Gain a free [Material Depot 5] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 6]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Gain a free [Material Depot 4] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 5]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Gain a free [Material Depot 3] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 4]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Gain a free [Material Depot 2] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 3]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Gain a free [Material Depot 1] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 2]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Remove [Material Depot 1] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 1]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+
+			"Gain a free [Material Foundry 9] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 10]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Gain a free [Material Foundry 8] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 9]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Gain a free [Material Foundry 7] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 8]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Gain a free [Material Foundry 6] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 7]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Gain a free [Material Foundry 5] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 6]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Gain a free [Material Foundry 4] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 5]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Gain a free [Material Foundry 3] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 4]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Gain a free [Material Foundry 2] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 3]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Gain a free [Material Foundry 1] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 2]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>",
+			"Remove [Material Foundry 1] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 1]> <removing the [Depleted [Production] Materials] promotion/status> <hidden from users>"
+		]
+	},
+	{
+		"name": "Supplying [Production]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [Produce! Produce more! Even more [Production]!]",
+			"[This Unit] loses [50] movement <upon turn start> <hidden from users>"
+		]
+	},
+	{
+		"name": "[Production] Supplies",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [This trade convoy has enough [Production] to erect a magnificent city from the ground up. Unload the cargo by moving the unit into a tile belonging to one of your cities.]",
+			"Gain a free [Material Depot 1] [in this city] <for all movement> <for [Caravan] units> <in cities without a [Material Depot 1]> <in cities without a [Material Depot 2]> <in cities without a [Material Depot 3]> <in cities without a [Material Depot 4]> <in cities without a [Material Depot 5]> <in cities without a [Material Depot 6]> <in cities without a [Material Depot 7]> <in cities without a [Material Depot 8]> <in cities without a [Material Depot 9]> <in cities without a [Material Depot 10]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Depot 2] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 1]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Depot 3] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 2]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Depot 4] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 3]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Depot 5] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 4]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Depot 6] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 5]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Depot 7] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 6]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Depot 8] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 7]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Depot 9] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 8]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Depot 10] [in this city] <for all movement> <for [Caravan] units> <in cities with a [Material Depot 9]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+
+			"Gain a free [Material Foundry 1] [in this city] <for all movement> <for [Cargo Ship] units> <in cities without a [Material Foundry 1]> <in cities without a [Material Foundry 2]> <in cities without a [Material Foundry 3]> <in cities without a [Material Foundry 4]> <in cities without a [Material Foundry 5]> <in cities without a [Material Foundry 6]> <in cities without a [Material Foundry 7]> <in cities without a [Material Foundry 8]> <in cities without a [Material Foundry 9]> <in cities without a [Material Foundry 10]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Foundry 2] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 1]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Foundry 3] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 2]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Foundry 4] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 3]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Foundry 5] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 4]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Foundry 6] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 5]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Foundry 7] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 6]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Foundry 8] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 7]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Foundry 9] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 8]> <removing the [[Production] Supplies] promotion/status> <hidden from users>",
+			"Gain a free [Material Foundry 10] [in this city] <for all movement> <for [Cargo Ship] units> <in cities with a [Material Foundry 9]> <removing the [[Production] Supplies] promotion/status> <hidden from users>"
+		]
+	},
+	{
+		"name": "Loading [Production]",
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Comment [[Production] materials from the local [Workshop] are being loaded on this trade convoy.]",
+			"[This Unit] gains the [[Production] Supplies] promotion <upon turn start> <hidden from users>"
+		]
 	}
 ]
