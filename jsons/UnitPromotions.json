@@ -6,7 +6,8 @@
 			"[+1] Movement",
 			"[+10]% Strength <when defending> <vs [Ranged] units>",
 			"[+25]% to Flank Attack bonuses",
-			"Only available <for [Zulu] Civilizations>"
+			"Only available <for [Zulu] Civilizations>",
+			"[+100]% weight to this choice for AI decisions"
 		],
 		"civilopediaText": [
 			{
@@ -21,7 +22,8 @@
 			"[+10]% Strength <when fighting in [Open terrain] tiles>",
 			"[+10]% Strength <when defending> <vs [Ranged] units>",
 			"[+25]% to Flank Attack bonuses",
-			"Only available <for [Zulu] Civilizations>"
+			"Only available <for [Zulu] Civilizations>",
+			"[+100]% weight to this choice for AI decisions"
 		],
 		"prerequisites": ["Buffalo Horns"],
 		"unitTypes": ["Sword"]
@@ -32,7 +34,8 @@
 			"[+10]% Strength",
 			"[+10]% Strength <when defending> <vs [Ranged] units>",
 			"[+25]% to Flank Attack bonuses",
-			"Only available <for [Zulu] Civilizations>"
+			"Only available <for [Zulu] Civilizations>",
+			"[+100]% weight to this choice for AI decisions"
 		],
 		"prerequisites": ["Buffalo Chest"],
 		"unitTypes": ["Sword"]
@@ -281,6 +284,14 @@
 	},
 
 	// Pathfinder: Native Tongue
+	{
+		"name": "[Pathfinder] ability",
+		"uniques": [
+			"[This Unit] is destroyed",
+			"Free [Pathfinder] appears",
+			"Will not be displayed in Civilopedia"
+		]
+	},
 	{
 		"name": "Native Tongue",
 		"uniques": [

@@ -563,9 +563,8 @@
         "name": "Great Musician",
         "unitType": "Civilian",
         "uniques": [
+            "Triggers a [Perform Concert Tour] event <by consuming this unit> <in [{non-[your]} {Major} {Friendly Land} {Land}] tiles>",
             "Instantly provides [1] [Great Work of Music] <by consuming this unit>",
-			// TODO: Needs to be performed in other Civilization's city tiles. Is 50 Tourism enough?
-            "Instantly provides [50] [Tourism] <by consuming this unit> <for [Human player] Civilizations>", // Perform Concert Tour
             "Is part of Great Person group [Musician]",
             "Great Person - [Culture]",
             "Unbuildable",

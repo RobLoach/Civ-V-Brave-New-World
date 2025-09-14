@@ -3,7 +3,7 @@
 		"name": "Artist",
 		"culture": 3,
 		"greatPersonPoints": {"Great Artist": 3},
-		"color": [160, 32, 240]
+		"color": [101, 54, 16]
 	},
 	{
 		"name": "Musician",
@@ -15,6 +15,6 @@
 		"name": "Writer",
 		"culture": 3,
 		"greatPersonPoints": {"Great Writer": 3},
-		"color": [160, 32, 240]
+		"color": [184, 48, 12]
 	}
 ]

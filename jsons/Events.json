@@ -378,6 +378,22 @@
 		]
 	},
 
+	// Great Musician: Concert Tour @see Units.json
+	{
+		"name": "Perform Concert Tour",
+		"text": "Perform Concert Tour",
+		"presentation": "None",
+		"choices": [
+			{
+				"text": "Perform Concert Tour",
+				// TODO: Tourism gain is first calculated when the Great Musician is born ([Tourism] * 10)
+				// https://www.reddit.com/r/civ/comments/248qq8/comment/ch4p9f3/
+				// https://forums.civfanatics.com/threads/concert-tour-question.509152/post-12766795
+				"uniques": ["Instantly provides [10] [Tourism] <for every [[Tourism] Per Turn]>"]
+			}
+		]
+	},
+
 	// Terracotta Army
 	{
 		"name": "Terracotta Army - Melee",
@@ -764,9 +780,6 @@
         "civilopediaText":[
 			{ "text": "You're Generating Tourism!", "centered": true, "header": 5 },
 			{ "text": "Other civilizations are starting to notice the grandeur of your [Culture]! In terms of a [Culture] Victory, consider [Tourism] your \"Offense\" against other civilizations, and [Culture] your \"Defense\" from other civilizations." },
-			{},
-			// TODO: { "text": "Click on the [Tourism] icon at the top of the screen to track how you're faring against the Culture of other civilizations." }
-			{ "text": "Note: The Cultural Victory with [Tourism] is not yet implemented in the Civ V Brave New World mod." },
 			{},
 			{ "text": "Tourism", "link": "Resource/Tourism" }
 		],

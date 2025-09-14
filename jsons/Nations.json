@@ -311,7 +311,9 @@
 		"uniqueName": "Great Expanse",
 		"uniques": [
 			"Gain control over [8] tiles [in this city] <upon founding a city>",
-			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+			"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			// Start with Pathfinders instead of Warriors. While this works, it could possibly be exploited by buying Warriors before clicking end turn.
+			"[Warrior] units gain the [[Pathfinder] ability] promotion <before turn number [1]> <hidden from users>"
 		],
 		"spyNames": ["Cameahwait", "Ondongarte", "Queenah", "Pugweenee", "Sacajawea", "Sagwitch", "Sanpitch", "Tetoharsky", "Tuziyammo", "Mugwayan"],
 		"cities": ["Moson Kahni","Te-Moak","Agaidika","Goshute","Pohokwi","Washakie","Timbisha","Hukandeka","Duckwater","Tukudeka",

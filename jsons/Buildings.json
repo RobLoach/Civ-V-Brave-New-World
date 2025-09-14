@@ -26,7 +26,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -49,11 +49,12 @@
 		"cost": 400,
 		"maintenance": 5,
 		"uniques": [
+			"[50]% of [Culture] from every [Wonder] in the city added to [Tourism]",
+			"[50]% of [Culture] from every [Improvement] in the city added to [Tourism]",
+			"Comment [+50% [Tourism] from Great Works in this city]",
 			// TODO: Allows airlifting to other cities with Airports.
 			// TODO: Increases air unit capacity of the city from 6 to 10.
-			// TODO: 50% from Culture of wonders and improvements in the city added to its Tourism output.
-			"Comment [+50% [Tourism] from Great Works in this city]",
-			"All newly-trained [Air] units [in this city] receive the [[Airport] ability] promotion" // TODO: This isn't a real thing, it's just instead of the original benefits.
+			"All newly-trained [Air] units [in this city] receive the [[Airport] ability] promotion" // This isn't a real thing, it's just balancing the original above benefits
 		],
 		"requiredTech": "Radar"
 	},
@@ -78,8 +79,9 @@
 		"cost": 300,
 		"maintenance": 0,
 		"uniques": [
+			"[50]% of [Culture] from every [Wonder] in the city added to [Tourism]",
+			"[50]% of [Culture] from every [Improvement] in the city added to [Tourism]",
 			"Comment [+50% [Tourism] from Great Works in this city]"
-			// TODO: +50% of the Culture output of Wonders and Improvements in the city added to Tourism
 		],
 		"requiredTech": "Refrigeration"
 	},
@@ -259,7 +261,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -918,7 +920,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -946,7 +948,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -974,7 +976,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1002,7 +1004,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1141,7 +1143,8 @@
         "requiredTech": "Telecommunications",
 		"requiredBuilding": "Hotel",
 		"uniques": [
-			// TODO: 100% of the Culture from Wonders and Improvements is added to the Tourism output of the city.
+			"[100]% of [Culture] from every [Wonder] in the city added to [Tourism]",
+			"[100]% of [Culture] from every [Improvement] in the city added to [Tourism]",
 			"Comment [+100% [Tourism] from Great Works in this city]",
 			"Cost increases by [30] per owned city",
 			"Only available <if [Hotel] is constructed in all [non-[Puppeted]] cities>"
@@ -1211,7 +1214,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1239,7 +1242,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1267,7 +1270,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1380,7 +1383,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1408,7 +1411,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1499,7 +1502,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
             "Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1527,7 +1530,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
             "Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1919,7 +1922,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1947,7 +1950,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1975,7 +1978,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -2000,7 +2003,7 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Choose an [Ideology] upon reaching the [Modern era], or owning 3 [Factory] buildings]",
-			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Automatically built in all cities where it is buildable",
 
 			// Only for Humans so that AI picks based on AI weighted decisions.
 			"Triggers a [Ideology] event <for [Human player] Civilizations> <hidden from users>",
@@ -2025,6 +2028,21 @@
 			{ "text": "Requires at least one of the following:" },
 			{ "text": "Modern era", "link": "Era/Modern era" },
 			{ "text": "Requires a [Factory] in at least [3] of [your] cities", "link": "Building/Factory" }
+		]
+	},
+
+	// Policy: Cultural Revolution
+	{
+		"name": "Cultural Revolution", // @see Policies.json
+		"cost": 1,
+		"uniques": [
+			"Moves to new capital when capital changes <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Only available <in cities with a [Palace]> <hidden from users>",
+			"Only available <after adopting [Cultural Revolution]>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Will not be displayed in Civilopedia",
+			"Moves to new capital when capital changes <hidden from users>"
 		]
 	}
 ]

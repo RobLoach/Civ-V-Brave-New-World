@@ -196,7 +196,8 @@
 				"uniques": [
 					"Comment [Double quantity of [Tourism] produced]",
 					"[+100]% [Tourism] resource production <if [Great Firewall] is not constructed by anybody> <hidden from users>",
-					"[+100]% [Tourism] resource production <if [Great Firewall] is constructed in at least [1] of [Your] cities> <hidden from users>"
+					"[+100]% [Tourism] resource production <if [Great Firewall] is constructed in at least [1] of [Your] cities> <hidden from users>",
+					"[-25]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 				],
 				"quote": "'The Internet is the first thing that humanity has built that humanity doesn't understand, the largest experiment in anarchy that we have ever had.' - Eric Schmidt",
 				"civilopediaText": [

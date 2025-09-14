@@ -49,7 +49,8 @@
         "type": "Follower",
         "uniques": [
 			"Comment [[Hermitage] provides +5 [Culture] and +5 [Tourism]]", // @see Building/Hermitage
-			"[100]% weight to this choice for AI decisions <if [Hermitage] is constructed>"
+			"[100]% weight to this choice for AI decisions <if [Hermitage] is constructed>",
+			"[-25]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
         ],
 		"civilopediaText": [
 			{ "text": "Hermitage", "link": "Building/Hermitage" }
@@ -72,7 +73,8 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-            "Gifts of Gold to City-States generate [+30]% more Influence"
+            "Gifts of Gold to City-States generate [+30]% more Influence",
+			"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
         ]
     },
     {
@@ -123,8 +125,8 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			// TODO: All buildings purchased with Faith provide 2 Tourism each
-			"Comment [+2 [Tourism] from every [{Cathedral} {Monastery} {Mosque} {Pagoda}]]"
+			"Comment [+2 [Tourism] from every [{Cathedral} {Monastery} {Mosque} {Pagoda}]]",
+			"[-50]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
         ],
 		"civilopediaText": [
 			{ "text": "Cathedral", "link": "Building/Cathedral" },
