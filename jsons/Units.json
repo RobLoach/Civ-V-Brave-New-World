@@ -563,7 +563,7 @@
         "name": "Great Musician",
         "unitType": "Civilian",
         "uniques": [
-            "Triggers a [Concert Tour] event <by consuming this unit> <in [{non-[your]} {Major} {Friendly Land} {Land}] tiles>",
+            "Triggers a [Perform Concert Tour] event <by consuming this unit> <in [{non-[your]} {Major} {Friendly Land} {Land}] tiles>",
             "Instantly provides [1] [Great Work of Music] <by consuming this unit>",
             "Is part of Great Person group [Musician]",
             "Great Person - [Culture]",

@@ -1810,7 +1810,7 @@ ResourceIcons/Tourism
   orig: 100, 100
   offset: 0, 0
   index: -1
-UniqueIcons/Concert Tour
+UniqueIcons/Perform Concert Tour
   rotate: false
   xy: 112, 298
   size: 100, 100
