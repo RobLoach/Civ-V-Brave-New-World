@@ -1,6 +1,23 @@
 [
 	// Overrides
 	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": [
+			"Comment [Founds a new city]",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [2] population"
+
+			// Venice Unique: Can't settle another city. Get a Worker instead?
+			"Founds a new city <by consuming this unit> <for [non-[Double the normal number of Trade Routes available]] Civilizations> <hidden from users>",
+			"Founds a new city <by consuming this unit> <for [Double the normal number of Trade Routes available] Civilizations> <when number of [Cities] is equal to [0]> <hidden from users>",
+			"Free [Worker] appears <by consuming this unit> <for [Double the normal number of Trade Routes available] Civilizations> <when number of [Cities] is more than [0]> <hidden from users>"
+		],
+		"hurryCostModifier": 20
+	},
+	{
 		"name": "Samurai",
 		"unitType": "Sword",
 		"replaces": "Longswordsman",
