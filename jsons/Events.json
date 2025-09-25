@@ -366,35 +366,40 @@
 				"text": "Spearman",
 				"uniques": [
 					"Only available <when number of [[Spearman] Units] is more than [0]>",
-					"Free [Spearman] appears"
+					"Free [Spearman] appears",
+					"[+20]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Swordsman",
 				"uniques": [
 					"Only available <when number of [[Swordsman] Units] is more than [0]>",
-					"Free [Swordsman] appears"
+					"Free [Swordsman] appears",
+					"[+50]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Longswordsman",
 				"uniques": [
 					"Only available <when number of [[Longswordsman] Units] is more than [0]>",
-					"Free [Longswordsman] appears"
+					"Free [Longswordsman] appears",
+					"[+80]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Pikeman",
 				"uniques": [
 					"Only available <when number of [[Pikeman] Units] is more than [0]>",
-					"Free [Pikeman] appears"
+					"Free [Pikeman] appears",
+					"[+70]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Future Soldier",
 				"uniques": [
 					"Only available <when number of [[Future Soldier] Units] is more than [0]>",
-					"Free [Future Soldier] appears"
+					"Free [Future Soldier] appears",
+					"[+100]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -415,42 +420,48 @@
 				"text": "Chariot Archer",
 				"uniques": [
 					"Only available <when number of [[Chariot Archer] Units] is more than [0]>",
-					"Free [Chariot Archer] appears"
+					"Free [Chariot Archer] appears",
+					"[+20]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Composite Bowman",
 				"uniques": [
 					"Only available <when number of [[Composite Bowman] Units] is more than [0]>",
-					"Free [Composite Bowman] appears"
+					"Free [Composite Bowman] appears",
+					"[+40]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Crossbowman",
 				"uniques": [
 					"Only available <when number of [[Crossbowman] Units] is more than [0]>",
-					"Free [Crossbowman] appears"
+					"Free [Crossbowman] appears",
+					"[+60]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Gatling Gun",
 				"uniques": [
 					"Only available <when number of [[Gatling Gun] Units] is more than [0]>",
-					"Free [Gatling Gun] appears"
+					"Free [Gatling Gun] appears",
+					"[+100]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Machine Gun",
 				"uniques": [
 					"Only available <when number of [[Machine Gun] Units] is more than [0]>",
-					"Free [Machine Gun] appears"
+					"Free [Machine Gun] appears",
+					"[+100]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Bazooka",
 				"uniques": [
 					"Only available <when number of [[Bazooka] Units] is more than [0]>",
-					"Free [Bazooka] appears"
+					"Free [Bazooka] appears",
+					"[+80]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -471,21 +482,24 @@
 				"text": "Knight",
 				"uniques": [
 					"Only available <when number of [[Knight] Units] is more than [0]>",
-					"Free [Knight] appears"
+					"Free [Knight] appears",
+					"[+20]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Lancer",
 				"uniques": [
 					"Only available <when number of [[Lancer] Units] is more than [0]>",
-					"Free [Lancer] appears"
+					"Free [Lancer] appears",
+					"[+40]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Cavalry",
 				"uniques": [
 					"Only available <when number of [[Cavalry] Units] is more than [0]>",
-					"Free [Cavalry] appears"
+					"Free [Cavalry] appears",
+					"[+60]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -506,28 +520,32 @@
 				"text": "Trebuchet",
 				"uniques": [
 					"Only available <when number of [[Trebuchet] Units] is more than [0]>",
-					"Free [Trebuchet] appears"
+					"Free [Trebuchet] appears",
+					"[+20]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Cannon",
 				"uniques": [
 					"Only available <when number of [[Cannon] Units] is more than [0]>",
-					"Free [Cannon] appears"
+					"Free [Cannon] appears",
+					"[+40]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Artillery",
 				"uniques": [
 					"Only available <when number of [[Artillery] Units] is more than [0]>",
-					"Free [Artillery] appears"
+					"Free [Artillery] appears",
+					"[+60]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Rocket Artillery",
 				"uniques": [
 					"Only available <when number of [[Rocket Artillery] Units] is more than [0]>",
-					"Free [Rocket Artillery] appears"
+					"Free [Rocket Artillery] appears",
+					"[+80]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -548,56 +566,64 @@
 				"text": "Rifleman",
 				"uniques": [
 					"Only available <when number of [[Rifleman] Units] is more than [0]>",
-					"Free [Rifleman] appears"
+					"Free [Rifleman] appears",
+					"[+40]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Anti-Aircraft Gun",
 				"uniques": [
 					"Only available <when number of [[Anti-Aircraft Gun] Units] is more than [0]>",
-					"Free [Anti-Aircraft Gun] appears"
+					"Free [Anti-Aircraft Gun] appears",
+					"[+40]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Great War Infantry",
 				"uniques": [
 					"Only available <when number of [[Great War Infantry] Units] is more than [0]>",
-					"Free [Great War Infantry] appears"
+					"Free [Great War Infantry] appears",
+					"[+40]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Infantry",
 				"uniques": [
 					"Only available <when number of [[Infantry] Units] is more than [0]>",
-					"Free [Infantry] appears"
+					"Free [Infantry] appears",
+					"[+60]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Anti-Tank Gun",
 				"uniques": [
 					"Only available <when number of [[Anti-Tank Gun] Units] is more than [0]>",
-					"Free [Anti-Tank Gun] appears"
+					"Free [Anti-Tank Gun] appears",
+					"[+30]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Marine",
 				"uniques": [
 					"Only available <when number of [[Marine] Units] is more than [0]>",
-					"Free [Marine] appears"
+					"Free [Marine] appears",
+					"[+80]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Paratrooper",
 				"uniques": [
 					"Only available <when number of [[Paratrooper] Units] is more than [0]>",
-					"Free [Paratrooper] appears"
+					"Free [Paratrooper] appears",
+					"[+40]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Mobile SAM",
 				"uniques": [
 					"Only available <when number of [[Mobile SAM] Units] is more than [0]>",
-					"Free [Mobile SAM] appears"
+					"Free [Mobile SAM] appears",
+					"[+40]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -618,21 +644,24 @@
 				"text": "Mechanized Infantry",
 				"uniques": [
 					"Only available <when number of [[Mechanized Infantry] Units] is more than [0]>",
-					"Free [Mechanized Infantry] appears"
+					"Free [Mechanized Infantry] appears",
+					"[+60]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Modern Armor",
 				"uniques": [
 					"Only available <when number of [[Modern Armor] Units] is more than [0]>",
-					"Free [Modern Armor] appears"
+					"Free [Modern Armor] appears",
+					"[+80]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Giant Death Robot",
 				"uniques": [
 					"Only available <when number of [[Giant Death Robot] Units] is more than [0]>",
-					"Free [Giant Death Robot] appears"
+					"Free [Giant Death Robot] appears",
+					"[+100]% weight to this choice for AI decisions"
 				]
 			}
 		]
