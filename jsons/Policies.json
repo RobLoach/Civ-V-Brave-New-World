@@ -180,8 +180,8 @@
 			{
 				"name": "Mandate Of Heaven",
 				"uniques": [
-          "[Faith] cost of purchasing [all] buildings [-20]%",
-          "[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
+					"[Faith] cost of purchasing [all] buildings [-20]%",
+					"[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
 					"[50]% weight to this choice for AI decisions" // Rush to Reformation
 				],
 				"row": 1,
@@ -204,8 +204,8 @@
 				"uniques": [
 					"Comment [Allows adopting [Reformation] Beliefs into your Religion]",
 					"Comment [Gain a bonus Reformation belief]",
-					"Triggers a [Reformation] event <after founding a religion>",
-					"Triggers a [Reformation] event <upon founding a Religion>",
+					"Triggers a [Reformation] event <after founding a religion> <hidden from users>",
+					"Triggers a [Reformation] event <upon founding a Religion> <hidden from users>",
 					"[100]% weight to this choice for AI decisions"
 				],
 				"requires": [
