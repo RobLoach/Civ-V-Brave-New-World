@@ -203,7 +203,7 @@
 				"name": "Reformation",
 				"uniques": [
 					"Comment [Allows adopting [Reformation] Beliefs into your Religion]",
-					"Comment [Gain a bonus Reformation belief]",
+					"Comment [Gain a free [Reformation] belief]",
 					"Triggers a [Reformation] event <after founding a religion> <hidden from users>",
 					"Triggers a [Reformation] event <upon founding a Religion> <hidden from users>",
 					"[100]% weight to this choice for AI decisions"
