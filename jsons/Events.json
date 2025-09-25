@@ -133,74 +133,74 @@
 	// Reformation Beliefs
 	{
 		"name": "Reformation",
-		"text": "Select [Reformation] Belief",
+		"text": "Gain a free [Reformation] belief",
 		"presentation": "Alert",
 		"choices": [
 		    {
 				"text": "Charitable Missions",
 				"uniques": [
-					"Adopt [Charitable Missions] Belief",
+					"Adopt [Charitable Missions]",
 					"Only available <if no Civilization has adopted [Charitable Missions]> <hidden from users>"
 				]
 			},
 		    {
 				"text": "Evangelism",
 				"uniques": [
-					"Adopt [Evangelism] Belief",
+					"Adopt [Evangelism]",
 					"Only available <if no Civilization has adopted [Evangelism]> <hidden from users>"
 				]
 			},
 		    {
 				"text": "Heathen Conversion",
 				"uniques": [
-					"Adopt [Heathen Conversion] Belief",
+					"Adopt [Heathen Conversion]",
 					"Only available <if no Civilization has adopted [Heathen Conversion]> <hidden from users>"
 				]
 			},
 		    {
 				"text": "Jesuit Education",
 				"uniques": [
-					"Adopt [Jesuit Education] Belief",
+					"Adopt [Jesuit Education]",
 					"Only available <if no Civilization has adopted [Jesuit Education]> <hidden from users>"
 				]
 			},
 		    {
 				"text": "Religious Fervor",
 				"uniques": [
-					"Adopt [Religious Fervor] Belief",
+					"Adopt [Religious Fervor]",
 					"Only available <if no Civilization has adopted [Religious Fervor]> <hidden from users>"
 				]
 			},
 		    {
 				"text": "Sacred Sites",
 				"uniques": [
-					"Adopt [Sacred Sites] Belief",
+					"Adopt [Sacred Sites]",
 					"Only available <if no Civilization has adopted [Sacred Sites]> <hidden from users>"
 				]
 			},
 		    {
 				"text": "To the Glory of God",
 				"uniques": [
-					"Adopt [To the Glory of God] Belief",
+					"Adopt [To the Glory of God]",
 					"Only available <if no Civilization has adopted [To the Glory of God]> <hidden from users>"
 				]
 			},
 		    {
 				"text": "Underground Sect",
 				"uniques": [
-					"Adopt [Underground Sect] Belief",
+					"Adopt [Underground Sect]",
 					"Only available <if no Civilization has adopted [Underground Sect]> <hidden from users>"
 				]
 			},
 		    {
 				"text": "Unity of the Prophets",
 				"uniques": [
-					"Adopt [Unity of the Prophets] Belief",
+					"Adopt [Unity of the Prophets]",
 					"Only available <if no Civilization has adopted [Unity of the Prophets]> <hidden from users>"
 				]
 			}
 		]
-	}
+	},
 
 	// Pathfinder Native Tongue
 	{
