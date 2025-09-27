@@ -64,7 +64,8 @@
 					"Instantly provides [1] [Great Work of Writing] <hidden from users>",
 					"Comment [Will be placed in a [Great Work of Writing] slot next turn]",
 					"Comment [+2 [Culture]]",
-					"Comment [+2 [Tourism]]"
+					"Comment [+2 [Tourism]]",
+					"[+100]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -104,7 +105,8 @@
 					"Comment [Best Victory Types: ♪Cultural ⚖Diplomatic †Domination]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
-					"Only available <before adopting [Order]>"
+					"Only available <before adopting [Order]>",
+					"[+200]% weight to this choice for AI decisions <for [Preferred Ideology: Autocracy] Civilizations>"
 				]
 			},
 			{
@@ -114,7 +116,8 @@
 					"Comment [Best Victory Types: ♪Cultural ⚖Diplomatic ⍾Science]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
-					"Only available <before adopting [Order]>"
+					"Only available <before adopting [Order]>",
+					"[+200]% weight to this choice for AI decisions <for [Preferred Ideology: Freedom] Civilizations>"
 				]
 			},
 			{
@@ -124,7 +127,8 @@
 					"Comment [Best Victory Types: ♪Cultural †Domination ⍾Science]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
-					"Only available <before adopting [Order]>"
+					"Only available <before adopting [Order]>",
+					"[+200]% weight to this choice for AI decisions <for [Preferred Ideology: Order] Civilizations>"
 				]
 			}
 		]
@@ -140,7 +144,8 @@
 				"text": "Charitable Missions",
 				"uniques": [
 					"Adopt [Charitable Missions]",
-					"Only available <if no Civilization has adopted [Charitable Missions]> <hidden from users>"
+					"Only available <if no Civilization has adopted [Charitable Missions]> <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
 				]
 			},
 		    {
@@ -154,35 +159,40 @@
 				"text": "Heathen Conversion",
 				"uniques": [
 					"Adopt [Heathen Conversion]",
-					"Only available <if no Civilization has adopted [Heathen Conversion]> <hidden from users>"
+					"Only available <if no Civilization has adopted [Heathen Conversion]> <hidden from users>",
+					"[-20]% weight to this choice for AI decisions" // Not a good belief.
 				]
 			},
 		    {
 				"text": "Jesuit Education",
 				"uniques": [
 					"Adopt [Jesuit Education]",
-					"Only available <if no Civilization has adopted [Jesuit Education]> <hidden from users>"
+					"Only available <if no Civilization has adopted [Jesuit Education]> <hidden from users>",
+					"[+50]% weight to this choice for AI decisions"
 				]
 			},
 		    {
 				"text": "Religious Fervor",
 				"uniques": [
 					"Adopt [Religious Fervor]",
-					"Only available <if no Civilization has adopted [Religious Fervor]> <hidden from users>"
+					"Only available <if no Civilization has adopted [Religious Fervor]> <hidden from users>",
+					"[+50]% weight to this choice for AI decisions <for [Preferred Ideology: Autocracy] Civilizations>"
 				]
 			},
 		    {
 				"text": "Sacred Sites",
 				"uniques": [
 					"Adopt [Sacred Sites]",
-					"Only available <if no Civilization has adopted [Sacred Sites]> <hidden from users>"
+					"Only available <if no Civilization has adopted [Sacred Sites]> <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 				]
 			},
 		    {
 				"text": "To the Glory of God",
 				"uniques": [
 					"Adopt [To the Glory of God]",
-					"Only available <if no Civilization has adopted [To the Glory of God]> <hidden from users>"
+					"Only available <if no Civilization has adopted [To the Glory of God]> <hidden from users>",
+					"[+50]% weight to this choice for AI decisions"
 				]
 			},
 		    {
@@ -190,7 +200,8 @@
 				"uniques": [
 					"Adopt [Underground Sect]",
 					"Only available <if no Civilization has adopted [Underground Sect]> <hidden from users>",
-					"Only available <when espionage is enabled> <hidden from users>"
+					"Only available <when espionage is enabled> <hidden from users>",
+					"[-50]% weight to this choice for AI decisions" // Not a good belief.
 				]
 			},
 		    {
@@ -285,7 +296,8 @@
 					"[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [discover a lost technology] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [discover a lost technology] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [discover a lost technology] I] promotion <hidden from users>",
+					"[+100]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -305,7 +317,8 @@
 					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
 					"Unavailable <for units with [[Native Tongue] [squatters willing to work for you] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [squatters willing to work for you] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [squatters willing to work for you] I] promotion <hidden from users>",
+					"[+80]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -315,7 +328,8 @@
 					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
 					"Unavailable <for units with [[Native Tongue] [squatters wishing to settle under your rule] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [squatters wishing to settle under your rule] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [squatters wishing to settle under your rule] I] promotion <hidden from users>",
+					"[+100]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -472,7 +486,7 @@
 				"uniques": [
 					"Only available <when number of [[Future Soldier] Units] is more than [0]>",
 					"Free [Future Soldier] appears",
-					"[+100]% weight to this choice for AI decisions"
+					"[+1000]% weight to this choice for AI decisions"
 				]
 			}
 		]
