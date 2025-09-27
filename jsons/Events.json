@@ -189,7 +189,8 @@
 				"text": "Underground Sect",
 				"uniques": [
 					"Adopt [Underground Sect]",
-					"Only available <if no Civilization has adopted [Underground Sect]> <hidden from users>"
+					"Only available <if no Civilization has adopted [Underground Sect]> <hidden from users>",
+					"Only available <when espionage is enabled> <hidden from users>"
 				]
 			},
 		    {
