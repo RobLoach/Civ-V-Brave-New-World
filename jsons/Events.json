@@ -130,6 +130,79 @@
 		]
 	},
 
+	// Reformation Beliefs
+	{
+		"name": "Reformation",
+		"text": "Gain a free [Reformation] belief",
+		"presentation": "Alert",
+		"choices": [
+		    {
+				"text": "Charitable Missions",
+				"uniques": [
+					"Adopt [Charitable Missions]",
+					"Only available <if no Civilization has adopted [Charitable Missions]> <hidden from users>"
+				]
+			},
+		    {
+				"text": "Evangelism",
+				"uniques": [
+					"Adopt [Evangelism]",
+					"Only available <if no Civilization has adopted [Evangelism]> <hidden from users>"
+				]
+			},
+		    {
+				"text": "Heathen Conversion",
+				"uniques": [
+					"Adopt [Heathen Conversion]",
+					"Only available <if no Civilization has adopted [Heathen Conversion]> <hidden from users>"
+				]
+			},
+		    {
+				"text": "Jesuit Education",
+				"uniques": [
+					"Adopt [Jesuit Education]",
+					"Only available <if no Civilization has adopted [Jesuit Education]> <hidden from users>"
+				]
+			},
+		    {
+				"text": "Religious Fervor",
+				"uniques": [
+					"Adopt [Religious Fervor]",
+					"Only available <if no Civilization has adopted [Religious Fervor]> <hidden from users>"
+				]
+			},
+		    {
+				"text": "Sacred Sites",
+				"uniques": [
+					"Adopt [Sacred Sites]",
+					"Only available <if no Civilization has adopted [Sacred Sites]> <hidden from users>"
+				]
+			},
+		    {
+				"text": "To the Glory of God",
+				"uniques": [
+					"Adopt [To the Glory of God]",
+					"Only available <if no Civilization has adopted [To the Glory of God]> <hidden from users>"
+				]
+			},
+		    {
+				"text": "Underground Sect",
+				"uniques": [
+					"Adopt [Underground Sect]",
+					"Only available <if no Civilization has adopted [Underground Sect]> <hidden from users>",
+					"Only available <when espionage is enabled> <hidden from users>"
+				]
+			},
+		    {
+				"text": "Unity of the Prophets",
+				"uniques": [
+					"Adopt [Unity of the Prophets]",
+					"Only available <if no Civilization has adopted [Unity of the Prophets]> <hidden from users>"
+				]
+			}
+		]
+	},
+
 	// Pathfinder Native Tongue
 	{
 		"name": "Native Tongue",
