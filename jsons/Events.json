@@ -103,10 +103,16 @@
 				"uniques": [
 					"Adopt [Autocracy]",
 					"Comment [Best Victory Types: ♪Cultural ⚖Diplomatic †Domination]",
+					// TODO: Show number of civilizations who have adopted the Ideology for early adopter bonus.
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
 					"Only available <before adopting [Order]>",
-					"[+200]% weight to this choice for AI decisions <for [Preferred Ideology: Autocracy] Civilizations>"
+					"[+1000]% weight to this choice for AI decisions <for [Preferred Ideology: Autocracy] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Aztecs] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Greece] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [The Huns] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Mongolia] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Songhai] Civilizations>"
 				]
 			},
 			{
@@ -117,7 +123,14 @@
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
 					"Only available <before adopting [Order]>",
-					"[+200]% weight to this choice for AI decisions <for [Preferred Ideology: Freedom] Civilizations>"
+					"[+1000]% weight to this choice for AI decisions <for [Preferred Ideology: Freedom] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [America] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Austria] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [The Netherlands] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Ethiopia] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [India] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Korea] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Polynesia] Civilizations>"
 				]
 			},
 			{
@@ -128,7 +141,13 @@
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
 					"Only available <before adopting [Order]>",
-					"[+200]% weight to this choice for AI decisions <for [Preferred Ideology: Order] Civilizations>"
+					"[+1000]% weight to this choice for AI decisions <for [Preferred Ideology: Order] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Babylon] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [China] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Denmark] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [The Ottomans] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Rome] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Russia] Civilizations>"
 				]
 			}
 		]

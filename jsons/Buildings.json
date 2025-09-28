@@ -2004,13 +2004,7 @@
 		"uniques": [
 			"Comment [Choose an [Ideology] upon reaching the [Modern era], or owning 3 [Factory] buildings]",
 			"Automatically built in all cities where it is buildable",
-
-			// Only for Humans so that AI picks based on AI weighted decisions.
-			"Triggers a [Ideology] event <for [Human player] Civilizations> <hidden from users>",
-
-			// AI gets a free social policy since we give it to humans.
-			"Free Social Policy <for [AI player] Civilizations> <hidden from users>",
-
+			"Triggers a [Ideology] event <hidden from users>",
 			"Moves to new capital when capital changes <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
