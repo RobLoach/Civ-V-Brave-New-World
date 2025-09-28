@@ -92,10 +92,21 @@
 		]
 	},
 
-	// Venice: Transform Settler units to Workers
-	// {
-
-	// },
+	// Venice: Transform Settler units into Workers
+	{
+		"name": "Serenissima",
+		"text": "Serenissima",
+		"presentation": "None",
+		"choices": [
+			{
+				"text": "Serenissima",
+				"uniques": [
+					"[This Unit] is destroyed",
+					"Free [Worker] appears"
+				]
+			}
+		]
+	},
 
 	// Ideology
 	{
