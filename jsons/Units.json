@@ -13,7 +13,8 @@
 			// Venice Unique: Can't settle another city. Get a Worker instead?
 			"Founds a new city <by consuming this unit> <for [Venice] Civilizations> <if [Palace] is not constructed> <hidden from users>",
 			"Founds a new city <by consuming this unit> <for [non-[Venice]] Civilizations> <hidden from users>",
-			"Free [Worker] appears <by consuming this unit> <for [Venice] Civilizations> <if [Palace] is constructed> <hidden from users>"
+			//"Free [Worker] appears <by consuming this unit> <for [Venice] Civilizations> <if [Palace] is constructed> <hidden from users>"
+			"Can transform to [Worker] <for [Venice] Civilizations> <if [Palace] is constructed> <hidden from users>"
 		],
 		"hurryCostModifier": 20
 	},

@@ -92,6 +92,11 @@
 		]
 	},
 
+	// Venice: Transform Settler units to Workers
+	// {
+
+	// },
+
 	// Ideology
 	{
 		"name": "Ideology",
