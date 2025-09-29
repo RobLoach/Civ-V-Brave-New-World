@@ -922,7 +922,7 @@
 			{ "text": "Tourism", "link": "Resource/Tourism" }
 		],
         "uniques": [
-            "Only available <if tutorials are enabled> <when number of [Artifact] is more than [0]>",
+            "Only available <if tutorials are enabled> <with [Artifact]>",
             "Unavailable <if tutorial [You've Made a Discovery!] is completed>"
         ],
         "choices": [
@@ -947,7 +947,7 @@
         "uniques": [
             "Unavailable <if tutorial [Your Great Works are World-Renowned!] is completed>",
             "Only available <if tutorials are enabled>",
-			"Unavailable <when number of [Great Work of Art] is less than [1]> <when number of [Great Work of Music] is less than [1]> <when number of [Great Work of Writing] is less than [1]>"
+			"Unavailable <without [Great Work of Art]> <without [Great Work of Music]> <without [Great Work of Writing]>"
         ],
         "choices": [
             {
