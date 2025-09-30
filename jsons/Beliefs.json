@@ -49,8 +49,9 @@
         "type": "Follower",
         "uniques": [
 			"Comment [[Hermitage] provides +5 [Culture] and +5 [Tourism]]", // @see Building/Hermitage
-			"[100]% weight to this choice for AI decisions <if [Hermitage] is constructed>",
-			"[-25]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
+			"[+100]% weight to this choice for AI decisions <if [Hermitage] is constructed>",
+			"[-50]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>", // Only gives +5 Culture
+			"[-50]% weight to this choice for AI decisions <if [Hermitage] is constructed by anybody> <if [Hermitage] is not constructed>" // Another Civ built it
         ],
 		"civilopediaText": [
 			{ "text": "Hermitage", "link": "Building/Hermitage" }
@@ -96,7 +97,7 @@
             "Only available <after adopting [Reformation]>",
             // TODO: Missionaries convert adjacent Barbarian units to this civilization
 			"When defeating a [Barbarian] unit, earn [0] Gold and recruit it",
-			"[-20]% weight to this choice for AI decisions" // Not that good
+			"[-20]% weight to this choice for AI decisions" // Something AI doesn't take full advantage of
         ]
     },
     {
@@ -128,7 +129,7 @@
         "type": "Enhancer",
         "uniques": [
             "Only available <after adopting [Reformation]>",
-			"Comment [+2 [Tourism] from every [{Cathedral} {Monastery} {Mosque} {Pagoda}]]",
+			"Comment [+2 [Tourism] from every [{Cathedral} {Monastery} {Mosque} {Pagoda}]]", // @see Buildings.json
 			"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
         ],
 		"civilopediaText": [
@@ -156,7 +157,7 @@
 			"[+10]% spy effectiveness [in all cities in which the majority religion is a major religion]",
 			"[+10]% Natural religion spread [in all cities in which the majority religion is a major religion]",
 			"Only available <when espionage is enabled> <hidden from users>",
-			"[-50]% weight to this choice for AI decisions" // Not a good belief.
+			"[-50]% weight to this choice for AI decisions" // Not that good.
         ]
     },
     {

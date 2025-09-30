@@ -475,7 +475,7 @@
 	{
 		"name": "Terracotta Army - Melee",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Warrior",
@@ -529,7 +529,7 @@
 	{
 		"name": "Terracotta Army - Archery",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Archer",
@@ -567,7 +567,7 @@
 				"uniques": [
 					"Only available <when number of [[Gatling Gun] Units] is more than [0]>",
 					"Free [Gatling Gun] appears",
-					"[+100]% weight to this choice for AI decisions"
+					"[+80]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -583,7 +583,7 @@
 				"uniques": [
 					"Only available <when number of [[Bazooka] Units] is more than [0]>",
 					"Free [Bazooka] appears",
-					"[+80]% weight to this choice for AI decisions"
+					"[+120]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -591,7 +591,7 @@
 	{
 		"name": "Terracotta Army - Mounted",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Horseman",
@@ -629,7 +629,7 @@
 	{
 		"name": "Terracotta Army - Siege",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Catapult",
@@ -675,7 +675,7 @@
 	{
 		"name": "Terracotta Army - Gunpowder",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Musketman",
@@ -689,7 +689,7 @@
 				"uniques": [
 					"Only available <when number of [[Rifleman] Units] is more than [0]>",
 					"Free [Rifleman] appears",
-					"[+40]% weight to this choice for AI decisions"
+					"[+20]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -705,7 +705,7 @@
 				"uniques": [
 					"Only available <when number of [[Great War Infantry] Units] is more than [0]>",
 					"Free [Great War Infantry] appears",
-					"[+40]% weight to this choice for AI decisions"
+					"[+60]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -713,7 +713,7 @@
 				"uniques": [
 					"Only available <when number of [[Infantry] Units] is more than [0]>",
 					"Free [Infantry] appears",
-					"[+60]% weight to this choice for AI decisions"
+					"[+80]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -721,23 +721,7 @@
 				"uniques": [
 					"Only available <when number of [[Anti-Tank Gun] Units] is more than [0]>",
 					"Free [Anti-Tank Gun] appears",
-					"[+30]% weight to this choice for AI decisions"
-				]
-			},
-			{
-				"text": "Marine",
-				"uniques": [
-					"Only available <when number of [[Marine] Units] is more than [0]>",
-					"Free [Marine] appears",
-					"[+80]% weight to this choice for AI decisions"
-				]
-			},
-			{
-				"text": "Paratrooper",
-				"uniques": [
-					"Only available <when number of [[Paratrooper] Units] is more than [0]>",
-					"Free [Paratrooper] appears",
-					"[+40]% weight to this choice for AI decisions"
+					"[+100]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -745,7 +729,23 @@
 				"uniques": [
 					"Only available <when number of [[Mobile SAM] Units] is more than [0]>",
 					"Free [Mobile SAM] appears",
-					"[+40]% weight to this choice for AI decisions"
+					"[+120]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Paratrooper",
+				"uniques": [
+					"Only available <when number of [[Paratrooper] Units] is more than [0]>",
+					"Free [Paratrooper] appears",
+					"[+140]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Marine",
+				"uniques": [
+					"Only available <when number of [[Marine] Units] is more than [0]>",
+					"Free [Marine] appears",
+					"[+140]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -753,7 +753,7 @@
 	{
 		"name": "Terracotta Army - Armored",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Tank",

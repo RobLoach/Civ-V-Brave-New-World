@@ -1158,6 +1158,9 @@
 			"Cost increases by [30] per owned city",
 			"Only available <if [Hotel] is constructed in all [non-[Puppeted]] cities>",
 			"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
     },
 	{
@@ -1895,7 +1898,8 @@
 			"Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Provides [5] [Tourism] <after adopting [Religious Art]>",
-			"[+5 Culture] <after adopting [Religious Art]>"
+			"[+5 Culture] <after adopting [Religious Art]>",
+			"[+20]% weight to this choice for AI decisions <after adopting [Religious Art]> <in [Capital] cities>"
 		],
 		"requiredTech": "Architecture",
 		"civilopediaText": [
