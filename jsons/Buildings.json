@@ -83,7 +83,7 @@
 			"[50]% of [Culture] from every [Wonder] in the city added to [Tourism]",
 			"[50]% of [Culture] from every [Improvement] in the city added to [Tourism]",
 			"Comment [+50% [Tourism] from Great Works in this city]",
-			"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
+			"Unavailable <when [Cultural] Victory is disabled>"
 		],
 		"requiredTech": "Refrigeration"
 	},
@@ -1157,7 +1157,7 @@
 			"Comment [+100% [Tourism] from Great Works in this city]",
 			"Cost increases by [30] per owned city",
 			"Only available <if [Hotel] is constructed in all [non-[Puppeted]] cities>",
-			"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
+			"Unavailable <when [Cultural] Victory is disabled>"
 		],
 		"civilopediaText": [
 			{ "text": "Great Works", "link": "Tutorial/Great Works" }
