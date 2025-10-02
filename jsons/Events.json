@@ -339,7 +339,7 @@
 					"[This Unit] gains the [[Native Tongue] [discover a lost technology] I] promotion <hidden from users>",
 					"[+50]% weight to this choice for AI decisions",
 					// TODO: Is there a way to avoid hard-coding every Ancient Era technology?
-					"Unavailable <after discovering [Animal Husbandry]> <after discovering [Archery]> <after discovering [Bronze Working]> <after discovering [Calendar]> <after discovering [Masonry]> <after discovering [Mining]> <after discovering [Pottery]> <after discovering [Sailing]> <after discovering [The Wheel]> <after discovering [Trapping]> <after discovering [Writing]> <hidden from users>"
+					"Unavailable <after discovering [Sailing]> <after discovering [Calendar]> <after discovering [Writing]> <after discovering [Trapping]> <after discovering [The Wheel]> <after discovering [Masonry]> <after discovering [Bronze Working]> <hidden from users>"
 				]
 			},
 			{
