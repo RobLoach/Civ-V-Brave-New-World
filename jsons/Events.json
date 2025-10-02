@@ -64,7 +64,8 @@
 					"Instantly provides [1] [Great Work of Writing] <hidden from users>",
 					"Comment [Will be placed in a [Great Work of Writing] slot next turn]",
 					"Comment [+2 [Culture]]",
-					"Comment [+2 [Tourism]]"
+					"Comment [+2 [Tourism]]",
+					"[+100]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -91,6 +92,22 @@
 		]
 	},
 
+	// Venice: Transform Settler units into Workers
+	{
+		"name": "Serenissima",
+		"text": "Serenissima",
+		"presentation": "None",
+		"choices": [
+			{
+				"text": "Serenissima",
+				"uniques": [
+					"[This Unit] is destroyed",
+					"Free [Worker] appears"
+				]
+			}
+		]
+	},
+
 	// Ideology
 	{
 		"name": "Ideology",
@@ -102,9 +119,16 @@
 				"uniques": [
 					"Adopt [Autocracy]",
 					"Comment [Best Victory Types: ♪Cultural ⚖Diplomatic †Domination]",
+					// TODO: Show number of civilizations who have adopted the Ideology for early adopter bonus.
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
-					"Only available <before adopting [Order]>"
+					"Only available <before adopting [Order]>",
+					"[+1000]% weight to this choice for AI decisions <for [Preferred Ideology: Autocracy] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Aztecs] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Greece] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [The Huns] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Mongolia] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Songhai] Civilizations>"
 				]
 			},
 			{
@@ -114,7 +138,15 @@
 					"Comment [Best Victory Types: ♪Cultural ⚖Diplomatic ⍾Science]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
-					"Only available <before adopting [Order]>"
+					"Only available <before adopting [Order]>",
+					"[+1000]% weight to this choice for AI decisions <for [Preferred Ideology: Freedom] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [America] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Austria] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [The Netherlands] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Ethiopia] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [India] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Korea] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Polynesia] Civilizations>"
 				]
 			},
 			{
@@ -124,7 +156,14 @@
 					"Comment [Best Victory Types: ♪Cultural †Domination ⍾Science]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
-					"Only available <before adopting [Order]>"
+					"Only available <before adopting [Order]>",
+					"[+1000]% weight to this choice for AI decisions <for [Preferred Ideology: Order] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Babylon] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [China] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Denmark] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [The Ottomans] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Rome] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Russia] Civilizations>"
 				]
 			}
 		]
@@ -140,7 +179,8 @@
 				"text": "Charitable Missions",
 				"uniques": [
 					"Adopt [Charitable Missions]",
-					"Only available <if no Civilization has adopted [Charitable Missions]> <hidden from users>"
+					"Only available <if no Civilization has adopted [Charitable Missions]> <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
 				]
 			},
 		    {
@@ -154,35 +194,40 @@
 				"text": "Heathen Conversion",
 				"uniques": [
 					"Adopt [Heathen Conversion]",
-					"Only available <if no Civilization has adopted [Heathen Conversion]> <hidden from users>"
+					"Only available <if no Civilization has adopted [Heathen Conversion]> <hidden from users>",
+					"[-20]% weight to this choice for AI decisions" // Not a good belief.
 				]
 			},
 		    {
 				"text": "Jesuit Education",
 				"uniques": [
 					"Adopt [Jesuit Education]",
-					"Only available <if no Civilization has adopted [Jesuit Education]> <hidden from users>"
+					"Only available <if no Civilization has adopted [Jesuit Education]> <hidden from users>",
+					"[+50]% weight to this choice for AI decisions"
 				]
 			},
 		    {
 				"text": "Religious Fervor",
 				"uniques": [
 					"Adopt [Religious Fervor]",
-					"Only available <if no Civilization has adopted [Religious Fervor]> <hidden from users>"
+					"Only available <if no Civilization has adopted [Religious Fervor]> <hidden from users>",
+					"[+50]% weight to this choice for AI decisions <for [Preferred Ideology: Autocracy] Civilizations>"
 				]
 			},
 		    {
 				"text": "Sacred Sites",
 				"uniques": [
 					"Adopt [Sacred Sites]",
-					"Only available <if no Civilization has adopted [Sacred Sites]> <hidden from users>"
+					"Only available <if no Civilization has adopted [Sacred Sites]> <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 				]
 			},
 		    {
 				"text": "To the Glory of God",
 				"uniques": [
 					"Adopt [To the Glory of God]",
-					"Only available <if no Civilization has adopted [To the Glory of God]> <hidden from users>"
+					"Only available <if no Civilization has adopted [To the Glory of God]> <hidden from users>",
+					"[+50]% weight to this choice for AI decisions"
 				]
 			},
 		    {
@@ -190,7 +235,8 @@
 				"uniques": [
 					"Adopt [Underground Sect]",
 					"Only available <if no Civilization has adopted [Underground Sect]> <hidden from users>",
-					"Only available <when espionage is enabled> <hidden from users>"
+					"Only available <when espionage is enabled> <hidden from users>",
+					"[-50]% weight to this choice for AI decisions" // Not a good belief.
 				]
 			},
 		    {
@@ -224,7 +270,8 @@
 					"Gain [20] [Culture] <(modified by game speed)> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [discover cultural artifacts] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [discover cultural artifacts] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [discover cultural artifacts] I] promotion <hidden from users>",
+					"[-50]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -236,7 +283,8 @@
 					"Only available <after turn number [20]> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [discover holy symbols] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [discover holy symbols] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [discover holy symbols] I] promotion <hidden from users>",
+					"[+200]% weight to this choice for AI decisions <after adopting [Piety]>" // If they go Piety, they want a Pantheon quick
 				]
 			},
 			{
@@ -249,7 +297,8 @@
 					"Only available <after turn number [20]> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [an ancient prophecy] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [an ancient prophecy] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [an ancient prophecy] I] promotion <hidden from users>",
+					"[+50]% weight to this choice for AI decisions <after adopting [Piety]>" // If they go Piety, they want a religion quick
 				]
 			},
 			{
@@ -258,7 +307,8 @@
 					"Reveal up to [All] [Barbarian encampment] within a [10] tile radius <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [reveal nearby Barbarian camps] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [reveal nearby Barbarian camps] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [reveal nearby Barbarian camps] I] promotion <hidden from users>",
+					"[-50]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -276,7 +326,8 @@
 					"Reveal up to [5] [Land] within a [5] tile radius <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [find a crudely-drawn map] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [find a crudely-drawn map] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [find a crudely-drawn map] I] promotion <hidden from users>",
+					"[-50]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -285,7 +336,10 @@
 					"[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [discover a lost technology] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [discover a lost technology] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [discover a lost technology] I] promotion <hidden from users>",
+					"[+50]% weight to this choice for AI decisions",
+					// TODO: Is there a way to avoid hard-coding every Ancient Era technology?
+					"Unavailable <after discovering [Sailing]> <after discovering [Calendar]> <after discovering [Writing]> <after discovering [Trapping]> <after discovering [The Wheel]> <after discovering [Masonry]> <after discovering [Bronze Working]> <hidden from users>"
 				]
 			},
 			{
@@ -295,7 +349,8 @@
 					"Only available <after turn number [10]> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [your exploring unit receives training] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [your exploring unit receives training] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [your exploring unit receives training] I] promotion <hidden from users>",
+					"[-50]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -305,7 +360,8 @@
 					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
 					"Unavailable <for units with [[Native Tongue] [squatters willing to work for you] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [squatters willing to work for you] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [squatters willing to work for you] I] promotion <hidden from users>",
+					"[+50]% weight to this choice for AI decisions <when number of [[Worker] Units] is less than [4]>"
 				]
 			},
 			{
@@ -315,7 +371,8 @@
 					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
 					"Unavailable <for units with [[Native Tongue] [squatters wishing to settle under your rule] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [squatters wishing to settle under your rule] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [squatters wishing to settle under your rule] I] promotion <hidden from users>",
+					"[+100]% weight to this choice for AI decisions <when number of [Cities] is less than [4]>"
 				]
 			},
 			{
@@ -324,11 +381,13 @@
 					// Composite Bowman does not keep Native Tongue
 					"[This Unit] upgrades for free including special upgrades <hidden from users>",
 
-					// Trigger the remove status a few times to ensure it's removed.
-					"Triggers a [Native Tongue Counter] event <hidden from users>"
-					"Triggers a [Native Tongue Counter] event <hidden from users>"
-					"Triggers a [Native Tongue Counter] event <hidden from users>"
+					// Trigger the remove status a few times to ensure all counters are removed.
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] loses the [Native Tongue] promotion <hidden from users>",
+					"[+100]% weight to this choice for AI decisions <starting from the [Medieval era]>" // Pathfinders lose usefulness later on
 				]
 			}
 		]
@@ -426,7 +485,7 @@
 	{
 		"name": "Terracotta Army - Melee",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Warrior",
@@ -439,35 +498,40 @@
 				"text": "Spearman",
 				"uniques": [
 					"Only available <when number of [[Spearman] Units] is more than [0]>",
-					"Free [Spearman] appears"
+					"Free [Spearman] appears",
+					"[+20]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Swordsman",
 				"uniques": [
 					"Only available <when number of [[Swordsman] Units] is more than [0]>",
-					"Free [Swordsman] appears"
+					"Free [Swordsman] appears",
+					"[+50]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Longswordsman",
 				"uniques": [
 					"Only available <when number of [[Longswordsman] Units] is more than [0]>",
-					"Free [Longswordsman] appears"
+					"Free [Longswordsman] appears",
+					"[+80]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Pikeman",
 				"uniques": [
 					"Only available <when number of [[Pikeman] Units] is more than [0]>",
-					"Free [Pikeman] appears"
+					"Free [Pikeman] appears",
+					"[+70]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Future Soldier",
 				"uniques": [
 					"Only available <when number of [[Future Soldier] Units] is more than [0]>",
-					"Free [Future Soldier] appears"
+					"Free [Future Soldier] appears",
+					"[+1000]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -475,7 +539,7 @@
 	{
 		"name": "Terracotta Army - Archery",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Archer",
@@ -488,42 +552,48 @@
 				"text": "Chariot Archer",
 				"uniques": [
 					"Only available <when number of [[Chariot Archer] Units] is more than [0]>",
-					"Free [Chariot Archer] appears"
+					"Free [Chariot Archer] appears",
+					"[+20]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Composite Bowman",
 				"uniques": [
 					"Only available <when number of [[Composite Bowman] Units] is more than [0]>",
-					"Free [Composite Bowman] appears"
+					"Free [Composite Bowman] appears",
+					"[+40]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Crossbowman",
 				"uniques": [
 					"Only available <when number of [[Crossbowman] Units] is more than [0]>",
-					"Free [Crossbowman] appears"
+					"Free [Crossbowman] appears",
+					"[+60]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Gatling Gun",
 				"uniques": [
 					"Only available <when number of [[Gatling Gun] Units] is more than [0]>",
-					"Free [Gatling Gun] appears"
+					"Free [Gatling Gun] appears",
+					"[+80]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Machine Gun",
 				"uniques": [
 					"Only available <when number of [[Machine Gun] Units] is more than [0]>",
-					"Free [Machine Gun] appears"
+					"Free [Machine Gun] appears",
+					"[+100]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Bazooka",
 				"uniques": [
 					"Only available <when number of [[Bazooka] Units] is more than [0]>",
-					"Free [Bazooka] appears"
+					"Free [Bazooka] appears",
+					"[+120]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -531,7 +601,7 @@
 	{
 		"name": "Terracotta Army - Mounted",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Horseman",
@@ -544,21 +614,24 @@
 				"text": "Knight",
 				"uniques": [
 					"Only available <when number of [[Knight] Units] is more than [0]>",
-					"Free [Knight] appears"
+					"Free [Knight] appears",
+					"[+20]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Lancer",
 				"uniques": [
 					"Only available <when number of [[Lancer] Units] is more than [0]>",
-					"Free [Lancer] appears"
+					"Free [Lancer] appears",
+					"[+40]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Cavalry",
 				"uniques": [
 					"Only available <when number of [[Cavalry] Units] is more than [0]>",
-					"Free [Cavalry] appears"
+					"Free [Cavalry] appears",
+					"[+60]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -566,7 +639,7 @@
 	{
 		"name": "Terracotta Army - Siege",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Catapult",
@@ -579,28 +652,32 @@
 				"text": "Trebuchet",
 				"uniques": [
 					"Only available <when number of [[Trebuchet] Units] is more than [0]>",
-					"Free [Trebuchet] appears"
+					"Free [Trebuchet] appears",
+					"[+20]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Cannon",
 				"uniques": [
 					"Only available <when number of [[Cannon] Units] is more than [0]>",
-					"Free [Cannon] appears"
+					"Free [Cannon] appears",
+					"[+40]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Artillery",
 				"uniques": [
 					"Only available <when number of [[Artillery] Units] is more than [0]>",
-					"Free [Artillery] appears"
+					"Free [Artillery] appears",
+					"[+60]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Rocket Artillery",
 				"uniques": [
 					"Only available <when number of [[Rocket Artillery] Units] is more than [0]>",
-					"Free [Rocket Artillery] appears"
+					"Free [Rocket Artillery] appears",
+					"[+80]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -608,7 +685,7 @@
 	{
 		"name": "Terracotta Army - Gunpowder",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Musketman",
@@ -621,56 +698,64 @@
 				"text": "Rifleman",
 				"uniques": [
 					"Only available <when number of [[Rifleman] Units] is more than [0]>",
-					"Free [Rifleman] appears"
+					"Free [Rifleman] appears",
+					"[+20]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Anti-Aircraft Gun",
 				"uniques": [
 					"Only available <when number of [[Anti-Aircraft Gun] Units] is more than [0]>",
-					"Free [Anti-Aircraft Gun] appears"
+					"Free [Anti-Aircraft Gun] appears",
+					"[+40]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Great War Infantry",
 				"uniques": [
 					"Only available <when number of [[Great War Infantry] Units] is more than [0]>",
-					"Free [Great War Infantry] appears"
+					"Free [Great War Infantry] appears",
+					"[+60]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Infantry",
 				"uniques": [
 					"Only available <when number of [[Infantry] Units] is more than [0]>",
-					"Free [Infantry] appears"
+					"Free [Infantry] appears",
+					"[+80]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Anti-Tank Gun",
 				"uniques": [
 					"Only available <when number of [[Anti-Tank Gun] Units] is more than [0]>",
-					"Free [Anti-Tank Gun] appears"
-				]
-			},
-			{
-				"text": "Marine",
-				"uniques": [
-					"Only available <when number of [[Marine] Units] is more than [0]>",
-					"Free [Marine] appears"
-				]
-			},
-			{
-				"text": "Paratrooper",
-				"uniques": [
-					"Only available <when number of [[Paratrooper] Units] is more than [0]>",
-					"Free [Paratrooper] appears"
+					"Free [Anti-Tank Gun] appears",
+					"[+100]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Mobile SAM",
 				"uniques": [
 					"Only available <when number of [[Mobile SAM] Units] is more than [0]>",
-					"Free [Mobile SAM] appears"
+					"Free [Mobile SAM] appears",
+					"[+120]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Paratrooper",
+				"uniques": [
+					"Only available <when number of [[Paratrooper] Units] is more than [0]>",
+					"Free [Paratrooper] appears",
+					"[+140]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Marine",
+				"uniques": [
+					"Only available <when number of [[Marine] Units] is more than [0]>",
+					"Free [Marine] appears",
+					"[+140]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -678,7 +763,7 @@
 	{
 		"name": "Terracotta Army - Armored",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Tank",
@@ -691,21 +776,24 @@
 				"text": "Mechanized Infantry",
 				"uniques": [
 					"Only available <when number of [[Mechanized Infantry] Units] is more than [0]>",
-					"Free [Mechanized Infantry] appears"
+					"Free [Mechanized Infantry] appears",
+					"[+60]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Modern Armor",
 				"uniques": [
 					"Only available <when number of [[Modern Armor] Units] is more than [0]>",
-					"Free [Modern Armor] appears"
+					"Free [Modern Armor] appears",
+					"[+80]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Giant Death Robot",
 				"uniques": [
 					"Only available <when number of [[Giant Death Robot] Units] is more than [0]>",
-					"Free [Giant Death Robot] appears"
+					"Free [Giant Death Robot] appears",
+					"[+100]% weight to this choice for AI decisions"
 				]
 			}
 		]

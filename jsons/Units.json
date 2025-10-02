@@ -11,9 +11,9 @@
 			"Requires at least [2] population"
 
 			// Venice Unique: Can't settle another city. Get a Worker instead?
-			"Founds a new city <by consuming this unit> <for [non-[Double the normal number of Trade Routes available]] Civilizations> <hidden from users>",
-			"Founds a new city <by consuming this unit> <for [Double the normal number of Trade Routes available] Civilizations> <when number of [Cities] is equal to [0]> <hidden from users>",
-			"Free [Worker] appears <by consuming this unit> <for [Double the normal number of Trade Routes available] Civilizations> <when number of [Cities] is more than [0]> <hidden from users>"
+			"Founds a new city <by consuming this unit> <for [Venice] Civilizations> <if [Palace] is not constructed> <hidden from users>",
+			"Founds a new city <by consuming this unit> <for [non-[Venice]] Civilizations> <hidden from users>",
+			"Triggers a [Serenissima] event <for [Venice] Civilizations> <if [Palace] is constructed> <upon turn end> <hidden from users>"
 		],
 		"hurryCostModifier": 20
 	},
