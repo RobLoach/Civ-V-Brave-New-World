@@ -270,7 +270,8 @@
 					"Gain [20] [Culture] <(modified by game speed)> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [discover cultural artifacts] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [discover cultural artifacts] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [discover cultural artifacts] I] promotion <hidden from users>",
+					"[-50]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -282,7 +283,8 @@
 					"Only available <after turn number [20]> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [discover holy symbols] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [discover holy symbols] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [discover holy symbols] I] promotion <hidden from users>",
+					"[+200]% weight to this choice for AI decisions <after adopting [Piety]>" // If they go Piety, they want a Pantheon quick
 				]
 			},
 			{
@@ -295,7 +297,8 @@
 					"Only available <after turn number [20]> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [an ancient prophecy] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [an ancient prophecy] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [an ancient prophecy] I] promotion <hidden from users>",
+					"[+50]% weight to this choice for AI decisions <after adopting [Piety]>" // If they go Piety, they want a religion quick
 				]
 			},
 			{
@@ -304,7 +307,8 @@
 					"Reveal up to [All] [Barbarian encampment] within a [10] tile radius <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [reveal nearby Barbarian camps] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [reveal nearby Barbarian camps] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [reveal nearby Barbarian camps] I] promotion <hidden from users>",
+					"[-50]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -322,7 +326,8 @@
 					"Reveal up to [5] [Land] within a [5] tile radius <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [find a crudely-drawn map] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [find a crudely-drawn map] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [find a crudely-drawn map] I] promotion <hidden from users>",
+					"[-50]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -332,7 +337,9 @@
 					"Unavailable <for units with [[Native Tongue] [discover a lost technology] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [discover a lost technology] I] promotion <hidden from users>",
-					"[+100]% weight to this choice for AI decisions"
+					"[+50]% weight to this choice for AI decisions",
+					// TODO: Is there a way to avoid hard-coding every Ancient Era technology?
+					"Unavailable <after discovering [Animal Husbandry]> <after discovering [Archery]> <after discovering [Bronze Working]> <after discovering [Calendar]> <after discovering [Masonry]> <after discovering [Mining]> <after discovering [Pottery]> <after discovering [Sailing]> <after discovering [The Wheel]> <after discovering [Trapping]> <after discovering [Writing]> <hidden from users>"
 				]
 			},
 			{
@@ -342,7 +349,8 @@
 					"Only available <after turn number [10]> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [your exploring unit receives training] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [your exploring unit receives training] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [your exploring unit receives training] I] promotion <hidden from users>",
+					"[-50]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -353,7 +361,7 @@
 					"Unavailable <for units with [[Native Tongue] [squatters willing to work for you] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [squatters willing to work for you] I] promotion <hidden from users>",
-					"[+80]% weight to this choice for AI decisions"
+					"[+50]% weight to this choice for AI decisions <when number of [[Worker] Units] is less than [4]>"
 				]
 			},
 			{
@@ -364,7 +372,7 @@
 					"Unavailable <for units with [[Native Tongue] [squatters wishing to settle under your rule] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [squatters wishing to settle under your rule] I] promotion <hidden from users>",
-					"[+100]% weight to this choice for AI decisions"
+					"[+100]% weight to this choice for AI decisions <when number of [Cities] is less than [4]>"
 				]
 			},
 			{
@@ -373,11 +381,13 @@
 					// Composite Bowman does not keep Native Tongue
 					"[This Unit] upgrades for free including special upgrades <hidden from users>",
 
-					// Trigger the remove status a few times to ensure it's removed.
-					"Triggers a [Native Tongue Counter] event <hidden from users>"
-					"Triggers a [Native Tongue Counter] event <hidden from users>"
-					"Triggers a [Native Tongue Counter] event <hidden from users>"
+					// Trigger the remove status a few times to ensure all counters are removed.
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] loses the [Native Tongue] promotion <hidden from users>",
+					"[+100]% weight to this choice for AI decisions <starting from the [Medieval era]>" // Pathfinders lose usefulness later on
 				]
 			}
 		]
