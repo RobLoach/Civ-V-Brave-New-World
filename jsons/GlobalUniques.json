@@ -21,6 +21,6 @@
 		"Provides [1] [Accumulated Culture] <for every [[Culture] Per Turn]>"
 	],
 	"unitUniques": [
-		"May Paradrop to [{Airport} {Friendly}] tiles up to [40] tiles away <in [{Airport} {Friendly}] tiles> <for [Land] units> <hidden from users>"
+		"May Paradrop to [{Airport} {Friendly}] tiles up to [40] tiles away <in [{Airport} {Friendly}] tiles> <for [Land] units> <hidden from users>" // @see Buildings.json Airport
 	]
 }
