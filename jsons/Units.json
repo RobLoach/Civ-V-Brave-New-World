@@ -8,7 +8,7 @@
 		"uniques": [
 			"Comment [Founds a new city]",
 			"Excess Food converted to Production when under construction",
-			"Requires at least [2] population"
+			"Requires at least [2] population",
 
 			// Venice Unique: Can't settle another city. Get a Worker instead?
 			"Founds a new city <by consuming this unit> <for [Venice] Civilizations> <if [Palace] is not constructed> <hidden from users>",
