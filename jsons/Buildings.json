@@ -49,13 +49,13 @@
 		"cost": 400,
 		"maintenance": 5,
 		"uniques": [
+			"Comment [Allows airlifting to other cities with Airports]",
+			"Creates a [Airport] improvement on a specific tile", // TODO: Allow this without needing an Airport improvement
 			"[50]% of [Culture] from every [Wonder] in the city added to [Tourism]",
 			"[50]% of [Culture] from every [Improvement] in the city added to [Tourism]",
 			"Comment [+50% [Tourism] from Great Works in this city]",
-			// TODO: Allows airlifting to other cities with Airports.
+			"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 			// TODO: Increases air unit capacity of the city from 6 to 10.
-			"All newly-trained [Air] units [in this city] receive the [[Airport] ability] promotion", // This isn't a real thing, it's just balancing the original above benefits
-			"[-50]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>" // AI units don't know how to Airlift
 		],
 		"requiredTech": "Radar"
 	},
