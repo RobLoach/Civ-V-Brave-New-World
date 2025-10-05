@@ -161,15 +161,14 @@
 		]
 	},
 	{
-		"name": "Landing Strip",
+		"name": "Airport",
         "terrainsCanBeBuiltOn": ["Grassland", "Plains", "Tundra", "Desert"],
 		"techRequired": "Radar",
 		"uniques": [
+			"Comment [Allows airlifting to other cities with Airports]",
 			"Can also be built on tiles adjacent to fresh water <hidden from users>",
             "Will not be replaced by automated units <hidden from users>",
 			"Excluded from map editor"
-			//"Unbuildable",
-			//"Removes removable features when built"
 		],
 		"civilopediaText": [
 			{ "text": "Airport", "link": "Building/Airport" }
