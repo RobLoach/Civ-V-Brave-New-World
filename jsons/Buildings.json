@@ -50,7 +50,6 @@
 		"maintenance": 5,
 		"uniques": [
 			"Comment [Allows airlifting to other cities with Airports]",
-			"Creates a [Landing Strip] improvement on a specific tile", // TODO: Allow this without needing an Airport improvement
 			"[50]% of [Culture] from every [Wonder] in the city added to [Tourism]",
 			"[50]% of [Culture] from every [Improvement] in the city added to [Tourism]",
 			"Comment [+50% [Tourism] from Great Works in this city]"

@@ -21,6 +21,6 @@
 		"Provides [1] [Accumulated Culture] <for every [[Culture] Per Turn]>"
 	],
 	"unitUniques": [
-		"May Paradrop to [{Friendly} {Landing Strip}] tiles up to [40] tiles away <in [{Friendly} {Landing Strip}] tiles> <for all movement>"
+		"May Paradrop to [{Friendly} {Landing}] tiles up to [40] tiles away <in [{Friendly} {Landing}] tiles> <for [Land] units> <for all movement>"
 	]
 }
