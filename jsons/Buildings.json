@@ -52,7 +52,8 @@
 			"Comment [Allows airlifting to other cities with Airports]",
 			"[50]% of [Culture] from every [Wonder] in the city added to [Tourism]",
 			"[50]% of [Culture] from every [Improvement] in the city added to [Tourism]",
-			"Comment [+50% [Tourism] from Great Works in this city]"
+			"Comment [+50% [Tourism] from Great Works in this city]",
+			"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 			// TODO: Increases air unit capacity of the city from 6 to 10.
 		],
 		"requiredTech": "Radar"
