@@ -165,7 +165,8 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor",
-			"Landing <in cities with a [Airport]>"],
+			"Airport <in cities with a [Airport]> <hidden from users>" // @see Buildings.json/Airport
+		],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
 			{"text":"Appearance changes with the technological era of the owning civilization"}

@@ -49,7 +49,7 @@
 		"cost": 400,
 		"maintenance": 5,
 		"uniques": [
-			"Comment [Allows airlifting to other cities with Airports]",
+			"Comment [Allows airlifting to other cities with [Airport]s]",
 			"[50]% of [Culture] from every [Wonder] in the city added to [Tourism]",
 			"[50]% of [Culture] from every [Improvement] in the city added to [Tourism]",
 			"Comment [+50% [Tourism] from Great Works in this city]",
