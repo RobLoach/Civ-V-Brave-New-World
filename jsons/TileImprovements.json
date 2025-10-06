@@ -161,17 +161,15 @@
 		]
 	},
 	{
-		"name": "Airport",
-        "terrainsCanBeBuiltOn": ["Grassland", "Plains", "Tundra", "Desert"],
-		"techRequired": "Radar",
-		"uniques": [
-			"Comment [Allows airlifting to other cities with Airports]",
-			"Can also be built on tiles adjacent to fresh water <hidden from users>",
-            "Will not be replaced by automated units <hidden from users>",
-			"Excluded from map editor"
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
+            "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor",
+			"Airport <in cities with a [Airport]> <hidden from users>" // @see Buildings.json/Airport
 		],
-		"civilopediaText": [
-			{ "text": "Airport", "link": "Building/Airport" }
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
 		]
 	}
 ]
