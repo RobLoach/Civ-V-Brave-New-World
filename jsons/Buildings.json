@@ -49,8 +49,8 @@
 		"cost": 400,
 		"maintenance": 5,
 		"uniques": [
-			"Comment [Allows airlifting to other cities with [Airport]s]",
-			"Can carry [4] extra [Air] units <in this city>", // @see GlobalUniques.json unitUniques
+			"Comment [Allows airlifting to other cities with [Airport]s]", // @see GlobalUniques.json unitUniques
+			// TODO: "Can carry [4] extra [Air] units <in this city>", // See https://github.com/yairm210/Unciv/pull/14007
 			"[50]% of [Culture] from every [Wonder] in the city added to [Tourism]",
 			"[50]% of [Culture] from every [Improvement] in the city added to [Tourism]",
 			"Comment [+50% [Tourism] from Great Works in this city]",
