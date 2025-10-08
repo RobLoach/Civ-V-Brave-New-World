@@ -14,13 +14,16 @@
 		"[+38]% Gold from Great Merchant trade missions <during the [Modern era]>",
 		"[+40]% Gold from Great Merchant trade missions <starting from the [Future era]>",
 
+		// Tourism Bonus from Open Borders
+		"[25]% [Tourism] resource production <for every [Remaining [Open Borders] Civilizations]>",
+
 		// Great Admirals can always traverse ocean tiles
 		"Enables [Great Admiral] units to enter ocean tiles",
 
 		// Cultural Victory condition. @see VictoryTypes.json
-		"Provides [1] [Accumulated Culture] <for every [[Culture] Per Turn]>",
-
-		// Tourism Bonus from Open Borders
-		"[25]% [Tourism] resource production <for every [Remaining [Open Borders] Civilizations]>"
+		"Provides [1] [Accumulated Culture] <for every [[Culture] Per Turn]>"
+	],
+	"unitUniques": [
+		"May Paradrop to [{Airport} {Friendly}] tiles up to [40] tiles away <in [{Airport} {Friendly}] tiles> <for [Land] units> <hidden from users>" // @see Buildings.json Airport
 	]
 }

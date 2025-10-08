@@ -49,12 +49,12 @@
 		"cost": 400,
 		"maintenance": 5,
 		"uniques": [
+			"Comment [Allows airlifting to other cities with [Airport]s]", // @see GlobalUniques.json unitUniques
+			// TODO: "Can carry [4] extra [Air] units <in this city>", // See https://github.com/yairm210/Unciv/pull/14007
 			"[50]% of [Culture] from every [Wonder] in the city added to [Tourism]",
 			"[50]% of [Culture] from every [Improvement] in the city added to [Tourism]",
 			"Comment [+50% [Tourism] from Great Works in this city]",
-			// TODO: Allows airlifting to other cities with Airports.
-			// TODO: Increases air unit capacity of the city from 6 to 10.
-			"All newly-trained [Air] units [in this city] receive the [[Airport] ability] promotion" // This isn't a real thing, it's just balancing the original above benefits
+			"[-50]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 		],
 		"requiredTech": "Radar"
 	},
@@ -81,7 +81,8 @@
 		"uniques": [
 			"[50]% of [Culture] from every [Wonder] in the city added to [Tourism]",
 			"[50]% of [Culture] from every [Improvement] in the city added to [Tourism]",
-			"Comment [+50% [Tourism] from Great Works in this city]"
+			"Comment [+50% [Tourism] from Great Works in this city]",
+			"Unavailable <when [Cultural] Victory is disabled>"
 		],
 		"requiredTech": "Refrigeration"
 	},
@@ -488,7 +489,7 @@
 		"requiredTech": "Mathematics",
 		"uniques": [
 			"Gain a free [Garden] [in this city]",
-			"Only available <after adopting [Tradition]>"
+			"Only available <after adopting [Tradition]>" // BNW
 		],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
 	},
@@ -500,7 +501,7 @@
 		"uniques": [
 			"[-25]% construction time for [All] improvements",
 			"[2] free [Worker] units appear",
-			"Only available <after adopting [Liberty]>"
+			"Only available <after adopting [Liberty]>" // BNW
 		],
 		"requiredTech": "Masonry",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
@@ -511,7 +512,7 @@
 		"isWonder": true,
 		"uniques": [
 			"[+15]% Strength <for [All] units> <vs cities> <when attacking>",
-			"Only available <after adopting [Honor]>"
+			"Only available <after adopting [Honor]>" // BNW
 		],
 		"requiredTech": "Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
@@ -876,7 +877,8 @@
 		"uniques": [
 			"Free [Great Artist] appears",
 			"Comment [Provides 4 [Great Work of Art] or [Artifact] Slots]",
-			"Only available <after adopting [Exploration]>"
+			"Only available <after adopting [Exploration]>",
+			"[-50]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 		],
 		"requiredTech": "Archaeology",
 		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson",
@@ -1043,7 +1045,8 @@
 		"uniques": [
 			"[+1 Production] from every specialist [in all cities]",
 			"Free Social Policy",
-			"Only available <after adopting [Freedom]>"
+			"Only available <after adopting [Freedom]>",
+			"[+10]% weight to this choice for AI decisions <in [Capital] cities>" // Unique to Freedom, so prioritize it
 		],
 		"requiredTech": "Replaceable Parts",
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
@@ -1053,8 +1056,12 @@
         "isWonder": true,
         "uniques": [
 			"[-99]% enemy spy effectiveness [in this city]",
-            "[-25]% enemy spy effectiveness [in your cities]",
-			"Comment [Negates [Tourism] bonus from other players discovering [The Internet]]"
+			"[-25]% enemy spy effectiveness [in your cities]",
+			"Comment [Negates [Tourism] bonus from other players discovering [The Internet]]", // BNW
+			"[+5]% weight to this choice for AI decisions <when [Cultural] Victory is enabled> <in [Capital] cities>",
+			"[-5]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
+			"[+5]% weight to this choice for AI decisions <when espionage is enabled> <in [Capital] cities>",
+			"[-5]% weight to this choice for AI decisions <when espionage is disabled>"
 		],
         "requiredTech": "Computers",
         "quote": "'Distrust and caution are the parents of security.' - Benjamin Franklin",
@@ -1070,7 +1077,8 @@
 		"uniques": [
 			"Free Social Policy",
 			"[+50]% Production when constructing [Armored] units [in this city]",
-			"Only available <after adopting [Order]>"
+			"Only available <after adopting [Order]>",
+			"[+10]% weight to this choice for AI decisions <in [Capital] cities>" // Unique to Order, so prioritize it
 		],
 		"requiredTech": "Railroads",
 		"quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.' - The Prophet Muhammed"
@@ -1147,7 +1155,11 @@
 			"[100]% of [Culture] from every [Improvement] in the city added to [Tourism]",
 			"Comment [+100% [Tourism] from Great Works in this city]",
 			"Cost increases by [30] per owned city",
-			"Only available <if [Hotel] is constructed in all [non-[Puppeted]] cities>"
+			"Only available <if [Hotel] is constructed in all [non-[Puppeted]] cities>",
+			"Unavailable <when [Cultural] Victory is disabled>"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
     },
 	{
@@ -1172,10 +1184,11 @@
         "uniques": [
 			"Free [Great Artist] appears",
 			"Comment [Provides 3 [Great Work of Art] or [Artifact] Slots]",
-			"Only available <after adopting [Aesthetics]>"
+			"Only available <after adopting [Aesthetics]>",
+			"[-50]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 		],
         "requiredTech": "Architecture",
-        "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.'  - Marcel Parquet",
+        "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.' - Marcel Parquet",
 		"civilopediaText": [
 			{ "text": "[Great Work of Art] Slot 1", "link": "Building/[Uffizi] [Great Work of Art] 1" },
 			{ "text": "[Great Work of Art] Slot 2", "link": "Building/[Uffizi] [Great Work of Art] 2" },
@@ -1297,10 +1310,11 @@
 			"Free Social Policy",
 			"[+1 Happiness] per [2] social policies adopted",
 			"Must be next to [Coast]",
-			"Only available <after adopting [Autocracy]>"
+			"Only available <after adopting [Autocracy]>",
+			"[+10]% weight to this choice for AI decisions <in [Capital] cities>" // Unique to Autocracy, so prioritize it
 		],
         "requiredTech": "Flight",
-        "quote": "'This loss (of freedom) means the fading from human life of values infinitely precious to it. There only remain ironbound conditions of employment and trivial amusements for leisure.'  - A.N. Whitehead"
+        "quote": "'This loss (of freedom) means the fading from human life of values infinitely precious to it. There only remain ironbound conditions of employment and trivial amusements for leisure.' - A.N. Whitehead"
     },
 	{
         "name": "Parthenon",
@@ -1450,10 +1464,12 @@
         "greatPersonPoints": {"Great Merchant": 2},
         "isWonder": true,
 		"uniques": [
-			"Provides [12] [Tourism]"
+			"Provides [12] [Tourism]",
+			"[-50]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
+			"[+50]% weight to this choice for AI decisions <when [Cultural] Victory is enabled> <when below [0] [Happiness]> <in [Capital] cities>"
 		],
         "requiredTech": "Radio",
-        "quote": "'We live only to discover beauty, all else is a form of waiting'  - Kahlil Gibran"
+        "quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
     },
 	{
         "name": "Museum",
@@ -1881,7 +1897,8 @@
 			"Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Provides [5] [Tourism] <after adopting [Religious Art]>",
-			"[+5 Culture] <after adopting [Religious Art]>"
+			"[+5 Culture] <after adopting [Religious Art]>",
+			"[+20]% weight to this choice for AI decisions <after adopting [Religious Art]> <in [Capital] cities>"
 		],
 		"requiredTech": "Architecture",
 		"civilopediaText": [
@@ -2004,13 +2021,7 @@
 		"uniques": [
 			"Comment [Choose an [Ideology] upon reaching the [Modern era], or owning 3 [Factory] buildings]",
 			"Automatically built in all cities where it is buildable",
-
-			// Only for Humans so that AI picks based on AI weighted decisions.
-			"Triggers a [Ideology] event <for [Human player] Civilizations> <hidden from users>",
-
-			// AI gets a free social policy since we give it to humans.
-			"Free Social Policy <for [AI player] Civilizations> <hidden from users>",
-
+			"Triggers a [Ideology] event <hidden from users>",
 			"Moves to new capital when capital changes <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",

@@ -4,13 +4,6 @@ size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Airport
-  rotate: false
-  xy: 4, 730
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Artists' Guild
   rotate: false
   xy: 4, 406
@@ -399,6 +392,20 @@ BuildingIcons/[Uffizi] [Theming Bonus]
 BuildingIcons/limit
   rotate: false
   xy: 1300, 592
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Airport
+  rotate: false
+  xy: 4, 730
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Airport
+  rotate: false
+  xy: 4, 730
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

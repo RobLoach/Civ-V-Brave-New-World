@@ -273,16 +273,6 @@
 		]
 	},
 
-	// Airport
-	{
-		"name": "[Airport] ability",
-		"uniques": [
-			"[+2] Air Interception Range",
-			"[+10]% Strength when performing Air Sweep",
-			"[1] Movement"
-		]
-	},
-
 	// Pathfinder: Native Tongue
 	{
 		"name": "[Pathfinder] ability",
