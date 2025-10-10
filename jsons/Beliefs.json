@@ -39,7 +39,7 @@
         "name": "Ceremonial Burial",
         "type": "Founder",
         "uniques": [
-            "[+1 Happiness] for each global city following this religion" // TODO: +1 Happiness for every 2 Cities following this religion
+			"[+1 Happiness] for every [2] global cities following this religion"
         ]
     },
 
