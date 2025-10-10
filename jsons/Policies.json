@@ -1045,6 +1045,9 @@
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
 				],
+				"civilopediaText": [
+					{ "text": "Tourism", "link": "Resources/Tourism" }
+				],
 				"row": 2,
 				"column": 8
 			},
@@ -1308,6 +1311,9 @@
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
 					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
+				],
+				"civilopediaText": [
+					{ "text": "Tourism", "link": "Resources/Tourism" }
 				],
 				"row": 3,
 				"column": 3
