@@ -168,6 +168,198 @@
 			}
 		]
 	},
+	{
+		"name": "[Ideology]: Free [Autocracy] Tenet",
+		"text": "[Ideology]: Free [Autocracy] Tenet",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Elite Forces",
+				"uniques": [
+					"Adopt [Elite Forces]",
+					"Only available <before adopting [Elite Forces]>",
+					"[-10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Mobilization",
+				"uniques": [
+					"Adopt [Mobilization]",
+					"Only available <before adopting [Mobilization]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "United Front",
+				"uniques": [
+					"Adopt [United Front]",
+					"Only available <before adopting [United Front]>",
+					"[-10]% weight to this choice for AI decisions",
+					"[-90]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [3]>"
+				]
+			},
+			{
+				"text": "Futurism",
+				"uniques": [
+					"Adopt [Futurism]",
+					"Only available <before adopting [Futurism]>",
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Industrial Espionage",
+				"uniques": [
+					"Adopt [Industrial Espionage]",
+					"Only available <before adopting [Industrial Espionage]>",
+					"[-100]% weight to this choice for AI decisions <when espionage is disabled>"
+				]
+			},
+			{
+				"text": "Fortified Borders",
+				"uniques": [
+					"Adopt [Fortified Borders]",
+					"Only available <before adopting [Fortified Borders]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Universal Healthcare (Autocracy)",
+				"uniques": [
+					"Adopt [Universal Healthcare (Autocracy)]",
+					"Only available <before adopting [Universal Healthcare (Autocracy)]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			}
+		]
+	},
+	{
+		"name": "[Ideology]: Free [Order] Tenet",
+		"text": "[Ideology]: Free [Order] Tenet",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Hero of the People",
+				"uniques": [
+					"Adopt [Hero of the People]",
+					"Only available <before adopting [Hero of the People]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Socialist Realism",
+				"uniques": [
+					"Adopt [Socialist Realism]",
+					"Only available <before adopting [Socialist Realism]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Skyscrapers",
+				"uniques": [
+					"Adopt [Skyscrapers]",
+					"Only available <before adopting [Skyscrapers]>"
+				]
+			},
+			{
+				"text": "Patriotic War",
+				"uniques": [
+					"Adopt [Patriotic War]",
+					"[+10]% weight to this choice for AI decisions",
+					"Only available <before adopting [Patriotic War]>"
+				]
+			},
+			{
+				"text": "Double Agents",
+				"uniques": [
+					"Adopt [Double Agents]",
+					"Only available <before adopting [Double Agents]>",
+					"[-20]% weight to this choice for AI decisions",
+					"[-80]% weight to this choice for AI decisions <when espionage is disabled>"
+				]
+			},
+			{
+				"text": "Young Pioneers",
+				"uniques": [
+					"Adopt [Young Pioneers]",
+					"Only available <before adopting [Young Pioneers]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Universal Healthcare (Order)",
+				"uniques": [
+					"Adopt [Universal Healthcare (Order)]",
+					"Only available <before adopting [Universal Healthcare (Order)]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "[Ideology]: Free [Freedom] Tenet",
+		"text": "[Ideology]: Free [Freedom] Tenet",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Avant Garde",
+				"uniques": [
+					"Adopt [Avant Garde]",
+					"Only available <before adopting [Avant Garde]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Creative Expression",
+				"uniques": [
+					"Adopt [Creative Expression]",
+					"Only available <before adopting [Creative Expression]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Civil Society",
+				"uniques": [
+					"Adopt [Civil Society]",
+					"Only available <before adopting [Civil Society]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Covert Action",
+				"uniques": [
+					"Adopt [Covert Action]",
+					"Only available <before adopting [Covert Action]>",
+					"[-20]% weight to this choice for AI decisions",
+					"[-40]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>",
+					"[-40]% weight to this choice for AI decisions <when espionage is disabled>"
+				]
+			},
+			{
+				"text": "Capitalism",
+				"uniques": [
+					"Adopt [Capitalism]",
+					"Only available <before adopting [Capitalism]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Economic Union",
+				"uniques": [
+					"Adopt [Economic Union]",
+					"Only available <before adopting [Economic Union]>",
+					"[-10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Universal Healthcare (Freedom)",
+				"uniques": [
+					"Adopt [Universal Healthcare (Freedom)]",
+					"Only available <before adopting [Universal Healthcare (Freedom)]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			}
+		]
+	},
 
 	// Reformation Beliefs
 	{

@@ -685,7 +685,10 @@
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Order]> <hidden from users>",
-			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
+
+			"Triggers a [[Ideology]: Free [Autocracy] Tenet] event",
+			"Triggers a [[Ideology]: Free [Autocracy] Tenet] event <if no other Civilization has adopted this>", // Early Adopter
+
 			"Remove [Ideology] [in capital] <hidden from users>",
 
 			// Preferred Ideology
@@ -928,7 +931,10 @@
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
-			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
+
+			"Triggers a [[Ideology]: Free [Order] Tenet] event",
+			"Triggers a [[Ideology]: Free [Order] Tenet] event <if no other Civilization has adopted this>", // Early Adopter
+
 			"Remove [Ideology] [in capital] <hidden from users>",
 
 			// Cultural Revolution. TODO: Instead of "constructed by anybody", it should be for every other Civilization that adopted Cultural Revolution
@@ -1168,7 +1174,10 @@
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
-			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
+
+			"Triggers a [[Ideology]: Free [Freedom] Tenet] event",
+			"Triggers a [[Ideology]: Free [Freedom] Tenet] event <if no other Civilization has adopted this>", // Early Adopter
+
 			"Remove [Ideology] [in capital] <hidden from users>",
 
 			// Preferred Ideology
