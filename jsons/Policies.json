@@ -793,6 +793,8 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>",
 					"[+20]% weight to this choice for AI decisions"
 				],
 				"row": 2,
@@ -807,6 +809,8 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>",
 					"[+20]% weight to this choice for AI decisions"
 				],
 				"row": 2,
@@ -822,7 +826,9 @@
 					"[+100]% Production when constructing [Courthouse] buildings [in your cities]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>"
 				],
 				"row": 2,
 				"column": 6
@@ -833,7 +839,9 @@
 					"[-33]% maintenance costs <for [All] units>",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>"
 				],
 				"row": 2,
 				"column": 8
@@ -850,7 +858,9 @@
 					"[+100]% [Uranium] resource production",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>"
 				],
 				"row": 2,
 				"column": 10
@@ -863,7 +873,9 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
-					"[+20]% weight to this choice for AI decisions"
+					"[+20]% weight to this choice for AI decisions",
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>"
 				],
 				"row": 2,
 				"column": 12
@@ -1041,7 +1053,9 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
-					"[+20]% weight to this choice for AI decisions"
+					"[+20]% weight to this choice for AI decisions",
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>"
 				],
 				"row": 2,
 				"column": 2
@@ -1052,7 +1066,9 @@
 					"[+1 Culture, +1 Food, +1 Gold, +1 Production, +1 Science] [in your cities]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>"
 				],
 				"row": 2,
 				"column": 4
@@ -1064,7 +1080,9 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
-					"[-10]% weight to this choice for AI decisions" // Modern era, not many new cities are spawned.
+					"[-10]% weight to this choice for AI decisions", // Modern era, not many new cities are spawned.
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>"
 				],
 				"row": 2,
 				"column": 6
@@ -1076,7 +1094,9 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
-					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>"
 				],
 				"row": 2,
 				"column": 8
@@ -1089,7 +1109,9 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
-					"[+20]% weight to this choice for AI decisions"
+					"[+20]% weight to this choice for AI decisions",
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>"
 				],
 				"row": 2,
 				"column": 10
@@ -1103,7 +1125,9 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
-					"[+20]% weight to this choice for AI decisions"
+					"[+20]% weight to this choice for AI decisions",
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>"
 				],
 				"row": 2,
 				"column": 12
@@ -1281,7 +1305,9 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
-					"[+20]% weight to this choice for AI decisions"
+					"[+20]% weight to this choice for AI decisions",
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>"
 				],
 				"row": 2,
 				"column": 2
@@ -1295,7 +1321,9 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
-					"[+20]% weight to this choice for AI decisions"
+					"[+20]% weight to this choice for AI decisions",
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>"
 				],
 				"row": 2,
 				"column": 4
@@ -1306,7 +1334,9 @@
 					"[+33]% Strength for cities",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>"
 				],
 				"row": 2,
 				"column": 6
@@ -1319,7 +1349,9 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
-					"[+10]% weight to this choice for AI decisions"
+					"[+10]% weight to this choice for AI decisions",
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>"
 				],
 				"row": 2,
 				"column": 8
@@ -1334,7 +1366,9 @@
 					"[+4 Faith] from [Holy site] tiles [in your cities]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>"
 				],
 				"row": 2,
 				"column": 10
@@ -1346,7 +1380,9 @@
 					"Gain [15] Influence with a [Military] gift to a City-State",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"Only available <when below [4] [Level 2 Policy Amount]> <hidden from users>",
+					"Instantly provides [1] [Level 2 Policy Amount] <hidden from users>"
 				],
 				"row": 2,
 				"column": 12
