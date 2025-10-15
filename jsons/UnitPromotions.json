@@ -288,7 +288,6 @@
 			// Can not choose the same benefit until 2 other options are picked
 			"Comment [May choose benefit when discovering [Ancient ruins]]",
 			"Triggers a [Native Tongue] event <upon entering a [Ancient ruins] tile> <hidden from users>",
-			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 
 			// Upgrading Pathfinder to Composite Bowman does not keep Native Tongue. Run this three times ensure all counters are removed.
 			"Triggers a [Native Tongue Counter] event <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",
