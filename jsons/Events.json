@@ -450,7 +450,7 @@
 			{
 				"text": "survivors (adds population to a city)",
 				"uniques": [
-			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Only available <if [Palace] is constructed>", // Needs a city
 					"[+1] population in a random city <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [survivors (adds population to a city)] I]> <hidden from users>",
@@ -461,7 +461,7 @@
 			{
 				"text": "discover cultural artifacts",
 				"uniques": [
-			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Gain [20] [Culture] <(modified by game speed)> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [discover cultural artifacts] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
@@ -472,7 +472,7 @@
 			{
 				"text": "discover holy symbols",
 				"uniques": [
-			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Only available <when religion is enabled> <hidden from users>",
 					"Gain enough Faith for a Pantheon <hidden from users>",
 					"Only available <before founding a Pantheon> <hidden from users>",
@@ -486,7 +486,7 @@
 			{
 				"text": "an ancient prophecy",
 				"uniques": [
-			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Only available <when religion is enabled> <hidden from users>",
 					"Gain enough Faith for [33]% of a Great Prophet <hidden from users>",
 					"Unavailable <after generating a Great Prophet> <hidden from users>",
@@ -501,7 +501,7 @@
 			{
 				"text": "reveal nearby Barbarian camps",
 				"uniques": [
-			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Reveal up to [All] [Barbarian encampment] within a [10] tile radius <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [reveal nearby Barbarian camps] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
@@ -512,7 +512,7 @@
 			{
 				"text": "a stash of gold",
 				"uniques": [
-			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Gain [50]-[100] [Gold] <(modified by game speed)> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [a stash of gold] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
@@ -522,7 +522,7 @@
 			{
 				"text": "find a crudely-drawn map",
 				"uniques": [
-			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Reveal up to [5] [Land] within a [5] tile radius <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [find a crudely-drawn map] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
@@ -533,7 +533,7 @@
 			{
 				"text": "discover a lost technology",
 				"uniques": [
-			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [discover a lost technology] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
@@ -546,7 +546,7 @@
 			{
 				"text": "your exploring unit receives training",
 				"uniques": [
-			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"[This Unit] gains [10] XP <hidden from users>",
 					"Only available <after turn number [10]> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [your exploring unit receives training] I]> <hidden from users>",
@@ -558,7 +558,7 @@
 			{
 				"text": "squatters willing to work for you",
 				"uniques": [
-			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Free [Worker] appears <hidden from users>",
 					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
 					"Unavailable <for units with [[Native Tongue] [squatters willing to work for you] I]> <hidden from users>",
@@ -570,7 +570,7 @@
 			{
 				"text": "squatters wishing to settle under your rule",
 				"uniques": [
-			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Free [Settler] appears <hidden from users>",
 					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
 					"Unavailable <for units with [[Native Tongue] [squatters wishing to settle under your rule] I]> <hidden from users>",
@@ -582,7 +582,7 @@
 			{
 				"text": "advanced weaponry for your explorer",
 				"uniques": [
-			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					// Composite Bowman does not keep Native Tongue
 					"[This Unit] upgrades for free including special upgrades <hidden from users>",
 
