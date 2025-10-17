@@ -273,19 +273,20 @@
 		"strength": 28,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
-		"obsoleteTech": "Combined Arms",
-		"upgradesTo": "Anti-Tank Gun",
+		"requiredResource": "Horses",
 		"uniques": [
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs cities> <when attacking>",
-			"Consumes [1] [Horses]"
+			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
-			"Shock I",
 			"Formation I",
+			"Shock I",
 			"Heavy Charge"
 		],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
 	{
@@ -307,7 +308,7 @@
 			// TODO: Sell Exotic Goods: This unit will sell its cargo, earning Gold and XP
 			// More will be earned for selling farther from your Capital. This may only be done once with this unit.
 		],
-		"attackSound": "nonmetalhit"
+		"attackSound": "cannon"
 	},
 	{
 		"name": "Missionary",
