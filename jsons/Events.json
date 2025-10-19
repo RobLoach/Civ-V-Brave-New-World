@@ -732,10 +732,10 @@
 				]
 			},
 			{
-				"text": "Future Soldier",
+				"text": "Future Infantry",
 				"uniques": [
-					"Only available <when number of [[Future Soldier] Units] is more than [0]>",
-					"Free [Future Soldier] appears",
+					"Only available <when number of [[Future Infantry] Units] is more than [0]>",
+					"Free [Future Infantry] appears",
 					"[+1000]% weight to this choice for AI decisions"
 				]
 			}
