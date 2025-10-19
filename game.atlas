@@ -1369,7 +1369,7 @@ TileSets/AbsoluteUnits/Units/Cargo Ship-Modern era
   orig: 96, 96
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Comanche Rider
+TileSets/AbsoluteUnits/Units/Comanche Riders
   rotate: false
   xy: 1516, 738
   size: 77, 70
@@ -1894,7 +1894,7 @@ UnitIcons/Cargo Ship
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Comanche Rider
+UnitIcons/Comanche Riders
   rotate: false
   xy: 112, 410
   size: 100, 100
