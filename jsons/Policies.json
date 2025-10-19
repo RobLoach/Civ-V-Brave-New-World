@@ -73,7 +73,8 @@
 				"uniques": [
 					"[+15]% growth [in all cities]",
 					"Provides a [Aqueduct] in your first [4] cities for free",
-					"May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+					"May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                    "Get the leader title of [Lord [leaderName]]"
 				]
 			}
 		]
@@ -146,7 +147,10 @@
             },
             {
                 "name": "Liberty Complete",
-                "uniques": ["Free Great Person"]
+                "uniques": [
+					"Free Great Person",
+                    "Get the leader title of [Consul [leaderName]]"
+				]
             }
         ]
     },
@@ -245,7 +249,8 @@
 				"uniques": [
 					"[Faith] cost of purchasing items in cities [-20]%",
 					"[+3 Culture] from every [Holy site]",
-					"Free [Great Prophet] appears"
+					"Free [Great Prophet] appears",
+                    "Get the leader title of [[leaderName] the Pious]"
 				]
 			}
 		]
@@ -323,7 +328,8 @@
 			{
 				"name": "Patronage Complete",
 				"uniques": [
-					"Allied City-States will occasionally gift Great People"
+					"Allied City-States will occasionally gift Great People",
+                    "Get the leader title of [[leaderName] the Enlightened]"
 				]
 			}
 		]
@@ -400,7 +406,8 @@
 				"name": "Rationalism Complete",
 				"uniques": [
 					"Free Technology",
-					"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+					"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Get the leader title of [[leaderName] the Wise]"
 				]
 			}
 		]
@@ -568,7 +575,8 @@
 				"name": "Commerce Complete",
 				"uniques": [
 					"[+1 Gold] from every [Trading post]",
-					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Get the leader title of [Doge [leaderName]]"
 				]
 			}
 		]
@@ -690,6 +698,7 @@
 			"Triggers a [[Ideology]: Free [Autocracy] Tenet] event <if no other Civilization has adopted this>", // Early Adopter
 
 			"Remove [Ideology] [in capital] <hidden from users>",
+			"Get the leader title of [[leaderName] the Terrible]",
 
 			// Preferred Ideology
 			"[+200]% weight to this choice for AI decisions",
@@ -948,6 +957,7 @@
 			"Triggers a [[Ideology]: Free [Order] Tenet] event <if no other Civilization has adopted this>", // Early Adopter
 
 			"Remove [Ideology] [in capital] <hidden from users>",
+			"Get the leader title of [Chairman [leaderName]]",
 
 			// Cultural Revolution. TODO: Instead of "constructed by anybody", it should be for every other Civilization that adopted Cultural Revolution
 			"[+34]% [Tourism] resource production <if [Cultural Revolution] is constructed by anybody> <hidden from users>",
@@ -1203,6 +1213,7 @@
 			"Triggers a [[Ideology]: Free [Freedom] Tenet] event <if no other Civilization has adopted this>", // Early Adopter
 
 			"Remove [Ideology] [in capital] <hidden from users>",
+			"Get the leader title of [President [leaderName]]",
 
 			// Preferred Ideology
 			"[+200]% weight to this choice for AI decisions",
@@ -1213,7 +1224,7 @@
 			"[+1000]% weight to this choice for AI decisions <for [Ethiopia] Civilizations>",
 			"[+1000]% weight to this choice for AI decisions <for [India] Civilizations>",
 			"[+1000]% weight to this choice for AI decisions <for [Korea] Civilizations>",
-			"[+1000]% weight to this choice for AI decisions <for [Polynesia] Civilizations>"
+			"[+1000]% weight to this choice for AI decisions <for [Polynesia] Civilizations>",
 		],
 		"civilopediaText": [
 			{ "text": "Best Victory Types: ♪Cultural ⚖Diplomatic ⍾Science" }
