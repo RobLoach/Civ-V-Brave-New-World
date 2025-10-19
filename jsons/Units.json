@@ -87,7 +87,7 @@
 			// TODO: Change Home City (After selecting a city and waiting a turn, allows different trade routes to be made.)
 			"[1] Movement <for [Caravans gain 50% extended range] Civilizations> <hidden from users>", // Caravans gain 50% extended range
 			"Unavailable <for [City-States] Civilizations> <hidden from users>",
-			"Instantly consumes [1] [Trade Route]",
+			"Costs [1] [Trade Route]",
 			"Only available <with [Trade Route]> <hidden from users>",
 			"[-2] Sight <hidden from users>",
 			"Ignores terrain cost",
@@ -114,7 +114,7 @@
 			// TODO: Establish Trade Route with a different civ (Route must run over water from one coastal city to another.)
 			// TODO: Change Home City (After selecting a coastal city and waiting a turn, allows different trade routes to be made.)
 			"Unavailable <for [City-States] Civilizations> <hidden from users>",
-			"Instantly consumes [1] [Trade Route]",
+			"Costs [1] [Trade Route]",
 			"Only available <with [Trade Route]> <hidden from users>",
 			"[-2] Sight <hidden from users>",
 			"May enter foreign tiles without open borders",
