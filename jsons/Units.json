@@ -463,7 +463,7 @@
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Radar",
-		"upgradesTo": "Future Soldier",
+		"upgradesTo": "Future Infantry",
 		"promotions": [
 			"Paradrop",
 			"No movement cost to pillage"
@@ -474,7 +474,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Future Soldier", // XCOM Squad in Civ5 https://civilization.fandom.com/wiki/XCOM_Squad_(Civ5)
+		"name": "Future Infantry", // XCOM Squad in Civ5 https://civilization.fandom.com/wiki/XCOM_Squad_(Civ5)
 		"unitType": "Sword", // Melee
 		"movement": 2,
 		"strength": 100,

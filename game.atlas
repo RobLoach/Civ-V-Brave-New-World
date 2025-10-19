@@ -1376,21 +1376,21 @@ TileSets/AbsoluteUnits/Units/Comanche Riders
   orig: 77, 70
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Future Soldier
+TileSets/AbsoluteUnits/Units/Future Infantry
   rotate: false
   xy: 1084, 276
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Future Soldier-1
+TileSets/AbsoluteUnits/Units/Future Infantry-1
   rotate: false
   xy: 1192, 384
   size: 96, 96
   orig: 96, 96
   offset: 0, 0
   index: -1
-TileSets/AbsoluteUnits/Units/Future Soldier-2
+TileSets/AbsoluteUnits/Units/Future Infantry-2
   rotate: false
   xy: 1300, 496
   size: 96, 96
@@ -1565,7 +1565,7 @@ TileSets/FantasyHex/Tiles/Mount Kilimanjaro
   orig: 32, 34
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Future Soldier
+TileSets/FantasyHex/Units/Future Infantry
   rotate: false
   xy: 174, 14
   size: 32, 28
@@ -1901,7 +1901,7 @@ UnitIcons/Comanche Riders
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Future Soldier
+UnitIcons/Future Infantry
   rotate: false
   xy: 220, 488
   size: 100, 100
