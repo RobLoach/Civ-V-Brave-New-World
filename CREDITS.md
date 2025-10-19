@@ -96,7 +96,7 @@
 - [City](https://thenounproject.com/icon/city-7677326/) by Ishaq_hmad
 - [Clausewitz's Legacy](https://thenounproject.com/icon/muscles-7459499/) by Ashok
 - [Color Palette](https://thenounproject.com/icon/color-palette-4655601/) by YANDI RS from NounProject.com
-- [Comanche Rider](https://thenounproject.com/icon/native-indian-headdress-6252201/) by Juicy Fish
+- [Comanche Riders](https://thenounproject.com/icon/native-indian-headdress-6252201/) by Juicy Fish
 - [Courthouse](https://thenounproject.com/icon/courthouse-7403358/) by Ariyanto Deni
 - [Creative Expression](https://thenounproject.com/icon/splash-4390563/) by AbtoCreative from NounProject.com
 - [Cult of Personality](https://thenounproject.com/icon/bully-4616110/) by Kamin Ginkaew
