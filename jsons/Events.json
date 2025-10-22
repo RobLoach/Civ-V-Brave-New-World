@@ -94,7 +94,6 @@
 
 	{
 		"name": "Archaeological Dig in City",
-		"text": "Your [Archaeologist] discovered a...",
 		"presentation": "None",
 		"choices": [
 			{
