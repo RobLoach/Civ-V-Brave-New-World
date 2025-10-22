@@ -92,6 +92,20 @@
 		]
 	},
 
+	{
+		"name": "Archaeological Dig in City",
+		"presentation": "None",
+		"choices": [
+			{
+				"text": "Artifact",
+				"uniques": [
+					"Instantly provides [1] [Artifact]",
+					"Remove [Antiquity Site] resources from this tile"
+				]
+			}
+		]
+	},
+
 	// Venice: Transform Settler units into Workers
 	{
 		"name": "Serenissima",
