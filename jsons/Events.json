@@ -106,6 +106,20 @@
 		]
 	},
 
+	{
+		"name": "Hidden Archaeological Dig in City",
+		"presentation": "None",
+		"choices": [
+			{
+				"text": "Great Work of Writing",
+				"uniques": [
+					"Instantly provides [1] [Great Work of Writing]",
+					"Remove [Hidden Antiquity Site] resources from this tile"
+				]
+			}
+		]
+	},
+
 	// Venice: Transform Settler units into Workers
 	{
 		"name": "Serenissima",
