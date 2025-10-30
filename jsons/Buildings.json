@@ -1449,9 +1449,9 @@
         "isWonder": true,
 		"uniques": [
 			"[+1 Production] from every [Scientist]",
-			"[+1 Science] from every [Engineer]"
+			"[+1 Science] from every [Engineer]",
+			"[+10]% production cost <for every [Remaining [Major] Civilizations]>"
 			// TODO: Great Scientists provide 33% more Science when used to discover new technology
-			// TODO: Cost is per civilization
 			// TODO: Requires International Project https://civilization.fandom.com/wiki/International_Project_(Civ5)
 		],
         "requiredTech": "Satellites",
