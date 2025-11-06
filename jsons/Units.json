@@ -532,7 +532,8 @@
             "Is part of Great Person group [Artist]",
             "Great Person - [Culture]",
             "Unbuildable",
-            "Uncapturable"
+            "Uncapturable",
+            "[This Unit] gets a name from the [Artist] group"
         ],
 		"civilopediaText": [
 			{
@@ -556,7 +557,8 @@
 			"Can instantly construct a [Customs house] improvement <by consuming this unit>",
 			"Double movement in [Coast]", // Extra Embarked Movement speed (6 vs 4)
 			"Unbuildable",
-			"Uncapturable"
+			"Uncapturable",
+            "[This Unit] gets a name from the [Merchant of Venice] group"
 			// TODO: Buy City-State: Purchases any City-State you are not at war with and in the territory of, and puts it and its units under your control.
 		]
 	},
@@ -569,7 +571,8 @@
             "Is part of Great Person group [Writer]",
             "Great Person - [Culture]",
             "Unbuildable",
-            "Uncapturable"
+            "Uncapturable",
+            "[This Unit] gets a name from the [Writer] group"
         ],
 		"civilopediaText": [
 			{
@@ -588,7 +591,8 @@
             "Is part of Great Person group [Musician]",
             "Great Person - [Culture]",
             "Unbuildable",
-            "Uncapturable"
+            "Uncapturable",
+            "[This Unit] gets a name from the [Musician] group"
         ],
 		"civilopediaText": [
 			{
@@ -608,7 +612,8 @@
             "Great Person - [Production]",
 			"Unbuildable",
 			"Uncapturable",
-			"Triggers a [Spaceship part] event <after adopting [Spaceflight Pioneers]> <after discovering [Advanced Ballistics]> <with [Aluminum]> <by consuming this unit> <hidden from users>"
+			"Triggers a [Spaceship part] event <after adopting [Spaceflight Pioneers]> <after discovering [Advanced Ballistics]> <with [Aluminum]> <by consuming this unit> <hidden from users>",,
+            "[This Unit] gets a name from the [Engineer] group"
 		],
 		"movement": 2
 	},
@@ -622,7 +627,9 @@
 			"[2] Movement <after adopting [Navigation School]>",
 			"Can be earned through combat <for [Water] units>",
             "Is part of Great Person group [Admiral]",
-            "Great Person - [War]", "Unbuildable", "Uncapturable"],
+            "Great Person - [War]", "Unbuildable", "Uncapturable",
+            "[This Unit] gets a name from the [Admiral] group"
+		],
 		"movement": 4
 	}
 ]
