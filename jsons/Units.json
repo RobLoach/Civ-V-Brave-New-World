@@ -612,7 +612,7 @@
             "Great Person - [Production]",
 			"Unbuildable",
 			"Uncapturable",
-			"Triggers a [Spaceship part] event <after adopting [Spaceflight Pioneers]> <after discovering [Advanced Ballistics]> <with [Aluminum]> <by consuming this unit> <hidden from users>",,
+			"Triggers a [Spaceship part] event <after adopting [Spaceflight Pioneers]> <after discovering [Advanced Ballistics]> <with [Aluminum]> <by consuming this unit> <hidden from users>",
             "[This Unit] gets a name from the [Engineer] group"
 		],
 		"movement": 2
