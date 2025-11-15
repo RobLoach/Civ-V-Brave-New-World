@@ -588,7 +588,7 @@
 				"uniques": [
 					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Free [Worker] appears <hidden from users>",
-					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
+					"Unavailable <on [Prince] difficulty or higher> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [squatters willing to work for you] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [squatters willing to work for you] I] promotion <hidden from users>",
@@ -600,7 +600,7 @@
 				"uniques": [
 					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Free [Settler] appears <hidden from users>",
-					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
+					"Unavailable <on [Prince] difficulty or higher> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [squatters wishing to settle under your rule] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] gains the [[Native Tongue] [squatters wishing to settle under your rule] I] promotion <hidden from users>",
