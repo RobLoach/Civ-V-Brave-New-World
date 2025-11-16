@@ -803,7 +803,7 @@
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
 					"[+20]% weight to this choice for AI decisions",
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
@@ -819,7 +819,7 @@
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
 					"[+20]% weight to this choice for AI decisions",
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
@@ -836,7 +836,7 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
@@ -849,7 +849,7 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
@@ -868,7 +868,7 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
@@ -883,7 +883,7 @@
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
 					"[+20]% weight to this choice for AI decisions",
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
@@ -1064,7 +1064,7 @@
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
 					"[+20]% weight to this choice for AI decisions",
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
@@ -1077,7 +1077,7 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
@@ -1091,7 +1091,7 @@
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
 					"[-10]% weight to this choice for AI decisions", // Modern era, not many new cities are spawned.
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
@@ -1105,7 +1105,7 @@
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
 					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
@@ -1120,7 +1120,7 @@
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
 					"[+20]% weight to this choice for AI decisions",
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
@@ -1136,7 +1136,7 @@
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
 					"[+20]% weight to this choice for AI decisions",
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
@@ -1317,7 +1317,7 @@
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
 					"[+20]% weight to this choice for AI decisions",
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
@@ -1333,7 +1333,7 @@
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
 					"[+20]% weight to this choice for AI decisions",
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
@@ -1346,7 +1346,7 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
@@ -1361,7 +1361,7 @@
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
 					"[+10]% weight to this choice for AI decisions",
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
@@ -1378,7 +1378,7 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
@@ -1392,7 +1392,7 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
-					"Ideology: Level 2 Tenet <hidden from users>",
+					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
