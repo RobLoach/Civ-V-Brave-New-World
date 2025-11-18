@@ -496,6 +496,8 @@
 		"movement": 4,
 		"uniques": [
 			"Can build [Antiquity Dig Site] improvements on tiles",
+			"Can build [Remove Forest] improvements on tiles",
+			"Can build [Remove Jungle] improvements on tiles",
 			"Cannot be purchased",
 			"Never appears as a Barbarian unit <hidden from users>",
 			"Only available <in cities with a [University]>",
