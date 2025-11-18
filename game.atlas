@@ -489,238 +489,238 @@ TechIcons/Circle
   index: -1
 PolicyBranchIcons/Aesthetics
   rotate: false
-  xy: 1404, 588
+  xy: 1462, 586
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Aesthetics Complete
   rotate: false
-  xy: 1404, 588
+  xy: 1462, 586
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Autocracy
   rotate: false
-  xy: 1520, 550
+  xy: 1636, 566
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Freedom
   rotate: false
-  xy: 1528, 334
+  xy: 1080, 214
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Order
   rotate: false
-  xy: 1818, 440
+  xy: 1756, 206
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Academy of Sciences
   rotate: false
-  xy: 1944, 562
+  xy: 1404, 586
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Arsenal of Democracy
   rotate: false
-  xy: 1520, 608
+  xy: 1520, 550
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Artistic Genius
   rotate: false
-  xy: 1462, 550
+  xy: 1578, 566
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Avant Garde
   rotate: false
-  xy: 1578, 566
+  xy: 1520, 492
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Capitalism
   rotate: false
-  xy: 1636, 566
+  xy: 1694, 554
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Civil Society
   rotate: false
-  xy: 1578, 508
+  xy: 1636, 508
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Clausewitz's Legacy
   rotate: false
-  xy: 1636, 508
+  xy: 1578, 498
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Consulates
   rotate: false
-  xy: 1694, 496
+  xy: 1636, 450
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Covert Action
   rotate: false
-  xy: 1752, 498
+  xy: 1578, 440
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Creative Expression
   rotate: false
-  xy: 1810, 498
+  xy: 1694, 438
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Cult of Personality
   rotate: false
-  xy: 1080, 214
+  xy: 1636, 392
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Cultural Centers
   rotate: false
-  xy: 1466, 287
+  xy: 1694, 380
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Cultural Exchange
   rotate: false
-  xy: 1476, 229
+  xy: 1752, 498
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Cultural Revolution
   rotate: false
-  xy: 1476, 171
+  xy: 1810, 498
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 BuildingIcons/Cultural Revolution
   rotate: false
-  xy: 1476, 171
+  xy: 1810, 498
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Dictatorship of the Proletariat
   rotate: false
-  xy: 1872, 502
+  xy: 1470, 434
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Double Agents
   rotate: false
-  xy: 1930, 502
+  xy: 1470, 376
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Economic Union
   rotate: false
-  xy: 1988, 504
+  xy: 1470, 318
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Elite Forces
   rotate: false
-  xy: 1470, 492
+  xy: 1466, 260
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Entrepreneurship
   rotate: false
-  xy: 1470, 434
+  xy: 1528, 382
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Fine Arts
   rotate: false
-  xy: 1528, 450
+  xy: 1586, 334
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Five-Year Plan
   rotate: false
-  xy: 1586, 450
+  xy: 1586, 276
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Flourishing of the Arts
   rotate: false
-  xy: 1528, 392
+  xy: 1644, 322
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Fortified Borders
   rotate: false
-  xy: 1586, 392
+  xy: 1702, 322
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Futurism
   rotate: false
-  xy: 1586, 334
+  xy: 1524, 260
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Gunboat Diplomacy
   rotate: false
-  xy: 1534, 276
+  xy: 1582, 218
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Hero of the People
   rotate: false
-  xy: 1534, 218
+  xy: 1640, 218
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Industrial Espionage
   rotate: false
-  xy: 1592, 218
+  xy: 1752, 438
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Iron Curtain
   rotate: false
-  xy: 1534, 160
+  xy: 1752, 380
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -741,21 +741,21 @@ UnitPromotionIcons/Lightning Warfare
   index: -1
 PolicyIcons/Maritime Infrastructure
   rotate: false
-  xy: 1592, 160
+  xy: 1810, 382
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Media Culture
   rotate: false
-  xy: 1644, 438
+  xy: 1868, 438
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Mercenary Army
   rotate: false
-  xy: 1644, 380
+  xy: 1760, 322
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -769,161 +769,161 @@ PolicyIcons/Merchant Confederacy
   index: -1
 PolicyIcons/Mobilization
   rotate: false
-  xy: 1702, 438
+  xy: 1926, 438
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Navigation School
   rotate: false
-  xy: 1760, 440
+  xy: 1760, 264
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/New Deal
   rotate: false
-  xy: 1760, 382
+  xy: 1698, 206
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Party Leadership
   rotate: false
-  xy: 1818, 382
+  xy: 1814, 206
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Patriotic War
   rotate: false
-  xy: 1876, 444
+  xy: 1926, 380
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Resettlement
   rotate: false
-  xy: 1876, 386
+  xy: 1984, 438
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Skyscrapers
   rotate: false
-  xy: 1934, 386
+  xy: 1756, 148
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Socialist Realism
   rotate: false
-  xy: 1992, 388
+  xy: 1818, 264
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Space Procurements
   rotate: false
-  xy: 1650, 322
+  xy: 1876, 322
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Spaceflight Pioneers
   rotate: false
-  xy: 1650, 264
+  xy: 1876, 264
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Their Finest Hour
   rotate: false
-  xy: 1650, 206
+  xy: 1872, 206
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Third Alternative
   rotate: false
-  xy: 1708, 322
+  xy: 1934, 322
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Treasure Fleets
   rotate: false
-  xy: 1708, 264
+  xy: 1934, 264
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Treaty Organization
   rotate: false
-  xy: 1708, 206
+  xy: 1992, 322
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Universal Healthcare (Autocracy)
   rotate: false
-  xy: 1766, 324
+  xy: 1992, 264
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Universal Healthcare (Freedom)
   rotate: false
-  xy: 1766, 324
+  xy: 1992, 264
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Universal Healthcare (Order)
   rotate: false
-  xy: 1766, 324
+  xy: 1992, 264
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Universal Suffrage
   rotate: false
-  xy: 1766, 266
+  xy: 1115, 90
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Urbanization
   rotate: false
-  xy: 1766, 208
+  xy: 1115, 148
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Volunteer Army
   rotate: false
-  xy: 1824, 324
+  xy: 1173, 170
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Wagon Trains
   rotate: false
-  xy: 1824, 266
+  xy: 1173, 112
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Workers' Faculties
   rotate: false
-  xy: 1824, 208
+  xy: 1231, 170
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Young Pioneers
   rotate: false
-  xy: 1882, 328
+  xy: 1231, 112
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1021,7 +1021,7 @@ ReligionIcons/Protestantism
   index: -1
 ResourceIcons/Accumulated Culture
   rotate: false
-  xy: 1404, 646
+  xy: 1404, 528
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -1497,98 +1497,105 @@ TileSets/AbsoluteUnits/Units/Winged Hussar
   index: -1
 TileSets/FantasyHex/Tiles/Antiquity Site
   rotate: false
-  xy: 174, 50
+  xy: 1470, 492
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Antiquity Site-Snow
   rotate: false
-  xy: 1332, 299
+  xy: 174, 50
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Archaeological Dig
   rotate: false
-  xy: 1752, 574
+  xy: 1332, 297
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Chateau
   rotate: false
-  xy: 1080, 173
+  xy: 1752, 571
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Feitoria
   rotate: false
-  xy: 1650, 163
+  xy: 1586, 397
   size: 32, 35
   orig: 32, 35
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Jungle+Brazilwood Camp
   rotate: false
-  xy: 1882, 289
+  xy: 1138, 237
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Hidden Antiquity Site
   rotate: false
-  xy: 174, 14
+  xy: 254, 24
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Kasbah
   rotate: false
-  xy: 1690, 169
+  xy: 294, 23
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/King Solomon's Mines
   rotate: false
-  xy: 1462, 666
+  xy: 334, 18
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lake Victoria
   rotate: false
-  xy: 1882, 247
+  xy: 374, 18
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mount Kilimanjaro
   rotate: false
-  xy: 1138, 234
+  xy: 454, 18
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Comanche Riders
+  rotate: false
+  xy: 1528, 456
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Future Infantry
   rotate: false
-  xy: 1528, 514
+  xy: 174, 14
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hand-Axe
   rotate: false
-  xy: 1940, 350
+  xy: 214, 24
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Merchant of Venice
   rotate: false
-  xy: 1882, 211
+  xy: 414, 24
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -1735,28 +1742,28 @@ TileSets/HexaRealm/Tiles/Mount Kilimanjaro
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Jungle+Brazilwood Camp
   rotate: false
-  xy: 1260, 207
+  xy: 1800, 556
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Jungle+Brazilwood Camp-Pillaged
   rotate: false
-  xy: 1404, 203
+  xy: 1944, 556
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Jungle+Brazilwood Camp2
   rotate: false
-  xy: 1332, 203
+  xy: 1872, 560
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Lake Victoria
   rotate: false
-  xy: 1800, 556
+  xy: 1872, 496
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1791,7 +1798,7 @@ TileSets/HexaRealm/Units/Hand-Axe
   index: -1
 TileSets/HexaRealm/Units/Pracinha
   rotate: false
-  xy: 1872, 560
+  xy: 1408, 644
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1840,21 +1847,21 @@ UniqueIcons/Perform Concert Tour
   index: -1
 UniqueIcons/Comment [Requires [Exploration Complete]]
   rotate: false
-  xy: 1694, 554
+  xy: 1694, 496
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Exploration
   rotate: false
-  xy: 1694, 554
+  xy: 1694, 496
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Exploration Complete
   rotate: false
-  xy: 1694, 554
+  xy: 1694, 496
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2022,14 +2029,14 @@ UnitIcons/Winged Hussar
   index: -1
 UnitPromotionIcons/Airport ability
   rotate: false
-  xy: 1404, 530
+  xy: 1462, 528
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Skyranger
   rotate: false
-  xy: 1404, 530
+  xy: 1462, 528
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2043,14 +2050,14 @@ UnitPromotionIcons/Altitude Training
   index: -1
 UnitPromotionIcons/Ambition
   rotate: false
-  xy: 1462, 608
+  xy: 1520, 608
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Enemy Blade
   rotate: false
-  xy: 1462, 608
+  xy: 1520, 608
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2099,7 +2106,7 @@ UnitPromotionIcons/Desert Warrior
   index: -1
 UnitPromotionIcons/Evil Spirits
   rotate: false
-  xy: 1470, 376
+  xy: 1528, 324
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2148,7 +2155,7 @@ UnitPromotionIcons/Heavy Charge
   index: -1
 UnitPromotionIcons/Heroism
   rotate: false
-  xy: 1592, 276
+  xy: 1810, 440
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2169,7 +2176,7 @@ UnitPromotionIcons/Invulnerability
   index: -1
 UnitPromotionIcons/Mystic Blade
   rotate: false
-  xy: 1702, 380
+  xy: 1702, 264
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2281,7 +2288,7 @@ UnitPromotionIcons/Recruitment
   index: -1
 UnitPromotionIcons/Restlessness
   rotate: false
-  xy: 1934, 444
+  xy: 1984, 380
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -2295,7 +2302,7 @@ UnitPromotionIcons/Sapper
   index: -1
 UnitPromotionIcons/Sneak Attack
   rotate: false
-  xy: 1992, 446
+  xy: 1818, 322
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
