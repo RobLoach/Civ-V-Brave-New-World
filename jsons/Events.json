@@ -64,7 +64,8 @@
 					"Instantly provides [1] [Great Work of Writing] <hidden from users>",
 					"Comment [Will be placed in a [Great Work of Writing] slot next turn]",
 					"Comment [+2 [Culture]]",
-					"Comment [+2 [Tourism]]"
+					"Comment [+2 [Tourism]]",
+					"[+100]% weight to this choice for AI decisions"
 				]
 			},
 			{
@@ -91,6 +92,50 @@
 		]
 	},
 
+	{
+		"name": "Archaeological Dig in City",
+		"presentation": "None",
+		"choices": [
+			{
+				"text": "Artifact",
+				"uniques": [
+					"Instantly provides [1] [Artifact]",
+					"Remove [Antiquity Site] resources from this tile"
+				]
+			}
+		]
+	},
+
+	{
+		"name": "Hidden Archaeological Dig in City",
+		"presentation": "None",
+		"choices": [
+			{
+				"text": "Great Work of Writing",
+				"uniques": [
+					"Instantly provides [1] [Great Work of Writing]",
+					"Remove [Hidden Antiquity Site] resources from this tile"
+				]
+			}
+		]
+	},
+
+	// Venice: Transform Settler units into Workers
+	{
+		"name": "Serenissima",
+		"text": "Serenissima",
+		"presentation": "None",
+		"choices": [
+			{
+				"text": "Serenissima",
+				"uniques": [
+					"[This Unit] is destroyed",
+					"Free [Worker] appears"
+				]
+			}
+		]
+	},
+
 	// Ideology
 	{
 		"name": "Ideology",
@@ -102,9 +147,16 @@
 				"uniques": [
 					"Adopt [Autocracy]",
 					"Comment [Best Victory Types: ♪Cultural ⚖Diplomatic †Domination]",
+					// TODO: Show number of civilizations who have adopted the Ideology for early adopter bonus.
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
-					"Only available <before adopting [Order]>"
+					"Only available <before adopting [Order]>",
+					"[+1000]% weight to this choice for AI decisions <for [Preferred Ideology: Autocracy] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Aztecs] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Greece] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [The Huns] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Mongolia] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Songhai] Civilizations>"
 				]
 			},
 			{
@@ -114,7 +166,15 @@
 					"Comment [Best Victory Types: ♪Cultural ⚖Diplomatic ⍾Science]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
-					"Only available <before adopting [Order]>"
+					"Only available <before adopting [Order]>",
+					"[+1000]% weight to this choice for AI decisions <for [Preferred Ideology: Freedom] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [America] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Austria] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [The Netherlands] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Ethiopia] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [India] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Korea] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Polynesia] Civilizations>"
 				]
 			},
 			{
@@ -124,7 +184,286 @@
 					"Comment [Best Victory Types: ♪Cultural †Domination ⍾Science]",
 					"Only available <before adopting [Autocracy]>",
 					"Only available <before adopting [Freedom]>",
-					"Only available <before adopting [Order]>"
+					"Only available <before adopting [Order]>",
+					"[+1000]% weight to this choice for AI decisions <for [Preferred Ideology: Order] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Babylon] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [China] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Denmark] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [The Ottomans] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Rome] Civilizations>",
+					"[+1000]% weight to this choice for AI decisions <for [Russia] Civilizations>"
+				]
+			}
+		]
+	},
+	{
+		"name": "[Ideology]: Free [Autocracy] Tenet",
+		"text": "[Ideology]: Free [Autocracy] Tenet",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Elite Forces",
+				"uniques": [
+					"Adopt [Elite Forces]",
+					"Only available <before adopting [Elite Forces]>",
+					"[-10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Mobilization",
+				"uniques": [
+					"Adopt [Mobilization]",
+					"Only available <before adopting [Mobilization]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "United Front",
+				"uniques": [
+					"Adopt [United Front]",
+					"Only available <before adopting [United Front]>",
+					"[-10]% weight to this choice for AI decisions",
+					"[-90]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [3]>"
+				]
+			},
+			{
+				"text": "Futurism",
+				"uniques": [
+					"Adopt [Futurism]",
+					"Only available <before adopting [Futurism]>",
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Industrial Espionage",
+				"uniques": [
+					"Adopt [Industrial Espionage]",
+					"Only available <before adopting [Industrial Espionage]>",
+					"[-100]% weight to this choice for AI decisions <when espionage is disabled>"
+				]
+			},
+			{
+				"text": "Fortified Borders",
+				"uniques": [
+					"Adopt [Fortified Borders]",
+					"Only available <before adopting [Fortified Borders]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Universal Healthcare (Autocracy)",
+				"uniques": [
+					"Adopt [Universal Healthcare (Autocracy)]",
+					"Only available <before adopting [Universal Healthcare (Autocracy)]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			}
+		]
+	},
+	{
+		"name": "[Ideology]: Free [Order] Tenet",
+		"text": "[Ideology]: Free [Order] Tenet",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Hero of the People",
+				"uniques": [
+					"Adopt [Hero of the People]",
+					"Only available <before adopting [Hero of the People]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Socialist Realism",
+				"uniques": [
+					"Adopt [Socialist Realism]",
+					"Only available <before adopting [Socialist Realism]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Skyscrapers",
+				"uniques": [
+					"Adopt [Skyscrapers]",
+					"Only available <before adopting [Skyscrapers]>"
+				]
+			},
+			{
+				"text": "Patriotic War",
+				"uniques": [
+					"Adopt [Patriotic War]",
+					"[+10]% weight to this choice for AI decisions",
+					"Only available <before adopting [Patriotic War]>"
+				]
+			},
+			{
+				"text": "Double Agents",
+				"uniques": [
+					"Adopt [Double Agents]",
+					"Only available <before adopting [Double Agents]>",
+					"[-20]% weight to this choice for AI decisions",
+					"[-80]% weight to this choice for AI decisions <when espionage is disabled>"
+				]
+			},
+			{
+				"text": "Young Pioneers",
+				"uniques": [
+					"Adopt [Young Pioneers]",
+					"Only available <before adopting [Young Pioneers]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Universal Healthcare (Order)",
+				"uniques": [
+					"Adopt [Universal Healthcare (Order)]",
+					"Only available <before adopting [Universal Healthcare (Order)]>"
+				]
+			}
+		]
+	},
+	{
+		"name": "[Ideology]: Free [Freedom] Tenet",
+		"text": "[Ideology]: Free [Freedom] Tenet",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Avant Garde",
+				"uniques": [
+					"Adopt [Avant Garde]",
+					"Only available <before adopting [Avant Garde]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Creative Expression",
+				"uniques": [
+					"Adopt [Creative Expression]",
+					"Only available <before adopting [Creative Expression]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Civil Society",
+				"uniques": [
+					"Adopt [Civil Society]",
+					"Only available <before adopting [Civil Society]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Covert Action",
+				"uniques": [
+					"Adopt [Covert Action]",
+					"Only available <before adopting [Covert Action]>",
+					"[-20]% weight to this choice for AI decisions",
+					"[-40]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>",
+					"[-40]% weight to this choice for AI decisions <when espionage is disabled>"
+				]
+			},
+			{
+				"text": "Capitalism",
+				"uniques": [
+					"Adopt [Capitalism]",
+					"Only available <before adopting [Capitalism]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Economic Union",
+				"uniques": [
+					"Adopt [Economic Union]",
+					"Only available <before adopting [Economic Union]>",
+					"[-10]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Universal Healthcare (Freedom)",
+				"uniques": [
+					"Adopt [Universal Healthcare (Freedom)]",
+					"Only available <before adopting [Universal Healthcare (Freedom)]>",
+					"[+10]% weight to this choice for AI decisions"
+				]
+			}
+		]
+	},
+
+	// Reformation Beliefs
+	{
+		"name": "Reformation",
+		"text": "Gain a free [Reformation] belief",
+		"presentation": "Alert",
+		"choices": [
+		    {
+				"text": "Charitable Missions",
+				"uniques": [
+					"Adopt [Charitable Missions]",
+					"Only available <if no Civilization has adopted [Charitable Missions]> <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
+				]
+			},
+		    {
+				"text": "Evangelism",
+				"uniques": [
+					"Adopt [Evangelism]",
+					"Only available <if no Civilization has adopted [Evangelism]> <hidden from users>"
+				]
+			},
+		    {
+				"text": "Heathen Conversion",
+				"uniques": [
+					"Adopt [Heathen Conversion]",
+					"Only available <if no Civilization has adopted [Heathen Conversion]> <hidden from users>",
+					"[-20]% weight to this choice for AI decisions" // Not a good belief.
+				]
+			},
+		    {
+				"text": "Jesuit Education",
+				"uniques": [
+					"Adopt [Jesuit Education]",
+					"Only available <if no Civilization has adopted [Jesuit Education]> <hidden from users>",
+					"[+50]% weight to this choice for AI decisions"
+				]
+			},
+		    {
+				"text": "Religious Fervor",
+				"uniques": [
+					"Adopt [Religious Fervor]",
+					"Only available <if no Civilization has adopted [Religious Fervor]> <hidden from users>",
+					"[+50]% weight to this choice for AI decisions <for [Preferred Ideology: Autocracy] Civilizations>"
+				]
+			},
+		    {
+				"text": "Sacred Sites",
+				"uniques": [
+					"Adopt [Sacred Sites]",
+					"Only available <if no Civilization has adopted [Sacred Sites]> <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
+				]
+			},
+		    {
+				"text": "To the Glory of God",
+				"uniques": [
+					"Adopt [To the Glory of God]",
+					"Only available <if no Civilization has adopted [To the Glory of God]> <hidden from users>",
+					"[+50]% weight to this choice for AI decisions"
+				]
+			},
+		    {
+				"text": "Underground Sect",
+				"uniques": [
+					"Adopt [Underground Sect]",
+					"Only available <if no Civilization has adopted [Underground Sect]> <hidden from users>",
+					"Only available <when espionage is enabled> <hidden from users>",
+					"[-50]% weight to this choice for AI decisions" // Not a good belief.
+				]
+			},
+		    {
+				"text": "Unity of the Prophets",
+				"uniques": [
+					"Adopt [Unity of the Prophets]",
+					"Only available <if no Civilization has adopted [Unity of the Prophets]> <hidden from users>"
 				]
 			}
 		]
@@ -139,6 +478,8 @@
 			{
 				"text": "survivors (adds population to a city)",
 				"uniques": [
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
+					"Only available <if [Palace] is constructed>", // Needs a city
 					"[+1] population in a random city <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [survivors (adds population to a city)] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
@@ -148,27 +489,32 @@
 			{
 				"text": "discover cultural artifacts",
 				"uniques": [
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Gain [20] [Culture] <(modified by game speed)> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [discover cultural artifacts] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [discover cultural artifacts] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [discover cultural artifacts] I] promotion <hidden from users>",
+					"[-50]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "discover holy symbols",
 				"uniques": [
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Only available <when religion is enabled> <hidden from users>",
 					"Gain enough Faith for a Pantheon <hidden from users>",
 					"Only available <before founding a Pantheon> <hidden from users>",
 					"Only available <after turn number [20]> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [discover holy symbols] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [discover holy symbols] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [discover holy symbols] I] promotion <hidden from users>",
+					"[+200]% weight to this choice for AI decisions <after adopting [Piety]>" // If they go Piety, they want a Pantheon quick
 				]
 			},
 			{
 				"text": "an ancient prophecy",
 				"uniques": [
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Only available <when religion is enabled> <hidden from users>",
 					"Gain enough Faith for [33]% of a Great Prophet <hidden from users>",
 					"Unavailable <after generating a Great Prophet> <hidden from users>",
@@ -176,21 +522,25 @@
 					"Only available <after turn number [20]> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [an ancient prophecy] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [an ancient prophecy] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [an ancient prophecy] I] promotion <hidden from users>",
+					"[+50]% weight to this choice for AI decisions <after adopting [Piety]>" // If they go Piety, they want a religion quick
 				]
 			},
 			{
 				"text": "reveal nearby Barbarian camps",
 				"uniques": [
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Reveal up to [All] [Barbarian encampment] within a [10] tile radius <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [reveal nearby Barbarian camps] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [reveal nearby Barbarian camps] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [reveal nearby Barbarian camps] I] promotion <hidden from users>",
+					"[-50]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "a stash of gold",
 				"uniques": [
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Gain [50]-[100] [Gold] <(modified by game speed)> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [a stash of gold] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
@@ -200,62 +550,77 @@
 			{
 				"text": "find a crudely-drawn map",
 				"uniques": [
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Reveal up to [5] [Land] within a [5] tile radius <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [find a crudely-drawn map] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [find a crudely-drawn map] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [find a crudely-drawn map] I] promotion <hidden from users>",
+					"[-50]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "discover a lost technology",
 				"uniques": [
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"[1] free random researchable Tech(s) from the [Ancient era] <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [discover a lost technology] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [discover a lost technology] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [discover a lost technology] I] promotion <hidden from users>",
+					"[+50]% weight to this choice for AI decisions",
+					// TODO: Is there a way to avoid hard-coding every Ancient Era technology?
+					"Unavailable <after discovering [Sailing]> <after discovering [Calendar]> <after discovering [Writing]> <after discovering [Trapping]> <after discovering [The Wheel]> <after discovering [Masonry]> <after discovering [Bronze Working]> <hidden from users>"
 				]
 			},
 			{
 				"text": "your exploring unit receives training",
 				"uniques": [
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"[This Unit] gains [10] XP <hidden from users>",
 					"Only available <after turn number [10]> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [your exploring unit receives training] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [your exploring unit receives training] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [your exploring unit receives training] I] promotion <hidden from users>",
+					"[-50]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "squatters willing to work for you",
 				"uniques": [
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Free [Worker] appears <hidden from users>",
-					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
+					"Unavailable <on [Prince] difficulty or higher> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [squatters willing to work for you] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [squatters willing to work for you] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [squatters willing to work for you] I] promotion <hidden from users>",
+					"[+50]% weight to this choice for AI decisions <when number of [[Worker] Units] is less than [4]>"
 				]
 			},
 			{
 				"text": "squatters wishing to settle under your rule",
 				"uniques": [
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					"Free [Settler] appears <hidden from users>",
-					"Unavailable <on [Prince] difficulty or higher> <hidden from users>"
+					"Unavailable <on [Prince] difficulty or higher> <hidden from users>",
 					"Unavailable <for units with [[Native Tongue] [squatters wishing to settle under your rule] I]> <hidden from users>",
 					"Triggers a [Native Tongue Counter] event <hidden from users>",
-					"[This Unit] gains the [[Native Tongue] [squatters wishing to settle under your rule] I] promotion <hidden from users>"
+					"[This Unit] gains the [[Native Tongue] [squatters wishing to settle under your rule] I] promotion <hidden from users>",
+					"[+100]% weight to this choice for AI decisions <when number of [Cities] is less than [4]>"
 				]
 			},
 			{
 				"text": "advanced weaponry for your explorer",
 				"uniques": [
+					"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 					// Composite Bowman does not keep Native Tongue
 					"[This Unit] upgrades for free including special upgrades <hidden from users>",
 
-					// Trigger the remove status a few times to ensure it's removed.
-					"Triggers a [Native Tongue Counter] event <hidden from users>"
-					"Triggers a [Native Tongue Counter] event <hidden from users>"
-					"Triggers a [Native Tongue Counter] event <hidden from users>"
+					// Trigger the remove status a few times to ensure all counters are removed.
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
+					"Triggers a [Native Tongue Counter] event <hidden from users>",
 					"[This Unit] loses the [Native Tongue] promotion <hidden from users>",
+					"[+100]% weight to this choice for AI decisions <starting from the [Medieval era]>" // Pathfinders lose usefulness later on
 				]
 			}
 		]
@@ -335,14 +700,16 @@
 
 	// Great Musician: Concert Tour @see Units.json
 	{
-		"name": "Concert Tour",
-		"text": "Concert Tour",
+		"name": "Perform Concert Tour",
+		"text": "Perform Concert Tour",
 		"presentation": "None",
 		"choices": [
 			{
-				"text": "Concert Tour",
-				// TODO: Tourism gain is first calculated when the Great Musician is born ([Tourism] * 10) https://www.reddit.com/r/civ/comments/248qq8/comment/ch4p9f3/
-				"uniques": ["Instantly provides [10] [Tourism] <for every [1] [Tourism]>"]
+				"text": "Perform Concert Tour",
+				// TODO: Tourism gain is first calculated when the Great Musician is born ([Tourism] * 10)
+				// https://www.reddit.com/r/civ/comments/248qq8/comment/ch4p9f3/
+				// https://forums.civfanatics.com/threads/concert-tour-question.509152/post-12766795
+				"uniques": ["Instantly provides [10] [Tourism] <for every [[Tourism] Per Turn]>"]
 			}
 		]
 	},
@@ -351,7 +718,7 @@
 	{
 		"name": "Terracotta Army - Melee",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Warrior",
@@ -364,35 +731,40 @@
 				"text": "Spearman",
 				"uniques": [
 					"Only available <when number of [[Spearman] Units] is more than [0]>",
-					"Free [Spearman] appears"
+					"Free [Spearman] appears",
+					"[+20]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Swordsman",
 				"uniques": [
 					"Only available <when number of [[Swordsman] Units] is more than [0]>",
-					"Free [Swordsman] appears"
+					"Free [Swordsman] appears",
+					"[+50]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Longswordsman",
 				"uniques": [
 					"Only available <when number of [[Longswordsman] Units] is more than [0]>",
-					"Free [Longswordsman] appears"
+					"Free [Longswordsman] appears",
+					"[+80]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Pikeman",
 				"uniques": [
 					"Only available <when number of [[Pikeman] Units] is more than [0]>",
-					"Free [Pikeman] appears"
+					"Free [Pikeman] appears",
+					"[+70]% weight to this choice for AI decisions"
 				]
 			},
 			{
-				"text": "Future Soldier",
+				"text": "Future Infantry",
 				"uniques": [
-					"Only available <when number of [[Future Soldier] Units] is more than [0]>",
-					"Free [Future Soldier] appears"
+					"Only available <when number of [[Future Infantry] Units] is more than [0]>",
+					"Free [Future Infantry] appears",
+					"[+1000]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -400,7 +772,7 @@
 	{
 		"name": "Terracotta Army - Archery",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Archer",
@@ -413,42 +785,48 @@
 				"text": "Chariot Archer",
 				"uniques": [
 					"Only available <when number of [[Chariot Archer] Units] is more than [0]>",
-					"Free [Chariot Archer] appears"
+					"Free [Chariot Archer] appears",
+					"[+20]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Composite Bowman",
 				"uniques": [
 					"Only available <when number of [[Composite Bowman] Units] is more than [0]>",
-					"Free [Composite Bowman] appears"
+					"Free [Composite Bowman] appears",
+					"[+40]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Crossbowman",
 				"uniques": [
 					"Only available <when number of [[Crossbowman] Units] is more than [0]>",
-					"Free [Crossbowman] appears"
+					"Free [Crossbowman] appears",
+					"[+60]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Gatling Gun",
 				"uniques": [
 					"Only available <when number of [[Gatling Gun] Units] is more than [0]>",
-					"Free [Gatling Gun] appears"
+					"Free [Gatling Gun] appears",
+					"[+80]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Machine Gun",
 				"uniques": [
 					"Only available <when number of [[Machine Gun] Units] is more than [0]>",
-					"Free [Machine Gun] appears"
+					"Free [Machine Gun] appears",
+					"[+100]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Bazooka",
 				"uniques": [
 					"Only available <when number of [[Bazooka] Units] is more than [0]>",
-					"Free [Bazooka] appears"
+					"Free [Bazooka] appears",
+					"[+120]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -456,7 +834,7 @@
 	{
 		"name": "Terracotta Army - Mounted",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Horseman",
@@ -469,21 +847,24 @@
 				"text": "Knight",
 				"uniques": [
 					"Only available <when number of [[Knight] Units] is more than [0]>",
-					"Free [Knight] appears"
+					"Free [Knight] appears",
+					"[+20]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Lancer",
 				"uniques": [
 					"Only available <when number of [[Lancer] Units] is more than [0]>",
-					"Free [Lancer] appears"
+					"Free [Lancer] appears",
+					"[+40]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Cavalry",
 				"uniques": [
 					"Only available <when number of [[Cavalry] Units] is more than [0]>",
-					"Free [Cavalry] appears"
+					"Free [Cavalry] appears",
+					"[+60]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -491,7 +872,7 @@
 	{
 		"name": "Terracotta Army - Siege",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Catapult",
@@ -504,28 +885,32 @@
 				"text": "Trebuchet",
 				"uniques": [
 					"Only available <when number of [[Trebuchet] Units] is more than [0]>",
-					"Free [Trebuchet] appears"
+					"Free [Trebuchet] appears",
+					"[+20]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Cannon",
 				"uniques": [
 					"Only available <when number of [[Cannon] Units] is more than [0]>",
-					"Free [Cannon] appears"
+					"Free [Cannon] appears",
+					"[+40]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Artillery",
 				"uniques": [
 					"Only available <when number of [[Artillery] Units] is more than [0]>",
-					"Free [Artillery] appears"
+					"Free [Artillery] appears",
+					"[+60]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Rocket Artillery",
 				"uniques": [
 					"Only available <when number of [[Rocket Artillery] Units] is more than [0]>",
-					"Free [Rocket Artillery] appears"
+					"Free [Rocket Artillery] appears",
+					"[+80]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -533,7 +918,7 @@
 	{
 		"name": "Terracotta Army - Gunpowder",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Musketman",
@@ -546,56 +931,64 @@
 				"text": "Rifleman",
 				"uniques": [
 					"Only available <when number of [[Rifleman] Units] is more than [0]>",
-					"Free [Rifleman] appears"
+					"Free [Rifleman] appears",
+					"[+20]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Anti-Aircraft Gun",
 				"uniques": [
 					"Only available <when number of [[Anti-Aircraft Gun] Units] is more than [0]>",
-					"Free [Anti-Aircraft Gun] appears"
+					"Free [Anti-Aircraft Gun] appears",
+					"[+40]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Great War Infantry",
 				"uniques": [
 					"Only available <when number of [[Great War Infantry] Units] is more than [0]>",
-					"Free [Great War Infantry] appears"
+					"Free [Great War Infantry] appears",
+					"[+60]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Infantry",
 				"uniques": [
 					"Only available <when number of [[Infantry] Units] is more than [0]>",
-					"Free [Infantry] appears"
+					"Free [Infantry] appears",
+					"[+80]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Anti-Tank Gun",
 				"uniques": [
 					"Only available <when number of [[Anti-Tank Gun] Units] is more than [0]>",
-					"Free [Anti-Tank Gun] appears"
-				]
-			},
-			{
-				"text": "Marine",
-				"uniques": [
-					"Only available <when number of [[Marine] Units] is more than [0]>",
-					"Free [Marine] appears"
-				]
-			},
-			{
-				"text": "Paratrooper",
-				"uniques": [
-					"Only available <when number of [[Paratrooper] Units] is more than [0]>",
-					"Free [Paratrooper] appears"
+					"Free [Anti-Tank Gun] appears",
+					"[+100]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Mobile SAM",
 				"uniques": [
 					"Only available <when number of [[Mobile SAM] Units] is more than [0]>",
-					"Free [Mobile SAM] appears"
+					"Free [Mobile SAM] appears",
+					"[+120]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Paratrooper",
+				"uniques": [
+					"Only available <when number of [[Paratrooper] Units] is more than [0]>",
+					"Free [Paratrooper] appears",
+					"[+140]% weight to this choice for AI decisions"
+				]
+			},
+			{
+				"text": "Marine",
+				"uniques": [
+					"Only available <when number of [[Marine] Units] is more than [0]>",
+					"Free [Marine] appears",
+					"[+140]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -603,7 +996,7 @@
 	{
 		"name": "Terracotta Army - Armored",
 		"text": "Terracotta Army",
-		"presentation": "Alert",
+		"presentation": "None",
 		"choices": [
 			{
 				"text": "Tank",
@@ -616,21 +1009,24 @@
 				"text": "Mechanized Infantry",
 				"uniques": [
 					"Only available <when number of [[Mechanized Infantry] Units] is more than [0]>",
-					"Free [Mechanized Infantry] appears"
+					"Free [Mechanized Infantry] appears",
+					"[+60]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Modern Armor",
 				"uniques": [
 					"Only available <when number of [[Modern Armor] Units] is more than [0]>",
-					"Free [Modern Armor] appears"
+					"Free [Modern Armor] appears",
+					"[+80]% weight to this choice for AI decisions"
 				]
 			},
 			{
 				"text": "Giant Death Robot",
 				"uniques": [
 					"Only available <when number of [[Giant Death Robot] Units] is more than [0]>",
-					"Free [Giant Death Robot] appears"
+					"Free [Giant Death Robot] appears",
+					"[+100]% weight to this choice for AI decisions"
 				]
 			}
 		]
@@ -645,13 +1041,13 @@
 			{ "text": "You Can Build a Trade Unit!", "centered": true, "header": 5 },
             { "text": "You've unlocked the ability to construct a [Caravan], the earliest Trade unit available. Once built, you can establish a [Trade Route] with a city in another civilization that will generate [Gold]."},
 			{},
-			{ "text": "Although you start with the ability to create just a single Trade Route, additional Trade Route slots can be earned as your civilization becomes more advanced."},
+			{ "text": "Although you start with the ability to create just a single [Trade Route], additional [Trade Route] slots can be earned as your civilization becomes more advanced."},
 			{ "text": "Trade Route", "link": "Resource/Trade Route" },
 			{ "text": "Caravan", "link": "Unit/Caravan" },
 			{ "text": "Cargo Ship", "link": "Unit/Cargo Ship" }
 		],
         "uniques": [
-            "Only available <if tutorials are enabled> <when number of [Trade Route] is more than [0]>",
+            "Only available <if tutorials are enabled> <with [Trade Route]>",
             "Unavailable <if tutorial [You Can Build a Trade Unit] is completed>"
         ],
         "choices": [
@@ -662,10 +1058,10 @@
         ]
     },
 	{
-        "name": "Tutorial Task: [You Have a Great Writer!]",
+        "name": "Tutorial Task: [You Have a [Great Writer]!]",
         "presentation": "Floating",
         "civilopediaText":[
-			{ "text": "You Have a Great Writer!", "centered": true, "header": 5 },
+			{ "text": "You Have a [Great Writer]!", "centered": true, "header": 5 },
             { "text": "Creativity abounds in your civilization! If you're attempting a [Culture] Victory, you may want to create a [Great Work of Writing] to generate [Tourism] for your civilization. The more [Tourism] you generate, the better your chances of winning a [Culture] Victory!"},
 			{},
 			{ "text": "Great Writer", "link": "Unit/Great Writer" },
@@ -674,20 +1070,20 @@
 		],
         "uniques": [
             "Only available <if tutorials are enabled> <when number of [[Great Writer] Units] is more than [0]>",
-            "Unavailable <if tutorial [You Have a Great Writer!] is completed>"
+            "Unavailable <if tutorial [You Have a [Great Writer]!] is completed>"
         ],
         "choices": [
             {
                 "text":"Got it",
-                "uniques": ["Mark tutorial [You Have a Great Writer!] complete"]
+                "uniques": ["Mark tutorial [You Have a [Great Writer]!] complete"]
             }
         ]
     },
 	{
-        "name": "Tutorial Task: [You Have a Great Artist!]",
+        "name": "Tutorial Task: [You Have a [Great Artist]!]",
         "presentation": "Floating",
         "civilopediaText":[
-			{ "text": "You Have a Great Artist!", "centered": true, "header": 5 },
+			{ "text": "You Have a [Great Artist]!", "centered": true, "header": 5 },
 			{ "text": "The arts are thriving! If you're attempting a [Culture] Victory, you may want to create a [Great Work of Art] to generate [Tourism] for your civilization, essential for a [Culture] Victory. Or, you could start a Golden Age!"},
 			{},
 			{ "text": "Great Artist", "link": "Unit/Great Artist" },
@@ -696,20 +1092,20 @@
 		],
         "uniques": [
             "Only available <if tutorials are enabled> <when number of [[Great Artist] Units] is more than [0]>",
-            "Unavailable <if tutorial [You Have a Great Artist!] is completed>"
+            "Unavailable <if tutorial [You Have a [Great Artist]!] is completed>"
         ],
         "choices": [
             {
                 "text":"Got it",
-                "uniques": ["Mark tutorial [You Have a Great Artist!] complete"]
+                "uniques": ["Mark tutorial [You Have a [Great Artist]!] complete"]
             }
         ]
     },
 	{
-        "name": "Tutorial Task: [You Have a Great Musician!]",
+        "name": "Tutorial Task: [You Have a [Great Musician]!]",
         "presentation": "Floating",
         "civilopediaText":[
-			{ "text": "You Have a Great Musician!", "centered": true, "header": 5 },
+			{ "text": "You Have a [Great Musician]!", "centered": true, "header": 5 },
 			{ "text": "Music has enchanted our people! If you're attempting a [Culture] Victory, you may want to create a [Great Work of Music] to generate [Tourism] for your civilization. Or, you could perform a Concert Tour in another civilization to provide a one-time boost to your [Tourism]!"},
 			{},
 			{ "text": "Great Musician", "link": "Unit/Great Musician" },
@@ -717,41 +1113,41 @@
 			{ "text": "Tourism", "link": "Resource/Tourism" }
 		],
         "uniques": [
-            "Unavailable <if tutorial [You Have a Great Musician!] is completed>",
-            "Only available <if tutorials are enabled> <when number of [[Great Musician] Units] is more than [0]>",
+            "Unavailable <if tutorial [You Have a [Great Musician]!] is completed>",
+            "Only available <if tutorials are enabled> <when number of [[Great Musician] Units] is more than [0]>"
         ],
         "choices": [
             {
                 "text":"Got it",
-                "uniques": ["Mark tutorial [You Have a Great Musician!] complete"]
+                "uniques": ["Mark tutorial [You Have a [Great Musician]!] complete"]
             }
         ]
     },
 	{
-		"name": "Tutorial Task: [You're Generating Tourism!]",
+		"name": "Tutorial Task: [You're Generating [Tourism]!]",
         "presentation": "Floating",
         "civilopediaText":[
-			{ "text": "You're Generating Tourism!", "centered": true, "header": 5 },
+			{ "text": "You're Generating [Tourism]!", "centered": true, "header": 5 },
 			{ "text": "Other civilizations are starting to notice the grandeur of your [Culture]! In terms of a [Culture] Victory, consider [Tourism] your \"Offense\" against other civilizations, and [Culture] your \"Defense\" from other civilizations." },
 			{},
 			{ "text": "Tourism", "link": "Resource/Tourism" }
 		],
         "uniques": [
-            "Unavailable <if tutorial [You're Generating Tourism!] is completed>",
-            "Only available <if tutorials are enabled> <when number of [Tourism] is more than [0]>"
+            "Unavailable <if tutorial [You're Generating [Tourism]!] is completed>",
+            "Only available <if tutorials are enabled> <with [Tourism]>"
         ],
         "choices": [
             {
                 "text":"Got it",
-                "uniques": ["Mark tutorial [You're Generating Tourism!] complete"]
+                "uniques": ["Mark tutorial [You're Generating [Tourism]!] complete"]
             }
         ]
     },
 	{
-        "name": "Tutorial Task: [You Can Build a Writers' Guild!]",
+        "name": "Tutorial Task: [You Can Build a [Writers' Guild]!]",
         "presentation": "Floating",
         "civilopediaText":[
-			{ "text": "You Can Build a Writers' Guild!", "centered": true, "header": 5 },
+			{ "text": "You Can Build a [Writers' Guild]!", "centered": true, "header": 5 },
 			{ "text": "The [Writers' Guild] allows you to generate [Great Writer]s by assigning specialists to it. A [Great Writer] is a new type of Great Person that allows you to create [Great Work of Writing], essential for generating [Tourism] and winning a [Culture] Victory." },
 			{},
 			{ "text": "Writers' Guild", "link": "Building/Writers' Guild" },
@@ -759,21 +1155,21 @@
 			{ "text": "Tourism", "link": "Resource/Tourism" }
 		],
         "uniques": [
-            "Unavailable <if tutorial [You Can Build a Writers' Guild!] is completed>",
+            "Unavailable <if tutorial [You Can Build a [Writers' Guild]!] is completed>",
             "Only available <if tutorials are enabled> <after discovering [Drama and Poetry]>"
         ],
         "choices": [
             {
                 "text":"Got it",
-                "uniques": ["Mark tutorial [You Can Build a Writers' Guild!] complete"]
+                "uniques": ["Mark tutorial [You Can Build a [Writers' Guild]!] complete"]
             }
         ]
     },
 	{
-        "name": "Tutorial Task: [You Can Build a Artists' Guild!]",
+        "name": "Tutorial Task: [You Can Build a [Artists' Guild]!]",
         "presentation": "Floating",
         "civilopediaText":[
-			{ "text": "You Can Build a Artists' Guild!", "centered": true, "header": 5 },
+			{ "text": "You Can Build a [Artists' Guild]!", "centered": true, "header": 5 },
 			{ "text": "The [Artists' Guild] allows you to generate [Great Artist]s by assigning specialists to it. A [Great Artist] is a new type of Great Person that allows you to create [Great Work of Art], essential for generating [Tourism] and winning a [Culture] Victory." },
 			{},
 			{ "text": "Artists' Guild", "link": "Building/Artists' Guild" },
@@ -782,20 +1178,20 @@
 		],
         "uniques": [
             "Only available <if tutorials are enabled> <after discovering [Guilds]>",
-            "Unavailable <if tutorial [You Can Build a Artists' Guild!] is completed>"
+            "Unavailable <if tutorial [You Can Build a [Artists' Guild]!] is completed>"
         ],
         "choices": [
             {
                 "text":"Got it",
-                "uniques": ["Mark tutorial [You Can Build a Artists' Guild!] complete"]
+                "uniques": ["Mark tutorial [You Can Build a [Artists' Guild]!] complete"]
             }
         ]
     },
 	{
-        "name": "Tutorial Task: [You Can Build a Musicians' Guild!]",
+        "name": "Tutorial Task: [You Can Build a [Musicians' Guild]!]",
         "presentation": "Floating",
         "civilopediaText":[
-			{ "text": "You Can Build a Musicians' Guild!", "centered": true, "header": 5 },
+			{ "text": "You Can Build a [Musicians' Guild]!", "centered": true, "header": 5 },
 			{ "text": "The [Musicians' Guild] allows you to generate [Great Musician]s by assigning specialists to it. A [Great Musician] is a new type of Great Person that allows you to create [Great Work of Music], essential for generating [Tourism] and winning a [Culture] Victory." },
 			{},
 			{ "text": "Musicians' Guild", "link": "Building/Musicians' Guild" },
@@ -804,36 +1200,34 @@
 		],
         "uniques": [
             "Only available <if tutorials are enabled> <after discovering [Acoustics]>",
-            "Unavailable <if tutorial [You Can Build a Musicians' Guild!] is completed>"
+            "Unavailable <if tutorial [You Can Build a [Musicians' Guild]!] is completed>"
         ],
         "choices": [
             {
                 "text":"Got it",
-                "uniques": ["Mark tutorial [You Can Build a Musicians' Guild!] complete"]
+                "uniques": ["Mark tutorial [You Can Build a [Musicians' Guild]!] complete"]
             }
         ]
     },
 	{
-        "name": "Tutorial Task: [Antiquity Sites Revealed!]",
+        "name": "Tutorial Task: [[Antiquity Site]s Revealed!]",
         "presentation": "Floating",
         "civilopediaText":[
-			{ "text": "Antiquity Sites Revealed!", "centered": true, "header": 5 },
+			{ "text": "[Antiquity Site]s Revealed!", "centered": true, "header": 5 },
 			{ "text": "An interest in [Archaeology] has bloomed in your civilization! [Antiquity Site]s have been revealed on the map, marking the locations of historically important events." },
 			{ "text": "Building an [Archaeologist] will allow you to either extract an [Artifact] from the site, or create a [Landmark]." },
 			{},
 			{ "text": "Antiquity Site", "link": "Resource/Antiquity Site" },
-			{ "text": "Archaeologist", "link": "Unit/Archaeologist" },
-			{ "text": "Artifact", "link": "Resource/Artifact" },
-			{ "text": "Landmark", "link": "Improvement/Landmark" }
+			{ "text": "Archaeologist", "link": "Unit/Archaeologist" }
 		],
         "uniques": [
-            "Only available <if tutorials are enabled> <after discovering [Archaeology]>",
-            "Unavailable <if tutorial [Antiquity Sites Revealed!] is completed>"
+            "Only available <if tutorials are enabled> <after discovering [Archaeology]> <when number of [[Antiquity Site] Tiles] is more than [0]>",
+            "Unavailable <if tutorial [[Antiquity Site]s Revealed!] is completed>"
         ],
         "choices": [
             {
                 "text":"Got it",
-                "uniques": ["Mark tutorial [Antiquity Sites Revealed!] complete"]
+                "uniques": ["Mark tutorial [[Antiquity Site]s Revealed!] complete"]
             }
         ]
     },
@@ -849,7 +1243,7 @@
 			{ "text": "Tourism", "link": "Resource/Tourism" }
 		],
         "uniques": [
-            "Only available <if tutorials are enabled> <when number of [Artifact] is more than [0]>",
+            "Only available <if tutorials are enabled> <with [Artifact]>",
             "Unavailable <if tutorial [You've Made a Discovery!] is completed>"
         ],
         "choices": [
@@ -874,7 +1268,7 @@
         "uniques": [
             "Unavailable <if tutorial [Your Great Works are World-Renowned!] is completed>",
             "Only available <if tutorials are enabled>",
-			"Unavailable <when number of [Great Work of Art] is less than [1]> <when number of [Great Work of Music] is less than [1]> <when number of [Great Work of Writing] is less than [1]>"
+			"Unavailable <without [Great Work of Art]> <without [Great Work of Music]> <without [Great Work of Writing]>"
         ],
         "choices": [
             {

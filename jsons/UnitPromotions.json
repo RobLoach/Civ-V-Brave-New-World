@@ -131,7 +131,7 @@
 		"innerColor": [178, 52, 51]
 	},
 
-	// Paratrooper and Future Soldier
+	// Paratrooper and Future Infantry
 	{
 		"name": "Paradrop",
 		"uniques": [
@@ -273,16 +273,6 @@
 		]
 	},
 
-	// Airport
-	{
-		"name": "[Airport] ability",
-		"uniques": [
-			"[+2] Air Interception Range",
-			"[+10]% Strength when performing Air Sweep",
-			"[1] Movement"
-		]
-	},
-
 	// Pathfinder: Native Tongue
 	{
 		"name": "[Pathfinder] ability",
@@ -298,7 +288,6 @@
 			// Can not choose the same benefit until 2 other options are picked
 			"Comment [May choose benefit when discovering [Ancient ruins]]",
 			"Triggers a [Native Tongue] event <upon entering a [Ancient ruins] tile> <hidden from users>",
-			"Remove [Ancient ruins] improvements from this tile <upon entering a [Ancient ruins] tile> <hidden from users>",
 
 			// Upgrading Pathfinder to Composite Bowman does not keep Native Tongue. Run this three times ensure all counters are removed.
 			"Triggers a [Native Tongue Counter] event <upon turn end> <for [non-[Pathfinder]] units> <hidden from users>",

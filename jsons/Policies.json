@@ -73,7 +73,8 @@
 				"uniques": [
 					"[+15]% growth [in all cities]",
 					"Provides a [Aqueduct] in your first [4] cities for free",
-					"May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+					"May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+                    "Get the leader title of [Lord [leaderName]]"
 				]
 			}
 		]
@@ -146,7 +147,10 @@
             },
             {
                 "name": "Liberty Complete",
-                "uniques": ["Free Great Person"]
+                "uniques": [
+					"Free Great Person",
+                    "Get the leader title of [Consul [leaderName]]"
+				]
             }
         ]
     },
@@ -180,7 +184,9 @@
 			{
 				"name": "Mandate Of Heaven",
 				"uniques": [
-					"[Faith] cost of purchasing items in cities [-20]%" // TODO: Make this not applicable to Great People
+					"[Faith] cost of purchasing [all] buildings [-20]%",
+					"[Faith] cost of purchasing [non-[Great Person]] units [-20]%",
+					"[50]% weight to this choice for AI decisions" // Rush to Reformation
 				],
 				"row": 1,
 				"column": 5
@@ -200,8 +206,10 @@
 			{
 				"name": "Reformation",
 				"uniques": [
-					"Gain a free [Enhancer] belief <after founding a religion>", // If you founded a religion, gain a bonus Reformation belief.
 					"Comment [Allows adopting [Reformation] Beliefs into your Religion]",
+					"Comment [Gain a free [Reformation] belief]",
+					"Triggers a [Reformation] event <after founding a religion> <hidden from users>",
+					"Triggers a [Reformation] event <upon founding a Religion> <hidden from users>",
 					"[100]% weight to this choice for AI decisions"
 				],
 				"requires": [
@@ -227,7 +235,8 @@
 				"name": "Religious Tolerance",
 				"uniques": [
 					// TODO: Cities with a majority religion also get the Pantheon belief bonus of the second most popular religion
-					"[-10]% Culture cost of adopting new Policies"
+					"[-10]% Culture cost of adopting new Policies",
+					"[50]% weight to this choice for AI decisions" // Rush to Reformation
 				],
 				"requires": [
 					"Organized Religion"
@@ -240,7 +249,8 @@
 				"uniques": [
 					"[Faith] cost of purchasing items in cities [-20]%",
 					"[+3 Culture] from every [Holy site]",
-					"Free [Great Prophet] appears"
+					"Free [Great Prophet] appears",
+                    "Get the leader title of [[leaderName] the Pious]"
 				]
 			}
 		]
@@ -296,7 +306,8 @@
 			{
 				"name": "Consulates",
 				"uniques": [
-					"Resting point for Influence with City-States is increased by [20]"
+					// 20 in BNW, but we use 15 in Unciv for balance.
+					"Resting point for Influence with City-States is increased by [15]"
 				],
 				"row": 1,
 				"column": 4
@@ -317,7 +328,8 @@
 			{
 				"name": "Patronage Complete",
 				"uniques": [
-					"Allied City-States will occasionally gift Great People"
+					"Allied City-States will occasionally gift Great People",
+                    "Get the leader title of [[leaderName] the Enlightened]"
 				]
 			}
 		]
@@ -394,7 +406,8 @@
 				"name": "Rationalism Complete",
 				"uniques": [
 					"Free Technology",
-					"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+					"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Get the leader title of [[leaderName] the Wise]"
 				]
 			}
 		]
@@ -562,7 +575,8 @@
 				"name": "Commerce Complete",
 				"uniques": [
 					"[+1 Gold] from every [Trading post]",
-					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>"
+					"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
+					"Get the leader title of [Doge [leaderName]]"
 				]
 			}
 		]
@@ -679,11 +693,15 @@
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Order]> <hidden from users>",
-			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
+
+			"Triggers a [[Ideology]: Free [Autocracy] Tenet] event",
+			"Triggers a [[Ideology]: Free [Autocracy] Tenet] event <if no other Civilization has adopted this>", // Early Adopter
+
 			"Remove [Ideology] [in capital] <hidden from users>",
+			"Get the leader title of [[leaderName] the Terrible]",
 
 			// Preferred Ideology
-			"[+50]% weight to this choice for AI decisions",
+			"[+200]% weight to this choice for AI decisions",
 			"[+1000]% weight to this choice for AI decisions <for [Preferred Ideology: Autocracy] Civilizations>",
 			"[+1000]% weight to this choice for AI decisions <for [Aztecs] Civilizations>",
 			"[+1000]% weight to this choice for AI decisions <for [Greece] Civilizations>",
@@ -700,7 +718,8 @@
 				"name": "Elite Forces",
 				"uniques": [
 					"[+25]% Strength <for [{Wounded} {Military}] units> <when attacking>",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[-10]% weight to this choice for AI decisions"
 				],
 				"row": 1,
 				"column": 1
@@ -709,7 +728,8 @@
 				"name": "Mobilization",
 				"uniques": [
 					"[Gold] cost of purchasing [Military] units [-33]%",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[+10]% weight to this choice for AI decisions"
 				],
 				"row": 1,
 				"column": 3
@@ -718,8 +738,9 @@
 				"name": "United Front",
 				"uniques": [
 					"Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
-					"[-100]% weight to this choice for AI decisions",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[-10]% weight to this choice for AI decisions",
+					"[-90]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [3]>"
 				],
 				"row": 1,
 				"column": 5
@@ -731,7 +752,8 @@
 					"Instantly provides [250] [Tourism] <upon gaining a [Great Artist] unit>",
 					"Instantly provides [250] [Tourism] <upon gaining a [Great Musician] unit>",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
-					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
+					"[+10]% weight to this choice for AI decisions"
 				],
 				"row": 1,
 				"column": 7
@@ -741,7 +763,8 @@
 				"uniques": [
 					// TODO: Spies steal technologies twice as fast.
 					"[+20]% spy effectiveness [in enemy cities]",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[-100]% weight to this choice for AI decisions <when espionage is disabled>"
 				],
 				"row": 1,
 				"column": 9
@@ -752,7 +775,8 @@
 					"[+1 Happiness] from all [Castle] buildings",
 					"[+1 Happiness] from all [Arsenal] buildings",
 					"[+1 Happiness] from all [Military Base] buildings",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[+10]% weight to this choice for AI decisions"
 				],
 				"row": 1,
 				"column": 11
@@ -761,7 +785,8 @@
 				"name": "Universal Healthcare (Autocracy)",
 				"uniques": [
 					"[+1 Happiness] from all [National Wonder] buildings",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[+10]% weight to this choice for AI decisions"
 				],
 				"row": 1,
 				"column": 13
@@ -776,7 +801,10 @@
 					"[+2 Happiness] from every [Military Academy]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"[+20]% weight to this choice for AI decisions",
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 2
@@ -789,7 +817,10 @@
 					"All newly-trained [Armored] units [in your cities] receive the [Lightning Warfare] promotion <hidden from users>",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"[+20]% weight to this choice for AI decisions",
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 4,
@@ -804,7 +835,9 @@
 					"[+100]% Production when constructing [Courthouse] buildings [in your cities]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 6
@@ -815,7 +848,9 @@
 					"[-33]% maintenance costs <for [All] units>",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 8
@@ -832,7 +867,9 @@
 					"[+100]% [Uranium] resource production",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 10
@@ -844,7 +881,10 @@
 					"New [Military] units start with [15] XP [in your cities]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"[+20]% weight to this choice for AI decisions",
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 12
@@ -871,7 +911,8 @@
 					"[-20]% City-State Influence degradation",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
-					"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
+					"[-30]% weight to this choice for AI decisions",
+					"[-70]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
 				],
 				"row": 3,
 				"column": 5
@@ -881,7 +922,8 @@
 				"uniques": [
 					"[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
+					"[+30]% weight to this choice for AI decisions"
 				],
 				"row": 3,
 				"column": 7
@@ -910,14 +952,18 @@
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
-			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
+
+			"Triggers a [[Ideology]: Free [Order] Tenet] event",
+			"Triggers a [[Ideology]: Free [Order] Tenet] event <if no other Civilization has adopted this>", // Early Adopter
+
 			"Remove [Ideology] [in capital] <hidden from users>",
+			"Get the leader title of [Chairman [leaderName]]",
 
 			// Cultural Revolution. TODO: Instead of "constructed by anybody", it should be for every other Civilization that adopted Cultural Revolution
 			"[+34]% [Tourism] resource production <if [Cultural Revolution] is constructed by anybody> <hidden from users>",
 
 			// Preferred Ideology
-			"[+50]% weight to this choice for AI decisions",
+			"[+200]% weight to this choice for AI decisions",
 			"[+1000]% weight to this choice for AI decisions <for [Preferred Ideology: Order] Civilizations>",
 			"[+1000]% weight to this choice for AI decisions <for [Babylon] Civilizations>",
 			"[+1000]% weight to this choice for AI decisions <for [China] Civilizations>",
@@ -935,7 +981,8 @@
 				"name": "Hero of the People",
 				"uniques": [
 					"[+25]% Great Person generation [in your cities]",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[+10]% weight to this choice for AI decisions"
 				],
 				"row": 1,
 				"column": 1
@@ -945,7 +992,8 @@
 				"uniques": [
 					"[+20]% Production when constructing [Monument] buildings [in your cities]",
 					"[+1 Happiness] from all [Monument] buildings",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[+10]% weight to this choice for AI decisions"
 				],
 				"row": 1,
 				"column": 3
@@ -963,7 +1011,8 @@
 				"name": "Patriotic War",
 				"uniques": [
 					"[+15]% Strength <when attacking> <when fighting in [Friendly Land] tiles>",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[+10]% weight to this choice for AI decisions"
 				],
 				"row": 1,
 				"column": 7
@@ -973,7 +1022,9 @@
 				"uniques": [
 					// TODO: Spies have double the chance to capture an enemy spy attempting to steal a technology.
 					"[-50]% enemy spy effectiveness [in your cities]",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[-20]% weight to this choice for AI decisions",
+					"[-80]% weight to this choice for AI decisions <when espionage is disabled>"
 				],
 				"row": 1,
 				"column": 9
@@ -986,7 +1037,8 @@
 					"[+1 Happiness] from all [Solar Plant] buildings",
 					"[+1 Happiness] from all [Nuclear Plant] buildings",
 					"[+1 Happiness] from all [Hydro Plant] buildings",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[+10]% weight to this choice for AI decisions"
 				],
 				"row": 1,
 				"column": 11
@@ -1010,7 +1062,10 @@
 					"[+1 Happiness] from all [Research Lab] buildings",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"[+20]% weight to this choice for AI decisions",
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 2
@@ -1021,7 +1076,9 @@
 					"[+1 Culture, +1 Food, +1 Gold, +1 Production, +1 Science] [in your cities]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 4
@@ -1032,7 +1089,10 @@
 					"[3] population [in this city] <upon founding a city>",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"[-10]% weight to this choice for AI decisions", // Modern era, not many new cities are spawned.
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 6
@@ -1044,7 +1104,9 @@
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
-					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 8
@@ -1056,7 +1118,10 @@
 					"[+100]% Production when constructing [Factory] buildings [in your cities]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"[+20]% weight to this choice for AI decisions",
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 10
@@ -1069,7 +1134,10 @@
 					"[+1 Production] from [Quarry] tiles [in your cities]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"[+20]% weight to this choice for AI decisions",
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 12
@@ -1096,7 +1164,8 @@
 					//"[+50]% [Production] from Trade Routes <in [Your] cities>", // TODO: Does this work? Should be for Internal trade routes
 					"Comment [[+50]% [Food] and [Production] from Trade Routes]",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
+					"[+30]% weight to this choice for AI decisions"
 				],
 				"row": 3,
 				"column": 5
@@ -1110,7 +1179,8 @@
 					"Free [Great Scientist] appears",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
-					"[-100]% weight to this choice for AI decisions <when [Scientific] Victory is disabled>"
+					"[-100]% weight to this choice for AI decisions <when [Scientific] Victory is disabled>",
+					"[+30]% weight to this choice for AI decisions"
 				],
 				"row": 3,
 				"column": 7
@@ -1139,11 +1209,15 @@
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
-			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
+
+			"Triggers a [[Ideology]: Free [Freedom] Tenet] event",
+			"Triggers a [[Ideology]: Free [Freedom] Tenet] event <if no other Civilization has adopted this>", // Early Adopter
+
 			"Remove [Ideology] [in capital] <hidden from users>",
+			"Get the leader title of [President [leaderName]]",
 
 			// Preferred Ideology
-			"[+50]% weight to this choice for AI decisions",
+			"[+200]% weight to this choice for AI decisions",
 			"[+1000]% weight to this choice for AI decisions <for [Preferred Ideology: Freedom] Civilizations>",
 			"[+1000]% weight to this choice for AI decisions <for [America] Civilizations>",
 			"[+1000]% weight to this choice for AI decisions <for [Austria] Civilizations>",
@@ -1151,7 +1225,7 @@
 			"[+1000]% weight to this choice for AI decisions <for [Ethiopia] Civilizations>",
 			"[+1000]% weight to this choice for AI decisions <for [India] Civilizations>",
 			"[+1000]% weight to this choice for AI decisions <for [Korea] Civilizations>",
-			"[+1000]% weight to this choice for AI decisions <for [Polynesia] Civilizations>"
+			"[+1000]% weight to this choice for AI decisions <for [Polynesia] Civilizations>",
 		],
 		"civilopediaText": [
 			{ "text": "Best Victory Types: ♪Cultural ⚖Diplomatic ⍾Science" }
@@ -1162,7 +1236,8 @@
 				"name": "Avant Garde",
 				"uniques": [
 					"[+25]% Great Person generation [in your cities]",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[+10]% weight to this choice for AI decisions"
 				],
 				"row": 1,
 				"column": 1
@@ -1171,7 +1246,8 @@
 				"name": "Creative Expression",
 				"uniques": [
 					"[+1 Culture] from all [Great Work] buildings",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[+10]% weight to this choice for AI decisions"
 				],
 				"row": 1,
 				"column": 3
@@ -1180,7 +1256,8 @@
 				"name": "Civil Society",
 				"uniques": [
 					"[-50]% Food consumption by specialists [in your cities]",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[+10]% weight to this choice for AI decisions"
 				],
 				"row": 1,
 				"column": 5
@@ -1191,7 +1268,9 @@
 					// Spies have double the chance to successfully rig City-State elections
 					"[+100]% spy effectiveness [in City-State cities]",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
-					"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
+					"[-20]% weight to this choice for AI decisions",
+					"[-40]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>",
+					"[-40]% weight to this choice for AI decisions <when espionage is disabled>"
 				],
 				"row": 1,
 				"column": 7
@@ -1202,7 +1281,8 @@
 					"[+1 Happiness] from every [Mint]",
 					"[+1 Happiness] from every [Bank]",
 					"[+1 Happiness] from every [Stock Exchange]",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[+10]% weight to this choice for AI decisions"
 				],
 				"row": 1,
 				"column": 9
@@ -1211,7 +1291,8 @@
 				"name": "Economic Union",
 				"uniques": [
 					"[+1 Gold] from each Trade Route", // TODO: +3 Gold from each Trade Route with other Freedom Civilizations.
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[-10]% weight to this choice for AI decisions"
 				],
 				"row": 1,
 				"column": 11
@@ -1220,7 +1301,8 @@
 				"name": "Universal Healthcare (Freedom)",
 				"uniques": [
 					"[+1 Happiness] from all [National Wonder] buildings",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"[+10]% weight to this choice for AI decisions"
 				],
 				"row": 1,
 				"column": 13
@@ -1234,7 +1316,10 @@
 					"[6] free [Foreign Legion] units appear",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"[+20]% weight to this choice for AI decisions",
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 2
@@ -1247,7 +1332,10 @@
 					"[+1 Happiness] from every [Medical Lab]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"[+20]% weight to this choice for AI decisions",
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 4
@@ -1258,7 +1346,9 @@
 					"[+33]% Strength for cities",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 6
@@ -1270,7 +1360,10 @@
 					"[-50]% Unhappiness from [Specialists] [in your cities]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"[+10]% weight to this choice for AI decisions",
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 8
@@ -1285,7 +1378,9 @@
 					"[+4 Faith] from [Holy site] tiles [in your cities]",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 10
@@ -1297,7 +1392,9 @@
 					"Gain [15] Influence with a [Military] gift to a City-State",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
-					"Only available <when above [1] [Level 1 Policy]> <hidden from users>"
+					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
+					"Ideology: Level 2 Tenet",
+					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
 				],
 				"row": 2,
 				"column": 12
@@ -1310,7 +1407,8 @@
 					"Comment [[+33]% [Tourism] resource production <in cities with a [Broadcast Tower]>]", // @see Building/Broadcast Tower
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
-					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
+					"[+30]% weight to this choice for AI decisions"
 				],
 				"row": 3,
 				"column": 3
@@ -1321,7 +1419,8 @@
 					"[+50]% resources gifted by City-States", // TODO: Gain 4 more Influence per turn with City-States you have a trade route to.
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
-					"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
+					"[-90]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>",
+					"[-10]% weight to this choice for AI decisions"
 				],
 				"row": 3,
 				"column": 5
@@ -1332,7 +1431,8 @@
 					"May buy [Spaceship part] units with [Gold] [in your cities]",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
-					"[-100]% weight to this choice for AI decisions <when [Scientific] Victory is disabled>"
+					"[-100]% weight to this choice for AI decisions <when [Scientific] Victory is disabled>",
+					"[+30]% weight to this choice for AI decisions"
 				],
 				"row": 3,
 				"column": 7
