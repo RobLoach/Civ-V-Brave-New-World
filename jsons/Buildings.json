@@ -353,7 +353,7 @@
 		"uniques": [
 			"Destroyed when the city is captured",
 			"New [Military] units start with [15] XP [in this city]",
-			"All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion <before the [Renaissance era]>" // Pre-Gunpowder era.
+			"All newly-trained [{pre-[Renaissance era]} {Sword}] units [in this city] receive the [Buffalo Horns] promotion" // Pre-Gunpowder era
 		],
         "requiredTech": "Bronze Working",
 		"civilopediaText": [
