@@ -959,8 +959,8 @@
 			"Remove [Ideology] [in capital] <hidden from users>",
 			"Get the leader title of [Chairman [leaderName]]",
 
-			// Cultural Revolution. TODO: Instead of "constructed by anybody", it should be for every other Civilization that adopted Cultural Revolution
-			"[+34]% [Tourism] resource production <if [Cultural Revolution] is constructed by anybody> <hidden from users>",
+			// Cultural Revolution
+			"[+34]% [Tourism] resource production <for every [Adopted [Cultural Revolution] Policies by [Major] Civilizations]> <hidden from users>",
 
 			// Preferred Ideology
 			"[+200]% weight to this choice for AI decisions",
@@ -1100,13 +1100,17 @@
 			{
 				"name": "Cultural Revolution",
 				"uniques": [
-					"Comment [+34% Tourism to other Order Civilizations]",
+					"Comment [+34% [Tourism] to other [Order] Civilizations]",
+					"[-34]% [Tourism] resource production <hidden from users>", // Counter acted in Order
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
 					"Instantly consumes [1] [Level 1 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 1 Policy]> <hidden from users>",
 					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
 					"Ideology: Level 2 Tenet",
 					"Only available <when number of [Adopted [Ideology: Level 2 Tenet] Policies] is less than [4]> <hidden from users>"
+				],
+				"civilopediaText": [
+					{ "text": "Tourism", "link": "Resources/Tourism" }
 				],
 				"row": 2,
 				"column": 8
@@ -1408,6 +1412,9 @@
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
 					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
 					"[+30]% weight to this choice for AI decisions"
+				],
+				"civilopediaText": [
+					{ "text": "Tourism", "link": "Resources/Tourism" }
 				],
 				"row": 3,
 				"column": 3
