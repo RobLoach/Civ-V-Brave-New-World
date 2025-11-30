@@ -675,11 +675,11 @@
 
 					"[This Unit] loses the [[Native Tongue] [an ancient prophecy] I] promotion <for units with [[Native Tongue] [an ancient prophecy] II]>",
 					"[This Unit] loses the [[Native Tongue] [an ancient prophecy] II] promotion <for units with [[Native Tongue] [an ancient prophecy] II]>",
-					"[This Unit] gains the [[Native Tongue] [an ancient prophecy] II] promotion <for units with [[Native Tongue] [an ancient prophecy] I]>",
+					"[This Unit] gains the [[Native Tongue] [an ancient prophecy] II] promotion <for units with [[Native Tongue] [an ancient prophecy] I]>"
 				]
 			}
 		]
-	}
+	},
 
 	// Kris Swordsman: Mystic Blade
 	{
