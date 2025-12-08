@@ -1,6 +1,7 @@
 {
 	"isBaseRuleset": false,
 	"buildingsToRemove": [
+		"United Nations", // World Congress
 		"Utopia Project", // Cultural Victory is handled with Tourism now
 		"National Treasury" // Replaced by East India Company https://civilization.fandom.com/wiki/East_India_Company_(Civ5)
 	],
