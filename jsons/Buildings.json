@@ -2089,7 +2089,20 @@
 			// TODO: If no civ receives enough support to win a World Leader election, the two civs who received the most support get 2 permanent additional delegates for use in future sessions.
 			// TODO: World Congress becomes "United Nations" once any Civilization reaches the Information Era or at least half of the world's Civilizations reach the Atomic Era
 			// TODO: Resolutions - https://civilization.fandom.com/wiki/Resolutions_(Civ5)
+
+			"Triggers a [World Congress - Enact Resolution] event <every [3] turns>"
 		],
 		"quote": "'All for one, one for all, that is our device.' - Alexandre Dumas, Les Trois Mousquetaires"
+	},
+	{
+		"name": "World Congress - Vote Standing Army Tax",
+		"isNationalWonder": true,
+		"cost": 0,
+		"uniques":[
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Moves to new capital when capital changes <hidden from users>",
+			"Triggers a global alert upon completion <hidden from users>",
+		]
 	}
 ]
