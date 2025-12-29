@@ -1,5 +1,8 @@
 {
 	"name": "Civ V Brave New World",
+	"unitUniques": [
+		"May Paradrop to [{Airport} {Friendly}] tiles up to [200] tiles away <for [Land] units> <within [1] tiles of a [{Friendly} {Airport}]>" // @see Buildings.json Airport
+	],
 	"uniques": [
 		// Great Merchant Trade Mission Calculations
 		// https://civilization.fandom.com/wiki/Great_Merchant_(Civ5)#Formula
@@ -18,9 +21,9 @@
 		"Enables [Great Admiral] units to enter ocean tiles <hidden from users>",
 
 		// Cultural Victory condition. @see VictoryTypes.json
-		"Provides [1] [Accumulated Culture] <for every [[Culture] Per Turn]>"
-	],
-	"unitUniques": [
-		"May Paradrop to [{Airport} {Friendly}] tiles up to [200] tiles away <for [Land] units> <within [1] tiles of a [{Friendly} {Airport}]>" // @see Buildings.json Airport
+		"Provides [1] [Accumulated Culture] <for every [[Culture] Per Turn]>",
+
+		// World Congress
+		"Triggers a "
 	]
 }

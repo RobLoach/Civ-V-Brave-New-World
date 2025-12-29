@@ -1276,5 +1276,42 @@
                 "uniques": ["Mark tutorial [Your Great Works are World-Renowned!] complete"]
             }
         ]
-    }
+    },
+
+	// World Congress
+	{
+		"name": "World Congress - Enact Resolution",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Standing Army Tax",
+				"uniques": [
+					"Comment [Unit maintenance costs are raised by 25% [Gold]",
+					"Gain a free [World Congress - Vote Standing Army Tax] [in capital] <hidden from users>"
+				]
+			}
+		]
+
+	},
+
+	{
+		"name": "World Congress - Vote",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Yay",
+				"uniques": [
+					"Gain a free [World Congress - Vote Yay] [in capital] <hidden from users>",
+					"Only available <if [World Congress - Vote Yay] is not constructed>",
+				]
+			},
+			{
+				"text": "Nay",
+				"uniques": [
+					"Gain a free [World Congress - Vote Nay] [in capital] <hidden from users>",
+					"Only available <if [World Congress - Vote Nay] is not constructed>",
+				]
+			}
+		]
+	}
 ]

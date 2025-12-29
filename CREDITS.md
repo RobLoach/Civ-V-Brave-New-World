@@ -99,6 +99,7 @@
 - [Comanche Riders](https://thenounproject.com/icon/native-indian-headdress-6252201/) by Juicy Fish
 - [Courthouse](https://thenounproject.com/icon/courthouse-7403358/) by Ariyanto Deni
 - [Creative Expression](https://thenounproject.com/icon/splash-4390563/) by AbtoCreative from NounProject.com
+- [Convention](https://thenounproject.com/icon/convention-5970795/) by Andre Buand for BuildingIcons/World Congress
 - [Cult of Personality](https://thenounproject.com/icon/bully-4616110/) by Kamin Ginkaew
 - [Cultural Revolution](https://thenounproject.com/icon/cultural-activities-7659287/) by Mia Elysia
 - [Deal](https://thenounproject.com/icon/deal-7503121/) by Imron Sadewo
