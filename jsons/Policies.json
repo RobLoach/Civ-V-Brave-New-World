@@ -1403,7 +1403,7 @@
 			{
 				"name": "Media Culture",
 				"uniques": [
-					"Comment [[+33]% [Tourism] resource production <in cities with a [Broadcast Tower]>]", // @see Building/Broadcast Tower
+					"Comment [[+34]% [Tourism] resource production <in cities with a [Broadcast Tower]>]", // @see Building/Broadcast Tower
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
 					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
