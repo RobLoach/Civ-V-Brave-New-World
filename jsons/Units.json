@@ -79,6 +79,7 @@
 		"movement": 2,
 		"cost": 75,
 		"requiredTech": "Animal Husbandry",
+		"requiredResource": "Trade Route",
 		"uniques": [
 			"Comment [Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence]",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [10] Influence <for units without [[Caravansary] ability]> <hidden from users>",
@@ -87,7 +88,6 @@
 			// TODO: Change Home City (After selecting a city and waiting a turn, allows different trade routes to be made.)
 			"[1] Movement <for [Caravans gain 50% extended range] Civilizations> <hidden from users>", // Caravans gain 50% extended range
 			"Unavailable <for [City-States] Civilizations> <hidden from users>",
-			"Costs [1] [Trade Route]",
 			"Only available <with [Trade Route]> <hidden from users>",
 			"[-2] Sight <hidden from users>",
 			"Ignores terrain cost",
@@ -107,6 +107,7 @@
 		"movement": 4,
 		"cost": 100,
 		"requiredTech": "Sailing",
+		"requiredResource": "Trade Route",
 		"uniques": [
 			"Comment [Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence]",
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence <for units without [[Harbor] ability]> <hidden from users>",
@@ -114,7 +115,6 @@
 			// TODO: Establish Trade Route with a different civ (Route must run over water from one coastal city to another.)
 			// TODO: Change Home City (After selecting a coastal city and waiting a turn, allows different trade routes to be made.)
 			"Unavailable <for [City-States] Civilizations> <hidden from users>",
-			"Costs [1] [Trade Route]",
 			"Only available <with [Trade Route]> <hidden from users>",
 			"[-2] Sight <hidden from users>",
 			"May enter foreign tiles without open borders",
