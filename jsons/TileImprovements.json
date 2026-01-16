@@ -166,7 +166,7 @@
 		"name": "Ancient ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable",
-			"Provides a random bonus when entered <for [non-[Native Tongue]] units>",
+			"Provides a random bonus when entered <for [non-[Native Tongue]] units>", // BNW
 			"Unbuildable",
 			"Does not need removal of [Forest]", "Does not need removal of [Jungle]"]
 	},
@@ -175,7 +175,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor",
-			"Airport <in cities with a [Airport]> <hidden from users>" // @see Buildings.json/Airport
+			"Airport <in cities with a [Airport]> <hidden from users>" // BNW. @see Buildings.json/Airport
 		],
         "civilopediaText": [
 			{"text":"Marks the center of a city"},
