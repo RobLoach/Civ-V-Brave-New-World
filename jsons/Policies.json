@@ -692,8 +692,10 @@
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Order]> <hidden from users>",
 
-			"Triggers a [[Ideology]: Free [Autocracy] Tenet] event",
-			"Triggers a [[Ideology]: Free [Autocracy] Tenet] event <if no other Civilization has adopted this>", // Early Adopter
+			// Early Adopter: 2 free tenets if first, 1 free tenet if second.
+			"Triggers a [[Ideology]: Free [Autocracy] Tenet] event <if no other Civilization has adopted this>",
+			"Triggers a [[Ideology]: Free [Autocracy] Tenet] event <if no other Civilization has adopted this>",
+			"Triggers a [[Ideology]: Free [Autocracy] Tenet] event <when number of [Adopted [Autocracy] Policies by [all] Civilizations] is equal to [2]>",
 
 			"Remove [Ideology] [in capital] <hidden from users>",
 			"Get the leader title of [[leaderName] the Terrible]",
@@ -951,8 +953,10 @@
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 
-			"Triggers a [[Ideology]: Free [Order] Tenet] event",
-			"Triggers a [[Ideology]: Free [Order] Tenet] event <if no other Civilization has adopted this>", // Early Adopter
+			// Early Adopter: 2 free tenets if first, 1 free tenet if second.
+			"Triggers a [[Ideology]: Free [Order] Tenet] event <if no other Civilization has adopted this>",
+			"Triggers a [[Ideology]: Free [Order] Tenet] event <if no other Civilization has adopted this>",
+			"Triggers a [[Ideology]: Free [Order] Tenet] event <when number of [Adopted [Order] Policies by [all] Civilizations] is equal to [2]>",
 
 			"Remove [Ideology] [in capital] <hidden from users>",
 			"Get the leader title of [Chairman [leaderName]]",
@@ -1207,8 +1211,10 @@
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 
-			"Triggers a [[Ideology]: Free [Freedom] Tenet] event",
-			"Triggers a [[Ideology]: Free [Freedom] Tenet] event <if no other Civilization has adopted this>", // Early Adopter
+			// Early Adopter: 2 free tenets if first, 1 free tenet if second.
+			"Triggers a [[Ideology]: Free [Freedom] Tenet] event <if no other Civilization has adopted this>",
+			"Triggers a [[Ideology]: Free [Freedom] Tenet] event <if no other Civilization has adopted this>",
+			"Triggers a [[Ideology]: Free [Freedom] Tenet] event <when number of [Adopted [Freedom] Policies by [all] Civilizations] is equal to [2]>",
 
 			"Remove [Ideology] [in capital] <hidden from users>",
 			"Get the leader title of [President [leaderName]]",
