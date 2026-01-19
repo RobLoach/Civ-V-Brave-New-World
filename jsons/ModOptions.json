@@ -31,6 +31,9 @@
 		"Mod requires [Civ V - Gods & Kings]",
 		"Mod is incompatible with [Brave New World]",
 		"Mod is incompatible with [Brave New World Updated]",
-		"Cannot be used as permanent audiovisual mod"
+		"Cannot be used as permanent audiovisual mod",
+
+		// Suppress Warnings
+		"Suppress warning [(Tutorial) Civ V Brave New World's civilopediaText line 1: extraImage not found as either atlas texture or in ExtraImages folder]"
 	]
 }
