@@ -12,7 +12,8 @@
 				"row": 5,
 				"prerequisites": ["Agriculture"],
 				"uniques": [
-					"Instantly provides [1] [Trade Route]"
+					"Instantly provides [1] [Trade Route]",
+					"Instantly provides [1] [Trade Route] <for [Double the normal number of Trade Routes available] Civilizations> <hidden from users>"
 				],
 				"quote": "'Thou shalt not muzzle the ox when he treadeth out the corn.' - Bible Deuteronomy 25:4"
 			}
@@ -31,7 +32,8 @@
 				"prerequisites": ["Pottery"],
                 "uniques": [
 					"[+100]% weight to this choice for AI decisions",
-					"Instantly provides [1] [Trade Route]"
+					"Instantly provides [1] [Trade Route]",
+					"Instantly provides [1] [Trade Route] <for [Double the normal number of Trade Routes available] Civilizations> <hidden from users>"
 				],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			}
@@ -51,7 +53,8 @@
 				"uniques": [
 					"Roads connect tiles across rivers",
 					"[+100]% weight to this choice for AI decisions",
-					"Instantly provides [1] [Trade Route]"
+					"Instantly provides [1] [Trade Route]",
+					"Instantly provides [1] [Trade Route] <for [Double the normal number of Trade Routes available] Civilizations> <hidden from users>"
 				],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			}
@@ -72,7 +75,8 @@
                 "uniques": [
 					"[-50]% weight to this choice for AI decisions",
 					"[1] Movement <for [Cargo Ship] units>", // TODO: Increases the range of sea trade routes
-					"Instantly provides [1] [Trade Route]"
+					"Instantly provides [1] [Trade Route]",
+					"Instantly provides [1] [Trade Route] <for [Double the normal number of Trade Routes available] Civilizations> <hidden from users>"
 				],
 				"quote": "'I find the great thing in this world is not so much where we stand, as in what direction we are moving.' - Oliver Wendell Holmes"
 			}
@@ -91,7 +95,8 @@
 				"prerequisites": ["Chivalry", "Education"],
                 "uniques": [
 					"[+100]% weight to this choice for AI decisions",
-					"Instantly provides [1] [Trade Route]"
+					"Instantly provides [1] [Trade Route]",
+					"Instantly provides [1] [Trade Route] <for [Double the normal number of Trade Routes available] Civilizations> <hidden from users>"
 				],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			}
@@ -109,10 +114,11 @@
 				"prerequisites": ["Archaeology", "Scientific Theory"],
                 "uniques": [
 					"[+100]% weight to this choice for AI decisions",
-					"Instantly provides [1] [Trade Route]"
+					"Instantly provides [1] [Trade Route]",
+					"Instantly provides [1] [Trade Route] <for [Double the normal number of Trade Routes available] Civilizations> <hidden from users>"
 				],
 				"quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson"
-			},
+			}
 		]
 	},
 	{
@@ -128,7 +134,8 @@
 				"prerequisites": ["Steam Power", "Dynamite"],
                 "uniques": [
 					"[+100]% weight to this choice for AI decisions",
-					"Instantly provides [1] [Trade Route]"
+					"Instantly provides [1] [Trade Route]",
+					"Instantly provides [1] [Trade Route] <for [Double the normal number of Trade Routes available] Civilizations> <hidden from users>"
 				],
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
 			}
@@ -146,7 +153,8 @@
 				"row": 2,
 				"prerequisites": ["Plastics", "Refrigeration"],
 				"uniques": [
-					"Instantly provides [1] [Trade Route]"
+					"Instantly provides [1] [Trade Route]",
+					"Instantly provides [1] [Trade Route] <for [Double the normal number of Trade Routes available] Civilizations> <hidden from users>"
 				],
 				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
 			}
@@ -155,7 +163,7 @@
 
 	// Hidden Antiquity Sites
 	{
-		"columnNumber": 7,
+		"columnNumber": 5,
 		"era": "Medieval era",
 		"techCost": 1600,
 		"buildingCost": 300,
@@ -164,13 +172,13 @@
 			{
 				// Used to allow use of "revealedBy" in Hidden Antiquity Site tile resources.
 				"name": "Hidden Antiquity Sites",
-				"row": 5,
+				"row": 10,
 				"cost": 1,
                 "uniques": [
 					"[-100]% weight to this choice for AI decisions <hidden from users>",
 					"Only available <after adopting [Exploration Complete]>"
 				],
-				"quote": "'Antiquities are history defaced, or some remnants of history which have casually escaped the shipwreck of time.' - Francis Bacon"
+				"quote": "'Men are so quick to blame the gods: they say that we devise their misery. But they themselves in their depravity design grief greater than the grief that fate assigns.' - Homer, Odyssey"
 			}
 		]
 	},
@@ -183,12 +191,13 @@
 		"techs": [
 			{
 				"name": "The Internet",
-				"row": 5,
+				"row": 1,
 				"prerequisites": ["Telecommunications"],
 				"uniques": [
 					"Comment [Double quantity of [Tourism] produced]",
-					"Double quantity of [Tourism] produced <if [Great Firewall] is not constructed by anybody> <hidden from users>",
-					"Double quantity of [Tourism] produced <if [Great Firewall] is constructed in at least [1] of [Your] cities> <hidden from users>"
+					"[+100]% [Tourism] resource production <if [Great Firewall] is not constructed by anybody> <hidden from users>",
+					"[+100]% [Tourism] resource production <if [Great Firewall] is constructed in at least [1] of [Your] cities> <hidden from users>",
+					"[-25]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 				],
 				"quote": "'The Internet is the first thing that humanity has built that humanity doesn't understand, the largest experiment in anarchy that we have ever had.' - Eric Schmidt",
 				"civilopediaText": [

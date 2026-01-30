@@ -1,4 +1,5 @@
 [
+	// Brave New World Natural Wonders
 	{
 		"name": "King Solomon's Mines",
 		"type": "NaturalWonder",
@@ -48,5 +49,68 @@
 			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [{Military} {Land}] units for the rest of the game"
 		],
 		"weight": 10
-	}
+	},
+
+	// Overrides
+	{
+		"name": "Ocean",
+		"type": "Water",
+		"food": 1,
+		"gold": 0, // BNW
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+	},
+	{
+		"name": "Coast",
+		"type": "Water",
+		"food": 1,
+        "gold": 0, // BNW
+		"movementCost": 1,
+		"RGB": [70, 138, 216],
+		"uniques": ["[+2] to Fertility for Map Generation",
+            "Considered [Desirable] when determining start locations <on water maps>",
+            "Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+	{
+		"name": "Lakes",
+		"type": "Water",
+		"food": 2,
+		"gold": 0, // BNW
+		"RGB": [0, 171, 169],
+		"uniques": ["Fresh water",
+					"Considered [Food] when determining start locations",
+					"Considered [Desirable] when determining start locations"],
+        "civilopediaText": [
+            {"text": "Lakes provide fresh water to adjacent tiles, allowing farming where it would otherwise not be possible (similar to Rivers and Oases)."},
+            {"text": "Rivers", "link":"Terrain/River"},
+            {"text": "Oasis", "link":"Terrain/Oasis"},
+            {"text": "Farm", "link":"Improvement/Farm"},
+            {"text": "Civil Service", "link":"Technology/Civil Service"},
+            {"text": "Fertilizer", "link":"Technology/Fertilizer"}
+        ]
+	},
+    {
+        "name": "River",
+        "type": "TerrainFeature",
+        "gold": 0, // BNW
+        "movementCost": 0,  // So Civilopedia won't display a cost of 1
+        "uniques": ["Doesn't generate naturally", "Excluded from map editor"],
+        "civilopediaText": [
+            {"text": "Rivers exist on tile edges, not as terrain feature per se."},
+            {"text": "Tiles on both sides gain its benefits. These benefits do not stack."},
+            {"text": "The tile has access to fresh water, allowing farming where it would otherwise not be possible (similar to Oases and Lakes)."},
+            {"text": "Movement across rivers takes all remaining movement points of a unit unless there is a bridge."},
+            // See BattleConstants.ATTACKING_ACROSS_RIVER_MALUS:
+            {"text": "When attacking across a river, the attacker gets a -20% strength malus."},
+            // Related Buildings and Beliefs are automatically linked
+            {"text": "Lakes", "link":"Terrain/Lakes"},
+            {"text": "Oasis", "link":"Terrain/Oasis"},
+            {"text": "Farm", "link":"Improvement/Farm"},
+            {"text": "Road", "link":"Improvement/Road"},
+            {"text": "Engineering", "link":"Technology/Engineering"},
+            {"text": "Civil Service", "link":"Technology/Civil Service"},
+            {"text": "Fertilizer", "link":"Technology/Fertilizer"},
+            {"text": "Amphibious", "link":"Promotion/Amphibious"}
+        ]
+    }
 ]

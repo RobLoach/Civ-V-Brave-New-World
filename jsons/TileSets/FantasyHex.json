@@ -1,0 +1,10 @@
+{
+    "ruleVariants": {
+		// Antiquity Site
+        "Snow+Antiquity Site": ["Snow", "Antiquity Site-Snow"],
+        "Snow+Hill+Antiquity Site": ["Snow", "Hill", "Antiquity Site-Snow"],
+        "Tundra+Antiquity Site": ["Tundra", "Antiquity Site-Snow"],
+        "Tundra+Hill+Antiquity Site": ["Tundra", "Hill", "Antiquity Site-Snow"],
+        "Tundra+Forest+Antiquity Site": ["Tundra", "TundraForest", "Antiquity Site-Snow"]
+    }
+}

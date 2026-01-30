@@ -10,10 +10,7 @@
 		"cost": 1,
 		"uniques": [
 			"Indicates the capital city",
-			"Comment [Provides 1 [Great Work of Art] or [Artifact] Slot]",
-
-			// Unit Modifications
-			"Enables [Great Admiral] units to enter ocean tiles <hidden from users>" // See Unit/Great Admiral
+			"Comment [Provides 1 [Great Work of Art] or [Artifact] Slot]"
 		],
 		"civilopediaText": [
 			{ "text": "[Great Work of Art] Slot", "link": "Building/[Palace] [Great Work of Art]" }
@@ -29,7 +26,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -52,11 +49,12 @@
 		"cost": 400,
 		"maintenance": 5,
 		"uniques": [
-			// TODO: Allows airlifting to other cities with Airports.
-			// TODO: Increases air unit capacity of the city from 6 to 10.
-			// TODO: 50% from Culture of wonders and improvements in the city added to its Tourism output.
+			"Comment [Allows airlifting to other cities with [Airport]s]", // @see GlobalUniques.json unitUniques
+			"Can carry [4] extra [Air] units <in this city>",
+			"[50]% of [Culture] from every [Wonder] in the city added to [Tourism]",
+			"[50]% of [Culture] from every [Improvement] in the city added to [Tourism]",
 			"Comment [+50% [Tourism] from Great Works in this city]",
-			"All newly-trained [Air] units [in this city] receive the [[Airport] ability] promotion" // TODO: This isn't a real thing, it's just instead of the original benefits.
+			"[-50]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 		],
 		"requiredTech": "Radar"
 	},
@@ -68,15 +66,23 @@
 			// Land trade routes originating from this city have a 50% increase in range and produce an additional 2 Gold Gold when connecting to another civilization.
 			"All newly-trained [Caravan] units [in this city] receive the [[Caravansary] ability] promotion"
 		],
-		"requiredTech": "Horseback Riding"
+		"requiredTech": "Horseback Riding",
+		"civilopediaText": [
+			{
+				"text": "[Caravansary] ability",
+				"link": "Promotion/[Caravansary] ability"
+			}
+		]
 	},
 	{
 		"name": "Hotel",
 		"cost": 300,
 		"maintenance": 0,
 		"uniques": [
-			"Comment [+50% [Tourism] from Great Works in this city]"
-			// TODO: +50% of the Culture output of Wonders and Improvements in the city added to Tourism
+			"[50]% of [Culture] from every [Wonder] in the city added to [Tourism]",
+			"[50]% of [Culture] from every [Improvement] in the city added to [Tourism]",
+			"Comment [+50% [Tourism] from Great Works in this city]",
+			"Unavailable <when [Cultural] Victory is disabled>"
 		],
 		"requiredTech": "Refrigeration"
 	},
@@ -256,7 +262,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -347,7 +353,7 @@
 		"uniques": [
 			"Destroyed when the city is captured",
 			"New [Military] units start with [15] XP [in this city]",
-			"All newly-trained [Sword] units [in this city] receive the [Buffalo Horns] promotion <before the [Renaissance era]>" // Pre-Gunpowder era.
+			"All newly-trained [{pre-[Renaissance era]} {Sword}] units [in this city] receive the [Buffalo Horns] promotion" // Pre-Gunpowder era
 		],
         "requiredTech": "Bronze Working",
 		"civilopediaText": [
@@ -394,7 +400,13 @@
 			"All newly-trained [Cargo Ship] units [in this city] receive the [[Harbor] ability] promotion",
 			"Must be next to [Coast]"
 		],
-		"requiredTech": "Compass"
+		"requiredTech": "Compass",
+		"civilopediaText": [
+			{
+				"text": "[Harbor] ability",
+				"link": "Promotion/[Harbor] ability"
+			}
+		]
 	},
 	{
 		"name": "Lighthouse",
@@ -437,6 +449,7 @@
 			"Must be next to [Coast]",
 			"[+1 Gold] from [Water] tiles [in this city]",
 			"Instantly provides [1] [Trade Route]",
+			"Instantly provides [1] [Trade Route] <for [Double the normal number of Trade Routes available] Civilizations> <hidden from users>",
 			"Free [Cargo Ship] appears"
 		],
 		"requiredTech": "Iron Working",
@@ -476,7 +489,7 @@
 		"requiredTech": "Mathematics",
 		"uniques": [
 			"Gain a free [Garden] [in this city]",
-			"Only available <after adopting [Tradition]>"
+			"Only available <after adopting [Tradition]>" // BNW
 		],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
 	},
@@ -488,7 +501,7 @@
 		"uniques": [
 			"[-25]% construction time for [All] improvements",
 			"[2] free [Worker] units appear",
-			"Only available <after adopting [Liberty]>"
+			"Only available <after adopting [Liberty]>" // BNW
 		],
 		"requiredTech": "Masonry",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
@@ -499,7 +512,7 @@
 		"isWonder": true,
 		"uniques": [
 			"[+15]% Strength <for [All] units> <vs cities> <when attacking>",
-			"Only available <after adopting [Honor]>"
+			"Only available <after adopting [Honor]>" // BNW
 		],
 		"requiredTech": "Bronze Working",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
@@ -809,6 +822,7 @@
 			"[+1 Food, +1 Production] from [Desert] tiles without [Flood plains] [in this city]",
 			"[+6 Culture] [in this city] <after discovering [Archaeology]>",
 			"Instantly provides [1] [Trade Route]",
+			"Instantly provides [1] [Trade Route] <for [Double the normal number of Trade Routes available] Civilizations> <hidden from users>",
 			"Free [Caravan] appears"
 		],
 		"requiredTech": "Currency",
@@ -863,7 +877,8 @@
 		"uniques": [
 			"Free [Great Artist] appears",
 			"Comment [Provides 4 [Great Work of Art] or [Artifact] Slots]",
-			"Only available <after adopting [Exploration]>"
+			"Only available <after adopting [Exploration]>",
+			"[-50]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 		],
 		"requiredTech": "Archaeology",
 		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson",
@@ -907,7 +922,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -935,7 +950,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -963,7 +978,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -991,7 +1006,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1030,7 +1045,8 @@
 		"uniques": [
 			"[+1 Production] from every specialist [in all cities]",
 			"Free Social Policy",
-			"Only available <after adopting [Freedom]>"
+			"Only available <after adopting [Freedom]>",
+			"[+10]% weight to this choice for AI decisions <in [Capital] cities>" // Unique to Freedom, so prioritize it
 		],
 		"requiredTech": "Replaceable Parts",
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
@@ -1040,8 +1056,12 @@
         "isWonder": true,
         "uniques": [
 			"[-99]% enemy spy effectiveness [in this city]",
-            "[-25]% enemy spy effectiveness [in your cities]",
-			"Comment [Negates [Tourism] bonus from other players discovering [The Internet]]"
+			"[-25]% enemy spy effectiveness [in your cities]",
+			"Comment [Negates [Tourism] bonus from other players discovering [The Internet]]", // BNW
+			"[+5]% weight to this choice for AI decisions <when [Cultural] Victory is enabled> <in [Capital] cities>",
+			"[-5]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
+			"[+5]% weight to this choice for AI decisions <when espionage is enabled> <in [Capital] cities>",
+			"[-5]% weight to this choice for AI decisions <when espionage is disabled>"
 		],
         "requiredTech": "Computers",
         "quote": "'Distrust and caution are the parents of security.' - Benjamin Franklin",
@@ -1057,9 +1077,12 @@
 		"uniques": [
 			"Free Social Policy",
 			"[+50]% Production when constructing [Armored] units [in this city]",
-			"Only available <after adopting [Order]>"
+			"Only available <after adopting [Order]>",
+			"[+10]% weight to this choice for AI decisions <in [Capital] cities>" // Unique to Order, so prioritize it
 		],
 		"requiredTech": "Railroads",
+		// Unciv uses the Garry Kasparov quote, though this mod opts to keep the original that's in BNW.
+		//"quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
 		"quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.' - The Prophet Muhammed"
 	},
 	{
@@ -1130,10 +1153,15 @@
         "requiredTech": "Telecommunications",
 		"requiredBuilding": "Hotel",
 		"uniques": [
-			// TODO: 100% of the Culture Culture from Wonders and Improvements is added to the Tourism Tourism output of the city.
+			"[100]% of [Culture] from every [Wonder] in the city added to [Tourism]",
+			"[100]% of [Culture] from every [Improvement] in the city added to [Tourism]",
 			"Comment [+100% [Tourism] from Great Works in this city]",
 			"Cost increases by [30] per owned city",
-			"Only available <if [Hotel] is constructed in all [non-[Puppeted]] cities>"
+			"Only available <if [Hotel] is constructed in all [non-[Puppeted]] cities>",
+			"Unavailable <when [Cultural] Victory is disabled>"
+		],
+		"civilopediaText": [
+			{ "text": "Great Works", "link": "Tutorial/Great Works" }
 		]
     },
 	{
@@ -1158,10 +1186,11 @@
         "uniques": [
 			"Free [Great Artist] appears",
 			"Comment [Provides 3 [Great Work of Art] or [Artifact] Slots]",
-			"Only available <after adopting [Aesthetics]>"
+			"Only available <after adopting [Aesthetics]>",
+			"[-50]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 		],
         "requiredTech": "Architecture",
-        "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.'  - Marcel Parquet",
+        "quote": "'The painter is not simply someone who looks and who sees. Above all, the artist is someone who exposes a personal vision by rendering it visible.' - Marcel Parquet",
 		"civilopediaText": [
 			{ "text": "[Great Work of Art] Slot 1", "link": "Building/[Uffizi] [Great Work of Art] 1" },
 			{ "text": "[Great Work of Art] Slot 2", "link": "Building/[Uffizi] [Great Work of Art] 2" },
@@ -1200,7 +1229,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1228,7 +1257,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1256,7 +1285,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1283,10 +1312,11 @@
 			"Free Social Policy",
 			"[+1 Happiness] per [2] social policies adopted",
 			"Must be next to [Coast]",
-			"Only available <after adopting [Autocracy]>"
+			"Only available <after adopting [Autocracy]>",
+			"[+10]% weight to this choice for AI decisions <in [Capital] cities>" // Unique to Autocracy, so prioritize it
 		],
         "requiredTech": "Flight",
-        "quote": "'This loss (of freedom) means the fading from human life of values infinitely precious to it. There only remain ironbound conditions of employment and trivial amusements for leisure.'  - A.N. Whitehead"
+        "quote": "'This loss (of freedom) means the fading from human life of values infinitely precious to it. There only remain ironbound conditions of employment and trivial amusements for leisure.' - A.N. Whitehead"
     },
 	{
         "name": "Parthenon",
@@ -1369,7 +1399,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1397,7 +1427,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1421,9 +1451,9 @@
         "isWonder": true,
 		"uniques": [
 			"[+1 Production] from every [Scientist]",
-			"[+1 Science] from every [Engineer]"
+			"[+1 Science] from every [Engineer]",
+			"[+10]% production cost <for every [Remaining [Major] Civilizations]>"
 			// TODO: Great Scientists provide 33% more Science when used to discover new technology
-			// TODO: Cost is per civilization
 			// TODO: Requires International Project https://civilization.fandom.com/wiki/International_Project_(Civ5)
 		],
         "requiredTech": "Satellites",
@@ -1436,10 +1466,12 @@
         "greatPersonPoints": {"Great Merchant": 2},
         "isWonder": true,
 		"uniques": [
-			"Provides [12] [Tourism]"
+			"Provides [12] [Tourism]",
+			"[-50]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
+			"[+50]% weight to this choice for AI decisions <when [Cultural] Victory is enabled> <when below [0] [Happiness]> <in [Capital] cities>"
 		],
         "requiredTech": "Radio",
-        "quote": "'We live only to discover beauty, all else is a form of waiting'  - Kahlil Gibran"
+        "quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
     },
 	{
         "name": "Museum",
@@ -1488,7 +1520,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
             "Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1516,7 +1548,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
             "Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1581,7 +1613,7 @@
 		"requiredTech": "Acoustics",
 		"uniques": [
 			"Comment [Provides 1 [Great Work of Music] Slot]",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"civilopediaText": [
 			{ "text": "[Great Work of Music] Slot", "link": "Building/[Ceilidh Hall] [Great Work of Music]" }
@@ -1597,10 +1629,12 @@
 		"requiredTech": "Radio",
 		"uniques": [
 			"Comment [Provides 1 [Great Work of Music] Slot]",
-			"Destroyed when the city is captured"
+			"[+34]% [Tourism] resource production <in this city> <after adopting [Media Culture]>",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"civilopediaText": [
-			{ "text": "[Great Work of Music] Slot", "link": "Building/[Broadcast Tower] [Great Work of Music]" }
+			{ "text": "[Great Work of Music] Slot", "link": "Building/[Broadcast Tower] [Great Work of Music]" },
+			{ "text": "Media Culture", "link": "Policy/Media Culture" }
 		]
 	},
     {
@@ -1865,7 +1899,8 @@
 			"Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Provides [5] [Tourism] <after adopting [Religious Art]>",
-			"[+5 Culture] <after adopting [Religious Art]>"
+			"[+5 Culture] <after adopting [Religious Art]>",
+			"[+20]% weight to this choice for AI decisions <after adopting [Religious Art]> <in [Capital] cities>"
 		],
 		"requiredTech": "Architecture",
 		"civilopediaText": [
@@ -1906,7 +1941,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1934,7 +1969,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1962,7 +1997,7 @@
 			"Unavailable <without [Artifact]> <without [Great Work of Art]> <hidden from users>",
 			"Unavailable <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is less than [1]> <hidden from users>",
-			"Instantly consumes [1] [Great Work of Art] <when number of [Copper] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
+			"Instantly consumes [1] [Great Work of Art] <when number of [Artifact] is less than [1]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Instantly consumes [1] [Artifact] <when number of [Artifact] is more than [0]> <when number of [Great Work of Art] is more than [0]> <hidden from users>",
 			"Provides [2] [Tourism]",
 			"Provides [1] [Tourism] <in cities with a [Airport]> <hidden from users>",
@@ -1987,14 +2022,8 @@
 		"cost": 1,
 		"uniques": [
 			"Comment [Choose an [Ideology] upon reaching the [Modern era], or owning 3 [Factory] buildings]",
-			"Automatically built in all cities where it is buildable <hidden from users>",
-
-			// Only for Humans so that AI picks based on AI weighted decisions.
-			"Triggers a [Ideology] event <for [Human player] Civilizations> <hidden from users>",
-
-			// AI gets a free social policy since we give it to humans.
-			"Free Social Policy <for [AI player] Civilizations> <hidden from users>",
-
+			"Automatically built in all cities where it is buildable",
+			"Triggers a [Ideology] event <hidden from users>",
 			"Moves to new capital when capital changes <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Unavailable <before the [Modern era]> <when number of [[Factory] Buildings] is less than [3]> <hidden from users>",
@@ -2012,6 +2041,21 @@
 			{ "text": "Requires at least one of the following:" },
 			{ "text": "Modern era", "link": "Era/Modern era" },
 			{ "text": "Requires a [Factory] in at least [3] of [your] cities", "link": "Building/Factory" }
+		]
+	},
+
+	// Policy: Cultural Revolution
+	{
+		"name": "Cultural Revolution", // @see Policies.json
+		"cost": 1,
+		"uniques": [
+			"Moves to new capital when capital changes <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Only available <in cities with a [Palace]> <hidden from users>",
+			"Only available <after adopting [Cultural Revolution]>",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"Will not be displayed in Civilopedia",
+			"Moves to new capital when capital changes <hidden from users>"
 		]
 	}
 ]
