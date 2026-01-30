@@ -39,7 +39,7 @@
         "name": "Ceremonial Burial",
         "type": "Founder",
         "uniques": [
-        "[+1 Happiness] <for every [2] [[in cities following our religion] Cities by [all] Civilizations]>"
+            "[+1 Happiness] <for every [2] [[in cities following our religion] Cities of [Major] Civilizations]>"
         ]
     },
 
