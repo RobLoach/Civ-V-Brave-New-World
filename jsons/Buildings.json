@@ -1634,7 +1634,7 @@
 		"requiredTech": "Radio",
 		"uniques": [
 			"Comment [Provides 1 [Great Work of Music] Slot]",
-			"[+33]% [Tourism] resource production <in this city> <after adopting [Media Culture]> <hidden from users>", // TODO: Does this work?
+			"[+34]% [Tourism] resource production <in this city> <after adopting [Media Culture]>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
 		"civilopediaText": [

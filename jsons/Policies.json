@@ -650,13 +650,11 @@
 			{
 				"name": "Cultural Exchange",
 				"uniques": [
+					"Comment [TODO: Increases the Tourism modifier for shared religion, trade routes, and open borders by 15% each]",
 					"[+15]% [Tourism] resource production", // TODO: +15% Tourism when you have a active Trade Routes
-					"[+15]% [Tourism] resource production <after founding a religion>", // TODO: Sharing a Religion should give +15% Tourism
-					"[+15]% [Tourism] resource production <when not at war>", // TODO: Sharing Open Borders should give +15% Tourism
-					//"Comment [Increases the Tourism modifier for shared religion, trade routes, and open borders by 15% each]",
+					// TODO: Sharing a Religion should give +15% Tourism
+					"[+15]% [Tourism] resource production <when number of [Remaining [Open Borders] Civilizations] is more than [0]>",
 					//"[+15]% [Tourism] resource production <when number of [[{in foreign cities} {in cities following our religion}] Cities] is more than [0]> <hidden from users>",
-					//"[+15]% [Tourism] resource production <when number of [[{non-[your]} {Friendly Land} {Major} {City center}] Tiles] is more than [0]> <hidden from users>"
-					//"[+15]% [Tourism] resource production <when number of Active Trade Routes > 0>",
 					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
 				],
 				"requires": [
@@ -694,8 +692,10 @@
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Order]> <hidden from users>",
 
-			"Triggers a [[Ideology]: Free [Autocracy] Tenet] event",
-			"Triggers a [[Ideology]: Free [Autocracy] Tenet] event <if no other Civilization has adopted this>", // Early Adopter
+			// Early Adopter: 2 free tenets if first, 1 free tenet if second.
+			"Triggers a [[Ideology]: Free [Autocracy] Tenet] event <if no other Civilization has adopted this>",
+			"Triggers a [[Ideology]: Free [Autocracy] Tenet] event <if no other Civilization has adopted this>",
+			"Triggers a [[Ideology]: Free [Autocracy] Tenet] event <when number of [Adopted [Autocracy] Policies by [all] Civilizations] is equal to [2]>",
 
 			"Remove [Ideology] [in capital] <hidden from users>",
 			"Get the leader title of [[leaderName] the Terrible]",
@@ -895,7 +895,7 @@
 				"name": "Cult of Personality",
 				"uniques": [
 					// TODO: +50% Tourism to Civilizations fighting a common enemy
-					"[+50]% [Tourism] resource production <when at war>",
+					"[+50]% [Tourism] resource production <when at war> <when number of [Remaining [Friendly] Civilizations] is more than [0]>",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
 					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
@@ -953,8 +953,10 @@
 			"Unavailable <after adopting [Freedom]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 
-			"Triggers a [[Ideology]: Free [Order] Tenet] event",
-			"Triggers a [[Ideology]: Free [Order] Tenet] event <if no other Civilization has adopted this>", // Early Adopter
+			// Early Adopter: 2 free tenets if first, 1 free tenet if second.
+			"Triggers a [[Ideology]: Free [Order] Tenet] event <if no other Civilization has adopted this>",
+			"Triggers a [[Ideology]: Free [Order] Tenet] event <if no other Civilization has adopted this>",
+			"Triggers a [[Ideology]: Free [Order] Tenet] event <when number of [Adopted [Order] Policies by [all] Civilizations] is equal to [2]>",
 
 			"Remove [Ideology] [in capital] <hidden from users>",
 			"Get the leader title of [Chairman [leaderName]]",
@@ -1209,8 +1211,10 @@
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 
-			"Triggers a [[Ideology]: Free [Freedom] Tenet] event",
-			"Triggers a [[Ideology]: Free [Freedom] Tenet] event <if no other Civilization has adopted this>", // Early Adopter
+			// Early Adopter: 2 free tenets if first, 1 free tenet if second.
+			"Triggers a [[Ideology]: Free [Freedom] Tenet] event <if no other Civilization has adopted this>",
+			"Triggers a [[Ideology]: Free [Freedom] Tenet] event <if no other Civilization has adopted this>",
+			"Triggers a [[Ideology]: Free [Freedom] Tenet] event <when number of [Adopted [Freedom] Policies by [all] Civilizations] is equal to [2]>",
 
 			"Remove [Ideology] [in capital] <hidden from users>",
 			"Get the leader title of [President [leaderName]]",
@@ -1403,7 +1407,7 @@
 			{
 				"name": "Media Culture",
 				"uniques": [
-					"Comment [[+33]% [Tourism] resource production <in cities with a [Broadcast Tower]>]", // @see Building/Broadcast Tower
+					"Comment [[+34]% [Tourism] resource production <in cities with a [Broadcast Tower]>]", // @see Building/Broadcast Tower
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
 					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
