@@ -2074,16 +2074,19 @@
 		"uniques": [
 			"Automatically built in all cities where it is buildable <hidden from users>",
 			"Unsellable <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
 			"Moves to new capital when capital changes <hidden from users>",
 			"Unavailable <when number of [Remaining [{Major} {Known}] Civilizations] is less than [Remaining [Major] Civilizations]> <before the [Industrial era]> <hidden from users>",
 			"Triggers a global alert upon completion <hidden from users>",
+
+			// Host Delegates
 			"Provides [1] [Delegates] <during the [Renaissance era]>",
 			"Provides [1] [Delegates] <during the [Industrial era]>",
 			"Provides [2] [Delegates] <during the [Modern era]>",
 			"Provides [2] [Delegates] <during the [Atomic era]>",
-			"Provides [4] [Delegates] <starting from the [Information era]>"
+			"Provides [2] [Delegates] <starting from the [Information era]>",
 			// TODO: Every Era change, the World Congress changes, and it's put to a vote.
-			// TODO: The Globalization Globalization technology grants 1 additional delegate from each spy assigned in another civ's Capital Capital as a Diplomat.
+			// TODO: The Globalization technology grants 1 additional delegate from each spy assigned in another civ's Capital Capital as a Diplomat.
 			// TODO: If the World Congress enacts a World Religion, 2 additional delegates are given for following the assigned Religion.
 			// TODO: If the World Congress enacts a World Ideology, 2 additional delegates are given for following the assigned Ideology.
 			// TODO: If no civ receives enough support to win a World Leader election, the two civs who received the most support get 2 permanent additional delegates for use in future sessions.
@@ -2099,10 +2102,21 @@
 		"isNationalWonder": true,
 		"cost": 0,
 		"uniques":[
-			"Automatically built in all cities where it is buildable <hidden from users>",
 			"Unsellable <hidden from users>",
 			"Moves to new capital when capital changes <hidden from users>",
-			"Triggers a global alert upon completion <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Triggers a global alert upon completion <hidden from users>"
+		]
+	},
+	{
+		"name": "World Congress - Standing Army Tax",
+		"isWonder": true,
+		"cost": 0,
+		"uniques": [
+			"Unsellable <hidden from users>",
+			"Moves to new capital when capital changes <hidden from users>",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Triggers a global alert upon completion <hidden from users>"
 		]
 	}
 ]

@@ -1287,11 +1287,11 @@
 				"text": "Standing Army Tax",
 				"uniques": [
 					"Comment [Unit maintenance costs are raised by 25% [Gold]",
-					"Gain a free [World Congress - Vote Standing Army Tax] [in capital] <hidden from users>"
+					"Gain a free [World Congress - Vote Standing Army Tax] [in capital] <hidden from users>",
+					"Not available <if [Standing Army Tax] is constructed by anybody>"
 				]
 			}
 		]
-
 	},
 
 	{
