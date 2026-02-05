@@ -333,5 +333,19 @@
 			"Doesn't generate naturally",
 			"Will not be displayed in Civilopedia"
 		]
+	},
+
+	// World Congress
+	// @see Buildings.json
+	{
+		"name": "Delegates",
+		"resourceType": "Strategic", // TODO: Change to Bonus
+		"uniques": [
+			"Cannot be traded <hidden from users>",
+			"Excluded from map editor",
+			//"Not shown on world screen", // TODO: Remove this when verified
+			"Doesn't generate naturally",
+			"Will not be displayed in Civilopedia"
+		]
 	}
 ]
