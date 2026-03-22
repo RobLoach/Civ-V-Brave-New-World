@@ -1364,21 +1364,21 @@ TileSets/AbsoluteUnits/Units/Caravan-Modern era-2
   index: -1
 TileSets/AbsoluteUnits/Units/Cargo Ship
   rotate: false
-  xy: 1187, 12
+  xy: 1187, 76
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Cargo Ship-1
   rotate: false
-  xy: 1296, 364
+  xy: 1300, 428
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Cargo Ship-2
   rotate: false
-  xy: 1516, 752
+  xy: 1296, 364
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -1803,23 +1803,23 @@ TileSets/HexaRealm/Units/Caravan
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Caravan-1
+TileSets/HexaRealm/Units/Caravan-Industrial era
   rotate: false
   xy: 1187, 140
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Caravan-2
+TileSets/HexaRealm/Units/Cargo Ship
   rotate: false
-  xy: 1187, 76
+  xy: 1187, 12
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
-TileSets/HexaRealm/Units/Cargo Ship
+TileSets/HexaRealm/Units/Cargo Ship-Industrial era
   rotate: false
-  xy: 1300, 428
+  xy: 1516, 752
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
