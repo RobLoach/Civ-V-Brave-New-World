@@ -127,7 +127,6 @@
         "resourceType": "Strategic",
         "uniques": [
 			"Cannot be traded <hidden from users>",
-			"Stockpiled <hidden from users>",
 			"Excluded from map editor",
 			"Not shown on world screen <without [Trade Route]>",
 			"Doesn't generate naturally"
@@ -136,10 +135,7 @@
 			{
 				"text": "A [Trade Route] is required in order for a [Caravan] or [Cargo Ship] to establish a trade connection with other civilizations or City-States."
 			},
-			{ "separator": true },
-				{ "text": "Caravan", "link": "Unit/Caravan" },
-				{ "text": "Cargo Ship", "link": "Unit/Cargo Ship" },
-			{ "text": "Technologies", "header": 3 },
+			{ "text": "Technologies", "header": 4 },
 				{ "text": "Animal Husbandry", "link": "Technology/Animal Husbandry" },
 				{ "text": "Sailing", "link": "Technology/Sailing" },
 				{ "text": "Engineering", "link": "Technology/Engineering" },
@@ -147,10 +143,7 @@
 				{ "text": "Banking", "link": "Technology/Banking" },
 				{ "text": "Biology", "link": "Technology/Biology" },
 				{ "text": "Railroads", "link": "Technology/Railroads" },
-				{ "text": "Pharmaceuticals", "link": "Technology/Pharmaceuticals" },
-			{ "text": "Wonders", "header": 3 },
-				{ "text": "Colossus", "link": "Wonder/Colossus" },
-				{ "text": "Petra", "link": "Wonder/Petra" }
+				{ "text": "Pharmaceuticals", "link": "Technology/Pharmaceuticals" }
 		]
     },
 
