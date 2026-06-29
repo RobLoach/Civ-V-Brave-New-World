@@ -12,8 +12,8 @@
 - [x] [Social Policies and Ideologies](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World#Social_Policies_and_Ideologies)
 - [x] [Technologies](https://civilization.fandom.com/wiki/The_Internet_(Civ5))
 - [x] [Cultural Victory with Tourism](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World#New_Cultural_Victory)
-- [ ] [World Congress](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World#World_Congress)
-- [ ] [International Trade Routes](https://civilization.fandom.com/wiki/International_trade_route_(Civ5))
+- [ ] [World Congress](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World#World_Congress): [#23](https://github.com/RobLoach/Civ-V-Brave-New-World/issues/23)
+- [ ] [International Trade Routes](https://civilization.fandom.com/wiki/International_trade_route_(Civ5)): [#126](https://github.com/RobLoach/Civ-V-Brave-New-World/issues/126)
 
 ## Installation
 
