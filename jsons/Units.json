@@ -258,7 +258,7 @@
 		"uniques": [
 			"[+25]% Strength <vs [Gunpowder] units>",
 			"[+50]% Strength <vs [Mounted] units>",
-			"[1] additional attacks per turn" // Spear Throw: Before engaging in melee, this unit has an extra attack (ranged).
+			"Before engaging in combat performs an extra ranged attack with [50]% of melee combat strength"
 		],
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
