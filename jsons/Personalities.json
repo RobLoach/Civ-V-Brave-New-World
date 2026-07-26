@@ -150,36 +150,6 @@
 		}
 	},
 	{
-		"name": "Gajah Mada",
-		"preferredVictoryType": "Cultural",
-		"aggressive": 5, // Competitiveness
-		"diplomacy": 5, // Diplobalance
-		"loyal": 4, // Loyalty
-		"military": 5, // Offensive Unit Production
-		"expansion": 8, // Expansion
-		"food": 5, // Growth
-		"production": 5, // Production Emphasis
-		"gold": 6, // Gold Emphasis
-		"science": 4, // Science Emphasis
-		"culture": 6, // Culture Emphasis
-		"happiness": 6, // Happiness Emphasis
-		"faith": 7, // Religion Emphasis
-		"commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
-		"declareWar": 5, // Likeliness to Declare War
-		"priorities": {
-			"Tradition": 6, // Culture Emphasis + Wonder Emphasis
-			"Liberty": 7, // Expansion + Tile Improvements
-			"Honor": 5, // Boldness + Likeliness to Declare War
-			"Commerce": 5, // Gold Emphasis + Chattiness
-			"Patronage": 5, // City-State Influence Competitiveness + Friendliness to City-States
-			"Piety": 6, // Religion Emphasis + Protection of City-States
-			"Rationalism": 5, // Science Emphasis + Spaceship
-			"Freedom": 8, // Happiness Emphasis + Growth
-			"Autocracy": 5, // Boldness + Offensive Unit Production
-			"Order": 5 // Production Emphasis + Military Training Buildings Production
-		}
-	},
-	{
 		"name": "Ahmad al-Mansur",
 		"preferredVictoryType": "Cultural",
 		"aggressive": 5, // Competitiveness
