@@ -73,7 +73,8 @@
         "name": "Charitable Missions",
         "type": "Enhancer",
         "uniques": [
-            "Only available <after adopting [Reformation]>",
+            "Comment [Can only be gained through the [Reformation] Policy]",
+            "Unavailable <hidden from users>",
             "Gifts of Gold to City-States generate [+30]% more Influence",
 			"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
         ]
@@ -82,7 +83,8 @@
         "name": "Evangelism",
         "type": "Enhancer",
         "uniques": [
-            "Only available <after adopting [Reformation]>",
+            "Comment [Can only be gained through the [Reformation] Policy]",
+            "Unavailable <hidden from users>",
             // Implemented as a Missionary unique. @see Units.json
 			"Comment [[Missionary] unit's Spread Religion action erodes existing pressure from other religions]"
         ],
@@ -94,7 +96,8 @@
         "name": "Heathen Conversion",
         "type": "Enhancer",
         "uniques": [
-            "Only available <after adopting [Reformation]>",
+            "Comment [Can only be gained through the [Reformation] Policy]",
+            "Unavailable <hidden from users>",
             // TODO: Missionaries convert adjacent Barbarian units to this civilization
 			"When defeating a [Barbarian] unit, earn [0] Gold and recruit it",
 			"[-20]% weight to this choice for AI decisions" // Something AI doesn't take full advantage of
@@ -104,7 +107,8 @@
         "name": "Jesuit Education",
         "type": "Enhancer",
         "uniques": [
-            "Only available <after adopting [Reformation]>",
+            "Comment [Can only be gained through the [Reformation] Policy]",
+            "Unavailable <hidden from users>",
 			"May buy [University] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
 			"May buy [Public School] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
 			"May buy [Research Lab] buildings with [Faith] [in all cities in which the majority religion is a major religion]",
@@ -115,7 +119,8 @@
         "name": "Religious Fervor",
         "type": "Enhancer",
         "uniques": [
-            "Only available <after adopting [Reformation]>",
+            "Comment [Can only be gained through the [Reformation] Policy]",
+            "Unavailable <hidden from users>",
 			"May buy [{Industrial era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
 			"May buy [{Modern era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
 			"May buy [{Atomic era} {Land}] units with [Faith] [in all cities in which the majority religion is a major religion]",
@@ -128,7 +133,8 @@
         "name": "Sacred Sites",
         "type": "Enhancer",
         "uniques": [
-            "Only available <after adopting [Reformation]>",
+            "Comment [Can only be gained through the [Reformation] Policy]",
+            "Unavailable <hidden from users>",
 			"Comment [+2 [Tourism] from every [{Cathedral} {Monastery} {Mosque} {Pagoda}]]", // @see Buildings.json
 			"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
         ],
@@ -143,7 +149,8 @@
         "name": "To the Glory of God",
         "type": "Enhancer",
         "uniques": [
-            "Only available <after adopting [Reformation]>",
+            "Comment [Can only be gained through the [Reformation] Policy]",
+            "Unavailable <hidden from users>",
 			"May buy [Great Person] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
 			"[+50]% weight to this choice for AI decisions"
         ]
@@ -152,7 +159,8 @@
         "name": "Underground Sect",
         "type": "Enhancer",
         "uniques": [
-            "Only available <after adopting [Reformation]>",
+            "Comment [Can only be gained through the [Reformation] Policy]",
+            "Unavailable <hidden from users>",
             // TODO: Your spies exert religious pressure on the cities they occupy
 			"[+10]% spy effectiveness [in all cities in which the majority religion is a major religion]",
 			"[+10]% Natural religion spread [in all cities in which the majority religion is a major religion]",
@@ -164,7 +172,8 @@
         "name": "Unity of the Prophets",
         "type": "Enhancer",
         "uniques": [
-            "Only available <after adopting [Reformation]>",
+            "Comment [Can only be gained through the [Reformation] Policy]",
+            "Unavailable <hidden from users>",
             // TODO: Inquisitors and Prophets reduce this religion's presence by half (instead of eliminating it)
 			"When spreading religion to a city, gain [2] times the amount of followers of other religions as [Faith]"
         ]
