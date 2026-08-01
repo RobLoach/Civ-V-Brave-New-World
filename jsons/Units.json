@@ -88,7 +88,7 @@
 			"[1] Movement <for [Caravans gain 50% extended range] Civilizations> <hidden from users>", // Caravans gain 50% extended range
 			"Unavailable <for [City-States] Civilizations> <hidden from users>",
 			"Costs [1] [Trade Route]",
-			"Only available <with [Trade Route]> <hidden from users>",
+			//"Only available <with [Trade Route]> <hidden from users>", // Removed, because it caused Cargo Ships not to be able to be constructed.
 			"[-2] Sight <hidden from users>",
 			"Ignores terrain cost",
 			"Uncapturable <hidden from users>",
@@ -115,7 +115,7 @@
 			// TODO: Change Home City (After selecting a coastal city and waiting a turn, allows different trade routes to be made.)
 			"Unavailable <for [City-States] Civilizations> <hidden from users>",
 			"Costs [1] [Trade Route]",
-			"Only available <with [Trade Route]> <hidden from users>",
+			//"Only available <with [Trade Route]> <hidden from users>", // Removed, because it caused Cargo Ships not to be able to be constructed.
 			"[-2] Sight <hidden from users>",
 			"May enter foreign tiles without open borders",
 			"Uncapturable <hidden from users>",
