@@ -11,7 +11,6 @@
 		"[+32]% Gold from Great Merchant trade missions <during the [Modern era]>",
 		"[+34]% Gold from Great Merchant trade missions <during the [Atomic era]>",
 		"[+37]% Gold from Great Merchant trade missions <during the [Information era]>",
-		"[+38]% Gold from Great Merchant trade missions <during the [Modern era]>",
 		"[+40]% Gold from Great Merchant trade missions <starting from the [Future era]>",
 
 		// Great Admirals can always traverse ocean tiles
@@ -96,5 +95,8 @@
 
 		// Cultural Victory condition. @see VictoryTypes.json
 		"Provides [1] [Accumulated Culture] <for every [[Culture] Per Turn]>"
+	],
+	"unitUniques": [
+		"May Paradrop to [{Airport} {Friendly}] tiles up to [200] tiles away <for [Land] units> <within [1] tiles of a [{Friendly} {Airport}]>" // @see Buildings.json Airport
 	]
 }

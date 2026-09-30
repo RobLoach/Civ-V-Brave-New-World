@@ -25,15 +25,7 @@
 		"uniqueName": "Solidarity",
 		"uniqueText": "Receive a free Social Policy when you advance to the next era.",
 		"uniques": [
-			// Could just use (Free Social Policy <upon entering a new era>), but then you will gain a free policy on turn one, which is not BNW behaviour
-			"Free Social Policy <upon entering the [Classical era]> <hidden from users>",
-			"Free Social Policy <upon entering the [Medieval era]> <hidden from users>",
-			"Free Social Policy <upon entering the [Renaissance era]> <hidden from users>",
-			"Free Social Policy <upon entering the [Industrial era]> <hidden from users>",
-			"Free Social Policy <upon entering the [Modern era]> <hidden from users>",
-			"Free Social Policy <upon entering the [Atomic era]> <hidden from users>",
-			"Free Social Policy <upon entering the [Information era]> <hidden from users>",
-			"Free Social Policy <upon entering the [Future era]> <hidden from users>",
+			"Free Social Policy <upon entering a new era> <after turn number [3]> <hidden from users>", // After turn number 3 is there so we don't get a Social Policy on turn 1
 			"Preferred Ideology: Autocracy"
 		],
 		"spyNames": ["Wincenty", "Roman", "Benita", "Jan", "Kazimierz", "Josef", "Krystyna Skarbek", "Tarnowski", "Marian", "Alenka"],
