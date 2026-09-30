@@ -445,9 +445,10 @@
 		"isWonder": true,
 		"uniques": [
 			// TODO: Trade routes other players make to this city will generate an extra 2 Gold for the city owner.
-			"[+1 Gold] from each Trade Route <in this city>", // ... and the trade route owner gains an additional 1 Gold for the trade route
+			//"[+1 Gold] from each Trade Route <in this city>", // ... and the trade route owner gains an additional 1 Gold for the trade route
+			"[+2 Gold] <for every [[Selling Cargo] Units]> <in this city>", // does this work?
 			"Must be next to [Coast]",
-			"[+1 Gold] from [Water] tiles [in this city]",
+			//"[+1 Gold] from [Water] tiles [in this city]",
 			"Instantly provides [1] [Trade Route]",
 			"Instantly provides [1] [Trade Route] <for [Double the normal number of Trade Routes available] Civilizations> <hidden from users>",
 			"Free [Cargo Ship] appears"
@@ -1172,7 +1173,8 @@
 		"requiredBuilding": "Market",
         "uniques": [
 			// Trade Routes with other players made to a city with an East India Company will generate an extra 4 Gold for the city owner.
-			"[+2 Gold] from each Trade Route <in this city>", // ... and the Trade Route owner gains an additional 2 Gold for the Trade Route.
+			//"[+2 Gold] from each Trade Route <in this city>", // ... and the Trade Route owner gains an additional 2 Gold for the Trade Route.
+			"[+4 Gold] <for every [[Selling Cargo] Units]> <in this city>", // does this work?
             "Cost increases by [30] per owned city"
 		],
         "requiredTech": "Guilds"
@@ -2056,6 +2058,774 @@
 			"Automatically built in all cities where it is buildable <hidden from users>",
 			"Will not be displayed in Civilopedia",
 			"Moves to new capital when capital changes <hidden from users>"
+		]
+	},
+	// golb.
+	{
+		"name": "Resource Depot - [Horses]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Horses"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Iron]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Coal]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Coal"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Oil]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Oil"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Aluminum]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Aluminum"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Uranium]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Uranium"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Furs]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Furs"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Cotton]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Cotton"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Dyes]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Dyes"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Gems]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Gems"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Gold Ore]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Gold Ore"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Silver]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Silver"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Incense]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Incense"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Ivory]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Ivory"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Silk]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Silk"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Spices]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Spices"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Wine]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Wine"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Sugar]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Sugar"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Marble]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Marble"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Whales]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Whales"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Pearls]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Pearls"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Jewelry]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Jewelry"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Porcelain]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Porcelain"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Citrus]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Citrus"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Copper]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Copper"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Cocoa]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Cocoa"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Crab]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Crab"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Salt]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Salt"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Resource Depot - [Truffles]",
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Truffles"],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Never destroyed when the city is captured <hidden from users>",
+			"Unsellable <hidden from users>",
+			"Automatically built in all cities where it is buildable <hidden from users>"
+		]
+	},
+	{
+		"name": "Food Depot 1",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [1] [[Food] Supplies] <in this city>"
+		]
+	},
+	{
+		"name": "Food Depot 2",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [2] [[Food] Supplies] <in this city>"
+		]
+	},
+	{
+		"name": "Food Depot 3",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [3] [[Food] Supplies] <in this city>"
+		]
+	},
+	{
+		"name": "Food Depot 4",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [4] [[Food] Supplies] <in this city>"
+		]
+	},
+	{
+		"name": "Food Depot 5",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [5] [[Food] Supplies] <in this city>"
+		]
+	},
+	{
+		"name": "Food Depot 6",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [6] [[Food] Supplies] <in this city>"
+		]
+	},
+	{
+		"name": "Food Depot 7",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [7] [[Food] Supplies] <in this city>"
+		]
+	},
+	{
+		"name": "Food Depot 8",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [8] [[Food] Supplies] <in this city>"
+		]
+	},
+	{
+		"name": "Food Depot 9",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [9] [[Food] Supplies] <in this city>"
+		]
+	},
+	{
+		"name": "Food Depot 10",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [10] [[Food] Supplies] <in this city>"
+		]
+	},
+	{
+		"name": "Food Entrepot 1",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [1] [[Food] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Food Entrepot 2",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [2] [[Food] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Food Entrepot 3",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [3] [[Food] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Food Entrepot 4",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [4] [[Food] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Food Entrepot 5",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [5] [[Food] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Food Entrepot 6",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [6] [[Food] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Food Entrepot 7",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [7] [[Food] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Food Entrepot 8",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [8] [[Food] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Food Entrepot 9",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [9] [[Food] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Food Entrepot 10",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [10] [[Food] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Food Storage",
+		"cost": 1,
+		"uniques": [
+			"Never destroyed when the city is captured <hidden from users>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"[+3 Food] [in this city] <for every [[Food] Supplies]> <during the [Ancient era]>",
+			"[+4 Food] [in this city] <for every [[Food] Supplies]> <starting from the [Classical era]> <before the [Industrial era]>",
+			"[+5 Food] [in this city] <for every [[Food] Supplies]> <during the [Industrial era]>",
+			"[+2 Food] [in this city] <for every [[Food] Supplies]> <during the [Industrial era]> <after adopting [Iron Curtain]> <hidden from users>",
+			"[+6 Food] [in this city] <for every [[Food] Supplies]> <starting from the [Modern era]>",
+			"[+3 Food] [in this city] <for every [[Food] Supplies]> <starting from the [Modern era]> <after adopting [Iron Curtain]> <hidden from users>",
+
+			"[+6 Food] [in this city] <for every [[Food] Shipment]> <during the [Ancient era]>",
+			"[+8 Food] [in this city] <for every [[Food] Shipment]> <starting from the [Classical era]> <before the [Industrial era]>",
+			"[+10 Food] [in this city] <for every [[Food] Shipment]> <during the [Industrial era]>",
+			"[+5 Food] [in this city] <for every [[Food] Shipment]> <during the [Industrial era]> <after adopting [Iron Curtain]> <hidden from users>",
+			"[+12 Food] [in this city] <for every [[Food] Shipment]> <starting from the [Modern era]>",
+			"[+6 Food] [in this city] <for every [[Food] Shipment]> <starting from the [Modern era]> <after adopting [Iron Curtain]> <hidden from users>"
+		]
+	},
+	{
+		"name": "Material Depot 1",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [1] [[Production] Materials] <in this city>"
+		]
+	},
+	{
+		"name": "Material Depot 2",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [2] [[Production] Materials] <in this city>"
+		]
+	},
+	{
+		"name": "Material Depot 3",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [3] [[Production] Materials] <in this city>"
+		]
+	},
+	{
+		"name": "Material Depot 4",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [4] [[Production] Materials] <in this city>"
+		]
+	},
+	{
+		"name": "Material Depot 5",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [5] [[Production] Materials] <in this city>"
+		]
+	},
+	{
+		"name": "Material Depot 6",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [6] [[Production] Materials] <in this city>"
+		]
+	},
+	{
+		"name": "Material Depot 7",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [7] [[Production] Materials] <in this city>"
+		]
+	},
+	{
+		"name": "Material Depot 8",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [8] [[Production] Materials] <in this city>"
+		]
+	},
+	{
+		"name": "Material Depot 9",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [9] [[Production] Materials] <in this city>"
+		]
+	},
+	{
+		"name": "Material Depot 10",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [10] [[Production] Materials] <in this city>"
+		]
+	},
+	{
+		"name": "Material Foundry 1",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [1] [[Production] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Material Foundry 2",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [2] [[Production] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Material Foundry 3",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [3] [[Production] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Material Foundry 4",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [4] [[Production] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Material Foundry 5",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [5] [[Production] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Material Foundry 6",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [6] [[Production] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Material Foundry 7",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [7] [[Production] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Material Foundry 8",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [8] [[Production] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Material Foundry 9",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [9] [[Production] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Material Foundry 10",
+		"cost": 1,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Provides [10] [[Production] Shipment] <in this city>"
+		]
+	},
+	{
+		"name": "Material Storage",
+		"cost": 1,
+		"uniques": [
+			"Never destroyed when the city is captured <hidden from users>",
+			"Will not be displayed in Civilopedia",
+			"Cannot be purchased",
+			"Unsellable",
+			"Automatically built in all cities where it is buildable <hidden from users>",
+			"[+3 Production] [in this city] <for every [[Production] Materials]> <during the [Ancient era]>",
+			"[+4 Production] [in this city] <for every [[Production] Materials]> <starting from the [Classical era]> <before the [Industrial era]>",
+			"[+5 Production] [in this city] <for every [[Production] Materials]> <during the [Industrial era]>",
+			"[+2 Production] [in this city] <for every [[Production] Materials]> <during the [Industrial era]> <after adopting [Iron Curtain]> <hidden from users>",
+			"[+6 Production] [in this city] <for every [[Production] Materials]> <starting from the [Modern era]>",
+			"[+3 Production] [in this city] <for every [[Production] Materials]> <starting from the [Modern era]> <after adopting [Iron Curtain]> <hidden from users>",
+
+			"[+6 Production] [in this city] <for every [[Production] Shipment]> <during the [Ancient era]>",
+			"[+8 Production] [in this city] <for every [[Production] Shipment]> <starting from the [Classical era]> <before the [Industrial era]>",
+			"[+10 Production] [in this city] <for every [[Production] Shipment]> <during the [Industrial era]>",
+			"[+5 Production] [in this city] <for every [[Production] Shipment]> <during the [Industrial era]> <after adopting [Iron Curtain]> <hidden from users>",
+			"[+12 Production] [in this city] <for every [[Production] Shipment]> <starting from the [Modern era]>",
+			"[+6 Production] [in this city] <for every [[Production] Shipment]> <starting from the [Modern era]> <after adopting [Iron Curtain]> <hidden from users>"
 		]
 	}
 ]
