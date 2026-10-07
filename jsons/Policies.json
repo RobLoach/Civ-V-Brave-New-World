@@ -1162,9 +1162,8 @@
 			{
 				"name": "Iron Curtain",
 				"uniques": [
-					"Gain a free [Courthouse] [in this city] <upon conquering a city>", // TODO: Does this work?
-					"[+50]% [Food] from Trade Routes <in [Your] cities>", // TODO: Does this work? Should be for Internal trade routes
-					"[+50]% [Production] from Trade Routes <in [Your] cities>", // TODO: Does this work? Should be for Internal trade routes
+					"[+100]% Production when constructing [Courthouse] buildings [in annexed cities]",
+					"[+4 Food, +8 Production] from each Trade Route",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
 					"[+30]% weight to this choice for AI decisions"
