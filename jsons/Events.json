@@ -139,7 +139,7 @@
 	// Ideology
 	{
 		"name": "Ideology",
-		"text": "[Ideology] Selection\n\nThe time has come to choose a new path for your people and your empire! Each Ideology ([Freedom], [Order], and [Autocracy]) conains a unique set of increasingly powerful Tenets that will form the foundation of your Ideology, and influence your diplomatic relationships for years to come.",
+		"text": "[Ideology] Selection\n\nThe time has come to choose a new path for your people and your empire! Each Ideology ([Freedom], [Order], and [Autocracy]) contains a unique set of increasingly powerful Tenets that will form the foundation of your Ideology, and influence your diplomatic relationships for years to come.",
 		"presentation": "Alert",
 		"choices": [
 			{
