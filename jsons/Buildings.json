@@ -1167,12 +1167,12 @@
 	{
         "name": "East India Company",
         "cost": 125,
-        "gold": 4,
+        "gold": 2,
         "isNationalWonder": true,
 		"requiredBuilding": "Market",
         "uniques": [
 			// Trade Routes with other players made to a city with an East India Company will generate an extra 4 Gold for the city owner.
-			"[+2 Gold] from each Trade Route <in this city>", // ... and the Trade Route owner gains an additional 2 Gold for the Trade Route.
+			"[+1 Gold] from each Trade Route", // ... and the Trade Route owner gains an additional 2 Gold for the Trade Route.
             "Cost increases by [30] per owned city"
 		],
         "requiredTech": "Guilds"
