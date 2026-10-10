@@ -188,12 +188,14 @@
 		"name": "Mughal Fort",
 		"replaces": "Castle",
 		"uniqueTo": "India",
+		"cost": 150, // Intentionally cheaper than the Castle's 160
 		"hurryCostModifier": 25,
 		"cityHealth" : 25,
 		"cityStrength" : 7,
 		"culture" : 2,
 		"uniques": [
-			"Provides [2] [Tourism] <after discovering [Flight]>"
+			"Provides [2] [Tourism] <after discovering [Flight]>",
+			"Destroyed when the city is captured"
 		],
 		"requiredBuilding": "Walls",
 		"requiredTech": "Chivalry"
