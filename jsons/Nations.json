@@ -391,6 +391,7 @@
 		"adjective": ["Japanese"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
+		"personality": "Oda Nobunaga",
 
 		"startIntroPart1": "Blessings upon you, noble Oda Nobunaga, ruler of Japan, the land of the Rising Sun! May you long walk among its flowering blossoms. The Japanese are an island people, proud and pious with a rich culture of arts and letters. Your civilization stretches back thousands of years, years of bloody warfare, expansion and isolation, great wealth and great poverty. In addition to their prowess on the field of battle, your people are also immensely industrious, and their technological innovation and mighty factories are the envy of lesser people everywhere.",
 		"startIntroPart2": "Legendary daimyo, will you grab the reins of destiny? Will you bring your family and people the honor and glory they deserve? Will you once again pick up the sword and march to triumph? Will you build a civilization that stands the test of time?",
