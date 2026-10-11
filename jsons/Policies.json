@@ -651,7 +651,8 @@
 			{
 				"name": "Cultural Exchange",
 				"uniques": [
-					"Comment [TODO: Increases the Tourism modifier for shared religion, trade routes, and open borders by 15% each]",
+					// TODO: Only the Open Borders part is implemented below.
+					"Comment [Increases the Tourism modifier for shared religion, trade routes, and open borders by 15% each]",
 					"[+15]% [Tourism] resource production", // TODO: +15% Tourism when you have a active Trade Routes
 					// TODO: Sharing a Religion should give +15% Tourism
 					"[+15]% [Tourism] resource production <when number of [Remaining [Open Borders] Civilizations] is more than [0]>",
