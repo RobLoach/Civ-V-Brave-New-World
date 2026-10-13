@@ -72,4 +72,4 @@ The language file now holds every missing key under a `# Requires translation!` 
 
 ## Ask about a rule
 
-Post the object name and the wiki link in the [Discord channel](https://discord.com/channels/586194543280390151/1055580642806603866) if you are unsure a change matches BNW. One message, under two minutes.
+Join the [Discord channel](https://discord.com/channels/586194543280390151/1055580642806603866) and ask questions there too!
