@@ -16,6 +16,7 @@
         "diplomacy": 6, // Diplobalance
         "loyal": 7, // Loyalty
         "expansion": 7, // Expansion
+        "denounceWillingness": 4, // Denounce Willingness
 		"priorities": {
 			"Tradition": 7, // Culture + Wonder
 			"Liberty": 7, // Expansion + TileImprovement
@@ -26,7 +27,9 @@
 			"Rationalism": 5, // Science Emphasis + Spaceship
 			"Freedom": 5, // Happiness Emphasis + Growth
 			"Autocracy": 9, // Boldness + Military Training Buildings Production
-			"Order": 7 // Production Emphasis
+			"Order": 7, // Production Emphasis
+			"Aesthetics": 6, // Culture + Great People
+			"Exploration": 4 // Naval + Naval Recon
 		}
     },
     {
@@ -46,6 +49,7 @@
         "diplomacy": 5, // Diplobalance
         "loyal": 5, // Loyalty
         "expansion": 6, // Expansion
+        "denounceWillingness": 6, // Denounce Willingness
 		"priorities": {
 			"Tradition": 5, // Culture Emphasis + Wonder Emphasis
 			"Liberty": 6, // Expansion + Tile Improvements
@@ -56,7 +60,9 @@
 			"Rationalism": 6, // Science Emphasis + Spaceship
 			"Freedom": 5, // Happiness Emphasis + Growth
 			"Autocracy": 7, // Boldness + Military Training Buildings Production
-			"Order": 9 // Production Emphasis
+			"Order": 9, // Production Emphasis
+			"Aesthetics": 5, // Culture Emphasis + Great People
+			"Exploration": 5 // Naval + Naval Recon
 		}
     },
     {
@@ -76,6 +82,7 @@
         "diplomacy": 5, // Diplobalance
         "loyal": 7, // Loyalty
         "expansion": 5, // Expansion
+        "denounceWillingness": 6, // Denounce Willingness
 		"priorities": {
 			"Tradition": 6, // Culture Emphasis + Wonder Emphasis
 			"Liberty": 6, // Expansion + Tile Improvements
@@ -86,7 +93,9 @@
 			"Rationalism": 6, // Science Emphasis + Spaceship
 			"Freedom": 8, // Happiness Emphasis + Growth
 			"Autocracy": 4, // Boldness + Military Training Buildings Production
-			"Order": 6 // Production Emphasis
+			"Order": 6, // Production Emphasis
+			"Aesthetics": 8, // Culture Emphasis + Great People
+			"Exploration": 6 // Naval + Naval Recon
 		}
     },
 	{
@@ -106,6 +115,7 @@
 		"diplomacy": 4, // Diplobalance
 		"loyal": 8, // Loyalty
 		"expansion": 11, // Expansion
+		"denounceWillingness": 8, // Denounce Willingness
 		"priorities": {
 			"Tradition": 3, // Culture Emphasis + Wonder Emphasis
 			"Liberty": 8, // Expansion + Tile Improvements
@@ -116,7 +126,9 @@
 			"Rationalism": 3, // Science Emphasis + Spaceship
 			"Freedom": 4, // Happiness Emphasis + Growth
 			"Autocracy": 9, // Boldness + Military Training Buildings Production
-			"Order": 7 // Production Emphasis
+			"Order": 7, // Production Emphasis
+			"Aesthetics": 2, // Culture Emphasis + Great People
+			"Exploration": 2 // Naval + Naval Recon
 		}
 	},
 	{
@@ -136,6 +148,7 @@
 		"diplomacy": 5, // Diplobalance
 		"loyal": 5, // Loyalty
 		"expansion": 7, // Expansion
+		"denounceWillingness": 7, // Denounce Willingness
 		"priorities": {
 			"Tradition": 4, // Culture Emphasis + Wonder Emphasis
 			"Liberty": 7, // Expansion + Tile Improvements
@@ -146,7 +159,9 @@
 			"Rationalism": 5, // Science Emphasis + Spaceship
 			"Freedom": 6, // Happiness Emphasis + Growth
 			"Autocracy": 4, // Boldness + Military Training Buildings Production
-			"Order": 5 // Production Emphasis
+			"Order": 5, // Production Emphasis
+			"Aesthetics": 5, // Culture Emphasis + Great People
+			"Exploration": 9 // Naval + Naval Recon
 		}
 	},
 	{
@@ -166,6 +181,7 @@
 		"faith": 6, // Religion Emphasis
 		"commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
 		"declareWar": 5, // Likeliness to Declare War
+		"denounceWillingness": 5, // Denounce Willingness
 		"priorities": {
 			"Tradition": 5, // Culture Emphasis + Wonder Emphasis
 			"Liberty": 6, // Expansion + Tile Improvements
@@ -176,7 +192,9 @@
 			"Rationalism": 5, // Science Emphasis + Spaceship
 			"Freedom": 8, // Happiness Emphasis + Growth
 			"Autocracy": 5, // Boldness + Offensive Unit Production
-			"Order": 5 // Production Emphasis + Military Training Buildings Production
+			"Order": 5, // Production Emphasis + Military Training Buildings Production
+			"Aesthetics": 7, // Culture Emphasis + Great People
+			"Exploration": 5 // Naval + Naval Recon
 		}
 	},
 	{
@@ -196,6 +214,7 @@
 		"faith": 7, // Religion Emphasis
 		"commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
 		"declareWar": 5, // Likeliness to Declare War
+		"denounceWillingness": 6, // Denounce Willingness
 		"priorities": {
 			"Tradition": 6, // Culture Emphasis + Wonder Emphasis
 			"Liberty": 8, // Expansion + Tile Improvements
@@ -206,7 +225,9 @@
 			"Rationalism": 5, // Science Emphasis + Spaceship
 			"Freedom": 8, // Happiness Emphasis + Growth
 			"Autocracy": 5, // Boldness + Offensive Unit Production
-			"Order": 5 // Production Emphasis + Military Training Buildings Production
+			"Order": 5, // Production Emphasis + Military Training Buildings Production
+			"Aesthetics": 6, // Culture Emphasis + Great People
+			"Exploration": 8 // Naval + Naval Recon
 		}
 	},
 	{
@@ -226,6 +247,7 @@
 		"faith": 7, // Religion Emphasis
 		"commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
 		"declareWar": 3, // Likeliness to Declare War,
+		"denounceWillingness": 6, // Denounce Willingness
 		"priorities": {
 			"Tradition": 10, // Culture + Wonder
 			"Liberty": 2, // Expansion + TileImprovement
@@ -236,7 +258,9 @@
 			"Rationalism": 5, // Science + Spaceship
 			"Freedom": 7, // Happiness + Growth
 			"Autocracy": 4, // Boldness + Military training
-			"Order": 5 // Defensive + Production
+			"Order": 5, // Defensive + Production
+			"Aesthetics": 6, // Culture + Great People
+			"Exploration": 8 // Naval + Naval Recon
        }
 	},
 	{
@@ -256,6 +280,7 @@
 		"faith": 5, // Religion Emphasis
 		"commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
 		"declareWar": 3, // Likeliness to Declare War
+		"denounceWillingness": 5, // Denounce Willingness
 		"priorities": {
 			"Tradition": 5, // Culture + Wonder
 			"Liberty": 7, // Expansion + TileImprovement
@@ -266,7 +291,9 @@
 			"Rationalism": 5, // Science + Spaceship
 			"Freedom": 9, // Happiness + Growth
 			"Autocracy": 4, // Boldness + Military training
-			"Order": 6 // Defensive + Production
+			"Order": 6, // Defensive + Production
+			"Aesthetics": 5, // Culture + Great People
+			"Exploration": 2 // Naval + Naval Recon
        }
 	},
 	{
@@ -286,6 +313,7 @@
 		"faith": 7, // Religion Emphasis
 		"commerce": 5, // Land Trade Route Emphasis + Sea Trade Route Emphasis / 2
 		"declareWar": 3, // Likeliness to Declare War
+		"denounceWillingness": 5, // Denounce Willingness
 		"priorities": {
 			"Tradition": 6, // Culture Emphasis + Wonder Emphasis
 			"Liberty": 4, // Expansion + Tile Improvements
@@ -296,7 +324,9 @@
 			"Rationalism": 4, // Science Emphasis + Spaceship
 			"Freedom": 9, // Happiness Emphasis + Growth
 			"Autocracy": 4, // Boldness + Offensive Unit Production
-			"Order": 5 // Production Emphasis + Military Training Buildings Production
+			"Order": 5, // Production Emphasis + Military Training Buildings Production
+			"Aesthetics": 7, // Culture Emphasis + Great People
+			"Exploration": 2 // Naval + Naval Recon
 		}
 	}
 ]
