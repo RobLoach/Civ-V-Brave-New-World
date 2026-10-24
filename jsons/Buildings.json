@@ -379,13 +379,13 @@
         "name": "Hanse",
         "replaces": "Bank",
         "uniqueTo": "Germany",
-        "gold": 2,
+        "gold": 4,
         "percentStatBonus": {"gold": 25},
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 15,
         "uniques": [
 			"[+5]% [Production] from City-States", // TODO: +5% Production per City-State trade route in the empire
-			"[+1 Gold] from each Trade Route" // TODO: +1 Gold per incoming trade route, +1 for the foreign owner
+			// TODO: +1 Gold per incoming trade route, +1 for the foreign owner
 		],
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
