@@ -721,7 +721,8 @@
 				"uniques": [
 					"[+25]% Strength <for [{Wounded} {Military}] units> <when attacking>",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
-					"[-10]% weight to this choice for AI decisions"
+					"[-10]% weight to this choice for AI decisions",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 1
@@ -731,7 +732,8 @@
 				"uniques": [
 					"[Gold] cost of purchasing [Military] units [-33]%",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
-					"[+10]% weight to this choice for AI decisions"
+					"[+10]% weight to this choice for AI decisions",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 3
@@ -742,7 +744,8 @@
 					"Militaristic City-States grant units [2] times as fast when you are at war with a common nation",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
 					"[-10]% weight to this choice for AI decisions",
-					"[-90]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [3]>"
+					"[-90]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [3]>",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 5
@@ -755,7 +758,8 @@
 					"Instantly provides [250] [Tourism] <upon gaining a [Great Musician] unit>",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
 					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
-					"[+10]% weight to this choice for AI decisions"
+					"[+10]% weight to this choice for AI decisions",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 7
@@ -766,7 +770,8 @@
 					// TODO: Spies steal technologies twice as fast.
 					"[+20]% spy effectiveness [in enemy cities]",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
-					"[-100]% weight to this choice for AI decisions <when espionage is disabled>"
+					"[-100]% weight to this choice for AI decisions <when espionage is disabled>",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 9
@@ -778,7 +783,8 @@
 					"[+1 Happiness] from all [Arsenal] buildings",
 					"[+1 Happiness] from all [Military Base] buildings",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
-					"[+10]% weight to this choice for AI decisions"
+					"[+10]% weight to this choice for AI decisions",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 11
@@ -788,7 +794,8 @@
 				"uniques": [
 					"[+1 Happiness] from all [National Wonder] buildings",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
-					"[+10]% weight to this choice for AI decisions"
+					"[+10]% weight to this choice for AI decisions",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 13
@@ -900,7 +907,8 @@
 					"[+50]% [Tourism] resource production <when at war> <when number of [Remaining [Friendly] Civilizations] is more than [0]>",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
-					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
+	                "Ideology: Level 3 Tenet"
 				],
 				"row": 3,
 				"column": 3
@@ -914,7 +922,8 @@
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
 					"[-30]% weight to this choice for AI decisions",
-					"[-70]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>"
+					"[-70]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>",
+					"Ideology: Level 3 Tenet"
 				],
 				"row": 3,
 				"column": 5
@@ -925,7 +934,8 @@
 					"[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
-					"[+30]% weight to this choice for AI decisions"
+					"[+30]% weight to this choice for AI decisions",
+					"Ideology: Level 3 Tenet"
 				],
 				"row": 3,
 				"column": 7
@@ -986,7 +996,8 @@
 				"uniques": [
 					"[+25]% Great Person generation [in your cities]",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
-					"[+10]% weight to this choice for AI decisions"
+					"[+10]% weight to this choice for AI decisions",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 1
@@ -997,7 +1008,8 @@
 					"[+20]% Production when constructing [Monument] buildings [in your cities]",
 					"[+1 Happiness] from all [Monument] buildings",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
-					"[+10]% weight to this choice for AI decisions"
+					"[+10]% weight to this choice for AI decisions",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 3
@@ -1006,7 +1018,8 @@
 				"name": "Skyscrapers",
 				"uniques": [
 					"[Gold] cost of purchasing [Building] buildings [-33]%",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 5
@@ -1016,7 +1029,8 @@
 				"uniques": [
 					"[+15]% Strength <when attacking> <when fighting in [Friendly Land] tiles>",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
-					"[+10]% weight to this choice for AI decisions"
+					"[+10]% weight to this choice for AI decisions",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 7
@@ -1028,7 +1042,8 @@
 					"[-50]% enemy spy effectiveness [in your cities]",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
 					"[-20]% weight to this choice for AI decisions",
-					"[-80]% weight to this choice for AI decisions <when espionage is disabled>"
+					"[-80]% weight to this choice for AI decisions <when espionage is disabled>",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 9
@@ -1042,7 +1057,8 @@
 					"[+1 Happiness] from all [Nuclear Plant] buildings",
 					"[+1 Happiness] from all [Hydro Plant] buildings",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
-					"[+10]% weight to this choice for AI decisions"
+					"[+10]% weight to this choice for AI decisions",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 11
@@ -1051,7 +1067,8 @@
 				"name": "Universal Healthcare (Order)",
 				"uniques": [
 					"[+1 Happiness] from all [National Wonder] buildings",
-					"Instantly provides [1] [Level 1 Policy] <hidden from users>"
+					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 13
@@ -1155,7 +1172,8 @@
 					"[+34]% [Tourism] resource production <when above [0] [Happiness]>",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
-					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>"
+					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
+			        "Ideology: Level 3 Tenet"
 				],
 				"row": 3,
 				"column": 3
@@ -1167,7 +1185,8 @@
 					"[+4 Food, +8 Production] from each Trade Route",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
-					"[+30]% weight to this choice for AI decisions"
+					"[+30]% weight to this choice for AI decisions",
+					"Ideology: Level 3 Tenet"
 				],
 				"row": 3,
 				"column": 5
@@ -1182,7 +1201,8 @@
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
 					"[-100]% weight to this choice for AI decisions <when [Scientific] Victory is disabled>",
-					"[+30]% weight to this choice for AI decisions"
+					"[+30]% weight to this choice for AI decisions",
+					"Ideology: Level 3 Tenet"
 				],
 				"row": 3,
 				"column": 7
@@ -1241,7 +1261,8 @@
 				"uniques": [
 					"[+25]% Great Person generation [in your cities]",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
-					"[+10]% weight to this choice for AI decisions"
+					"[+10]% weight to this choice for AI decisions",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 1
@@ -1251,7 +1272,8 @@
 				"uniques": [
 					"[+1 Culture] from all [Great Work] buildings",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
-					"[+10]% weight to this choice for AI decisions"
+					"[+10]% weight to this choice for AI decisions",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 3
@@ -1261,7 +1283,8 @@
 				"uniques": [
 					"[-50]% Food consumption by [Specialists] [in your cities]",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
-					"[+10]% weight to this choice for AI decisions"
+					"[+10]% weight to this choice for AI decisions",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 5
@@ -1274,7 +1297,8 @@
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
 					"[-20]% weight to this choice for AI decisions",
 					"[-40]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>",
-					"[-40]% weight to this choice for AI decisions <when espionage is disabled>"
+					"[-40]% weight to this choice for AI decisions <when espionage is disabled>",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 7
@@ -1286,7 +1310,8 @@
 					"[+1 Happiness] from every [Bank]",
 					"[+1 Happiness] from every [Stock Exchange]",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
-					"[+10]% weight to this choice for AI decisions"
+					"[+10]% weight to this choice for AI decisions",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 9
@@ -1296,7 +1321,8 @@
 				"uniques": [
 					"[+1 Gold] from each Trade Route", // TODO: +3 Gold from each Trade Route with other Freedom Civilizations.
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
-					"[-10]% weight to this choice for AI decisions"
+					"[-10]% weight to this choice for AI decisions",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 11
@@ -1306,7 +1332,8 @@
 				"uniques": [
 					"[+1 Happiness] from all [National Wonder] buildings",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
-					"[+10]% weight to this choice for AI decisions"
+					"[+10]% weight to this choice for AI decisions",
+					"Ideology: Level 1 Tenet"
 				],
 				"row": 1,
 				"column": 13
@@ -1412,7 +1439,8 @@
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
 					"[-100]% weight to this choice for AI decisions <when [Cultural] Victory is disabled>",
-					"[+30]% weight to this choice for AI decisions"
+					"[+30]% weight to this choice for AI decisions",
+					"Ideology: Level 3 Tenet"
 				],
 				"row": 3,
 				"column": 3
@@ -1424,7 +1452,8 @@
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
 					"[-90]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [2]>",
-					"[-10]% weight to this choice for AI decisions"
+					"[-10]% weight to this choice for AI decisions",
+					"Ideology: Level 3 Tenet"
 				],
 				"row": 3,
 				"column": 5
@@ -1436,7 +1465,8 @@
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
 					"[-100]% weight to this choice for AI decisions <when [Scientific] Victory is disabled>",
-					"[+30]% weight to this choice for AI decisions"
+					"[+30]% weight to this choice for AI decisions",
+					"Ideology: Level 3 Tenet"
 				],
 				"row": 3,
 				"column": 7
