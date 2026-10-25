@@ -34,6 +34,8 @@
 		"Cannot be used as permanent audiovisual mod",
 
 		// Suppress Warnings
-		"Suppress warning [(Tutorial) Civ V Brave New World's civilopediaText line 1: extraImage not found as either atlas texture or in ExtraImages folder]"
+		"Suppress warning [(Tutorial) Civ V Brave New World's civilopediaText line 1: extraImage not found as either atlas texture or in ExtraImages folder]",
+		"Suppress warning [*have multiple TechColumn entries*]", // Extension mods add techs to existing columns
+		"Suppress warning [*Tech columns should be ordered*]"
 	]
 }

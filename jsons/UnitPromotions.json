@@ -135,14 +135,14 @@
 	{
 		"name": "Paradrop",
 		"uniques": [
-			"Comment [May Paradrop to [Land] tiles up to [9] tiles away <in [{Friendly} {Land}] tiles>]",
+			"Comment [May Paradrop to [Land] tiles up to [9] tiles away] <in [{Friendly} {Land}] tiles>",
 			"May Paradrop to [Land] tiles up to [9] tiles away <in [{Friendly} {Land}] tiles> <for units without [Skyranger]> <hidden from users>"
 		]
 	},
 	{
 		"name": "Skyranger",
 		"uniques": [
-			"Comment [May Paradrop to [Land] tiles up to [40] tiles away <in [{Friendly} {Land}] tiles>]",
+			"Comment [May Paradrop to [Land] tiles up to [40] tiles away] <in [{Friendly} {Land}] tiles>",
 			"May Paradrop to [Land] tiles up to [40] tiles away <in [{Friendly} {Land}] tiles> <for units without [Paradrop]> <hidden from users>",
 			"May Paradrop to [Land] tiles up to [49] tiles away <in [{Friendly} {Land}] tiles> <for units with [Paradrop]> <hidden from users>"
 		]
