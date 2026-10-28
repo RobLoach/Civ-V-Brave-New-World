@@ -1005,7 +1005,7 @@
 			{
 				"name": "Socialist Realism",
 				"uniques": [
-					"[+20]% Production when constructing [Monument] buildings [in your cities]",
+					"[+50]% Production when constructing [Monument] buildings [in your cities]",
 					"[+1 Happiness] from all [Monument] buildings",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
 					"[+10]% weight to this choice for AI decisions",
@@ -1017,7 +1017,7 @@
 			{
 				"name": "Skyscrapers",
 				"uniques": [
-					"[Gold] cost of purchasing [Building] buildings [-33]%",
+					"[Gold] cost of purchasing [All] buildings [-33]%",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
 					"Ideology: Level 1 Tenet"
 				],
