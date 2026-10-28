@@ -1006,7 +1006,7 @@
 				"name": "Socialist Realism",
 				"uniques": [
 					"[+100]% Production when constructing [Monument] buildings [in your cities]",
-					"[+1 Happiness] from all [Monument] buildings",
+					"[+2 Happiness] from all [Monument] buildings",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
 					"[+10]% weight to this choice for AI decisions",
 					"Ideology: Level 1 Tenet"
@@ -1181,7 +1181,7 @@
 			{
 				"name": "Iron Curtain",
 				"uniques": [
-					"[+100]% Production when constructing [Courthouse] buildings [in annexed cities]",
+					"[+200]% Production when constructing [Courthouse] buildings [in annexed cities]",
 					"[+4 Food, +8 Production] from each Trade Route",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
