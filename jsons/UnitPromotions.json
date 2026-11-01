@@ -162,8 +162,8 @@
 		"name": "Lightning Warfare",
 		"uniques": [
 			"Ignores Zone of Control",
-			"[15]% Strength <when attacking>",
-			"[1] Movement"
+			"[+15]% Strength <when attacking>",
+			"[+1] Movement"
 		],
 		"civilopediaText": [
 			{ "text": "Requires [Lightning Warfare]", "link": "Policy/Lightning Warfare" }
