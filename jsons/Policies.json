@@ -768,7 +768,7 @@
 				"name": "Industrial Espionage",
 				"uniques": [
 					// TODO: Spies steal technologies twice as fast.
-					"[+20]% spy effectiveness [in enemy cities]",
+					"[+50]% spy effectiveness [in enemy cities]",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
 					"[-100]% weight to this choice for AI decisions <when espionage is disabled>",
 					"Ideology: Level 1 Tenet"
@@ -821,7 +821,7 @@
 			{
 				"name": "Lightning Warfare",
 				"uniques": [
-					"[3] Movement <for [Great General] units>",
+					"[+3] Movement <for [Great General] units>",
 					"[Armored] units gain the [Lightning Warfare] promotion",
 					"All newly-trained [Armored] units [in your cities] receive the [Lightning Warfare] promotion <hidden from users>",
 					"Instantly provides [1] [Level 2 Policy] <hidden from users>",
