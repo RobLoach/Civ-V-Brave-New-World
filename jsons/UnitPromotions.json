@@ -189,7 +189,7 @@
 		"name": "[Harbor] ability",
 		"uniques": [
 			"[+5]% Gold from Great Merchant trade missions", // TODO: Additional 1 Gold when connecting to another civilization
-			"[2] Movement", // 50% increased range?
+			"[+2] Movement", // 50% increased range?
 			// Influence bonus is not a thing, but it is gameplay balance
 			"Comment [Double influence when conducting a [Trade Route] in City-States]"
 		],
