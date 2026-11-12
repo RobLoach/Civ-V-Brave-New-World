@@ -2,6 +2,8 @@
 
 [Brave New World](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World) expansion for [Unciv](https://github.com/yairm210/Unciv).
 
+![Civ V Brave New World Logo](ExtraImages/preview.png)
+
 ## Features
 
 - [x] [Nations](https://civilization.fandom.com/wiki/Civilization_V:_Brave_New_World#Civilizations_and_leaders)
@@ -25,6 +27,15 @@
 
 1. Start a new game with Base Ruleset *Civ V - Gods & Kings*
 2. Enable the *Civ V Brave New World* extension mod
+
+## Recommended Mods
+
+The following mods integrate well with Civ V Brave New World:
+
+- [Civ V Icons](https://github.com/RobLoach/Civ-V-Icons)
+- [Civ V - Screens](https://github.com/RobLoach/Civ-V---Screens)
+- [Civ V - Voices](https://github.com/RobLoach/Civ-V---Voices)
+- [Civ V - Era Popups](https://github.com/RobLoach/Civ-V---Era-Popups)
 
 ## Development
 
