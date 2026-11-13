@@ -916,9 +916,8 @@
 			{
 				"name": "Gunboat Diplomacy",
 				"uniques": [
-					// TODO: Gain 6 more Influence per turn with City-States you could demand tribute from
-					"Influence of all other civilizations with all city-states degrades [+20]% faster",
-					"[-20]% City-State Influence degradation",
+					"Gain [6] Influence per turn with City-States you could demand tribute from",
+					"Units are [+50]% more effective at intimidating City-States",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>",
 					"[-30]% weight to this choice for AI decisions",
