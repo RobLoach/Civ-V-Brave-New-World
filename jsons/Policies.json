@@ -1037,8 +1037,7 @@
 			{
 				"name": "Double Agents",
 				"uniques": [
-					// TODO: Spies have double the chance to capture an enemy spy attempting to steal a technology.
-					"[-50]% enemy spy effectiveness [in your cities]",
+					"[100]% counterintelligence effectiveness [in all cities]",
 					"Instantly provides [1] [Level 1 Policy] <hidden from users>",
 					"[-20]% weight to this choice for AI decisions",
 					"[-80]% weight to this choice for AI decisions <when espionage is disabled>",
